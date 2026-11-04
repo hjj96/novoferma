@@ -1,0 +1,422 @@
+[
+  {
+    "bodyWeight": "500",
+    "brokenImages": [],
+    "cta": {
+      "bottom": 544.34375,
+      "height": 56,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 488.34375
+    },
+    "documentWidth": 320,
+    "fieldsColumns": "288px",
+    "headings": [
+      {
+        "scroll": 288,
+        "size": "44.16px",
+        "text": "ДЕЛО\nСО ВКУСОМ.",
+        "tracking": "1.104px",
+        "weight": "850",
+        "width": 288
+      },
+      {
+        "scroll": 288,
+        "size": "37px",
+        "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+        "tracking": "0.925px",
+        "weight": "850",
+        "width": 288
+      },
+      {
+        "scroll": 288,
+        "size": "37px",
+        "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+        "tracking": "0.925px",
+        "weight": "850",
+        "width": 288
+      },
+      {
+        "scroll": 288,
+        "size": "46px",
+        "text": "ДАВАЙТЕ\nОБСУДИМ.",
+        "tracking": "1.15px",
+        "weight": "850",
+        "width": 288
+      }
+    ],
+    "host": {
+      "bottom": 468.34375,
+      "height": 170,
+      "right": 304,
+      "width": 126,
+      "x": 178,
+      "y": 298.34375
+    },
+    "labels": "650",
+    "outside": [],
+    "overlap": false,
+    "width": 320
+  },
+  {
+    "bodyWeight": "500",
+    "brokenImages": [],
+    "cta": {
+      "bottom": 569.828125,
+      "height": 56,
+      "right": 340,
+      "width": 320,
+      "x": 20,
+      "y": 513.828125
+    },
+    "documentWidth": 360,
+    "fieldsColumns": "320px",
+    "headings": [
+      {
+        "scroll": 320,
+        "size": "49.68px",
+        "text": "ДЕЛО\nСО ВКУСОМ.",
+        "tracking": "1.242px",
+        "weight": "850",
+        "width": 320
+      },
+      {
+        "scroll": 320,
+        "size": "38.88px",
+        "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+        "tracking": "0.972px",
+        "weight": "850",
+        "width": 320
+      },
+      {
+        "scroll": 320,
+        "size": "38.88px",
+        "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+        "tracking": "0.972px",
+        "weight": "850",
+        "width": 320
+      },
+      {
+        "scroll": 320,
+        "size": "46.08px",
+        "text": "ДАВАЙТЕ\nОБСУДИМ.",
+        "tracking": "1.152px",
+        "weight": "850",
+        "width": 320
+      }
+    ],
+    "host": {
+      "bottom": 493.828125,
+      "height": 180,
+      "right": 340,
+      "width": 138.6015625,
+      "x": 201.3984375,
+      "y": 313.828125
+    },
+    "labels": "650",
+    "outside": [],
+    "overlap": false,
+    "width": 360
+  },
+  {
+    "bodyWeight": "500",
+    "brokenImages": [],
+    "cta": {
+      "bottom": 578.4375,
+      "height": 56,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 522.4375
+    },
+    "documentWidth": 390,
+    "fieldsColumns": "350px",
+    "headings": [
+      {
+        "scroll": 350,
+        "size": "53.82px",
+        "text": "ДЕЛО\nСО ВКУСОМ.",
+        "tracking": "1.3455px",
+        "weight": "850",
+        "width": 350
+      },
+      {
+        "scroll": 350,
+        "size": "42.12px",
+        "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+        "tracking": "1.053px",
+        "weight": "850",
+        "width": 350
+      },
+      {
+        "scroll": 350,
+        "size": "42.12px",
+        "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+        "tracking": "1.053px",
+        "weight": "850",
+        "width": 350
+      },
+      {
+        "scroll": 350,
+        "size": "49.92px",
+        "text": "ДАВАЙТЕ\nОБСУДИМ.",
+        "tracking": "1.248px",
+        "weight": "850",
+        "width": 350
+      }
+    ],
+    "host": {
+      "bottom": 502.4375,
+      "height": 180,
+      "right": 370,
+      "width": 152.1015625,
+      "x": 217.8984375,
+      "y": 322.4375
+    },
+    "labels": "650",
+    "outside": [],
+    "overlap": false,
+    "width": 390
+  },
+  {
+    "bodyWeight": "500",
+    "brokenImages": [],
+    "cta": {
+      "bottom": 662.703125,
+      "height": 56,
+      "right": 579.9921875,
+      "width": 559.9921875,
+      "x": 20,
+      "y": 606.703125
+    },
+    "documentWidth": 600,
+    "fieldsColumns": "560px",
+    "headings": [
+      {
+        "scroll": 560,
+        "size": "82.8px",
+        "text": "ДЕЛО\nСО ВКУСОМ.",
+        "tracking": "2.07px",
+        "weight": "850",
+        "width": 560
+      },
+      {
+        "scroll": 560,
+        "size": "58px",
+        "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+        "tracking": "1.45px",
+        "weight": "850",
+        "width": 560
+      },
+      {
+        "scroll": 560,
+        "size": "58px",
+        "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+        "tracking": "1.45px",
+        "weight": "850",
+        "width": 560
+      },
+      {
+        "scroll": 560,
+        "size": "64px",
+        "text": "ДАВАЙТЕ\nОБСУДИМ.",
+        "tracking": "1.6px",
+        "weight": "850",
+        "width": 560
+      }
+    ],
+    "host": {
+      "bottom": 586.703125,
+      "height": 204,
+      "right": 579.9921875,
+      "width": 246.59375,
+      "x": 333.3984375,
+      "y": 382.703125
+    },
+    "labels": "650",
+    "outside": [],
+    "overlap": false,
+    "width": 600
+  },
+  {
+    "bodyWeight": "500",
+    "brokenImages": [],
+    "cta": {
+      "bottom": 554.453125,
+      "height": 56,
+      "right": 240.6953125,
+      "width": 208.6953125,
+      "x": 32,
+      "y": 498.453125
+    },
+    "documentWidth": 768,
+    "fieldsColumns": "346px 346px",
+    "headings": [
+      {
+        "scroll": 371,
+        "size": "64.9086px",
+        "text": "ДЕЛО\nСО ВКУСОМ.",
+        "tracking": "1.62271px",
+        "weight": "850",
+        "width": 371
+      },
+      {
+        "scroll": 332,
+        "size": "38px",
+        "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+        "tracking": "0.95px",
+        "weight": "850",
+        "width": 332
+      },
+      {
+        "scroll": 332,
+        "size": "38px",
+        "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+        "tracking": "0.95px",
+        "weight": "850",
+        "width": 332
+      },
+      {
+        "scroll": 340,
+        "size": "48px",
+        "text": "ДАВАЙТЕ\nОБСУДИМ.",
+        "tracking": "1.2px",
+        "weight": "850",
+        "width": 340
+      }
+    ],
+    "host": {
+      "bottom": 586,
+      "height": 400,
+      "right": 714.78125,
+      "width": 266.6640625,
+      "x": 448.1171875,
+      "y": 186
+    },
+    "labels": "650",
+    "outside": [],
+    "overlap": false,
+    "width": 768
+  },
+  {
+    "bodyWeight": "500",
+    "brokenImages": [],
+    "cta": {
+      "bottom": 580.75,
+      "height": 56,
+      "right": 240.6953125,
+      "width": 208.6953125,
+      "x": 32,
+      "y": 524.75
+    },
+    "documentWidth": 1024,
+    "fieldsColumns": "234.953px 234.953px",
+    "headings": [
+      {
+        "scroll": 511,
+        "size": "89.343px",
+        "text": "ДЕЛО\nСО ВКУСОМ.",
+        "tracking": "2.23357px",
+        "weight": "850",
+        "width": 511
+      },
+      {
+        "scroll": 460,
+        "size": "47.104px",
+        "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+        "tracking": "1.1776px",
+        "weight": "850",
+        "width": 460
+      },
+      {
+        "scroll": 460,
+        "size": "47.104px",
+        "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+        "tracking": "1.1776px",
+        "weight": "850",
+        "width": 460
+      },
+      {
+        "scroll": 438,
+        "size": "53.248px",
+        "text": "ДАВАЙТЕ\nОБСУДИМ.",
+        "tracking": "1.3312px",
+        "weight": "850",
+        "width": 438
+      }
+    ],
+    "host": {
+      "bottom": 587.375,
+      "height": 400,
+      "right": 912.59375,
+      "width": 266.6640625,
+      "x": 645.9296875,
+      "y": 187.375
+    },
+    "labels": "650",
+    "outside": [],
+    "overlap": false,
+    "width": 1024
+  },
+  {
+    "bodyWeight": "500",
+    "brokenImages": [],
+    "cta": {
+      "bottom": 683.25,
+      "height": 56,
+      "right": 319.7265625,
+      "width": 247.7265625,
+      "x": 72,
+      "y": 627.25
+    },
+    "documentWidth": 1440,
+    "fieldsColumns": "313.664px 313.672px",
+    "headings": [
+      {
+        "scroll": 681,
+        "size": "119.126px",
+        "text": "ДЕЛО\nСО ВКУСОМ.",
+        "tracking": "2.97814px",
+        "weight": "850",
+        "width": 681
+      },
+      {
+        "scroll": 616,
+        "size": "59px",
+        "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+        "tracking": "1.475px",
+        "weight": "850",
+        "width": 616
+      },
+      {
+        "scroll": 616,
+        "size": "59px",
+        "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+        "tracking": "1.475px",
+        "weight": "850",
+        "width": 616
+      },
+      {
+        "scroll": 587,
+        "size": "73.44px",
+        "text": "ДАВАЙТЕ\nОБСУДИМ.",
+        "tracking": "1.836px",
+        "weight": "850",
+        "width": 587
+      }
+    ],
+    "host": {
+      "bottom": 698,
+      "height": 490,
+      "right": 1247.6953125,
+      "width": 326.6640625,
+      "x": 921.03125,
+      "y": 208
+    },
+    "labels": "650",
+    "outside": [],
+    "overlap": false,
+    "width": 1440
+  }
+]

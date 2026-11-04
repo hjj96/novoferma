@@ -8,11 +8,11 @@
 .partners-business{background:var(--partner-orange)}
 .partners-business-inner{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:48px;min-height:540px;padding-block:40px}
 .partners-business-copy{position:relative;z-index:1;min-width:0;padding-block:8px;container-type:inline-size}
-.partners-business-copy .eyebrow{margin-bottom:28px;color:var(--brown)}
+.partners-business-copy .eyebrow{margin-bottom:28px;color:var(--ink)}
 .page-partners .partners-business h1{font-size:clamp(60px,17.5cqi,120px);color:var(--cream);line-height:1.02;letter-spacing:.025em}
 .partners-business h1>span{display:block;white-space:nowrap}
 .partners-business h1>span+span{margin-top:2px}
-.partners-business-description{font-size:21px;font-weight:550;line-height:1.5;color:var(--brown);margin-top:24px}
+.partners-business-description{font-size:21px;font-weight:550;line-height:1.5;color:var(--ink);margin-top:24px}
 .partners-primary{background:var(--cream);color:var(--brown);min-height:56px;padding-inline:26px;gap:42px;font-size:15px;font-weight:700;margin-top:28px;box-shadow:none}
 .partners-primary:hover{background:var(--brown);color:var(--cream);box-shadow:none}
 .partners-primary .ui-icon{filter:none}
@@ -66,7 +66,7 @@
 .partners-format-option:hover span{background:#fff5e312}
 .partners-format-option input:checked+span{background:var(--cream);border-color:var(--cream);color:var(--brown)}
 .partners-format-option input:focus-visible+span{outline:2px solid var(--cream);outline-offset:4px}
-.partners-format-help{margin-top:10px;min-height:40px;font-size:13px;line-height:1.5;color:#e1ccb1}
+.partners-format-help{margin-top:10px;font-size:13px;line-height:1.5;color:#e1ccb1}
 .partners-form-fields{display:grid;grid-template-columns:1fr 1fr;gap:20px 18px}
 .partners-form-field{display:flex;flex-direction:column;gap:8px;min-width:0}
 .partners-form-field-wide{grid-column:1/-1}

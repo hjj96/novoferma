@@ -1,0 +1,23 @@
+{
+  "stmCTA": {
+    "selected": "stm",
+    "hintUpdated": true,
+    "contactTop": 45.06,
+    "formTop": 427.58,
+    "viewport": 390
+  },
+  "emptyRequired": {
+    "companyInvalid": true,
+    "contactInvalid": true,
+    "feedbackHidden": true
+  },
+  "details": {
+    "documentWidth": 320,
+    "open": true,
+    "rows": 5,
+    "tableWidth": 288,
+    "viewport": 320
+  },
+  "mailOpened": false,
+  "clipboardWritten": false
+}
