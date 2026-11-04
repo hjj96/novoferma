@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/Users/andrey/Desktop/сайт нф/scripts/build_site.py",
+    "sha256": "45001a45014322e0ac55cbbaede92d47a75542337ca608ffcdbb87247b408ca6",
+    "bytes": 35929,
+    "observed_at": "2026-10-16T11:48:38.478688+00:00"
+  },
+  {
+    "path": "/Users/andrey/Desktop/сайт нф/scripts/check_concept.cjs",
+    "sha256": "6a09ef2107ea61bf46794fb5c0e3848064829301970ba2d230ab1761ead9e1db",
+    "bytes": 2752,
+    "observed_at": "2026-10-16T11:48:38.479238+00:00"
+  }
+]

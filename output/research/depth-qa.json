@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-24",
+  "browser": "Codex in-app browser (Chromium)",
+  "pages": [
+    "index.html",
+    "catalogue.html",
+    "about.html",
+    "where-to-buy.html",
+    "partners.html",
+    "contacts.html",
+    "product-kotlety-kurinye.html",
+    "product-bitochki-kurinye-s-ovoshchami.html",
+    "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "product-kurinyj-popkorn.html",
+    "product-naggetsy-kurinye.html",
+    "product-naggetsy-kurinye-s-syrom.html",
+    "product-naggetsy-dinozavry.html",
+    "product-naggetsy-ostrye.html",
+    "product-naggetsy-s-indeykoy-fitnes.html",
+    "product-stripsy.html",
+    "product-kotlety-po-domashnemu.html",
+    "product-kotlety-pikantnye.html",
+    "product-kotlety-po-italyanski.html",
+    "product-frikadelki-klassicheskie.html"
+  ],
+  "layout": {
+    "widths": [
+      320,
+      375,
+      768,
+      1440
+    ],
+    "height": 950,
+    "cases": 80,
+    "reducedMotion": true,
+    "documentOverflow": [],
+    "mainTextOverflow": [],
+    "loadedBrokenImages": [],
+    "result": "pass"
+  },
+  "functionality": {
+    "turkeyFilterCount": 1,
+    "emptySearchState": true,
+    "resetFilterCount": 14,
+    "servingTabsClickAndArrowKeys": true,
+    "mobileMenuEscapeAndFocusReturn": true,
+    "productAccordion": true,
+    "pageConsoleErrors": []
+  },
+  "motion": {
+    "desktopScroll300px": {
+      "before": [
+        "-1.45px",
+        "1.05px"
+      ],
+      "after": [
+        "6.77px",
+        "-4.93px"
+      ]
+    },
+    "reducedMotionReset": [
+      "0px",
+      "0px"
+    ],
+    "pointerTilt": {
+      "x": "1.20deg",
+      "y": "1.80deg",
+      "lift": "-4px"
+    },
+    "pointerResetOnReducedMotion": true,
+    "minMotionWidth": 900
+  },
+  "visualReview": [
+    "Hero at 1440 and 375: full scene overlaps, neutral shadows, character silhouette intact",
+    "Protein at 1440 and 375: larger cluster and separate depth plane, controls and next heading clear",
+    "About at 768: photo and text spacing",
+    "Partners at 375: one substantial nugget",
+    "Contacts at 375: paper note and accessible contact actions",
+    "Product page at 1440: package stage and title across related-section boundary"
+  ],
+  "sources": {
+    "style.css": "ca22df8e2b0aa8d203d0823ca7f232893b20cd18e380c90a046685f84a2ca87c",
+    "script.js": "2388bb671ea2085e1ef3021f6402bf2bf8e0948f2aabdb95eac02341d0766358",
+    "depth.css": "9043a69f010f03e264b2e9b54a245efc9e6bfc4ce837a8fff26adfbd679020ac",
+    "depth.js": "b6896529715f091b83111bcda61cfa4151eea8a2e0e00cce4291d4466d8817de",
+    "index.html": "230931600dc9bc3f434f6f645a11aa617cf9e720d312b8b443a2d6998bfafa56",
+    "assets/depth/hero-composition.webp": "f2746bdabebd0df38585da60c5b58948c89581b8ae236b73cf920d57a2536a96",
+    "assets/depth/nugget.webp": "00c18c5f8cc91eb1cb10c6cf2b988f1134906aa4931d0ddda470dbca30467112"
+  },
+  "notes": [
+    "Existing general site content and typography changes from concurrent work preserved.",
+    "Visual and functional checks performed through browser tools; legacy check_concept.cjs targets an older prototype and was not used.",
+    "Unused exploratory food assets remain in workspace for provenance but are excluded from packaged runtime dependencies."
+  ],
+  "assetCleanup": {
+    "date": "2026-09-25",
+    "assets": [
+      "assets/meatball-cluster.webp",
+      "assets/meatball-float.webp"
+    ],
+    "change": "Removed baked brown ground shadow; preserved food texture and canvas geometry. Existing CSS drop shadow provides depth. Content hashes invalidate cached cutouts.",
+    "visualWidths": [
+      375,
+      1440
+    ],
+    "backgrounds": [
+      "cream",
+      "green",
+      "orange",
+      "brown"
+    ],
+    "documentOverflow": false,
+    "brokenImages": false,
+    "screenshotReview": "Clean contours at the green/brown boundary; button and following heading clear on desktop and mobile.",
+    "packageValidation": "pass",
+    "alphaAudit": "../../tmp/meatball-cutout-qa/alpha-audit.json",
+    "sources": {
+      "index.html": "b87775e31647f3b5ac4ef56838b1ace58c7a3030a91b2d602c7913a49e45f16a",
+      "assets/meatball-cluster.webp": "3945f24819284c0fa989c8f14c04b893bf8aef5855e9a7c618450a9e8533094a",
+      "assets/meatball-float.webp": "b7439a99cc270b519ce978049a55f845425489853a97f043cac40bb519e86901"
+    }
+  },
+  "heroFootCleanup": {
+    "date": "2026-09-25",
+    "asset": "assets/depth/hero-composition.webp",
+    "change": "Removed orange floor fringe beneath rooster feet before neutral shadows; restored enclosed highlight pixels. Canvas, placement and CSS unchanged.",
+    "visualWidths": [
+      375,
+      1024,
+      1280
+    ],
+    "result": "pass",
+    "packageValidation": "pass",
+    "sha256": "0b963ea9d9426ebedcb311e03a6f07f16a824775874f94a888c48c9840f8f120"
+  }
+}

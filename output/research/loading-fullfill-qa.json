@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-09-25T10:11:42.034Z",
+  "transition": "natural pile stays in place; short opacity fade; no translation",
+  "reports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "opening": {
+        "transform": "none",
+        "opacity": 0.464601,
+        "underlying": true
+      },
+      "errors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "opening": {
+        "transform": "none",
+        "opacity": 0.465218,
+        "underlying": true
+      },
+      "errors": []
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "opening": {
+        "transform": "none",
+        "opacity": 0.465149,
+        "underlying": true
+      },
+      "errors": []
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "opening": {
+        "transform": "none",
+        "opacity": 0.46506,
+        "underlying": true
+      },
+      "errors": []
+    },
+    {
+      "reducedMotion": true
+    },
+    {
+      "imageFailure": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+Tool: built-in image_gen.imagegen
+Use case: background-extraction
+Source: Изображение ChatGPT 8 окт. 2026 г., 11_21_07.jpg
+Final asset: fibriki.png
+
+Initial extraction prompt:
+Use case: background-extraction.
+Asset type: transparent foreground illustration for the right half of a Novوفرma food website hero, displayed around 760 × 650 CSS px.
+Input image: the attached Fibriki image is the edit target.
+Primary request: extract only the existing three appetizing golden chicken-and-fiber meatball pieces (two whole balls and one cut-open ball), the two parsley sprigs, and the existing orange illustrated running chicken mascot. Preserve the exact chicken identity, expression, full body, apron with green checks, pose, drawing style, linework and colors. Preserve the meatballs' food texture and appearance, including the visible pale chicken fibers in the open one.
+Scene/backdrop: truly transparent RGBA background.
+Composition/framing: regroup these existing elements into one compact near-square composition suitable for a single right-hand hero art slot. Chicken sits in the lower part; the three food pieces form a loose arc above and to its right, with the existing parsley accents. Keep every subject fully inside the frame with minimal transparent margins and no clipping.
+Constraints: remove ALL text, handwritten captions, titles, logo, navigation, buttons, hearts, arrows, orange strokes and doodles, black dust clouds, cream background, orange ground, and ground shadows. No lettering of any kind. Do not invent new characters, food items or ingredients. Keep only the requested food, parsley and original chicken. Preserve actual transparent alpha, no checkerboard baked into the output, no white or cream backdrop.
+
+Final targeted margin correction prompt:
+Use case: background-extraction.
+Input image: the existing transparent Fibriki foreground composition is the edit target.
+Make only one change: uniformly reduce and center the entire existing grouped composition slightly, so all three meatball pieces, both parsley sprigs, and the whole illustrated chicken are fully within the square canvas, with 4–5% fully transparent padding around every outer edge, especially the right edge of the cut-open meatball. Keep the exact existing objects, food textures, outlines, colors, expressions, chicken identity and pose, and internal relative positions. Do not alter or add anything. Preserve genuine RGBA transparency. No text, logos, letters, buttons, nav, marks, doodles, shadows, ground, or background. The image is a transparent website hero asset.
+
+Verification:
+Visual inspection: three meatball pieces (two whole, one cut-open), two parsley sprigs, original running chicken mascot. All lettering, UI, doodles, background, and ground removed. Subjects are fully within the frame.
+Final image: 1254 × 1254 pixels, RGBA, alpha extrema 0–255. Fully transparent pixels: 64.44%. Visible alpha bounds (>10): [103, 115, 1181, 1177].
+

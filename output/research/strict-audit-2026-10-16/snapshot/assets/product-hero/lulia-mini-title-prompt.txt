@@ -1,0 +1,9 @@
+Use case: background-extraction
+Asset type: transparent raster poster title for the mobile Novoferma product hero.
+Input image: supplied finished mini-lulia hero poster is the edit target.
+Primary request: extract ONLY the large two-row original title from the input image. Preserve EXACT original shapes and colours of all eight Cyrillic letters: top row «ЛЮЛЯ» in very dark brown, second row «МИНИ» in bright orange. Keep the original gigantic thick irregular compressed playful sculpted poster letter shapes, original exaggerated shapes of Л, Ю, Я, М, И, Н, И; keep same relative widths of two rows and left alignment. This is extraction of lettering, not redesign or typesetting in another typeface.
+Composition/framing: only the two title rows centered in a tightly cropped landscape canvas; about 4% transparent margins. Keep all eight whole letters, no clipping. Preserve the original two-row layout; top brown row wider than bottom orange row. Do not equalize row width.
+Scene/backdrop: genuine transparent background including letter counters and spaces between letters.
+Remove: every other element from the input: food, mascot, navigation, logo, buttons, subheading, body description, handwriting, cream background, orange hill, orange strokes, hearts and doodles.
+Text (verbatim): top row "ЛЮЛЯ"; bottom row "МИНИ".
+Constraints: no added text, no shadows, no borders, no graphic decoration, no food/chicken. Do not reimagine the lettering. Keep original thick irregular poster-letter silhouettes and original warm brown/orange colours.

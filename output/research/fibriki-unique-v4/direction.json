@@ -1,0 +1,10 @@
+{
+  "request": "Уникальная картинка Фибриков при сохранении одобренного верха и семейного стиля",
+  "decision": "Unique standing chicken-with-spoon; fine minced-chicken serving pair of one whole ball and one half",
+  "keep": "Заголовок, логотип, подписи, палитра, бумага, лоток и масштаб",
+  "tool": "Built-in ImageGen",
+  "base": "assets/novelty-packaging/fibriki-pack-v3.webp",
+  "otherProductsUnchanged": true,
+  "rejected": "Juggling chef v4: generic cartoon and incorrect fibrous/rice food; engraved study v5: inappropriate drawing and anatomy",
+  "currentVersion": 6
+}

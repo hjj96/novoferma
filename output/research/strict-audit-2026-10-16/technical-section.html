@@ -1,0 +1,140 @@
+<section id="technical" aria-labelledby="technical-title">
+  <p class="eyebrow">Код, ресурсы и воспроизводимость</p>
+  <h2 id="technical-title">Техническая оценка: измеренные факты и границы проверки</h2>
+  <p>Проверены 20 действующих страниц из <a href="snapshot/site-manifest.json">manifest</a>: HTML, CSS, четыре подключённых JavaScript-файла, локальные зависимости, изображения, шрифты, формы и семантические связи. Окончательные цифры пересчитаны по <a href="snapshot-manifest.json">зафиксированной копии</a>: во время первоначального чтения рабочая папка менялась другой задачей. Исторические аудиты доказательствами не служили. Демо загрузчиков и страница шрифтов исключены из действующего сайта.</p>
+  <p>Проверка исходников подтверждает наличие механизмов доступности, но не заменяет screen reader, испытания на реальных устройствах и измерения production. Приоритет P1 здесь означает большой эффект исправления перед запуском. Критическая полная неработоспособность P0 не установлена.</p>
+  <div class="table-wrap"><table>
+    <caption>Контрольные числа: что именно посчитано</caption>
+    <thead><tr><th>Параметр</th><th>Результат</th><th>Как понимать</th></tr></thead>
+    <tbody>
+      <tr><td>Основные страницы</td><td>20</td><td>Шесть общих и 14 карточек продукта.</td></tr>
+      <tr><td>Локальные ссылки и якоря</td><td>0 отсутствующих целей</td><td>Проверены ссылки из HTML; доступность внешних сервисов не гарантируется.</td></tr>
+      <tr><td>Изображения в разметке</td><td>396 вхождений</td><td>У всех есть alt и размеры; srcset отсутствует везде.</td></tr>
+      <tr><td>ARIA-ссылки</td><td>43 корректные ссылки</td><td>Идентификаторы разрешаются; дублирующихся ID не найдено.</td></tr>
+      <tr><td>Упаковки каталога</td><td>14 файлов / 7,34 MB</td><td>Lossless WebP, 800×800; это сумма уникальных файлов.</td></tr>
+      <tr><td>Изображения каталога</td><td>8,51 MB</td><td>Полный набор ссылок, включая lazy-карточки; не начальный transfer.</td></tr>
+      <tr><td>Изображения hero</td><td>11 файлов / 1,70 MB</td><td>Включая первоначально скрытые сцены.</td></tr>
+      <tr><td>CSS страницы</td><td>95–116 KB исходников</td><td>7–11 файлов с импортом; homepage после gzip около 29,4 KB.</td></tr>
+      <tr><td>JavaScript и версии</td><td>4 syntax-check; 205 совпадений hash</td><td>Не доказательство отсутствия runtime-ошибок во всех браузерах.</td></tr>
+    </tbody>
+  </table></div>
+  <p>Полные поштучные измерения: <a href="technical-inventory.json">инвентарь</a>. Размер всей рабочей папки, около 133 MB, не является размером загрузки страницы: туда входят неиспользуемые материалы.</p>
+
+  <h3>Находки и конкретные критерии исправления</h3>
+  <details class="finding" open data-priority="P1">
+    <summary><h3>T01 · P1 · Слишком дорогие изображения упаковок и персонажей</h3></summary>
+    <p><strong>Факт.</strong> 14 упаковок занимают 7 344 508 байт; отдельный файл — 488–588 KB. Персонаж контактов загружается сразу и весит 1,54 MB. В эксперименте в памяти 18 крупных изображений при прежних размерах и WebP q90 уменьшились с 11,56 до 2,77 MB. Сайт не изменялся.</p>
+    <p><strong>Эффект.</strong> Избыточная передача данных при просмотре ассортимента. <strong>Решение.</strong> Подобрать компрессию и responsive-размеры, сохранив читаемость этикеток и прозрачные края. <strong>Приёмка.</strong> Визуальное сравнение упаковок плюс повторный холодный network-тест. Экономия байтов пока не означает одобренное качество.</p>
+    <p><a href="technical-image-budget.json">Эксперимент</a> · <a href="snapshot/catalogue.html">Каталог, строка 3</a> · <a href="https://web.dev/learn/images/responsive-images">web.dev: responsive images</a></p>
+  </details>
+
+  <details class="finding" open data-priority="P1">
+    <summary><h3>T02 · P1 · Скрытые hero-сцены декодируются немедленно</h3></summary>
+    <p><strong>Факт.</strong> Все hero-изображения eager; product-hero.js:67 вызывает decode() для трёх неактивных сцен. Сумма условных RGBA-буферов — около 66 MiB. Это расчёт по пикселям, не измерение памяти браузера.</p>
+    <p><strong>Эффект.</strong> Работа и трафик тратятся на сцены, которые пользователь может не открыть. <strong>Решение.</strong> Приоритизировать активную сцену, остальные готовить в idle или по намерению переключения. <strong>Приёмка.</strong> Измерить waterfall, LCP и задержку переключения; исключить пустой кадр. Основное LCP-изображение не превращать в lazy.</p>
+    <p><a href="snapshot/product-hero.js">Код, строка 67</a> · <a href="https://web.dev/articles/optimize-lcp">web.dev: оптимизация LCP</a></p>
+  </details>
+
+  <details class="finding" open data-priority="P2">
+    <summary><h3>T03 · P2 · Повторное письмо сохраняет прежний город</h3></summary>
+    <p><strong>Факт.</strong> После подготовки письма для Москвы изменение полей на Казань и Фибрики оставляет старый mailto в ссылке повторного открытия. Ошибка воспроизведена реальным script.js в Node VM без отправки или навигации.</p>
+    <p><strong>Эффект.</strong> Пользователь может отправить неверный запрос. <strong>Решение.</strong> При редактировании города или продукта сбрасывать feedback либо обновлять черновик. В B2B-форме такой сброс уже есть. <strong>Приёмка.</strong> Проверить изменение каждого поля после первого составления: повторная ссылка должна исчезнуть или содержать актуальные данные.</p>
+    <p><a href="technical-form-check.json">Результат воспроизведения</a> · <a href="snapshot/script.js">script.js, строка 73</a></p>
+  </details>
+
+  <details class="finding" open data-priority="P2">
+    <summary><h3>T04 · P2 · Каталог ошибочно объявлен текущей страницей товара</h3></summary>
+    <p><strong>Факт.</strong> Во всех 14 product-страницах обе навигации помечают ссылку catalogue.html как aria-current="page". Открыт другой документ.</p>
+    <p><strong>Эффект.</strong> Программное обозначение местоположения неточно. <strong>Решение.</strong> Отделить визуальный активный раздел от обозначения текущей страницы. <strong>Приёмка.</strong> Проверить accessibility tree и объявление screen reader: родительская категория не должна называться текущим документом. Значение page в ARIA относится именно к текущей странице.</p>
+    <p><a href="snapshot/product-naggetsy-kurinye.html">Пример разметки, строка 1</a> · <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-current">W3C: aria-current</a></p>
+  </details>
+
+  <details class="finding" open data-priority="P2">
+    <summary><h3>T05 · P2 · Описания поиска одинаковы у разных страниц</h3></summary>
+    <p><strong>Факт.</strong> 19 meta description из 20 одинаковы; специфическое описание есть только у партнёрской страницы. Все title при этом уникальны.</p>
+    <p><strong>Эффект.</strong> Поисковое описание хуже объясняет конкретный продукт или задачу страницы. <strong>Решение.</strong> Сформировать точные descriptions из подтверждённых данных, отдельно описать контакты и поиск покупки. <strong>Приёмка.</strong> Проверить соответствие каждой страницы своему описанию. Google рекомендует уникальные descriptions, но может выбрать другой snippet; рост позиций не гарантируется.</p>
+    <p><a href="technical-inventory.json">Метаданные всех страниц</a> · <a href="https://developers.google.com/search/docs/appearance/snippet">Google: descriptions и snippets</a></p>
+  </details>
+
+  <details class="finding" open data-priority="P2">
+    <summary><h3>T06 · P2 · Метаданные реального запуска не подготовлены</h3></summary>
+    <p><strong>Факт.</strong> Нет canonical, OG-наборов, favicon-links и JSON-LD; в concept отсутствуют robots.txt и sitemap. Это локальные наблюдения.</p>
+    <p><strong>Эффект.</strong> Не определены представление при публикации ссылок и часть поисковой конфигурации. <strong>Решение.</strong> Подготовить реальные URL, previews, favicon, sitemap и достоверную структурированную информацию. <strong>Приёмка.</strong> Проверить production-ответы и валидаторы. Отсутствие robots.txt само по себе не запрещает индексацию. Нельзя придумывать offers, отзывы или рейтинги ради Product rich results.</p>
+    <p><a href="snapshot/index.html">Head главной</a> · <a href="https://developers.google.com/search/docs/appearance/structured-data/product-snippet">Google: требования Product snippet</a></p>
+  </details>
+
+  <details class="finding" open data-priority="P2">
+    <summary><h3>T07 · P2 · Растровые заголовки требуют решения по доступности</h3></summary>
+    <p><strong>Факт.</strong> Четыре названия в hero показаны отдельными title.webp. Текстовые имена в sr-only присутствуют.</p>
+    <p><strong>Эффект.</strong> Видимые буквы нельзя настроить как обычный текст. <strong>Решение.</strong> Для родовых названий использовать живой шрифт, если он воспроизводит замысел; существенный фирменный леттеринг оценивать отдельно. <strong>Приёмка.</strong> Проверить пользовательские шрифты, цвета и увеличение. WCAG 1.4.5 содержит исключения для существенного представления: нарушение без этой оценки не сертифицировано. Упаковка на фотографии — другой случай.</p>
+    <p><a href="snapshot/product-hero.css">Стили, строки 15–17 и 49</a> · <a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text.html">W3C: изображения текста</a></p>
+  </details>
+
+  <details class="finding" open data-priority="P2">
+    <summary><h3>T08 · P2 · В CSS продолжают жить прежние компоненты</h3></summary>
+    <p><strong>Факт.</strong> Классов hero, serving-tabs, category-filters, meat-filters и protein-bridge нет в текущих страницах, но их стили поставляются. Правила распределены между base, polish, mobile и дополнительными слоями.</p>
+    <p><strong>Эффект.</strong> Изменения сложнее прогнозировать; растёт риск регрессии. <strong>Решение.</strong> Удалить доказанно устаревшие блоки, упорядочить токены, компоненты и состояния. <strong>Приёмка.</strong> Сравнить все страницы и состояния до/после. Двадцать четыре !important не являются самостоятельной проблемой: часть обеспечивает hidden и reduced-motion.</p>
+    <p><a href="snapshot/style.css">Исходный CSS</a> · <a href="technical-inventory.json">Инвентарь подключений</a></p>
+  </details>
+
+  <details class="finding" open data-priority="P2">
+    <summary><h3>T09 · P2 · Smoke-test рассчитан на исчезнувший интерфейс</h3></summary>
+    <p><strong>Факт.</strong> check_concept.cjs ищет кнопки «С индейкой», «Все», класс .product и прежний detail-dialog. В действующих страницах их нет; первый locator не сможет завершиться.</p>
+    <p><strong>Эффект.</strong> Скрипт не подтверждает качество нынешней сборки. <strong>Решение.</strong> Переписать проверки на manifest, ручной carousel, меню, страницы товара и формы. <strong>Приёмка.</strong> Один воспроизводимый запуск проверяет актуальные маршруты без реальных писем. Генератор build_site.py существует; отсутствие рабочей проверки не означает отсутствие сборочного процесса.</p>
+    <p><a href="../../../scripts/check_concept.cjs">Тест, строки 12–22</a> · <a href="technical-tooling-provenance.json">Зафиксированные hashes tooling</a></p>
+  </details>
+
+  <details class="finding" open data-priority="P3">
+    <summary><h3>T10 · P3 · Два перехода на каждый продукт удлиняют Tab-путь</h3></summary>
+    <p><strong>Факт.</strong> Шестнадцать карточек содержат по две ссылки: картинка и заголовок ведут в одно место. Получается 32 перехода.</p>
+    <p><strong>Эффект.</strong> Клавиатурная навигация повторяет одинаковые назначения. <strong>Решение.</strong> Рассмотреть один семантический переход на карточку с большим target и видимым фокусом. <strong>Приёмка.</strong> Каждый продукт достигается один раз; имя остаётся понятным, текст — читаемым. Это улучшение удобства, а не автоматически установленное нарушение WCAG.</p>
+    <p><a href="snapshot/catalogue.html">Карточки каталога, строка 3</a></p>
+  </details>
+
+  <details class="finding" open data-priority="P2">
+    <summary><h3>T11 · P2 · Составление письма зависит от почтовой среды</h3></summary>
+    <p><strong>Факт.</strong> Обе формы используют mailto, backend-доставки нет. Сайт честно объясняет, что письмо отправляет пользователь. B2B-копирование проверено успешно; у «Где купить» такого fallback нет.</p>
+    <p><strong>Эффект.</strong> Без настроенной почты сценарий менее надёжен. <strong>Решение.</strong> Выбрать доставку через backend или добавить равноценное копирование/ручную отправку. <strong>Приёмка.</strong> Пройти сценарий без почтового клиента и различать состояния «черновик готов» и «получено компанией». Реальная доставка в аудите не проверялась.</p>
+    <p><a href="snapshot/partners-scenes.js">B2B-поведение, строки 35–48</a> · <a href="snapshot/script.js">Форма покупателя, строка 73</a></p>
+  </details>
+
+  <details class="finding" open data-priority="P3">
+    <summary><h3>T12 · P3 · Оптимизировать загрузку шрифтов без потери характера</h3></summary>
+    <p><strong>Факт.</strong> Локальные WOFF2: Onest 84 KB, Caveat 173 KB, Rubik 66 KB, специальный RobotoFlex 39 KB. Есть font-display:swap; Onest/Caveat объявлены через CSS-import.</p>
+    <p><strong>Эффект.</strong> Возможен резерв веса и раннего обнаружения. <strong>Решение.</strong> Проверить кириллические/латинские subsets, fallback metrics и загрузку действительно критического начертания. <strong>Приёмка.</strong> Холодная загрузка сохраняет читаемый текст и стабильную геометрию. Наличие font-face не означает скачивание на каждой странице; preload всех четырёх файлов не рекомендован.</p>
+    <p><a href="snapshot/assets/fonts/font-face.css">Объявления шрифтов</a> · <a href="https://web.dev/articles/optimize-webfont-loading">web.dev: загрузка шрифтов</a></p>
+  </details>
+</section>
+
+<section id="standards" aria-labelledby="standards-title">
+  <p class="eyebrow">Норма, наблюдение, приёмка</p>
+  <h2 id="standards-title">Что подтверждено относительно рекомендаций</h2>
+  <div class="table-wrap"><table>
+    <caption>Доступность: не путать поддержку в коде с полной сертификацией</caption>
+    <thead><tr><th>Реальный факт</th><th>Норма или ориентир</th><th>Ограничение вывода</th></tr></thead>
+    <tbody>
+      <tr><td>Есть main, H1, lang, skip-link, labels; ARIA-ссылки целые.</td><td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html">WCAG 1.3.1</a>: информация и отношения должны определяться программно.</td><td>Статическая полнота не подтверждает качество всех объявлений screen reader.</td></tr>
+      <tr><td>Основной brown/cream 13,45:1; muted 5,52:1; CTA hero 4,66:1.</td><td><a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html">WCAG 1.4.3</a>: обычный текст 4,5:1; подходящий крупный — 3:1.</td><td>Посчитаны заданные сплошные пары; это не полный rendered sweep всех состояний.</td></tr>
+      <tr><td>Граница B2B-поля 3,21:1; фокус 5,16:1 на cream.</td><td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html">WCAG 1.4.11</a>: необходимые визуальные признаки интерфейса — 3:1 к соседнему фону.</td><td>Все наложения, изображения и браузерные режимы требуют отдельной проверки.</td></tr>
+      <tr><td>Кнопки карусели преимущественно 44px; есть клавиатурное управление.</td><td><a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html">WCAG 2.5.8</a>: минимум AA 24×24 CSS px с исключениями.</td><td>44px — удобный усиленный ориентир; меньший размер не автоматически нарушение.</td></tr>
+      <tr><td>Reduced-motion обрабатывается CSS/JS; autoplay отсутствует.</td><td><a href="https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html">WCAG 2.3.3</a>: отключение несущественной interaction-анимации, уровень AAA.</td><td>Системная настройка в runtime не проверялась; нельзя выдавать AAA за обязательное AA.</td></tr>
+      <tr><td>Hero использует absolute-позиции, фиксированную мобильную высоту и nowrap.</td><td><a href="https://www.w3.org/WAI/WCAG22/Understanding/reflow.html">WCAG 1.4.10</a>: проверить reflow; дополнительно увеличить текст.</td><td>Это признаки риска, не доказанные обрезания. Нужны тесты 200% текста и 400% zoom.</td></tr>
+    </tbody>
+  </table></div>
+  <p>Ручные подтверждения: native-валидация пустого города сработала; B2B-запрос скопирован; координатное переключение мобильной карусели сохранило scrollTop=0. Предположение о скачке страницы отклонено: предыдущий сдвиг вызвал автоскролл инструмента.</p>
+
+  <h3>Скорость, безопасность и выпуск</h3>
+  <p>Целевые good-пороги — LCP ≤2,5 с, INP ≤200 мс, CLS ≤0,1 на 75-м процентиле. Они требуют полевых или корректно обозначенных лабораторных измерений; байты исходников не дают оценку Core Web Vitals. В этом аудите таких результатов нет. <a href="https://web.dev/articles/vitals">Определения web.dev</a>.</p>
+  <p>Проверка файлов не устанавливает безопасность production. Не исследованы TLS, HTTP security headers, CDN, серверная конфигурация, права доступа и реальная доставка почты. Нельзя заключить, что сайт небезопасен, только потому что этих настроек нет в HTML. Аналогично локальная сборка не доказывает соответствие требованиям обработки персональных данных: перед запуском нужно проверить реальные получатели запросов, хранение, подключённую аналитику и опубликованные условия.</p>
+  <div class="table-wrap"><table>
+    <caption>Минимальная приёмка следующей версии</caption>
+    <thead><tr><th>Контур</th><th>Проверяемый результат</th></tr></thead>
+    <tbody>
+      <tr><td>Ресурсы</td><td>Утверждены изображения этикеток; холодный waterfall показывает уменьшение трафика без ухудшения LCP/CLS.</td></tr>
+      <tr><td>Сценарии</td><td>Все маршруты manifest, четыре сцены, меню, пустые/изменённые формы и отсутствие почтового клиента проходят проверку.</td></tr>
+      <tr><td>Доступность</td><td>Tab/Shift+Tab, Escape, возврат фокуса, screen reader, reduced-motion, zoom и reflow проверены вручную.</td></tr>
+      <tr><td>Production</td><td>Реальные canonical/redirect/404, previews, sitemap, compression/cache, HTTPS и доставка запросов подтверждены отдельно.</td></tr>
+    </tbody>
+  </table></div>
+  <p><a href="technical-findings.json">Полный реестр с критериями</a> · <a href="technical-static-accessibility.json">Структурные проверки</a> · <a href="technical-contrast-token-pairs.json">Расчёты контраста</a></p>
+</section>

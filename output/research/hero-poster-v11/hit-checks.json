@@ -1,0 +1,252 @@
+[
+  {
+    "ctaCornerHit": true,
+    "firstTab": {
+      "bottom": 385.953125,
+      "height": 44,
+      "left": 314.40625,
+      "right": 358.40625,
+      "top": 341.953125,
+      "width": 44,
+      "x": 314.40625,
+      "y": 341.953125
+    },
+    "header": {
+      "bottom": 62,
+      "height": 48,
+      "left": 475.9296875,
+      "right": 609.3984375,
+      "top": 14,
+      "width": 133.46875,
+      "x": 475.9296875,
+      "y": 14
+    },
+    "id": "scene-protein",
+    "width": 700
+  },
+  {
+    "ctaCornerHit": true,
+    "firstTab": {
+      "bottom": 385.953125,
+      "height": 44,
+      "left": 314.40625,
+      "right": 358.40625,
+      "top": 341.953125,
+      "width": 44,
+      "x": 314.40625,
+      "y": 341.953125
+    },
+    "header": {
+      "bottom": 62,
+      "height": 48,
+      "left": 475.9296875,
+      "right": 609.3984375,
+      "top": 14,
+      "width": 133.46875,
+      "x": 475.9296875,
+      "y": 14
+    },
+    "id": "scene-meatballs",
+    "width": 700
+  },
+  {
+    "ctaCornerHit": true,
+    "firstTab": {
+      "bottom": 385.953125,
+      "height": 44,
+      "left": 314.40625,
+      "right": 358.40625,
+      "top": 341.953125,
+      "width": 44,
+      "x": 314.40625,
+      "y": 341.953125
+    },
+    "header": {
+      "bottom": 62,
+      "height": 48,
+      "left": 475.9296875,
+      "right": 609.3984375,
+      "top": 14,
+      "width": 133.46875,
+      "x": 475.9296875,
+      "y": 14
+    },
+    "id": "scene-nuggets",
+    "width": 700
+  },
+  {
+    "ctaCornerHit": true,
+    "firstTab": {
+      "bottom": 385.953125,
+      "height": 44,
+      "left": 314.40625,
+      "right": 358.40625,
+      "top": 341.953125,
+      "width": 44,
+      "x": 314.40625,
+      "y": 341.953125
+    },
+    "header": {
+      "bottom": 62,
+      "height": 48,
+      "left": 475.9296875,
+      "right": 609.3984375,
+      "top": 14,
+      "width": 133.46875,
+      "x": 475.9296875,
+      "y": 14
+    },
+    "id": "scene-fibriki",
+    "width": 700
+  },
+  {
+    "ctaCornerHit": true,
+    "firstTab": {
+      "bottom": 385.953125,
+      "height": 44,
+      "left": 314.40625,
+      "right": 358.40625,
+      "top": 341.953125,
+      "width": 44,
+      "x": 314.40625,
+      "y": 341.953125
+    },
+    "header": {
+      "bottom": 62,
+      "height": 48,
+      "left": 475.9296875,
+      "right": 609.3984375,
+      "top": 14,
+      "width": 133.46875,
+      "x": 475.9296875,
+      "y": 14
+    },
+    "id": "scene-lulia-mini",
+    "width": 700
+  },
+  {
+    "ctaCornerHit": true,
+    "firstTab": {
+      "bottom": 424.2265625,
+      "height": 44,
+      "left": 379.140625,
+      "right": 423.140625,
+      "top": 380.2265625,
+      "width": 44,
+      "x": 379.140625,
+      "y": 380.2265625
+    },
+    "header": {
+      "bottom": 62,
+      "height": 48,
+      "left": 506.6640625,
+      "right": 674.1328125,
+      "top": 14,
+      "width": 167.46875,
+      "x": 506.6640625,
+      "y": 14
+    },
+    "id": "scene-protein",
+    "width": 768
+  },
+  {
+    "ctaCornerHit": true,
+    "firstTab": {
+      "bottom": 424.2265625,
+      "height": 44,
+      "left": 379.140625,
+      "right": 423.140625,
+      "top": 380.2265625,
+      "width": 44,
+      "x": 379.140625,
+      "y": 380.2265625
+    },
+    "header": {
+      "bottom": 62,
+      "height": 48,
+      "left": 506.6640625,
+      "right": 674.1328125,
+      "top": 14,
+      "width": 167.46875,
+      "x": 506.6640625,
+      "y": 14
+    },
+    "id": "scene-meatballs",
+    "width": 768
+  },
+  {
+    "ctaCornerHit": true,
+    "firstTab": {
+      "bottom": 424.2265625,
+      "height": 44,
+      "left": 379.140625,
+      "right": 423.140625,
+      "top": 380.2265625,
+      "width": 44,
+      "x": 379.140625,
+      "y": 380.2265625
+    },
+    "header": {
+      "bottom": 62,
+      "height": 48,
+      "left": 506.6640625,
+      "right": 674.1328125,
+      "top": 14,
+      "width": 167.46875,
+      "x": 506.6640625,
+      "y": 14
+    },
+    "id": "scene-nuggets",
+    "width": 768
+  },
+  {
+    "ctaCornerHit": true,
+    "firstTab": {
+      "bottom": 424.2265625,
+      "height": 44,
+      "left": 379.140625,
+      "right": 423.140625,
+      "top": 380.2265625,
+      "width": 44,
+      "x": 379.140625,
+      "y": 380.2265625
+    },
+    "header": {
+      "bottom": 62,
+      "height": 48,
+      "left": 506.6640625,
+      "right": 674.1328125,
+      "top": 14,
+      "width": 167.46875,
+      "x": 506.6640625,
+      "y": 14
+    },
+    "id": "scene-fibriki",
+    "width": 768
+  },
+  {
+    "ctaCornerHit": true,
+    "firstTab": {
+      "bottom": 424.2265625,
+      "height": 44,
+      "left": 379.140625,
+      "right": 423.140625,
+      "top": 380.2265625,
+      "width": 44,
+      "x": 379.140625,
+      "y": 380.2265625
+    },
+    "header": {
+      "bottom": 62,
+      "height": 48,
+      "left": 506.6640625,
+      "right": 674.1328125,
+      "top": 14,
+      "width": 167.46875,
+      "x": 506.6640625,
+      "y": 14
+    },
+    "id": "scene-lulia-mini",
+    "width": 768
+  }
+]

@@ -1,0 +1,671 @@
+{
+  "checkedAt": "2026-10-24T12:01:17.598Z",
+  "browser": "Codex in-app browser",
+  "layoutChecks": [
+    {
+      "route": "index.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Новоферма — продукты из курицы и индейки",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "catalogue.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Что сегодня?",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "about.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Вкусно,когдавместе.",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "where-to-buy.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Найдите свойпродукт.",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "partners.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "contacts.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Мына связи.",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-kotlety-kurinye.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Котлеты куриные",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-bitochki-kurinye-s-ovoshchami.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Биточки куриные с овощами",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Ёжики из цыпленка с рисом",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-kurinyj-popkorn.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Куриный попкорн",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-naggetsy-kurinye.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Наггетсы куриные",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-naggetsy-kurinye-s-syrom.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Наггетсы куриные с сыром",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-naggetsy-dinozavry.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Наггетсы куриные «Динозавры»",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-naggetsy-ostrye.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Наггетсы куриные острые",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-naggetsy-s-indeykoy-fitnes.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Наггетсы с индейкой «Фитнес»",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-stripsy.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Стрипсы",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-kotlety-po-domashnemu.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Котлеты по-домашнему",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-kotlety-pikantnye.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Котлеты пикантные",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-kotlety-po-italyanski.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Котлеты по-итальянски",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-frikadelki-klassicheskie.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Фрикадельки «Классические»",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-fibriki.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Фибрики",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "product-lulia-mini.html",
+      "brokenVisibleImages": [],
+      "docWidth": 320,
+      "h1": "Люля мини",
+      "headingOverflow": [],
+      "width": 320
+    },
+    {
+      "route": "index.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "catalogue.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "about.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "where-to-buy.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "partners.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "contacts.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-kotlety-kurinye.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-bitochki-kurinye-s-ovoshchami.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-kurinyj-popkorn.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-naggetsy-kurinye.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-naggetsy-kurinye-s-syrom.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-naggetsy-dinozavry.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-naggetsy-ostrye.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-naggetsy-s-indeykoy-fitnes.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-stripsy.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-kotlety-po-domashnemu.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-kotlety-pikantnye.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-kotlety-po-italyanski.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-frikadelki-klassicheskie.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-fibriki.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "product-lulia-mini.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1440,
+      "headingOverflow": [],
+      "width": 1440
+    },
+    {
+      "route": "index.html",
+      "brokenVisibleImages": [],
+      "docWidth": 390,
+      "headingOverflow": [],
+      "width": 390
+    },
+    {
+      "route": "catalogue.html",
+      "brokenVisibleImages": [],
+      "docWidth": 390,
+      "headingOverflow": [],
+      "width": 390
+    },
+    {
+      "route": "about.html",
+      "brokenVisibleImages": [],
+      "docWidth": 390,
+      "headingOverflow": [],
+      "width": 390
+    },
+    {
+      "route": "where-to-buy.html",
+      "brokenVisibleImages": [],
+      "docWidth": 390,
+      "headingOverflow": [],
+      "width": 390
+    },
+    {
+      "route": "partners.html",
+      "brokenVisibleImages": [],
+      "docWidth": 390,
+      "headingOverflow": [],
+      "width": 390
+    },
+    {
+      "route": "contacts.html",
+      "brokenVisibleImages": [],
+      "docWidth": 390,
+      "headingOverflow": [],
+      "width": 390
+    },
+    {
+      "route": "product-naggetsy-s-indeykoy-fitnes.html",
+      "brokenVisibleImages": [],
+      "docWidth": 390,
+      "headingOverflow": [],
+      "width": 390
+    },
+    {
+      "route": "product-frikadelki-klassicheskie.html",
+      "brokenVisibleImages": [],
+      "docWidth": 390,
+      "headingOverflow": [],
+      "width": 390
+    },
+    {
+      "route": "product-fibriki.html",
+      "brokenVisibleImages": [],
+      "docWidth": 390,
+      "headingOverflow": [],
+      "width": 390
+    },
+    {
+      "route": "index.html",
+      "brokenVisibleImages": [],
+      "docWidth": 768,
+      "headingOverflow": [],
+      "width": 768
+    },
+    {
+      "route": "catalogue.html",
+      "brokenVisibleImages": [],
+      "docWidth": 768,
+      "headingOverflow": [],
+      "width": 768
+    },
+    {
+      "route": "about.html",
+      "brokenVisibleImages": [],
+      "docWidth": 768,
+      "headingOverflow": [],
+      "width": 768
+    },
+    {
+      "route": "where-to-buy.html",
+      "brokenVisibleImages": [],
+      "docWidth": 768,
+      "headingOverflow": [],
+      "width": 768
+    },
+    {
+      "route": "partners.html",
+      "brokenVisibleImages": [],
+      "docWidth": 768,
+      "headingOverflow": [],
+      "width": 768
+    },
+    {
+      "route": "contacts.html",
+      "brokenVisibleImages": [],
+      "docWidth": 768,
+      "headingOverflow": [],
+      "width": 768
+    },
+    {
+      "route": "product-naggetsy-s-indeykoy-fitnes.html",
+      "brokenVisibleImages": [],
+      "docWidth": 768,
+      "headingOverflow": [],
+      "width": 768
+    },
+    {
+      "route": "product-frikadelki-klassicheskie.html",
+      "brokenVisibleImages": [],
+      "docWidth": 768,
+      "headingOverflow": [],
+      "width": 768
+    },
+    {
+      "route": "product-fibriki.html",
+      "brokenVisibleImages": [],
+      "docWidth": 768,
+      "headingOverflow": [],
+      "width": 768
+    },
+    {
+      "route": "index.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1024,
+      "headingOverflow": [],
+      "width": 1024
+    },
+    {
+      "route": "catalogue.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1024,
+      "headingOverflow": [],
+      "width": 1024
+    },
+    {
+      "route": "about.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1024,
+      "headingOverflow": [],
+      "width": 1024
+    },
+    {
+      "route": "where-to-buy.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1024,
+      "headingOverflow": [],
+      "width": 1024
+    },
+    {
+      "route": "partners.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1024,
+      "headingOverflow": [],
+      "width": 1024
+    },
+    {
+      "route": "contacts.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1024,
+      "headingOverflow": [],
+      "width": 1024
+    },
+    {
+      "route": "product-naggetsy-s-indeykoy-fitnes.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1024,
+      "headingOverflow": [],
+      "width": 1024
+    },
+    {
+      "route": "product-frikadelki-klassicheskie.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1024,
+      "headingOverflow": [],
+      "width": 1024
+    },
+    {
+      "route": "product-fibriki.html",
+      "brokenVisibleImages": [],
+      "docWidth": 1024,
+      "headingOverflow": [],
+      "width": 1024
+    }
+  ],
+  "heroChecks": [
+    {
+      "title": "Фрикадельки",
+      "artLoaded": true,
+      "conceptVisible": null,
+      "cta": "product-frikadelki-klassicheskie.html",
+      "headerBottom": -140.5,
+      "scene": "scene-meatballs",
+      "textTop": -118.5,
+      "titleScroll": 288,
+      "titleWidth": 288,
+      "width": 320
+    },
+    {
+      "title": "Наггетсы",
+      "artLoaded": true,
+      "conceptVisible": null,
+      "cta": "product-naggetsy-kurinye.html",
+      "headerBottom": -140.5,
+      "scene": "scene-nuggets",
+      "textTop": -118.5,
+      "titleScroll": 288,
+      "titleWidth": 288,
+      "width": 320
+    },
+    {
+      "title": "Фибрики",
+      "artLoaded": true,
+      "conceptVisible": true,
+      "cta": "product-fibriki.html",
+      "headerBottom": -140.5,
+      "scene": "scene-fibriki",
+      "textTop": -118.5,
+      "titleScroll": 288,
+      "titleWidth": 288,
+      "width": 320
+    },
+    {
+      "title": "Люля мини",
+      "artLoaded": true,
+      "conceptVisible": true,
+      "cta": "product-lulia-mini.html",
+      "headerBottom": -140.5,
+      "scene": "scene-lulia-mini",
+      "textTop": -118.5,
+      "titleScroll": 288,
+      "titleWidth": 288,
+      "width": 320
+    },
+    {
+      "title": "Фрикадельки",
+      "artLoaded": true,
+      "conceptVisible": null,
+      "cta": "product-frikadelki-klassicheskie.html",
+      "headerBottom": -113.5,
+      "scene": "scene-meatballs",
+      "textTop": -44.34375,
+      "titleScroll": 600,
+      "titleWidth": 600,
+      "width": 1024
+    },
+    {
+      "title": "Наггетсы",
+      "artLoaded": true,
+      "conceptVisible": null,
+      "cta": "product-naggetsy-kurinye.html",
+      "headerBottom": -113.5,
+      "scene": "scene-nuggets",
+      "textTop": -44.34375,
+      "titleScroll": 522,
+      "titleWidth": 522,
+      "width": 1024
+    },
+    {
+      "title": "Фибрики",
+      "artLoaded": true,
+      "conceptVisible": true,
+      "cta": "product-fibriki.html",
+      "headerBottom": -113.5,
+      "scene": "scene-fibriki",
+      "textTop": -44.34375,
+      "titleScroll": 599,
+      "titleWidth": 599,
+      "width": 1024
+    },
+    {
+      "title": "Люля мини",
+      "artLoaded": true,
+      "conceptVisible": true,
+      "cta": "product-lulia-mini.html",
+      "headerBottom": -113.5,
+      "scene": "scene-lulia-mini",
+      "textTop": -52.9921875,
+      "titleScroll": 425,
+      "titleWidth": 425,
+      "width": 1024
+    }
+  ],
+  "resolvedFindings": [
+    {
+      "page": "partners.html",
+      "width": 320,
+      "problem": "h1 scrollWidth294 > clientWidth288",
+      "fix": "55px type at widths below359px",
+      "recheck": {
+        "route": "partners.html",
+        "brokenVisibleImages": [],
+        "docWidth": 320,
+        "headingOverflow": [],
+        "width": 320
+      }
+    }
+  ],
+  "interactions": {
+    "menuEscapeAndFocusReturn": true,
+    "catalogueTurkeyOneOf16": true,
+    "catalogueEmptyCombination": true,
+    "catalogueReset16": true,
+    "heroArrowKeySelectionAndFocus": true,
+    "heroCtaOpensConceptPage": true,
+    "whereQueryPrefillsProduct": true,
+    "whereFiltersExactRetailer": true,
+    "cityCopySuccess": true,
+    "cityProductEditClearsFeedback": true,
+    "conceptWithoutRetailerHasFallback": true,
+    "stmLinkSelectsFormat": true,
+    "partnerCopySuccess": true,
+    "partnerEditClearsFeedback": true,
+    "manufacturerPhotoDetailsOpens": true
+  },
+  "responsiveEvidence": {
+    "cataloguePackshotsWithSrcset": 16,
+    "catalogueMascotCandidateWidth": 400,
+    "contactsMascotCandidateWidth": 400,
+    "contactsMascotRendered": [
+      84,
+      128
+    ]
+  },
+  "consoleErrors": [],
+  "limitations": [
+    "Only this browser engine tested; no physical device tests.",
+    "No mail was sent and no purchase was made.",
+    "No field Core Web Vitals or throttled network/LCP measurement.",
+    "Direct file:// preview is blocked by browser protocol policy; HTTP preview was tested."
+  ],
+  "result": "pass"
+}

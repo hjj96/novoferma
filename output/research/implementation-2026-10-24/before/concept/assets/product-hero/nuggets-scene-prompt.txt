@@ -1,0 +1,9 @@
+Use case: precise-object-edit.
+Input image: edit target is the supplied complete landscape Novoferma NUGGETS poster. Use this exact scene, do not create a new layout.
+Primary request: Perform ONLY localized removal of interface elements and handwriting from the original. Preserve the original full 16:9 framing and exact composition. The result is an opaque complete background scene for a website slider.
+Erase these elements, filling their original areas seamlessly with the same cream textured background:
+1. Entire top header: orange NOVOferma logo, small navigation labels Продукция / О нас / Рецепты / Контакты, and top-right dark Где купить button with arrow.
+2. Entire bottom-left orange rounded Попробовать button, including its white label and arrow.
+3. ALL three orange handwritten captions and their heart doodles: Хрустящие снаружи!, Нежные внутри!, Любимый вкус!.
+Preserve EXACTLY all other original content. The giant brown title НАГГЕТСЫ must remain in its exact original font, size, position, shape and perspective. Preserve the brown subheading КЛАССИЧЕСКИЕ КУРИНЫЕ and the two sans-serif description lines verbatim and in the original style and placement: Хрустящие куриные наггетсы. / Нежно внутри. Любимые с детства. Preserve all five visible nugget pieces, crumb positions, ketchup cup, parsley, cartoon chicken with checked apron in the same pose, face and identity, black motion clouds at feet, orange hill and food shadows. Preserve the small orange energy strokes around title, nuggets and chicken. Preserve the cream textured background and original rich orange and brown colors.
+Strict constraints: no redesign, no rearranging, no resizing of typography or food, no cropping, no new elements. Do not replace the mascot or food. Change only the precisely listed removed areas. Keep all remaining pixels and spatial relationships as close to the original as possible. Wide 16:9 landscape, opaque background.

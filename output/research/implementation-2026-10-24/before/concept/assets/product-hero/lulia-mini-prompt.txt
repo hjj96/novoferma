@@ -1,0 +1,8 @@
+Use case: background-extraction
+Asset type: transparent raster cutout for Novoferma website product presentation slider.
+Input image: edit target; supplied finished mini-lulia hero illustration.
+Primary request: extract ONLY the food and cartoon chicken arrangement from the reference onto a genuinely transparent background. Keep precisely the same five grilled chicken mini-lulia sausage pieces, their appetizing photographic textures, red tomato half, parsley sprigs, and the same orange cartoon chicken mascot with red comb and white apron with green grid. Preserve the mascot's identity, expression, line drawing, raised-wing jumping pose, and feet. Preserve relative food arrangement and the reference look. Remove ALL writing, logo, navigation, buttons, handwritten labels, hearts, orange decorative strokes, brown puff doodles, orange ground and all cream background.
+Composition/framing: crop away the former left text area, center the resulting food-and-chicken group as a unified near-square wide composition suitable for the right hero half about 760 x 650 CSS pixels. Use minimal transparent margins without clipping any mascot body part or food. Preserve scale hierarchy of the five food pieces and mascot.
+Scene/backdrop: true transparent background with clean cutout alpha edges, no fill and no ground.
+Text: none.
+Constraints: no new elements; no added foods; no packaging; do not redesign or replace the mascot; no text anywhere; no watermarks; all negative spaces including between wings, food and parsley must be transparent.

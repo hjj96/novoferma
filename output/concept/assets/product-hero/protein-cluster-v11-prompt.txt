@@ -1,0 +1,30 @@
+Use case: compositing
+Asset type: transparent right-side food composition for a website protein introduction.
+Input image: meatballs-reference.webp is a visual reference for the photoreal chicken meatballs only. Do not reproduce its poster, text, chicken character, floor, or existing arrangement.
+Primary request: create exactly THREE distinct appetizing golden baked chicken meatballs, matching the reference's realistic food style, in a compact right-side composition.
+Canvas/framing: full 1672 x 941 landscape canvas. Keep every object entirely within x=1100..1610 and y=230..790. The whole left x=0..1050 region must be completely empty transparent space. Do not crop or center the composition. Preserve the full empty canvas.
+Placement: one upper meatball about 220 pixels across centered approximately at (1370,340), with its top edge at y=230. Two lower meatballs about 250 and 240 pixels across centered approximately at (1270,650) and (1490,670). The lower pair can just touch or overlap slightly. All object edges stay inside the stated region. Add at most ONE small parsley leaf/sprig near (1525,485), entirely inside the region.
+Style/materials: highly detailed photoreal cooked chicken food; golden-orange crust, irregular browned spots, moist natural texture and small green herb flecks, consistent with the source. Each meatball must have its own visibly different irregular shape, crust pattern, and orientation. Do not repeat a clone three times. Keep internal food shading and depth.
+Backdrop: actual transparent alpha everywhere behind and between the food and the single optional leaf. Floating food cutouts without plates or a surface.
+Avoid: chicken mascot, hands, letters, words, any typography, packaging, logos, high-protein label, stripe or drawn decorative strokes, cream paper, orange floor, gradients, drop shadows or floor cast shadows, white edge halos, extra food pieces, vegetables other than the single small leaf.
+Output: a true RGBA transparent PNG on the complete 1672 x 941 canvas.
+
+FINAL REFINEMENT (layout correction of first generated output):
+Use case: precise-object-edit
+Input image: the supplied transparent image is the exact edit target. It already contains the correct THREE distinct chicken meatballs and ONE parsley sprig.
+Primary request: correct ONLY the foreground sizes and positions. The present cluster is much too large and too far left. The title needs the entire left two-thirds of the canvas empty.
+Canvas: keep the FULL original transparent 1672 x 941 canvas, untrimmed. Do not crop to artwork or rescale the canvas.
+Required exact layout: top meatball bounding box x1260..1480, y230..450 (center 1370,340; diameter 220). Lower-left meatball bounding box x1145..1395, y525..775 (center 1270,650; diameter 250). Lower-right meatball bounding box x1370..1610, y550..790 (center 1490,670; diameter 240). Place the existing small parsley sprig in x1460..1570, y440..535. No artwork pixel may be left of x1100, above y230, right of x1610, or below y790.
+Preserve: the existing different natural shapes and crust patterns of all three meatballs, realistic appetizing food texture, baked golden colors, and their individual identity. Only make them smaller and reposition them into the explicit boxes. Do not clone, add, or remove food.
+Background: real transparent alpha across the entire empty canvas and between objects. No shadows outside objects. Keep internal food shading.
+Avoid: enlarging or centering the group, filling empty space, text, letters, chicken mascot, packaging, plate, paper, orange floor, floor shadows, illustration marks, a fourth meatball.
+Deliverable: transparent RGBA PNG, full 1672 x 941. The composition must be visually SMALL and concentrated in the far-right final third of the frame.
+
+FINAL BOUNDARY AND CANVAS CORRECTION:
+Use case: precise-object-edit
+Input image: this transparent three-meatball composition is the exact edit target.
+Make one final geometric correction ONLY: uniformly reduce the complete existing foreground group (all THREE different meatballs plus the ONE parsley sprig) to 88% of its current width and height, keeping the group's center around x=1344,y=523, then move the group 8 pixels to the right. Do not resize or crop the full canvas.
+This should place the visible group inside approximately x=1110..1592, y=294..752. All visible objects MUST lie inside x=1100..1610,y=230..790. Leave the entire canvas left of x=1100 empty transparent. The visible food must remain small and entirely in the far-right third.
+Keep every individual object's existing photoreal texture, natural irregular silhouette, baked golden colors, and distinct identity. Do not clone, repaint, add, or remove any object. Internal shading remains; no cast shadows.
+Output canvas must be EXACTLY 1672 pixels wide by 941 pixels high with genuine transparent alpha. Keep all original empty margins. The source width might be 1671; add the needed empty transparent edge to make 1672, without changing the foreground beyond the requested uniform reduction and right shift.
+No text, chicken mascot, packaging, floor, paper, stripes, logos, extra food, opaque background or white halo.

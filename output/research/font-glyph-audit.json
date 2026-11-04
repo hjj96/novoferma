@@ -1,0 +1,57 @@
+[
+  {
+    "file": "Onest-wght.ttf",
+    "woff2": "Onest-wght.woff2",
+    "woff2Bytes": 84076,
+    "missingRussianTestGlyphs": [],
+    "axes": [
+      {
+        "tag": "wght",
+        "min": 100.0,
+        "max": 900.0
+      }
+    ]
+  },
+  {
+    "file": "MarckScript-Regular.ttf",
+    "woff2": "MarckScript-Regular.woff2",
+    "woff2Bytes": 27320,
+    "missingRussianTestGlyphs": [
+      "₽"
+    ],
+    "axes": []
+  },
+  {
+    "file": "BadScript-Regular.ttf",
+    "woff2": "BadScript-Regular.woff2",
+    "woff2Bytes": 80240,
+    "missingRussianTestGlyphs": [],
+    "axes": []
+  },
+  {
+    "file": "Caveat-wght.ttf",
+    "woff2": "Caveat-wght.woff2",
+    "woff2Bytes": 173472,
+    "missingRussianTestGlyphs": [],
+    "axes": [
+      {
+        "tag": "wght",
+        "min": 400.0,
+        "max": 700.0
+      }
+    ]
+  },
+  {
+    "file": "GolosText-wght.ttf",
+    "woff2": "GolosText-wght.woff2",
+    "woff2Bytes": 76536,
+    "missingRussianTestGlyphs": [],
+    "axes": [
+      {
+        "tag": "wght",
+        "min": 400.0,
+        "max": 900.0
+      }
+    ]
+  }
+]

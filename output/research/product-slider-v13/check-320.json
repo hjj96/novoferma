@@ -1,0 +1,178 @@
+[
+  {
+    "active": "scene-meatballs",
+    "activeCount": 1,
+    "cta": {
+      "bottom": 382,
+      "height": 50,
+      "left": 16,
+      "right": 256,
+      "top": 332,
+      "width": 240,
+      "x": 16,
+      "y": 332
+    },
+    "description": {
+      "bottom": 253.34375,
+      "height": 39.1875,
+      "left": 16,
+      "right": 304,
+      "top": 214.15625,
+      "width": 288,
+      "x": 16,
+      "y": 214.15625
+    },
+    "descriptionFont": "14px",
+    "floorDisplay": "block",
+    "height": 760,
+    "heroHeight": 590,
+    "inactiveInert": true,
+    "overflow": false,
+    "pack": null,
+    "scrollY": 0,
+    "title": {
+      "bottom": 141.15625,
+      "height": 47.15625,
+      "left": 16,
+      "right": 304,
+      "top": 94,
+      "width": 288,
+      "x": 16,
+      "y": 94
+    },
+    "unloaded": [],
+    "width": 320
+  },
+  {
+    "active": "scene-nuggets",
+    "activeCount": 1,
+    "cta": {
+      "bottom": 382,
+      "height": 50,
+      "left": 16,
+      "right": 256,
+      "top": 332,
+      "width": 240,
+      "x": 16,
+      "y": 332
+    },
+    "description": {
+      "bottom": 243.2421875,
+      "height": 39.1875,
+      "left": 16,
+      "right": 304,
+      "top": 204.0546875,
+      "width": 288,
+      "x": 16,
+      "y": 204.0546875
+    },
+    "descriptionFont": "14px",
+    "floorDisplay": "block",
+    "height": 760,
+    "heroHeight": 590,
+    "inactiveInert": true,
+    "overflow": false,
+    "pack": null,
+    "scrollY": 0,
+    "title": {
+      "bottom": 161.8984375,
+      "height": 67.8984375,
+      "left": 16,
+      "right": 304,
+      "top": 94,
+      "width": 288,
+      "x": 16,
+      "y": 94
+    },
+    "unloaded": [],
+    "width": 320
+  },
+  {
+    "active": "scene-fibriki",
+    "activeCount": 1,
+    "cta": {
+      "bottom": 382,
+      "height": 50,
+      "left": 16,
+      "right": 256,
+      "top": 332,
+      "width": 240,
+      "x": 16,
+      "y": 332
+    },
+    "description": {
+      "bottom": 286.8828125,
+      "height": 39.1875,
+      "left": 16,
+      "right": 304,
+      "top": 247.6953125,
+      "width": 288,
+      "x": 16,
+      "y": 247.6953125
+    },
+    "descriptionFont": "14px",
+    "floorDisplay": "block",
+    "height": 760,
+    "heroHeight": 590,
+    "inactiveInert": true,
+    "overflow": false,
+    "pack": null,
+    "scrollY": 0,
+    "title": {
+      "bottom": 151.8046875,
+      "height": 57.8046875,
+      "left": 16,
+      "right": 304,
+      "top": 94,
+      "width": 288,
+      "x": 16,
+      "y": 94
+    },
+    "unloaded": [],
+    "width": 320
+  },
+  {
+    "active": "scene-lulia-mini",
+    "activeCount": 1,
+    "cta": {
+      "bottom": 382,
+      "height": 50,
+      "left": 16,
+      "right": 256,
+      "top": 332,
+      "width": 240,
+      "x": 16,
+      "y": 332
+    },
+    "description": {
+      "bottom": 285.65625,
+      "height": 39.1875,
+      "left": 16,
+      "right": 304,
+      "top": 246.46875,
+      "width": 288,
+      "x": 16,
+      "y": 246.46875
+    },
+    "descriptionFont": "14px",
+    "floorDisplay": "block",
+    "height": 760,
+    "heroHeight": 590,
+    "inactiveInert": true,
+    "overflow": false,
+    "pack": null,
+    "scrollY": 0,
+    "title": {
+      "bottom": 184.15625,
+      "height": 90.15625,
+      "left": 16,
+      "right": 304,
+      "top": 94,
+      "width": 288,
+      "x": 16,
+      "y": 94
+    },
+    "unloaded": [],
+    "width": 320
+  }
+]

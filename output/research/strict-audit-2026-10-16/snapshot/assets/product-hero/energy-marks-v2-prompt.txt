@@ -1,0 +1,8 @@
+Mode: built-in image_gen transparent extraction
+
+Use case: background-extraction.
+Asset type: a separately animated decorative energy brush mark for the Novoferma website hero.
+Input image: the attached classic meatballs hero is an edit target for extracting its orange tapered brush strokes only.
+Primary request: create ONE small grouped cluster of TWO lively curved tapered orange brush strokes exactly like the two orange strokes between the small upper-left floating meatball and the larger top-center meatball in the reference. These are warm vivid orange hand-painted swoosh dashes. The first is a longer narrow crescent swoosh and the second is shorter, roughly parallel, both angled upward toward the right. Match the actual source stroke style, weight, taper, orange color and flowing shape; clean distinct shapes, no new decorative style.
+Composition/framing: square canvas, the pair of strokes centered in a tight visual group with at least 10% transparent padding at all edges.
+Constraints: actual transparent alpha background. Only two orange curved brush strokes. Remove ALL text, letter shapes, food, chicken, hearts, cream paper, hill, leaves, icons, logos, shadows or anything else. No checkerboard drawn into image, no white background, no big circular arc, no borders. This is a tiny decorative isolated graphic for layering with other assets.

@@ -1,0 +1,128 @@
+{
+  "nuggets-piece-v2": {
+    "png": "/Users/andrey/Desktop/сайт нф/output/concept/assets/product-hero/nuggets-piece-v2.png",
+    "webp": "/Users/andrey/Desktop/сайт нф/output/concept/assets/product-hero/nuggets-piece-v2.webp",
+    "prompt": "/Users/andrey/Desktop/сайт нф/output/concept/assets/product-hero/nuggets-piece-v2-prompt.txt",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBboxByThreshold": {
+      "0": [
+        0,
+        15,
+        1236,
+        1254
+      ],
+      "8": [
+        100,
+        146,
+        1213,
+        1176
+      ],
+      "32": [
+        101,
+        146,
+        1213,
+        1175
+      ],
+      "128": [
+        102,
+        147,
+        1212,
+        1175
+      ]
+    },
+    "alphaPreservedInWebp": true,
+    "webpBytes": 443178
+  },
+  "nuggets-cut-v2": {
+    "png": "/Users/andrey/Desktop/сайт нф/output/concept/assets/product-hero/nuggets-cut-v2.png",
+    "webp": "/Users/andrey/Desktop/сайт нф/output/concept/assets/product-hero/nuggets-cut-v2.webp",
+    "prompt": "/Users/andrey/Desktop/сайт нф/output/concept/assets/product-hero/nuggets-cut-v2-prompt.txt",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBboxByThreshold": {
+      "0": [
+        0,
+        20,
+        1238,
+        1254
+      ],
+      "8": [
+        74,
+        111,
+        1202,
+        1169
+      ],
+      "32": [
+        75,
+        111,
+        1202,
+        1167
+      ],
+      "128": [
+        75,
+        112,
+        1201,
+        1166
+      ]
+    },
+    "alphaPreservedInWebp": true,
+    "webpBytes": 456976
+  },
+  "lulia-mini-piece-v2": {
+    "png": "/Users/andrey/Desktop/сайт нф/output/concept/assets/product-hero/lulia-mini-piece-v2.png",
+    "webp": "/Users/andrey/Desktop/сайт нф/output/concept/assets/product-hero/lulia-mini-piece-v2.webp",
+    "prompt": "/Users/andrey/Desktop/сайт нф/output/concept/assets/product-hero/lulia-mini-piece-v2-prompt.txt",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBboxByThreshold": {
+      "0": [
+        0,
+        23,
+        1240,
+        1254
+      ],
+      "8": [
+        52,
+        164,
+        1147,
+        1139
+      ],
+      "32": [
+        52,
+        164,
+        1147,
+        1138
+      ],
+      "128": [
+        53,
+        165,
+        1146,
+        1138
+      ]
+    },
+    "alphaPreservedInWebp": true,
+    "webpBytes": 397188
+  }
+}

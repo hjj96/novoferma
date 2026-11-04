@@ -1,0 +1,1486 @@
+{
+  "captured_at": "2026-10-16T14:40:52.836944+03:00",
+  "source": "output/concept",
+  "files": {
+    "README.md": {
+      "sha256": "d5fb63722dbb29cb652db0539048dbb9d584efc583e7293443346cb4860a5396",
+      "bytes": 41096
+    },
+    "about.html": {
+      "sha256": "98e5d04c07fe44f2779f7ce4dff509732ea97cf4e1cb6a3b571cda6ca5aceb19",
+      "bytes": 7171
+    },
+    "assets/catalogue/bitochki-kurinye-s-ovoshchami-serving.webp": {
+      "sha256": "d482c09e021b9401e44d8b827d5977e1b325338035965ae64cbdd58e8fd1b880",
+      "bytes": 22994
+    },
+    "assets/catalogue/bitochki-kurinye-s-ovoshchami.webp": {
+      "sha256": "1e5504b7fe148b6757ae83ce972055ae793d899f96bd4e895e02ee08a71fac4c",
+      "bytes": 102342
+    },
+    "assets/catalogue/ezhiki-iz-tsyplenka-s-risom-serving.webp": {
+      "sha256": "c2a164d5083c45751287675205c4f3f1a8844352db513c394123c30928669234",
+      "bytes": 25686
+    },
+    "assets/catalogue/ezhiki-iz-tsyplenka-s-risom.webp": {
+      "sha256": "825129ea51e88896f09ded4f3f729d204b526b8842935481551f1b6156e95d4e",
+      "bytes": 109176
+    },
+    "assets/catalogue/frikadelki-klassicheskie-serving.webp": {
+      "sha256": "af6598544763d78e7fdd4ae3b2a2bf0209782c76b607309a968ef3fa40d98261",
+      "bytes": 26712
+    },
+    "assets/catalogue/frikadelki-klassicheskie.webp": {
+      "sha256": "35ce01ebe7c682fb43abeb2a2bbd01a4aafd39f5f1fce201c1ee9b3bbc21f442",
+      "bytes": 88736
+    },
+    "assets/catalogue/kotlety-kurinye-serving.webp": {
+      "sha256": "ceaded4557da23aa3b7512b6e1d2ed03b3e2b6d8ff6193c11fe490c29ca3c3a8",
+      "bytes": 34094
+    },
+    "assets/catalogue/kotlety-kurinye.webp": {
+      "sha256": "6b613b70ae920557f064066e918cd183a90beb9608e45c20f93e1b52a5159bb3",
+      "bytes": 95834
+    },
+    "assets/catalogue/kotlety-pikantnye-serving.webp": {
+      "sha256": "933498c7c3ffe29286fad44efb859f4d25fe0a80db617fffcf1240083df9d59e",
+      "bytes": 21494
+    },
+    "assets/catalogue/kotlety-pikantnye.webp": {
+      "sha256": "0d04d00ad201e6f600b0638f4b504664421f459fb6b325fbf2f25f5ccaf18833",
+      "bytes": 84866
+    },
+    "assets/catalogue/kotlety-po-domashnemu-serving.webp": {
+      "sha256": "8ab29c8922a6dce751d7256a98a4f24718119bd46a59b6a32ae8f118905c39fe",
+      "bytes": 24908
+    },
+    "assets/catalogue/kotlety-po-domashnemu.webp": {
+      "sha256": "7282d8d2ff6fc7566c810d32688e43100ab488a46bbed97fbdcc36d7eb0dee68",
+      "bytes": 87352
+    },
+    "assets/catalogue/kotlety-po-italyanski-serving.webp": {
+      "sha256": "a54711e23e68651532b53b9531fd42f6e231c34f47f8925f38adbaf9eeba128d",
+      "bytes": 22442
+    },
+    "assets/catalogue/kotlety-po-italyanski.webp": {
+      "sha256": "8fca1df377361753b70c6564c8cd0b1760b4d46c55a713dc47a96d36607914ff",
+      "bytes": 91274
+    },
+    "assets/catalogue/kurinyj-popkorn-serving.webp": {
+      "sha256": "5eb9ff8756a4dd70c333419d0c8060deb50fd454d6bacb3fbf908426ba183fe8",
+      "bytes": 36470
+    },
+    "assets/catalogue/kurinyj-popkorn.webp": {
+      "sha256": "4750a4b789c116582b825cfbe0f18bc24bdf4f2db267713ec3972eadc5706bff",
+      "bytes": 101838
+    },
+    "assets/catalogue/naggetsy-dinozavry-serving.webp": {
+      "sha256": "368e16a3005b84e0a2b218f7f69aa165d198df44f0ced50b631b4fac7ca62683",
+      "bytes": 40980
+    },
+    "assets/catalogue/naggetsy-dinozavry.webp": {
+      "sha256": "4f10f8de9bd8b5d842fa1b9868de266ed82167036250752a6d048ecaca1ae490",
+      "bytes": 101612
+    },
+    "assets/catalogue/naggetsy-kurinye-s-syrom-serving.webp": {
+      "sha256": "c8a342ffb4f75f98bcce60f1e4d5b7a42b59033dc86e7aa844b5405f3b7b7f57",
+      "bytes": 35874
+    },
+    "assets/catalogue/naggetsy-kurinye-s-syrom.webp": {
+      "sha256": "469c308fe903f807be69e86bc2e6d843c573e473f303903c23a1ddaca146e788",
+      "bytes": 118996
+    },
+    "assets/catalogue/naggetsy-kurinye-serving.webp": {
+      "sha256": "a21a9a44ef20423f3170a7b8af28f79f7f7193d03a2e7a0f5a10397d2bd8e291",
+      "bytes": 46136
+    },
+    "assets/catalogue/naggetsy-kurinye.webp": {
+      "sha256": "c72d8f0df15c97b08844a3891c3b13871ed1da6d9ff8adb3d33664480cc24276",
+      "bytes": 88534
+    },
+    "assets/catalogue/naggetsy-ostrye-serving.webp": {
+      "sha256": "c020937eb339a26edc89814bb18f7452a45228a084955aa6dbe03d13fcde0771",
+      "bytes": 51650
+    },
+    "assets/catalogue/naggetsy-ostrye.webp": {
+      "sha256": "8e0ce90f8493f46b32c4f4f5665476b9722cdedf7085f222180785c2ea16cd33",
+      "bytes": 115508
+    },
+    "assets/catalogue/naggetsy-s-indeykoy-fitnes-serving.webp": {
+      "sha256": "4789553ae033ec8afd5291593d9243d16281932028e1c5f4d6995aaeceb34866",
+      "bytes": 41128
+    },
+    "assets/catalogue/naggetsy-s-indeykoy-fitnes.webp": {
+      "sha256": "26bb87bae00811ce640268a34749d1991b5c77560ee38d6c16c6d2834e2d9826",
+      "bytes": 92292
+    },
+    "assets/catalogue/stripsy-serving.webp": {
+      "sha256": "e1adf5e6726b788845856d681c34940940f83626619726d3af13b9faec5cb80d",
+      "bytes": 36874
+    },
+    "assets/catalogue/stripsy.webp": {
+      "sha256": "f07d300cfb1f992cc0f954d1570dd8108177b599064e583965d69b9622672ac3",
+      "bytes": 87832
+    },
+    "assets/catalogue-clean-v2/bitochki-kurinye-s-ovoshchami.webp": {
+      "sha256": "5db5969124c2791292c53d56c28a63bef38c27a20fdc14eb0919c887e1a12411",
+      "bytes": 501724
+    },
+    "assets/catalogue-clean-v2/ezhiki-iz-tsyplenka-s-risom.webp": {
+      "sha256": "1d1a2e591f36d6a300b591011ce57a06a1bd3628a6cc37aa87fe1bccede15a3e",
+      "bytes": 510218
+    },
+    "assets/catalogue-clean-v2/frikadelki-klassicheskie.webp": {
+      "sha256": "e0ef4bbbecfe65061937b6646de46bdee91fdabcd6d254cc6a29f96dd0039f46",
+      "bytes": 497636
+    },
+    "assets/catalogue-clean-v2/kotlety-kurinye.webp": {
+      "sha256": "a1ed28995b7173bc384fce8ad7feb6c42733a53b553c0d4473357d9e971060c8",
+      "bytes": 520016
+    },
+    "assets/catalogue-clean-v2/kotlety-pikantnye.webp": {
+      "sha256": "aed06aa16b740109727e1064615ffac54497385c00f4eeec34776342125e6d53",
+      "bytes": 488268
+    },
+    "assets/catalogue-clean-v2/kotlety-po-domashnemu.webp": {
+      "sha256": "4b30908e07d8c2c547da6dae2440a232843d0881de90c22995e6efbbdf0e87b6",
+      "bytes": 488560
+    },
+    "assets/catalogue-clean-v2/kotlety-po-italyanski.webp": {
+      "sha256": "4e765a90803c44c5747c444157d354824e6e6badf660ebcb5f578890a97319a8",
+      "bytes": 514540
+    },
+    "assets/catalogue-clean-v2/kurinyj-popkorn.webp": {
+      "sha256": "d707c51a12f21c479fd1db1aae0b1e5e6e3081dad744c1a282211b89f2c3a6b5",
+      "bytes": 545294
+    },
+    "assets/catalogue-clean-v2/naggetsy-dinozavry.webp": {
+      "sha256": "d8f755c7c072bb21bbe59efd24aab9f93018f4a02d65037eb12689b374dadef1",
+      "bytes": 555360
+    },
+    "assets/catalogue-clean-v2/naggetsy-kurinye-s-syrom.webp": {
+      "sha256": "070a49d8a63b2d18364234b81399a1d03ed594609800636b178460f88b7fd25c",
+      "bytes": 587546
+    },
+    "assets/catalogue-clean-v2/naggetsy-kurinye.webp": {
+      "sha256": "712fb64988d07e1b04baf355fa459fb92fb9b374125145e78a4f6ee889bd7e06",
+      "bytes": 509862
+    },
+    "assets/catalogue-clean-v2/naggetsy-ostrye.webp": {
+      "sha256": "d5c86a9db246e9dcce2d9d1f8fd497d7e2054922fa2b18c0124cb786335a5803",
+      "bytes": 576496
+    },
+    "assets/catalogue-clean-v2/naggetsy-s-indeykoy-fitnes.webp": {
+      "sha256": "68b47a02fce8b526fc79f0d481f886196c44d264ab18def252d119b6c9a59dc6",
+      "bytes": 521720
+    },
+    "assets/catalogue-clean-v2/provenance.json": {
+      "sha256": "081ca918b9d6db5ff62b94f16da2730f2d8dc005106807661d1a27764f4f1c89",
+      "bytes": 15242
+    },
+    "assets/catalogue-clean-v2/stripsy.webp": {
+      "sha256": "04f43af045888294da54d2a746f9c4ef3d121efed07830296603f9dcbfbf90e8",
+      "bytes": 527268
+    },
+    "assets/catalogue-cutout/bitochki-kurinye-s-ovoshchami-front-v1.webp": {
+      "sha256": "df48c114a40c325f695ae3c3a69e1e76ac41d3f774df70f0aec2deed98fe27f8",
+      "bytes": 537812
+    },
+    "assets/catalogue-cutout/bitochki-kurinye-s-ovoshchami.webp": {
+      "sha256": "ca1402cf5854bfb5bdcbee66d038f32e70a2c4cf0c66597b55eef49e452d61b5",
+      "bytes": 389994
+    },
+    "assets/catalogue-cutout/ezhiki-iz-tsyplenka-s-risom-front-v1.webp": {
+      "sha256": "0961af5ec3cb4f2fc164fda442a53b9ce77fbd092309520b4a68a7d2ccaf99c2",
+      "bytes": 514728
+    },
+    "assets/catalogue-cutout/ezhiki-iz-tsyplenka-s-risom.webp": {
+      "sha256": "ec01fd0c5e37753e74432b0a6553c0a9285bd8a238f07c236dbff20e9b35c8de",
+      "bytes": 404176
+    },
+    "assets/catalogue-cutout/frikadelki-klassicheskie.webp": {
+      "sha256": "bf1f81e93c22349b61795458d8b7bbe8f94ef03f2496d9e1c893a5dae6c2cc8d",
+      "bytes": 368814
+    },
+    "assets/catalogue-cutout/front-view-edits.json": {
+      "sha256": "2296899ff0ce27a318f9177eb03441b54ed24afc34f892117bde995d36e2b1ca",
+      "bytes": 2518
+    },
+    "assets/catalogue-cutout/kotlety-kurinye.webp": {
+      "sha256": "9bd144fc96ad55808ffc03ffe2f29e2f2c7945ec9deb8ad1ad0d2dae43226b13",
+      "bytes": 397336
+    },
+    "assets/catalogue-cutout/kotlety-pikantnye.webp": {
+      "sha256": "7eedbaba28dc34a7cf391cbd968ff26520b760b44c49788ddab88daa19b60aa9",
+      "bytes": 367556
+    },
+    "assets/catalogue-cutout/kotlety-po-domashnemu.webp": {
+      "sha256": "a6712121c44cd15ca7a1d0927149cc59a3a2b69299afff7bbc73503d3288cfbf",
+      "bytes": 374526
+    },
+    "assets/catalogue-cutout/kotlety-po-italyanski.webp": {
+      "sha256": "aeb01a336d3d2cbcec105f3e08c3c605fcca1bcb6ace8cfae470dda5e36971e0",
+      "bytes": 382124
+    },
+    "assets/catalogue-cutout/kurinyj-popkorn.webp": {
+      "sha256": "4fb8eb35d4240d2a213e87ad1909f1700f844ccfe9e877eca5d8bf96bfc8d1ed",
+      "bytes": 423600
+    },
+    "assets/catalogue-cutout/manifest.json": {
+      "sha256": "4f63722625f76e2024c86b7226a82b1ba1a24746d331055e3115420a8ba2c3ca",
+      "bytes": 5406
+    },
+    "assets/catalogue-cutout/naggetsy-dinozavry.webp": {
+      "sha256": "400ae6814267a5132e663b8efb2ddc5d7b577e6bb52ba8b2aec996e7f99c22d6",
+      "bytes": 414296
+    },
+    "assets/catalogue-cutout/naggetsy-kurinye-s-syrom.webp": {
+      "sha256": "41d33988088a24b5f180edaac84c34be0321f58f9ab8bbb5b8b70c83e3e88c67",
+      "bytes": 518492
+    },
+    "assets/catalogue-cutout/naggetsy-kurinye.webp": {
+      "sha256": "fe4a70f609c9bda07ea07230a72d113cf0d445d298966e9400c7b51f386b9f81",
+      "bytes": 381180
+    },
+    "assets/catalogue-cutout/naggetsy-ostrye.webp": {
+      "sha256": "2061dcbc34346221575853c3d19517a8b29a69f4114ad1b2a227b7be06120ec6",
+      "bytes": 500598
+    },
+    "assets/catalogue-cutout/naggetsy-s-indeykoy-fitnes.webp": {
+      "sha256": "f4a8afc72fa1c99701188d92ed0db439434c07ba4296c5a18195d905be25fcba",
+      "bytes": 381194
+    },
+    "assets/catalogue-cutout/stripsy.webp": {
+      "sha256": "42e6958c8b8680699892d96ba95d1dd9f7915f630594347cf6ce83fce5175466",
+      "bytes": 374578
+    },
+    "assets/depth/hero-composition.webp": {
+      "sha256": "0b963ea9d9426ebedcb311e03a6f07f16a824775874f94a888c48c9840f8f120",
+      "bytes": 297386
+    },
+    "assets/depth/hero-preview.jpg": {
+      "sha256": "96baadbb13057f0b655e12de6913d468be7c5392be7844827a00b01a78837ed1",
+      "bytes": 326597
+    },
+    "assets/depth/manifest.json": {
+      "sha256": "4fabe2de6d9941ded571a4ffb43f041f26ed30152fa3ecada4d2e3af30748f27",
+      "bytes": 2025
+    },
+    "assets/depth/meatball.webp": {
+      "sha256": "b7439a99cc270b519ce978049a55f845425489853a97f043cac40bb519e86901",
+      "bytes": 117144
+    },
+    "assets/depth/nugget.webp": {
+      "sha256": "00c18c5f8cc91eb1cb10c6cf2b988f1134906aa4931d0ddda470dbca30467112",
+      "bytes": 150872
+    },
+    "assets/depth/preview.jpg": {
+      "sha256": "5eeb0c4da64245ac754c01de325a79407f0729b08bc3686cff8553183998de9a",
+      "bytes": 291655
+    },
+    "assets/depth/strip.webp": {
+      "sha256": "a895f6d4fed246a814e335c8c3d2f147c09039c60b924f7085bbd99b57412ba4",
+      "bytes": 58086
+    },
+    "assets/fonts/BadScript-Regular.ttf": {
+      "sha256": "40ec737eee65ec4efbc24ae636fa31d7d84d1ccca83ab54cd555edb72cb3eaf0",
+      "bytes": 184216
+    },
+    "assets/fonts/BadScript-Regular.woff2": {
+      "sha256": "4dc1c5c80d9a4c9664906eb33bfd0b902dc1f2dd895dae04af9676ae38ed7fa4",
+      "bytes": 80240
+    },
+    "assets/fonts/Caveat-wght.ttf": {
+      "sha256": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+      "bytes": 403648
+    },
+    "assets/fonts/Caveat-wght.woff2": {
+      "sha256": "39a54b4ed3075c9f9dfa44f8cd87a809c6fe7078a41ad08da767f499d35e71fc",
+      "bytes": 173472
+    },
+    "assets/fonts/GolosText-wght.ttf": {
+      "sha256": "17bb58fb69aec2dfb047a2ebf52534023e9b688c97a6b7ac795b0a72912c2063",
+      "bytes": 184292
+    },
+    "assets/fonts/GolosText-wght.woff2": {
+      "sha256": "06e84be21d8d371638e68630019d8a2b4bc436d883e0be43f6a9f8d5994b0019",
+      "bytes": 76536
+    },
+    "assets/fonts/MarckScript-Regular.ttf": {
+      "sha256": "504de8cc6f919163bc9afb67b9bc208d258230c5e8d00cb82ec52474f9fafc3b",
+      "bytes": 83664
+    },
+    "assets/fonts/MarckScript-Regular.woff2": {
+      "sha256": "62abe981485df9e10f23c0d71a94a1219face66877004ce7bfdcc2220f6ec5f1",
+      "bytes": 27320
+    },
+    "assets/fonts/OFL-BadScript.txt": {
+      "sha256": "0b742ad45c246502b6d56c62146011e37098978b8feb5970d7da313553dedd91",
+      "bytes": 4390
+    },
+    "assets/fonts/OFL-Caveat.txt": {
+      "sha256": "1f9d81d094273d82f3898a1ee8b598a717d050ecbf5ff7bede105b704880157b",
+      "bytes": 4385
+    },
+    "assets/fonts/OFL-GolosText.txt": {
+      "sha256": "ff532f9e8789f09a9fdffc3c0954eedfb0a48be77b2e2eb90f5f82e4f347f50c",
+      "bytes": 4394
+    },
+    "assets/fonts/OFL-MarckScript.txt": {
+      "sha256": "f22a2beea88d631a620b15683fd03e79f13ad3297ad97fa5e42283c0b1a3a038",
+      "bytes": 4420
+    },
+    "assets/fonts/OFL-Onest.txt": {
+      "sha256": "071195d8806e226faeee60259c28ca67b458227af5195a73f5cfcab06e3003bc",
+      "bytes": 4384
+    },
+    "assets/fonts/OFL-RobotoFlex.txt": {
+      "sha256": "9cbaed04b20c853f99840efe5dc96956f6f6120ed83a0ade35f9281a2b63e5d0",
+      "bytes": 4488
+    },
+    "assets/fonts/OFL-Rubik.txt": {
+      "sha256": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+      "bytes": 4384
+    },
+    "assets/fonts/Onest-wght.ttf": {
+      "sha256": "966c5c29b4755da84b6854d5c21dd4eaa2420225d0e9874de602de176d4a9f31",
+      "bytes": 193056
+    },
+    "assets/fonts/Onest-wght.woff2": {
+      "sha256": "c986a41a2baaa094107240854a20513b18d60c1dc928d2e1d771b928e324d8a1",
+      "bytes": 84076
+    },
+    "assets/fonts/RobotoFlex-Protein.woff2": {
+      "sha256": "044509f713cf7f9ca5aab2346d3eaaa253b615242c6faeb8a9f2250c98cab208",
+      "bytes": 38644
+    },
+    "assets/fonts/RobotoFlex-wght.woff2": {
+      "sha256": "f7ccc1baeeba9f4d270d8635a92cd94f85b3055c1cabddfa3f59e6a58d619d86",
+      "bytes": 791808
+    },
+    "assets/fonts/Rubik-wght.woff2": {
+      "sha256": "c3fb5e71208ff9afab8469c688cef72f7738bde494e4bdb950360f3af47547ee",
+      "bytes": 65868
+    },
+    "assets/fonts/font-face.css": {
+      "sha256": "fbc8e57b184e745ec3e08507a19eb9af77fe99b0b2a8a44bacb7cd672b1cd1f1",
+      "bytes": 733
+    },
+    "assets/hero-meatballs-1280.webp": {
+      "sha256": "5b3892a38e815087ef625aa1cb61c5512a9f88f68600f0b93c65ea9f0cf8f891",
+      "bytes": 226430
+    },
+    "assets/hero-meatballs-720.webp": {
+      "sha256": "c1132d25675552d74aec48ef04a1634a5f47b83b26624f2fbab897ed127d84e3",
+      "bytes": 84350
+    },
+    "assets/hero-reference-orange.webp": {
+      "sha256": "fb7741d9004989971151b8f804ba7315117ba8b5e398be9a68dbb821730e540c",
+      "bytes": 314506
+    },
+    "assets/hero-reference.webp": {
+      "sha256": "fd70d023eba2c57f470726fdf458a0cde5c11abe95c134f00f347b0f583190a7",
+      "bytes": 289446
+    },
+    "assets/icons/LICENSE-Tabler.txt": {
+      "sha256": "b740a1d46122672da62833e97f7e7c8a13fa85cbc7445b584b297cc00dde93db",
+      "bytes": 1073
+    },
+    "assets/icons/arrow-left.svg": {
+      "sha256": "12af90f1bb49b7ae62792ecf38d2fa8b39daa4753e39ebc3520d07482a90704f",
+      "bytes": 433
+    },
+    "assets/icons/arrow-right.svg": {
+      "sha256": "7e602a26d53e78ceb788f38cb89ec1d1091130c56d7829ca294b7ed0642277c6",
+      "bytes": 428
+    },
+    "assets/icons/arrow-up-right.svg": {
+      "sha256": "b7d952b0b6fbd089b110d85639ffffc001bb41fe53040e5e7f3e3f65ddc22595",
+      "bytes": 430
+    },
+    "assets/icons/arrow-up.svg": {
+      "sha256": "c0a58436629c59996826b7980b0cbdfff51bfa289eefb2cceee494a964c5105e",
+      "bytes": 421
+    },
+    "assets/icons/barbell.svg": {
+      "sha256": "c5fbfe4fc69a80eb784d4e187110668720d26a43298ebb12399a918caa15abf1",
+      "bytes": 727
+    },
+    "assets/icons/heart.svg": {
+      "sha256": "332be1c5c3a67df766c69da053a0eb29a11aa74a262f4422b82bceaaf098b1e8",
+      "bytes": 442
+    },
+    "assets/icons/leaf.svg": {
+      "sha256": "ca3b92ae35e9b8e7e94746cc4e51301ee2f85b4760a03a62250eb418f39a063a",
+      "bytes": 486
+    },
+    "assets/icons/menu-2.svg": {
+      "sha256": "bcef199c5e53082a56c7bf33d4c48181b71373eb5d923cce8884aca09d106842",
+      "bytes": 438
+    },
+    "assets/icons/player-pause.svg": {
+      "sha256": "d9be9ab25e52cdcae17def18d41edc0855fa44caa8492cde2b5b8cd085e8c5a6",
+      "bytes": 528
+    },
+    "assets/icons/player-play.svg": {
+      "sha256": "e2bff69284f1dc77224c47c03798017206a29d4ef665549db724b0a4534d8e5c",
+      "bytes": 398
+    },
+    "assets/icons/search.svg": {
+      "sha256": "3dd53b9606283dfa0adcb0b10a7d9a4432369d4bebcfacf67f80fbe358381c34",
+      "bytes": 433
+    },
+    "assets/icons/x.svg": {
+      "sha256": "9350785360414c39450c3505f17d1745e55a7534edace8548e30cf49e3727d43",
+      "bytes": 406
+    },
+    "assets/loading-meatball.webp": {
+      "sha256": "f6bf460b77673826f39f85306935c30397af9e2743428c418af8e47854f20638",
+      "bytes": 26834
+    },
+    "assets/logo-reference.webp": {
+      "sha256": "43e13b95e3cc78490ab928dce851531b8d887827b80cbef5d22d026edc7796bd",
+      "bytes": 4156
+    },
+    "assets/mascot-contact-restored-v2-prompt.txt": {
+      "sha256": "aa15ffcfc267dbb86542ea2f7e49288ea50e7bc65364c3d0ed5b94a9ad5f351f",
+      "bytes": 1389
+    },
+    "assets/mascot-contact-restored-v2.webp": {
+      "sha256": "8fe205be286c77780f897005ebdbbc56754a758e5f30118f0747cb40fd2a3143",
+      "bytes": 1535898
+    },
+    "assets/mascot-contact.webp": {
+      "sha256": "65cbf93bbe80a7a5ad11517342826136e8369d631d63eebb56d7e839bc21ae4f",
+      "bytes": 162316
+    },
+    "assets/mascot-partnership-v2-prompt.txt": {
+      "sha256": "9fc955fae3d88bf4ca37bb659a7f135994697fb8a248d42e4b8349b6fcecd4f5",
+      "bytes": 1780
+    },
+    "assets/mascot-partnership-v2.png": {
+      "sha256": "d00ed0d3d49c728d078220b81480cb580f5864d30937b2c5456f6ff71199d3b1",
+      "bytes": 1431744
+    },
+    "assets/mascot-partnership-v2.webp": {
+      "sha256": "66fd6b8d2d01987bd9bd3e14ff3ed76b39f47250b1418345bf6ef126ce1ddc93",
+      "bytes": 1014060
+    },
+    "assets/mascot-reference.webp": {
+      "sha256": "65cbf93bbe80a7a5ad11517342826136e8369d631d63eebb56d7e839bc21ae4f",
+      "bytes": 162316
+    },
+    "assets/meatball-cluster.webp": {
+      "sha256": "3945f24819284c0fa989c8f14c04b893bf8aef5855e9a7c618450a9e8533094a",
+      "bytes": 302810
+    },
+    "assets/meatball-float.webp": {
+      "sha256": "b7439a99cc270b519ce978049a55f845425489853a97f043cac40bb519e86901",
+      "bytes": 117144
+    },
+    "assets/meatballs-360.webp": {
+      "sha256": "90f47440eb2ecc55ef0411bd8e488dc34389facb655911526ba84278a8f4ac2b",
+      "bytes": 30112
+    },
+    "assets/meatballs-600.webp": {
+      "sha256": "d77224ad1f02035fbf071a0dba996f6a27ce9b87c6a819eb60a5b04f18122e9a",
+      "bytes": 73772
+    },
+    "assets/novelty-packaging/fibriki-pack-v1.webp": {
+      "sha256": "926b6958f7c2b2acba2a31fc51e34ea9e553acf06cb323edb0364e9734d1f829",
+      "bytes": 541606
+    },
+    "assets/novelty-packaging/fibriki-pack-v2.webp": {
+      "sha256": "b96aebc69c9386e91f256dc38fbadedcc651bd8a92d5d7558867833dfa3b93e0",
+      "bytes": 483234
+    },
+    "assets/novelty-packaging/fibriki-pack-v3.webp": {
+      "sha256": "1bb9798c32b13242fd621ecf463b2a3d8847dbc6e2a9831b6c6008ede1a2f00d",
+      "bytes": 470148
+    },
+    "assets/novelty-packaging/fibriki-pack-v6.webp": {
+      "sha256": "2fdecf5cf86987f0471a22a2c39179da07db75d4238192da4574e527084e115d",
+      "bytes": 432140
+    },
+    "assets/novelty-packaging/fibriki-pack-v8.webp": {
+      "sha256": "8ee54e56ebfa0c586d4fa7576ec78df85c6effc15a678ec2814555df85b5c343",
+      "bytes": 428532
+    },
+    "assets/novelty-packaging/fibriki-pack-v9.webp": {
+      "sha256": "ec0f05989f9a753c8e59336ce05976151324f91927a2ad11f30ff9f38d8bb901",
+      "bytes": 443204
+    },
+    "assets/novelty-packaging/lulia-mini-pack-v1.webp": {
+      "sha256": "4d76fbb56acfd80ef5662aee0b276f68416dcb2ad1540c7db45b4158decad0e4",
+      "bytes": 556508
+    },
+    "assets/novelty-packaging/lulia-mini-pack-v2.webp": {
+      "sha256": "87f3ceba3f543895b6caea5b3178e1fd8fa183023955b032befab6111b11c011",
+      "bytes": 499556
+    },
+    "assets/novelty-packaging/lulia-mini-pack-v3.webp": {
+      "sha256": "5406742c35631a8b6ac22e29baac8652b9ae4c9eb6fe39141938eab24bea784f",
+      "bytes": 471458
+    },
+    "assets/novelty-packaging/provenance.json": {
+      "sha256": "d62d79632089baddad70e3c8c81a8530cffe182ec099dda65cdbc66933ef4282",
+      "bytes": 14435
+    },
+    "assets/nuggets-360.webp": {
+      "sha256": "4a8df3655ce354d1453d34b1c1633a54c3026b1a1da4aff039c9bb56e2e3e37d",
+      "bytes": 26300
+    },
+    "assets/nuggets-600.webp": {
+      "sha256": "3768b919d31eaa3e51e1417486bba48bef84d2d4fee68676e8e43e856ff10bf6",
+      "bytes": 62056
+    },
+    "assets/pack-nuggets.webp": {
+      "sha256": "64d8022e29ee9080aa13b53deba7f8253241c153a1d0b866d7710123a645ce9f",
+      "bytes": 104792
+    },
+    "assets/pack-popcorn.webp": {
+      "sha256": "7a68ea124486b6d78f6bbd22ad55e9ede44cf787026fdcea5d74fff80c0dc05a",
+      "bytes": 115618
+    },
+    "assets/pack-strips.webp": {
+      "sha256": "af283be1446bf13edccdb59f2116f692e730483ba282ee41191dc1824489e68c",
+      "bytes": 105982
+    },
+    "assets/partners-hero-v3/README.md": {
+      "sha256": "f9a72f0c9dee011ac119d45326fbb43f66f934d5eb0035e9c4f8d9ff02aae1f2",
+      "bytes": 3019
+    },
+    "assets/partners-hero-v3/business-partners-alpha-prompt.txt": {
+      "sha256": "9f87909037f789bba0853eae1207f793dada18e4e5972358f6b8fdd20de5b201",
+      "bytes": 1539
+    },
+    "assets/partners-hero-v3/business-partners-prompt.txt": {
+      "sha256": "f16067737a6e0e078fbd9a466e855567ce0ee7076e199a6d22670f517c04089f",
+      "bytes": 3804
+    },
+    "assets/partners-hero-v3/business-partners-v1.png": {
+      "sha256": "1256f4ebdf040c5572ba30d48f75e052818ce33e326f179f1608d92c42689198",
+      "bytes": 2637676
+    },
+    "assets/partners-hero-v3/business-partners-v1.webp": {
+      "sha256": "acc14c7884947aafa76dd53c220fdd7fff01ec58358e99f84c0a9655704f1736",
+      "bytes": 409612
+    },
+    "assets/partners-hero-v3/business-partners-v2.png": {
+      "sha256": "12b1c2534c522df056f062086cc815178beedc27154e50cc382bdd359b011c9e",
+      "bytes": 2511830
+    },
+    "assets/partners-hero-v3/business-partners-v2.webp": {
+      "sha256": "99825aa9d20c8ebef28a79f6d705c0ad84a3e89257870c435053d97b1aaec48b",
+      "bytes": 415604
+    },
+    "assets/partners-hero-v4/README.md": {
+      "sha256": "11e71381b7588e842eec394aa64fd223378c916ef450cdd99c7fa64ef73a1801",
+      "bytes": 2915
+    },
+    "assets/partners-hero-v4/brand-handshake-prompt.txt": {
+      "sha256": "005e6ced7ff1e9e5d948276eff937e55644deb0e44ede5ad62ea9bef2ec3587f",
+      "bytes": 3135
+    },
+    "assets/partners-hero-v4/brand-handshake-v1.png": {
+      "sha256": "f8de7f7a2ff564cb6564f352b32740d207323bbf370add9b006e6cb1848bb888",
+      "bytes": 2327692
+    },
+    "assets/partners-hero-v4/brand-handshake-v1.webp": {
+      "sha256": "f516f5c1dae26c80f605d92ff44e1f854a4accb3085ef573a1409ce000d0d368",
+      "bytes": 372084
+    },
+    "assets/partners-scenes-v2/README.md": {
+      "sha256": "e01338dc9be6cb947efda44ef983db1a890b85d22b92d0f02cfb0a7f5d2ea295",
+      "bytes": 2878
+    },
+    "assets/partners-scenes-v2/handshake-v1-prompt.txt": {
+      "sha256": "dfd6b146e17af0025d38cf34e36c6a77a4cae6e6d2e268968584ed81ac997384",
+      "bytes": 2832
+    },
+    "assets/partners-scenes-v2/handshake-v1.png": {
+      "sha256": "673d14cd056529b64553642904c4f3516e97399d8ec4637934f64c83bf692bac",
+      "bytes": 1428150
+    },
+    "assets/partners-scenes-v2/handshake-v1.webp": {
+      "sha256": "af5b83ac304071c80d340da54da2805d50ee1844ea2f69fba96a90c3ae0450e8",
+      "bytes": 345420
+    },
+    "assets/partners-scenes-v2/retail-v1-prompt.txt": {
+      "sha256": "9c8e8a66ff03ef1ecb98927ec49455e6e3bc5dabd159f3aaa157b34f56774d45",
+      "bytes": 3086
+    },
+    "assets/partners-scenes-v2/retail-v1.png": {
+      "sha256": "e791f5518eddb9a9414c3653e2367833a7e55717198bbcd53e136a430bcf90fe",
+      "bytes": 2447996
+    },
+    "assets/partners-scenes-v2/retail-v1.webp": {
+      "sha256": "e227ce34dbe787d6e480e4c8cb82d0f9a6b28c7bbe42b04f8f7dc49adac93ddc",
+      "bytes": 451320
+    },
+    "assets/partners-scenes-v2/retail-v2-prompt.txt": {
+      "sha256": "add086b9e2ae56ccdb753a0e83e1925d6da7ad0ebe30e6885686898cc38bb1f4",
+      "bytes": 1637
+    },
+    "assets/partners-scenes-v2/retail-v2.png": {
+      "sha256": "373deec16294b729c332f9c31b6f2b28d9b806d0816442417064cea86af29fd1",
+      "bytes": 2265404
+    },
+    "assets/partners-scenes-v2/retail-v2.webp": {
+      "sha256": "6bf0f994cbebfecebae6f0b61766474da1c34efc42c2d1095ceb3004bef6e51a",
+      "bytes": 427958
+    },
+    "assets/partners-scenes-v2/stm-v1-framing-prompt.txt": {
+      "sha256": "79b9744ee7ac3fec0efe57e79c2d9bba01bf7355737c8056ab9d165b51afa70d",
+      "bytes": 857
+    },
+    "assets/partners-scenes-v2/stm-v1-prompt.txt": {
+      "sha256": "c571dc9c2ae51a6c37c8c3947199682cde157126bf0961e9e6bcc530e9a41ae2",
+      "bytes": 3691
+    },
+    "assets/partners-scenes-v2/stm-v1.png": {
+      "sha256": "c72e0a2118f7ee03c8b2c4e6041916b141c793935e202ed505b986ee199c50f4",
+      "bytes": 1443797
+    },
+    "assets/partners-scenes-v2/stm-v1.webp": {
+      "sha256": "2a7b408246eb9496ae65dfcce4a1cba719a21469ae9c0fba6590525ffcebcef7",
+      "bytes": 356138
+    },
+    "assets/partners-stm-workshop-v1/README.md": {
+      "sha256": "f6f00d75fa4d0fcf3ffaa5bf8b3124063f5137167a641036af6bdb6fdefb737e",
+      "bytes": 5503
+    },
+    "assets/partners-stm-workshop-v1/prompt.txt": {
+      "sha256": "146c897cc268231604a5f15722ff32b3ddecb335f6b88c4cb8b2486b14e5a0da",
+      "bytes": 5325
+    },
+    "assets/partners-stm-workshop-v1/workshop-v1.png": {
+      "sha256": "97f94703bfc5c854f0474dec0b8b2834ceceb138a57f6e29404eb68ae6c59bf4",
+      "bytes": 2486529
+    },
+    "assets/partners-stm-workshop-v1/workshop-v1.webp": {
+      "sha256": "8a90fad144487ffffc3094b720fd55ec3d61182da80a69ac26e516e06798f35f",
+      "bytes": 343346
+    },
+    "assets/partners-store-v1/README.md": {
+      "sha256": "a05572d69efe51c4a0e153d30f1458ae474082b90eeb24d5b12b705601a13aa7",
+      "bytes": 6947
+    },
+    "assets/partners-store-v1/prompt-v2.txt": {
+      "sha256": "c7e5ee41b90d2940586dddc19e79d7a43ad97454c0903a1eba95f32473a93338",
+      "bytes": 1202
+    },
+    "assets/partners-store-v1/prompt.txt": {
+      "sha256": "0e5a8edeef91b1fbabc0d089b1838db30240db69f18da0ae0d89196a3e649b63",
+      "bytes": 4512
+    },
+    "assets/partners-store-v1/store-scene-v1.png": {
+      "sha256": "f5e67da322d6f7fbe58733cbdbc72668b55cbaa193959197b3fb1fbf3dd97b92",
+      "bytes": 2720321
+    },
+    "assets/partners-store-v1/store-scene-v1.webp": {
+      "sha256": "d2863908b144533c77b115d10b3eabc7ca3fb19f0d87154a552d7e5540e164be",
+      "bytes": 396784
+    },
+    "assets/partners-store-v1/store-scene-v2.png": {
+      "sha256": "95f7d447220ce529b1186fcc0e4096408fbc49bd6e09c8fbcae2de16cfd0484d",
+      "bytes": 2457090
+    },
+    "assets/partners-store-v1/store-scene-v2.webp": {
+      "sha256": "459f1358f5b519fac719719793bfca102f3b9a5996f9be2bfe2b087a636f7425",
+      "bytes": 318598
+    },
+    "assets/product-hero/README.md": {
+      "sha256": "2577086e386a20434d15c19cf4a2c12aeb62fa4640b592d0a939406272e2e414",
+      "bytes": 18644
+    },
+    "assets/product-hero/art-layout-v4.json": {
+      "sha256": "924b0ceeac83b9e269d756d074b6ab06154d38e71b8bd6179e3357c36af74256",
+      "bytes": 1256
+    },
+    "assets/product-hero/background-v2-prompt.txt": {
+      "sha256": "e515740fe5640cd45c143f18a935c4bf9d2b5006a7c78bf6ee847f900a516d7d",
+      "bytes": 1554
+    },
+    "assets/product-hero/background-v2.png": {
+      "sha256": "35e2d0c1a64fa711886a1d33f8f1a95a74e2896eb0ca1827f7295109c8c2775b",
+      "bytes": 1546375
+    },
+    "assets/product-hero/background-v2.webp": {
+      "sha256": "b9fdef9d25b742946812aaabeabd50d570c5a4be0f3713e3883ef887949c0f09",
+      "bytes": 44500
+    },
+    "assets/product-hero/benefit-brush-v11-prompt.txt": {
+      "sha256": "0968c56a886c62f99204dc3c5cf495adffef1714b9ccfdfbf1629d06192fe72f",
+      "bytes": 2000
+    },
+    "assets/product-hero/benefit-brush-v11.png": {
+      "sha256": "323417e4b91802b371718518f735175f33d60ee7aece6aa41406fd04cde4f0d7",
+      "bytes": 905882
+    },
+    "assets/product-hero/benefit-brush-v11.webp": {
+      "sha256": "499469b285652de9870a70dad878616f92cf3fa1e2383cce50127820cc0bcd28",
+      "bytes": 177342
+    },
+    "assets/product-hero/energy-marks-v2-prompt.txt": {
+      "sha256": "291d88ad23fd34ca0fe8b233eee2766598bc186bd8d4d7cde1ade90e01689c73",
+      "bytes": 1364
+    },
+    "assets/product-hero/energy-marks-v2.png": {
+      "sha256": "3ef95b20adce9bcfb6ccdc4a4da62f690906e1a2c329d9531fd671739a7b4587",
+      "bytes": 119456
+    },
+    "assets/product-hero/energy-marks-v2.webp": {
+      "sha256": "a75b243e79450eb941d06d6e08ba19bd95836eab3e7a22da80d57cc9bf08b474",
+      "bytes": 35496
+    },
+    "assets/product-hero/fibriki-art-v4-prompt.txt": {
+      "sha256": "98cbca4188e10e223ea3fcc4cbcae59a26667b530db4b1d72f1c438f6c175a43",
+      "bytes": 2030
+    },
+    "assets/product-hero/fibriki-art-v4.png": {
+      "sha256": "82e537e985adb9cd969dec33b6f06d351dc923babac197bfba154a0923330327",
+      "bytes": 680706
+    },
+    "assets/product-hero/fibriki-art-v4.webp": {
+      "sha256": "3655764dc4d0fd2619983da581e77aa77ea04d546cf5f4ba3889960c8ace6e03",
+      "bytes": 208836
+    },
+    "assets/product-hero/fibriki-cut-v2-prompt.txt": {
+      "sha256": "90124c33008e6847405eb9e64ae04bd4a357dbe3369b46a24032dc9582479e0f",
+      "bytes": 1695
+    },
+    "assets/product-hero/fibriki-cut-v2.png": {
+      "sha256": "36847df540fc553d3194d39d91c5acc8d02109dece61321490c818fb0fa82186",
+      "bytes": 1960667
+    },
+    "assets/product-hero/fibriki-cut-v2.webp": {
+      "sha256": "ade4cf507c70e76e347024e8efd776aaaa95dc36bd943b67f2c6238a16416ad0",
+      "bytes": 512774
+    },
+    "assets/product-hero/fibriki-piece-v2-prompt.txt": {
+      "sha256": "94ed4037696f3c6d89f79f9856bd2308ac3017171deab635414a7d4fd2b08862",
+      "bytes": 1469
+    },
+    "assets/product-hero/fibriki-piece-v2.png": {
+      "sha256": "d3d3be2df9edd02c2fe78dd8f1f0537697367a8e03275c15c0d1ffb9b93147cf",
+      "bytes": 2095020
+    },
+    "assets/product-hero/fibriki-piece-v2.webp": {
+      "sha256": "32a468b9eda389393bd7a9afaeb6ad3fe9e441ab40fa14d884b84de99254edaf",
+      "bytes": 541412
+    },
+    "assets/product-hero/fibriki-plate-v3-prompt.txt": {
+      "sha256": "de60226cbbe3e60c80208b5b2cbc61391492faaa32eda952a02a2429616d8e6c",
+      "bytes": 2345
+    },
+    "assets/product-hero/fibriki-plate-v3.png": {
+      "sha256": "a2bccffd68d0657693df69e7f25b5f0dfcec98ad74d3d7152a33adb8a06cb953",
+      "bytes": 1841030
+    },
+    "assets/product-hero/fibriki-plate-v3.webp": {
+      "sha256": "875b94503f4bc52f6e1b71b6b2e3e1999088359f7cba594194120266de4e9d7f",
+      "bytes": 163994
+    },
+    "assets/product-hero/fibriki-prompt.txt": {
+      "sha256": "2b940d3a9ebc998d7280820d9d116f6f6470ca4eb3cd9cf6528e57f44db8b69c",
+      "bytes": 2973
+    },
+    "assets/product-hero/fibriki-reference.webp": {
+      "sha256": "70d9dd6316021371cc3402e6457fde7e1048a264dc29baf62b2c1196f45afb33",
+      "bytes": 235934
+    },
+    "assets/product-hero/fibriki-scene-prompt.txt": {
+      "sha256": "3503e7f1726c154b28d1749473638f05783400bd5b4ac835205fa8bfc7b856d0",
+      "bytes": 3316
+    },
+    "assets/product-hero/fibriki-scene.png": {
+      "sha256": "fbdbf3ecc18b5ff0069e3a68cc8adb9d03d2cb9e91a58264d2cc503a7e25b007",
+      "bytes": 1881667
+    },
+    "assets/product-hero/fibriki-scene.webp": {
+      "sha256": "d8273acabf99f17a141e9856259c86ee7ed20492f60c1a1e1c246c54162f3237",
+      "bytes": 213540
+    },
+    "assets/product-hero/fibriki-title-prompt.txt": {
+      "sha256": "d65687fdea2d860aa13b8ab23275de5a6c2434d946aae29682678308969291d6",
+      "bytes": 2390
+    },
+    "assets/product-hero/fibriki-title.png": {
+      "sha256": "8805d1154fe833986589ba359d5f402be534288dc5643fe2a2e2b5a898811306",
+      "bytes": 635002
+    },
+    "assets/product-hero/fibriki-title.webp": {
+      "sha256": "b45adee1b1d225eafee59cf18b89035be4851533e3e8c471529fc923af38db79",
+      "bytes": 92080
+    },
+    "assets/product-hero/fibriki.png": {
+      "sha256": "061e8144b828589bd579b0807f485bcbc29d1740ed498a6a152f5ac54fbe3b69",
+      "bytes": 1262104
+    },
+    "assets/product-hero/fibriki.webp": {
+      "sha256": "d38f8f94e2b6171700dddfc9cfdac508d129ff7a585a403481c47cf602ea156b",
+      "bytes": 295824
+    },
+    "assets/product-hero/lulia-mini-art-v4-prompt.txt": {
+      "sha256": "f7b2ff192998c9ef943738bc714c91ff55a649a37a6f0bfdfdb8791c33cc29cf",
+      "bytes": 1954
+    },
+    "assets/product-hero/lulia-mini-art-v4.png": {
+      "sha256": "a3641a71eee6947476e1eaba7027383c938713e1dbe93d9e6f1805a86cfb8f34",
+      "bytes": 987391
+    },
+    "assets/product-hero/lulia-mini-art-v4.webp": {
+      "sha256": "7ed345d89b4ca2bfa9cb93d07abc351478346c3e127f680eb712d8e83a2c63cc",
+      "bytes": 293028
+    },
+    "assets/product-hero/lulia-mini-piece-v2-prompt.txt": {
+      "sha256": "50a1e7a669d71ebe437f9be840c607df4da253cdddc1de6e6210ed2d03c8007c",
+      "bytes": 1483
+    },
+    "assets/product-hero/lulia-mini-piece-v2.png": {
+      "sha256": "6a856e270417cccc833274167aaeac3a30b11727a7680a2c5c73d34ca56da5ac",
+      "bytes": 1494969
+    },
+    "assets/product-hero/lulia-mini-piece-v2.webp": {
+      "sha256": "a5bac432fead2ab82570932984dad29374a801a58b449640f34584e8c1e566c2",
+      "bytes": 397188
+    },
+    "assets/product-hero/lulia-mini-plate-v3-prompt.txt": {
+      "sha256": "496fa02603ae30716090cbf8732edc986ec0ed108ae2503257eb74ba96be0d4f",
+      "bytes": 2572
+    },
+    "assets/product-hero/lulia-mini-plate-v3.png": {
+      "sha256": "beadce4077883d7b9e1138b5039f0730daf12aeb43912ae0f86a54797075384c",
+      "bytes": 1957761
+    },
+    "assets/product-hero/lulia-mini-plate-v3.webp": {
+      "sha256": "c71227a429d052e991d09fd70097b047a1b10b009db332b7769746351b99c479",
+      "bytes": 214080
+    },
+    "assets/product-hero/lulia-mini-prompt.txt": {
+      "sha256": "42241af8b52604350b17ac946c975553a1afd140a523709794ebc53323a1c758",
+      "bytes": 1546
+    },
+    "assets/product-hero/lulia-mini-reference.webp": {
+      "sha256": "fc0eaeec5dc284e02cc01b894b07aacd7a8914ea8fe6eab2a054245e2c94fbc1",
+      "bytes": 262458
+    },
+    "assets/product-hero/lulia-mini-scene-prompt.txt": {
+      "sha256": "814732cbdd00f827b4254df68b270e8b90b87f645c1111e615ca11a77568ee81",
+      "bytes": 2200
+    },
+    "assets/product-hero/lulia-mini-scene.png": {
+      "sha256": "ff27e2eee0f1db989e6d4d612eec4b05816fe056b352fa25046336757eadb4d0",
+      "bytes": 1884307
+    },
+    "assets/product-hero/lulia-mini-scene.webp": {
+      "sha256": "59116f8b6085079f54d013ebfdcf3029a439fa76b6f08bd097ecf8c7b29642aa",
+      "bytes": 251522
+    },
+    "assets/product-hero/lulia-mini-title-prompt.txt": {
+      "sha256": "d09d0e907243539dbdd49d563ec63275ceeab9322a172c05851d74c891a576c7",
+      "bytes": 1574
+    },
+    "assets/product-hero/lulia-mini-title.png": {
+      "sha256": "4ea8cc6d54fb6a7ae0ff16197a780c8279eb1616fdfa1a975a28ba746b79d74b",
+      "bytes": 888558
+    },
+    "assets/product-hero/lulia-mini-title.webp": {
+      "sha256": "1478e7be4b6dbab2ed311dd563cb406a847250b794db591ecf1961cecdf05db7",
+      "bytes": 134930
+    },
+    "assets/product-hero/lulia-mini.png": {
+      "sha256": "9a64426e45482d054f15d06fec65e487c52ecd7fb5ce80bba9628a992e89163b",
+      "bytes": 1866632
+    },
+    "assets/product-hero/lulia-mini.webp": {
+      "sha256": "78c345d18690f481423a66db040618796b3b5000620ec29ded431d12de239d45",
+      "bytes": 424504
+    },
+    "assets/product-hero/meatballs-art-v4-prompt.txt": {
+      "sha256": "a60c0bc1a9d15f527b46c491a6d67843f2149c0c3fe67c1262d115c8b39ad330",
+      "bytes": 1900
+    },
+    "assets/product-hero/meatballs-art-v4.png": {
+      "sha256": "3d460e27a1f8a864ae7c36586e1d8ce8d7692c42a55391ec9ce2acddf0c9f778",
+      "bytes": 743286
+    },
+    "assets/product-hero/meatballs-art-v4.webp": {
+      "sha256": "8e04511ae7f89a89102daa20499a0c5d62f3f0f34687fc047dcefaec56d88958",
+      "bytes": 223898
+    },
+    "assets/product-hero/meatballs-piece-v2-prompt.txt": {
+      "sha256": "4061ce2b05b69597d5e1e7e19728eaf193eb9c485c69556d6022584e53a6460e",
+      "bytes": 1481
+    },
+    "assets/product-hero/meatballs-piece-v2.png": {
+      "sha256": "04a6b2564ddee64fd5034ed2cc9eb8db19359c68b636d529ebb7ffb9aebce62d",
+      "bytes": 2097967
+    },
+    "assets/product-hero/meatballs-piece-v2.webp": {
+      "sha256": "1a7e9395c586467e70936a331f3d93084992d732897351579eb404d10b0bff99",
+      "bytes": 551208
+    },
+    "assets/product-hero/meatballs-plate-v3-prompt.txt": {
+      "sha256": "45d3ebd6398f1852b40984cf1e7e0f12046dcbe0eadc9975faa0cd6b59e8872b",
+      "bytes": 1515
+    },
+    "assets/product-hero/meatballs-plate-v3.png": {
+      "sha256": "698e27cbefd7c702618540633d078bb5584a05628bd6c93ff723529a5a720a0f",
+      "bytes": 1790422
+    },
+    "assets/product-hero/meatballs-plate-v3.webp": {
+      "sha256": "e10c5d6eba5cf84730a72340b52464a4f47f8d914ae2de505d48fab0413733c2",
+      "bytes": 169032
+    },
+    "assets/product-hero/meatballs-prompt.txt": {
+      "sha256": "c029240089058b7c3af7ec4b3be77078da566281018597f14173189f0ecc77c7",
+      "bytes": 1069
+    },
+    "assets/product-hero/meatballs-reference.webp": {
+      "sha256": "77a4780f4ace35c20f18d426bdd98a4fddd7702767a299d4310baaa2959b6c06",
+      "bytes": 283576
+    },
+    "assets/product-hero/meatballs-scene-prompt.txt": {
+      "sha256": "de0bbd3e23fb15b577914ec1230f667929c680ebef3e7378f1d8f412cbc917df",
+      "bytes": 1406
+    },
+    "assets/product-hero/meatballs-scene.png": {
+      "sha256": "3b716759d14775a7c0cd5c539c46b46ef0aba473c1208ea31ae7f37019769b32",
+      "bytes": 1860232
+    },
+    "assets/product-hero/meatballs-scene.webp": {
+      "sha256": "d3e544f4ca78cee6b94bd6e3a27bfbff449250315989e1ef6d234e20c7613da8",
+      "bytes": 208230
+    },
+    "assets/product-hero/meatballs-title-prompt.txt": {
+      "sha256": "6870417e2f5402f21b2b123ae30e2b2bfd5fd6643f1f785beccd08436a6ce3e2",
+      "bytes": 773
+    },
+    "assets/product-hero/meatballs-title.png": {
+      "sha256": "a77e9e5090ce2d823c0e9670cde0f55e03341fa381d2db61a45e5af153604232",
+      "bytes": 523083
+    },
+    "assets/product-hero/meatballs-title.webp": {
+      "sha256": "1a1bf0b9236df399c26af3457fce786b77666d3a57f46d30a6f85b2b8f8633f2",
+      "bytes": 96882
+    },
+    "assets/product-hero/meatballs.png": {
+      "sha256": "03e4cce62b7278cc5c948308aff2f8c1e0fd600274d1537790c5be6778d4ca26",
+      "bytes": 1492640
+    },
+    "assets/product-hero/meatballs.webp": {
+      "sha256": "6070220d4a8bddb24bf2411c22d2c5e282c732b713d9293d80876b6591f21a00",
+      "bytes": 356666
+    },
+    "assets/product-hero/nuggets-art-v4-prompt.txt": {
+      "sha256": "403441f73223a0a78fd98e949d797ed5f787134b5489e8ad53695f9874101d86",
+      "bytes": 1792
+    },
+    "assets/product-hero/nuggets-art-v4.png": {
+      "sha256": "3a6054dff2256714fcc95134d8d7e5c329927d39faba5944cc0b13eab5076b46",
+      "bytes": 854689
+    },
+    "assets/product-hero/nuggets-art-v4.webp": {
+      "sha256": "e6e41be33fa1b039a64cc72efd4d1803b9761716b927ab1345581a1da4598c68",
+      "bytes": 278058
+    },
+    "assets/product-hero/nuggets-cut-v2-prompt.txt": {
+      "sha256": "6b65243fba485c96d4eecb2ea7acf4061688e8f22818572f4a4bd37d39d1f8a3",
+      "bytes": 1377
+    },
+    "assets/product-hero/nuggets-cut-v2.png": {
+      "sha256": "0da481d4875ee58ccc6bd32d4ba1bcb76eb3c23b7ccac2010fe61fd23ff0e007",
+      "bytes": 1672219
+    },
+    "assets/product-hero/nuggets-cut-v2.webp": {
+      "sha256": "d1a2bbabcd9cf4768dd9ccd65bdf0f8b4fc4b11ec505184fdac3e115178360d2",
+      "bytes": 456976
+    },
+    "assets/product-hero/nuggets-piece-v2-prompt.txt": {
+      "sha256": "9701e14215049a9161f612414e74e4c862d2ed517fef8dc7c873ab260a345c1b",
+      "bytes": 1264
+    },
+    "assets/product-hero/nuggets-piece-v2.png": {
+      "sha256": "c7ddaf8dbb2b8dd548497f317f18a406f181ed2406adf09fbd274ba156b6946a",
+      "bytes": 1614622
+    },
+    "assets/product-hero/nuggets-piece-v2.webp": {
+      "sha256": "dbe8e2889431cf52aa89c463769458ae5b025f21daed06de7bfaa1fd36b2520b",
+      "bytes": 443178
+    },
+    "assets/product-hero/nuggets-plate-v3-prompt.txt": {
+      "sha256": "3f1ba2207ce778ccca2d33c51e9a7069b31690b82f9ba8c2e46e942bbde57a37",
+      "bytes": 2046
+    },
+    "assets/product-hero/nuggets-plate-v3.png": {
+      "sha256": "d0cc80c83d17a7cc650f43b485abb9238d2afab4aceadb1f510cbbf281562888",
+      "bytes": 1661450
+    },
+    "assets/product-hero/nuggets-plate-v3.webp": {
+      "sha256": "db40930f926bf4dfba3311037612b3f7cbb4e3fd9f9812662e692516392b5308",
+      "bytes": 194746
+    },
+    "assets/product-hero/nuggets-prompt.txt": {
+      "sha256": "79a3622c5191db95ccf7b6bd14209ee75b790dd5bd04f0f4d6cd1f644c4e58b2",
+      "bytes": 1574
+    },
+    "assets/product-hero/nuggets-reference.webp": {
+      "sha256": "5f9f7ae9f4653e054b42493d931e2c6b2c1f235f27b460189dbe7068a38c8e2f",
+      "bytes": 239524
+    },
+    "assets/product-hero/nuggets-scene-prompt.txt": {
+      "sha256": "b58b899f467c4ead00845427494a9ae847846ac6ffffe9517a791b06d697b3fb",
+      "bytes": 2099
+    },
+    "assets/product-hero/nuggets-scene.png": {
+      "sha256": "a51f3b7cc179aca097b1fe12eab3d84628ad42f129867e1f4f78ae3f5e6c6ff1",
+      "bytes": 1844010
+    },
+    "assets/product-hero/nuggets-scene.webp": {
+      "sha256": "22582994eb2cc24b9f7c544695cc55ecdcafb270787a29de08899bc53a5065ae",
+      "bytes": 218316
+    },
+    "assets/product-hero/nuggets-title-prompt.txt": {
+      "sha256": "5d1917e2771fbe304eb410bd17e8a0d60aea2df01fe81187e4e3681322795d76",
+      "bytes": 1198
+    },
+    "assets/product-hero/nuggets-title.png": {
+      "sha256": "eed3339c8afd7fda7d96e8fcd8efc864705ded1d543a67fdeb59d91f0b8f860c",
+      "bytes": 1006039
+    },
+    "assets/product-hero/nuggets-title.webp": {
+      "sha256": "7e82adf1305e0b4c5c3ec3af11c3703a689352c3b8a41f772b2310c6430db491",
+      "bytes": 113166
+    },
+    "assets/product-hero/nuggets.png": {
+      "sha256": "2574bd84d557091fc7ba95278902729f49626898590298164b61085e4bc6ba47",
+      "bytes": 1723350
+    },
+    "assets/product-hero/nuggets.webp": {
+      "sha256": "ac147097646458228d25b83091271a2f1f4b49f6baa008c5ac592a3c042b96bf",
+      "bytes": 441840
+    },
+    "assets/product-hero/piece-v2-layout.json": {
+      "sha256": "85973e1a9834fb9e0b891eff9e2485b7f29b3e26fdca029dbb162df47dac9234",
+      "bytes": 2595
+    },
+    "assets/product-hero/protein-art-v4-prompt.txt": {
+      "sha256": "8607b504d79f42f72e2c81791aece3c1c64293442af841eacdab08c1217d2aef",
+      "bytes": 2083
+    },
+    "assets/product-hero/protein-art-v4.png": {
+      "sha256": "da8ddc004d850b7d4d46c98e525c1581c9530bd596d312cceea62dd5782d4148",
+      "bytes": 698697
+    },
+    "assets/product-hero/protein-art-v4.webp": {
+      "sha256": "215520569da4fe07f731e70fdf2314c95829efc15ca15249b693569700d96b1d",
+      "bytes": 215196
+    },
+    "assets/product-hero/protein-cluster-v11-prompt.txt": {
+      "sha256": "cf038a5cca2b463c7f277db4a0c698a11f1cb56f836c5b4f71071d5266903580",
+      "bytes": 5165
+    },
+    "assets/product-hero/protein-cluster-v11.png": {
+      "sha256": "741724f6e46d1acdd96d2590642b24ead699c4f0f6050ec18802c1e6cb005230",
+      "bytes": 357221
+    },
+    "assets/product-hero/protein-cluster-v11.webp": {
+      "sha256": "f7f664319d3db0d3953a36f14b51a09fb85637322024a5298db7a1028852a94e",
+      "bytes": 96998
+    },
+    "assets/product-hero/protein-lockup-v11-prompt.txt": {
+      "sha256": "05224afb35aa356c69d4638b881a1dfd11e9e455c86669d34a88c278c308be16",
+      "bytes": 2415
+    },
+    "assets/product-hero/protein-lockup-v11.png": {
+      "sha256": "a7d53c41678d90a68b513064f0768f74322741c2a3c12fde955ee14885a0dc5e",
+      "bytes": 985794
+    },
+    "assets/product-hero/protein-lockup-v11.webp": {
+      "sha256": "4ac1182d19a499d6749187c02ee54d0152693afa70e8cd5398cfb8320c5a3c8f",
+      "bytes": 209896
+    },
+    "assets/product-hero/protein-lockup-v12-prompt.txt": {
+      "sha256": "f2e8bddd11879844a53520e3f40686003494efc68f5d77c0b984c8e0e8579ce6",
+      "bytes": 2172
+    },
+    "assets/product-hero/protein-lockup-v12.png": {
+      "sha256": "c46b89766aee119b6030145c03d16753f080d355658e7bdc1a3ac2d651f594b3",
+      "bytes": 970629
+    },
+    "assets/product-hero/protein-lockup-v12.webp": {
+      "sha256": "e02c8e3679dad6b9bdadfb3f761c27e649bff1933b3dea67b8268c056886b975",
+      "bytes": 212364
+    },
+    "assets/product-hero/protein-pack-v12-prompt.txt": {
+      "sha256": "b9ced26e9dbf3d13fdfbe0a42be8c7a27faace5db80c936eb42c9dacccb04149",
+      "bytes": 4023
+    },
+    "assets/product-hero/protein-pack-v12.png": {
+      "sha256": "5038dbedcf95e6ead6e225714dbdcef1c5f40c55f8b76954fcc56fcc8d41f80d",
+      "bytes": 1544158
+    },
+    "assets/product-hero/protein-pack-v12.webp": {
+      "sha256": "5c5beb75764776052735d530abd6339e3e6b407c0a0802d6b2e6508c2477c257",
+      "bytes": 281470
+    },
+    "assets/product-hero/protein-plate-v4-prompt.txt": {
+      "sha256": "b963b523bde289f4e630fcf71cd5446b3ebcedfa567d3bacc8428102af9f570a",
+      "bytes": 2185
+    },
+    "assets/product-hero/protein-plate-v4.png": {
+      "sha256": "5263a69e5832fbdc9c6319a0dd9761acedf27ba48572c6774b0558cc6df5cc40",
+      "bytes": 1777584
+    },
+    "assets/product-hero/protein-plate-v4.webp": {
+      "sha256": "d46e86d9f155dd64c27e4f67e13b4126c6737f61ad63484677ea6bce0264d73d",
+      "bytes": 164962
+    },
+    "assets/product-hero/protein-title-v4-prompt.txt": {
+      "sha256": "1af1f56178d8193720c836ea54fd1f2e31ed16822d4771baaf8313c4c7dd4821",
+      "bytes": 3577
+    },
+    "assets/product-hero/protein-title-v4.png": {
+      "sha256": "b4cb64888425e4011dda6eaf98965816b56fb8cfb466a38e2d17cacb7d2d6fc7",
+      "bytes": 1077143
+    },
+    "assets/product-hero/protein-title-v4.webp": {
+      "sha256": "066fcc78bf676e502388fd60a67cd6f1c42623553ab7e390fd83172eb1acff84",
+      "bytes": 209296
+    },
+    "assets/product-hero/running-mascot-v2-prompt.txt": {
+      "sha256": "051dc65a189cb58a6ecbfba14860da24cb1bd0e074a06b191bae89b127137ae8",
+      "bytes": 1587
+    },
+    "assets/product-hero/running-mascot-v2.png": {
+      "sha256": "186168b1f111d333f08992a6af3fa8f02df9382d23e6561ff904ee7ece41e136",
+      "bytes": 1162226
+    },
+    "assets/product-hero/running-mascot-v2.webp": {
+      "sha256": "f2dbaa26f8a6dff375cceb6d977e4ffb84990df76940b9c9de22eae2c6aeab47",
+      "bytes": 247058
+    },
+    "assets/product-hero/shared-floor-v11-prompt.txt": {
+      "sha256": "2d561b2159f0837249f9eedeaec290805f6be2a8f087bfaf01108017b4a7b0da",
+      "bytes": 2290
+    },
+    "assets/product-hero/shared-floor-v11.png": {
+      "sha256": "5fded1a7534315632816197e4fbe1b16937cf3e0b0ddd6e287c386733a3619ea",
+      "bytes": 348865
+    },
+    "assets/product-hero/shared-floor-v11.webp": {
+      "sha256": "e062992ed8c6236689cad38f00849332244afd53b197d2e7c3955ad1a8975b16",
+      "bytes": 40316
+    },
+    "assets/product-hero/title-layout.json": {
+      "sha256": "d967b4e235b20f664936e4990809d2c80f76869e805f68b22708999057080949",
+      "bytes": 1613
+    },
+    "assets/protein-letter-art.webp": {
+      "sha256": "ad167188d8ea45a8dba2d346c26fb93e34ae89b1b820047a070852f34f8d136e",
+      "bytes": 57220
+    },
+    "assets/protein-pack-green.webp": {
+      "sha256": "7c79715edb48037d0ebc4ad1327ba6c81c372ca9e63a8338d2f8c4d03d434975",
+      "bytes": 66798
+    },
+    "assets/protein-pack.webp": {
+      "sha256": "60b3d7bd8a8acfb17768c275414b64623a6e529f4eaa8998d502239cd97598f6",
+      "bytes": 178446
+    },
+    "assets/protein-paper.webp": {
+      "sha256": "9fff337f907842904d280b954433f429e4b2216ecf38c5601c4c4d2f29fde782",
+      "bytes": 2004
+    },
+    "assets/protein-story/README.md": {
+      "sha256": "af28e7d184700c22a46b8b697bf1d96343b7e1f301da5fb0a4d4e2a498cfb222",
+      "bytes": 5278
+    },
+    "assets/protein-story/hen-layer-v2-prompt.txt": {
+      "sha256": "ced023e38e880e31fba997cdc35ffa4831b5763f4634e6d9a64d678101b46e7c",
+      "bytes": 2165
+    },
+    "assets/protein-story/hen-layer-v2.png": {
+      "sha256": "4be367b92c2822cf312df6129afffde2919d892fe432a0c980750a28ce7d1dba",
+      "bytes": 1271193
+    },
+    "assets/protein-story/hen-layer-v2.webp": {
+      "sha256": "bd32bcefd08fa578babf87d2164a28dbb5b4fbd8dfb0b3e27debf77185ec087d",
+      "bytes": 879398
+    },
+    "assets/protein-story/nuggets-layer-v2-prompt.txt": {
+      "sha256": "8e16545758def5c61c8569966d1d52a4a19f5ae5805aa90eab48c46a37fbc358",
+      "bytes": 4748
+    },
+    "assets/protein-story/nuggets-layer-v2.png": {
+      "sha256": "11a89199ae802e585cc6aae3b19ad6963abc946ef48c3484dfe83c1757adb322",
+      "bytes": 1006937
+    },
+    "assets/protein-story/nuggets-layer-v2.webp": {
+      "sha256": "a648c271e1c783fe7d6907ba32c7a9664b7c5be74c2c5912c475f9aaab63a853",
+      "bytes": 783132
+    },
+    "assets/protein-story/reveal-desktop-v1.webp": {
+      "sha256": "6227c72445dd5a5d7e0a4459fb281f633134c494ef1c42d30535d2804f8f2b7b",
+      "bytes": 287376
+    },
+    "assets/protein-story/reveal-mobile-v1.png": {
+      "sha256": "b8bf5c65a67f1dabdab57a28d88b927d8604010aac8dbc3c21012e3318055a20",
+      "bytes": 1169405
+    },
+    "assets/protein-story/reveal-mobile-v1.prompt.txt": {
+      "sha256": "e45dc18e9f38742719a9ff371c78c95a87e4f8713614d6a5defd3ef41fd32850",
+      "bytes": 3112
+    },
+    "assets/protein-story/reveal-mobile-v1.webp": {
+      "sha256": "e7603ad1192795a4856ca1f6744c6afba348a1623a88fdd1054fb86094c3e0ac",
+      "bytes": 167928
+    },
+    "assets/reference-assets.json": {
+      "sha256": "195ee3cdc8df9f5c6b2457ad9898ed31b0f2bd6dc7690dcf2790b26d919055b4",
+      "bytes": 1747
+    },
+    "assets/serving-company-crop.webp": {
+      "sha256": "26f4001b8f999f386987d97a52e9b8b1d0bf0b149230cc3d2d73e3e72407a97f",
+      "bytes": 253072
+    },
+    "assets/serving-company.png": {
+      "sha256": "d57573333cf2dd11076eade33c67005b27156abae442cf89f0360114def22488",
+      "bytes": 2942253
+    },
+    "assets/serving-company.webp": {
+      "sha256": "e2bbdcb2d27f255577afae92fc4290d13e580542864cde633ac3d44bd673d51f",
+      "bytes": 360856
+    },
+    "assets/serving-dinner-crop.webp": {
+      "sha256": "75327631426588eddf69e62d952276b08a43137e78ac50a75bda8215d3409346",
+      "bytes": 174140
+    },
+    "assets/serving-dinner.png": {
+      "sha256": "7aac0b238d8742f28156113511a0808fcde6d7437d34afa42bde6814360fc1be",
+      "bytes": 2889272
+    },
+    "assets/serving-dinner.webp": {
+      "sha256": "a672508e0fa4f5f180281cf7218f27a9eeddd3cddb13dbbc110002d60cedf8a6",
+      "bytes": 306326
+    },
+    "assets/serving-movie-crop.webp": {
+      "sha256": "eb9665dfaa14ab6d837f727b0f01893dd93732e2dabe334aa5f0edad90338604",
+      "bytes": 103448
+    },
+    "assets/serving-movie.png": {
+      "sha256": "90997b54b93d6ad60a8f94882e1e6c5705a57bc470650dc5b6806a8b321d0a68",
+      "bytes": 2082957
+    },
+    "assets/serving-movie.webp": {
+      "sha256": "50d2e88128125127c6950f8a305c8ade04fa9d43a608151b284c6b6586fe2ff7",
+      "bytes": 154318
+    },
+    "assets/strips-360.webp": {
+      "sha256": "d07ac6f1d06795650675274f130d1c585bfff58fcc4e5530957d9c03bcfe6dbe",
+      "bytes": 37954
+    },
+    "assets/strips-600.webp": {
+      "sha256": "58da6a28bee6fcee8cd39941a31fa463577bb7b19d00baf01429468fa56cdbf7",
+      "bytes": 47576
+    },
+    "assets/turkey-nuggets-360.webp": {
+      "sha256": "23db5b24d750d6861065b54d9fbcf3291fd601a1a63198de404064884552ecd1",
+      "bytes": 38472
+    },
+    "assets/turkey-nuggets-600.webp": {
+      "sha256": "e8cd37e0046ca4e976fba86cb37d5efaf75dd3013742bfe4e8328ac2b8fec0a7",
+      "bytes": 90380
+    },
+    "catalogue.css": {
+      "sha256": "2b833944f17bb34eb3096f7d15c99d0b87518f72bec9e92bb818e4bd86bd0eb9",
+      "bytes": 1785
+    },
+    "catalogue.html": {
+      "sha256": "fd3f619ef004026340b9d036925812d4a41701245276966435ddf359da90e84d",
+      "bytes": 20415
+    },
+    "contacts.css": {
+      "sha256": "3f2b9e4b055a9ff2e1fd5cac7db6c0574b5f85a7170e2435b939383f0109327d",
+      "bytes": 4908
+    },
+    "contacts.html": {
+      "sha256": "f27021a0eb48a3a142484244369c6c7b4b29727f043b6f7484ae603a45638cd7",
+      "bytes": 6148
+    },
+    "depth.css": {
+      "sha256": "9043a69f010f03e264b2e9b54a245efc9e6bfc4ce837a8fff26adfbd679020ac",
+      "bytes": 7643
+    },
+    "depth.js": {
+      "sha256": "c2715d391dd9dba66b2f448b8cdef70f3bbbdf48c564de66ee2ba6fc28737634",
+      "bytes": 6875
+    },
+    "design-system.css": {
+      "sha256": "19e64cdeab19e52db966225d9ac4d3c3aae2ffa9428609307e563239eb4adfcf",
+      "bytes": 8789
+    },
+    "home-unified.css": {
+      "sha256": "f94f3864c5420617a0ea016f83ca8c343b642ab44c45045e6283851c1860e5b2",
+      "bytes": 4388
+    },
+    "index.html": {
+      "sha256": "2642ff7947e14d57f9aba65c339a8aabec4a3a6c1bffcdfa26979321ecfd8dd7",
+      "bytes": 20126
+    },
+    "loading-concept.css": {
+      "sha256": "625d41290f0a4c9e66584aa3900fc1edcb44759ce238b6c434aa29cb7e371c8e",
+      "bytes": 4287
+    },
+    "loading-concept.html": {
+      "sha256": "2c67d65eaedab46d63741a2b832b3c0763a7d162c46e6f1cbe30e07c40577a72",
+      "bytes": 2515
+    },
+    "loading-concept.js": {
+      "sha256": "eeaa2317a60b81642adfb4cd7efe441c8b393749457bcb1519e1258b46aefa5f",
+      "bytes": 8968
+    },
+    "loading-physics.js": {
+      "sha256": "2efe7114f25474828df4206dd7714c26c6aaf68782aa46c64f998adb61dcf10c",
+      "bytes": 5536
+    },
+    "loading-story.css": {
+      "sha256": "be8df7dd3565e56017c3bb04c37a6be57e02ac73a84d3895b9a6e39d62dcf159",
+      "bytes": 6958
+    },
+    "loading-story.html": {
+      "sha256": "e943d61c6b96787edcda0882506e480f3787870526d5cb2563e124e24ae811a1",
+      "bytes": 4033
+    },
+    "loading-story.js": {
+      "sha256": "64fa8681202c07a5717edbbbe0be9eca2d07d2a40a605585009729eedd15c0bd",
+      "bytes": 10085
+    },
+    "mobile.css": {
+      "sha256": "5ec1868bf6cdef0137c3165611561dbf45d793b55ff0b69cfbea0796e62284db",
+      "bytes": 8116
+    },
+    "motion.css": {
+      "sha256": "1d8685a82dadfb4eec6761e85ac9240bb1514f31d9116cee0dac07f22d7feab8",
+      "bytes": 3835
+    },
+    "partners-scenes.css": {
+      "sha256": "e2a400e0e9ec3429b0e871a222e9c6028fac13e21d8e9ed11125268d05a4b021",
+      "bytes": 10902
+    },
+    "partners-scenes.js": {
+      "sha256": "cb2523297eddb32e827791f43f00da6e20161a5266591df5ea2a1f30582536ec",
+      "bytes": 3737
+    },
+    "partners.html": {
+      "sha256": "7eeaa9ea85dc2942e290834d814dfa73b7a9add7f461a60ea3b0388c029ae32f",
+      "bytes": 9799
+    },
+    "partnership.css": {
+      "sha256": "64200d3d16716c4973c413164b74f4c26e1e84eb9deae8671223a0326b524e1c",
+      "bytes": 5346
+    },
+    "polish.css": {
+      "sha256": "0015d3dc423d75b6482be6c32f9de4968dca9123d10c6e5fcd66abafeb19a89b",
+      "bytes": 21956
+    },
+    "product-bitochki-kurinye-s-ovoshchami.html": {
+      "sha256": "17e5c1b175357d63c871304a7ba42c6fe7947d3d022ae1a5de6f8b244b87ba38",
+      "bytes": 8920
+    },
+    "product-cards.css": {
+      "sha256": "ac7319e4c47a98ca753a759354aa6d8f25b9b6c21e52a4f73a9d056899ebe2a8",
+      "bytes": 3598
+    },
+    "product-ezhiki-iz-tsyplenka-s-risom.html": {
+      "sha256": "b97a052a0a3bef0f7af7d22e14ca153239d3994f9a3055ad213e68244b3e41c0",
+      "bytes": 9086
+    },
+    "product-frikadelki-klassicheskie.html": {
+      "sha256": "b2620d057a95ad51db77a794be6cd602c499ebe30b910ba2b565abfd1800db75",
+      "bytes": 9093
+    },
+    "product-hero.css": {
+      "sha256": "7a3309a5b3d4cbbfdc6ddc7fcbe291ed92513235724380cf5b28498d86f9685b",
+      "bytes": 9132
+    },
+    "product-hero.js": {
+      "sha256": "3ed49fa50c08e370af3bf84a9b642c8721a3aae292bc6fe2a80722e1d6f7d272",
+      "bytes": 3365
+    },
+    "product-kotlety-kurinye.html": {
+      "sha256": "f75127e9f907348466ca2f1c3837e70e6d3041cd347a6539fd6e4f8e3e43932a",
+      "bytes": 8917
+    },
+    "product-kotlety-pikantnye.html": {
+      "sha256": "f447d7a452c4a8912987a67dd16e696d21f4dc99375ba51853b2a0847bc515aa",
+      "bytes": 8918
+    },
+    "product-kotlety-po-domashnemu.html": {
+      "sha256": "d999a163288e155010b6bf50734b2ac6ebdc6b237fe1a2a1460ffc1ab8a7c6a7",
+      "bytes": 8920
+    },
+    "product-kotlety-po-italyanski.html": {
+      "sha256": "ae4912aae39bdabe21fef2f9e420825037995726880b2238c5a1300e5cd32333",
+      "bytes": 8965
+    },
+    "product-kurinyj-popkorn.html": {
+      "sha256": "de44d34038dccc49d2336d15bde22cb0d8e434123e85aa2fedbdaaf2fd02a5ff",
+      "bytes": 8934
+    },
+    "product-naggetsy-dinozavry.html": {
+      "sha256": "3b5e2f9a78f5171e101107f45a0868cdc1bf88720ac4085bee101dbefe7a5369",
+      "bytes": 8947
+    },
+    "product-naggetsy-kurinye-s-syrom.html": {
+      "sha256": "08f980ea88d248f35ae116b67b22e09324d3ba3572c0b676c3df7a8742691954",
+      "bytes": 8931
+    },
+    "product-naggetsy-kurinye.html": {
+      "sha256": "6f2136983afc30cdff515d326d6972009c9491e88b45086b99603b9509f1c137",
+      "bytes": 8926
+    },
+    "product-naggetsy-ostrye.html": {
+      "sha256": "3a70f50a949311f65257cb843d73bfbb2789d430369c342d03d59c540697695e",
+      "bytes": 8939
+    },
+    "product-naggetsy-s-indeykoy-fitnes.html": {
+      "sha256": "d23156b67a8f9c0f30bedbb7370eb4cd991a3d4d9cc207d129dcfd5fe132ed5b",
+      "bytes": 9019
+    },
+    "product-stripsy.html": {
+      "sha256": "f98faac89fb7e31a04c22c26f6f6256e99fa70b823b44a9262f825acb1831331",
+      "bytes": 8835
+    },
+    "products.json": {
+      "sha256": "c09398a53bdf39c6f764e1f5fe6a3df257322741b237e2848e238ed633c3a643",
+      "bytes": 22052
+    },
+    "protein-story.css": {
+      "sha256": "4fd9aca82c660cf17abfc733c1055b96854359b7b56015028f4fde8d020bfdc8",
+      "bytes": 3443
+    },
+    "script.js": {
+      "sha256": "62e2f17cad4101dbb81a8260ab9243d2a1dd3aaacfb669c1138f32f87413cd6a",
+      "bytes": 6281
+    },
+    "site-manifest.json": {
+      "sha256": "56a458748830107f295fc993cc836f9b92300d1bfebb60b6fba4f99465446d01",
+      "bytes": 26493
+    },
+    "style.css": {
+      "sha256": "535be646a5f44f949c3159540ba97e8c1171659fad26d0bebd66fd7f07c64089",
+      "bytes": 44254
+    },
+    "typography-specimen.html": {
+      "sha256": "d4089d207a18cef7f473bd0380c4715be09c0504abe39741cbb2f0e7f296f311",
+      "bytes": 7426
+    },
+    "where-to-buy.html": {
+      "sha256": "37b16dfd5b96fd5c170e081779bd0ebd9cf812ba9a0eb90813b5449f1b034a93",
+      "bytes": 7112
+    }
+  }
+}

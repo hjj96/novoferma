@@ -1,0 +1,155 @@
+/* Homepage editorial system. Product poster lettering keeps its own character. */
+.page-index {
+ --home-content-max:1296px;
+ --home-gutter:48px;
+ --home-section-space:72px;
+ --home-title-font:'Novoferma Protein','Novoferma Poster',Arial,sans-serif;
+ --home-title-size:clamp(58px,5.8vw,84px);
+ --home-orange-brand:#fa4b06;
+ --home-orange-ink:#c94310;
+ --orange:var(--home-orange-brand);
+}
+.page-index main .wrap {
+ width:min(var(--home-content-max),calc(100% - 2 * var(--home-gutter)));
+}
+.page-index .home-kicker {
+ color:var(--brown);
+ font-family:var(--font-display);
+ font-size:11px;
+ font-weight:650;
+ font-variant-numeric:tabular-nums;
+ line-height:1.5;
+ letter-spacing:.12em;
+ text-transform:uppercase;
+ margin:0 0 24px;
+}
+.page-index h2.home-editorial-title {
+ font-family:var(--home-title-font);
+ font-size:var(--home-title-size);
+ font-weight:850;
+ line-height:.9;
+ letter-spacing:-.012em;
+ word-spacing:.045em;
+ text-transform:uppercase;
+ text-wrap:initial;
+ margin:0;
+}
+.page-index .home-editorial-title > span,
+.page-index .home-editorial-title > em {display:block;white-space:nowrap}
+.page-index .home-editorial-title > em {color:var(--home-orange-ink)}
+.page-index .home-products,
+.page-index .where-preview {padding-block:var(--home-section-space)}
+.page-index .home-products .section-heading {margin-bottom:40px;gap:32px}
+.page-index .home-products .heading-aside {margin:0;padding:0}
+
+/* The poster shares the text grid; its scene can extend beyond the text edge. */
+.page-index .protein-poster-inner {
+ width:min(calc(var(--home-content-max) + 2 * var(--home-gutter)),100%);
+ max-width:none;
+}
+.page-index .protein-poster-copy {
+ padding:var(--home-section-space) 0 0 var(--home-gutter);
+}
+.page-index h2.protein-poster-title {
+ --home-title-size:7.6cqw;
+ line-height:.94;
+}
+.page-index .protein-poster-title em,
+.page-index .protein-poster-caption {color:var(--home-orange-ink)}
+.page-index .protein-poster-description {font-size:clamp(17px,1.6cqw,24px)}
+
+.page-index .brand-partnership {
+ --partnership-gutter:max(var(--home-gutter),calc((100vw - var(--home-content-max))/2));
+}
+.page-index .brand-partnership .brand-inner {
+ width:auto;
+ padding-block:var(--home-section-space);
+ gap:24px clamp(28px,2.5vw,48px);
+}
+.page-index .brand-partnership .home-kicker {margin:0}
+.page-index .brand-partnership h2.home-editorial-title {
+ display:block;
+ letter-spacing:-.012em;
+}
+.page-index .where-preview > div > p:not(.eyebrow) {font-size:16px;line-height:1.5;margin-top:24px}
+
+@media(min-width:700px) and (max-width:1199px) {
+ .page-index {--home-section-space:56px;--home-title-size:clamp(54px,6.5vw,76px)}
+ .page-index .brand-partnership .brand-inner {margin-inline:var(--home-gutter)}
+}
+@media(max-width:899px) {
+ .page-index .protein-poster-inner {width:100%;padding-bottom:48px}
+ .page-index .protein-poster-copy {width:100%;padding:48px var(--home-gutter) 0}
+ .page-index h2.protein-poster-title {--home-title-size:min(17.5cqw,110px)}
+ .page-index .protein-poster-description {font-size:clamp(18px,3.4cqw,24px);line-height:1.4;max-width:36ch;margin-top:24px}
+ .page-index .protein-poster-scene {height:min(61cqw,420px);margin-top:24px}
+ .page-index .protein-food {width:min(62.5%,480px)}
+ .page-index .protein-hen {width:min(49.5%,380px)}
+ .page-index .protein-poster-caption {font-size:clamp(28px,7.2cqw,48px)}
+ .page-index .protein-caption-arrow {width:clamp(36px,10cqw,64px);height:clamp(60px,17cqw,100px)}
+}
+@media(min-width:700px) and (max-width:899px) {
+ .page-index .home-products .section-heading {align-items:flex-start;flex-direction:column;gap:24px}
+}
+@media(max-width:699px) {
+ .page-index {--home-gutter:20px;--home-section-space:48px;--home-title-size:clamp(36px,11.3vw,58px)}
+ .page-index .home-kicker {margin-bottom:20px}
+ .page-index .home-products .section-heading {display:block;margin-bottom:24px}
+ .page-index .home-products .heading-aside {margin-top:18px;justify-content:flex-start}
+ .page-index .home-products .heading-aside .button {
+  min-height:44px;padding:8px 0;gap:24px;
+  border:0;background:none;box-shadow:none;
+  color:var(--brown);border-radius:0;
+ }
+ .page-index .brand-partnership .brand-inner {margin-inline:var(--home-gutter);gap:20px}
+ .page-index .brand-partnership .home-kicker {margin:0}
+ .page-index .where-preview > div > p:not(.eyebrow) {margin-top:20px}
+}
+@media(max-width:359px) {
+ .page-index {--home-gutter:16px}
+}
+
+/* Business invitation shares the calmer editorial voice of its destination. */
+.page-index .brand-partnership {
+ --partnership-mascot-width:clamp(112px,13vw,180px);
+ background:#f4e5c7;
+}
+.page-index .brand-partnership .brand-inner {
+ grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);
+ align-items:start;
+ margin-left:var(--partnership-gutter);
+ margin-right:calc(var(--partnership-mascot-width) + 32px);
+}
+.page-index .brand-partnership h2.home-editorial-title {
+ font-family:var(--font-display);font-weight:550;text-transform:none;
+ font-size:clamp(40px,4vw,60px);line-height:1.08;
+ letter-spacing:-.04em;word-spacing:normal;
+}
+.page-index .brand-partnership .brand-copy {display:flex;flex-direction:column;gap:24px;padding:0}
+.page-index .brand-partnership .partnership-formats {min-height:0;gap:24px}
+.page-index .brand-partnership .partnership-formats dt {
+ font-family:var(--font-display);font-size:22px;font-weight:700;letter-spacing:-.02em;
+}
+.page-index .brand-partnership .partnership-actions {
+ display:flex;flex-direction:row;align-items:center;justify-content:flex-start;
+ gap:16px;width:100%;min-height:0;
+}
+.page-index .brand-partnership .story-mascot {height:auto;max-height:250px}
+@media(min-width:700px) and (max-width:899px) {
+ .page-index .brand-partnership .brand-inner {grid-template-columns:1fr;margin-inline:var(--home-gutter)}
+ .page-index .brand-partnership .brand-copy {padding-right:calc(var(--partnership-mascot-width) + 20px)}
+}
+@media(max-width:699px) {
+ .page-index .brand-partnership {--partnership-mascot-width:96px}
+ .page-index .brand-partnership .brand-inner {grid-template-columns:1fr;margin-inline:var(--home-gutter)}
+ .page-index .brand-partnership h2.home-editorial-title {font-size:clamp(34px,9.6vw,50px)}
+ .page-index .brand-partnership .brand-copy {display:flex;gap:24px}
+ .page-index .brand-partnership .partnership-actions {
+  padding-right:calc(var(--partnership-mascot-width) + 16px);
+  min-height:110px;flex-direction:column;align-items:flex-start;gap:8px;
+ }
+ .page-index .brand-partnership .partnership-actions .button {
+  width:auto;min-height:52px;padding:12px 16px;gap:10px;font-size:14px;white-space:normal;
+ }
+ .page-index .brand-partnership .partnership-secondary {justify-content:flex-start}
+}

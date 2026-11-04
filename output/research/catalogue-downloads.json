@@ -1,0 +1,338 @@
+{
+  "kotlety-kurinye": {
+    "pack": {
+      "path": "assets/catalogue/kotlety-kurinye.webp",
+      "source": "https://novoferma.ru/images/catalog/040-2.jpg",
+      "width": 900,
+      "height": 900,
+      "sourceWidth": 1300,
+      "sourceHeight": 1300,
+      "bytes": 95834,
+      "status": 200,
+      "sha256": "b06d90c180e55a0d78285a2858ac3a63bbae715d1c19e40dd7942dcb33446c63"
+    },
+    "serving": {
+      "path": "assets/catalogue/kotlety-kurinye-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/kotlety-kurinye/156-2_600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "sourceWidth": 600,
+      "sourceHeight": 600,
+      "bytes": 34094,
+      "status": 200,
+      "sha256": "8702323dbd38fbf75d98d61f1cb7dec9b0a1a0667c1948dc3b5270d392e6ac63"
+    }
+  },
+  "bitochki-kurinye-s-ovoshchami": {
+    "pack": {
+      "path": "assets/catalogue/bitochki-kurinye-s-ovoshchami.webp",
+      "source": "https://novoferma.ru/images/catalog/041-2.jpg",
+      "width": 900,
+      "height": 900,
+      "sourceWidth": 1300,
+      "sourceHeight": 1300,
+      "bytes": 102342,
+      "status": 200,
+      "sha256": "5b91bb632caa403f13ec652ec76602c6d35343fd77b1ae4d1146add3c5cf1ae4"
+    },
+    "serving": {
+      "path": "assets/catalogue/bitochki-kurinye-s-ovoshchami-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/bitochki-kurinye-s-ovoshchami/041_600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "sourceWidth": 600,
+      "sourceHeight": 600,
+      "bytes": 22994,
+      "status": 200,
+      "sha256": "a46b57871fac1268f14f2078c9443e32cdc21956f31e26f51b1ee89baec9228b"
+    }
+  },
+  "ezhiki-iz-tsyplenka-s-risom": {
+    "pack": {
+      "path": "assets/catalogue/ezhiki-iz-tsyplenka-s-risom.webp",
+      "source": "https://novoferma.ru/images/catalog/208-1.jpg",
+      "width": 900,
+      "height": 900,
+      "sourceWidth": 1300,
+      "sourceHeight": 1300,
+      "bytes": 109176,
+      "status": 200,
+      "sha256": "5c89e3a8c8f25768a9a35cac8119c51b7fb7f46f5491fc0b63287de4d53bbb66"
+    },
+    "serving": {
+      "path": "assets/catalogue/ezhiki-iz-tsyplenka-s-risom-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/jozhiki/208-2_600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "sourceWidth": 600,
+      "sourceHeight": 600,
+      "bytes": 25686,
+      "status": 200,
+      "sha256": "b6312132084388141cfd8d48f84f0b5f0eb699b16367eef71eb412fc80c3f4d4"
+    }
+  },
+  "kurinyj-popkorn": {
+    "pack": {
+      "path": "assets/catalogue/kurinyj-popkorn.webp",
+      "source": "https://novoferma.ru/images/catalog/165-2.jpg",
+      "width": 900,
+      "height": 900,
+      "sourceWidth": 1300,
+      "sourceHeight": 1300,
+      "bytes": 101838,
+      "status": 200,
+      "sha256": "7cf0bba90f38e08ebf075f8f29c56d8d0eb179ca8710323b8fe190e6e52a8b4c"
+    },
+    "serving": {
+      "path": "assets/catalogue/kurinyj-popkorn-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/kurinyj-popkorn/165-1_600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "sourceWidth": 600,
+      "sourceHeight": 600,
+      "bytes": 36470,
+      "status": 200,
+      "sha256": "3309a96c704fd6fcd0ee01ecf930c7f3a6d78d92d9007dca647e3c34b1f88799"
+    }
+  },
+  "naggetsy-kurinye": {
+    "pack": {
+      "path": "assets/catalogue/naggetsy-kurinye.webp",
+      "source": "https://novoferma.ru/images/catalog/027-2.jpg",
+      "width": 900,
+      "height": 900,
+      "sourceWidth": 1300,
+      "sourceHeight": 1300,
+      "bytes": 88534,
+      "status": 200,
+      "sha256": "04eeab81c9fab79796cd76bc66511dd989fa8385cfcbf61e776db2f5fc37e63d"
+    },
+    "serving": {
+      "path": "assets/catalogue/naggetsy-kurinye-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/naggetsy-kurinye/127-2_600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "sourceWidth": 600,
+      "sourceHeight": 600,
+      "bytes": 46136,
+      "status": 200,
+      "sha256": "cb567ec0e47f44d88e0f2fe7edc000ebbd862780d8f3e59afe7e24811ec0f3b7"
+    }
+  },
+  "naggetsy-kurinye-s-syrom": {
+    "pack": {
+      "path": "assets/catalogue/naggetsy-kurinye-s-syrom.webp",
+      "source": "https://novoferma.ru/images/catalog/031-2.jpg",
+      "width": 900,
+      "height": 900,
+      "sourceWidth": 1300,
+      "sourceHeight": 1300,
+      "bytes": 118996,
+      "status": 200,
+      "sha256": "01bfff2db7935beaa15b185767d5d629545b09f7ec005ce1cf7f4fd94e178b5e"
+    },
+    "serving": {
+      "path": "assets/catalogue/naggetsy-kurinye-s-syrom-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/naggetsy-kurinye-4/031-1_600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "sourceWidth": 600,
+      "sourceHeight": 600,
+      "bytes": 35874,
+      "status": 200,
+      "sha256": "356042cf4229fcaadbe3c63775258b9c9251383f35d662d59bcccbe4df9a34e2"
+    }
+  },
+  "naggetsy-dinozavry": {
+    "pack": {
+      "path": "assets/catalogue/naggetsy-dinozavry.webp",
+      "source": "https://novoferma.ru/images/catalog/028-1.jpg",
+      "width": 900,
+      "height": 900,
+      "sourceWidth": 1300,
+      "sourceHeight": 1300,
+      "bytes": 101612,
+      "status": 200,
+      "sha256": "c5529d5760d870f2791f549d14f0d69b21081e79183042c3178882842cf6a334"
+    },
+    "serving": {
+      "path": "assets/catalogue/naggetsy-dinozavry-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/naggetsy-kurinye-2/028-2_600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "sourceWidth": 600,
+      "sourceHeight": 600,
+      "bytes": 40980,
+      "status": 200,
+      "sha256": "20df23ac36a7660ab65395f599a1218ec108d12b371dc722daf92a8f3016f035"
+    }
+  },
+  "naggetsy-ostrye": {
+    "pack": {
+      "path": "assets/catalogue/naggetsy-ostrye.webp",
+      "source": "https://novoferma.ru/images/catalog/029-2.jpg",
+      "width": 900,
+      "height": 900,
+      "sourceWidth": 1300,
+      "sourceHeight": 1300,
+      "bytes": 115508,
+      "status": 200,
+      "sha256": "c68b3fb05429d93f4e26a7c0f03851789c0b53c1abd1dbcf3c55ad70ed2f5413"
+    },
+    "serving": {
+      "path": "assets/catalogue/naggetsy-ostrye-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/naggetsy-kurinye-3/029-1_600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "sourceWidth": 600,
+      "sourceHeight": 600,
+      "bytes": 51650,
+      "status": 200,
+      "sha256": "1380dd11c688cfcb4ef5628e881e2433694cf883b042d4cc6185c8761e8c1454"
+    }
+  },
+  "naggetsy-s-indeykoy-fitnes": {
+    "pack": {
+      "path": "assets/catalogue/naggetsy-s-indeykoy-fitnes.webp",
+      "source": "https://novoferma.ru/images/catalog/033-2.jpg",
+      "width": 900,
+      "height": 900,
+      "sourceWidth": 1300,
+      "sourceHeight": 1300,
+      "bytes": 92292,
+      "status": 200,
+      "sha256": "45472ef38a9f6c06d0e58116f17372e229ff66d25f8d8430e8dc749f6ea1f7de"
+    },
+    "serving": {
+      "path": "assets/catalogue/naggetsy-s-indeykoy-fitnes-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/naggetsy-s-indejkoj/033-1_600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "sourceWidth": 600,
+      "sourceHeight": 600,
+      "bytes": 41128,
+      "status": 200,
+      "sha256": "90ce45c7b533affffd8aa0109a130bc8318ff84a5a942d89ab5f1afb5d94eaa4"
+    }
+  },
+  "stripsy": {
+    "pack": {
+      "path": "assets/catalogue/stripsy.webp",
+      "source": "https://novoferma.ru/images/catalog/032-2.jpg",
+      "width": 900,
+      "height": 900,
+      "sourceWidth": 1300,
+      "sourceHeight": 1300,
+      "bytes": 87832,
+      "status": 200,
+      "sha256": "f2a09b903cab27148865e87f64cda3effa73b0998f347be17028d00bdae51044"
+    },
+    "serving": {
+      "path": "assets/catalogue/stripsy-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/stripsy/140-2_600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "sourceWidth": 600,
+      "sourceHeight": 600,
+      "bytes": 36874,
+      "status": 200,
+      "sha256": "a60b78bf4cbe6cb235861cb5fbf7fb76c6cfc20586b39b03cc544208d0a8d7dc"
+    }
+  },
+  "kotlety-po-domashnemu": {
+    "pack": {
+      "path": "assets/catalogue/kotlety-po-domashnemu.webp",
+      "source": "https://novoferma.ru/images/catalog/163-2.jpg",
+      "width": 900,
+      "height": 900,
+      "sourceWidth": 1300,
+      "sourceHeight": 1300,
+      "bytes": 87352,
+      "status": 200,
+      "sha256": "9fd8afe424c310031e7cecd9eb9bc785f2fc8ba88345206a3b8131055aa47295"
+    },
+    "serving": {
+      "path": "assets/catalogue/kotlety-po-domashnemu-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/kotlety-po-domashnemu/161-2_600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "sourceWidth": 600,
+      "sourceHeight": 600,
+      "bytes": 24908,
+      "status": 200,
+      "sha256": "5872ac83561ebf1c96bb9b1dee6727df06c64e81793c89489b178c6893813c46"
+    }
+  },
+  "kotlety-pikantnye": {
+    "pack": {
+      "path": "assets/catalogue/kotlety-pikantnye.webp",
+      "source": "https://novoferma.ru/images/catalog/162-2.jpg",
+      "width": 900,
+      "height": 900,
+      "sourceWidth": 1300,
+      "sourceHeight": 1300,
+      "bytes": 84866,
+      "status": 200,
+      "sha256": "da8a03aa8c3b1ef0eba5777e23b9846a06de3e3aa6ba869bafd89f599934f257"
+    },
+    "serving": {
+      "path": "assets/catalogue/kotlety-pikantnye-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/kotlety-pikantnye/166-2_600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "sourceWidth": 600,
+      "sourceHeight": 600,
+      "bytes": 21494,
+      "status": 200,
+      "sha256": "84d2c743c3c692db20a59336df292e006a4204330f1af713dc7d265ca87796aa"
+    }
+  },
+  "kotlety-po-italyanski": {
+    "pack": {
+      "path": "assets/catalogue/kotlety-po-italyanski.webp",
+      "source": "https://novoferma.ru/images/catalog/164-2.jpg",
+      "width": 900,
+      "height": 900,
+      "sourceWidth": 1300,
+      "sourceHeight": 1300,
+      "bytes": 91274,
+      "status": 200,
+      "sha256": "d48606d4cb7bc32c83d6b0460c412a10c367b083dccc63d5da26f61d33e5bcf6"
+    },
+    "serving": {
+      "path": "assets/catalogue/kotlety-po-italyanski-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/kotlety-po-italyanski/159-2_600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "sourceWidth": 600,
+      "sourceHeight": 600,
+      "bytes": 22442,
+      "status": 200,
+      "sha256": "11bc5a07a63f3c14fd222dfee9d8a22d2a583dc827eecfa78193691acfe6558f"
+    }
+  },
+  "frikadelki-klassicheskie": {
+    "pack": {
+      "path": "assets/catalogue/frikadelki-klassicheskie.webp",
+      "source": "https://novoferma.ru/images/catalog/030-2.jpg",
+      "width": 900,
+      "height": 900,
+      "sourceWidth": 1300,
+      "sourceHeight": 1300,
+      "bytes": 88736,
+      "status": 200,
+      "sha256": "47efacd94a6bd2e7e1972e90c89dd6b967ef538c126ae9d8918680b7a26558c7"
+    },
+    "serving": {
+      "path": "assets/catalogue/frikadelki-klassicheskie-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/frikadelki/134-2_600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "sourceWidth": 600,
+      "sourceHeight": 600,
+      "bytes": 26712,
+      "status": 200,
+      "sha256": "e91bb5b098a719a1309c4d015568db38a6edf69608a8cb211fab64f7c217de0a"
+    }
+  }
+}

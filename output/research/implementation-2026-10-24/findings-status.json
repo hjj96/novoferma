@@ -1,0 +1,1085 @@
+{
+  "version": 1,
+  "verifiedAt": "2026-10-24",
+  "checkedAt": "2026-10-24T12:01:47.481849+00:00",
+  "stage": "final_static_review",
+  "sourceAudit": "output/research/strict-audit-2026-10-16/findings.json",
+  "scope": "Независимая сверка исходного аудита с кодом и текущими генерируемыми артефактами. Браузерные проверки, визуальная приёмка, живые Core Web Vitals, юридическая и продуктовая сертификация не заявляются.",
+  "statusDefinitions": {
+    "implemented": "Конкретное исправление присутствует в исходниках/текущем HTML. Это не равнозначно полной браузерной или производственной приёмке.",
+    "partial": "Часть решения реализована, но существенная часть исходного требования или доказательств остаётся.",
+    "pending": "Суть рекомендации ещё не реализована; смежные улучшения её не закрывают."
+  },
+  "counts": {
+    "partial": 17,
+    "implemented": 18,
+    "pending": 0
+  },
+  "observedFacts": {
+    "nodeVmBehaviorTests": 21,
+    "browserChecksClaimed": false,
+    "liveCoreWebVitalsMeasured": false,
+    "manifestRoutes": 22,
+    "serialSkus": 14,
+    "conceptSkus": 2,
+    "completeApprovedFoodPassports": 0,
+    "verifiedRetailerLinks": 5,
+    "retailerCoveredSerialSkus": 5,
+    "publicUrl": null
+  },
+  "sourceHashes": [
+    {
+      "path": "output/concept/about.html",
+      "sha256": "4ee88f3147cbd39e8c8c66ba2d317ce4f16c06a6e55b9fb8513a1986fbf9befb"
+    },
+    {
+      "path": "output/concept/asset-variants.json",
+      "sha256": "a5f29b386ed09f8200b56c5ff676c8f9c09af1d3cd8a0395337a890c7386674e"
+    },
+    {
+      "path": "output/concept/assets/fonts/font-face.css",
+      "sha256": "fbc8e57b184e745ec3e08507a19eb9af77fe99b0b2a8a44bacb7cd672b1cd1f1"
+    },
+    {
+      "path": "output/concept/catalogue.html",
+      "sha256": "e409b33d57c3a024b82c2ea7bc6d656f1392ee753d4ae2ba0d991c001bc3d6a1"
+    },
+    {
+      "path": "output/concept/catalogue.js",
+      "sha256": "11f0d1febe9acf523fa781a43ee20ab1c1fa1d82c621386be9169e39fb2b4b1b"
+    },
+    {
+      "path": "output/concept/contacts.css",
+      "sha256": "de711517b23d726ffd3aa1af661aa5349e923aa72520032d4cd00f3b240fdd16"
+    },
+    {
+      "path": "output/concept/contacts.html",
+      "sha256": "ab275b46212b7eb4ab30443b9a5cf2fa735bddd371cb1b9ab7421c20a7cf8258"
+    },
+    {
+      "path": "output/concept/home-unified.css",
+      "sha256": "e1bc5da176f4db313e978b9f35397f4b6fd713f066d5df939953502f1a2df570"
+    },
+    {
+      "path": "output/concept/index.html",
+      "sha256": "654d505887c143bd4aa798b594e66ff004342fc791f981e0c9802285cb5432d6"
+    },
+    {
+      "path": "output/concept/partners-scenes.css",
+      "sha256": "3e33d772b4bd18162eb7a839bc50ab23f542d49db1630cba00bcf4a7f7538a38"
+    },
+    {
+      "path": "output/concept/partners-scenes.js",
+      "sha256": "4721eb618455d5ba2575f257773a0f9aa7f0bcd52320730edf4fa56edbd4c7e5"
+    },
+    {
+      "path": "output/concept/partners.html",
+      "sha256": "3b16e4b99bc6373edce86667bc2cc8a8886628bce106e0a618789ea2c41e5ea7"
+    },
+    {
+      "path": "output/concept/product-bitochki-kurinye-s-ovoshchami.html",
+      "sha256": "9b1583e92693285a943921b15165ce26c3b5d4839d81cb842b39870cf4581057"
+    },
+    {
+      "path": "output/concept/product-cards.css",
+      "sha256": "5bfb1a80d186c00eb0dcadbece74429b11b972e738ee3f39b8f5f4a7d2652e04"
+    },
+    {
+      "path": "output/concept/product-detail.css",
+      "sha256": "0ec2efffa34a4919d1a54457906b4911ab44318a8e85fced46df809a30f62d4c"
+    },
+    {
+      "path": "output/concept/product-ezhiki-iz-tsyplenka-s-risom.html",
+      "sha256": "796c1eaa519b6adb89056761ac6c918c66406db632dcd56b7a051b15c17c91d8"
+    },
+    {
+      "path": "output/concept/product-fibriki.html",
+      "sha256": "dfb602c9949dade44c59b1e0fb7889ff5b4c0ba61f048f1d597cdcd58ffa9b14"
+    },
+    {
+      "path": "output/concept/product-frikadelki-klassicheskie.html",
+      "sha256": "6785bc3e1b73a75d7480b7ed596a9cc03a9aceb1d29affb1ddf2e45b8dfdd8a5"
+    },
+    {
+      "path": "output/concept/product-hero.css",
+      "sha256": "badd00c24f11ce0dd2202cc4605a8d2b446bc83247c18e8509769666599bca56"
+    },
+    {
+      "path": "output/concept/product-hero.js",
+      "sha256": "005574cdda650466a426456625d3c9c205c5c5d67810584e28d162bdb3b5d8db"
+    },
+    {
+      "path": "output/concept/product-kotlety-kurinye.html",
+      "sha256": "b9e2efa46f0fe00662ba6f6587250148b35bda9354edbecf5b7d99fe916e5235"
+    },
+    {
+      "path": "output/concept/product-kotlety-pikantnye.html",
+      "sha256": "da2767fd5e434842e657857d2cfc1b9da772bc196e3e0e926bbfcca47978b92a"
+    },
+    {
+      "path": "output/concept/product-kotlety-po-domashnemu.html",
+      "sha256": "8f1f1c11ed8891e57bcad374b3289e6d85ded32553d5ade9d2bfb10c7b51b388"
+    },
+    {
+      "path": "output/concept/product-kotlety-po-italyanski.html",
+      "sha256": "3513b685647b403fa9bcae686c10da83cb2bea3dd9cfe53f4c010fb18a680ad4"
+    },
+    {
+      "path": "output/concept/product-kurinyj-popkorn.html",
+      "sha256": "fcb778fb1d8ade19e0692c07abfccbdd7d09a73c49e592bc2c889d5fffe96dca"
+    },
+    {
+      "path": "output/concept/product-lulia-mini.html",
+      "sha256": "20fc3281c52e927a88484292b98c7a19e8a863351017e0444490e98861ee0762"
+    },
+    {
+      "path": "output/concept/product-naggetsy-dinozavry.html",
+      "sha256": "8069f4765fe9f48ab6b75bdbb147f06726909c8f1ce207f1b20cafcb4a210183"
+    },
+    {
+      "path": "output/concept/product-naggetsy-kurinye-s-syrom.html",
+      "sha256": "791e1622ca6d53911ab214f3ae52a787790e44c679bd4010437b066bd219f300"
+    },
+    {
+      "path": "output/concept/product-naggetsy-kurinye.html",
+      "sha256": "63b8086b88231979a93df98e334e4db57ee9c6ad1f7a442ce7338aba68554bc1"
+    },
+    {
+      "path": "output/concept/product-naggetsy-ostrye.html",
+      "sha256": "0abbb30047ec56ac4bf3dc461f893cc38853c29d2637d352ed25b26bf9f0700d"
+    },
+    {
+      "path": "output/concept/product-naggetsy-s-indeykoy-fitnes.html",
+      "sha256": "a3a2e2e710e9f95311a8545d451879a121e6be440f03f4cdbbcf82e3e7898b3a"
+    },
+    {
+      "path": "output/concept/product-stripsy.html",
+      "sha256": "97f7c9be957c085949de19e6c69bb5dea1f53ac996bbee674dba59bf8220e1a9"
+    },
+    {
+      "path": "output/concept/products.json",
+      "sha256": "c3755a31821446ce1107ed7965484af4566470d9320df291656b4f586696e5ef"
+    },
+    {
+      "path": "output/concept/protein-story.css",
+      "sha256": "8cfe26d81b48165c6f34f43e7196d80f69a9f4865facff324d614853d0fba36f"
+    },
+    {
+      "path": "output/concept/retailers.json",
+      "sha256": "d3e4bff0bc16be548523b79387bd54bf02882d4f6bee012a829254ce4140bc17"
+    },
+    {
+      "path": "output/concept/script.js",
+      "sha256": "65160eba7f2e90d87863aed6341497c9717d900d51c273782e4a1d2adcb015d4"
+    },
+    {
+      "path": "output/concept/site-manifest.json",
+      "sha256": "e67d6ad95b6badb52faecbe25330c143458b48577f97c14e46e81655e7d0a52d"
+    },
+    {
+      "path": "output/concept/style.css",
+      "sha256": "aeca8820c8bb79d7ef29977dee3b28832102e6e23aa8ba705981ca76ab1583f7"
+    },
+    {
+      "path": "output/concept/where-to-buy.css",
+      "sha256": "447119b60ff2f769602e96fbf13dea36e6ea00f62bbbff54bac1f20f48aa29b9"
+    },
+    {
+      "path": "output/concept/where-to-buy.html",
+      "sha256": "6b89a39cb553dc804eff5cf2eac915680cda14c15225b1ea91263bc0a840bdcf"
+    },
+    {
+      "path": "output/concept/where-to-buy.js",
+      "sha256": "e2d571b68892c39f1604fb47ae7da29c20938f5112a443482458c8f9af5da11d"
+    },
+    {
+      "path": "output/research/implementation-2026-10-24/character-guidelines.txt",
+      "sha256": "59608abe722c470a0c676ad2833cbe9ab549473e1eec717e32f567d1185770ac"
+    },
+    {
+      "path": "output/research/implementation-2026-10-24/content-verification.json",
+      "sha256": "5663d444fcf58bb69311b9d87d8f4a3a13caedad66585cab9d00c3fef9261920"
+    },
+    {
+      "path": "output/research/implementation-2026-10-24/font-fit-source-check.json",
+      "sha256": "c9431779581bfa91511beaadaba5e14c8ff6cee04c02550c27ac841582ee12d7"
+    },
+    {
+      "path": "output/research/implementation-2026-10-24/legacy-css-cleanup.json",
+      "sha256": "9614e38f96fdbd5bf4d5814ece2dd585686c8fa2cf1d5a8376cf041b15aaaf5e"
+    },
+    {
+      "path": "output/research/implementation-2026-10-24/static-checks.json",
+      "sha256": "f4cdc80acd3a4efbc8653e36afa1fac6948d325fb37d1abbb6f4381e5f3d29e3"
+    },
+    {
+      "path": "output/research/implementation-2026-10-24/visual-changes.txt",
+      "sha256": "5ce2d224928a768eb1d4b276d400dfb4b5cfeea723219e1153af6e92a3a0dce8"
+    },
+    {
+      "path": "output/research/strict-audit-2026-10-16/findings.json",
+      "sha256": "b4f349f3aeebba0814b420da27ba3cc315616fb168e43466fc35ae1895c5d375"
+    },
+    {
+      "path": "scripts/build_site.py",
+      "sha256": "9e035d367acf002e727891ae02501d59051e7b66ff9fa4663881fd8281351256"
+    },
+    {
+      "path": "scripts/check_concept.cjs",
+      "sha256": "ea78466757dac9e0f3c0160c3a000ace0d04a47dea40d443d5bfbc708af68d4a"
+    },
+    {
+      "path": "scripts/check_interactions.cjs",
+      "sha256": "53450d1e45e3d6f17fda9344b25d9c07d1d8774d6079b130d3ff46a24426d4b9"
+    },
+    {
+      "path": "scripts/check_site.py",
+      "sha256": "0ab3e605d8d8bff8d011ccdd5e62b29a6b1a11b601b845ef77c11099fad549e6"
+    },
+    {
+      "path": "scripts/optimize_site_assets.py",
+      "sha256": "ded1357f830cca107ef39ce64e8920baca1632d90f0291a2fe861c8d1badcb32"
+    },
+    {
+      "path": "scripts/site_sections.py",
+      "sha256": "ad9075fa0f4360a114a0427005594c1f77d7812929603f0ae4778c095c510459"
+    }
+  ],
+  "findings": [
+    {
+      "id": "finding-1",
+      "code": "U01",
+      "priority": "P1",
+      "originalTitle": "U01 · «Где купить» не завершает поиск покупки",
+      "originalProblem": "Покупка заканчивалась только составлением письма, без перехода к магазинам.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "scripts/site_sections.py",
+          "line": 16,
+          "observation": "Показаны прямые карточки продавцов с фильтром по SKU, ограничениями наличия и датой проверки."
+        },
+        {
+          "file": "output/concept/retailers.json",
+          "line": 6,
+          "observation": "Пять проверенных ссылок покрывают пять из 14 серийных SKU; две карточки Магнита недоступны в наблюдённом контексте."
+        },
+        {
+          "file": "output/concept/where-to-buy.js",
+          "line": 4,
+          "observation": "Реализованы фильтр по выбранному SKU и пустое состояние; запрос города остаётся альтернативой."
+        }
+      ],
+      "remaining": "Нет подтверждённой карты городов/магазинов и актуального наличия. Для девяти серийных SKU прямые подтверждённые ссылки не найдены; наличие по адресу проверяет покупатель у продавца.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-2",
+      "code": "U02",
+      "priority": "P1",
+      "originalTitle": "U02 · Товарная страница отправляет за ключевыми сведениями к упаковке",
+      "originalProblem": "Нет полного паспорта SKU: состав, аллергены, пищевая ценность, хранение и приготовление.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 198,
+          "observation": "Генератор умеет выводить подтверждённые поля и пока показывает запрос сведений вместо выдуманных данных."
+        },
+        {
+          "file": "output/concept/products.json",
+          "line": 22,
+          "observation": "У всех 14 SKU ingredients/nutrition/storage/preparation пусты, отдельные данные об аллергенах отсутствуют."
+        },
+        {
+          "file": "output/research/implementation-2026-10-24/content-verification.json",
+          "line": 2,
+          "observation": "Свежая проверка фиксирует пробелы и противоречия продавцов; это не утверждённые производителем паспорта."
+        }
+      ],
+      "remaining": "0 из 14 полных паспортов. Нужны утверждённая рецептура, аллергены/следы, БЖУ/энергия, хранение, срок, безопасный способ приготовления и читаемая актуальная оборотная этикетка для каждого SKU.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-3",
+      "code": "U03",
+      "priority": "P1",
+      "originalTitle": "U03 · Изображения упаковок требуют отдельного контроля точности",
+      "originalProblem": "Обработанные изображения серийных упаковок и концепты имели одинаково убедительный статус без согласования маркировки.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 219,
+          "observation": "Сохранена ссылка на исходное фото производителя и добавлено его раскрытие на 14 PDP."
+        },
+        {
+          "file": "scripts/build_site.py",
+          "line": 219,
+          "observation": "Оба концепта отдельно названы в каталоге, hero и PDP; окончательные характеристики не заявлены."
+        },
+        {
+          "file": "output/concept/site-manifest.json",
+          "line": 39,
+          "observation": "Основные серийные packshot по-прежнему используют ранее обработанные версии clean-v2."
+        }
+      ],
+      "remaining": "Для каждого основного packshot необходимы владелец, версия и продуктовое согласование по этикетке/реальному образцу. Техническое сохранение master или оптимизация не доказывают утверждение рецептуры и маркировки. Статус вывода двух новинок неизвестен.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-4",
+      "code": "U04",
+      "priority": "P1",
+      "originalTitle": "U04 · Обещания о продукте опережают доказательства",
+      "originalProblem": "Проверяемые обещания и фотореалистичные разрезы не сопровождались подтверждением для конкретного SKU.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 182,
+          "observation": "Заголовок смягчён до общей роли птицы; нет количественного обещания белка конкретного SKU."
+        },
+        {
+          "file": "scripts/build_site.py",
+          "line": 182,
+          "observation": "Сведения об оборудовании и сырье атрибутированы производителю."
+        },
+        {
+          "file": "scripts/build_site.py",
+          "line": 182,
+          "observation": "Фотореалистичный разрез и общий текст о белке остаются; отдельного реестра оснований нет."
+        }
+      ],
+      "remaining": "Согласовать реестр объективных claims с владельцем и источником; сверить разрез/текстуру с реальным приготовленным образцом. Не переносить общий факт о птице на пищевую ценность изделия.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-5",
+      "code": "U05",
+      "priority": "P2",
+      "originalTitle": "U05 · Сцена продукта теряет контекст при переходе в каталог",
+      "originalProblem": "Четыре hero CTA теряли выбранный продукт и вели в общий каталог.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 149,
+          "observation": "Для четырёх сцен заданы собственные PDP, у новинок виден статус концепта."
+        },
+        {
+          "file": "output/concept/index.html",
+          "line": 1,
+          "observation": "Генерируемая главная содержит прямой продуктовый маршрут вместо общего каталога."
+        }
+      ],
+      "remaining": "Кодовый маршрут исправлен. Приёмка переходов и сохранения понятного контекста в браузере выполняется отдельно.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-6",
+      "code": "U06",
+      "priority": "P2",
+      "originalTitle": "U06 · Каталог показывает ассортимент, но почти не помогает сравнить",
+      "originalProblem": "Каталог почти не помогал сократить ассортимент и сравнить типы продукции.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 193,
+          "observation": "Добавлены категория, вид птицы, сброс, количество результатов и пустое состояние; данные названы текстом."
+        },
+        {
+          "file": "output/concept/catalogue.js",
+          "line": 5,
+          "observation": "Есть сочетание простых фильтров без обязательной зависимости от цвета карточки."
+        }
+      ],
+      "remaining": "Практическую находчивость и понятность групп нужно проверить на пользователях. Фильтры приготовления/состава не добавлены из-за отсутствия достоверных данных.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-7",
+      "code": "U07",
+      "priority": "P2",
+      "originalTitle": "U07 · B2B нуждается в материале для решения закупщика",
+      "originalProblem": "B2B не давал минимальной конкретики для решения закупщика.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 236,
+          "observation": "Фасовки по категориям берутся из общего каталога; показаны форматы сотрудничества."
+        },
+        {
+          "file": "output/concept/partners.html",
+          "line": 9,
+          "observation": "Выделены подтверждённый контакт отдела заказов и форма обращения."
+        }
+      ],
+      "remaining": "Нужны артикулы, короб/количество единиц, MOQ, хранение/логистика, география, порядок образцов и актуальные спецификации. Публичные утверждённые документы и условия не найдены; массы нетто не заменяют их.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-8",
+      "code": "U08",
+      "priority": "P2",
+      "originalTitle": "U08 · У контента нет видимого механизма актуальности",
+      "originalProblem": "У данных не было определённого владельца, версий и процесса актуализации.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "output/concept/products.json",
+          "line": 32,
+          "observation": "Для всех 14 SKU добавлены дата повторной проверки 24.10.2026, поля name/weight и ссылка на evidence; verifiedAt=21.09 сохранено как дата исходного извлечения."
+        },
+        {
+          "file": "output/concept/retailers.json",
+          "line": 9,
+          "observation": "У розничных ссылок есть дата свежей проверки и ограничения."
+        },
+        {
+          "file": "output/research/implementation-2026-10-24/content-verification.json",
+          "line": 2,
+          "observation": "Результат проверки опубликован отдельно и не означает согласование всех полей."
+        }
+      ],
+      "remaining": "Назначить владельцев рецептур/маркировки/новинок/каналов/B2B, версии и период пересмотра. Связать обновление единого SKU с PDP, карточками и наличием. Не заменять дату источника датой сборки.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "ed-03",
+      "code": "ED-03",
+      "priority": "P1",
+      "originalTitle": "ED-03 · P1 · Производство иллюстрирует сервировка",
+      "originalProblem": "Рассказ о производстве сопровождался сервировкой вместо доказательного изображения.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 224,
+          "observation": "Сервировка заменена исходным фото прозрачной упаковки производителя, смысл блока соответствует этому изображению."
+        },
+        {
+          "file": "scripts/build_site.py",
+          "line": 224,
+          "observation": "Производственное утверждение осталось с атрибуцией компании; изображение не называется фабрикой."
+        }
+      ],
+      "remaining": "Документальные подписанные фото процессов, площадки и команды и подтверждение оборудования не получены. Исходное несоответствие устранено, но доказательный рассказ о производстве ещё не построен.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "ed-05",
+      "code": "ED-05",
+      "priority": "P2",
+      "originalTitle": "ED-05 · P2 · Три манеры требуют трёх ясных ролей",
+      "originalProblem": "Разные типографические манеры не имели стабильных ролей между B2C, B2B и главной.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "output/concept/assets/fonts/font-face.css",
+          "line": 23,
+          "observation": "Зафиксированы базовые роли Onest/рукописного акцента; это комментарий, а не полная утверждённая система."
+        },
+        {
+          "file": "output/concept/home-unified.css",
+          "line": 124,
+          "observation": "B2B тизер переведён в спокойный Onest; hero/protein используют настоящий узкий мастер."
+        },
+        {
+          "file": "output/concept/partners-scenes.css",
+          "line": 2,
+          "observation": "Партнёрская страница сохраняет свой плакатный режим."
+        }
+      ],
+      "remaining": "Утвердить правила назначения трёх режимов и проверить одинаковые роли во всех разделах. Единство художественной системы по коду не сертифицируется.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "ed-06",
+      "code": "ED-06",
+      "priority": "P2",
+      "originalTitle": "ED-06 · P2 · Пропорции букв выглядят подогнанными",
+      "originalProblem": "Заголовок про птицу искусственно сжимал строки scaleX.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "output/concept/protein-story.css",
+          "line": 44,
+          "observation": "Для обеих строк width:auto/transform:none, единый настоящий узкий шрифт."
+        },
+        {
+          "file": "output/research/implementation-2026-10-24/font-fit-source-check.json",
+          "line": 7,
+          "observation": "Есть расчёт ширин в реальном локальном шрифте; это не браузерная геометрия."
+        }
+      ],
+      "remaining": "Проверить текст на основных размерах, увеличении и fallback-шрифте; source-проверка подтверждает удаление геометрического искажения.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "ed-07",
+      "code": "ED-07",
+      "priority": "P2",
+      "originalTitle": "ED-07 · P2 · Главная почти всегда говорит громко",
+      "originalProblem": "Почти все секции главной имели одинаково высокий плакатный акцент.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "output/concept/home-unified.css",
+          "line": 124,
+          "observation": "Тизер B2B стал спокойнее: обычный регистр, меньший шрифт и персонаж."
+        },
+        {
+          "file": "scripts/build_site.py",
+          "line": 182,
+          "observation": "Hero и вторичный продуктовый плакат сохранены; остальные редакционные акценты не сведены в утверждённую иерархию."
+        }
+      ],
+      "remaining": "Сравнить целую страницу в уменьшении и на мобильном; подтвердить главный/вторичный/служебный уровни. Код отдельных уменьшений не доказывает достаточность общего ритма.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "ed-08",
+      "code": "ED-08",
+      "priority": "P3",
+      "originalTitle": "ED-08 · P3 · Межсловные границы слишком плотные",
+      "originalProblem": "Слова в длинном названии наггетсов воспринимались слитно.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "output/concept/product-detail.css",
+          "line": 13,
+          "observation": "У товарного h1 выделен межсловный интервал отдельно от letter-spacing."
+        },
+        {
+          "file": "output/concept/product-cards.css",
+          "line": 42,
+          "observation": "Интервал скорректирован и в карточках, типографика адаптируется к узким экранам."
+        }
+      ],
+      "remaining": "Оптически проверить все длинные названия на 320/390 px и при увеличении; эта таблица не утверждает визуальную приёмку.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "ed-09",
+      "code": "ED-09",
+      "priority": "P2",
+      "originalTitle": "ED-09 · P2 · Персонажи принадлежат разным редакциям",
+      "originalProblem": "Иллюстрации героев различаются контуром, детализацией и пластикой.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "output/research/implementation-2026-10-24/character-guidelines.txt",
+          "line": 4,
+          "observation": "Подготовлены рабочие правила: основной running-mascot, зафиксированные hero-сцены, ролевые исключения, контур/пропорции, масштаб и границы служебного интерфейса. Это предложение, не утверждённый брендбук."
+        },
+        {
+          "file": "scripts/build_site.py",
+          "line": 192,
+          "observation": "Существующие художественные версии персонажей продолжают использоваться."
+        },
+        {
+          "file": "output/research/implementation-2026-10-24/visual-changes.txt",
+          "line": 21,
+          "observation": "CSS-проход корректировал масштаб и место героев, а не унифицировал рисунок."
+        }
+      ],
+      "remaining": "Правила ещё не утверждены владельцем бренда; художественное единство существующих рисунков не подтверждено. Нужны реальный ответственный и согласование пропорций, контура, выражений, фактуры и допустимых вариантов. Создание документа не равно завершённой художественной унификации.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "ed-10",
+      "code": "ED-10",
+      "priority": "P2",
+      "originalTitle": "ED-10 · P2 · B2B тизер не продолжает целевую страницу",
+      "originalProblem": "Крупный персонаж B2B тизера не продолжался характером целевой страницы.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "output/concept/home-unified.css",
+          "line": 124,
+          "observation": "Тизер уменьшен и наполнен форматами сотрудничества."
+        },
+        {
+          "file": "output/concept/partners-scenes.css",
+          "line": 8,
+          "observation": "Целевая B2B страница сейчас имеет собственный крупный плакатный hero; прежнее описание «спокойная редакционная» уже нельзя механически применять."
+        }
+      ],
+      "remaining": "Проверить тизер и актуальный целевой экран рядом. Общая история требует редакционного решения, а не только уменьшения персонажа.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "ed-11",
+      "code": "ED-11",
+      "priority": "P2",
+      "originalTitle": "ED-11 · P2 · Контактный герой занимает слишком много места",
+      "originalProblem": "Мобильный персонаж создавал слишком длинный декоративный хвост перед реквизитами.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "output/concept/contacts.css",
+          "line": 82,
+          "observation": "Персонаж ограничен 128 px высоты и 84 px ширины, расположен в потоке; прежний большой резерв убран."
+        }
+      ],
+      "remaining": "На мобильном остаётся отдельный декоративный блок. Финально оценить расстояние до реквизитов и уместность 128 px после контактных данных в браузере.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "ed-13",
+      "code": "ED-13",
+      "priority": "P2",
+      "originalTitle": "ED-13 · P2 · Содержание карусели скрыто за полосками",
+      "originalProblem": "У четырёх переключателей hero не было видимых продуктовых подписей.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 172,
+          "observation": "Каждая вкладка получает видимое название продукта."
+        },
+        {
+          "file": "output/concept/product-hero.css",
+          "line": 43,
+          "observation": "Видимые подписи поддержаны в desktop/tablet/mobile CSS; не скрываются только для screen reader."
+        }
+      ],
+      "remaining": "Проверить переносы, выбранное состояние, контраст и клавиатуру на фактических размерах. Это отдельно от наличия названий в исходниках.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "ed-14",
+      "code": "ED-14",
+      "priority": "P2",
+      "originalTitle": "ED-14 · P2 · Описание повторяет подзаголовок",
+      "originalProblem": "Подзаголовок и описание Люля мини повторяли один набор ингредиентов.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 154,
+          "observation": "Описание больше не повторяет зелень, овощи и курицу из подзаголовка; статус концепта явно указан."
+        }
+      ],
+      "remaining": "Редакционная правка сделана; дальнейшие продуктовые утверждения зависят от согласованной рецептуры новинки.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "ed-17",
+      "code": "ED-17",
+      "priority": "P3",
+      "originalTitle": "ED-17 · P3 · Блобы дают разнообразие без значения",
+      "originalProblem": "Разнообразные органические подложки не имели смысловой функции.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "output/concept/product-cards.css",
+          "line": 3,
+          "observation": "Для всех карточек одна спокойная кремовая подложка, общий радиус и --packshot-turn/--packshot-lean:0deg."
+        },
+        {
+          "file": "scripts/build_site.py",
+          "line": 146,
+          "observation": "Генератор больше не выдаёт tone/lean классы в карточках; категория и вид птицы остаются текстовыми свойствами."
+        },
+        {
+          "file": "output/concept/catalogue.html",
+          "line": 4,
+          "observation": "Актуальный каталог использует общий компонент без циклических цветовых и поворотных классов."
+        }
+      ],
+      "remaining": "Конкретное декоративное расхождение устранено в коде. Визуальная приёмка и браузерный отчёт ведутся отдельно. Служебные previewTone/previewLean ещё присутствуют в данных генератора, но не меняют оформление карточки.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "ed-18",
+      "code": "ED-18",
+      "priority": "P2",
+      "originalTitle": "ED-18 · P2 · Одно действие получает разные формы",
+      "originalProblem": "Одинаковое действие использовало несогласованные формы кнопок.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "output/concept/partners-scenes.css",
+          "line": 78,
+          "observation": "У B2B кнопки нет прежнего локального квадратного border-radius: она наследует общую форму .button."
+        },
+        {
+          "file": "output/concept/style.css",
+          "line": 12,
+          "observation": "Сохраняется общий компонент кнопки с общими взаимодействиями и областью нажатия."
+        }
+      ],
+      "remaining": "Сопоставить focus/hover/disabled во всех разделах в браузере. Кодовое расхождение формы основного CTA устранено.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "ed-19",
+      "code": "ED-19",
+      "priority": "P3",
+      "originalTitle": "ED-19 · P3 · Полезные пояснения уступают декоративной типографике",
+      "originalProblem": "Пояснение о способе отправки терялось на фоне крупного заголовка формы.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "output/concept/where-to-buy.css",
+          "line": 5,
+          "observation": "Пояснение поднято до 14 px, 13 px на мобильном; рядом действия и статус, заголовок умереннее."
+        },
+        {
+          "file": "scripts/site_sections.py",
+          "line": 21,
+          "observation": "Текст действия прямо сообщает подготовку письма, доступно отдельное копирование запроса."
+        }
+      ],
+      "remaining": "Проверить реальную читабельность и порядок восприятия. Универсального WCAG-правила «минимум 16 px» этим статусом не заявляется.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "ed-21",
+      "code": "ED-21",
+      "priority": "P2",
+      "originalTitle": "ED-21 · P2 · Декор пересекает навигацию на 1024",
+      "originalProblem": "На 1024 px продуктовый декор оказывался за навигацией.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "output/concept/product-hero.css",
+          "line": 53,
+          "observation": "В диапазоне 700–1199 px header получил отдельную непрозрачную область, сцена не поднимается под него."
+        }
+      ],
+      "remaining": "Обязательна визуальная приёмка всех четырёх сцен около 700/768/1024/1199 px и при длинных названиях навигации; здесь проверено защитное CSS-решение.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "ed-22",
+      "code": "ED-22",
+      "priority": "P2",
+      "originalTitle": "ED-22 · P2 · Mobile PDP повторяет пачку раньше полезного ответа",
+      "originalProblem": "На mobile PDP большая пачка стояла раньше названия и полезного содержания.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 220,
+          "observation": "Название идёт первым в DOM товарной страницы."
+        },
+        {
+          "file": "output/concept/product-detail.css",
+          "line": 4,
+          "observation": "На мобильном задан порядок heading → visual → copy; изображение ограничено 240/220 px."
+        }
+      ],
+      "remaining": "Проверить реальные длинные названия, высоту первого просмотра и доступность действия на 320/390 px. Заполнение отсутствующих пищевых фактов — отдельный U02.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-9",
+      "code": "T01",
+      "priority": "P1",
+      "originalTitle": "T01 · P1 · Слишком дорогие изображения упаковок и персонажей",
+      "originalProblem": "Упаковки и персонажи передавались неоправданно тяжёлыми файлами.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "scripts/optimize_site_assets.py",
+          "line": 2,
+          "observation": "Добавлен воспроизводимый негенеративный WebP pipeline с сохранением исходников."
+        },
+        {
+          "file": "output/concept/asset-variants.json",
+          "line": 5,
+          "observation": "В manifest 21 master / 47 производных; исходники 12 714 512 байт, default src 3 120 062 байта. Fibriki v10: 400 px 45 448 байт, 800 px 126 096 байт вместо 439 000 байт. Это размеры файлов, не сетевое измерение страницы."
+        },
+        {
+          "file": "scripts/build_site.py",
+          "line": 23,
+          "observation": "Генератор подставляет размеры для карточек/PDP и уменьшенных персонажей."
+        },
+        {
+          "file": "output/concept/product-fibriki.html",
+          "line": 1,
+          "observation": "Текущий HTML PDP и каталога содержит v10 srcset 400w/800w; пропущенный вариант включён в финальную сборку."
+        }
+      ],
+      "remaining": "Сверить окончательный manifest и все текущие masters, края/маркировку на экране, currentSrc на DPR/ширинах и холодный network. Экономия файлов не доказывает улучшение live LCP/INP/CLS; field CWV не измерены.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-10",
+      "code": "T02",
+      "priority": "P1",
+      "originalTitle": "T02 · P1 · Скрытые hero-сцены декодируются немедленно",
+      "originalProblem": "Три скрытые hero сцены начинали загрузку/декодирование вместе с первой.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "output/concept/product-hero.js",
+          "line": 11,
+          "observation": "Остальные сцены гидратируются по выбору или последовательно в idle; текущая остаётся до готовности следующей."
+        },
+        {
+          "file": "scripts/build_site.py",
+          "line": 162,
+          "observation": "Неактивные изображения получают placeholder + data-src, активное остаётся eager."
+        },
+        {
+          "file": "scripts/check_interactions.cjs",
+          "line": 337,
+          "observation": "VM-тесты покрывают отсутствие начального decode, порядок hints, последовательное idle и saveData."
+        }
+      ],
+      "remaining": "Измерить waterfall/LCP и задержку переключения в реальном браузере/сети, исключить пустой кадр. Логика исправлена, но реальные Web Vitals не измерены.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-11",
+      "code": "T03",
+      "priority": "P2",
+      "originalTitle": "T03 · P2 · Повторное письмо сохраняет прежний город",
+      "originalProblem": "Изменение города/продукта сохраняло старый mailto повторного открытия.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "output/concept/script.js",
+          "line": 82,
+          "observation": "Сброс feedback/retry/draft привязан к каждому изменению; у внешнего form-associated select есть отдельные слушатели."
+        },
+        {
+          "file": "scripts/check_interactions.cjs",
+          "line": 239,
+          "observation": "Повторяемая VM-проверка прямо покрывает внешний select и устаревший retry."
+        }
+      ],
+      "remaining": "Реальная отправка письма не проверялась и не требуется для подтверждения сброса. Проверка DOM/source и VM не заменяет браузерную приёмку.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-12",
+      "code": "T04",
+      "priority": "P2",
+      "originalTitle": "T04 · P2 · Каталог ошибочно объявлен текущей страницей товара",
+      "originalProblem": "Каталог ошибочно объявлялся текущей страницей на PDP.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 57,
+          "observation": "Визуально активный раздел отделён от aria-current=page; page назначается только совпавшему URL."
+        },
+        {
+          "file": "scripts/check_site.py",
+          "line": 41,
+          "observation": "Статический тест проверяет совпадение href текущего документа; breadcrumb содержит отдельное текущее название."
+        }
+      ],
+      "remaining": "Проверить accessibility tree и объявление в screen reader. Источник неверного aria-current устранён.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-13",
+      "code": "T05",
+      "priority": "P2",
+      "originalTitle": "T05 · P2 · Описания поиска одинаковы у разных страниц",
+      "originalProblem": "У 19 разных страниц повторялось одинаковое meta description.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 15,
+          "observation": "Разделы получили отдельные описания, PDP строит описание из имени/массы/типа."
+        },
+        {
+          "file": "output/research/implementation-2026-10-24/static-checks.json",
+          "line": 6,
+          "observation": "На 22 маршрутах manifest подтверждены 22 уникальных description и title."
+        }
+      ],
+      "remaining": "Поисковая выдача не гарантирована; Google может выбрать другой фрагмент. Три служебные демонстрационные HTML вне manifest не входят в публичный набор маршрутов.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-14",
+      "code": "T06",
+      "priority": "P2",
+      "originalTitle": "T06 · P2 · Метаданные реального запуска не подготовлены",
+      "originalProblem": "Не была подготовлена конфигурация метаданных реального запуска.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 76,
+          "observation": "Есть --site-url с проверкой HTTPS, canonical/OG URL/BreadcrumbList и генерация sitemap/robots только при реальном домене."
+        },
+        {
+          "file": "output/concept/site-manifest.json",
+          "line": 661,
+          "observation": "В текущем preview реальный домен намеренно не подставлен."
+        },
+        {
+          "file": "output/concept/index.html",
+          "line": 1,
+          "observation": "Favicon и базовый OG-набор уже есть."
+        }
+      ],
+      "remaining": "После выбора production URL собрать сайт с реальным --site-url, проверить ответы, canonical/sitemap/robots/preview и валидаторы. Текущий null не ошибка, но запуск ещё не принят; Product offers/ratings не выдуманы.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-15",
+      "code": "T07",
+      "priority": "P2",
+      "originalTitle": "T07 · P2 · Растровые заголовки требуют решения по доступности",
+      "originalProblem": "Hero названия были растровыми title.webp с ограниченной настройкой текста.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 167,
+          "observation": "Все четыре видимых названия стали живым текстом в h2."
+        },
+        {
+          "file": "output/concept/product-hero.css",
+          "line": 17,
+          "observation": "Используется локальный узкий шрифт; старые raster-title правила удалены."
+        }
+      ],
+      "remaining": "Проверить масштабирование, пользовательские шрифты/цвета и fallback. Изображения реальных упаковок остаются фотографическими и этим пунктом не заменяются.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-16",
+      "code": "T08",
+      "priority": "P2",
+      "originalTitle": "T08 · P2 · В CSS продолжают жить прежние компоненты",
+      "originalProblem": "В поставляемом CSS сохранялись исчезнувшие компоненты и перекрывающиеся слои.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "output/research/implementation-2026-10-24/legacy-css-cleanup.json",
+          "line": 99,
+          "observation": "Разбором CSS удалены 247 доказанно неиспользуемых правил в style/depth/design-system, всего 17 194 байта; смешанные и защищённые селекторы сохранены."
+        },
+        {
+          "file": "output/concept/style.css",
+          "line": 11,
+          "observation": "Старый @import также удалён после появления явного link; оставшиеся активные стили не переупорядочены целиком."
+        }
+      ],
+      "remaining": "Нужна визуальная регрессия всех страниц/состояний после очистки. Полная консолидация слоёв и токенов не сделана; остаточные mixed selectors намеренно сохранены. Количество !important не используется как оценка само по себе.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-17",
+      "code": "T09",
+      "priority": "P2",
+      "originalTitle": "T09 · P2 · Smoke-test рассчитан на исчезнувший интерфейс",
+      "originalProblem": "Smoke-test проверял исчезнувшие фильтры и detail-dialog.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "scripts/check_concept.cjs",
+          "line": 12,
+          "observation": "Прежний несовместимый сценарий заменён переносимым runner: static manifest checks + syntax + interaction tests."
+        },
+        {
+          "file": "scripts/check_interactions.cjs",
+          "line": 216,
+          "observation": "Есть 21 повторяемый VM-тест актуальных форм и carousel на реальном генерируемом HTML-контракте."
+        },
+        {
+          "file": "scripts/check_site.py",
+          "line": 25,
+          "observation": "Все 22 актуальных маршрута и их локальные ссылки проверяются без реальных писем."
+        }
+      ],
+      "remaining": "VM и source runner не проверяют layout, реальную доступность/фокус меню и браузерный рендер. Эти сценарии остаются отдельной браузерной приёмкой root.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-18",
+      "code": "T10",
+      "priority": "P3",
+      "originalTitle": "T10 · P3 · Два перехода на каждый продукт удлиняют Tab-путь",
+      "originalProblem": "Две ссылки на каждой из 16 карточек удваивали Tab-путь.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 146,
+          "observation": "У карточки одна общая ссылка, включающая изображение, свойства и имя."
+        },
+        {
+          "file": "output/concept/product-cards.css",
+          "line": 14,
+          "observation": "Видимый focus принадлежит всей единственной ссылке."
+        }
+      ],
+      "remaining": "Проверить фактический Tab-порядок и озвучиваемое имя; статически на каждой карточке одна цель перехода.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-19",
+      "code": "T11",
+      "priority": "P2",
+      "originalTitle": "T11 · P2 · Составление письма зависит от почтовой среды",
+      "originalProblem": "Покупательская форма зависела от почтового клиента и не имела альтернативы.",
+      "status": "implemented",
+      "evidence": [
+        {
+          "file": "scripts/site_sections.py",
+          "line": 21,
+          "observation": "Добавлены копирование текущего запроса и textarea для ручного копирования."
+        },
+        {
+          "file": "output/concept/script.js",
+          "line": 118,
+          "observation": "При отсутствии/ошибке Clipboard API открывается ручной текст, без обещания доставки."
+        },
+        {
+          "file": "output/concept/partners-scenes.js",
+          "line": 49,
+          "observation": "B2B защищён от устаревшего результата async-копирования."
+        },
+        {
+          "file": "scripts/check_interactions.cjs",
+          "line": 251,
+          "observation": "VM-тесты подтверждают оба варианта, сброс и отсутствие отправки при копировании."
+        }
+      ],
+      "remaining": "Backend-доставки нет и она не заявлена; письмо отправляет пользователь. Реальные внешние почтовые клиенты/доставка проверяются отдельно, сценарий без них теперь предусмотрен.",
+      "verification": "static_source_and_generated_artifacts_only"
+    },
+    {
+      "id": "finding-20",
+      "code": "T12",
+      "priority": "P3",
+      "originalTitle": "T12 · P3 · Оптимизировать загрузку шрифтов без потери характера",
+      "originalProblem": "Шрифты имели резерв по весу и раннему обнаружению; font-face загружался через @import.",
+      "status": "partial",
+      "evidence": [
+        {
+          "file": "scripts/build_site.py",
+          "line": 69,
+          "observation": "Font-face CSS подключён явным link перед style.css."
+        },
+        {
+          "file": "output/research/implementation-2026-10-24/legacy-css-cleanup.json",
+          "line": 3457,
+          "observation": "Удалён импорт из style.css, файлы гарнитур/весов сохранены."
+        },
+        {
+          "file": "output/concept/assets/fonts/font-face.css",
+          "line": 7,
+          "observation": "Сохраняется swap; полный набор локальных шрифтов не заменён, subset и metric overrides не добавлены."
+        }
+      ],
+      "remaining": "Измерить холодный font waterfall, fallback-геометрию/CLS и реальное использование начертаний; затем решать subsets/preload. Не утверждать, что все font-face скачиваются на каждой странице.",
+      "verification": "static_source_and_generated_artifacts_only"
+    }
+  ]
+}

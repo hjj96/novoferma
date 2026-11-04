@@ -1,0 +1,45 @@
+{
+  "source": "tmp/pdfs/source-1.png",
+  "sourceSize": [
+    1348,
+    701
+  ],
+  "sourceNormalizedSize": [
+    1440,
+    749
+  ],
+  "implementation": "protein-1440.png",
+  "viewport": [
+    1440,
+    900
+  ],
+  "heroCrop": [
+    0,
+    0,
+    1440,
+    811
+  ],
+  "density": 1,
+  "fullComparisonSize": [
+    2880,
+    841
+  ],
+  "focusedAsset": "protein-lockup-v12.png",
+  "focusedAssetCrop": [
+    60,
+    98,
+    1749,
+    780
+  ],
+  "focusedBrowserRect": {
+    "bottom": 492.265625,
+    "height": 313.9765625,
+    "left": 69.1171875,
+    "right": 846.7109375,
+    "top": 178.2890625,
+    "width": 777.59375,
+    "x": 69.1171875,
+    "y": 178.2890625
+  },
+  "note": "Source1 is composition guidance; copy/package/hen stance were intentionally revised. Exact pose comparison uses v12 generated asset."
+}

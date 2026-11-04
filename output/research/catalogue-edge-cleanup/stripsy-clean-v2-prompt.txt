@@ -1,0 +1,7 @@
+Use case: background-extraction.
+Asset type: transparent catalog packshot, alpha-only cleanup of the supplied official product photograph.
+Input image 1 is the EXACT EDIT TARGET: stripsy, СТРИПСЫ. Preserve this same physical package, all Cyrillic label text, NOVOferma logo, mascot drawing, label paper colors and textures, food, perspective, camera angle, lighting and proportions exactly. Do not replace or redesign any label artwork or product.
+Primary request: remove only the white studio background AND all external cast/contact shadow below and around the physical plastic tub. Retain the complete smooth natural rounded lower plastic rim and every physical edge of the real package. Transparencies must look clean and natural on both warm cream and very dark brown backgrounds. The tub itself is real transparent plastic, with the original product visible through it.
+Composition/framing: square transparent image, the same centered view, complete package visible with safe breathing room, approximately 92 percent canvas width.
+Constraints: genuine transparent background and surroundings; no baked-in shadow, because the website adds its own CSS shadow. Keep all real package material and product. Remove any nonphysical dirty gray/brown shadow pad beneath the tub.
+Avoid: muddy brown pad, jagged threshold mask, white halo, hard horizontal cutoff, clipped lower rim, leftover white/gray studio floor, checkerboard drawn into the image, changes to label text/logo/mascot/food, stylization, invented objects.

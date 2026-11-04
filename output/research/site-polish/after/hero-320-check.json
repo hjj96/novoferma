@@ -1,0 +1,77 @@
+[
+  {
+    "broken": [],
+    "cta": {
+      "h": 50,
+      "w": 240,
+      "x": 16,
+      "y": 332
+    },
+    "gap": 38.8125,
+    "id": "scene-protein",
+    "inert": 4,
+    "overflow": false,
+    "titleRight": 304,
+    "viewport": 320
+  },
+  {
+    "broken": [],
+    "cta": {
+      "h": 50,
+      "w": 240,
+      "x": 16,
+      "y": 332
+    },
+    "gap": 38.8125,
+    "id": "scene-meatballs",
+    "inert": 4,
+    "overflow": false,
+    "titleRight": 304,
+    "viewport": 320
+  },
+  {
+    "broken": [],
+    "cta": {
+      "h": 50,
+      "w": 240,
+      "x": 16,
+      "y": 332
+    },
+    "gap": 38.8125,
+    "id": "scene-nuggets",
+    "inert": 4,
+    "overflow": false,
+    "titleRight": 304,
+    "viewport": 320
+  },
+  {
+    "broken": [],
+    "cta": {
+      "h": 50,
+      "w": 240,
+      "x": 16,
+      "y": 332
+    },
+    "gap": 12.1171875,
+    "id": "scene-fibriki",
+    "inert": 4,
+    "overflow": false,
+    "titleRight": 304,
+    "viewport": 320
+  },
+  {
+    "broken": [],
+    "cta": {
+      "h": 50,
+      "w": 240,
+      "x": 16,
+      "y": 332
+    },
+    "gap": 38.8125,
+    "id": "scene-lulia-mini",
+    "inert": 4,
+    "overflow": false,
+    "titleRight": 304,
+    "viewport": 320
+  }
+]

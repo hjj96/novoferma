@@ -1,0 +1,12 @@
+{
+  "focus": {
+    "outline": "rgb(48, 23, 9)",
+    "outlineWidth": "3px",
+    "text": "Обсудить поставки"
+  },
+  "enterDestination": {
+    "headingVisible": true,
+    "url": "http://127.0.0.1:8765/output/concept/partners.html#partner-contact"
+  },
+  "consoleErrors": []
+}

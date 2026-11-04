@@ -1,0 +1,1065 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "width": 320,
+      "reduced": false,
+      "failures": [],
+      "scroll": 320,
+      "protein": {
+        "left": 0,
+        "right": 320,
+        "top": 1375.796875,
+        "bottom": 2151.421875,
+        "width": 320,
+        "height": 775.625
+      },
+      "copy": {
+        "left": 16,
+        "right": 304,
+        "top": 1440.341552734375,
+        "bottom": 1864.310302734375,
+        "width": 288,
+        "height": 423.96875
+      },
+      "art": {
+        "left": 16,
+        "right": 304,
+        "top": 1893.926513671875,
+        "bottom": 2145.582763671875,
+        "width": 288,
+        "height": 251.65625
+      },
+      "word": {
+        "left": 16,
+        "right": 304,
+        "top": 1490.341552734375,
+        "bottom": 1568.185302734375,
+        "width": 288,
+        "height": 77.84375
+      },
+      "h": {
+        "left": 16,
+        "right": 304,
+        "top": 1490.341552734375,
+        "bottom": 1650.185302734375,
+        "width": 288,
+        "height": 159.84375
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 375,
+      "reduced": false,
+      "failures": [],
+      "scroll": 375,
+      "protein": {
+        "left": 0,
+        "right": 375,
+        "top": 1504.484375,
+        "bottom": 2336.140625,
+        "width": 375,
+        "height": 831.65625
+      },
+      "copy": {
+        "left": 20,
+        "right": 355,
+        "top": 1569.0291748046875,
+        "bottom": 2007.9510498046875,
+        "width": 335,
+        "height": 438.921875
+      },
+      "art": {
+        "left": 20,
+        "right": 355,
+        "top": 2037.5673828125,
+        "bottom": 2330.3017578125,
+        "width": 335,
+        "height": 292.734375
+      },
+      "word": {
+        "left": 20,
+        "right": 355,
+        "top": 1619.0291748046875,
+        "bottom": 1710.0760498046875,
+        "width": 335,
+        "height": 91.046875
+      },
+      "h": {
+        "left": 20,
+        "right": 355,
+        "top": 1619.0291748046875,
+        "bottom": 1793.8260498046875,
+        "width": 335,
+        "height": 174.796875
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 599,
+      "reduced": false,
+      "failures": [],
+      "scroll": 599,
+      "protein": {
+        "left": 0,
+        "right": 599,
+        "top": 1757.15625,
+        "bottom": 2739.734375,
+        "width": 599,
+        "height": 982.578125
+      },
+      "copy": {
+        "left": 20,
+        "right": 579,
+        "top": 1821.7010498046875,
+        "bottom": 2328.529296875,
+        "width": 559,
+        "height": 506.8282470703125
+      },
+      "art": {
+        "left": 84.5,
+        "right": 514.5,
+        "top": 2358.1455078125,
+        "bottom": 2733.8955078125,
+        "width": 430,
+        "height": 375.75
+      },
+      "word": {
+        "left": 20,
+        "right": 579,
+        "top": 1871.7010498046875,
+        "bottom": 2014.404296875,
+        "width": 559,
+        "height": 142.7032470703125
+      },
+      "h": {
+        "left": 20,
+        "right": 579,
+        "top": 1871.7010498046875,
+        "bottom": 2114.404296875,
+        "width": 559,
+        "height": 242.7032470703125
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 600,
+      "reduced": false,
+      "failures": [],
+      "scroll": 600,
+      "protein": {
+        "left": 0,
+        "right": 600,
+        "top": 1757.90625,
+        "bottom": 2740.484375,
+        "width": 600,
+        "height": 982.578125
+      },
+      "copy": {
+        "left": 20,
+        "right": 580,
+        "top": 1822.2747802734375,
+        "bottom": 2329.10302734375,
+        "width": 560,
+        "height": 506.8282470703125
+      },
+      "art": {
+        "left": 85,
+        "right": 515,
+        "top": 2358.625,
+        "bottom": 2734.375,
+        "width": 430,
+        "height": 375.75
+      },
+      "word": {
+        "left": 20,
+        "right": 580,
+        "top": 1872.2747802734375,
+        "bottom": 2014.9779052734375,
+        "width": 560,
+        "height": 142.703125
+      },
+      "h": {
+        "left": 20,
+        "right": 580,
+        "top": 1872.2747802734375,
+        "bottom": 2114.97802734375,
+        "width": 560,
+        "height": 242.7032470703125
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 699,
+      "reduced": false,
+      "failures": [],
+      "scroll": 699,
+      "protein": {
+        "left": 0,
+        "right": 699,
+        "top": 1809.71875,
+        "bottom": 2792.296875,
+        "width": 699,
+        "height": 982.578125
+      },
+      "copy": {
+        "left": 20,
+        "right": 679,
+        "top": 1874.2633056640625,
+        "bottom": 2381.09130859375,
+        "width": 659,
+        "height": 506.8280029296875
+      },
+      "art": {
+        "left": 134.5,
+        "right": 564.5,
+        "top": 2410.70751953125,
+        "bottom": 2786.45751953125,
+        "width": 430,
+        "height": 375.75
+      },
+      "word": {
+        "left": 20,
+        "right": 679,
+        "top": 1924.2633056640625,
+        "bottom": 2066.966552734375,
+        "width": 659,
+        "height": 142.7032470703125
+      },
+      "h": {
+        "left": 20,
+        "right": 679,
+        "top": 1924.2633056640625,
+        "bottom": 2166.966552734375,
+        "width": 659,
+        "height": 242.7032470703125
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 700,
+      "reduced": false,
+      "failures": [],
+      "scroll": 700,
+      "protein": {
+        "left": 0,
+        "right": 700,
+        "top": 1415.046875,
+        "bottom": 1975.046875,
+        "width": 700,
+        "height": 560
+      },
+      "copy": {
+        "left": 32,
+        "right": 358.84375,
+        "top": 1500.825927734375,
+        "bottom": 1932.357177734375,
+        "width": 326.84375,
+        "height": 431.53125
+      },
+      "art": {
+        "left": 370.84375,
+        "right": 698,
+        "top": 1573.270263671875,
+        "bottom": 1859.145263671875,
+        "width": 327.15625,
+        "height": 285.875
+      },
+      "word": {
+        "left": 32,
+        "right": 358.84375,
+        "top": 1551.325927734375,
+        "bottom": 1630.794677734375,
+        "width": 326.84375,
+        "height": 79.46875
+      },
+      "h": {
+        "left": 32,
+        "right": 358.84375,
+        "top": 1551.325927734375,
+        "bottom": 1707.794677734375,
+        "width": 326.84375,
+        "height": 156.46875
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 768,
+      "reduced": false,
+      "failures": [],
+      "scroll": 768,
+      "protein": {
+        "left": 0,
+        "right": 768,
+        "top": 1437.703125,
+        "bottom": 1997.703125,
+        "width": 768,
+        "height": 560
+      },
+      "copy": {
+        "left": 32,
+        "right": 394.46875,
+        "top": 1519.430419921875,
+        "bottom": 1958.899169921875,
+        "width": 362.46875,
+        "height": 439.46875
+      },
+      "art": {
+        "left": 406.46875,
+        "right": 766,
+        "top": 1581.6424560546875,
+        "bottom": 1895.814453125,
+        "width": 359.53125,
+        "height": 314.1719970703125
+      },
+      "word": {
+        "left": 32,
+        "right": 394.46875,
+        "top": 1569.930419921875,
+        "bottom": 1657.336669921875,
+        "width": 362.46875,
+        "height": 87.40625
+      },
+      "h": {
+        "left": 32,
+        "right": 394.46875,
+        "top": 1569.930419921875,
+        "bottom": 1734.336669921875,
+        "width": 362.46875,
+        "height": 164.40625
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 1024,
+      "reduced": false,
+      "failures": [],
+      "scroll": 1024,
+      "protein": {
+        "left": 0,
+        "right": 1024,
+        "top": 1580.109375,
+        "bottom": 2158.03125,
+        "width": 1024,
+        "height": 577.921875
+      },
+      "copy": {
+        "left": 32,
+        "right": 528.5625,
+        "top": 1656.7281494140625,
+        "bottom": 2124.64990234375,
+        "width": 496.5625,
+        "height": 467.9217529296875
+      },
+      "art": {
+        "left": 540.5625,
+        "right": 1022,
+        "top": 1679.99462890625,
+        "bottom": 2100.68212890625,
+        "width": 481.4375,
+        "height": 420.6875
+      },
+      "word": {
+        "left": 32,
+        "right": 528.5625,
+        "top": 1707.2281494140625,
+        "bottom": 1823.0875244140625,
+        "width": 496.5625,
+        "height": 115.859375
+      },
+      "h": {
+        "left": 32,
+        "right": 528.5625,
+        "top": 1707.2281494140625,
+        "bottom": 1900.08740234375,
+        "width": 496.5625,
+        "height": 192.8592529296875
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 1440,
+      "reduced": false,
+      "failures": [],
+      "scroll": 1440,
+      "protein": {
+        "left": 0,
+        "right": 1440,
+        "top": 1835.875,
+        "bottom": 2536.65625,
+        "width": 1440,
+        "height": 700.78125
+      },
+      "copy": {
+        "left": 72,
+        "right": 731.9375,
+        "top": 1922.243408203125,
+        "bottom": 2490.024658203125,
+        "width": 659.9375,
+        "height": 567.78125
+      },
+      "art": {
+        "left": 756.9375,
+        "right": 1398,
+        "top": 1925.5623779296875,
+        "bottom": 2485.734375,
+        "width": 641.0625,
+        "height": 560.1719970703125
+      },
+      "word": {
+        "left": 72,
+        "right": 731.9375,
+        "top": 1980.743408203125,
+        "bottom": 2144.774658203125,
+        "width": 659.9375,
+        "height": 164.03125
+      },
+      "h": {
+        "left": 72,
+        "right": 731.9375,
+        "top": 1980.743408203125,
+        "bottom": 2244.774658203125,
+        "width": 659.9375,
+        "height": 264.03125
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 1920,
+      "reduced": false,
+      "failures": [],
+      "scroll": 1920,
+      "protein": {
+        "left": 0,
+        "right": 1920,
+        "top": 1838.21875,
+        "bottom": 2539,
+        "width": 1920,
+        "height": 700.78125
+      },
+      "copy": {
+        "left": 312,
+        "right": 971.9375,
+        "top": 1924.58740234375,
+        "bottom": 2492.36865234375,
+        "width": 659.9375,
+        "height": 567.78125
+      },
+      "art": {
+        "left": 996.9375,
+        "right": 1638,
+        "top": 1927.9063720703125,
+        "bottom": 2488.078125,
+        "width": 641.0625,
+        "height": 560.1717529296875
+      },
+      "word": {
+        "left": 312,
+        "right": 971.9375,
+        "top": 1983.08740234375,
+        "bottom": 2147.11865234375,
+        "width": 659.9375,
+        "height": 164.03125
+      },
+      "h": {
+        "left": 312,
+        "right": 971.9375,
+        "top": 1983.08740234375,
+        "bottom": 2247.11865234375,
+        "width": 659.9375,
+        "height": 264.03125
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 320,
+      "reduced": true,
+      "failures": [],
+      "scroll": 320,
+      "protein": {
+        "left": 0,
+        "right": 320,
+        "top": 1375.796875,
+        "bottom": 2151.421875,
+        "width": 320,
+        "height": 775.625
+      },
+      "copy": {
+        "left": 16,
+        "right": 304,
+        "top": 1418.796875,
+        "bottom": 1842.765625,
+        "width": 288,
+        "height": 423.96875
+      },
+      "art": {
+        "left": 16,
+        "right": 304,
+        "top": 1872.765625,
+        "bottom": 2124.421875,
+        "width": 288,
+        "height": 251.65625
+      },
+      "word": {
+        "left": 16,
+        "right": 304,
+        "top": 1468.796875,
+        "bottom": 1546.640625,
+        "width": 288,
+        "height": 77.84375
+      },
+      "h": {
+        "left": 16,
+        "right": 304,
+        "top": 1468.796875,
+        "bottom": 1628.640625,
+        "width": 288,
+        "height": 159.84375
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 375,
+      "reduced": true,
+      "failures": [],
+      "scroll": 375,
+      "protein": {
+        "left": 0,
+        "right": 375,
+        "top": 1504.484375,
+        "bottom": 2336.140625,
+        "width": 375,
+        "height": 831.65625
+      },
+      "copy": {
+        "left": 20,
+        "right": 355,
+        "top": 1547.484375,
+        "bottom": 1986.40625,
+        "width": 335,
+        "height": 438.921875
+      },
+      "art": {
+        "left": 20,
+        "right": 355,
+        "top": 2016.40625,
+        "bottom": 2309.140625,
+        "width": 335,
+        "height": 292.734375
+      },
+      "word": {
+        "left": 20,
+        "right": 355,
+        "top": 1597.484375,
+        "bottom": 1688.53125,
+        "width": 335,
+        "height": 91.046875
+      },
+      "h": {
+        "left": 20,
+        "right": 355,
+        "top": 1597.484375,
+        "bottom": 1772.28125,
+        "width": 335,
+        "height": 174.796875
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 599,
+      "reduced": true,
+      "failures": [],
+      "scroll": 599,
+      "protein": {
+        "left": 0,
+        "right": 599,
+        "top": 1757.15625,
+        "bottom": 2739.734375,
+        "width": 599,
+        "height": 982.578125
+      },
+      "copy": {
+        "left": 20,
+        "right": 579,
+        "top": 1800.15625,
+        "bottom": 2306.984375,
+        "width": 559,
+        "height": 506.828125
+      },
+      "art": {
+        "left": 84.5,
+        "right": 514.5,
+        "top": 2336.984375,
+        "bottom": 2712.734375,
+        "width": 430,
+        "height": 375.75
+      },
+      "word": {
+        "left": 20,
+        "right": 579,
+        "top": 1850.15625,
+        "bottom": 1992.859375,
+        "width": 559,
+        "height": 142.703125
+      },
+      "h": {
+        "left": 20,
+        "right": 579,
+        "top": 1850.15625,
+        "bottom": 2092.859375,
+        "width": 559,
+        "height": 242.703125
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 600,
+      "reduced": true,
+      "failures": [],
+      "scroll": 600,
+      "protein": {
+        "left": 0,
+        "right": 600,
+        "top": 1757.90625,
+        "bottom": 2740.484375,
+        "width": 600,
+        "height": 982.578125
+      },
+      "copy": {
+        "left": 20,
+        "right": 580,
+        "top": 1800.90625,
+        "bottom": 2307.734375,
+        "width": 560,
+        "height": 506.828125
+      },
+      "art": {
+        "left": 85,
+        "right": 515,
+        "top": 2337.734375,
+        "bottom": 2713.484375,
+        "width": 430,
+        "height": 375.75
+      },
+      "word": {
+        "left": 20,
+        "right": 580,
+        "top": 1850.90625,
+        "bottom": 1993.609375,
+        "width": 560,
+        "height": 142.703125
+      },
+      "h": {
+        "left": 20,
+        "right": 580,
+        "top": 1850.90625,
+        "bottom": 2093.609375,
+        "width": 560,
+        "height": 242.703125
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 699,
+      "reduced": true,
+      "failures": [],
+      "scroll": 699,
+      "protein": {
+        "left": 0,
+        "right": 699,
+        "top": 1809.71875,
+        "bottom": 2792.296875,
+        "width": 699,
+        "height": 982.578125
+      },
+      "copy": {
+        "left": 20,
+        "right": 679,
+        "top": 1852.71875,
+        "bottom": 2359.546875,
+        "width": 659,
+        "height": 506.828125
+      },
+      "art": {
+        "left": 134.5,
+        "right": 564.5,
+        "top": 2389.546875,
+        "bottom": 2765.296875,
+        "width": 430,
+        "height": 375.75
+      },
+      "word": {
+        "left": 20,
+        "right": 679,
+        "top": 1902.71875,
+        "bottom": 2045.421875,
+        "width": 659,
+        "height": 142.703125
+      },
+      "h": {
+        "left": 20,
+        "right": 679,
+        "top": 1902.71875,
+        "bottom": 2145.421875,
+        "width": 659,
+        "height": 242.703125
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 700,
+      "reduced": true,
+      "failures": [],
+      "scroll": 700,
+      "protein": {
+        "left": 0,
+        "right": 700,
+        "top": 1415.046875,
+        "bottom": 1975.046875,
+        "width": 700,
+        "height": 560
+      },
+      "copy": {
+        "left": 32,
+        "right": 358.84375,
+        "top": 1479.28125,
+        "bottom": 1910.8125,
+        "width": 326.84375,
+        "height": 431.53125
+      },
+      "art": {
+        "left": 370.84375,
+        "right": 698,
+        "top": 1552.109375,
+        "bottom": 1837.984375,
+        "width": 327.15625,
+        "height": 285.875
+      },
+      "word": {
+        "left": 32,
+        "right": 358.84375,
+        "top": 1529.78125,
+        "bottom": 1609.25,
+        "width": 326.84375,
+        "height": 79.46875
+      },
+      "h": {
+        "left": 32,
+        "right": 358.84375,
+        "top": 1529.78125,
+        "bottom": 1686.25,
+        "width": 326.84375,
+        "height": 156.46875
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 768,
+      "reduced": true,
+      "failures": [],
+      "scroll": 768,
+      "protein": {
+        "left": 0,
+        "right": 768,
+        "top": 1437.703125,
+        "bottom": 1997.703125,
+        "width": 768,
+        "height": 560
+      },
+      "copy": {
+        "left": 32,
+        "right": 394.46875,
+        "top": 1497.96875,
+        "bottom": 1937.4375,
+        "width": 362.46875,
+        "height": 439.46875
+      },
+      "art": {
+        "left": 406.46875,
+        "right": 766,
+        "top": 1560.609375,
+        "bottom": 1874.78125,
+        "width": 359.53125,
+        "height": 314.171875
+      },
+      "word": {
+        "left": 32,
+        "right": 394.46875,
+        "top": 1548.46875,
+        "bottom": 1635.875,
+        "width": 362.46875,
+        "height": 87.40625
+      },
+      "h": {
+        "left": 32,
+        "right": 394.46875,
+        "top": 1548.46875,
+        "bottom": 1712.875,
+        "width": 362.46875,
+        "height": 164.40625
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 1024,
+      "reduced": true,
+      "failures": [],
+      "scroll": 1024,
+      "protein": {
+        "left": 0,
+        "right": 1024,
+        "top": 1580.109375,
+        "bottom": 2158.03125,
+        "width": 1024,
+        "height": 577.921875
+      },
+      "copy": {
+        "left": 32,
+        "right": 528.5625,
+        "top": 1635.109375,
+        "bottom": 2103.03125,
+        "width": 496.5625,
+        "height": 467.921875
+      },
+      "art": {
+        "left": 540.5625,
+        "right": 1022,
+        "top": 1658.71875,
+        "bottom": 2079.40625,
+        "width": 481.4375,
+        "height": 420.6875
+      },
+      "word": {
+        "left": 32,
+        "right": 528.5625,
+        "top": 1685.609375,
+        "bottom": 1801.46875,
+        "width": 496.5625,
+        "height": 115.859375
+      },
+      "h": {
+        "left": 32,
+        "right": 528.5625,
+        "top": 1685.609375,
+        "bottom": 1878.46875,
+        "width": 496.5625,
+        "height": 192.859375
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 1440,
+      "reduced": true,
+      "failures": [],
+      "scroll": 1440,
+      "protein": {
+        "left": 0,
+        "right": 1440,
+        "top": 1835.875,
+        "bottom": 2536.65625,
+        "width": 1440,
+        "height": 700.78125
+      },
+      "copy": {
+        "left": 72,
+        "right": 731.9375,
+        "top": 1900.875,
+        "bottom": 2468.65625,
+        "width": 659.9375,
+        "height": 567.78125
+      },
+      "art": {
+        "left": 756.9375,
+        "right": 1398,
+        "top": 1904.671875,
+        "bottom": 2464.84375,
+        "width": 641.0625,
+        "height": 560.171875
+      },
+      "word": {
+        "left": 72,
+        "right": 731.9375,
+        "top": 1959.375,
+        "bottom": 2123.40625,
+        "width": 659.9375,
+        "height": 164.03125
+      },
+      "h": {
+        "left": 72,
+        "right": 731.9375,
+        "top": 1959.375,
+        "bottom": 2223.40625,
+        "width": 659.9375,
+        "height": 264.03125
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    },
+    {
+      "width": 1920,
+      "reduced": true,
+      "failures": [],
+      "scroll": 1920,
+      "protein": {
+        "left": 0,
+        "right": 1920,
+        "top": 1838.21875,
+        "bottom": 2539,
+        "width": 1920,
+        "height": 700.78125
+      },
+      "copy": {
+        "left": 312,
+        "right": 971.9375,
+        "top": 1903.21875,
+        "bottom": 2471,
+        "width": 659.9375,
+        "height": 567.78125
+      },
+      "art": {
+        "left": 996.9375,
+        "right": 1638,
+        "top": 1907.015625,
+        "bottom": 2467.1875,
+        "width": 641.0625,
+        "height": 560.171875
+      },
+      "word": {
+        "left": 312,
+        "right": 971.9375,
+        "top": 1961.71875,
+        "bottom": 2125.75,
+        "width": 659.9375,
+        "height": 164.03125
+      },
+      "h": {
+        "left": 312,
+        "right": 971.9375,
+        "top": 1961.71875,
+        "bottom": 2225.75,
+        "width": 659.9375,
+        "height": 264.03125
+      },
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ],
+      "links": [
+        "mailto:info@novoferma.ru?subject=%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B5%20%C2%AB%D0%91%D0%B5%D0%BB%D0%BE%D0%BA%2B%C2%BB%20%D0%B8%20%D1%81%D1%80%D0%BE%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5."
+      ]
+    }
+  ]
+}

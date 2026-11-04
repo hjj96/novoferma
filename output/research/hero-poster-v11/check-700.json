@@ -1,0 +1,217 @@
+[
+  {
+    "active": "scene-protein",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 352.59375,
+      "height": 38,
+      "right": 263.59375,
+      "width": 230,
+      "x": 33.59375,
+      "y": 314.59375
+    },
+    "description": {
+      "bottom": 299.75,
+      "height": 70.1875,
+      "right": 210.7734375,
+      "width": 177.1796875,
+      "x": 33.59375,
+      "y": 229.5625
+    },
+    "fontSize": "13px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 225.3671875,
+      "height": 37.796875,
+      "right": 210.7734375,
+      "width": 177.1796875,
+      "x": 33.59375,
+      "y": 187.5703125
+    },
+    "title": {
+      "bottom": 268.765625,
+      "height": 182.1015625,
+      "right": 488.5859375,
+      "width": 454.9921875,
+      "x": 33.59375,
+      "y": 86.6640625
+    },
+    "width": 700
+  },
+  {
+    "active": "scene-meatballs",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 352.59375,
+      "height": 38,
+      "right": 263.59375,
+      "width": 230,
+      "x": 33.59375,
+      "y": 314.59375
+    },
+    "description": {
+      "bottom": 279.109375,
+      "height": 35.09375,
+      "right": 349.9921875,
+      "width": 316.3984375,
+      "x": 33.59375,
+      "y": 244.015625
+    },
+    "fontSize": "13px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 234.21875,
+      "height": 69.890625,
+      "right": 349.9921875,
+      "width": 316.3984375,
+      "x": 33.59375,
+      "y": 164.328125
+    },
+    "title": {
+      "bottom": 153.828125,
+      "height": 67.1640625,
+      "right": 443.7890625,
+      "width": 410.1953125,
+      "x": 33.59375,
+      "y": 86.6640625
+    },
+    "width": 700
+  },
+  {
+    "active": "scene-nuggets",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 352.59375,
+      "height": 38,
+      "right": 263.59375,
+      "width": 230,
+      "x": 33.59375,
+      "y": 314.59375
+    },
+    "description": {
+      "bottom": 245.875,
+      "height": 35.09375,
+      "right": 310.2265625,
+      "width": 276.6328125,
+      "x": 33.59375,
+      "y": 210.78125
+    },
+    "fontSize": "13px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 200.984375,
+      "height": 19.65625,
+      "right": 349.9921875,
+      "width": 316.3984375,
+      "x": 33.59375,
+      "y": 181.328125
+    },
+    "title": {
+      "bottom": 170.828125,
+      "height": 84.1640625,
+      "right": 390.5859375,
+      "width": 356.9921875,
+      "x": 33.59375,
+      "y": 86.6640625
+    },
+    "width": 700
+  },
+  {
+    "active": "scene-fibriki",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 352.59375,
+      "height": 38,
+      "right": 263.59375,
+      "width": 230,
+      "x": 33.59375,
+      "y": 314.59375
+    },
+    "description": {
+      "bottom": 301.40625,
+      "height": 35.09375,
+      "right": 349.9921875,
+      "width": 316.3984375,
+      "x": 33.59375,
+      "y": 266.3125
+    },
+    "fontSize": "13px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 246.8203125,
+      "height": 34.65625,
+      "right": 313.2890625,
+      "width": 243,
+      "x": 70.2890625,
+      "y": 212.1640625
+    },
+    "title": {
+      "bottom": 168.8515625,
+      "height": 82.1875,
+      "right": 443.0859375,
+      "width": 409.4921875,
+      "x": 33.59375,
+      "y": 86.6640625
+    },
+    "width": 700
+  },
+  {
+    "active": "scene-lulia-mini",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 352.59375,
+      "height": 38,
+      "right": 263.59375,
+      "width": 230,
+      "x": 33.59375,
+      "y": 314.59375
+    },
+    "description": {
+      "bottom": 290.203125,
+      "height": 35.09375,
+      "right": 349.9921875,
+      "width": 316.3984375,
+      "x": 33.59375,
+      "y": 255.109375
+    },
+    "fontSize": "13px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 247.4140625,
+      "height": 35.421875,
+      "right": 349.9921875,
+      "width": 316.3984375,
+      "x": 33.59375,
+      "y": 211.9921875
+    },
+    "title": {
+      "bottom": 204.296875,
+      "height": 123.5390625,
+      "right": 324.0859375,
+      "width": 290.4921875,
+      "x": 33.59375,
+      "y": 80.7578125
+    },
+    "width": 700
+  }
+]

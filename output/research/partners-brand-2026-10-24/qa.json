@@ -1,0 +1,838 @@
+{
+  "pass": true,
+  "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/partners.html",
+  "results": [
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "textOverflow": [],
+      "duplicateIds": [],
+      "h1Count": 1,
+      "mainSections": [
+        "partners-business",
+        "partners-offers",
+        "partners-contact"
+      ],
+      "offerCount": 2,
+      "titleFont": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+      "titleFontLoaded": true,
+      "fontFaces": [
+        {
+          "family": "Novoferma Protein",
+          "status": "loaded",
+          "weight": "850"
+        }
+      ],
+      "palette": {
+        "hero": "rgb(250, 75, 6)",
+        "offers": "rgb(255, 245, 227)",
+        "contact": "rgb(64, 33, 17)"
+      },
+      "brokenImages": [],
+      "host": {
+        "src": "assets/partners-brand-v1/partner-host-v1.webp?v=283eb84c82",
+        "naturalWidth": 1024,
+        "naturalHeight": 1536,
+        "objectFit": "contain",
+        "box": {
+          "x": 919.203125,
+          "y": 206,
+          "w": 326.65625,
+          "h": 490,
+          "right": 1245.859375,
+          "bottom": 696
+        },
+        "scene": {
+          "x": 797.078125,
+          "y": 206,
+          "w": 570.90625,
+          "h": 490,
+          "right": 1367.984375,
+          "bottom": 696
+        },
+        "hero": {
+          "x": 0,
+          "y": 168,
+          "w": 1440,
+          "h": 560,
+          "right": 1440,
+          "bottom": 728
+        },
+        "boxRatioMatchesNatural": true,
+        "renderedAspectPreserved": true
+      },
+      "heroCTA": {
+        "x": 72,
+        "y": 619.890625,
+        "w": 238.53125,
+        "h": 56,
+        "right": 310.53125,
+        "bottom": 675.890625
+      },
+      "hostBoxOverlapsCTA": false,
+      "retailHref": "catalogue.html",
+      "required": [
+        "company",
+        "contact"
+      ],
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        }
+      ],
+      "primaryCTA": {
+        "hash": "#partner-contact",
+        "selected": "retail",
+        "contactTop": 118.25
+      },
+      "specs": {
+        "open": true,
+        "rows": 5,
+        "tableWidth": 440,
+        "availableWidth": 440,
+        "text": "Фасовки из каталога\n+\nПродукты\tМасса нетто\nКотлеты и биточки\t450 г, 480 г, 522 г\nФрикадельки и ёжики\t480 г, 500 г\nПопкорн\t400 г\nНаггетсы\t400 г\nСтрипсы\t400 г\n\nАктуальные фасовки, объём партии и условия поставки уточним при обсуждении заказа."
+      },
+      "stmCTA": {
+        "hash": "#partner-contact",
+        "selected": "stm",
+        "hint": "Обсудим продукт, фасовку и упаковку под вашим брендом."
+      },
+      "emptyRequired": {
+        "valid": false,
+        "invalid": [
+          "company",
+          "contact"
+        ],
+        "feedbackHidden": true
+      },
+      "whitespaceInvalid": true,
+      "copied": {
+        "texts": [
+          "Здравствуйте!\nХочу обсудить сотрудничество с Новофермой.\n\nНаправление: Производство под своей маркой (СТМ)\nКомпания: Тестовая компания & Партнёр\nГород: Санкт-Петербург\nКонтакт для связи: qa@example.test\n\nТест: продукты, фасовка и объём."
+        ],
+        "feedback": "Запрос скопирован. Отправьте его на zakaz@novoferma.ru.",
+        "draftHidden": true
+      },
+      "copyFallback": {
+        "shown": true,
+        "value": "Здравствуйте!\nХочу обсудить сотрудничество с Новофермой.\n\nНаправление: Производство под своей маркой (СТМ)\nКомпания: Тестовая компания & Партнёр\nГород: Санкт-Петербург\nКонтакт для связи: qa@example.test\n\nТест: продукты, фасовка и объём.",
+        "feedback": "Текст запроса готов. Скопируйте его и отправьте на zakaz@novoferma.ru."
+      },
+      "resetAfterEdit": true,
+      "pageErrors": [],
+      "mailSubmission": "Not invoked; no mail client opened",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "textOverflow": [],
+      "duplicateIds": [],
+      "h1Count": 1,
+      "mainSections": [
+        "partners-business",
+        "partners-offers",
+        "partners-contact"
+      ],
+      "offerCount": 2,
+      "titleFont": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+      "titleFontLoaded": true,
+      "fontFaces": [
+        {
+          "family": "Novoferma Protein",
+          "status": "loaded",
+          "weight": "850"
+        }
+      ],
+      "palette": {
+        "hero": "rgb(250, 75, 6)",
+        "offers": "rgb(255, 245, 227)",
+        "contact": "rgb(64, 33, 17)"
+      },
+      "brokenImages": [],
+      "host": {
+        "src": "assets/partners-brand-v1/partner-host-v1.webp?v=283eb84c82",
+        "naturalWidth": 1024,
+        "naturalHeight": 1536,
+        "objectFit": "contain",
+        "box": {
+          "x": 207.328125,
+          "y": 316.0625,
+          "w": 162.671875,
+          "h": 225,
+          "right": 370,
+          "bottom": 541.0625
+        },
+        "scene": {
+          "x": 207.328125,
+          "y": 316.0625,
+          "w": 162.671875,
+          "h": 225,
+          "right": 370,
+          "bottom": 541.0625
+        },
+        "hero": {
+          "x": 0,
+          "y": 138,
+          "w": 390,
+          "h": 487.0625,
+          "right": 390,
+          "bottom": 625.0625
+        },
+        "boxRatioMatchesNatural": false,
+        "renderedAspectPreserved": true
+      },
+      "heroCTA": {
+        "x": 20,
+        "y": 549.0625,
+        "w": 350,
+        "h": 56,
+        "right": 370,
+        "bottom": 605.0625
+      },
+      "hostBoxOverlapsCTA": false,
+      "retailHref": "catalogue.html",
+      "required": [
+        "company",
+        "contact"
+      ],
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        }
+      ],
+      "primaryCTA": {
+        "hash": "#partner-contact",
+        "selected": "retail",
+        "contactTop": 44.75
+      },
+      "specs": {
+        "open": true,
+        "rows": 5,
+        "tableWidth": 350,
+        "availableWidth": 350,
+        "text": "Фасовки из каталога\n+\nПродукты\tМасса нетто\nКотлеты и биточки\t450 г, 480 г, 522 г\nФрикадельки и ёжики\t480 г, 500 г\nПопкорн\t400 г\nНаггетсы\t400 г\nСтрипсы\t400 г\n\nАктуальные фасовки, объём партии и условия поставки уточним при обсуждении заказа."
+      },
+      "stmCTA": {
+        "hash": "#partner-contact",
+        "selected": "stm",
+        "hint": "Обсудим продукт, фасовку и упаковку под вашим брендом."
+      },
+      "emptyRequired": {
+        "valid": false,
+        "invalid": [
+          "company",
+          "contact"
+        ],
+        "feedbackHidden": true
+      },
+      "whitespaceInvalid": true,
+      "copied": {
+        "texts": [
+          "Здравствуйте!\nХочу обсудить сотрудничество с Новофермой.\n\nНаправление: Производство под своей маркой (СТМ)\nКомпания: Тестовая компания & Партнёр\nГород: Санкт-Петербург\nКонтакт для связи: qa@example.test\n\nТест: продукты, фасовка и объём."
+        ],
+        "feedback": "Запрос скопирован. Отправьте его на zakaz@novoferma.ru.",
+        "draftHidden": true
+      },
+      "copyFallback": {
+        "shown": true,
+        "value": "Здравствуйте!\nХочу обсудить сотрудничество с Новофермой.\n\nНаправление: Производство под своей маркой (СТМ)\nКомпания: Тестовая компания & Партнёр\nГород: Санкт-Петербург\nКонтакт для связи: qa@example.test\n\nТест: продукты, фасовка и объём.",
+        "feedback": "Текст запроса готов. Скопируйте его и отправьте на zakaz@novoferma.ru."
+      },
+      "resetAfterEdit": true,
+      "pageErrors": [],
+      "mailSubmission": "Not invoked; no mail client opened",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "documentWidth": 320,
+      "viewportWidth": 320,
+      "textOverflow": [],
+      "duplicateIds": [],
+      "h1Count": 1,
+      "mainSections": [
+        "partners-business",
+        "partners-offers",
+        "partners-contact"
+      ],
+      "offerCount": 2,
+      "titleFont": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+      "titleFontLoaded": true,
+      "fontFaces": [
+        {
+          "family": "Novoferma Protein",
+          "status": "loaded",
+          "weight": "850"
+        }
+      ],
+      "palette": {
+        "hero": "rgb(250, 75, 6)",
+        "offers": "rgb(255, 245, 227)",
+        "contact": "rgb(64, 33, 17)"
+      },
+      "brokenImages": [],
+      "host": {
+        "src": "assets/partners-brand-v1/partner-host-v1.webp?v=283eb84c82",
+        "naturalWidth": 1024,
+        "naturalHeight": 1536,
+        "objectFit": "contain",
+        "box": {
+          "x": 170.84375,
+          "y": 310.8125,
+          "w": 133.15625,
+          "h": 195,
+          "right": 304,
+          "bottom": 505.8125
+        },
+        "scene": {
+          "x": 170.84375,
+          "y": 310.8125,
+          "w": 133.15625,
+          "h": 195,
+          "right": 304,
+          "bottom": 505.8125
+        },
+        "hero": {
+          "x": 0,
+          "y": 134,
+          "w": 320,
+          "h": 455.8125,
+          "right": 320,
+          "bottom": 589.8125
+        },
+        "boxRatioMatchesNatural": false,
+        "renderedAspectPreserved": true
+      },
+      "heroCTA": {
+        "x": 16,
+        "y": 513.8125,
+        "w": 288,
+        "h": 56,
+        "right": 304,
+        "bottom": 569.8125
+      },
+      "hostBoxOverlapsCTA": false,
+      "retailHref": "catalogue.html",
+      "required": [
+        "company",
+        "contact"
+      ],
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        }
+      ],
+      "primaryCTA": {
+        "hash": "#partner-contact",
+        "selected": "retail",
+        "contactTop": 45.390625
+      },
+      "specs": {
+        "open": true,
+        "rows": 5,
+        "tableWidth": 288,
+        "availableWidth": 288,
+        "text": "Фасовки из каталога\n+\nПродукты\tМасса нетто\nКотлеты и биточки\t450 г, 480 г, 522 г\nФрикадельки и ёжики\t480 г, 500 г\nПопкорн\t400 г\nНаггетсы\t400 г\nСтрипсы\t400 г\n\nАктуальные фасовки, объём партии и условия поставки уточним при обсуждении заказа."
+      },
+      "stmCTA": {
+        "hash": "#partner-contact",
+        "selected": "stm",
+        "hint": "Обсудим продукт, фасовку и упаковку под вашим брендом."
+      },
+      "emptyRequired": {
+        "valid": false,
+        "invalid": [
+          "company",
+          "contact"
+        ],
+        "feedbackHidden": true
+      },
+      "whitespaceInvalid": true,
+      "copied": {
+        "texts": [
+          "Здравствуйте!\nХочу обсудить сотрудничество с Новофермой.\n\nНаправление: Производство под своей маркой (СТМ)\nКомпания: Тестовая компания & Партнёр\nГород: Санкт-Петербург\nКонтакт для связи: qa@example.test\n\nТест: продукты, фасовка и объём."
+        ],
+        "feedback": "Запрос скопирован. Отправьте его на zakaz@novoferma.ru.",
+        "draftHidden": true
+      },
+      "copyFallback": {
+        "shown": true,
+        "value": "Здравствуйте!\nХочу обсудить сотрудничество с Новофермой.\n\nНаправление: Производство под своей маркой (СТМ)\nКомпания: Тестовая компания & Партнёр\nГород: Санкт-Петербург\nКонтакт для связи: qa@example.test\n\nТест: продукты, фасовка и объём.",
+        "feedback": "Текст запроса готов. Скопируйте его и отправьте на zakaz@novoferma.ru."
+      },
+      "resetAfterEdit": true,
+      "pageErrors": [],
+      "mailSubmission": "Not invoked; no mail client opened",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "viewportWidth": 768,
+      "textOverflow": [],
+      "duplicateIds": [],
+      "h1Count": 1,
+      "mainSections": [
+        "partners-business",
+        "partners-offers",
+        "partners-contact"
+      ],
+      "offerCount": 2,
+      "titleFont": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+      "titleFontLoaded": true,
+      "fontFaces": [
+        {
+          "family": "Novoferma Protein",
+          "status": "loaded",
+          "weight": "850"
+        }
+      ],
+      "palette": {
+        "hero": "rgb(250, 75, 6)",
+        "offers": "rgb(255, 245, 227)",
+        "contact": "rgb(64, 33, 17)"
+      },
+      "brokenImages": [],
+      "host": {
+        "src": "assets/partners-brand-v1/partner-host-v1.webp?v=283eb84c82",
+        "naturalWidth": 1024,
+        "naturalHeight": 1536,
+        "objectFit": "contain",
+        "box": {
+          "x": 448.125,
+          "y": 186,
+          "w": 266.65625,
+          "h": 400,
+          "right": 714.78125,
+          "bottom": 586
+        },
+        "scene": {
+          "x": 426.90625,
+          "y": 186,
+          "w": 309.09375,
+          "h": 400,
+          "right": 736,
+          "bottom": 586
+        },
+        "hero": {
+          "x": 0,
+          "y": 156,
+          "w": 768,
+          "h": 460,
+          "right": 768,
+          "bottom": 616
+        },
+        "boxRatioMatchesNatural": true,
+        "renderedAspectPreserved": true
+      },
+      "heroCTA": {
+        "x": 32,
+        "y": 495,
+        "w": 208.0625,
+        "h": 56,
+        "right": 240.0625,
+        "bottom": 551
+      },
+      "hostBoxOverlapsCTA": false,
+      "retailHref": "catalogue.html",
+      "required": [
+        "company",
+        "contact"
+      ],
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        }
+      ],
+      "primaryCTA": {
+        "hash": "#partner-contact",
+        "selected": "retail",
+        "contactTop": 117.5
+      },
+      "specs": {
+        "open": true,
+        "rows": 5,
+        "tableWidth": 332,
+        "availableWidth": 332,
+        "text": "Фасовки из каталога\n+\nПродукты\tМасса нетто\nКотлеты и биточки\t450 г, 480 г, 522 г\nФрикадельки и ёжики\t480 г, 500 г\nПопкорн\t400 г\nНаггетсы\t400 г\nСтрипсы\t400 г\n\nАктуальные фасовки, объём партии и условия поставки уточним при обсуждении заказа."
+      },
+      "stmCTA": {
+        "hash": "#partner-contact",
+        "selected": "stm",
+        "hint": "Обсудим продукт, фасовку и упаковку под вашим брендом."
+      },
+      "emptyRequired": {
+        "valid": false,
+        "invalid": [
+          "company",
+          "contact"
+        ],
+        "feedbackHidden": true
+      },
+      "whitespaceInvalid": true,
+      "copied": {
+        "texts": [
+          "Здравствуйте!\nХочу обсудить сотрудничество с Новофермой.\n\nНаправление: Производство под своей маркой (СТМ)\nКомпания: Тестовая компания & Партнёр\nГород: Санкт-Петербург\nКонтакт для связи: qa@example.test\n\nТест: продукты, фасовка и объём."
+        ],
+        "feedback": "Запрос скопирован. Отправьте его на zakaz@novoferma.ru.",
+        "draftHidden": true
+      },
+      "copyFallback": {
+        "shown": true,
+        "value": "Здравствуйте!\nХочу обсудить сотрудничество с Новофермой.\n\nНаправление: Производство под своей маркой (СТМ)\nКомпания: Тестовая компания & Партнёр\nГород: Санкт-Петербург\nКонтакт для связи: qa@example.test\n\nТест: продукты, фасовка и объём.",
+        "feedback": "Текст запроса готов. Скопируйте его и отправьте на zakaz@novoferma.ru."
+      },
+      "resetAfterEdit": true,
+      "pageErrors": [],
+      "mailSubmission": "Not invoked; no mail client opened",
+      "pass": true
+    },
+    {
+      "width": 1024,
+      "documentWidth": 1024,
+      "viewportWidth": 1024,
+      "textOverflow": [],
+      "duplicateIds": [],
+      "h1Count": 1,
+      "mainSections": [
+        "partners-business",
+        "partners-offers",
+        "partners-contact"
+      ],
+      "offerCount": 2,
+      "titleFont": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+      "titleFontLoaded": true,
+      "fontFaces": [
+        {
+          "family": "Novoferma Protein",
+          "status": "loaded",
+          "weight": "850"
+        }
+      ],
+      "palette": {
+        "hero": "rgb(250, 75, 6)",
+        "offers": "rgb(255, 245, 227)",
+        "contact": "rgb(64, 33, 17)"
+      },
+      "brokenImages": [],
+      "host": {
+        "src": "assets/partners-brand-v1/partner-host-v1.webp?v=283eb84c82",
+        "naturalWidth": 1024,
+        "naturalHeight": 1536,
+        "objectFit": "contain",
+        "box": {
+          "x": 645.921875,
+          "y": 186,
+          "w": 266.65625,
+          "h": 400,
+          "right": 912.578125,
+          "bottom": 586
+        },
+        "scene": {
+          "x": 566.53125,
+          "y": 186,
+          "w": 425.453125,
+          "h": 400,
+          "right": 991.984375,
+          "bottom": 586
+        },
+        "hero": {
+          "x": 0,
+          "y": 156,
+          "w": 1024,
+          "h": 460,
+          "right": 1024,
+          "bottom": 616
+        },
+        "boxRatioMatchesNatural": true,
+        "renderedAspectPreserved": true
+      },
+      "heroCTA": {
+        "x": 32,
+        "y": 514.578125,
+        "w": 208.0625,
+        "h": 56,
+        "right": 240.0625,
+        "bottom": 570.578125
+      },
+      "hostBoxOverlapsCTA": false,
+      "retailHref": "catalogue.html",
+      "required": [
+        "company",
+        "contact"
+      ],
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        }
+      ],
+      "primaryCTA": {
+        "hash": "#partner-contact",
+        "selected": "retail",
+        "contactTop": 118.3125
+      },
+      "specs": {
+        "open": true,
+        "rows": 5,
+        "tableWidth": 440,
+        "availableWidth": 440,
+        "text": "Фасовки из каталога\n+\nПродукты\tМасса нетто\nКотлеты и биточки\t450 г, 480 г, 522 г\nФрикадельки и ёжики\t480 г, 500 г\nПопкорн\t400 г\nНаггетсы\t400 г\nСтрипсы\t400 г\n\nАктуальные фасовки, объём партии и условия поставки уточним при обсуждении заказа."
+      },
+      "stmCTA": {
+        "hash": "#partner-contact",
+        "selected": "stm",
+        "hint": "Обсудим продукт, фасовку и упаковку под вашим брендом."
+      },
+      "emptyRequired": {
+        "valid": false,
+        "invalid": [
+          "company",
+          "contact"
+        ],
+        "feedbackHidden": true
+      },
+      "whitespaceInvalid": true,
+      "copied": {
+        "texts": [
+          "Здравствуйте!\nХочу обсудить сотрудничество с Новофермой.\n\nНаправление: Производство под своей маркой (СТМ)\nКомпания: Тестовая компания & Партнёр\nГород: Санкт-Петербург\nКонтакт для связи: qa@example.test\n\nТест: продукты, фасовка и объём."
+        ],
+        "feedback": "Запрос скопирован. Отправьте его на zakaz@novoferma.ru.",
+        "draftHidden": true
+      },
+      "copyFallback": {
+        "shown": true,
+        "value": "Здравствуйте!\nХочу обсудить сотрудничество с Новофермой.\n\nНаправление: Производство под своей маркой (СТМ)\nКомпания: Тестовая компания & Партнёр\nГород: Санкт-Петербург\nКонтакт для связи: qa@example.test\n\nТест: продукты, фасовка и объём.",
+        "feedback": "Текст запроса готов. Скопируйте его и отправьте на zakaz@novoferma.ru."
+      },
+      "resetAfterEdit": true,
+      "pageErrors": [],
+      "mailSubmission": "Not invoked; no mail client opened",
+      "pass": true
+    },
+    {
+      "width": 1920,
+      "documentWidth": 1920,
+      "viewportWidth": 1920,
+      "textOverflow": [],
+      "duplicateIds": [],
+      "h1Count": 1,
+      "mainSections": [
+        "partners-business",
+        "partners-offers",
+        "partners-contact"
+      ],
+      "offerCount": 2,
+      "titleFont": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+      "titleFontLoaded": true,
+      "fontFaces": [
+        {
+          "family": "Novoferma Protein",
+          "status": "loaded",
+          "weight": "850"
+        }
+      ],
+      "palette": {
+        "hero": "rgb(250, 75, 6)",
+        "offers": "rgb(255, 245, 227)",
+        "contact": "rgb(64, 33, 17)"
+      },
+      "brokenImages": [],
+      "host": {
+        "src": "assets/partners-brand-v1/partner-host-v1.webp?v=283eb84c82",
+        "naturalWidth": 1024,
+        "naturalHeight": 1536,
+        "objectFit": "contain",
+        "box": {
+          "x": 1159.203125,
+          "y": 206,
+          "w": 326.65625,
+          "h": 490,
+          "right": 1485.859375,
+          "bottom": 696
+        },
+        "scene": {
+          "x": 1037.078125,
+          "y": 206,
+          "w": 570.90625,
+          "h": 490,
+          "right": 1607.984375,
+          "bottom": 696
+        },
+        "hero": {
+          "x": 0,
+          "y": 168,
+          "w": 1920,
+          "h": 560,
+          "right": 1920,
+          "bottom": 728
+        },
+        "boxRatioMatchesNatural": true,
+        "renderedAspectPreserved": true
+      },
+      "heroCTA": {
+        "x": 312,
+        "y": 620.25,
+        "w": 238.53125,
+        "h": 56,
+        "right": 550.53125,
+        "bottom": 676.25
+      },
+      "hostBoxOverlapsCTA": false,
+      "retailHref": "catalogue.html",
+      "required": [
+        "company",
+        "contact"
+      ],
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif"
+        }
+      ],
+      "primaryCTA": {
+        "hash": "#partner-contact",
+        "selected": "retail",
+        "contactTop": 118.25
+      },
+      "specs": {
+        "open": true,
+        "rows": 5,
+        "tableWidth": 440,
+        "availableWidth": 440,
+        "text": "Фасовки из каталога\n+\nПродукты\tМасса нетто\nКотлеты и биточки\t450 г, 480 г, 522 г\nФрикадельки и ёжики\t480 г, 500 г\nПопкорн\t400 г\nНаггетсы\t400 г\nСтрипсы\t400 г\n\nАктуальные фасовки, объём партии и условия поставки уточним при обсуждении заказа."
+      },
+      "stmCTA": {
+        "hash": "#partner-contact",
+        "selected": "stm",
+        "hint": "Обсудим продукт, фасовку и упаковку под вашим брендом."
+      },
+      "emptyRequired": {
+        "valid": false,
+        "invalid": [
+          "company",
+          "contact"
+        ],
+        "feedbackHidden": true
+      },
+      "whitespaceInvalid": true,
+      "copied": {
+        "texts": [
+          "Здравствуйте!\nХочу обсудить сотрудничество с Новофермой.\n\nНаправление: Производство под своей маркой (СТМ)\nКомпания: Тестовая компания & Партнёр\nГород: Санкт-Петербург\nКонтакт для связи: qa@example.test\n\nТест: продукты, фасовка и объём."
+        ],
+        "feedback": "Запрос скопирован. Отправьте его на zakaz@novoferma.ru.",
+        "draftHidden": true
+      },
+      "copyFallback": {
+        "shown": true,
+        "value": "Здравствуйте!\nХочу обсудить сотрудничество с Новофермой.\n\nНаправление: Производство под своей маркой (СТМ)\nКомпания: Тестовая компания & Партнёр\nГород: Санкт-Петербург\nКонтакт для связи: qa@example.test\n\nТест: продукты, фасовка и объём.",
+        "feedback": "Текст запроса готов. Скопируйте его и отправьте на zakaz@novoferma.ru."
+      },
+      "resetAfterEdit": true,
+      "pageErrors": [],
+      "mailSubmission": "Not invoked; no mail client opened",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "visualReview": {
+    "inspected": [
+      "partners-320.png",
+      "partners-390.png",
+      "partners-768.png",
+      "partners-1024.png",
+      "partners-1440.png",
+      "partners-1920.png",
+      "specs-open-390.png",
+      "specs-open-1440.png",
+      "form-copied-390.png",
+      "form-copied-1440.png"
+    ],
+    "findings": [],
+    "result": "Full character visible; title fits; no collisions with CTA; readable layouts across all six widths. Expanded specification and copy feedback remain readable.",
+    "limits": [
+      "Valid form submission and mailto links were not invoked; no mail client was opened.",
+      "Clipboard was mocked for success and failure to avoid modifying the system clipboard.",
+      "This is a responsive browser check, not a full accessibility audit."
+    ]
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "meta": {
+    "snapshot": "snapshot-manifest.json",
+    "scope_pages": 20,
+    "excluded": [
+      "loading-concept.html",
+      "loading-story.html",
+      "typography-specimen.html"
+    ],
+    "method": "Fresh HTMLParser walk, CSS dependency closure, filesystem byte counts, PIL metadata, Node syntax parse, read-only VM form behavior probe; no browser launched by technical subagent.",
+    "sources_not_used": [
+      "previous audits",
+      "design-qa.md",
+      "historical screenshots"
+    ],
+    "deployment_not_tested": [
+      "HTTP cache/compression/security headers",
+      "CDN/TLS",
+      "robots served at real domain",
+      "sitemap deployment",
+      "CrUX/real-user Core Web Vitals",
+      "screen reader",
+      "OS reduced-motion runtime",
+      "cross-browser compatibility",
+      "real email delivery"
+    ]
+  },
+  "inventory_totals": {
+    "pages": 20,
+    "assets_on_disk": 370,
+    "bytes_on_disk": 132981546,
+    "direct_asset_count": 58,
+    "direct_asset_bytes": 14839889,
+    "all_css_bytes": 138828,
+    "referenced_css_resource_bytes": 364494,
+    "image_instances": 396,
+    "images_missing_alt": 0,
+    "images_missing_dimensions": 0,
+    "images_with_srcset": 0
+  },
+  "findings": [
+    {
+      "id": "T01",
+      "priority": "P1",
+      "type": "measured optimization opportunity",
+      "title": "Lossless product and mascot images are unnecessarily expensive for a retail catalogue",
+      "evidence": [
+        "14 current 800x800 product packshots are lossless VP8L WebP: 7,344,508 bytes total, individual range 488,268–587,546 bytes.",
+        "Catalogue references 8,512,079 bytes of unique image assets, excluding CSS/fonts/HTML. Product cards are lazy; this is full referenced image payload, not initial transfer.",
+        "Contacts eagerly references 1,535,898-byte decorative mascot.",
+        "No srcset is present on any of 396 img instances.",
+        "In-memory same-dimensions q90 WebP experiment: 18 large images 11,556,996 → 2,768,300 bytes, a 76.0% reduction. This establishes optimization potential, not approved visual fidelity."
+      ],
+      "locations": [
+        "catalogue.html:3 .packshot-stage img",
+        "contacts.html:1 .contacts-mascot",
+        "index.html:2 .home-products img",
+        "assets/catalogue-clean-v2/*.webp",
+        "technical-image-budget.json"
+      ],
+      "recommendation": "Generate a small approved responsive derivative set (e.g. 400/800 sizes, exact sizes chosen from rendered slots/DPR), tune lossy quality per packaging image with close review of label lettering and alpha edges, retain master files outside deployed public assets. Add srcset/sizes. Use lossless only where proven necessary.",
+      "acceptance": "Visually approve label/product integrity at mobile and desktop, compare actual cold-cache transfer/LCP before and after, check no new CLS. Set project budgets rather than claiming a WCAG performance limit."
+    },
+    {
+      "id": "T02",
+      "priority": "P1",
+      "type": "confirmed implementation with performance risk",
+      "title": "Hidden hero slides load and decode immediately",
+      "evidence": [
+        "index.html hero includes 11 separate raster assets, 1,703,036 bytes in total. All hero image elements are eager/default.",
+        "product-hero.js:67 calls decode() for every image in all 3 inactive panels immediately.",
+        "Natural dimensions sum to 69,215,248 bytes (66.0 MiB) if represented as RGBA buffers. This is a theoretical decoded-size sum, not measured JS heap/GPU allocation.",
+        "No autoplay: the user may never view those inactive scenes."
+      ],
+      "locations": [
+        "index.html:1 .product-stage",
+        "product-hero.js:67",
+        "product-hero.css:9"
+      ],
+      "recommendation": "Prioritize current hero assets; defer inactive slide fetching/decode until idle or navigation intent, retain fast manual switching. Measure actual LCP element before adding further preloads. Avoid making the first LCP image lazy.",
+      "acceptance": "Measure cold-cache mobile waterfall, LCP, transfer and switching latency; no blank frame when next slide becomes active."
+    },
+    {
+      "id": "T03",
+      "priority": "P2",
+      "type": "reproduced deterministic bug",
+      "title": "Where-to-buy retry link keeps old city/product after fields are edited",
+      "evidence": [
+        "After composing Moscow + all products, changing fields to Kazan + Fibriki leaves visible retry mailto with Moscow + all products.",
+        "The city input handler clears only customValidity. There is no feedback reset for city/product edits.",
+        "A Node VM probe executed the real script with DOM stubs; no email/navigation/network occurred.",
+        "The partner form correctly implements resetFeedback on input/change and is a useful existing pattern."
+      ],
+      "locations": [
+        "script.js:73",
+        "#city-form .form-feedback",
+        "partners-scenes.js:12",
+        "partners-scenes.js:25",
+        "technical-form-check.json"
+      ],
+      "recommendation": "Reset feedback/draft when either city or selected product changes, or regenerate retry href from current values.",
+      "acceptance": "Compose once, edit each field separately, verify old retry is hidden or current; re-submit must include latest values."
+    },
+    {
+      "id": "T04",
+      "priority": "P2",
+      "type": "confirmed semantic defect",
+      "title": "All 14 product pages announce catalogue as the current page",
+      "evidence": [
+        "Both desktop and mobile navigation on every product detail page set aria-current=\"page\" on href=\"catalogue.html\".",
+        "The current document is product-*.html; the attribute encodes current page rather than parent section."
+      ],
+      "locations": [
+        "product-naggetsy-kurinye.html:1 .desktop-nav a[href=\"catalogue.html\"]",
+        "scripts/build_site.py:22"
+      ],
+      "recommendation": "Keep visual active-section styling separate from aria-current=\"page\"; use an appropriate current indicator for actual breadcrumb/current document.",
+      "acceptance": "Only an actual current-page link is marked page, and the parent category remains visually understandable. Verify accessibility tree/current announcement.",
+      "source_ids": [
+        "S08"
+      ]
+    },
+    {
+      "id": "T05",
+      "priority": "P2",
+      "type": "confirmed SEO content gap",
+      "title": "19 of 20 pages share the same generic meta description",
+      "evidence": [
+        "Only partners.html has a specific description. All 14 product detail pages, contacts, catalogue, about, where-to-buy and home share the generic text.",
+        "All 20 titles are unique; this strength should be retained."
+      ],
+      "locations": [
+        "product-naggetsy-kurinye.html:1 meta[name=\"description\"]",
+        "contacts.html:1 meta[name=\"description\"]",
+        "scripts/build_site.py:25"
+      ],
+      "recommendation": "Generate product-specific descriptions from verified product data; write purpose-specific descriptions for contacts, where-to-buy and about. Avoid keyword stuffing or invented nutrition/availability.",
+      "acceptance": "20 descriptions accurately summarize their own pages. Search engines can still choose another snippet; no guarantee of ranking uplift.",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "id": "T06",
+      "priority": "P2 before production",
+      "type": "confirmed local omissions; deployment impact unverified",
+      "title": "Search/share/deployment metadata has no completed production layer",
+      "evidence": [
+        "0 canonical links, 0 OG meta sets, 0 favicon links, 0 JSON-LD blocks across 20 main pages.",
+        "No robots.txt or sitemap file inside the inspected static concept.",
+        "No conclusion can be drawn about server headers, real-domain redirects/indexability or externally supplied sitemap. Absence of robots.txt is not an indexing violation."
+      ],
+      "locations": [
+        "index.html:1 head",
+        "site-manifest.json:2 pages",
+        "scripts/build_site.py:32"
+      ],
+      "recommendation": "At real-domain launch, define canonical URLs, useful share image/title/description, favicon, route/redirect/404 policy and a sitemap. Add truthful Organization/Breadcrumb metadata. Only add eligible Product rich-result fields when verified offers/reviews/ratings exist; never manufacture these for schema.",
+      "acceptance": "Verify deployed page source/HTTP behavior and social previews on the actual URL, sitemap routes resolve, markup matches visible content.",
+      "source_ids": [
+        "S07"
+      ]
+    },
+    {
+      "id": "T07",
+      "priority": "P2 conditional accessibility/design review",
+      "type": "confirmed image-of-text usage; WCAG failure not certified",
+      "title": "Hero product titles are raster lettering with hidden text alternatives",
+      "evidence": [
+        "Four visible product titles are separate title.webp images. Real names exist in sr-only spans, so text alternatives are not missing.",
+        "The visible lettering cannot be restyled/reflowed like live text.",
+        "WCAG 1.4.5 permits essential branding/logotypes and some other exceptions; whether these generic product headings need the essential presentation is a design/accessibility judgement."
+      ],
+      "locations": [
+        "index.html:1 .product-scene-title .product-title-art",
+        "product-hero.css:15",
+        "product-hero.css:49"
+      ],
+      "recommendation": "Use live type for generic headings where the effect can be recreated, or make a specific documented decision about essential brand lettering and a usable visible text alternative. Do not treat decorative packaging typography as the same case.",
+      "acceptance": "Test text resizing/custom fonts/colors and low vision needs. Retain accessible names.",
+      "source_ids": [
+        "S03"
+      ]
+    },
+    {
+      "id": "T08",
+      "priority": "P2 maintainability",
+      "type": "confirmed architecture debt",
+      "title": "CSS contains obsolete component systems and multiple override layers",
+      "evidence": [
+        "Current pages consume 7–11 stylesheet files including imported font-face.css, 95,326–115,887 uncompressed bytes. Example home per-file gzip sum is only 29,419 bytes, so images are the larger transfer problem.",
+        "Current 20-page HTML has no .hero, .hero-copy, .serving-tabs, .serving-content, .category-filters, .meat-filters, .search, .protein-bridge, .protein-section or .hero-signature classes, while styles for these legacy components still ship.",
+        "Base style.css is supplemented by depth, design-system, polish, motion, mobile and per-page overrides. 24 !important occurrences across referenced CSS, many intentionally for reduced-motion/hidden behavior."
+      ],
+      "locations": [
+        "style.css:12",
+        "style.css:15",
+        "style.css:69",
+        "index.html:1 stylesheet links",
+        "design-system.css:1",
+        "polish.css:1"
+      ],
+      "recommendation": "Move current component rules into a clear shared/component/page hierarchy, remove proven obsolete blocks, keep intentional accessibility overrides. Preserve visual regression references during cleanup. Do not bundle merely to reduce an arbitrary file count.",
+      "acceptance": "Current 20 pages and states remain visually/functionally equivalent; the same component no longer requires searching several unrelated override files."
+    },
+    {
+      "id": "T09",
+      "priority": "P2 test tooling",
+      "type": "confirmed stale test selectors",
+      "title": "Repository smoke test targets an obsolete site interface",
+      "evidence": [
+        "scripts/check_concept.cjs looks for buttons С индейкой and Все, class .product, and old detail modal controls.",
+        "These controls and class do not exist in the current 20 pages. The first locator cannot complete against this current DOM.",
+        "The test was inspected, not run; no browser was launched by this subagent."
+      ],
+      "locations": [
+        "scripts/check_concept.cjs:12",
+        "scripts/check_concept.cjs:16",
+        "scripts/check_concept.cjs:22"
+      ],
+      "recommendation": "Update the smoke test to the current navigation/carousel, product detail routes, mailto draft/copy forms, reduced-motion and responsive states. Make runtime/browser configuration portable.",
+      "acceptance": "A documented reproducible command checks the current 20-page manifest and current user journeys without sending real mail."
+    },
+    {
+      "id": "T10",
+      "priority": "P3 keyboard efficiency",
+      "type": "confirmed structure; usability opportunity",
+      "title": "Every catalogue card creates two consecutive links to the same destination",
+      "evidence": [
+        "16 cards each contain a linked packshot and a separate linked product heading, for 32 card links.",
+        "Both names are substantially identical; this is redundant navigation, not automatically a WCAG failure."
+      ],
+      "locations": [
+        "catalogue.html:3 .product-card a.product-image + .product-meta + a.product-title",
+        "index.html:2 featured product cards"
+      ],
+      "recommendation": "Consider a single semantic anchor per card containing the relevant visual/title, or one explicit title link with a safe extended click area. Preserve selectable text and visible focus.",
+      "acceptance": "Keyboard users reach each product once without sacrificing a large click target; screen reader names remain concise."
+    },
+    {
+      "id": "T11",
+      "priority": "P2 production funnel decision",
+      "type": "confirmed limitation, transparently presented",
+      "title": "Purchase enquiry and B2B forms compose email rather than delivering a request",
+      "evidence": [
+        "Both forms navigate to mailto; there is no backend submission in their code.",
+        "Labels state that a mail app opens and the user sends the message. There is no misleading success/delivery claim.",
+        "B2B has a working copy fallback; where-to-buy lacks a comparable copy draft fallback.",
+        "The parent browser pass confirmed blank-city native validation and successful B2B clipboard copy using test data. Email delivery was not tested."
+      ],
+      "locations": [
+        "script.js:73",
+        "partners-scenes.js:35",
+        "partners-scenes.js:40",
+        "where-to-buy.html:1 #city-form",
+        "partners.html:11"
+      ],
+      "recommendation": "If production lead generation is a goal, choose a reliable delivery backend or provide equal copy/manual fallback for both forms; retain explicit draft-vs-sent states. For where-to-buy, actual store/retailer links solve the customer task better than correspondence when verified availability exists.",
+      "acceptance": "Test default-mail-client absent scenario. Users can obtain/send the request and understand whether the company actually received it."
+    },
+    {
+      "id": "T12",
+      "priority": "P3 measured optimization opportunity",
+      "type": "confirmed font setup with unmeasured loading risk",
+      "title": "Fonts are local and well configured, but the handwritten face is comparatively large",
+      "evidence": [
+        "Onest WOFF2 84,076 bytes, Caveat 173,472, Rubik 65,868, RobotoFlex-Protein 38,644; total defined font files 362,060 bytes. A font-face definition alone does not imply download on every page.",
+        "font-display:swap and local WOFF2 are present; no external font host dependency.",
+        "style.css imports the Onest/Caveat font-face definitions through an extra CSS request. No unicode-range or metric override descriptors are declared."
+      ],
+      "locations": [
+        "style.css:1",
+        "style.css:4",
+        "assets/fonts/font-face.css:2",
+        "assets/fonts/font-face.css:10",
+        "protein-story.css:2"
+      ],
+      "recommendation": "Keep the established type roles. Consider verified Cyrillic/Latin subsets, direct discovery/preload of only the truly critical font, and compatible fallback metrics. Do not preload all 4 faces by default.",
+      "acceptance": "Network traces confirm intended font fetches; cold-load text remains legible and layout shifts do not regress. Actual CLS remains a runtime measurement.",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "strengths": [
+    "All 20 primary pages have lang=ru, a viewport meta, exactly one H1 and main, and a skip link. 20 unique document titles.",
+    "All 396 img elements include alt and explicit dimensions. This is a structural positive, not a guarantee every alt is semantically ideal.",
+    "Zero missing local src/href targets and zero missing local anchor targets in the static dependency walk.",
+    "43 ARIA reference tokens resolve; no duplicate IDs found, all form controls have source-associated labels, all buttons have a source-accessible name.",
+    "Navigation uses native dialog, aria-expanded, close handler and focus return. Forms use labels, native validity and status regions; B2B uses fieldset/legend and clipboard fallback.",
+    "Carousel is manual with arrow controls, keyboard tab behavior, Home/End, inert inactive panels and live announcements; there is no autoplay.",
+    "OS reduced-motion CSS globally disables animation/transition; JS honors the preference and reacts to changes. Scroll depth is off below 900px, for reduced motion, when hidden or menu is open. No unbounded always-running animation loop in active scripts.",
+    "Motion geometry reads are batched before writes; requestAnimationFrame work is scheduled only when needed, pointer/scroll listeners are mostly passive.",
+    "All 4 connected JavaScript files parse successfully with node --check. No runtime error-free claim is inferred from this syntax result.",
+    "205 versioned URL instances in the final state match the sha256-prefix convention. A transient mismatch during concurrent editing was excluded after snapshot verification.",
+    "Source-declared solid color pairs are strong: body brown/cream 13.45, muted/cream 5.52, partner placeholders/cream 5.06, partner field border/cream 3.21, partner focus/cream 5.16, hero CTA 4.66. No blanket low-contrast finding is warranted.",
+    "Actual source pipeline exists: scripts/build_site.py generates pages, shared header/footer and hashes; site-manifest.json names the current 20 routes. Do not describe the project as having no generator.",
+    "Parent browser verification: coordinate click on mobile Next preserves scrollTop=0. An earlier apparent jump came from tool auto-scrolling and is excluded. Blank-city validity and B2B copy succeeded."
+  ],
+  "outstanding_verification": [
+    "Use primary browser pass for 320/390/tablet/desktop, all 4 hero scenes, menu, focus, form error/success-copy/fallback states, 200% text and 400% page zoom/reflow.",
+    "No screen reader or OS reduced-motion runtime testing was completed. Source support is confirmed, conformance is not.",
+    "Use production RUM/CrUX and repeatable lab tests for LCP/INP/CLS, transfer, cache and compression; this report has no invented Lighthouse score.",
+    "Verify product facts, formulation, nutritional/weight/packaging information and image truth against approved product records. Source rendering quality cannot establish commercial truth.",
+    "Review actual deployed 404/redirects/canonical/HTTPS/security headers/robots/sitemap and lead delivery before production release."
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "WCAG 2.2 — Contrast Minimum",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "use": "Normal text minimum 4.5:1; qualifying large text 3:1. Thin styles can need more practical margin. This does not itself certify the rendered site.",
+      "verified_online": "2026-10-16"
+    },
+    {
+      "id": "S02",
+      "title": "WCAG 2.2 — Animation from Interactions",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+      "use": "Disabling nonessential interaction motion is level AAA. Do not present every non-disabled animation as an AA failure.",
+      "verified_online": "2026-10-16"
+    },
+    {
+      "id": "S03",
+      "title": "WCAG 2.2 — Images of Text",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/images-of-text.html",
+      "use": "Prefer actual text when technology can achieve the presentation; essential presentation and customization exceptions exist. A hidden alternative is not the same as adjustable visible lettering.",
+      "verified_online": "2026-10-16"
+    },
+    {
+      "id": "S04",
+      "title": "WCAG 2.2 — Reflow",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+      "use": "Test reflow at narrow CSS width and zoom; fixed positioning and nowrap are risk indicators, not proof without rendering.",
+      "verified_online": "2026-10-16"
+    },
+    {
+      "id": "S05",
+      "title": "WCAG 2.2 — Target Size Minimum",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+      "use": "AA target minimum is 24 by 24 CSS pixels, subject to exceptions. A 44px touch target is a useful stronger project baseline, not universal AA minimum.",
+      "verified_online": "2026-10-16"
+    },
+    {
+      "id": "S06",
+      "title": "Google Search — Snippets and meta descriptions",
+      "url": "https://developers.google.com/search/docs/appearance/snippet",
+      "use": "Google recommends page-specific descriptions. It primarily derives snippets from page content and may choose meta text.",
+      "verified_online": "2026-10-16"
+    },
+    {
+      "id": "S07",
+      "title": "Google Search — Product snippet structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet",
+      "use": "Rich-result eligibility depends on supported verified properties. Do not invent offers or reviews for a nontransactional catalogue.",
+      "verified_online": "2026-10-16"
+    },
+    {
+      "id": "S08",
+      "title": "WAI-ARIA 1.2 aria-current",
+      "url": "https://www.w3.org/TR/wai-aria-1.2/#aria-current",
+      "use": "The page token identifies the current page within a set of pages.",
+      "verified_online": "2026-10-16"
+    },
+    {
+      "id": "S09",
+      "title": "web.dev — Optimize LCP",
+      "url": "https://web.dev/articles/optimize-lcp",
+      "use": "Make critical LCP resources discoverable early, avoid lazy-loading the LCP image, and use measured priority/size optimizations.",
+      "verified_online": "2026-10-16"
+    },
+    {
+      "id": "S10",
+      "title": "web.dev — Optimize WebFont loading",
+      "url": "https://web.dev/articles/optimize-webfont-loading",
+      "use": "Font discovery, display behavior and carefully selected preload/subsets affect render timing; measure rather than blindly preload.",
+      "verified_online": "2026-10-16"
+    },
+    {
+      "id": "S11",
+      "title": "web.dev — Responsive images",
+      "url": "https://web.dev/learn/images/responsive-images",
+      "use": "Use appropriately sized image candidates for viewport and device density through responsive image markup.",
+      "verified_online": "2026-10-16"
+    },
+    {
+      "id": "S12",
+      "title": "web.dev — Web Vitals",
+      "url": "https://web.dev/articles/vitals",
+      "use": "Current good thresholds: LCP at most 2.5s, INP at most 200ms, CLS at most 0.1 at the 75th percentile. Local byte counts cannot establish any of these outcomes.",
+      "verified_online": "2026-10-16"
+    }
+  ],
+  "font_files": [
+    {
+      "path": "assets/fonts/Caveat-wght.woff2",
+      "bytes": 173472,
+      "gzip_bytes": 173545
+    },
+    {
+      "path": "assets/fonts/Onest-wght.woff2",
+      "bytes": 84076,
+      "gzip_bytes": 84076
+    },
+    {
+      "path": "assets/fonts/RobotoFlex-Protein.woff2",
+      "bytes": 38644,
+      "gzip_bytes": 38232
+    },
+    {
+      "path": "assets/fonts/Rubik-wght.woff2",
+      "bytes": 65868,
+      "gzip_bytes": 65670
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-08",
+  "browser": "Codex In-app Browser",
+  "mainViewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "mobileViewport": {
+    "width": 390,
+    "height": 844
+  },
+  "menu": {
+    "escapeCloses": true,
+    "focusReturnedTo": "Открыть меню"
+  },
+  "servingTabs": {
+    "clickUpdatesPhotoAndText": true,
+    "arrowRightUpdatesPanel": true
+  },
+  "catalogue": {
+    "combinedFilters": true,
+    "emptyStateAndReset": true,
+    "searchWithoutYo": true,
+    "categoriesScrollable": {
+      "clientWidth": 390,
+      "scrollWidth": 650
+    }
+  },
+  "purchase": {
+    "validProductPrefill": true,
+    "requiredCityValidation": true,
+    "invalidProductQuery": {
+      "query": "product=missing",
+      "selectedIndex": -1,
+      "error": "TypeError: Cannot read properties of undefined (reading 'text')",
+      "source": "script.js:69:503"
+    }
+  },
+  "topButtonAtPageStart": {
+    "hidden": false,
+    "opacity": "0",
+    "pointerEvents": "none",
+    "scrollY": 0,
+    "tabIndex": 0,
+    "visibility": "visible"
+  }
+}

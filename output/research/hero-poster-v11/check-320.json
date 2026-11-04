@@ -1,0 +1,217 @@
+[
+  {
+    "active": "scene-protein",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 382,
+      "height": 50,
+      "right": 256,
+      "width": 240,
+      "x": 16,
+      "y": 332
+    },
+    "description": {
+      "bottom": 261.453125,
+      "height": 39.1875,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 222.265625
+    },
+    "fontSize": "14px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 196.265625,
+      "height": 32,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 164.265625
+    },
+    "title": {
+      "bottom": 209.265625,
+      "height": 115.265625,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 94
+    },
+    "width": 320
+  },
+  {
+    "active": "scene-meatballs",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 382,
+      "height": 50,
+      "right": 256,
+      "width": 240,
+      "x": 16,
+      "y": 332
+    },
+    "description": {
+      "bottom": 253.34375,
+      "height": 39.1875,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 214.15625
+    },
+    "fontSize": "14px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 202.15625,
+      "height": 51,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 151.15625
+    },
+    "title": {
+      "bottom": 141.15625,
+      "height": 47.15625,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 94
+    },
+    "width": 320
+  },
+  {
+    "active": "scene-nuggets",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 382,
+      "height": 50,
+      "right": 256,
+      "width": 240,
+      "x": 16,
+      "y": 332
+    },
+    "description": {
+      "bottom": 243.2421875,
+      "height": 39.1875,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 204.0546875
+    },
+    "fontSize": "14px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 192.0546875,
+      "height": 20.15625,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 171.8984375
+    },
+    "title": {
+      "bottom": 161.8984375,
+      "height": 67.8984375,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 94
+    },
+    "width": 320
+  },
+  {
+    "active": "scene-fibriki",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 382,
+      "height": 50,
+      "right": 256,
+      "width": 240,
+      "x": 16,
+      "y": 332
+    },
+    "description": {
+      "bottom": 286.8828125,
+      "height": 39.1875,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 247.6953125
+    },
+    "fontSize": "14px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 227.53125,
+      "height": 32.875,
+      "right": 275.3125,
+      "width": 230.6328125,
+      "x": 44.6796875,
+      "y": 194.65625
+    },
+    "title": {
+      "bottom": 151.8046875,
+      "height": 57.8046875,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 94
+    },
+    "width": 320
+  },
+  {
+    "active": "scene-lulia-mini",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 382,
+      "height": 50,
+      "right": 256,
+      "width": 240,
+      "x": 16,
+      "y": 332
+    },
+    "description": {
+      "bottom": 285.65625,
+      "height": 39.1875,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 246.46875
+    },
+    "fontSize": "14px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 234.46875,
+      "height": 40.3125,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 194.15625
+    },
+    "title": {
+      "bottom": 184.15625,
+      "height": 90.15625,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 94
+    },
+    "width": 320
+  }
+]

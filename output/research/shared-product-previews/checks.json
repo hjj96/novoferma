@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "pages": 16,
+      "matchingPreviews": 60,
+      "stableProductAppearance": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "pages": 16,
+      "matchingPreviews": 60,
+      "stableProductAppearance": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "pages": 16,
+      "matchingPreviews": 60,
+      "stableProductAppearance": true,
+      "overflow": false
+    }
+  ],
+  "narrow320": "pass",
+  "keyboardPreviewLink": "pass",
+  "errors": []
+}

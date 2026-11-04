@@ -1,0 +1,217 @@
+[
+  {
+    "active": "scene-protein",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 386.84375,
+      "height": 38,
+      "right": 266.859375,
+      "width": 230,
+      "x": 36.859375,
+      "y": 348.84375
+    },
+    "description": {
+      "bottom": 322.046875,
+      "height": 70.1875,
+      "right": 231.25,
+      "width": 194.390625,
+      "x": 36.859375,
+      "y": 251.859375
+    },
+    "fontSize": "13px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 247.2578125,
+      "height": 41.46875,
+      "right": 231.25,
+      "width": 194.390625,
+      "x": 36.859375,
+      "y": 205.7890625
+    },
+    "title": {
+      "bottom": 294.875,
+      "height": 199.7890625,
+      "right": 536.0546875,
+      "width": 499.1953125,
+      "x": 36.859375,
+      "y": 95.0859375
+    },
+    "width": 768
+  },
+  {
+    "active": "scene-meatballs",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 386.84375,
+      "height": 38,
+      "right": 266.859375,
+      "width": 230,
+      "x": 36.859375,
+      "y": 348.84375
+    },
+    "description": {
+      "bottom": 302.8046875,
+      "height": 35.09375,
+      "right": 365.3671875,
+      "width": 328.5078125,
+      "x": 36.859375,
+      "y": 267.7109375
+    },
+    "fontSize": "13px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 256.9609375,
+      "height": 76.671875,
+      "right": 383.9921875,
+      "width": 347.1328125,
+      "x": 36.859375,
+      "y": 180.2890625
+    },
+    "title": {
+      "bottom": 168.7734375,
+      "height": 73.6875,
+      "right": 486.8984375,
+      "width": 450.0390625,
+      "x": 36.859375,
+      "y": 95.0859375
+    },
+    "width": 768
+  },
+  {
+    "active": "scene-nuggets",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 386.84375,
+      "height": 38,
+      "right": 266.859375,
+      "width": 230,
+      "x": 36.859375,
+      "y": 348.84375
+    },
+    "description": {
+      "bottom": 266.359375,
+      "height": 35.09375,
+      "right": 313.4921875,
+      "width": 276.6328125,
+      "x": 36.859375,
+      "y": 231.265625
+    },
+    "fontSize": "13px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 220.515625,
+      "height": 21.5703125,
+      "right": 383.9921875,
+      "width": 347.1328125,
+      "x": 36.859375,
+      "y": 198.9453125
+    },
+    "title": {
+      "bottom": 187.4296875,
+      "height": 92.34375,
+      "right": 428.53125,
+      "width": 391.671875,
+      "x": 36.859375,
+      "y": 95.0859375
+    },
+    "width": 768
+  },
+  {
+    "active": "scene-fibriki",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 386.84375,
+      "height": 38,
+      "right": 266.859375,
+      "width": 230,
+      "x": 36.859375,
+      "y": 348.84375
+    },
+    "description": {
+      "bottom": 327.2734375,
+      "height": 35.09375,
+      "right": 365.3671875,
+      "width": 328.5078125,
+      "x": 36.859375,
+      "y": 292.1796875
+    },
+    "fontSize": "13px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 270.796875,
+      "height": 38.03125,
+      "right": 343.7265625,
+      "width": 266.609375,
+      "x": 77.1171875,
+      "y": 232.765625
+    },
+    "title": {
+      "bottom": 185.2578125,
+      "height": 90.171875,
+      "right": 486.125,
+      "width": 449.265625,
+      "x": 36.859375,
+      "y": 95.0859375
+    },
+    "width": 768
+  },
+  {
+    "active": "scene-lulia-mini",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 386.84375,
+      "height": 38,
+      "right": 266.859375,
+      "width": 230,
+      "x": 36.859375,
+      "y": 348.84375
+    },
+    "description": {
+      "bottom": 314.984375,
+      "height": 35.09375,
+      "right": 365.3671875,
+      "width": 328.5078125,
+      "x": 36.859375,
+      "y": 279.890625
+    },
+    "fontSize": "13px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 271.4453125,
+      "height": 38.859375,
+      "right": 383.9921875,
+      "width": 347.1328125,
+      "x": 36.859375,
+      "y": 232.5859375
+    },
+    "title": {
+      "bottom": 224.140625,
+      "height": 135.5390625,
+      "right": 355.5703125,
+      "width": 318.7109375,
+      "x": 36.859375,
+      "y": 88.6015625
+    },
+    "width": 768
+  }
+]

@@ -1,0 +1,11 @@
+Use case: precise-object-edit
+Asset type: opaque full-scene 16:9 landscape raster hero artwork for the Novoferma website.
+Input image: the supplied finished mini-lulia poster is the edit target. This is a strictly local cleanup, not a redesign.
+Primary request: preserve the EXACT full original composition, original graphic lettering, original typography, all food positions and chicken pose, sizes, proportions, lighting, texture and colours. Change ONLY the following three existing interface/handwriting areas by replacing them seamlessly with the same nearby lightly textured cream background:
+1. Remove the complete top interface: NOVOferma logo at top left, Продукция / О нас / Рецепты / Контакты navigation across top, and brown Где купить pill at top right with its arrow.
+2. Remove the orange Попробовать button and arrow from bottom left.
+3. Remove ONLY the handwritten orange Настоящее мясо курицы! note and its heart at top right, above chicken. Keep the small orange energy strokes beside it and elsewhere.
+Preserve all remaining original lettering exactly: giant brown «ЛЮЛЯ» above giant orange «МИНИ», original exaggerated poster lettering shapes; subheading «КУРИНЫЕ КОЛБАСКИ» / «С ЗЕЛЕНЬЮ И ОВОЩАМИ»; sans body «Нежные мини-люля из курицы» / «с зеленью и овощами.» / «Сочно. Натурально. По-домашнему.». Keep the positions and font styles identical.
+Keep all five mini-lulia food pieces, tomato, parsley, original cartoon chicken, white green-grid apron, orange hill with shadows, cream textured backdrop, all small orange energy strokes and brown little motion puffs. No other changes.
+Composition/framing: full original landscape 16:9 frame, no crop, no zoom, no repositioning, no new margin. Match the source pixel arrangement as closely as possible.
+Constraints: keep original image everywhere outside the three removal areas. No new characters, no extra food, no new writing. No simplified typography, no redesigned chicken, no replacement title font. Opaque cream background, no transparency.

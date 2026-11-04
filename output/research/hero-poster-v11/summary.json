@@ -1,0 +1,52 @@
+[
+  {
+    "width": 1440,
+    "ctaIdentical": true,
+    "oneBackground": true,
+    "noOverflow": true,
+    "noBroken": true,
+    "oneActive": true,
+    "minGap": 19.65625,
+    "scrollAtTop": true
+  },
+  {
+    "width": 768,
+    "ctaIdentical": true,
+    "oneBackground": true,
+    "noOverflow": true,
+    "noBroken": true,
+    "oneActive": true,
+    "minGap": 21.5703125,
+    "scrollAtTop": true
+  },
+  {
+    "width": 700,
+    "ctaIdentical": true,
+    "oneBackground": true,
+    "noOverflow": true,
+    "noBroken": true,
+    "oneActive": true,
+    "minGap": 13.1875,
+    "scrollAtTop": true
+  },
+  {
+    "width": 390,
+    "ctaIdentical": true,
+    "oneBackground": true,
+    "noOverflow": true,
+    "noBroken": true,
+    "oneActive": true,
+    "minGap": 17.078125,
+    "scrollAtTop": true
+  },
+  {
+    "width": 320,
+    "ctaIdentical": true,
+    "oneBackground": true,
+    "noOverflow": true,
+    "noBroken": true,
+    "oneActive": true,
+    "minGap": 45.1171875,
+    "scrollAtTop": true
+  }
+]

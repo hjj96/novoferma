@@ -1,0 +1,82 @@
+[
+  {
+    "id": "meatballs",
+    "source": "output/concept/assets/product-hero/meatballs-reference.webp",
+    "sourceSize": [
+      1672,
+      941
+    ],
+    "browser": "output/research/final-site-v13/hero-meatballs-1440.png",
+    "viewport": [
+      1440,
+      900
+    ],
+    "crop": [
+      0,
+      0,
+      1440,
+      811
+    ],
+    "scale": "Both proportional, fitted into 720x406 without stretching"
+  },
+  {
+    "id": "nuggets",
+    "source": "output/concept/assets/product-hero/nuggets-reference.webp",
+    "sourceSize": [
+      1536,
+      864
+    ],
+    "browser": "output/research/final-site-v13/hero-nuggets-1440.png",
+    "viewport": [
+      1440,
+      900
+    ],
+    "crop": [
+      0,
+      0,
+      1440,
+      811
+    ],
+    "scale": "Both proportional, fitted into 720x406 without stretching"
+  },
+  {
+    "id": "fibriki",
+    "source": "output/concept/assets/product-hero/fibriki-reference.webp",
+    "sourceSize": [
+      1536,
+      864
+    ],
+    "browser": "output/research/final-site-v13/hero-fibriki-1440.png",
+    "viewport": [
+      1440,
+      900
+    ],
+    "crop": [
+      0,
+      0,
+      1440,
+      811
+    ],
+    "scale": "Both proportional, fitted into 720x406 without stretching"
+  },
+  {
+    "id": "lulia-mini",
+    "source": "output/concept/assets/product-hero/lulia-mini-reference.webp",
+    "sourceSize": [
+      1536,
+      864
+    ],
+    "browser": "output/research/final-site-v13/hero-lulia-mini-1440.png",
+    "viewport": [
+      1440,
+      900
+    ],
+    "crop": [
+      0,
+      0,
+      1440,
+      811
+    ],
+    "scale": "Both proportional, fitted into 720x406 without stretching"
+  }
+]

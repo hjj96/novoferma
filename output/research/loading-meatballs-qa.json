@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-09-24T11:12:18.073Z",
+  "checks": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "noSceneText": true,
+      "noChicken": true,
+      "light": true,
+      "dense": true,
+      "skip": true,
+      "reducedMotion": true,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "noSceneText": true,
+      "noChicken": true,
+      "light": true,
+      "dense": true,
+      "skip": true,
+      "reducedMotion": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "noSceneText": true,
+      "noChicken": true,
+      "light": true,
+      "dense": true,
+      "skip": true,
+      "reducedMotion": true,
+      "errors": []
+    },
+    {
+      "originalVariant": "preserved and working"
+    }
+  ]
+}

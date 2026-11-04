@@ -1,0 +1,161 @@
+{
+  "responsive": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "fontLoaded": true,
+      "imagesLoaded": true,
+      "labelX": [
+        72,
+        72,
+        72,
+        72
+      ],
+      "labelStyles": [
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px"
+      ]
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "fontLoaded": true,
+      "imagesLoaded": true,
+      "labelX": [
+        312,
+        312,
+        312,
+        312
+      ],
+      "labelStyles": [
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px"
+      ]
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "fontLoaded": true,
+      "imagesLoaded": true,
+      "labelX": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "labelStyles": [
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px"
+      ]
+    },
+    {
+      "width": 900,
+      "overflow": false,
+      "fontLoaded": true,
+      "imagesLoaded": true,
+      "labelX": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "labelStyles": [
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px"
+      ]
+    },
+    {
+      "width": 899,
+      "overflow": false,
+      "fontLoaded": true,
+      "imagesLoaded": true,
+      "labelX": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "labelStyles": [
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px"
+      ]
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "fontLoaded": true,
+      "imagesLoaded": true,
+      "labelX": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "labelStyles": [
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px"
+      ]
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "fontLoaded": true,
+      "imagesLoaded": true,
+      "labelX": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "labelStyles": [
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px"
+      ]
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "fontLoaded": true,
+      "imagesLoaded": true,
+      "labelX": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "labelStyles": [
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px",
+        "11px/650/1.32px/16.5px"
+      ]
+    }
+  ],
+  "allEditorialHeadingsUseOneFamily": true,
+  "unifiedStylesIndexOnly": true,
+  "cssCacheHash": "f94f3864c5",
+  "interactions": {
+    "allFourSlides": true,
+    "ctaGeometryIdentical": true,
+    "keyboardArrow": true,
+    "catalogueNavigation14Products": true,
+    "mobileMenuOpenClose": true,
+    "partnersContactAnchor": true,
+    "consoleErrors": 0
+  },
+  "heading01WrapFixed320and768": true
+}

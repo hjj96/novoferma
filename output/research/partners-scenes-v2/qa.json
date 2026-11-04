@@ -1,0 +1,597 @@
+{
+  "pass": true,
+  "fileMode": true,
+  "results": [
+    {
+      "width": 320,
+      "documentWidth": 320,
+      "brokenImages": [],
+      "overflowingText": [],
+      "art": [
+        {
+          "image": "assets/partners-scenes-v2/handshake-v1.webp?v=af5b83ac30",
+          "ratioPreserved": true,
+          "x": 21,
+          "y": 524.0625,
+          "w": 278,
+          "h": 208.5,
+          "right": 299,
+          "bottom": 732.5625
+        },
+        {
+          "image": "assets/partners-scenes-v2/retail-v2.webp?v=6bf0f994cb",
+          "ratioPreserved": true,
+          "x": 16,
+          "y": 1244.625,
+          "w": 288,
+          "h": 192,
+          "right": 304,
+          "bottom": 1436.625
+        },
+        {
+          "image": "assets/partners-scenes-v2/stm-v1.webp?v=2a7b408246",
+          "ratioPreserved": true,
+          "x": 20,
+          "y": 2175.046875,
+          "w": 280,
+          "h": 210,
+          "right": 300,
+          "bottom": 2385.046875
+        }
+      ],
+      "sections": [
+        {
+          "class": "partners-welcome wrap",
+          "x": 16,
+          "y": 116,
+          "w": 288,
+          "h": 660.5625,
+          "right": 304,
+          "bottom": 776.5625
+        },
+        {
+          "class": "partners-retail",
+          "x": 0,
+          "y": 1056.125,
+          "w": 320,
+          "h": 930.421875,
+          "right": 320,
+          "bottom": 1986.546875
+        },
+        {
+          "class": "partners-private-label",
+          "x": 0,
+          "y": 1986.546875,
+          "w": 320,
+          "h": 691.0625,
+          "right": 320,
+          "bottom": 2677.609375
+        },
+        {
+          "class": "partners-contact",
+          "x": 0,
+          "y": 2677.609375,
+          "w": 320,
+          "h": 1208.6875,
+          "right": 320,
+          "bottom": 3886.296875
+        }
+      ],
+      "formats": [
+        {
+          "hash": "#partner-contact",
+          "checked": "retail",
+          "hint": "Продукция Новофермы для вашего ассортимента."
+        },
+        {
+          "hash": "#partner-contact",
+          "checked": "horeca",
+          "hint": "Продукты из птицы для меню кафе и ресторанов."
+        },
+        {
+          "hash": "#partner-contact",
+          "checked": "stm",
+          "hint": "Обсудим продукт, фасовку и упаковку под вашим брендом."
+        }
+      ],
+      "copyCorrect": true,
+      "mailCorrect": true,
+      "menu": {
+        "opened": true,
+        "closed": true
+      },
+      "errors": []
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "brokenImages": [],
+      "overflowingText": [],
+      "art": [
+        {
+          "image": "assets/partners-scenes-v2/handshake-v1.webp?v=af5b83ac30",
+          "ratioPreserved": true,
+          "x": 25,
+          "y": -2239.09375,
+          "w": 340,
+          "h": 255,
+          "right": 365,
+          "bottom": -1984.09375
+        },
+        {
+          "image": "assets/partners-scenes-v2/retail-v2.webp?v=6bf0f994cb",
+          "ratioPreserved": true,
+          "x": 20,
+          "y": -1460.375,
+          "w": 350,
+          "h": 233.328125,
+          "right": 370,
+          "bottom": -1227.046875
+        },
+        {
+          "image": "assets/partners-scenes-v2/stm-v1.webp?v=2a7b408246",
+          "ratioPreserved": true,
+          "x": 24,
+          "y": -504.15625,
+          "w": 342,
+          "h": 256.5,
+          "right": 366,
+          "bottom": -247.65625
+        }
+      ],
+      "sections": [
+        {
+          "class": "partners-welcome wrap",
+          "x": 20,
+          "y": -2658,
+          "w": 350,
+          "h": 717.90625,
+          "right": 370,
+          "bottom": -1940.09375
+        },
+        {
+          "class": "partners-retail",
+          "x": 0,
+          "y": -1660.53125,
+          "w": 390,
+          "h": 956.21875,
+          "right": 390,
+          "bottom": -704.3125
+        },
+        {
+          "class": "partners-private-label",
+          "x": 0,
+          "y": -704.3125,
+          "w": 390,
+          "h": 749.21875,
+          "right": 390,
+          "bottom": 44.90625
+        },
+        {
+          "class": "partners-contact",
+          "x": 0,
+          "y": 44.90625,
+          "w": 390,
+          "h": 1216.40625,
+          "right": 390,
+          "bottom": 1261.3125
+        }
+      ],
+      "formats": [
+        {
+          "hash": "#partner-contact",
+          "checked": "retail",
+          "hint": "Продукция Новофермы для вашего ассортимента."
+        },
+        {
+          "hash": "#partner-contact",
+          "checked": "horeca",
+          "hint": "Продукты из птицы для меню кафе и ресторанов."
+        },
+        {
+          "hash": "#partner-contact",
+          "checked": "stm",
+          "hint": "Обсудим продукт, фасовку и упаковку под вашим брендом."
+        }
+      ],
+      "copyCorrect": true,
+      "mailCorrect": true,
+      "menu": {
+        "opened": true,
+        "closed": true
+      },
+      "errors": []
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "brokenImages": [],
+      "overflowingText": [],
+      "art": [
+        {
+          "image": "assets/partners-scenes-v2/handshake-v1.webp?v=af5b83ac30",
+          "ratioPreserved": true,
+          "x": 374.046875,
+          "y": 224.765625,
+          "w": 357.953125,
+          "h": 268.453125,
+          "right": 732,
+          "bottom": 493.21875
+        },
+        {
+          "image": "assets/partners-scenes-v2/retail-v2.webp?v=6bf0f994cb",
+          "ratioPreserved": true,
+          "x": 32,
+          "y": 968.796875,
+          "w": 388.59375,
+          "h": 259.0625,
+          "right": 420.59375,
+          "bottom": 1227.859375
+        },
+        {
+          "image": "assets/partners-scenes-v2/stm-v1.webp?v=2a7b408246",
+          "ratioPreserved": true,
+          "x": 351.390625,
+          "y": 1517.078125,
+          "w": 380.59375,
+          "h": 285.4375,
+          "right": 731.984375,
+          "bottom": 1802.515625
+        }
+      ],
+      "sections": [
+        {
+          "class": "partners-welcome wrap",
+          "x": 32,
+          "y": 148,
+          "w": 704,
+          "h": 440,
+          "right": 736,
+          "bottom": 588
+        },
+        {
+          "class": "partners-retail",
+          "x": 0,
+          "y": 770.09375,
+          "w": 768,
+          "h": 686.984375,
+          "right": 768,
+          "bottom": 1457.078125
+        },
+        {
+          "class": "partners-private-label",
+          "x": 0,
+          "y": 1457.078125,
+          "w": 768,
+          "h": 435.9375,
+          "right": 768,
+          "bottom": 1893.015625
+        },
+        {
+          "class": "partners-contact",
+          "x": 0,
+          "y": 1893.015625,
+          "w": 768,
+          "h": 1044.375,
+          "right": 768,
+          "bottom": 2937.390625
+        }
+      ],
+      "formats": [
+        {
+          "hash": "#partner-contact",
+          "checked": "retail",
+          "hint": "Продукция Новофермы для вашего ассортимента."
+        },
+        {
+          "hash": "#partner-contact",
+          "checked": "horeca",
+          "hint": "Продукты из птицы для меню кафе и ресторанов."
+        },
+        {
+          "hash": "#partner-contact",
+          "checked": "stm",
+          "hint": "Обсудим продукт, фасовку и упаковку под вашим брендом."
+        }
+      ],
+      "copyCorrect": true,
+      "mailCorrect": true,
+      "menu": {
+        "opened": true,
+        "closed": true
+      },
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "documentWidth": 1024,
+      "brokenImages": [],
+      "overflowingText": [],
+      "art": [
+        {
+          "image": "assets/partners-scenes-v2/handshake-v1.webp?v=af5b83ac30",
+          "ratioPreserved": true,
+          "x": 492.671875,
+          "y": 182,
+          "w": 495.328125,
+          "h": 371.484375,
+          "right": 988,
+          "bottom": 553.484375
+        },
+        {
+          "image": "assets/partners-scenes-v2/retail-v2.webp?v=6bf0f994cb",
+          "ratioPreserved": true,
+          "x": 32,
+          "y": 911.46875,
+          "w": 537.078125,
+          "h": 358.046875,
+          "right": 569.078125,
+          "bottom": 1269.515625
+        },
+        {
+          "image": "assets/partners-scenes-v2/stm-v1.webp?v=2a7b408246",
+          "ratioPreserved": true,
+          "x": 458.90625,
+          "y": 1506.703125,
+          "w": 529.078125,
+          "h": 396.796875,
+          "right": 987.984375,
+          "bottom": 1903.5
+        }
+      ],
+      "sections": [
+        {
+          "class": "partners-welcome wrap",
+          "x": 32,
+          "y": 148,
+          "w": 960,
+          "h": 457.484375,
+          "right": 992,
+          "bottom": 605.484375
+        },
+        {
+          "class": "partners-retail",
+          "x": 0,
+          "y": 764.78125,
+          "w": 1024,
+          "h": 681.921875,
+          "right": 1024,
+          "bottom": 1446.703125
+        },
+        {
+          "class": "partners-private-label",
+          "x": 0,
+          "y": 1446.703125,
+          "w": 1024,
+          "h": 547.296875,
+          "right": 1024,
+          "bottom": 1994
+        },
+        {
+          "class": "partners-contact",
+          "x": 0,
+          "y": 1994,
+          "w": 1024,
+          "h": 773.09375,
+          "right": 1024,
+          "bottom": 2767.09375
+        }
+      ],
+      "formats": [
+        {
+          "hash": "#partner-contact",
+          "checked": "retail",
+          "hint": "Продукция Новофермы для вашего ассортимента."
+        },
+        {
+          "hash": "#partner-contact",
+          "checked": "horeca",
+          "hint": "Продукты из птицы для меню кафе и ресторанов."
+        },
+        {
+          "hash": "#partner-contact",
+          "checked": "stm",
+          "hint": "Обсудим продукт, фасовку и упаковку под вашим брендом."
+        }
+      ],
+      "copyCorrect": true,
+      "mailCorrect": true,
+      "menu": null,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "brokenImages": [],
+      "overflowingText": [],
+      "art": [
+        {
+          "image": "assets/partners-scenes-v2/handshake-v1.webp?v=af5b83ac30",
+          "ratioPreserved": true,
+          "x": 698.671875,
+          "y": -2055,
+          "w": 659.328125,
+          "h": 494.484375,
+          "right": 1358,
+          "bottom": -1560.515625
+        },
+        {
+          "image": "assets/partners-scenes-v2/retail-v2.webp?v=6bf0f994cb",
+          "ratioPreserved": true,
+          "x": 72,
+          "y": -1210.484375,
+          "w": 714.546875,
+          "h": 476.359375,
+          "right": 786.546875,
+          "bottom": -734.125
+        },
+        {
+          "image": "assets/partners-scenes-v2/stm-v1.webp?v=2a7b408246",
+          "ratioPreserved": true,
+          "x": 657.4375,
+          "y": -520.484375,
+          "w": 706.5625,
+          "h": 529.921875,
+          "right": 1364,
+          "bottom": 9.4375
+        }
+      ],
+      "sections": [
+        {
+          "class": "partners-welcome wrap",
+          "x": 72,
+          "y": -2105,
+          "w": 1296,
+          "h": 614.484375,
+          "right": 1368,
+          "bottom": -1490.515625
+        },
+        {
+          "class": "partners-retail",
+          "x": 0,
+          "y": -1315.625,
+          "w": 1440,
+          "h": 717.140625,
+          "right": 1440,
+          "bottom": -598.484375
+        },
+        {
+          "class": "partners-private-label",
+          "x": 0,
+          "y": -598.484375,
+          "w": 1440,
+          "h": 716.421875,
+          "right": 1440,
+          "bottom": 117.9375
+        },
+        {
+          "class": "partners-contact",
+          "x": 0,
+          "y": 117.9375,
+          "w": 1440,
+          "h": 841.59375,
+          "right": 1440,
+          "bottom": 959.53125
+        }
+      ],
+      "formats": [
+        {
+          "hash": "#partner-contact",
+          "checked": "retail",
+          "hint": "Продукция Новофермы для вашего ассортимента."
+        },
+        {
+          "hash": "#partner-contact",
+          "checked": "horeca",
+          "hint": "Продукты из птицы для меню кафе и ресторанов."
+        },
+        {
+          "hash": "#partner-contact",
+          "checked": "stm",
+          "hint": "Обсудим продукт, фасовку и упаковку под вашим брендом."
+        }
+      ],
+      "copyCorrect": true,
+      "mailCorrect": true,
+      "menu": null,
+      "errors": []
+    },
+    {
+      "width": 1920,
+      "documentWidth": 1920,
+      "brokenImages": [],
+      "overflowingText": [],
+      "art": [
+        {
+          "image": "assets/partners-scenes-v2/handshake-v1.webp?v=af5b83ac30",
+          "ratioPreserved": true,
+          "x": 938.671875,
+          "y": 210,
+          "w": 659.328125,
+          "h": 494.484375,
+          "right": 1598,
+          "bottom": 704.484375
+        },
+        {
+          "image": "assets/partners-scenes-v2/retail-v2.webp?v=6bf0f994cb",
+          "ratioPreserved": true,
+          "x": 312,
+          "y": 1054.515625,
+          "w": 714.546875,
+          "h": 476.359375,
+          "right": 1026.546875,
+          "bottom": 1530.875
+        },
+        {
+          "image": "assets/partners-scenes-v2/stm-v1.webp?v=2a7b408246",
+          "ratioPreserved": true,
+          "x": 897.4375,
+          "y": 1744.515625,
+          "w": 706.5625,
+          "h": 529.921875,
+          "right": 1604,
+          "bottom": 2274.4375
+        }
+      ],
+      "sections": [
+        {
+          "class": "partners-welcome wrap",
+          "x": 312,
+          "y": 160,
+          "w": 1296,
+          "h": 614.484375,
+          "right": 1608,
+          "bottom": 774.484375
+        },
+        {
+          "class": "partners-retail",
+          "x": 0,
+          "y": 949.375,
+          "w": 1920,
+          "h": 717.140625,
+          "right": 1920,
+          "bottom": 1666.515625
+        },
+        {
+          "class": "partners-private-label",
+          "x": 0,
+          "y": 1666.515625,
+          "w": 1920,
+          "h": 716.421875,
+          "right": 1920,
+          "bottom": 2382.9375
+        },
+        {
+          "class": "partners-contact",
+          "x": 0,
+          "y": 2382.9375,
+          "w": 1920,
+          "h": 841.59375,
+          "right": 1920,
+          "bottom": 3224.53125
+        }
+      ],
+      "formats": [
+        {
+          "hash": "#partner-contact",
+          "checked": "retail",
+          "hint": "Продукция Новофермы для вашего ассортимента."
+        },
+        {
+          "hash": "#partner-contact",
+          "checked": "horeca",
+          "hint": "Продукты из птицы для меню кафе и ресторанов."
+        },
+        {
+          "hash": "#partner-contact",
+          "checked": "stm",
+          "hint": "Обсудим продукт, фасовку и упаковку под вашим брендом."
+        }
+      ],
+      "copyCorrect": true,
+      "mailCorrect": true,
+      "menu": null,
+      "errors": []
+    }
+  ]
+}

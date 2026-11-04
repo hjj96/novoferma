@@ -1,0 +1,229 @@
+/*
+   Final editorial type pass.  The PDF uses three clear voices: a dense
+   poster headline, a quiet sans for information, and one warm handwritten
+   note.  Keep these rules last so every page follows the same hierarchy.
+*/
+:root {
+  --type-ink: #301709;
+  --type-hand: #ac3a09;
+  --type-muted: #795e4c;
+  --hand-angle: -3deg;
+  --hand-editorial: clamp(28px, 2.7vw, 36px);
+  --hand-note: clamp(25px, 2.3vw, 32px);
+  --hand-caption: clamp(24px, 2vw, 28px);
+}
+
+/* The hero note is a designed caption, rather than metadata below the H1. */
+.hero-copy > p.hero-note {
+  display: block;
+  max-width: 30ch;
+  margin-top: 25px;
+  color: var(--type-ink);
+  font-family: var(--font-hand);
+  font-size: clamp(30px, 2.55vw, 38px);
+  font-weight: 500;
+  line-height: 1.06;
+  letter-spacing: -.025em;
+  transform: rotate(var(--hand-angle));
+  transform-origin: left center;
+}
+
+/* One scale for short handwritten editorial accents across the site. */
+.tagline .hand,
+.heading-aside .hand,
+.serving-section .section-heading > .hand,
+.brand-copy .hand,
+.page-heading .hand,
+.about-intro .hand,
+.page-intro .hand,
+.detail-copy .hand,
+.where-explanation > .hand,
+.partner-hero .hand,
+.partner-contact .hand,
+.contact-heading .hand,
+.footer-top .hand {
+  font-family: var(--font-hand);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -.02em;
+  transform: rotate(var(--hand-angle));
+}
+.heading-aside .hand, .page-heading .hand, .about-intro .hand,
+.page-intro .hand, .where-explanation > .hand, .partner-hero .hand,
+.partner-contact .hand { font-size: var(--hand-editorial); }
+.tagline .hand, .serving-section .section-heading > .hand,
+.brand-copy .hand, .detail-copy .hand { font-size: var(--hand-note); }
+.brand-copy .hand { color: var(--type-hand); white-space:normal; text-wrap:balance; }
+.heading-aside .hand { white-space:normal; }
+.footer-top .hand, .contact-heading .hand,
+.about-editorial figcaption.hand { font-size:var(--hand-caption); line-height:1.08; }
+.about-intro .hand, .page-intro .hand, .where-explanation > .hand,
+.partner-contact .hand, .detail-copy .hand { color:var(--type-hand); }
+.protein-heading .protein-hand { color:var(--type-hand); }
+
+/* Shared informational and action sizes. Image lettering remains untouched. */
+.button.button-dark, .button.button-cream {
+  font-size:14px;
+  min-height:52px;
+  font-weight:650;
+  padding:14px 24px;
+  gap:28px;
+}
+.header-actions .button { font-size:13px; min-height:44px; padding:11px 22px; }
+.eyebrow, .section-heading .eyebrow, .partner-band .eyebrow,
+.page-heading .eyebrow { font-size:11px; letter-spacing:.11em; }
+.product-meta, .catalogue-grid .product-meta, .product-facts span,
+.detail-visual figcaption, .catalogue-note, .form-hint { font-size:12px; }
+.product-title h3 { hyphens:none; overflow-wrap:normal; }
+.serving-copy > p:not(.eyebrow), .about-editorial p:not(.eyebrow),
+.where-explanation > p:not(.hand), .detail-copy > p:not(.eyebrow):not(.hand),
+.protein-story p, .contact-details p { font-size:16px; line-height:1.6; }
+.editorial-links p { font-size:14px; }
+.partner-contact .contact-details p { color:#725743; }
+.hero + .hero-signature {
+  min-height: 0;
+  padding-block: 30px 32px;
+  border-bottom: 1px solid var(--line);
+  gap: 32px;
+}
+.hero-signature strong { font-size:clamp(28px,3vw,42px); }
+.hero-signature .hand { font-size:var(--hand-note); }
+.hero-signature > .heart { flex:0 0 auto; }
+.home-products { padding-top:58px; }
+.footer-mail { font-size:13px; min-height:44px; display:inline-flex; align-items:center; }
+.footer-bottom a { min-height:44px; display:inline-flex; align-items:center; }
+.footer-bottom { padding-top:12px; }
+.breadcrumb { font-size:12px; align-items:center; }
+.breadcrumb a { display:inline-flex; align-items:center; min-height:44px; }
+.category-filters button, .meat-filters button { font-size:13px; min-height:44px; }
+.search input { font-size:16px; min-height:48px; padding-right:48px; }
+.search-clear { width:44px; height:44px; }
+.filter-meta, .filter-meta > p { font-size:12px; }
+.menu-toggle, .to-top { width:44px; height:44px; flex-shrink:0; }
+body[class^="page-product-"] .site-footer { padding-top:48px; }
+
+/* Captions over a dark serving photograph remain readable and compact. */
+.serving-content figcaption.hand {
+  font-size: var(--hand-caption);
+  line-height: 1.05;
+  color: var(--brown);
+}
+
+/* Utility text should remain readable at the narrowest supported viewport. */
+.footer-bottom,
+.footer-bottom nav,
+.footer-bottom a { font-size: 12px; }
+.city-panel input,
+.city-panel select { font-size: 16px; }
+
+@media (min-width: 700px) and (max-width: 1099px) {
+  .home-products .home-product .product-title h3 { font-size: 27px; }
+  .catalogue-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .catalogue-tools { flex-wrap:wrap; }
+  .catalogue-tools .search { flex:1; max-width:100%; }
+  .protein-story h3 { font-size:clamp(30px,4vw,35px); }
+  .featured .product-title { flex-direction:column; gap:14px; }
+  .featured .circle-arrow { align-self:flex-end; }
+}
+@media (min-width: 700px) and (max-width: 959px) {
+  .page-intro h1 { font-size:clamp(68px,9vw,77px); }
+  .partner-hero h1 { font-size:clamp(64px,9vw,73px); }
+  .partner-contact .split { grid-template-columns:1fr; gap:40px; }
+  .partner-contact h2 { font-size:clamp(48px,7vw,60px); }
+  .partner-contact .hand { margin-top:24px; }
+  .partner-contact .contact-details { max-width:540px; }
+}
+
+@media (max-width: 699px) {
+  .detail-copy h1 { font-size:clamp(37px,11.1vw,43px); }
+  .hero + .hero-signature {
+    display:grid;
+    grid-template-columns:minmax(0,1fr) minmax(112px,.42fr);
+    align-items:center;
+    gap:14px;
+    padding-block:27px 30px;
+  }
+  .hero-signature strong {
+    max-width:none;
+    font-size:clamp(24px,7.4vw,29px);
+    line-height:1.06;
+  }
+  .hero-signature .hand {
+    max-width:none;
+    margin:0;
+    font-size:clamp(23px,6.8vw,28px);
+    text-align:right;
+  }
+  .hero-signature > .heart { display:none; }
+  .home-products { padding-top:42px; }
+  .hero-copy > p.hero-note {
+    max-width: 27ch;
+    margin-top: 22px;
+    font-size: clamp(29px, 8.1vw, 34px);
+    line-height: 1.08;
+  }
+  .header-actions .button { font-size:12px; min-height:44px; padding:10px 14px; gap:10px; }
+  .heading-aside { flex-wrap:wrap; gap:25px; }
+  .heading-aside .hand { font-size:28px; }
+  .section-heading h2 { font-size:clamp(43px,12vw,48px); }
+  .category-filters button, .meat-filters button { font-size:12px; min-height:44px; }
+  .meat-filters { gap:6px; }
+  .filter-meta { flex-wrap:wrap; align-items:center; gap:8px; margin-bottom:20px; }
+  .filter-meta > p { padding-top:0; }
+  .brand-copy > p:not(.hand) { font-size:16px; }
+  .home-products .product-grid { grid-template-columns:1fr; gap:28px; }
+  .home-products .product-card,
+  .home-products .featured .product-card:last-child { display:flex; }
+  .home-products .product-image { aspect-ratio:1.35; max-height:280px; padding:8px 6px 18px; }
+  .home-products .home-product .product-title h3 { font-size:27px; }
+  .home-products .circle-arrow { width:36px; height:36px; min-width:36px; font-size:24px; }
+  .footer-bottom { font-size: 12px; }
+  .footer-bottom nav { gap:24px; }
+  .footer-bottom > a { margin-left:0; }
+  .footer-top .hand { font-size:24px; max-width:165px; }
+
+  /* The entire title is a link; its arrow sits below, freeing word space. */
+  .product-card:not(.home-product) .product-title {
+    min-height:0;
+    padding-right:0;
+    flex-direction:column;
+    gap:14px;
+    flex:1;
+  }
+  .product-card:not(.home-product) .product-title h3 {
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.12;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
+  }
+  .product-card:not(.home-product) .product-title .circle-arrow {
+    align-self:flex-end;
+    margin-top:auto;
+  }
+  .product-caption { display:none; }
+
+  /* The mascot still crosses the yellow panel edge, but never the copy. */
+  .brand-copy, body.page-about .brand-copy { width:100%; padding-right:0; }
+  .brand-copy .hand { max-width:calc(100% - 75px); margin-bottom:30px; }
+  .brand-copy .hand br { display:none; }
+  .brand-inner { padding-bottom:82px; }
+  .story-mascot, body.page-about .story-mascot { right:-20px; max-width:98px; max-height:147px; }
+  .page-about .brand-inner { padding-bottom:100px; }
+}
+
+@media (max-width: 359px) {
+  .hero-copy > p.hero-note { font-size: 29px; }
+  .product-card:not(.home-product) .product-title h3 { font-size:17.5px; }
+  .brand,.brand img { width:114px; }
+  .header-inner { gap:8px; }
+  .header-actions .button { padding-inline:11px; }
+  .footer-top .brand,.footer-top .brand img { width:112px; }
+  .footer-top .hand { max-width:145px; }
+  .story-mascot, body.page-about .story-mascot { right:-16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-copy > p.hero-note { transform: none; }
+}

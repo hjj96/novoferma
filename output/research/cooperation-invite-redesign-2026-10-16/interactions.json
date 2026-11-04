@@ -1,0 +1,28 @@
+{
+  "mobileKeyboard": {
+    "button": "Обсудить поставки",
+    "outlineColor": "rgb(64, 33, 17)",
+    "outlineWidth": "3px",
+    "enter": true,
+    "destination": {
+      "email": "zakaz@novoferma.ru",
+      "emailHref": "mailto:zakaz@novoferma.ru",
+      "heading": "Давайтеобсудим.",
+      "headingVisible": true,
+      "url": "http://127.0.0.1:8765/output/concept/partners.html#partner-contact"
+    }
+  },
+  "desktopClick": {
+    "bottom": 372.640625,
+    "contactVisible": true,
+    "top": 252.53125,
+    "url": "http://127.0.0.1:8765/output/concept/partners.html#partner-contact"
+  },
+  "pageConsoleErrors": [],
+  "widths": [
+    320,
+    390,
+    768,
+    1440
+  ]
+}

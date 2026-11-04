@@ -1,0 +1,18 @@
+{
+  "focus": {
+    "circleBackground": "rgb(48, 23, 9)",
+    "focusVisible": true,
+    "focused": "Обсудить поставки",
+    "href": "partners.html#partner-contact",
+    "outline": "rgb(48, 23, 9) solid 3px"
+  },
+  "destination": {
+    "footerBorder": "0px",
+    "formPresent": true,
+    "heading": "ДАВАЙТЕ\nОБСУДИМ.",
+    "headingTop": 125.84375,
+    "headingVisible": true,
+    "url": "http://127.0.0.1:8765/output/concept/partners.html#partner-contact"
+  },
+  "logs": []
+}

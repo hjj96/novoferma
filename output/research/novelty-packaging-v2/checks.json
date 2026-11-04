@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "mainProducts": 14,
+      "noveltyPackages": 2,
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "mainProducts": 14,
+      "noveltyPackages": 2,
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "mainProducts": 14,
+      "noveltyPackages": 2,
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "mainProducts": 14,
+      "noveltyPackages": 2,
+      "loaded": true,
+      "overflow": false
+    }
+  ],
+  "alpha": [
+    {
+      "file": "fibriki-pack-v3.webp",
+      "canvas": [
+        800,
+        800
+      ],
+      "transparentBorder": true
+    },
+    {
+      "file": "lulia-mini-pack-v2.webp",
+      "canvas": [
+        800,
+        800
+      ],
+      "transparentBorder": true
+    }
+  ],
+  "links": "pass",
+  "errors": []
+}

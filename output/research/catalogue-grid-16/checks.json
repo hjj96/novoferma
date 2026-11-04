@@ -1,0 +1,1409 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "columns": 4,
+      "separateNoveltySection": false,
+      "filters": 0,
+      "cards": [
+        {
+          "id": "kotlety-kurinye",
+          "name": "Котлеты куриные",
+          "meta": "Из курицы · 522 г",
+          "source": "assets/catalogue-clean-v2/kotlety-kurinye.webp",
+          "link": "product-kotlety-kurinye.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "bitochki-kurinye-s-ovoshchami",
+          "name": "Биточки куриные с овощами",
+          "meta": "Из курицы · 450 г",
+          "source": "assets/catalogue-clean-v2/bitochki-kurinye-s-ovoshchami.webp",
+          "link": "product-bitochki-kurinye-s-ovoshchami.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "ezhiki-iz-tsyplenka-s-risom",
+          "name": "Ёжики из цыпленка с рисом",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/ezhiki-iz-tsyplenka-s-risom.webp",
+          "link": "product-ezhiki-iz-tsyplenka-s-risom.html",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kurinyj-popkorn",
+          "name": "Куриный попкорн",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/kurinyj-popkorn.webp",
+          "link": "product-kurinyj-popkorn.html",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-kurinye",
+          "name": "Наггетсы куриные",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-kurinye.webp",
+          "link": "product-naggetsy-kurinye.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-kurinye-s-syrom",
+          "name": "Наггетсы куриные с сыром",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-kurinye-s-syrom.webp",
+          "link": "product-naggetsy-kurinye-s-syrom.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-dinozavry",
+          "name": "Наггетсы куриные «Динозавры»",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-dinozavry.webp",
+          "link": "product-naggetsy-dinozavry.html",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-ostrye",
+          "name": "Наггетсы куриные острые",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-ostrye.webp",
+          "link": "product-naggetsy-ostrye.html",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-s-indeykoy-fitnes",
+          "name": "Наггетсы с индейкой «Фитнес»",
+          "meta": "С индейкой · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-s-indeykoy-fitnes.webp",
+          "link": "product-naggetsy-s-indeykoy-fitnes.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "stripsy",
+          "name": "Стрипсы",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/stripsy.webp",
+          "link": "product-stripsy.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kotlety-po-domashnemu",
+          "name": "Котлеты по-домашнему",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/kotlety-po-domashnemu.webp",
+          "link": "product-kotlety-po-domashnemu.html",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kotlety-pikantnye",
+          "name": "Котлеты пикантные",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/kotlety-pikantnye.webp",
+          "link": "product-kotlety-pikantnye.html",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kotlety-po-italyanski",
+          "name": "Котлеты по-итальянски",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/kotlety-po-italyanski.webp",
+          "link": "product-kotlety-po-italyanski.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "frikadelki-klassicheskie",
+          "name": "Фрикадельки «Классические»",
+          "meta": "Из курицы · 500 г",
+          "source": "assets/catalogue-clean-v2/frikadelki-klassicheskie.webp",
+          "link": "product-frikadelki-klassicheskie.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "fibriki",
+          "name": "Фибрики",
+          "meta": "Из курицы",
+          "source": "assets/novelty-packaging/fibriki-pack-v9.webp?v=ec0f05989f",
+          "link": "where-to-buy.html?product=fibriki",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "lulia-mini",
+          "name": "Люля мини",
+          "meta": "Из курицы",
+          "source": "assets/novelty-packaging/lulia-mini-pack-v3.webp?v=5406742c35",
+          "link": "where-to-buy.html?product=lulia-mini",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 305,
+            "height": 329,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 304.5,
+          "loaded": true,
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "columns": 3,
+      "separateNoveltySection": false,
+      "filters": 0,
+      "cards": [
+        {
+          "id": "kotlety-kurinye",
+          "name": "Котлеты куриные",
+          "meta": "Из курицы · 522 г",
+          "source": "assets/catalogue-clean-v2/kotlety-kurinye.webp",
+          "link": "product-kotlety-kurinye.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.65625,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "bitochki-kurinye-s-ovoshchami",
+          "name": "Биточки куриные с овощами",
+          "meta": "Из курицы · 450 г",
+          "source": "assets/catalogue-clean-v2/bitochki-kurinye-s-ovoshchami.webp",
+          "link": "product-bitochki-kurinye-s-ovoshchami.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.671875,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "ezhiki-iz-tsyplenka-s-risom",
+          "name": "Ёжики из цыпленка с рисом",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/ezhiki-iz-tsyplenka-s-risom.webp",
+          "link": "product-ezhiki-iz-tsyplenka-s-risom.html",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.671875,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kurinyj-popkorn",
+          "name": "Куриный попкорн",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/kurinyj-popkorn.webp",
+          "link": "product-kurinyj-popkorn.html",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.65625,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-kurinye",
+          "name": "Наггетсы куриные",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-kurinye.webp",
+          "link": "product-naggetsy-kurinye.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.671875,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-kurinye-s-syrom",
+          "name": "Наггетсы куриные с сыром",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-kurinye-s-syrom.webp",
+          "link": "product-naggetsy-kurinye-s-syrom.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.671875,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-dinozavry",
+          "name": "Наггетсы куриные «Динозавры»",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-dinozavry.webp",
+          "link": "product-naggetsy-dinozavry.html",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.65625,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-ostrye",
+          "name": "Наггетсы куриные острые",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-ostrye.webp",
+          "link": "product-naggetsy-ostrye.html",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.671875,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-s-indeykoy-fitnes",
+          "name": "Наггетсы с индейкой «Фитнес»",
+          "meta": "С индейкой · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-s-indeykoy-fitnes.webp",
+          "link": "product-naggetsy-s-indeykoy-fitnes.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.671875,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "stripsy",
+          "name": "Стрипсы",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/stripsy.webp",
+          "link": "product-stripsy.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.65625,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kotlety-po-domashnemu",
+          "name": "Котлеты по-домашнему",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/kotlety-po-domashnemu.webp",
+          "link": "product-kotlety-po-domashnemu.html",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.671875,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kotlety-pikantnye",
+          "name": "Котлеты пикантные",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/kotlety-pikantnye.webp",
+          "link": "product-kotlety-pikantnye.html",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.671875,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kotlety-po-italyanski",
+          "name": "Котлеты по-итальянски",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/kotlety-po-italyanski.webp",
+          "link": "product-kotlety-po-italyanski.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.65625,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "frikadelki-klassicheskie",
+          "name": "Фрикадельки «Классические»",
+          "meta": "Из курицы · 500 г",
+          "source": "assets/catalogue-clean-v2/frikadelki-klassicheskie.webp",
+          "link": "product-frikadelki-klassicheskie.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.671875,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "fibriki",
+          "name": "Фибрики",
+          "meta": "Из курицы",
+          "source": "assets/novelty-packaging/fibriki-pack-v9.webp?v=ec0f05989f",
+          "link": "where-to-buy.html?product=fibriki",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.671875,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "lulia-mini",
+          "name": "Люля мини",
+          "meta": "Из курицы",
+          "source": "assets/novelty-packaging/lulia-mini-pack-v3.webp?v=5406742c35",
+          "link": "where-to-buy.html?product=lulia-mini",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 219,
+            "height": 243,
+            "ratio": "1.08 / 1",
+            "border": "0px",
+            "padding": "12px 3px 18px"
+          },
+          "title": {
+            "font": "21px"
+          },
+          "width": 218.65625,
+          "loaded": true,
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "columns": 2,
+      "separateNoveltySection": false,
+      "filters": 0,
+      "cards": [
+        {
+          "id": "kotlety-kurinye",
+          "name": "Котлеты куриные",
+          "meta": "Из курицы · 522 г",
+          "source": "assets/catalogue-clean-v2/kotlety-kurinye.webp",
+          "link": "product-kotlety-kurinye.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "bitochki-kurinye-s-ovoshchami",
+          "name": "Биточки куриные с овощами",
+          "meta": "Из курицы · 450 г",
+          "source": "assets/catalogue-clean-v2/bitochki-kurinye-s-ovoshchami.webp",
+          "link": "product-bitochki-kurinye-s-ovoshchami.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "ezhiki-iz-tsyplenka-s-risom",
+          "name": "Ёжики из цыпленка с рисом",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/ezhiki-iz-tsyplenka-s-risom.webp",
+          "link": "product-ezhiki-iz-tsyplenka-s-risom.html",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kurinyj-popkorn",
+          "name": "Куриный попкорн",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/kurinyj-popkorn.webp",
+          "link": "product-kurinyj-popkorn.html",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-kurinye",
+          "name": "Наггетсы куриные",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-kurinye.webp",
+          "link": "product-naggetsy-kurinye.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-kurinye-s-syrom",
+          "name": "Наггетсы куриные с сыром",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-kurinye-s-syrom.webp",
+          "link": "product-naggetsy-kurinye-s-syrom.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-dinozavry",
+          "name": "Наггетсы куриные «Динозавры»",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-dinozavry.webp",
+          "link": "product-naggetsy-dinozavry.html",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-ostrye",
+          "name": "Наггетсы куриные острые",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-ostrye.webp",
+          "link": "product-naggetsy-ostrye.html",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-s-indeykoy-fitnes",
+          "name": "Наггетсы с индейкой «Фитнес»",
+          "meta": "С индейкой · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-s-indeykoy-fitnes.webp",
+          "link": "product-naggetsy-s-indeykoy-fitnes.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "stripsy",
+          "name": "Стрипсы",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/stripsy.webp",
+          "link": "product-stripsy.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kotlety-po-domashnemu",
+          "name": "Котлеты по-домашнему",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/kotlety-po-domashnemu.webp",
+          "link": "product-kotlety-po-domashnemu.html",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kotlety-pikantnye",
+          "name": "Котлеты пикантные",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/kotlety-pikantnye.webp",
+          "link": "product-kotlety-pikantnye.html",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kotlety-po-italyanski",
+          "name": "Котлеты по-итальянски",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/kotlety-po-italyanski.webp",
+          "link": "product-kotlety-po-italyanski.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "frikadelki-klassicheskie",
+          "name": "Фрикадельки «Классические»",
+          "meta": "Из курицы · 500 г",
+          "source": "assets/catalogue-clean-v2/frikadelki-klassicheskie.webp",
+          "link": "product-frikadelki-klassicheskie.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "fibriki",
+          "name": "Фибрики",
+          "meta": "Из курицы",
+          "source": "assets/novelty-packaging/fibriki-pack-v9.webp?v=ec0f05989f",
+          "link": "where-to-buy.html?product=fibriki",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "lulia-mini",
+          "name": "Люля мини",
+          "meta": "Из курицы",
+          "source": "assets/novelty-packaging/lulia-mini-pack-v3.webp?v=5406742c35",
+          "link": "where-to-buy.html?product=lulia-mini",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 167,
+            "height": 185,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "18px"
+          },
+          "width": 167,
+          "loaded": true,
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "documentWidth": 320,
+      "columns": 2,
+      "separateNoveltySection": false,
+      "filters": 0,
+      "cards": [
+        {
+          "id": "kotlety-kurinye",
+          "name": "Котлеты куриные",
+          "meta": "Из курицы · 522 г",
+          "source": "assets/catalogue-clean-v2/kotlety-kurinye.webp",
+          "link": "product-kotlety-kurinye.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "bitochki-kurinye-s-ovoshchami",
+          "name": "Биточки куриные с овощами",
+          "meta": "Из курицы · 450 г",
+          "source": "assets/catalogue-clean-v2/bitochki-kurinye-s-ovoshchami.webp",
+          "link": "product-bitochki-kurinye-s-ovoshchami.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "ezhiki-iz-tsyplenka-s-risom",
+          "name": "Ёжики из цыпленка с рисом",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/ezhiki-iz-tsyplenka-s-risom.webp",
+          "link": "product-ezhiki-iz-tsyplenka-s-risom.html",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kurinyj-popkorn",
+          "name": "Куриный попкорн",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/kurinyj-popkorn.webp",
+          "link": "product-kurinyj-popkorn.html",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-kurinye",
+          "name": "Наггетсы куриные",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-kurinye.webp",
+          "link": "product-naggetsy-kurinye.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-kurinye-s-syrom",
+          "name": "Наггетсы куриные с сыром",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-kurinye-s-syrom.webp",
+          "link": "product-naggetsy-kurinye-s-syrom.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-dinozavry",
+          "name": "Наггетсы куриные «Динозавры»",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-dinozavry.webp",
+          "link": "product-naggetsy-dinozavry.html",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-ostrye",
+          "name": "Наггетсы куриные острые",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-ostrye.webp",
+          "link": "product-naggetsy-ostrye.html",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "naggetsy-s-indeykoy-fitnes",
+          "name": "Наггетсы с индейкой «Фитнес»",
+          "meta": "С индейкой · 400 г",
+          "source": "assets/catalogue-clean-v2/naggetsy-s-indeykoy-fitnes.webp",
+          "link": "product-naggetsy-s-indeykoy-fitnes.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "stripsy",
+          "name": "Стрипсы",
+          "meta": "Из курицы · 400 г",
+          "source": "assets/catalogue-clean-v2/stripsy.webp",
+          "link": "product-stripsy.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kotlety-po-domashnemu",
+          "name": "Котлеты по-домашнему",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/kotlety-po-domashnemu.webp",
+          "link": "product-kotlety-po-domashnemu.html",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kotlety-pikantnye",
+          "name": "Котлеты пикантные",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/kotlety-pikantnye.webp",
+          "link": "product-kotlety-pikantnye.html",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "kotlety-po-italyanski",
+          "name": "Котлеты по-итальянски",
+          "meta": "Из курицы · 480 г",
+          "source": "assets/catalogue-clean-v2/kotlety-po-italyanski.webp",
+          "link": "product-kotlety-po-italyanski.html",
+          "classes": "product-card packshot-preview packshot-tone-1 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "frikadelki-klassicheskie",
+          "name": "Фрикадельки «Классические»",
+          "meta": "Из курицы · 500 г",
+          "source": "assets/catalogue-clean-v2/frikadelki-klassicheskie.webp",
+          "link": "product-frikadelki-klassicheskie.html",
+          "classes": "product-card packshot-preview packshot-tone-2 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "fibriki",
+          "name": "Фибрики",
+          "meta": "Из курицы",
+          "source": "assets/novelty-packaging/fibriki-pack-v9.webp?v=ec0f05989f",
+          "link": "where-to-buy.html?product=fibriki",
+          "classes": "product-card packshot-preview packshot-tone-3 packshot-lean-left reveal is-prepared is-visible",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        },
+        {
+          "id": "lulia-mini",
+          "name": "Люля мини",
+          "meta": "Из курицы",
+          "source": "assets/novelty-packaging/lulia-mini-pack-v3.webp?v=5406742c35",
+          "link": "where-to-buy.html?product=lulia-mini",
+          "classes": "product-card packshot-preview packshot-tone-4 packshot-lean-right reveal is-prepared is-visible",
+          "stage": {
+            "width": 138,
+            "height": 156,
+            "ratio": "1 / 1",
+            "border": "0px",
+            "padding": "8px 1px 12px"
+          },
+          "title": {
+            "font": "16px"
+          },
+          "width": 137.5,
+          "loaded": true,
+          "opacity": "1"
+        }
+      ]
+    }
+  ],
+  "alpha": {
+    "fibriki": {
+      "canvas": [
+        800,
+        800
+      ],
+      "transparentBorder": true
+    },
+    "lulia-mini": {
+      "canvas": [
+        800,
+        800
+      ],
+      "transparentBorder": true
+    }
+  },
+  "preservedOriginalPackages": true,
+  "confirmedProducts": 14,
+  "pageCount": 20,
+  "selection": {
+    "fibriki": "fibriki",
+    "lulia-mini": "lulia-mini"
+  },
+  "errors": [],
+  "failedRequests": []
+}

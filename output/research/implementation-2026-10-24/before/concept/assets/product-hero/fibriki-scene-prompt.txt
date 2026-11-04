@@ -1,0 +1,29 @@
+Tool: built-in image_gen.imagegen
+Use case: precise-object-edit
+Source: Изображение ChatGPT 8 окт. 2026 г., 11_21_07.jpg
+Final asset: fibriki-scene.png
+
+Prompt:
+Use case: precise-object-edit.
+Input image: the original full 1536 × 864 Fibriki website hero is the sole edit target.
+PRIMARY REQUEST: perform a minimal inpainting cleanup of a few unwanted UI/caption areas, preserving the ENTIRE original image, exact wide 16:9 landscape framing, all remaining object positions, all original scales, and all remaining pixels as faithfully as possible. This is NOT a redesign or extraction. Produce an opaque full scene with the original creamy paper texture.
+ONLY REMOVE THESE ELEMENTS, filling their original locations with matching blank cream paper texture:
+1. The top-left NOVOferma logo, all top navigation labels («Продукция», «О нас», «Рецепты», «Контакты»), and the top-right brown «Где купить» pill including its arrow.
+2. The bottom-left orange «Попробовать» pill including its arrow.
+3. The right-top orange handwritten «Натуральные ингредиенты» caption and its curved arrow and heart.
+4. The right-bottom orange handwritten «Вкусно и сытно!» caption and its underline and heart.
+EVERYTHING ELSE MUST REMAIN EXACTLY WHERE IT IS, AT THE SAME SIZE:
+- Giant brown Cyrillic title «ФИБРИКИ».
+- Brown uppercase subheading «ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ».
+- Orange painted brush swash, with its original white key slogan «Белок + клетчатка». This phrase MUST remain as originally handwritten on the brush. Do not remove the slogan or swash.
+- Original black sans-serif three-line description: «Сочные куриные фрикадельки / с пищевыми волокнами. / Вкусно. Полезно. Для своих.»
+- Exactly three original food pieces: whole ball near the top middle, whole ball to its right, cut-open ball near the right edge.
+- Both parsley sprigs.
+- The complete original running orange chicken, apron, face, body, wings, pose, legs, linework and expression.
+- Original textured cream background, orange hill at the bottom and its shadows, and black small running dust clouds.
+- All original small decorative orange energy strokes around the title, brush, food and chicken, EXCEPT only the specified right-hand caption arrow/underline/hearts.
+Preserve food photography, character identity, font shapes, spelling, sizing, spacing, lighting, texture, and composition. No new elements. No cropping, recentering, zooming, shifting, regenerating lettering, changing aspect ratio, or simplifying the illustration. Opaque background, no transparency.
+
+Inspection:
+1672 × 941 pixels, RGB, opaque landscape (approximately 16:9). Original scene arrangement and lettering preserved visually: ФИБРИКИ; ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ; Белок + клетчатка; three-line sans description. Retains three food pieces, two parsley sprigs, original chicken and orange ground with shadows and energy marks. Top UI/logo, bottom-left action button and two right-hand handwritten captions/arrows/hearts removed. Original input is unchanged. This is a generated edit, not a pixel-identical deterministic removal.
+

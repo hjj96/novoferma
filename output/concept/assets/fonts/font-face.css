@@ -1,0 +1,27 @@
+/* Local typography shared by all Novoferma pages. */
+@font-face {
+  font-family: "Novoferma Sans";
+  src: url("Onest-wght.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Novoferma Hand";
+  src: url("Caveat-wght.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-display: "Novoferma Sans", Arial, sans-serif;
+  --font-hand: "Novoferma Hand", "Segoe Print", cursive;
+}
+
+/* Suggested roles:
+   h1/h2: font-family: var(--font-display); font-weight: 850;
+   body, labels, buttons: font-family: var(--font-display);
+   short editorial notes only: font-family: var(--font-hand); font-weight: 500;
+*/

@@ -1,0 +1,758 @@
+{
+  "version": 1,
+  "method": "Pillow WebP; packaging q94, illustrations q90; exact alpha; premultiplied resizing; no generative editing.",
+  "integration": "Keys are original site-relative paths without query strings. src is the 800px candidate; width/height describe it. Add an accurate sizes attribute in the consuming component. Packaging srcset is 400w/800w; illustrations also retain an optimized native-width candidate.",
+  "assets": {
+    "assets/catalogue-clean-v2/bitochki-kurinye-s-ovoshchami.webp": {
+      "src": "assets/responsive/packshots/bitochki-kurinye-s-ovoshchami-800-q94-5db59691.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/bitochki-kurinye-s-ovoshchami-400-q94-5db59691.webp 400w, assets/responsive/packshots/bitochki-kurinye-s-ovoshchami-800-q94-5db59691.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 501724,
+      "sourceSha256": "5db5969124c2791292c53d56c28a63bef38c27a20fdc14eb0919c887e1a12411",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/bitochki-kurinye-s-ovoshchami-400-q94-5db59691.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 49836,
+          "quality": 94,
+          "sha256": "4a1ecb3a708963f953e76b738c9ea0584a84b481a5bb9e523ac602e7d37a47bb",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.106
+        },
+        {
+          "src": "assets/responsive/packshots/bitochki-kurinye-s-ovoshchami-800-q94-5db59691.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 143820,
+          "quality": 94,
+          "sha256": "a85f97f2ae45c50c0d6e94fb1df7f8e2d716cd012ffcb04f1baef157e5bfcd8b",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.404
+        }
+      ]
+    },
+    "assets/catalogue-clean-v2/ezhiki-iz-tsyplenka-s-risom.webp": {
+      "src": "assets/responsive/packshots/ezhiki-iz-tsyplenka-s-risom-800-q94-1d1a2e59.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/ezhiki-iz-tsyplenka-s-risom-400-q94-1d1a2e59.webp 400w, assets/responsive/packshots/ezhiki-iz-tsyplenka-s-risom-800-q94-1d1a2e59.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 510218,
+      "sourceSha256": "1d1a2e591f36d6a300b591011ce57a06a1bd3628a6cc37aa87fe1bccede15a3e",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/ezhiki-iz-tsyplenka-s-risom-400-q94-1d1a2e59.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 51094,
+          "quality": 94,
+          "sha256": "8f0df745b97372fa67d2570759601e12c8e2ef54f6c55d334065e8a8c22e55bc",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.0797
+        },
+        {
+          "src": "assets/responsive/packshots/ezhiki-iz-tsyplenka-s-risom-800-q94-1d1a2e59.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 151306,
+          "quality": 94,
+          "sha256": "5be581e202b1be28fdd671fac794ce7983f2ad6a85b1bee3daa9bd71cf4d3043",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.4602
+        }
+      ]
+    },
+    "assets/catalogue-clean-v2/frikadelki-klassicheskie.webp": {
+      "src": "assets/responsive/packshots/frikadelki-klassicheskie-800-q94-e0ef4bbb.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/frikadelki-klassicheskie-400-q94-e0ef4bbb.webp 400w, assets/responsive/packshots/frikadelki-klassicheskie-800-q94-e0ef4bbb.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 497636,
+      "sourceSha256": "e0ef4bbbecfe65061937b6646de46bdee91fdabcd6d254cc6a29f96dd0039f46",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/frikadelki-klassicheskie-400-q94-e0ef4bbb.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 47916,
+          "quality": 94,
+          "sha256": "ca1c4918f71c185e9855e2a98a47cf6afa07b10c889d6caa1c0fbaaad8d7dc17",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.9702
+        },
+        {
+          "src": "assets/responsive/packshots/frikadelki-klassicheskie-800-q94-e0ef4bbb.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 145264,
+          "quality": 94,
+          "sha256": "a012214131552711fc27b0c94d9caa8108bc2651ce5dfb12ad575b5db9c45dd9",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.4669
+        }
+      ]
+    },
+    "assets/catalogue-clean-v2/kotlety-kurinye.webp": {
+      "src": "assets/responsive/packshots/kotlety-kurinye-800-q94-a1ed2899.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/kotlety-kurinye-400-q94-a1ed2899.webp 400w, assets/responsive/packshots/kotlety-kurinye-800-q94-a1ed2899.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 520016,
+      "sourceSha256": "a1ed28995b7173bc384fce8ad7feb6c42733a53b553c0d4473357d9e971060c8",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/kotlety-kurinye-400-q94-a1ed2899.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 49876,
+          "quality": 94,
+          "sha256": "5d087814460d955e085b59c7cc54ed80edc2d69c70c849fd7b52c0f8b94e0fe5",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.3967
+        },
+        {
+          "src": "assets/responsive/packshots/kotlety-kurinye-800-q94-a1ed2899.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 154024,
+          "quality": 94,
+          "sha256": "2739408672a7508ed93a62c567c5bad5d016fd8c6a1f6fed7923377a22654002",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.835
+        }
+      ]
+    },
+    "assets/catalogue-clean-v2/kotlety-pikantnye.webp": {
+      "src": "assets/responsive/packshots/kotlety-pikantnye-800-q94-aed06aa1.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/kotlety-pikantnye-400-q94-aed06aa1.webp 400w, assets/responsive/packshots/kotlety-pikantnye-800-q94-aed06aa1.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 488268,
+      "sourceSha256": "aed06aa16b740109727e1064615ffac54497385c00f4eeec34776342125e6d53",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/kotlety-pikantnye-400-q94-aed06aa1.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 45778,
+          "quality": 94,
+          "sha256": "13c5734ad82bede92920cea6f7e3abd101ab562417ac9cc4dfdfc8e1ba07c597",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.982
+        },
+        {
+          "src": "assets/responsive/packshots/kotlety-pikantnye-800-q94-aed06aa1.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 134532,
+          "quality": 94,
+          "sha256": "b30a469be1997c0ee7e7d4948cdcf3e789cc444362426607dabbc4bef79a94e3",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.3119
+        }
+      ]
+    },
+    "assets/catalogue-clean-v2/kotlety-po-domashnemu.webp": {
+      "src": "assets/responsive/packshots/kotlety-po-domashnemu-800-q94-4b30908e.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/kotlety-po-domashnemu-400-q94-4b30908e.webp 400w, assets/responsive/packshots/kotlety-po-domashnemu-800-q94-4b30908e.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 488560,
+      "sourceSha256": "4b30908e07d8c2c547da6dae2440a232843d0881de90c22995e6efbbdf0e87b6",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/kotlety-po-domashnemu-400-q94-4b30908e.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 46560,
+          "quality": 94,
+          "sha256": "037569c6a8e8bbe4958988ac68483db24e97b7e24cc5c181bdfc0e04db8a5bf9",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.7877
+        },
+        {
+          "src": "assets/responsive/packshots/kotlety-po-domashnemu-800-q94-4b30908e.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 136326,
+          "quality": 94,
+          "sha256": "4ef90cf6056eeece572b606fe5914ac247ec804908d34d2dccac9caff441db5c",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.2271
+        }
+      ]
+    },
+    "assets/catalogue-clean-v2/kotlety-po-italyanski.webp": {
+      "src": "assets/responsive/packshots/kotlety-po-italyanski-800-q94-4e765a90.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/kotlety-po-italyanski-400-q94-4e765a90.webp 400w, assets/responsive/packshots/kotlety-po-italyanski-800-q94-4e765a90.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 514540,
+      "sourceSha256": "4e765a90803c44c5747c444157d354824e6e6badf660ebcb5f578890a97319a8",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/kotlety-po-italyanski-400-q94-4e765a90.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 47186,
+          "quality": 94,
+          "sha256": "9bd523ec91f9cb42069055a8dfadc85bc998f1e6232e5e88ac2ab3cd2b5d257f",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.9096
+        },
+        {
+          "src": "assets/responsive/packshots/kotlety-po-italyanski-800-q94-4e765a90.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 146556,
+          "quality": 94,
+          "sha256": "97f57331b1b943fd7692356acd927aa15f2f3c56c96125b4ecd649df8beae0ee",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.5135
+        }
+      ]
+    },
+    "assets/catalogue-clean-v2/kurinyj-popkorn.webp": {
+      "src": "assets/responsive/packshots/kurinyj-popkorn-800-q94-d707c51a.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/kurinyj-popkorn-400-q94-d707c51a.webp 400w, assets/responsive/packshots/kurinyj-popkorn-800-q94-d707c51a.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 545294,
+      "sourceSha256": "d707c51a12f21c479fd1db1aae0b1e5e6e3081dad744c1a282211b89f2c3a6b5",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/kurinyj-popkorn-400-q94-d707c51a.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 52282,
+          "quality": 94,
+          "sha256": "45ec0105bba10eb87b9fbdbe02642fecbb9f274009ea5bc437686ffc7a215dca",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.7213
+        },
+        {
+          "src": "assets/responsive/packshots/kurinyj-popkorn-800-q94-d707c51a.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 163260,
+          "quality": 94,
+          "sha256": "b4c076806311482936ef33b2bf29e4147bd55a0d0287f5cb90b4c73848487e6a",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.9683
+        }
+      ]
+    },
+    "assets/catalogue-clean-v2/naggetsy-dinozavry.webp": {
+      "src": "assets/responsive/packshots/naggetsy-dinozavry-800-q94-d8f755c7.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/naggetsy-dinozavry-400-q94-d8f755c7.webp 400w, assets/responsive/packshots/naggetsy-dinozavry-800-q94-d8f755c7.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 555360,
+      "sourceSha256": "d8f755c7c072bb21bbe59efd24aab9f93018f4a02d65037eb12689b374dadef1",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/naggetsy-dinozavry-400-q94-d8f755c7.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 51160,
+          "quality": 94,
+          "sha256": "62e3cc772f68741f45bf373658342d402f8691a4722330b2e8dbed4fe4d7f8cd",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.4674
+        },
+        {
+          "src": "assets/responsive/packshots/naggetsy-dinozavry-800-q94-d8f755c7.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 160422,
+          "quality": 94,
+          "sha256": "6f75a2156d17c581421043003d31600a20395df88044fff42434bf6ad8c4c092",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.8854
+        }
+      ]
+    },
+    "assets/catalogue-clean-v2/naggetsy-kurinye-s-syrom.webp": {
+      "src": "assets/responsive/packshots/naggetsy-kurinye-s-syrom-800-q94-070a49d8.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/naggetsy-kurinye-s-syrom-400-q94-070a49d8.webp 400w, assets/responsive/packshots/naggetsy-kurinye-s-syrom-800-q94-070a49d8.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 587546,
+      "sourceSha256": "070a49d8a63b2d18364234b81399a1d03ed594609800636b178460f88b7fd25c",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/naggetsy-kurinye-s-syrom-400-q94-070a49d8.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 51856,
+          "quality": 94,
+          "sha256": "1137a14de82dfb7385c193152a9b0b573c7cbb8c525cbeaaf38bb664c406f53f",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.5078
+        },
+        {
+          "src": "assets/responsive/packshots/naggetsy-kurinye-s-syrom-800-q94-070a49d8.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 165560,
+          "quality": 94,
+          "sha256": "04bd460259053bee0eb54c9f6024fd7f866042c684b0d628b5471fa1119248ff",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.9115
+        }
+      ]
+    },
+    "assets/catalogue-clean-v2/naggetsy-kurinye.webp": {
+      "src": "assets/responsive/packshots/naggetsy-kurinye-800-q94-712fb649.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/naggetsy-kurinye-400-q94-712fb649.webp 400w, assets/responsive/packshots/naggetsy-kurinye-800-q94-712fb649.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 509862,
+      "sourceSha256": "712fb64988d07e1b04baf355fa459fb92fb9b374125145e78a4f6ee889bd7e06",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/naggetsy-kurinye-400-q94-712fb649.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 47402,
+          "quality": 94,
+          "sha256": "c01e818ffaa6defb2d5a7c8e90dc3c30286164af390f970eb7bb4090b18b7051",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.0934
+        },
+        {
+          "src": "assets/responsive/packshots/naggetsy-kurinye-800-q94-712fb649.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 142364,
+          "quality": 94,
+          "sha256": "40ea54c6ef0d3467901d3baf3b207cfb409532c5664024ba1950685b86953987",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.6536
+        }
+      ]
+    },
+    "assets/catalogue-clean-v2/naggetsy-ostrye.webp": {
+      "src": "assets/responsive/packshots/naggetsy-ostrye-800-q94-d5c86a9d.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/naggetsy-ostrye-400-q94-d5c86a9d.webp 400w, assets/responsive/packshots/naggetsy-ostrye-800-q94-d5c86a9d.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 576496,
+      "sourceSha256": "d5c86a9db246e9dcce2d9d1f8fd497d7e2054922fa2b18c0124cb786335a5803",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/naggetsy-ostrye-400-q94-d5c86a9d.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 49590,
+          "quality": 94,
+          "sha256": "8c99c36c9b59918f3696c9fc7d0d4b42636da535e4acc0b2ff798d6bdbfe7a5d",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.8114
+        },
+        {
+          "src": "assets/responsive/packshots/naggetsy-ostrye-800-q94-d5c86a9d.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 158772,
+          "quality": 94,
+          "sha256": "e13b5fcc62e57056c4a8cc01b66497f4c459253974592315ec22c09fbc41ce0c",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.0936
+        }
+      ]
+    },
+    "assets/catalogue-clean-v2/naggetsy-s-indeykoy-fitnes.webp": {
+      "src": "assets/responsive/packshots/naggetsy-s-indeykoy-fitnes-800-q94-68b47a02.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/naggetsy-s-indeykoy-fitnes-400-q94-68b47a02.webp 400w, assets/responsive/packshots/naggetsy-s-indeykoy-fitnes-800-q94-68b47a02.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 521720,
+      "sourceSha256": "68b47a02fce8b526fc79f0d481f886196c44d264ab18def252d119b6c9a59dc6",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/naggetsy-s-indeykoy-fitnes-400-q94-68b47a02.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 48216,
+          "quality": 94,
+          "sha256": "0aad829aa5dee338d96299e67a7542e8eb2919a133637a87755f54ee3d7d9fea",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.3777
+        },
+        {
+          "src": "assets/responsive/packshots/naggetsy-s-indeykoy-fitnes-800-q94-68b47a02.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 144948,
+          "quality": 94,
+          "sha256": "f935fbcfb9780f2ad4a7200a92ba91a0d51032b9166d6fb9eb244b8b14a2ff9c",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.795
+        }
+      ]
+    },
+    "assets/catalogue-clean-v2/stripsy.webp": {
+      "src": "assets/responsive/packshots/stripsy-800-q94-04f43af0.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/stripsy-400-q94-04f43af0.webp 400w, assets/responsive/packshots/stripsy-800-q94-04f43af0.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 527268,
+      "sourceSha256": "04f43af045888294da54d2a746f9c4ef3d121efed07830296603f9dcbfbf90e8",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/stripsy-400-q94-04f43af0.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 47964,
+          "quality": 94,
+          "sha256": "cd0e97ebc0964db24fea66b3df5ceeba6afb0769200fb34970d9c9009a52fc93",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.2179
+        },
+        {
+          "src": "assets/responsive/packshots/stripsy-800-q94-04f43af0.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 144096,
+          "quality": 94,
+          "sha256": "a65219aa93b826bbb2958b59faf82a603c0de516f3d8fd6333537a2eb1fc2f8d",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.6623
+        }
+      ]
+    },
+    "assets/novelty-packaging/fibriki-pack-v10.webp": {
+      "src": "assets/responsive/packshots/fibriki-pack-v10-800-q94-495de433.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/fibriki-pack-v10-400-q94-495de433.webp 400w, assets/responsive/packshots/fibriki-pack-v10-800-q94-495de433.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 439000,
+      "sourceSha256": "495de4333a37287ef1722fa3d50acbf8f68155c31c5d721e4355b4e9e6ff3009",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/fibriki-pack-v10-400-q94-495de433.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 45448,
+          "quality": 94,
+          "sha256": "1e7161419ce8e147c29dc5210c7e2c59fb6aead793fe787d600aaaafd8eb9a16",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.649
+        },
+        {
+          "src": "assets/responsive/packshots/fibriki-pack-v10-800-q94-495de433.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 126096,
+          "quality": 94,
+          "sha256": "50991f7e725f908d20fc32b1870048dba5ea35c413915aecdb56a1400a5083ec",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.0242
+        }
+      ]
+    },
+    "assets/novelty-packaging/lulia-mini-pack-v3.webp": {
+      "src": "assets/responsive/packshots/lulia-mini-pack-v3-800-q94-5406742c.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/lulia-mini-pack-v3-400-q94-5406742c.webp 400w, assets/responsive/packshots/lulia-mini-pack-v3-800-q94-5406742c.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 471458,
+      "sourceSha256": "5406742c35631a8b6ac22e29baac8652b9ae4c9eb6fe39141938eab24bea784f",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/lulia-mini-pack-v3-400-q94-5406742c.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 47886,
+          "quality": 94,
+          "sha256": "5e507af6bec125d45f64b65149d527b94bfa880f9241b7323367ebbc75e1d774",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.9934
+        },
+        {
+          "src": "assets/responsive/packshots/lulia-mini-pack-v3-800-q94-5406742c.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 136682,
+          "quality": 94,
+          "sha256": "5b986470f63be4e12722a38a6a2c3e10f64dad1c4f2d0ca6eeb1c879e5395abf",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.3075
+        }
+      ]
+    },
+    "assets/mascot-contact-restored-v2.webp": {
+      "src": "assets/responsive/illustrations/mascot-contact-restored-v2-800-q90-8fe205be.webp",
+      "width": 800,
+      "height": 1310,
+      "srcset": "assets/responsive/illustrations/mascot-contact-restored-v2-400-q90-8fe205be.webp 400w, assets/responsive/illustrations/mascot-contact-restored-v2-800-q90-8fe205be.webp 800w, assets/responsive/illustrations/mascot-contact-restored-v2-980-q90-8fe205be.webp 980w",
+      "sourceWidth": 980,
+      "sourceHeight": 1605,
+      "sourceBytes": 1535898,
+      "sourceSha256": "8fe205be286c77780f897005ebdbbc56754a758e5f30118f0747cb40fd2a3143",
+      "kind": "illustrations",
+      "variants": [
+        {
+          "src": "assets/responsive/illustrations/mascot-contact-restored-v2-400-q90-8fe205be.webp",
+          "width": 400,
+          "height": 655,
+          "bytes": 85426,
+          "quality": 90,
+          "sha256": "37e8a657e0f4468d4abfef64589f2db22fa64d4076b5a562535095d30d620809",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 5.148
+        },
+        {
+          "src": "assets/responsive/illustrations/mascot-contact-restored-v2-800-q90-8fe205be.webp",
+          "width": 800,
+          "height": 1310,
+          "bytes": 295258,
+          "quality": 90,
+          "sha256": "ee09ae84100412ca10a9c33fc9dc456f98b31c9b87eda9a6de975bb349afd88c",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.7827
+        },
+        {
+          "src": "assets/responsive/illustrations/mascot-contact-restored-v2-980-q90-8fe205be.webp",
+          "width": 980,
+          "height": 1605,
+          "bytes": 401798,
+          "quality": 90,
+          "sha256": "a76fc04315945bf4b1f2140b2ac47bb2d790bbea4ab1cfad6f013bae437485f9",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.3747
+        }
+      ]
+    },
+    "assets/mascot-partnership-v2.webp": {
+      "src": "assets/responsive/illustrations/mascot-partnership-v2-800-q90-66fd6b8d.webp",
+      "width": 800,
+      "height": 1067,
+      "srcset": "assets/responsive/illustrations/mascot-partnership-v2-400-q90-66fd6b8d.webp 400w, assets/responsive/illustrations/mascot-partnership-v2-800-q90-66fd6b8d.webp 800w, assets/responsive/illustrations/mascot-partnership-v2-1086-q90-66fd6b8d.webp 1086w",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceBytes": 1014060,
+      "sourceSha256": "66fd6b8d2d01987bd9bd3e14ff3ed76b39f47250b1418345bf6ef126ce1ddc93",
+      "kind": "illustrations",
+      "variants": [
+        {
+          "src": "assets/responsive/illustrations/mascot-partnership-v2-400-q90-66fd6b8d.webp",
+          "width": 400,
+          "height": 533,
+          "bytes": 49364,
+          "quality": 90,
+          "sha256": "53c4242b922d236b7dad19a97e491564709508aab5708cee5b4fcfa060bce5b6",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 5.2539
+        },
+        {
+          "src": "assets/responsive/illustrations/mascot-partnership-v2-800-q90-66fd6b8d.webp",
+          "width": 800,
+          "height": 1067,
+          "bytes": 144118,
+          "quality": 90,
+          "sha256": "514a5fc47d3588bd88c01b5aa9538c8cb0b05565ab9e2b70d812acb71ba0f18f",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.5828
+        },
+        {
+          "src": "assets/responsive/illustrations/mascot-partnership-v2-1086-q90-66fd6b8d.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 220318,
+          "quality": 90,
+          "sha256": "1ca4222abbf10af5170a77949a4e4a82d2acdc005887fb7f94597d3a67e704a1",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.9389
+        }
+      ]
+    },
+    "assets/product-hero/running-mascot-v2.webp": {
+      "src": "assets/responsive/illustrations/running-mascot-v2-800-q90-f2dbaa26.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/illustrations/running-mascot-v2-400-q90-f2dbaa26.webp 400w, assets/responsive/illustrations/running-mascot-v2-800-q90-f2dbaa26.webp 800w, assets/responsive/illustrations/running-mascot-v2-1254-q90-f2dbaa26.webp 1254w",
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "sourceBytes": 247058,
+      "sourceSha256": "f2dbaa26f8a6dff375cceb6d977e4ffb84990df76940b9c9de22eae2c6aeab47",
+      "kind": "illustrations",
+      "variants": [
+        {
+          "src": "assets/responsive/illustrations/running-mascot-v2-400-q90-f2dbaa26.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 40380,
+          "quality": 90,
+          "sha256": "bbe40576ea7f99e381065e9d1f1c0fcb6f568252810227146677d11bcae7c82e",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 4.6302
+        },
+        {
+          "src": "assets/responsive/illustrations/running-mascot-v2-800-q90-f2dbaa26.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 108456,
+          "quality": 90,
+          "sha256": "2eb4aa66b007fd78180ed71ee7b63e00ff38de983571ccdbfb059c180fbf3f09",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.8651
+        },
+        {
+          "src": "assets/responsive/illustrations/running-mascot-v2-1254-q90-f2dbaa26.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 206330,
+          "quality": 90,
+          "sha256": "53323b04e03d5c11df3f07ff1c2fff45ce3740865cc334707756ef7c6cb91488",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 1.6778
+        }
+      ]
+    },
+    "assets/protein-story/hen-layer-v2.webp": {
+      "src": "assets/responsive/illustrations/hen-layer-v2-800-q90-bd32bcef.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/illustrations/hen-layer-v2-400-q90-bd32bcef.webp 400w, assets/responsive/illustrations/hen-layer-v2-800-q90-bd32bcef.webp 800w, assets/responsive/illustrations/hen-layer-v2-1254-q90-bd32bcef.webp 1254w",
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "sourceBytes": 879398,
+      "sourceSha256": "bd32bcefd08fa578babf87d2164a28dbb5b4fbd8dfb0b3e27debf77185ec087d",
+      "kind": "illustrations",
+      "variants": [
+        {
+          "src": "assets/responsive/illustrations/hen-layer-v2-400-q90-bd32bcef.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 44868,
+          "quality": 90,
+          "sha256": "70836b2abbfd0d4a7a75ac49eeb71a7a4f2c0411ad66f1c471893e9f90c61e8f",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 4.8997
+        },
+        {
+          "src": "assets/responsive/illustrations/hen-layer-v2-800-q90-bd32bcef.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 122868,
+          "quality": 90,
+          "sha256": "342ea8e37f332efa74b7eb2f4a2ae245f91bae559e337340fb1657f6b4c41a8d",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.3038
+        },
+        {
+          "src": "assets/responsive/illustrations/hen-layer-v2-1254-q90-bd32bcef.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 230416,
+          "quality": 90,
+          "sha256": "a3b9679e419c25855cb44688d50b9227a56ca0f56fded090cb7b81319b9b3b1f",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.4944
+        }
+      ]
+    },
+    "assets/protein-story/nuggets-layer-v2.webp": {
+      "src": "assets/responsive/illustrations/nuggets-layer-v2-800-q90-a648c271.webp",
+      "width": 800,
+      "height": 600,
+      "srcset": "assets/responsive/illustrations/nuggets-layer-v2-400-q90-a648c271.webp 400w, assets/responsive/illustrations/nuggets-layer-v2-800-q90-a648c271.webp 800w, assets/responsive/illustrations/nuggets-layer-v2-1448-q90-a648c271.webp 1448w",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "sourceBytes": 783132,
+      "sourceSha256": "a648c271e1c783fe7d6907ba32c7a9664b7c5be74c2c5912c475f9aaab63a853",
+      "kind": "illustrations",
+      "variants": [
+        {
+          "src": "assets/responsive/illustrations/nuggets-layer-v2-400-q90-a648c271.webp",
+          "width": 400,
+          "height": 300,
+          "bytes": 31708,
+          "quality": 90,
+          "sha256": "341a3a657caa5caa5342bf425e5aec6c6b3d81aab672210140767c53dc434723",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 6.0663
+        },
+        {
+          "src": "assets/responsive/illustrations/nuggets-layer-v2-800-q90-a648c271.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 95334,
+          "quality": 90,
+          "sha256": "29351d09906b9b29b9d5216ebdc02fbcfd1b878ef62dab6e052c021aac2129d8",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 5.3121
+        },
+        {
+          "src": "assets/responsive/illustrations/nuggets-layer-v2-1448-q90-a648c271.webp",
+          "width": 1448,
+          "height": 1086,
+          "bytes": 237408,
+          "quality": 90,
+          "sha256": "8d3296a30e21d171650355f67045700dc6b4db78ac85b17b604f4832719f9456",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.7853
+        }
+      ]
+    }
+  },
+  "totals": {
+    "sources": 21,
+    "packagingSources": 16,
+    "variants": 47,
+    "sourceBytes": 12714512,
+    "defaultSrcBytes": 3120062,
+    "allVariantsBytes": 5448128
+  }
+}

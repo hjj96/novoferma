@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Магнит",
+    "url": "https://magnit.ru/product/1000529525-novoferma_dinozavry_naggetsy_kurinye_zam_400_g_pl_kon",
+    "productIds": ["naggetsy-dinozavry"],
+    "productName": "Наггетсы куриные замороженные Динозавры Новоферма 400 г",
+    "verifiedAt": "2026-10-24",
+    "note": "Карточка продавца: проверены бренд, вариант и вес 400 г; прямой HTTP 200. На открытой странице нет в наличии. Проверьте наличие для своего адреса и сведения на этикетке. Состав и пищевая ценность между продавцами расходятся.",
+    "verificationMethod": "direct_http_200_and_official_retailer_page_text",
+    "availability": "not_available_in_observed_page"
+  },
+  {
+    "name": "Магнит",
+    "url": "https://magnit.ru/product/8000058569-novoferma_naggetsy_kurinye_ostrye_400g",
+    "productIds": ["naggetsy-ostrye"],
+    "productName": "Наггетсы куриные острые Новоферма 400 г",
+    "verifiedAt": "2026-10-24",
+    "note": "Карточка продавца: проверены бренд, вариант и вес 400 г; прямой HTTP 200. На открытой странице нет в наличии. Проверьте наличие для своего адреса и сведения на этикетке.",
+    "verificationMethod": "direct_http_200_and_official_retailer_page_text",
+    "availability": "not_available_in_observed_page"
+  },
+  {
+    "name": "Худеть ВКУСНО",
+    "url": "https://www.slimtasty.ru/katalog/tovar6151.html",
+    "productIds": ["kotlety-kurinye"],
+    "productName": "Котлеты Novoferma Куриные, 522 г",
+    "verifiedAt": "2026-10-24",
+    "note": "Карточка магазина в Санкт-Петербурге: проверены бренд, название и вес 522 г; прямой HTTP 200. Для этого товара магазин исключает отправку транспортными компаниями и Почтой России. Уточните местную доставку или самовывоз и наличие. Сведения сверяйте с этикеткой.",
+    "verificationMethod": "direct_http_200_and_official_retailer_page_text",
+    "availability": "order_control_present_stock_not_independently_confirmed"
+  },
+  {
+    "name": "Худеть ВКУСНО",
+    "url": "https://www.slimtasty.ru/katalog/tovar6152.html",
+    "productIds": ["kotlety-po-domashnemu"],
+    "productName": "Котлеты Novoferma По-домашнему, 480 г",
+    "verifiedAt": "2026-10-24",
+    "note": "Карточка магазина в Санкт-Петербурге: проверены бренд, вариант и вес 480 г; прямой HTTP 200. Для этого товара магазин исключает отправку транспортными компаниями и Почтой России. Уточните местную доставку или самовывоз и наличие. Сведения сверяйте с этикеткой.",
+    "verificationMethod": "direct_http_200_and_official_retailer_page_text",
+    "availability": "order_control_present_stock_not_independently_confirmed"
+  },
+  {
+    "name": "Худеть ВКУСНО",
+    "url": "https://www.slimtasty.ru/katalog/tovar6150.html",
+    "productIds": ["frikadelki-klassicheskie"],
+    "productName": "Фрикадельки куриные Novoferma Классические замороженные, 500 г",
+    "verifiedAt": "2026-10-24",
+    "note": "Карточка магазина в Санкт-Петербурге: проверены бренд, вариант и вес 500 г; прямой HTTP 200. Для этого товара магазин исключает отправку транспортными компаниями и Почтой России. Уточните местную доставку или самовывоз и наличие. Сведения сверяйте с этикеткой.",
+    "verificationMethod": "direct_http_200_and_official_retailer_page_text",
+    "availability": "order_control_present_stock_not_independently_confirmed"
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "page": "catalogue",
+    "arrowLoaded": true,
+    "arrowSize": 64,
+    "buttonHeight": 64,
+    "clip": {
+      "height": 668,
+      "width": 1440,
+      "x": 0,
+      "y": 2684
+    },
+    "fontLoaded": true,
+    "fullBleed": true,
+    "headingFont": "92.16px",
+    "headingHeight": 173.25,
+    "headingOverflow": false,
+    "overflow": false,
+    "scrollY": 0,
+    "width": 1440
+  },
+  {
+    "page": "catalogue",
+    "arrowLoaded": true,
+    "arrowSize": 64,
+    "buttonHeight": 64,
+    "clip": {
+      "height": 683,
+      "width": 768,
+      "x": 0,
+      "y": 2564
+    },
+    "fontLoaded": true,
+    "fullBleed": true,
+    "headingFont": "66.048px",
+    "headingHeight": 124.15625,
+    "headingOverflow": false,
+    "overflow": false,
+    "scrollY": 0,
+    "width": 768
+  },
+  {
+    "page": "catalogue",
+    "arrowLoaded": true,
+    "arrowSize": 56,
+    "buttonHeight": 56,
+    "clip": {
+      "height": 780,
+      "width": 390,
+      "x": 0,
+      "y": 2850
+    },
+    "fontLoaded": true,
+    "fullBleed": true,
+    "headingFont": "39.78px",
+    "headingHeight": 76.375,
+    "headingOverflow": false,
+    "overflow": false,
+    "scrollY": 0,
+    "width": 390
+  },
+  {
+    "page": "catalogue",
+    "arrowLoaded": true,
+    "arrowSize": 56,
+    "buttonHeight": 56,
+    "clip": {
+      "height": 793,
+      "width": 320,
+      "x": 0,
+      "y": 2649
+    },
+    "fontLoaded": true,
+    "fullBleed": true,
+    "headingFont": "34px",
+    "headingHeight": 65.265625,
+    "headingOverflow": false,
+    "overflow": false,
+    "scrollY": 0,
+    "width": 320
+  },
+  {
+    "page": "about",
+    "buttonHeight": 64,
+    "clip": {
+      "height": 688,
+      "width": 1440,
+      "x": 0,
+      "y": 1625
+    },
+    "fullBleed": true,
+    "headingFont": "92.16px",
+    "headingHeight": 193.515625,
+    "headingOverflow": false,
+    "lineHeight": "96.768px",
+    "overflow": false,
+    "width": 1440
+  },
+  {
+    "page": "about",
+    "buttonHeight": 64,
+    "clip": {
+      "height": 698,
+      "width": 768,
+      "x": 0,
+      "y": 1350
+    },
+    "fullBleed": true,
+    "headingFont": "66.048px",
+    "headingHeight": 138.6875,
+    "headingOverflow": false,
+    "lineHeight": "69.3504px",
+    "overflow": false,
+    "width": 768
+  },
+  {
+    "page": "about",
+    "buttonHeight": 56,
+    "clip": {
+      "height": 814,
+      "width": 390,
+      "x": 0,
+      "y": 1858
+    },
+    "fullBleed": true,
+    "headingFont": "39.78px",
+    "headingHeight": 85.921875,
+    "headingOverflow": false,
+    "lineHeight": "42.9624px",
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "page": "about",
+    "buttonHeight": 56,
+    "clip": {
+      "height": 801,
+      "width": 320,
+      "x": 0,
+      "y": 1821
+    },
+    "fullBleed": true,
+    "headingFont": "34px",
+    "headingHeight": 73.4375,
+    "headingOverflow": false,
+    "lineHeight": "36.72px",
+    "overflow": false,
+    "width": 320
+  }
+]

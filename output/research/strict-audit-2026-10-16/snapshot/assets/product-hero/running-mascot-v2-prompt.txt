@@ -1,0 +1,8 @@
+Mode: built-in image_gen transparent extraction
+
+Use case: background-extraction.
+Asset type: one separately animated transparent brand mascot layer.
+Input images: image 1 is the classic meatballs reference and image 2 is nuggets reference. Use image 2's running chicken mascot as the sole extraction target, with image 1 as supporting identity reference.
+Primary request: extract just the full running chicken mascot from the nuggets reference, preserving its exact recognizable identity, warm orange and golden feathers, red comb, happy open beak, eyes and black ink outline, white apron with green checked lines and a bow at the shoulder. It is running toward the right with raised wings, one leg reaching ahead and the other behind. Retain the original lively hand-drawn illustration quality, exact face, head, wing, tail and foot proportions. Preserve fine black outlines, drawn feather texture and green apron checks.
+Composition/framing: one full character centered on a square canvas, with about 8% empty transparent padding around the bounding box. Whole body including entire comb, wings, tail, legs, feet and apron bows must be visible. Do not crop extremities.
+Constraints: actual transparent alpha background. Only the single chicken mascot. Remove all food, paper backdrop, orange hill, text, shadows, smoke/puff marks, hearts, strokes, arrows, leaves, logos and extra drawings. No shadow or ground underneath. No food or objects touching the character. No checkerboard drawn into image. Do not simplify into flat clipart, preserve the original detailed warm illustration.

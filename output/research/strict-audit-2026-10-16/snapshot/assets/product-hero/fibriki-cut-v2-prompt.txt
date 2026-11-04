@@ -1,0 +1,10 @@
+Use case: background-extraction.
+Asset type: independently animated sliced food cutout for the Novoferma website hero.
+Input image: reference image and extraction target — the supplied Fibriki product hero artwork. The sliced ball at the right side is the precise food reference.
+Primary request: faithfully extract and recreate ONE round cooked chicken meatball with one clean cross-section facing the camera, like the cut Fibriki ball in the reference. One object only, a single meatball missing a front cap to reveal its interior.
+Scene/backdrop: genuinely transparent alpha background, square canvas.
+Subject: a golden-orange browned Fibriki chicken meatball. Approximately two thirds of the ball remains, with an appetizing flat cut face showing pale moist chicken pieces and strands, tiny embedded green herbs and natural mixed chicken texture. Match the provided reference interior; retain a browned round shell around the cut face.
+Composition/framing: one central large fully visible cut ball occupying about 75% of the canvas, clean transparent margins. Front three-quarter view with circular cut face angled slightly toward camera and right. Do not add a second separated half.
+Lighting/mood: warm soft studio food photography, real material depth, local surface shading only, no external cast shadow.
+Constraints: reference realism, golden-brown skin color and pale chicken texture. High detail and clean alpha edges suitable for independent motion.
+Avoid: cartoon mascot, whole extra meatball, detached meatball halves, parsley sprigs or garnish outside the ball, text, logos, orange hill, cream background, energy strokes, plates, utensils, floor shadow. Output transparent PNG.

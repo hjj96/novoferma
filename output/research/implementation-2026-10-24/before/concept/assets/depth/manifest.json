@@ -1,0 +1,89 @@
+{
+  "source": "/Users/andrey/Downloads/Новая папка",
+  "method": "Traced silhouettes from user-supplied brand artwork; original food texture retained.",
+  "assets": [
+    {
+      "file": "meatball.webp",
+      "size": [
+        360,
+        360
+      ],
+      "bytes": 117144,
+      "source": "../meatball-float.webp",
+      "originalArtwork": "швед_мб.psd@3x.png",
+      "alphaBox": [
+        40,
+        42,
+        322,
+        306
+      ],
+      "notes": "Unmodified copy of the existing isolated meatball. Original photographic texture."
+    },
+    {
+      "file": "nugget.webp",
+      "size": [
+        409,
+        347
+      ],
+      "bytes": 150872,
+      "source": "наггетсы@3x.png",
+      "sourceSize": [
+        1686,
+        1300
+      ],
+      "cropBox": [
+        660,
+        795,
+        1068,
+        1147
+      ],
+      "alphaBox": [
+        12,
+        12,
+        397,
+        335
+      ],
+      "notes": "Original photographic texture. Transparent background; no embedded ground shadow."
+    },
+    {
+      "file": "strip.webp",
+      "size": [
+        411,
+        153
+      ],
+      "bytes": 58086,
+      "source": "Ресурс 11@3x (1).png",
+      "sourceSize": [
+        1973,
+        1300
+      ],
+      "cropBox": [
+        810,
+        945,
+        1219,
+        1095
+      ],
+      "alphaBox": [
+        12,
+        12,
+        399,
+        141
+      ],
+      "notes": "Original photographic texture. Transparent background; no embedded ground shadow."
+    },
+    {
+      "file": "hero-composition.webp",
+      "size": [
+        768,
+        545
+      ],
+      "bytes": 297386,
+      "source": "../hero-reference.webp",
+      "sourceSize": [
+        768,
+        545
+      ],
+      "notes": "Original hero artwork. Orange floor shadows under the food replaced with soft neutral alpha shadows. Orange ground matte removed below both rooster feet, with enclosed toe highlights preserved. Cleanup runs before neutral shadows; same canvas and object positions."
+    }
+  ]
+}

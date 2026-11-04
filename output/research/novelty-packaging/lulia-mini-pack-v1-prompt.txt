@@ -1,0 +1,19 @@
+Use case: compositing.
+Asset type: ONE complete new Novoferma product catalogue packshot on a genuine transparent square canvas.
+
+Input image 1 is the PHYSICAL PACKAGE EDIT TARGET: the current Novoferma bitочки package. Keep exactly its physical low-front three-quarter camera angle, scale, natural cream curved paper sleeve construction, clear tub visible BELOW the sleeve, and complete rounded clear plastic lower rim. Remove and replace ALL old БИТОЧКИ label artwork and food. Input image 2 is a PACKAGING FAMILY reference only: same restrained cream/brown/orange palette and elegant Cyrillic serif typography, photographically believable paper and transparent plastic. Input image 3 is the FOOD SHAPE reference: elongated oval mini chicken sausages with visible tiny green herbs and red vegetable flecks, clearly long rounded ovals, never round meatballs or flat cutlets. Input image 4 is MASCOT IDENTITY: same friendly orange hen, expressive eyes, brand linework, white apron with green grid.
+
+Design the NEW printed sleeve front as follows:
+- Top center: orange NOVOferma logo, same family mark as references.
+- Main title, very large and readable: exact Cyrillic "ЛЮЛЯ МИНИ", in one elegant dark-brown serif line if possible, matching the established package typography rather than a chunky sans-serif website headline.
+- Immediately below, smaller widely tracked uppercase Cyrillic: exact "КУРИНЫЕ КОЛБАСКИ".
+- Next line, same restrained smaller type: exact "С ЗЕЛЕНЬЮ И ОВОЩАМИ".
+- Lower-left PRINTED ON THE SLEEVE: appetizing photoreal serving image of three browned elongated oval mini chicken sausages matching input image 3. A tiny natural parsley leaf and red tomato accent may accompany them.
+- Right PRINTED ON THE SLEEVE: lively orange hen from input image 4 in a white green-grid apron, presenting a serving plate of those same oval mini sausages, preserving the expressive eyes and characteristic brand linework.
+The food serving image and illustrated hen are FLAT PRINTED LABEL ART following the sleeve perspective, not real standalone items outside the packaging.
+The ACTUAL transparent plastic tub below the sleeve visibly contains pale frozen elongated oval mini chicken sausages with small green and red flecks. Keep the full smooth naturally rounded bottom rim and convincing clear-plastic highlights.
+
+Text whitelist: ONLY "NOVOferma", "ЛЮЛЯ МИНИ", "КУРИНЫЕ КОЛБАСКИ", and "С ЗЕЛЕНЬЮ И ОВОЩАМИ". No other words. No weight, percentage, nutrition, price, certification, 100% natural claim or invented ingredient block. Remove every old text line and old artwork from the edit target.
+
+Composition: complete isolated physical package, square canvas, approximately 92% canvas width, centered with balanced roughly 9% top and bottom margins, matching the current catalogue's package size and low-front viewpoint. Natural cream paper, dark brown typography, orange logo; palette restrained to the current packaging family.
+Background/alpha: genuine transparency everywhere outside the physical package, no studio backdrop. Clean complete antialiased outer rim. NO ground shadow, NO contact shadow outside the tub, NO brown shadow pad, NO jagged mask, NO white halo, NO hard horizontal bottom cutoff. No website, moodboard, extra package, or additional standalone chicken.

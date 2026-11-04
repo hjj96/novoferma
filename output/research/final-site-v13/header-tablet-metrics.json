@@ -1,0 +1,53 @@
+[
+  {
+    "page": "index.html",
+    "cta": {
+      "bottom": 62,
+      "height": 48,
+      "left": 506.6640625,
+      "right": 674.1328125,
+      "top": 14,
+      "width": 167.46875,
+      "x": 506.6640625,
+      "y": 14
+    },
+    "headerHeight": 76,
+    "logo": "175px",
+    "logoImage": "175px",
+    "width": 768
+  },
+  {
+    "page": "about.html",
+    "cta": {
+      "bottom": 62,
+      "height": 48,
+      "left": 506.6640625,
+      "right": 674.1328125,
+      "top": 14,
+      "width": 167.46875,
+      "x": 506.6640625,
+      "y": 14
+    },
+    "headerHeight": 76,
+    "logo": "175px",
+    "logoImage": "175px",
+    "width": 768
+  },
+  {
+    "page": "catalogue.html",
+    "cta": {
+      "bottom": 62,
+      "height": 48,
+      "left": 506.6640625,
+      "right": 674.1328125,
+      "top": 14,
+      "width": 167.46875,
+      "x": 506.6640625,
+      "y": 14
+    },
+    "headerHeight": 76,
+    "logo": "175px",
+    "logoImage": "175px",
+    "width": 768
+  }
+]

@@ -1,0 +1,11 @@
+Use case: precise-object-edit, selective print-ink color matching only.
+Image 1 is the approved Fibriki packshot to edit. Image 2 is a reference for the printed orange logo and brown typography ONLY.
+
+Retouch only two ink colors on Image 1:
+1. Match the exact existing NOVOferma logo ink to the warm orange of Image 2, approximately RGB 250,108,5. The current logo is slightly too red. Preserve every exact letterform, underline, scale and position.
+2. Match the exact existing brown title and all smaller brown lettering to Image 2's softer warm ochre-brown print, approximately RGB 103,65,19. The current type is slightly too dark and reddish. Keep full legibility and existing photographic print texture.
+
+Everything else is locked and should look pixel-identical to Image 1: its current pale ivory paper, subtle paper texture and light/shadows; the natural LIGHT paper edges (absolutely no brown outline); the cardboard's darker inner surfaces; the unique standing chicken holding the wooden spoon; every feather, expression, shape and color; the whole browned meatball and its cut half on the left; the finely minced chicken texture; the raw meatballs; the clear tray and all highlights. Do not redraw, reshape, add objects, change camera/perspective, rescale, change food texture, or recolor food or chicken. Do not import any design or object from Image 2. No global color grading or global saturation changes.
+
+All existing text is preserved exactly as drawn in Image 1: NOVOferma; ФИБРИКИ; ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ; С ПИЩЕВЫМИ ВОЛОКНАМИ; БЕЛОК + КЛЕТЧАТКА.
+Output one full packshot on true transparent background with the same clean natural alpha silhouette and generous transparent margins. No border, outline, glow, shadow, halo, background or extra content. This is a tiny final ink-color adjustment to an already approved asset.

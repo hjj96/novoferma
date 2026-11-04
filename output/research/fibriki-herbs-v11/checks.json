@@ -1,0 +1,70 @@
+{
+  "viewports": [
+    {
+      "page": "catalogue",
+      "width": 1440,
+      "documentWidth": 1440,
+      "cardCount": 16,
+      "source": "http://127.0.0.1:8765/output/concept/assets/responsive/packshots/fibriki-pack-v11-400-q94-1c8ec286.webp",
+      "loaded": true,
+      "naturalWidth": 320,
+      "link": "product-fibriki.html"
+    },
+    {
+      "page": "product-fibriki",
+      "width": 1440,
+      "documentWidth": 1440,
+      "source": "http://127.0.0.1:8765/output/concept/assets/responsive/packshots/fibriki-pack-v11-800-q94-1c8ec286.webp",
+      "loaded": true,
+      "naturalWidth": 550
+    },
+    {
+      "page": "catalogue",
+      "width": 390,
+      "documentWidth": 390,
+      "cardCount": 16,
+      "source": "http://127.0.0.1:8765/output/concept/assets/responsive/packshots/fibriki-pack-v11-800-q94-1c8ec286.webp",
+      "loaded": true,
+      "naturalWidth": 167,
+      "link": "product-fibriki.html"
+    },
+    {
+      "page": "product-fibriki",
+      "width": 390,
+      "documentWidth": 390,
+      "source": "http://127.0.0.1:8765/output/concept/assets/responsive/packshots/fibriki-pack-v11-400-q94-1c8ec286.webp",
+      "loaded": true,
+      "naturalWidth": 280
+    }
+  ],
+  "canvas": [
+    800,
+    800
+  ],
+  "transparentBorder": true,
+  "otherAssetsPreserved": 20,
+  "newVariants": [
+    {
+      "src": "assets/responsive/packshots/fibriki-pack-v11-400-q94-1c8ec286.webp",
+      "width": 400,
+      "height": 400,
+      "bytes": 45108,
+      "quality": 94,
+      "sha256": "d249c192f40ce771f28a94580bbea642b808db343eda830890c51da1d5265889",
+      "alphaMaxDifference": 0,
+      "foregroundRgbMae8Bit": 2.71
+    },
+    {
+      "src": "assets/responsive/packshots/fibriki-pack-v11-800-q94-1c8ec286.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 125346,
+      "quality": 94,
+      "sha256": "7cc0ef9a94351d607602023cc771a24c2121fc37ecf850d2a884d01656dca924",
+      "alphaMaxDifference": 0,
+      "foregroundRgbMae8Bit": 2.0431
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

@@ -1,0 +1,87 @@
+Визуальные изменения CSS — 24 октября 2026
+
+Scope: только product-hero.css, protein-story.css, contacts.css, product-cards.css,
+home-unified.css, motion.css и новый product-detail.css. HTML/JS/generator/products и
+художественное содержание изображений не изменялись этим агентом.
+
+Резервные копии шести прежних CSS уже находились в before/concept/ и совпадали с
+исходниками по SHA-256 до редактирования. Копии не перезаписывались. product-detail.css
+новый и потому не имел исходной версии.
+
+1. Hero: живой .product-title-live использует существующий настоящий condensed
+RobotoFlex-Protein (wdth70/wght850, согласно паспорту assets), без scaleX. Для
+«Люля мини» допускаются две строки. Подписи .product-picker-label видны под сценой;
+на mobile все четыре подписи занимают отдельный ряд, стрелки следующий ряд.
+2. На 700–1199 px сцена hero больше не поднимается под header отрицательным margin:
+у навигации отдельная защищённая область; высота текста внутри сцены скорректирована.
+3. Protein: удалены обе геометрические деформации строк. Размеры уменьшены пропорционально
+сохранённой естественной ширине шрифта; единый line-height и размер строк.
+4. Secondary home headings спокойнее. B2B teaser использует Onest 550, обычный регистр,
+меньший заголовок, спокойную подложку и компактного персонажа. Основная сцена hero и
+семейство героев сохранены.
+5. Contacts: заголовок и персонаж меньше на desktop/tablet. На mobile персонаж
+ограничен 128 px высоты в обычном потоке; прежний огромный зарезервированный хвост
+под контакты удалён. Контакты не помещаются поверх изображения.
+6. Cards: CSS рассчитан на один внешний a.product-image.product-card-link, внутри
+span.packshot-stage, span.product-meta, h3.product-title со span.circle-arrow.
+Стадия изображения, свойства и название имеют независимую геометрию. Добавлена
+поддержка product-status и заметный focus-visible всего единственного anchor.
+Межсловные интервалы названий слегка увеличены, на 320 стрелка уступает место словам.
+7. Product information: отключены card tilt/lift/stagger и reveal-задержки карточек
+и PDP. Спокойная тень и focus остаются; сами product images не перерисованы.
+8. Новый product-detail.css подключать ПОСЛЕДНИМ на всех PDP после product-cards.css.
+Ожидаемые прямые потомки section.product-detail: div.detail-heading (eyebrow+h1),
+figure.detail-visual, div.detail-copy (facts/actions/product-information).
+Desktop: изображение слева, heading и copy справа. Mobile <700: heading → изображение
+240 px (220 на <360) → facts/actions/copy. Изображение и факты не наклоняются.
+
+Проверено source-only: отсутствие scaleX в назначенных CSS, парность CSS-блоков,
+согласование селекторов с markup-контрактом root. Browser/render проверку выполняет
+root; до неё нельзя считать финально проверенными live-title fit, все четыре hero,
+защищённую навигацию, узкие product titles и новые PDP на 320/390/768/1024/1440.
+
+Финальный интеграционный проход:
+9. В product-hero.css удалены неиспользуемые product-title-art и benefit-ribbon
+селекторы, а также перекрывающиеся старые control/layout правила. Новый файл содержит
+одну согласованную версию каждой базовой роли. hero-new явно display:block на всех
+размерах; на 700–1199 px top:3%, компактный кегль 10–12 px.
+10. После удаления illustrated ribbon фраза «Знакомимся с новым» в Fibriki имеет
+Onest 550, тёмный rust и спокойный кегль 18–30 px вместо белого handwritten текста.
+11. Hero CTA расширена для текста «Подробнее о продукте»: до 280 px mobile,
+clamp(280px,28%,440px) desktop. Текст, иконка, padding и gap помещаются по метрикам.
+12. PDP: .label-reference использует нативное раскрытие summary с высотой ≥44 px,
+изображение contain без деформации, спокойное примечание. Декоративного разделителя
+нет. Добавлены интервалы и размеры для product-status, detail-intro и concept-note.
+13. FontTools + HarfBuzz измерили реальные локальные шрифты (временный venv /tmp,
+без новых зависимостей проекта). Расчётные строки hero, protein и CTA помещаются
+на 13 ширинах от 320 до 1920 px. Для «В ОСНОВЕ —» на 900–1100 px потребовалось
+снизить desktop-кегль с 8.2cqw до 7.6cqw, сохранив истинные пропорции.
+Данные и ограничения расчёта: font-fit-source-check.json. На 320 px «ФРИКАДЕЛЬКИ»
+250.58 px при доступных 288 px; «В ОСНОВЕ —» 280.32 px при доступных 288 px.
+Это расчёт основного шрифта, а не доказательство браузерной геометрии или fallback.
+14. Все семь CSS проверены tinycss2: ошибок разбора stylesheet, вложенных media и
+declarations нет. Мёртвые raster/ribbon селекторы и скрывающий hero-new display:none
+в текущих CSS отсутствуют. Дальнейший визуальный контроль выполняет root в браузере.
+
+Ограниченная техническая уборка T08/T12 (дополнительная зона root):
+15. Обработаны style.css, depth.css, design-system.css. tinycss2 разобрал все правила;
+сверены 22 HTML из site-manifest.json и шесть реально подключённых JS. Удалены только
+правила, у каждой ветви selector-list которых обязательный legacy-класс отсутствует
+во всех этих HTML и JS. Классы внутри :not/:is не используются как доказательство.
+16. Удалено 247 правил: style.css 187, depth.css 35, design-system.css 25. Это прежние
+hero/tagline/signature, serving-tabs/content/copy, protein-section/bridge/story,
+category/meat filters, filter-meta/search-clear/empty-state, home-product/product-caption
+и старые depth-seam/object. Удалены 8 опустевших media и неиспользуемые keyframes
+rise-in/hero-enter. Три смешанных общих selector-list сохранены целиком.
+17. Защищённые активные product-showcase, protein-poster и catalogue-tools не менялись.
+Сравнение AST подтверждает: каждое оставшееся qualified rule имеет прежние selector,
+условие media и declarations. Ошибок синтаксиса нет. Это безопасная ограниченная
+очистка, не утверждение об отсутствии любого dead CSS во всём проекте.
+18. Общий размер трёх файлов: 60 725 → 43 531 bytes, минус 17 194 bytes (28.3%).
+Полный список удалений, декларации, SHA-256, подтверждения и ограничения:
+legacy-css-cleanup.json. Точные копии непосредственно до очистки: legacy-css-before/.
+19. После добавления root явного versioned stylesheet link assets/fonts/font-face.css
+перед style.css в общем head scripts/build_site.py удалён CSS @import. Сами файлы
+шрифтов не менялись: четыре подключаемые семьи сохранены — Onest (Sans), Caveat (Hand),
+Rubik (Poster), статический RobotoFlex-Protein; диапазоны веса не изменены.
+Финальную сборку и браузерную регрессионную проверку выполняет root.

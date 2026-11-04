@@ -1,0 +1,360 @@
+{
+  "source": "Official novoferma.ru product catalogue photos",
+  "canvas": [
+    800,
+    800
+  ],
+  "count": 14,
+  "files": [
+    {
+      "file": "bitochki-kurinye-s-ovoshchami.webp",
+      "sourceSize": [
+        900,
+        900
+      ],
+      "size": [
+        800,
+        800
+      ],
+      "objectBox": [
+        70,
+        143,
+        834,
+        743
+      ],
+      "scale": 0.9633507853403142,
+      "alphaBox": [
+        29,
+        96,
+        771,
+        684
+      ],
+      "bytes": 389994
+    },
+    {
+      "file": "ezhiki-iz-tsyplenka-s-risom.webp",
+      "sourceSize": [
+        900,
+        900
+      ],
+      "size": [
+        800,
+        800
+      ],
+      "objectBox": [
+        71,
+        143,
+        835,
+        758
+      ],
+      "scale": 0.9633507853403142,
+      "alphaBox": [
+        29,
+        91,
+        771,
+        690
+      ],
+      "bytes": 404176
+    },
+    {
+      "file": "frikadelki-klassicheskie.webp",
+      "sourceSize": [
+        900,
+        900
+      ],
+      "size": [
+        800,
+        800
+      ],
+      "objectBox": [
+        72,
+        144,
+        836,
+        780
+      ],
+      "scale": 0.9633507853403142,
+      "alphaBox": [
+        28,
+        82,
+        771,
+        727
+      ],
+      "bytes": 368814
+    },
+    {
+      "file": "kotlety-kurinye.webp",
+      "sourceSize": [
+        900,
+        900
+      ],
+      "size": [
+        800,
+        800
+      ],
+      "objectBox": [
+        73,
+        142,
+        834,
+        782
+      ],
+      "scale": 0.9671484888304862,
+      "alphaBox": [
+        28,
+        77,
+        771,
+        732
+      ],
+      "bytes": 397336
+    },
+    {
+      "file": "kotlety-pikantnye.webp",
+      "sourceSize": [
+        900,
+        900
+      ],
+      "size": [
+        800,
+        800
+      ],
+      "objectBox": [
+        72,
+        141,
+        834,
+        784
+      ],
+      "scale": 0.9658792650918635,
+      "alphaBox": [
+        29,
+        77,
+        773,
+        735
+      ],
+      "bytes": 367556
+    },
+    {
+      "file": "kotlety-po-domashnemu.webp",
+      "sourceSize": [
+        900,
+        900
+      ],
+      "size": [
+        800,
+        800
+      ],
+      "objectBox": [
+        72,
+        142,
+        835,
+        787
+      ],
+      "scale": 0.9646133682830931,
+      "alphaBox": [
+        30,
+        77,
+        773,
+        733
+      ],
+      "bytes": 374526
+    },
+    {
+      "file": "kotlety-po-italyanski.webp",
+      "sourceSize": [
+        900,
+        900
+      ],
+      "size": [
+        800,
+        800
+      ],
+      "objectBox": [
+        74,
+        141,
+        833,
+        786
+      ],
+      "scale": 0.9696969696969697,
+      "alphaBox": [
+        30,
+        75,
+        772,
+        740
+      ],
+      "bytes": 382124
+    },
+    {
+      "file": "kurinyj-popkorn.webp",
+      "sourceSize": [
+        900,
+        900
+      ],
+      "size": [
+        800,
+        800
+      ],
+      "objectBox": [
+        72,
+        144,
+        833,
+        789
+      ],
+      "scale": 0.9671484888304862,
+      "alphaBox": [
+        27,
+        76,
+        772,
+        740
+      ],
+      "bytes": 423600
+    },
+    {
+      "file": "naggetsy-dinozavry.webp",
+      "sourceSize": [
+        900,
+        900
+      ],
+      "size": [
+        800,
+        800
+      ],
+      "objectBox": [
+        72,
+        143,
+        835,
+        784
+      ],
+      "scale": 0.9646133682830931,
+      "alphaBox": [
+        30,
+        80,
+        771,
+        738
+      ],
+      "bytes": 414296
+    },
+    {
+      "file": "naggetsy-kurinye-s-syrom.webp",
+      "sourceSize": [
+        900,
+        900
+      ],
+      "size": [
+        800,
+        800
+      ],
+      "objectBox": [
+        72,
+        143,
+        836,
+        784
+      ],
+      "scale": 0.9633507853403142,
+      "alphaBox": [
+        29,
+        78,
+        772,
+        737
+      ],
+      "bytes": 518492
+    },
+    {
+      "file": "naggetsy-kurinye.webp",
+      "sourceSize": [
+        900,
+        900
+      ],
+      "size": [
+        800,
+        800
+      ],
+      "objectBox": [
+        73,
+        143,
+        834,
+        787
+      ],
+      "scale": 0.9671484888304862,
+      "alphaBox": [
+        28,
+        75,
+        770,
+        725
+      ],
+      "bytes": 381180
+    },
+    {
+      "file": "naggetsy-ostrye.webp",
+      "sourceSize": [
+        900,
+        900
+      ],
+      "size": [
+        800,
+        800
+      ],
+      "objectBox": [
+        72,
+        143,
+        836,
+        783
+      ],
+      "scale": 0.9633507853403142,
+      "alphaBox": [
+        28,
+        79,
+        771,
+        738
+      ],
+      "bytes": 500598
+    },
+    {
+      "file": "naggetsy-s-indeykoy-fitnes.webp",
+      "sourceSize": [
+        900,
+        900
+      ],
+      "size": [
+        800,
+        800
+      ],
+      "objectBox": [
+        73,
+        143,
+        836,
+        783
+      ],
+      "scale": 0.9646133682830931,
+      "alphaBox": [
+        30,
+        77,
+        772,
+        738
+      ],
+      "bytes": 381194
+    },
+    {
+      "file": "stripsy.webp",
+      "sourceSize": [
+        900,
+        900
+      ],
+      "size": [
+        800,
+        800
+      ],
+      "objectBox": [
+        72,
+        141,
+        835,
+        778
+      ],
+      "scale": 0.9646133682830931,
+      "alphaBox": [
+        30,
+        82,
+        771,
+        730
+      ],
+      "bytes": 374578
+    }
+  ]
+}

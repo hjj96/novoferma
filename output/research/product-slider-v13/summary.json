@@ -1,0 +1,42 @@
+[
+  {
+    "width": 1440,
+    "sceneCount": 4,
+    "CTAidentical": true,
+    "sameHeight": true,
+    "loaded": true,
+    "noOverflow": true,
+    "floorVisible": true,
+    "panelsCorrect": true
+  },
+  {
+    "width": 768,
+    "sceneCount": 4,
+    "CTAidentical": true,
+    "sameHeight": true,
+    "loaded": true,
+    "noOverflow": true,
+    "floorVisible": true,
+    "panelsCorrect": true
+  },
+  {
+    "width": 390,
+    "sceneCount": 4,
+    "CTAidentical": true,
+    "sameHeight": true,
+    "loaded": true,
+    "noOverflow": true,
+    "floorVisible": true,
+    "panelsCorrect": true
+  },
+  {
+    "width": 320,
+    "sceneCount": 4,
+    "CTAidentical": true,
+    "sameHeight": true,
+    "loaded": true,
+    "noOverflow": true,
+    "floorVisible": true,
+    "panelsCorrect": true
+  }
+]

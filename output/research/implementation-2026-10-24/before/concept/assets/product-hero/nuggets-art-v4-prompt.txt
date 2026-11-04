@@ -1,0 +1,10 @@
+Use case: background-extraction
+Asset type: transparent full-frame foreground art layer for a website hero.
+Input image: the supplied nuggets-plate-v3.webp is the exact edit target, not a style reference.
+Primary request: remove ONLY the entire cream paper background, the entire orange curved floor, and ALL brown cast shadows on that floor. Replace those regions with real transparent alpha.
+Composition/framing: preserve the complete original 1672 x 941 landscape canvas and every subject's original coordinates, relative scale, rotation, and proportions. Keep the mostly empty left half in the canvas as transparent empty space. Do not crop to content or center the subjects.
+Preserve unchanged: all FIVE different nugget pieces, including the two cut-open halves and their chicken interior; the ketchup bowl and ketchup; the chicken mascot and its exact pose, apron, colors, line work, and silhouette; parsley leaf, floating crumbs; ALL orange decorative marks and outlined hearts and ALL black cartoon motion/cloud marks. Keep every disconnected mark in its original location.
+Materials/textures: retain existing food detail, texture, edge shape, internal lighting and object shading. Only floor cast shadows disappear; shading within nuggets, mascot, and sauce remains.
+Constraints: this is a faithful background extraction, not a redraw or recomposition. Keep exact food count and source differences. Never stretch, resize, reposition, clone, or add any object. Preserve fine crumbs and thin marks with clean alpha edges.
+Avoid: paper texture, cream haze, orange floor remnants, brown floor shadows, opaque or checkerboard background, white outlines, halos, added shadows, text, typography, logos, new decoration.
+Output: one true RGBA transparent PNG, full source canvas 1672 x 941.

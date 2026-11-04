@@ -1,0 +1,147 @@
+{
+  "passed": true,
+  "pages": [
+    {
+      "page": "index.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "catalogue.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "about.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "where-to-buy.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "partners.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "contacts.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "product-kotlety-kurinye.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "product-bitochki-kurinye-s-ovoshchami.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "product-ezhiki-iz-tsyplenka-s-risom.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "product-kurinyj-popkorn.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "product-naggetsy-kurinye.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "product-naggetsy-kurinye-s-syrom.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "product-naggetsy-dinozavry.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "product-naggetsy-ostrye.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "product-naggetsy-s-indeykoy-fitnes.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "product-stripsy.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "product-kotlety-po-domashnemu.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "product-kotlety-pikantnye.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "product-kotlety-po-italyanski.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    },
+    {
+      "page": "product-frikadelki-klassicheskie.html",
+      "h1": 1,
+      "duplicateIds": [],
+      "missingAriaTargets": [],
+      "imagesWithoutAlt": []
+    }
+  ],
+  "heroPanels": 4,
+  "sharedCtaCount": 4
+}

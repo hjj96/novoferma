@@ -1,0 +1,294 @@
+[
+  {
+    "body": {
+      "bottom": 641.015625,
+      "height": 25.59375,
+      "right": 687.9140625,
+      "width": 563.9140625,
+      "x": 124,
+      "y": 615.421875
+    },
+    "brokenImages": [],
+    "button": {
+      "bottom": 655.21875,
+      "height": 54,
+      "right": 1324,
+      "width": 240.40625,
+      "x": 1083.59375,
+      "y": 601.21875
+    },
+    "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+    "fontLoaded": true,
+    "heading": {
+      "bottom": 573.21875,
+      "height": 118.71875,
+      "right": 1324,
+      "width": 1200,
+      "x": 124,
+      "y": 454.5
+    },
+    "headingOverflow": false,
+    "overflow": false,
+    "page": "catalogue",
+    "paper": {
+      "bottom": 691.21875,
+      "height": 308.21875,
+      "right": 1368,
+      "width": 1296,
+      "x": 72,
+      "y": 383
+    },
+    "width": 1440
+  },
+  {
+    "body": {
+      "bottom": 665.9375,
+      "height": 48,
+      "right": 455.59375,
+      "width": 383.59375,
+      "x": 72,
+      "y": 617.9375
+    },
+    "brokenImages": [],
+    "button": {
+      "bottom": 668.9375,
+      "height": 54,
+      "right": 704,
+      "width": 224.40625,
+      "x": 479.59375,
+      "y": 614.9375
+    },
+    "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+    "fontLoaded": true,
+    "heading": {
+      "bottom": 586.9375,
+      "height": 78.15625,
+      "right": 704,
+      "width": 632,
+      "x": 72,
+      "y": 508.78125
+    },
+    "headingOverflow": false,
+    "overflow": false,
+    "page": "catalogue",
+    "paper": {
+      "bottom": 700.9375,
+      "height": 259.65625,
+      "right": 736,
+      "width": 704,
+      "x": 32,
+      "y": 441.28125
+    },
+    "width": 768
+  },
+  {
+    "body": {
+      "bottom": 383.03125,
+      "height": 46.5,
+      "right": 350,
+      "width": 305,
+      "x": 45,
+      "y": 336.53125
+    },
+    "brokenImages": [],
+    "button": {
+      "bottom": 455.03125,
+      "height": 52,
+      "right": 350,
+      "width": 305,
+      "x": 45,
+      "y": 403.03125
+    },
+    "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+    "fontLoaded": true,
+    "heading": {
+      "bottom": 316.53125,
+      "height": 62.328125,
+      "right": 350,
+      "width": 305,
+      "x": 45,
+      "y": 254.203125
+    },
+    "headingOverflow": false,
+    "overflow": false,
+    "page": "catalogue",
+    "paper": {
+      "bottom": 479.03125,
+      "height": 281.828125,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 197.203125
+    },
+    "width": 390
+  },
+  {
+    "body": {
+      "bottom": 384.9453125,
+      "height": 43.390625,
+      "right": 288,
+      "width": 251,
+      "x": 37,
+      "y": 341.5546875
+    },
+    "brokenImages": [],
+    "button": {
+      "bottom": 456.9453125,
+      "height": 52,
+      "right": 288,
+      "width": 251,
+      "x": 37,
+      "y": 404.9453125
+    },
+    "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+    "fontLoaded": true,
+    "heading": {
+      "bottom": 321.5546875,
+      "height": 108,
+      "right": 288,
+      "width": 251,
+      "x": 37,
+      "y": 213.5546875
+    },
+    "headingOverflow": false,
+    "overflow": false,
+    "page": "catalogue",
+    "paper": {
+      "bottom": 478.9453125,
+      "height": 320.390625,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 158.5546875
+    },
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "button": {
+      "bottom": 655.1484375,
+      "height": 54,
+      "right": 1324,
+      "width": 240.40625,
+      "x": 1083.59375,
+      "y": 601.1484375
+    },
+    "fontLoaded": true,
+    "heading": {
+      "bottom": 573.1484375,
+      "height": 118.71875,
+      "right": 1324,
+      "width": 1200,
+      "x": 124,
+      "y": 454.4296875
+    },
+    "headingOverflow": false,
+    "overflow": false,
+    "page": "about",
+    "paper": {
+      "bottom": 691.1484375,
+      "height": 308.21875,
+      "right": 1368,
+      "width": 1296,
+      "x": 72,
+      "y": 382.9296875
+    },
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "button": {
+      "bottom": 669.234375,
+      "height": 54,
+      "right": 704,
+      "width": 224.40625,
+      "x": 479.59375,
+      "y": 615.234375
+    },
+    "fontLoaded": true,
+    "heading": {
+      "bottom": 587.234375,
+      "height": 78.15625,
+      "right": 704,
+      "width": 632,
+      "x": 72,
+      "y": 509.078125
+    },
+    "headingOverflow": false,
+    "overflow": false,
+    "page": "about",
+    "paper": {
+      "bottom": 701.234375,
+      "height": 259.65625,
+      "right": 736,
+      "width": 704,
+      "x": 32,
+      "y": 441.578125
+    },
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "button": {
+      "bottom": 455.125,
+      "height": 52,
+      "right": 350,
+      "width": 305,
+      "x": 45,
+      "y": 403.125
+    },
+    "fontLoaded": true,
+    "heading": {
+      "bottom": 316.625,
+      "height": 62.328125,
+      "right": 350,
+      "width": 305,
+      "x": 45,
+      "y": 254.296875
+    },
+    "headingOverflow": false,
+    "overflow": false,
+    "page": "about",
+    "paper": {
+      "bottom": 479.125,
+      "height": 281.828125,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 197.296875
+    },
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "button": {
+      "bottom": 457.125,
+      "height": 52,
+      "right": 288,
+      "width": 251,
+      "x": 37,
+      "y": 405.125
+    },
+    "fontLoaded": true,
+    "heading": {
+      "bottom": 300.0390625,
+      "height": 54,
+      "right": 288,
+      "width": 251,
+      "x": 37,
+      "y": 246.0390625
+    },
+    "headingOverflow": false,
+    "overflow": false,
+    "page": "about",
+    "paper": {
+      "bottom": 479.125,
+      "height": 288.0859375,
+      "right": 304,
+      "width": 288,
+      "x": 16,
+      "y": 191.0390625
+    },
+    "width": 320
+  }
+]

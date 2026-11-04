@@ -1,0 +1,16 @@
+Use case: compositing.
+Asset type: mobile portrait section graphic for the Novoferma website, final displayed at 390 × 600 CSS pixels and exported at 780 × 1200 pixels.
+Input image 1 is the approved desktop graphic and the exact edit target. Adapt that identical approved design into a portrait composition. This is a responsive recomposition, not a redesign.
+Canvas: portrait 13:20 aspect ratio, ideally 1040 × 1600 native pixels for later proportional export to 780 × 1200. Fully opaque background.
+Preserve the exact brand language from the reference: pale yellow-green textured paper background, very heavy narrow playful poster lettering, dark chocolate brown type, vivid orange-red word and hand-painted accents, realistic crisp golden chicken food, and the exact orange illustrated hen with red comb, green checked white apron, confident black outlines.
+Preserve the NEW approved hen exactly: leaning curiously left toward the nugget opening, one wing held horizontally over her eyes as a visor, second wing bent at her side, original curious face and stance. Do not return to the previous presenting gesture. Keep the entire head, comb, apron, tail, legs, and both feet within the image.
+Portrait layout with safe margins approximately 38 pixels at final 780-pixel width:
+At the top, small spaced dark brown uppercase text, verbatim: "02 / ЗАГЛЯНЕМ ВНУТРЬ".
+Below it, two clear very large poster-title lines using the same reference type design:
+first line dark chocolate brown, verbatim: "В ОСНОВЕ —"
+second line bright orange, verbatim: "ПТИЦА."
+Below the title, left-aligned body copy in the same clean sans-serif font, dark brown, approximately 36–38 pixels at final 780-pixel width, generous line spacing. Use this exact text, verbatim, with natural readable wrapping:
+"Курица и индейка — природные источники белка. Мы делаем из них то, что вы любите."
+Leave a clear gap, then place the main nugget scene in the lower part of the portrait: TWO split halves of the same golden breaded chicken product, showing the white inside, on the left and center; the EXACT curious visor-pose hen to the right, looking into the opening. Keep the same nugget food texture, contours and little crumbs as the desktop reference. Fit all subjects; the hen must not be cropped. The chicken product should remain the main visual focus, with convincing contact shadows.
+The orange handwritten annotation, verbatim: "Вот что внутри!" may sit just above the food scene with the same curved orange arrow pointing into the opening between the halves. Include a small number of the same orange emphasis strokes as the reference.
+Prioritize readable body copy and a complete uncropped curious hen. Keep the title, paragraph, annotation, and scene clearly separate without overlap. Preserve all text content and the same product/character identities. No added dishes, table settings, ingredients, logos, buttons, navigation, CTA, icons, slogans, nutrition numbers, benefits, claims, or new properties. No watermark.

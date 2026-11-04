@@ -1,0 +1,63 @@
+/* Shared character and cooperation blocks on About and Catalogue. */
+/* The full character has its own column; no part crosses a text or section edge. */
+.brand-character { background:var(--gold); }
+.brand-character-inner {
+ display:grid;grid-template-columns:1.15fr 1fr .85fr;align-items:center;gap:42px;padding-block:56px;
+}
+.brand-character .eyebrow { margin-bottom:26px; }
+.brand-character h2 {
+ font-family:var(--font-poster);font-size:clamp(32px,3.25vw,46px);font-weight:900;
+ text-transform:uppercase;line-height:1.04;letter-spacing:-.035em;text-wrap:initial;
+}
+.brand-character-copy { font-size:20px;line-height:1.6;max-width:30ch; }
+.brand-character-art { width:100%;max-width:300px;height:auto;justify-self:center; }
+/* One invitation, with a different opening for each page. The orange edge is
+   the only packaging detail; the content reads from the headline to a reply. */
+.cooperation-invite { padding-block:12px 54px;color:var(--brown); }
+.cooperation-invite-about { padding-top:54px; }
+.cooperation-invite-paper {
+ background:#f2e5cf;border-left:8px solid var(--orange);border-radius:4px 26px 26px 4px;
+ padding:34px 44px 36px;
+}
+.cooperation-invite .eyebrow { margin:0 0 21px;color:var(--rust);font-size:11px;letter-spacing:.1em; }
+.cooperation-invite h2 {
+ max-width:100%;font-family:var(--font-poster);font-size:clamp(38px,4vw,56px);
+ font-weight:900;letter-spacing:-.035em;line-height:1.06;text-transform:uppercase;
+ text-wrap:initial;
+}
+.cooperation-invite h2>span,.cooperation-invite h2>em { display:block; }
+.cooperation-invite h2>em { color:var(--rust); }
+.cooperation-invite-response { display:flex;align-items:center;justify-content:space-between;gap:28px;margin-top:28px; }
+.cooperation-invite-response>p { flex:0 1 53ch;max-width:53ch;font-size:16px;line-height:1.6; }
+.cooperation-invite-response>.button { flex:0 0 auto;min-height:54px;gap:32px; }
+.cooperation-invite-response>.button:focus-visible { outline-color:var(--brown); }
+
+@media(min-width:700px) and (max-width:1099px) {
+ .brand-character-inner { grid-template-columns:1.1fr .9fr;gap:26px 42px;padding-block:44px; }
+ .brand-character-heading { grid-column:1; }
+ .brand-character h2 { font-size:clamp(35px,4.5vw,48px); }
+ .brand-character-copy { grid-column:1;font-size:18px;max-width:35ch; }
+ .brand-character-art { grid-column:2;grid-row:1/3;max-width:270px; }
+ .cooperation-invite { padding-bottom:44px; }
+ .cooperation-invite-about { padding-top:44px; }
+ .cooperation-invite-paper { padding:30px 32px 32px; }
+ .cooperation-invite h2 { font-size:clamp(34px,4.8vw,48px); }
+ .cooperation-invite-response { gap:24px; }
+ .cooperation-invite-response>p { max-width:40ch;font-size:15px; }
+ .cooperation-invite-response>.button { gap:20px;padding-inline:22px; }
+}
+@media(max-width:699px) {
+ .brand-character-inner { grid-template-columns:1fr;gap:24px;padding-block:40px 30px; }
+ .brand-character .eyebrow { font-size:10px;margin-bottom:24px; }
+ .brand-character h2 { font-size:clamp(32px,9.2vw,50px); }
+ .brand-character-copy { max-width:34ch;font-size:17px;line-height:1.6; }
+ .brand-character-art { width:74%;max-width:280px; }
+ .cooperation-invite { padding-block:0 36px; }
+ .cooperation-invite-about { padding-top:32px; }
+ .cooperation-invite-paper { border-left-width:5px;border-radius:3px 20px 20px 3px;padding:24px 20px; }
+ .cooperation-invite .eyebrow { font-size:10px;line-height:1.5;letter-spacing:.06em;margin-bottom:18px; }
+ .cooperation-invite h2 { font-size:clamp(27px,7.4vw,43px);line-height:1.08;letter-spacing:-.035em; }
+ .cooperation-invite-response { display:flex;flex-direction:column;align-items:stretch;gap:20px;margin-top:20px; }
+ .cooperation-invite-response>p { flex:initial;max-width:35ch;font-size:15px;line-height:1.55; }
+ .cooperation-invite-response>.button { width:100%;justify-content:space-between;min-height:52px;padding:13px 18px;gap:12px; }
+}

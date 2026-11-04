@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Фибрики",
+    "file": "output/concept/assets/novelty-packaging/fibriki-pack-v8.webp",
+    "paper": {
+      "pixels": 3750,
+      "rgb": [
+        239,
+        225,
+        202
+      ]
+    },
+    "logo": {
+      "pixels": 2659,
+      "rgb": [
+        250,
+        67,
+        5
+      ]
+    },
+    "type": {
+      "pixels": 8962,
+      "rgb": [
+        92,
+        51,
+        2
+      ]
+    }
+  },
+  {
+    "name": "Люля мини",
+    "file": "output/concept/assets/novelty-packaging/lulia-mini-pack-v3.webp",
+    "paper": {
+      "pixels": 3750,
+      "rgb": [
+        239,
+        225,
+        197
+      ]
+    },
+    "logo": {
+      "pixels": 2253,
+      "rgb": [
+        250,
+        108,
+        5
+      ]
+    },
+    "type": {
+      "pixels": 10234,
+      "rgb": [
+        103,
+        65,
+        19
+      ]
+    }
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "active": "scene-protein",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 386,
+      "height": 50,
+      "right": 260,
+      "width": 240,
+      "x": 20,
+      "y": 336
+    },
+    "description": {
+      "bottom": 289.078125,
+      "height": 42,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 247.078125
+    },
+    "fontSize": "15px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 217.078125,
+      "height": 37,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 180.078125
+    },
+    "title": {
+      "bottom": 238.078125,
+      "height": 140.078125,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 98
+    },
+    "width": 390
+  },
+  {
+    "active": "scene-meatballs",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 386,
+      "height": 50,
+      "right": 260,
+      "width": 240,
+      "x": 20,
+      "y": 336
+    },
+    "description": {
+      "bottom": 278.96875,
+      "height": 42,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 236.96875
+    },
+    "fontSize": "15px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 224.96875,
+      "height": 59.65625,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 165.3125
+    },
+    "title": {
+      "bottom": 155.3125,
+      "height": 57.3125,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 98
+    },
+    "width": 390
+  },
+  {
+    "active": "scene-nuggets",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 386,
+      "height": 50,
+      "right": 260,
+      "width": 240,
+      "x": 20,
+      "y": 336
+    },
+    "description": {
+      "bottom": 266.9140625,
+      "height": 42,
+      "right": 339.1953125,
+      "width": 319.1953125,
+      "x": 20,
+      "y": 224.9140625
+    },
+    "fontSize": "15px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 212.9140625,
+      "height": 22.3984375,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 190.515625
+    },
+    "title": {
+      "bottom": 180.515625,
+      "height": 82.515625,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 98
+    },
+    "width": 390
+  },
+  {
+    "active": "scene-fibriki",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 386,
+      "height": 50,
+      "right": 260,
+      "width": 240,
+      "x": 20,
+      "y": 336
+    },
+    "description": {
+      "bottom": 318.921875,
+      "height": 42,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 276.921875
+    },
+    "fontSize": "15px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 253.78125,
+      "height": 37.5,
+      "right": 326.40625,
+      "width": 262.8125,
+      "x": 63.59375,
+      "y": 216.28125
+    },
+    "title": {
+      "bottom": 168.2421875,
+      "height": 70.2421875,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 98
+    },
+    "width": 390
+  },
+  {
+    "active": "scene-lulia-mini",
+    "activeCount": 1,
+    "background": "assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+    "broken": [],
+    "cta": {
+      "bottom": 386,
+      "height": 50,
+      "right": 260,
+      "width": 240,
+      "x": 20,
+      "y": 336
+    },
+    "description": {
+      "bottom": 306.734375,
+      "height": 42,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 264.734375
+    },
+    "fontSize": "15px",
+    "inertInactive": true,
+    "overflow": false,
+    "scrollY": 0,
+    "subtitle": {
+      "bottom": 252.734375,
+      "height": 44.796875,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 207.9375
+    },
+    "title": {
+      "bottom": 197.9375,
+      "height": 99.9375,
+      "right": 370,
+      "width": 350,
+      "x": 20,
+      "y": 98
+    },
+    "width": 390
+  }
+]

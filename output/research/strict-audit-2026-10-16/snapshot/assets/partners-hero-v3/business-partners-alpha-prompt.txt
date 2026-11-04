@@ -1,0 +1,7 @@
+Edit target: the supplied finished Novoferma two-chicken business illustration. Make one narrowly scoped production finishing edit: REMOVE the pale ivory rectangular paper background completely to TRUE TRANSPARENT ALPHA.
+
+Preserve the artwork itself, the two exact characters, expressions, clothing, fine hand-painted rendering, golden feathers, glasses, folio, their wing handshake, full poses, relative positions, all outlines, all feet, both tails, combs and shapes. Do not restyle, recompose, redraw into a different illustration or add anything. Keep the dimensional soft light and the two chickens exactly recognizable.
+
+Below their feet preserve only the small natural amber-brown cast/contact shadows and a VERY restrained irregular painted ochre ground wash connecting the feet, all softly fading to genuine transparency. Their feet must remain grounded. All empty space above, behind and beside the figures must be fully alpha=0, including spaces between legs, under wings and between heads. Remove ALL rectangular paper grain and ALL cream/white matte. No background-color pixels or box. No large oval, ellipse or separate platform. Do not erode or blur the characters. Edge antialiasing clean without any cream halo.
+
+Use a landscape canvas 3:2 with the entire art fitting inside it; preserve or slightly expand empty transparent canvas margins so combs, feet and tails never touch edges, at least 4% free margin around all subjects. Keep the same artwork scale if possible. No text or new props. Final output transparent PNG.

@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "mainProducts": 14,
+      "packagingImages": 2,
+      "allLoaded": true
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "mainProducts": 14,
+      "packagingImages": 2,
+      "allLoaded": true
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "mainProducts": 14,
+      "packagingImages": 2,
+      "allLoaded": true
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "mainProducts": 14,
+      "packagingImages": 2,
+      "allLoaded": true
+    }
+  ],
+  "alpha": [
+    {
+      "slug": "fibriki",
+      "canvas": [
+        800,
+        800
+      ],
+      "transparentBorder": true
+    },
+    {
+      "slug": "lulia-mini",
+      "canvas": [
+        800,
+        800
+      ],
+      "transparentBorder": true
+    }
+  ],
+  "noveltyLinks": "pass",
+  "errors": []
+}

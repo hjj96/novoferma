@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-24",
+  "pages": 22,
+  "staticStatusCounts": {
+    "partial": 17,
+    "implemented": 18,
+    "pending": 0
+  },
+  "browserLayoutChecks": 71,
+  "browserFindingsRemaining": [],
+  "behaviorTests": 21,
+  "archiveIntegrity": "pass",
+  "archiveCurrent": true,
+  "previewStatus": 200,
+  "previewHealthCheck": "curl --noproxy 127.0.0.1 -I; existing server returns 200",
+  "publicDeployment": false,
+  "previewServer": "Existing loopback server reused at 127.0.0.1:8765; not stopped",
+  "remaining": [
+    "Verified food passports and current label data for 14 products",
+    "Retail stock and geographic coverage",
+    "B2B terms, documents and production photography",
+    "Artwork family unification and product approval of edited packaging",
+    "Real-domain deployment checks and field Core Web Vitals"
+  ]
+}

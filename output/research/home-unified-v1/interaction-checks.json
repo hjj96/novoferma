@@ -1,0 +1,42 @@
+[
+  {
+    "activePanels": 1,
+    "color": "rgb(201, 67, 16)",
+    "height": 50,
+    "href": "catalogue.html",
+    "slide": "scene-meatballs",
+    "width": 240,
+    "x": 20,
+    "y": 336
+  },
+  {
+    "activePanels": 1,
+    "color": "rgb(201, 67, 16)",
+    "height": 50,
+    "href": "catalogue.html",
+    "slide": "scene-nuggets",
+    "width": 240,
+    "x": 20,
+    "y": 336
+  },
+  {
+    "activePanels": 1,
+    "color": "rgb(201, 67, 16)",
+    "height": 50,
+    "href": "catalogue.html",
+    "slide": "scene-fibriki",
+    "width": 240,
+    "x": 20,
+    "y": 336
+  },
+  {
+    "activePanels": 1,
+    "color": "rgb(201, 67, 16)",
+    "height": 50,
+    "href": "catalogue.html",
+    "slide": "scene-lulia-mini",
+    "width": 240,
+    "x": 20,
+    "y": 336
+  }
+]

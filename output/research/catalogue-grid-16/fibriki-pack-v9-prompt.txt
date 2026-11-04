@@ -1,0 +1,13 @@
+Use case: precise-object-edit.
+Asset: production ecommerce transparent packshot for Novoferma Fibriki.
+Image 1 is the EDIT TARGET, the approved Fibriki package. Image 2 is only a PHYSICAL PAPER EDGE AND PRINT COLOR REFERENCE, the Lulia mini package from the same brand.
+Make a surgical retouch of Image 1, not a redesign.
+
+PRIMARY REQUIRED FIX: completely remove the conspicuous continuous brown outline/stroke around the paper sleeve's upper curved edge and both sloping side edges. The paper must finish with the soft, very pale cream cut edge seen on Image 2. There is NO brown perimeter ink, NO border, NO dark keyline. Replace that narrow brown line with the neighboring light ivory paper texture, ending naturally in clean transparency. Preserve the exact silhouette, upper arc, corners, bottom open arch and realistic cardboard thickness. Keep natural brown INSIDE surfaces beneath the paper and transparent plastic tray; only the artificial outline of the front sleeve is removed. At catalogue thumbnail size there must be no contour line visible around the cream label.
+
+SECONDARY TINY COLOR MATCH: match the orange NOVOferma ink and warm brown headline ink to Image 2, with the same soft photographed printed finish. Paper should match Image 2's warm ivory; avoid orange/yellow cast or grey dirty paper. Keep local food and chicken colors unchanged. No global contrast or saturation change.
+
+LOCK EVERYTHING ELSE from Image 1: all Russian typography exactly, logo layout, the original chicken holding a wooden spoon with one small meatball, chicken pose/anatomy/detailed illustration, the pair of one whole browned Fibrik and one cut half on the left, their homogeneous fine minced-chicken texture, the clear plastic tray with round raw meatballs, all positions, sizes, perspective and lighting. Do not borrow Lulia's chicken, food or lettering. Do not introduce rice grains, white elongated shreds, or striped textures. Do not add strokes around objects.
+Exact existing text must remain: NOVOferma; ФИБРИКИ; ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ; С ПИЩЕВЫМИ ВОЛОКНАМИ; БЕЛОК + КЛЕТЧАТКА.
+
+Output a single complete isolated packshot on TRUE TRANSPARENT background, preserving clean anti-aliased alpha with no white halo, no drop shadow, no background, no cropped edges. Keep generous transparent margin. The result must look like a real photographed package alongside Image 2.

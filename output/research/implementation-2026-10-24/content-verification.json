@@ -1,0 +1,912 @@
+{
+  "verifiedAt": "2026-10-24",
+  "purpose": "Свежая проверка контента Новоферма для реализации сайта; не сертификат безопасности/актуальности рецептуры.",
+  "inventoryFile": "output/concept/products.json",
+  "method": [
+    "Локальный products.json использован только как инвентарь 14SKU. Старые аудиты и sourceSnapshot не использованы как свежие доказательства.",
+    "Три публичные страницы производителя перечитаны напрямую 24.10.2026 (HTTP200); извлечены название, масса, тип упаковки и контакты.",
+    "Поиск проверял бренд, точное наименование/вариант и массу. Карточки другой фасовки, другого бренда и СТМ не приравнивались.",
+    "В retail-списке только страницы, для которых прямой HTTP200 и текст подтвердили название/бренд/массу; наличие не обещается.",
+    "Веб-поиск иногда возвращает сохранённый индекс. Вsources это отделено от прямого GET. CUA-браузеры недоступны; изображение оборотной этикетки и документы визуально не подтверждены."
+  ],
+  "summary": {
+    "catalogueProductsVerified": 14,
+    "manufacturerCompleteSafetyDataSets": 0,
+    "liveRetailLinksVerified": 5,
+    "exactProductIdsWithLiveRetailLinks": 5,
+    "manufacturerSkuSpecificCookingInstructionsVerified": 0,
+    "approvedNoveltyStatusesVerified": 0
+  },
+  "currentOfficialLinks": [
+    "https://novoferma.ru/",
+    "https://novoferma.ru/catalogue",
+    "https://novoferma.ru/contact"
+  ],
+  "products": [
+    {
+      "id": "kotlety-kurinye",
+      "name": "Котлеты куриные",
+      "weightGrams": 522,
+      "packaging": "контейнер",
+      "officialSourceIds": [
+        "NF_CATALOGUE"
+      ],
+      "verifiedAt": "2026-10-24",
+      "officiallyVerifiedFields": [
+        "name",
+        "weightGrams",
+        "packaging",
+        "catalogue_presence"
+      ],
+      "skuMatchLimit": "Название/вариант/масса; GTIN, артикул изготовителя и версия рецептуры не опубликованы. Наличие в каталоге не доказывает текущий складской остаток.",
+      "manufacturerVerifiedData": {
+        "ingredients": null,
+        "allergens": null,
+        "nutritionPer100g": null,
+        "preparation": null,
+        "storage": null
+      },
+      "manufacturerDataStatus": "not_found_in_current_public_text",
+      "verifiedRetailLinks": [
+        "https://www.slimtasty.ru/katalog/tovar6151.html"
+      ],
+      "missing": [
+        "полный актуальный состав",
+        "полный перечень аллергенов и возможных следов",
+        "пищевая/энергетическая ценность на 100 г",
+        "инструкция приготовления именно этого SKU",
+        "температура и срок хранения",
+        "GTIN и версия этикетки"
+      ],
+      "retailerEvidence": {
+        "sourceId": "SLIM_CHICKEN",
+        "nutritionPer100g": {
+          "proteinG": 14.7,
+          "fatG": 12.1,
+          "carbohydrateG": 13.3,
+          "kcal": 220.99
+        },
+        "ingredientsSummary": "Куриная грудка с кожей; вода; свежий лук; пшеничная панировка с дрожжами, специями и картофельным крахмалом; растительная клетчатка; обезжиренное сухое молоко; пряности; соль. Это сокращённое описание продавца, не полный состав этикетки.",
+        "explicitAllergens": [
+          "глютен",
+          "молоко/лактоза"
+        ],
+        "facilityUses": [
+          "горчица",
+          "сельдерей",
+          "яйца"
+        ],
+        "publishStatus": "hold_conflict",
+        "conflict": "Индексированная карточка MAGNIT_CHICKEN_OLD для тех же 522 г: Б 12.6/Ж 14.5/У 8.6/214.3 ккал. Действующая страница Магнита 404, однако расхождение не позволяет выбирать рецепт без версии этикетки."
+      }
+    },
+    {
+      "id": "bitochki-kurinye-s-ovoshchami",
+      "name": "Биточки куриные с овощами",
+      "weightGrams": 450,
+      "packaging": "контейнер",
+      "officialSourceIds": [
+        "NF_CATALOGUE"
+      ],
+      "verifiedAt": "2026-10-24",
+      "officiallyVerifiedFields": [
+        "name",
+        "weightGrams",
+        "packaging",
+        "catalogue_presence"
+      ],
+      "skuMatchLimit": "Название/вариант/масса; GTIN, артикул изготовителя и версия рецептуры не опубликованы. Наличие в каталоге не доказывает текущий складской остаток.",
+      "manufacturerVerifiedData": {
+        "ingredients": null,
+        "allergens": null,
+        "nutritionPer100g": null,
+        "preparation": null,
+        "storage": null
+      },
+      "manufacturerDataStatus": "not_found_in_current_public_text",
+      "verifiedRetailLinks": [],
+      "missing": [
+        "полный актуальный состав",
+        "полный перечень аллергенов и возможных следов",
+        "пищевая/энергетическая ценность на 100 г",
+        "инструкция приготовления именно этого SKU",
+        "температура и срок хранения",
+        "GTIN и версия этикетки"
+      ],
+      "retailerEvidence": {
+        "sourceId": "PEREK_BITOCHKI",
+        "publishStatus": "hold_access_or_freshness",
+        "limit": "Сопоставимое название/масса найдены в индексе, однако прямое чтение карточки не подтвердило действующую доступную страницу. В retailers-verified.json не включено."
+      }
+    },
+    {
+      "id": "ezhiki-iz-tsyplenka-s-risom",
+      "name": "Ёжики из цыпленка с рисом",
+      "weightGrams": 480,
+      "packaging": "контейнер",
+      "officialSourceIds": [
+        "NF_CATALOGUE"
+      ],
+      "verifiedAt": "2026-10-24",
+      "officiallyVerifiedFields": [
+        "name",
+        "weightGrams",
+        "packaging",
+        "catalogue_presence"
+      ],
+      "skuMatchLimit": "Название/вариант/масса; GTIN, артикул изготовителя и версия рецептуры не опубликованы. Наличие в каталоге не доказывает текущий складской остаток.",
+      "manufacturerVerifiedData": {
+        "ingredients": null,
+        "allergens": null,
+        "nutritionPer100g": null,
+        "preparation": null,
+        "storage": null
+      },
+      "manufacturerDataStatus": "not_found_in_current_public_text",
+      "verifiedRetailLinks": [],
+      "missing": [
+        "полный актуальный состав",
+        "полный перечень аллергенов и возможных следов",
+        "пищевая/энергетическая ценность на 100 г",
+        "инструкция приготовления именно этого SKU",
+        "температура и срок хранения",
+        "GTIN и версия этикетки"
+      ],
+      "retailerEvidence": {
+        "sourceId": "SLIM_HEDGEHOGS",
+        "publishStatus": "hold_brand_not_verified",
+        "limit": "Название и 480 г совпадают, но бренд отсутствует в текстовом заголовке; самостоятельное подтверждение упаковкой не получено. В составном тексте опечатки. В список точных retail-сопоставлений не включено."
+      }
+    },
+    {
+      "id": "kurinyj-popkorn",
+      "name": "Куриный попкорн",
+      "weightGrams": 400,
+      "packaging": "контейнер",
+      "officialSourceIds": [
+        "NF_CATALOGUE"
+      ],
+      "verifiedAt": "2026-10-24",
+      "officiallyVerifiedFields": [
+        "name",
+        "weightGrams",
+        "packaging",
+        "catalogue_presence"
+      ],
+      "skuMatchLimit": "Название/вариант/масса; GTIN, артикул изготовителя и версия рецептуры не опубликованы. Наличие в каталоге не доказывает текущий складской остаток.",
+      "manufacturerVerifiedData": {
+        "ingredients": null,
+        "allergens": null,
+        "nutritionPer100g": null,
+        "preparation": null,
+        "storage": null
+      },
+      "manufacturerDataStatus": "not_found_in_current_public_text",
+      "verifiedRetailLinks": [],
+      "missing": [
+        "полный актуальный состав",
+        "полный перечень аллергенов и возможных следов",
+        "пищевая/энергетическая ценность на 100 г",
+        "инструкция приготовления именно этого SKU",
+        "температура и срок хранения",
+        "GTIN и версия этикетки"
+      ],
+      "retailerEvidence": {
+        "publishStatus": "not_found",
+        "limit": "В ограниченном поиске не найдена подтверждённая прямая действующая карточка с однозначным совпадением бренда, варианта и массы; агрегаторы и другие фасовки не приняты."
+      }
+    },
+    {
+      "id": "naggetsy-kurinye",
+      "name": "Наггетсы куриные",
+      "weightGrams": 400,
+      "packaging": "контейнер",
+      "officialSourceIds": [
+        "NF_CATALOGUE"
+      ],
+      "verifiedAt": "2026-10-24",
+      "officiallyVerifiedFields": [
+        "name",
+        "weightGrams",
+        "packaging",
+        "catalogue_presence"
+      ],
+      "skuMatchLimit": "Название/вариант/масса; GTIN, артикул изготовителя и версия рецептуры не опубликованы. Наличие в каталоге не доказывает текущий складской остаток.",
+      "manufacturerVerifiedData": {
+        "ingredients": null,
+        "allergens": null,
+        "nutritionPer100g": null,
+        "preparation": null,
+        "storage": null
+      },
+      "manufacturerDataStatus": "not_found_in_current_public_text",
+      "verifiedRetailLinks": [],
+      "missing": [
+        "полный актуальный состав",
+        "полный перечень аллергенов и возможных следов",
+        "пищевая/энергетическая ценность на 100 г",
+        "инструкция приготовления именно этого SKU",
+        "температура и срок хранения",
+        "GTIN и версия этикетки"
+      ],
+      "retailerEvidence": {
+        "sourceIds": [
+          "AV_NUGGETS",
+          "PEREK_NUGGETS"
+        ],
+        "publishStatus": "hold_conflict_and_access_limits",
+        "conflict": "Азбука: Б 15.59/Ж 1.8/У 13.7/133.4 ккал; индекс Перекрёстка: Б 15.7/Ж 1.8/У 13.6/130 ккал. Цифры нельзя усреднять или объявлять официальными. Общий срок 180 дней и -18°C у продавцов не подтверждает любой вариант/новый вес."
+      }
+    },
+    {
+      "id": "naggetsy-kurinye-s-syrom",
+      "name": "Наггетсы куриные с сыром",
+      "weightGrams": 400,
+      "packaging": "контейнер",
+      "officialSourceIds": [
+        "NF_CATALOGUE"
+      ],
+      "verifiedAt": "2026-10-24",
+      "officiallyVerifiedFields": [
+        "name",
+        "weightGrams",
+        "packaging",
+        "catalogue_presence"
+      ],
+      "skuMatchLimit": "Название/вариант/масса; GTIN, артикул изготовителя и версия рецептуры не опубликованы. Наличие в каталоге не доказывает текущий складской остаток.",
+      "manufacturerVerifiedData": {
+        "ingredients": null,
+        "allergens": null,
+        "nutritionPer100g": null,
+        "preparation": null,
+        "storage": null
+      },
+      "manufacturerDataStatus": "not_found_in_current_public_text",
+      "verifiedRetailLinks": [],
+      "missing": [
+        "полный актуальный состав",
+        "полный перечень аллергенов и возможных следов",
+        "пищевая/энергетическая ценность на 100 г",
+        "инструкция приготовления именно этого SKU",
+        "температура и срок хранения",
+        "GTIN и версия этикетки"
+      ],
+      "retailerEvidence": {
+        "publishStatus": "not_found",
+        "limit": "В ограниченном поиске не найдена подтверждённая прямая действующая карточка с однозначным совпадением бренда, варианта и массы; агрегаторы и другие фасовки не приняты."
+      }
+    },
+    {
+      "id": "naggetsy-dinozavry",
+      "name": "Наггетсы куриные «Динозавры»",
+      "weightGrams": 400,
+      "packaging": "контейнер",
+      "officialSourceIds": [
+        "NF_CATALOGUE"
+      ],
+      "verifiedAt": "2026-10-24",
+      "officiallyVerifiedFields": [
+        "name",
+        "weightGrams",
+        "packaging",
+        "catalogue_presence"
+      ],
+      "skuMatchLimit": "Название/вариант/масса; GTIN, артикул изготовителя и версия рецептуры не опубликованы. Наличие в каталоге не доказывает текущий складской остаток.",
+      "manufacturerVerifiedData": {
+        "ingredients": null,
+        "allergens": null,
+        "nutritionPer100g": null,
+        "preparation": null,
+        "storage": null
+      },
+      "manufacturerDataStatus": "not_found_in_current_public_text",
+      "verifiedRetailLinks": [
+        "https://magnit.ru/product/1000529525-novoferma_dinozavry_naggetsy_kurinye_zam_400_g_pl_kon"
+      ],
+      "missing": [
+        "полный актуальный состав",
+        "полный перечень аллергенов и возможных следов",
+        "пищевая/энергетическая ценность на 100 г",
+        "инструкция приготовления именно этого SKU",
+        "температура и срок хранения",
+        "GTIN и версия этикетки"
+      ],
+      "retailerEvidence": {
+        "sourceId": "MAGNIT_DINO",
+        "nutritionPer100g": {
+          "proteinG": 16.7,
+          "fatG": 10.9,
+          "carbohydrateG": 14.3,
+          "kcal": 222
+        },
+        "storage": {
+          "shelfLifeDays": 180,
+          "minTemperatureC": -18,
+          "maxTemperatureC": -18
+        },
+        "ingredientsSummary": "В карточке Магнита указаны куриное филе с кожей, сливки 10%, вода, пряности, соль, пшеничная панировка. Сводка продавца.",
+        "publishStatus": "hold_conflict",
+        "conflict": "KUPER_DINO: Б 15.4/Ж 10.3/У 12.1/202.7 ккал, срок 15 месяцев, рецепт с луком/клетчаткой/сухим молоком вместо сливок. Совпадение названия/400 г не определяет версию рецептуры."
+      }
+    },
+    {
+      "id": "naggetsy-ostrye",
+      "name": "Наггетсы куриные острые",
+      "weightGrams": 400,
+      "packaging": "контейнер",
+      "officialSourceIds": [
+        "NF_CATALOGUE"
+      ],
+      "verifiedAt": "2026-10-24",
+      "officiallyVerifiedFields": [
+        "name",
+        "weightGrams",
+        "packaging",
+        "catalogue_presence"
+      ],
+      "skuMatchLimit": "Название/вариант/масса; GTIN, артикул изготовителя и версия рецептуры не опубликованы. Наличие в каталоге не доказывает текущий складской остаток.",
+      "manufacturerVerifiedData": {
+        "ingredients": null,
+        "allergens": null,
+        "nutritionPer100g": null,
+        "preparation": null,
+        "storage": null
+      },
+      "manufacturerDataStatus": "not_found_in_current_public_text",
+      "verifiedRetailLinks": [
+        "https://magnit.ru/product/8000058569-novoferma_naggetsy_kurinye_ostrye_400g"
+      ],
+      "missing": [
+        "полный актуальный состав",
+        "полный перечень аллергенов и возможных следов",
+        "пищевая/энергетическая ценность на 100 г",
+        "инструкция приготовления именно этого SKU",
+        "температура и срок хранения",
+        "GTIN и версия этикетки"
+      ],
+      "retailerEvidence": {
+        "sourceId": "MAGNIT_SPICY",
+        "nutritionPer100g": {
+          "proteinG": 15.7,
+          "fatG": 1.8,
+          "carbohydrateG": 13.6,
+          "kcal": 130
+        },
+        "explicitAllergens": [
+          "глютен"
+        ],
+        "facilityUses": [
+          "молоко/лактоза"
+        ],
+        "storage": {
+          "shelfLifeDays": 180,
+          "minTemperatureC": -25,
+          "maxTemperatureC": -18
+        },
+        "ingredientsSummary": "Куриная грудка с кожей, вода, пряности с красным перцем, соль, пшеничная панировка, каррагинан. Сводка продавца, не полный состав.",
+        "preparation": null,
+        "publishStatus": "retailer_attribution_only_not_manufacturer_verified",
+        "limit": "Не переносить на другие наггетсы. Актуальная оборотная этикетка и версия рецептуры не проверены."
+      }
+    },
+    {
+      "id": "naggetsy-s-indeykoy-fitnes",
+      "name": "Наггетсы с индейкой «Фитнес»",
+      "weightGrams": 400,
+      "packaging": "контейнер",
+      "officialSourceIds": [
+        "NF_CATALOGUE"
+      ],
+      "verifiedAt": "2026-10-24",
+      "officiallyVerifiedFields": [
+        "name",
+        "weightGrams",
+        "packaging",
+        "catalogue_presence"
+      ],
+      "skuMatchLimit": "Название/вариант/масса; GTIN, артикул изготовителя и версия рецептуры не опубликованы. Наличие в каталоге не доказывает текущий складской остаток.",
+      "manufacturerVerifiedData": {
+        "ingredients": null,
+        "allergens": null,
+        "nutritionPer100g": null,
+        "preparation": null,
+        "storage": null
+      },
+      "manufacturerDataStatus": "not_found_in_current_public_text",
+      "verifiedRetailLinks": [],
+      "missing": [
+        "полный актуальный состав",
+        "полный перечень аллергенов и возможных следов",
+        "пищевая/энергетическая ценность на 100 г",
+        "инструкция приготовления именно этого SKU",
+        "температура и срок хранения",
+        "GTIN и версия этикетки"
+      ],
+      "retailerEvidence": {
+        "sourceId": "SIGMA_FITNESS_OLD",
+        "publishStatus": "hold_access_or_freshness",
+        "limit": "Сопоставимое название/масса найдены в индексе, однако прямое чтение карточки не подтвердило действующую доступную страницу. В retailers-verified.json не включено."
+      }
+    },
+    {
+      "id": "stripsy",
+      "name": "Стрипсы",
+      "weightGrams": 400,
+      "packaging": "контейнер",
+      "officialSourceIds": [
+        "NF_CATALOGUE"
+      ],
+      "verifiedAt": "2026-10-24",
+      "officiallyVerifiedFields": [
+        "name",
+        "weightGrams",
+        "packaging",
+        "catalogue_presence"
+      ],
+      "skuMatchLimit": "Название/вариант/масса; GTIN, артикул изготовителя и версия рецептуры не опубликованы. Наличие в каталоге не доказывает текущий складской остаток.",
+      "manufacturerVerifiedData": {
+        "ingredients": null,
+        "allergens": null,
+        "nutritionPer100g": null,
+        "preparation": null,
+        "storage": null
+      },
+      "manufacturerDataStatus": "not_found_in_current_public_text",
+      "verifiedRetailLinks": [],
+      "missing": [
+        "полный актуальный состав",
+        "полный перечень аллергенов и возможных следов",
+        "пищевая/энергетическая ценность на 100 г",
+        "инструкция приготовления именно этого SKU",
+        "температура и срок хранения",
+        "GTIN и версия этикетки"
+      ],
+      "retailerEvidence": {
+        "sourceId": "PEREK_STRIPS",
+        "publishStatus": "hold_access_or_freshness",
+        "limit": "Сопоставимое название/масса найдены в индексе, однако прямое чтение карточки не подтвердило действующую доступную страницу. В retailers-verified.json не включено."
+      }
+    },
+    {
+      "id": "kotlety-po-domashnemu",
+      "name": "Котлеты по-домашнему",
+      "weightGrams": 480,
+      "packaging": "контейнер",
+      "officialSourceIds": [
+        "NF_CATALOGUE"
+      ],
+      "verifiedAt": "2026-10-24",
+      "officiallyVerifiedFields": [
+        "name",
+        "weightGrams",
+        "packaging",
+        "catalogue_presence"
+      ],
+      "skuMatchLimit": "Название/вариант/масса; GTIN, артикул изготовителя и версия рецептуры не опубликованы. Наличие в каталоге не доказывает текущий складской остаток.",
+      "manufacturerVerifiedData": {
+        "ingredients": null,
+        "allergens": null,
+        "nutritionPer100g": null,
+        "preparation": null,
+        "storage": null
+      },
+      "manufacturerDataStatus": "not_found_in_current_public_text",
+      "verifiedRetailLinks": [
+        "https://www.slimtasty.ru/katalog/tovar6152.html"
+      ],
+      "missing": [
+        "полный актуальный состав",
+        "полный перечень аллергенов и возможных следов",
+        "пищевая/энергетическая ценность на 100 г",
+        "инструкция приготовления именно этого SKU",
+        "температура и срок хранения",
+        "GTIN и версия этикетки"
+      ],
+      "retailerEvidence": {
+        "sourceId": "SLIM_HOME",
+        "nutritionPer100g": {
+          "proteinG": 10.1,
+          "fatG": 17.4,
+          "carbohydrateG": 8.6,
+          "kcal": 231
+        },
+        "ingredientsSummary": "Куриное филе грудки; вода; свежий лук; пшеничная панировка; пшеничная клетчатка; обезжиренное сухое молоко; пряности; соль. Сводка продавца, не полная этикетка.",
+        "explicitAllergens": [
+          "глютен"
+        ],
+        "allergenLimit": "В составе также указано сухое молоко. Отдельная фраза продавца про глютен не является полным перечнем аллергенов. Следы иных аллергенов не подтверждены.",
+        "preparation": null,
+        "storage": null,
+        "publishStatus": "retailer_attribution_only_not_manufacturer_verified",
+        "conflict": "Другой сопоставимый актуальный источник по 480 г с отличающимися данными не найден в ограниченном поиске; отсутствие найденного конфликта не подтверждает актуальность рецептуры.",
+        "uiLabel": "По данным продавца «Худеть ВКУСНО», проверено 24.10.2026. Сверьте сведения с этикеткой вашей упаковки."
+      }
+    },
+    {
+      "id": "kotlety-pikantnye",
+      "name": "Котлеты пикантные",
+      "weightGrams": 480,
+      "packaging": "контейнер",
+      "officialSourceIds": [
+        "NF_CATALOGUE"
+      ],
+      "verifiedAt": "2026-10-24",
+      "officiallyVerifiedFields": [
+        "name",
+        "weightGrams",
+        "packaging",
+        "catalogue_presence"
+      ],
+      "skuMatchLimit": "Название/вариант/масса; GTIN, артикул изготовителя и версия рецептуры не опубликованы. Наличие в каталоге не доказывает текущий складской остаток.",
+      "manufacturerVerifiedData": {
+        "ingredients": null,
+        "allergens": null,
+        "nutritionPer100g": null,
+        "preparation": null,
+        "storage": null
+      },
+      "manufacturerDataStatus": "not_found_in_current_public_text",
+      "verifiedRetailLinks": [],
+      "missing": [
+        "полный актуальный состав",
+        "полный перечень аллергенов и возможных следов",
+        "пищевая/энергетическая ценность на 100 г",
+        "инструкция приготовления именно этого SKU",
+        "температура и срок хранения",
+        "GTIN и версия этикетки"
+      ],
+      "retailerEvidence": {
+        "publishStatus": "not_found",
+        "limit": "В ограниченном поиске не найдена подтверждённая прямая действующая карточка с однозначным совпадением бренда, варианта и массы; агрегаторы и другие фасовки не приняты."
+      }
+    },
+    {
+      "id": "kotlety-po-italyanski",
+      "name": "Котлеты по-итальянски",
+      "weightGrams": 480,
+      "packaging": "контейнер",
+      "officialSourceIds": [
+        "NF_CATALOGUE"
+      ],
+      "verifiedAt": "2026-10-24",
+      "officiallyVerifiedFields": [
+        "name",
+        "weightGrams",
+        "packaging",
+        "catalogue_presence"
+      ],
+      "skuMatchLimit": "Название/вариант/масса; GTIN, артикул изготовителя и версия рецептуры не опубликованы. Наличие в каталоге не доказывает текущий складской остаток.",
+      "manufacturerVerifiedData": {
+        "ingredients": null,
+        "allergens": null,
+        "nutritionPer100g": null,
+        "preparation": null,
+        "storage": null
+      },
+      "manufacturerDataStatus": "not_found_in_current_public_text",
+      "verifiedRetailLinks": [],
+      "missing": [
+        "полный актуальный состав",
+        "полный перечень аллергенов и возможных следов",
+        "пищевая/энергетическая ценность на 100 г",
+        "инструкция приготовления именно этого SKU",
+        "температура и срок хранения",
+        "GTIN и версия этикетки"
+      ],
+      "retailerEvidence": {
+        "sourceId": "PEREK_ITALIAN",
+        "publishStatus": "hold_access_or_freshness",
+        "limit": "Сопоставимое название/масса найдены в индексе, однако прямое чтение карточки не подтвердило действующую доступную страницу. В retailers-verified.json не включено."
+      }
+    },
+    {
+      "id": "frikadelki-klassicheskie",
+      "name": "Фрикадельки «Классические»",
+      "weightGrams": 500,
+      "packaging": "контейнер",
+      "officialSourceIds": [
+        "NF_CATALOGUE"
+      ],
+      "verifiedAt": "2026-10-24",
+      "officiallyVerifiedFields": [
+        "name",
+        "weightGrams",
+        "packaging",
+        "catalogue_presence"
+      ],
+      "skuMatchLimit": "Название/вариант/масса; GTIN, артикул изготовителя и версия рецептуры не опубликованы. Наличие в каталоге не доказывает текущий складской остаток.",
+      "manufacturerVerifiedData": {
+        "ingredients": null,
+        "allergens": null,
+        "nutritionPer100g": null,
+        "preparation": null,
+        "storage": null
+      },
+      "manufacturerDataStatus": "not_found_in_current_public_text",
+      "verifiedRetailLinks": [
+        "https://www.slimtasty.ru/katalog/tovar6150.html"
+      ],
+      "missing": [
+        "полный актуальный состав",
+        "полный перечень аллергенов и возможных следов",
+        "пищевая/энергетическая ценность на 100 г",
+        "инструкция приготовления именно этого SKU",
+        "температура и срок хранения",
+        "GTIN и версия этикетки"
+      ],
+      "retailerEvidence": {
+        "sourceId": "SLIM_MEATBALLS",
+        "nutritionPer100g": {
+          "proteinG": 12.2,
+          "fatG": 12.8,
+          "carbohydrateG": 9.9,
+          "kcal": 203.6
+        },
+        "ingredientsSummary": "Грудка цыплёнка, вода, пшеничная клетчатка, панировка, обезжиренное сухое молоко, специи, соль. Сводка продавца.",
+        "publishStatus": "hold_recipe_version_unknown",
+        "conflict": "Индексированная карточка MAGNIT_MEATBALLS_OLD даёт те же БЖУ и округлённые 204 ккал, но иной порядок состава, грудку с кожей и дрожжи в панировке. Прямой URL Магнита 404. Готовку из его маркетингового текста не переносить: описание говорит о сыре, которого нет в составе."
+      }
+    }
+  ],
+  "contacts": {
+    "sourceId": "NF_CONTACT",
+    "orderDepartment": {
+      "phone": "+7 (931) 213-55-50",
+      "tel": "+79312135550",
+      "email": "zakaz@novoferma.ru"
+    },
+    "office": {
+      "phone": "+7 (812) 915-54-54",
+      "tel": "+78129155454",
+      "email": "info@novoferma.ru"
+    },
+    "publishedAddress": "198323, Санкт-Петербург, Горелово, ул. Заречная, д.2",
+    "limit": "Подтверждено содержание публичной страницы. Телефоны/почта не тестировались звонком или отправкой сообщения."
+  },
+  "manufacturerClaims": {
+    "sourceId": "NF_HOME",
+    "transparentPackaging": {
+      "status": "company_statement",
+      "summary": "Компания объясняет прозрачную упаковку возможностью видеть продукт."
+    },
+    "equipment": {
+      "status": "company_statement_without_supporting_specs",
+      "summary": "Заявлено австрийское и итальянское оборудование; марки, модели и технические документы не опубликованы на проверенных страницах."
+    },
+    "genericPreparation": {
+      "status": "not_usable_as_sku_instruction",
+      "summary": "Главная предлагает приготовление на сковороде без предварительного размораживания/масла. Нет привязки к SKU, времени, температуре, массе порции и критерию готовности. ВSKU-инструкции не переносить."
+    },
+    "noAdditives": {
+      "status": "hold_conflicting_public_claim",
+      "summary": "Общее обещание отсутствия добавок нельзя распространять на 14SKU: у продавца острых наггетсов указана добавка каррагинан."
+    }
+  },
+  "productionPhotos": {
+    "status": "not_documentarily_verified",
+    "checkedPages": [
+      "NF_HOME",
+      "NF_CATALOGUE",
+      "NF_CONTACT"
+    ],
+    "foundBackgroundUrls": [
+      "https://novoferma.ru/images/bg02.jpg",
+      "https://novoferma.ru/images/bg03.jpg",
+      "https://novoferma.ru/images/bg04.jpg"
+    ],
+    "limit": "Нет подписей, даты, авторства/привязки к цеху. Само нахождение файла на домене не доказывает документальность производства. Изображения не просмотрены из-за ограничений инструмента.",
+    "approvedUse": "Использовать существующие оригинальные packshot только как изображения товара; не выдавать за фото производства.",
+    "manufacturerPackshotUrls": [
+      "https://novoferma.ru/images/catalog/040-2.jpg",
+      "https://novoferma.ru/images/catalog/041-2.jpg",
+      "https://novoferma.ru/images/catalog/208-1.jpg",
+      "https://novoferma.ru/images/catalog/165-2.jpg",
+      "https://novoferma.ru/images/catalog/027-2.jpg",
+      "https://novoferma.ru/images/catalog/031-2.jpg",
+      "https://novoferma.ru/images/catalog/028-1.jpg",
+      "https://novoferma.ru/images/catalog/029-2.jpg",
+      "https://novoferma.ru/images/catalog/033-2.jpg",
+      "https://novoferma.ru/images/catalog/032-2.jpg",
+      "https://novoferma.ru/images/catalog/163-2.jpg",
+      "https://novoferma.ru/images/catalog/162-2.jpg",
+      "https://novoferma.ru/images/catalog/164-2.jpg",
+      "https://novoferma.ru/images/catalog/030-2.jpg"
+    ]
+  },
+  "b2bSpecs": {
+    "status": "not_found_in_checked_manufacturer_pages",
+    "missing": [
+      "GTIN",
+      "короб и количество единиц",
+      "масса/размеры транспортной упаковки",
+      "паллетизация",
+      "MOQ",
+      "срок отгрузки",
+      "география поставки",
+      "утверждённая спецификация HoReCa/СТМ",
+      "технические условия/декларация с проверенным статусом"
+    ],
+    "safeAction": "Запросить спецификацию у отдела приема заказов; опубликованные условия не изобретать.",
+    "retailerOrDistributorLimit": "У МЕГАФУД индексируются некоторые фасовки и /6 шт/, но это информация дистрибьютора, не подтверждённая спецификация производителя. Общее описание зеркала реестра деклараций не подтверждает коммерческие условия."
+  },
+  "newPackagingSizes": {
+    "sourceId": "PEREK_BRAND",
+    "status": "search_index_signal_not_catalogue_update_authorization",
+    "observedWeightsGrams": {
+      "Котлеты куриные": 435,
+      "Биточки с овощами": 375,
+      "Ёжики с рисом": 380,
+      "Котлеты по-домашнему": 400,
+      "Котлеты по-итальянски": 400,
+      "Наггетсы куриные": 300,
+      "Стрипсы": 300,
+      "Фрикадельки Классические": 400
+    },
+    "action": "Не менять 14 официальныхвесов автоматически. Нужны актуальный ассортимент, GTIN и соответствие старых/новых фасовок."
+  },
+  "novelties": [
+    {
+      "name": "Фибрики",
+      "approvedStatus": "unknown",
+      "manufacturerPublicSource": null
+    },
+    {
+      "name": "Люля мини",
+      "approvedStatus": "unknown",
+      "manufacturerPublicSource": null
+    }
+  ],
+  "excludedEvidence": [
+    {
+      "sourceId": "VKUSVILL_1KG",
+      "reason": "Другой SKU1 кг/СТМ. Новоферма присутствовала в поисковой выдержке, но не в свежем открытии. Не подтверждает текущего сотрудничества."
+    },
+    {
+      "sourceIds": [
+        "MAGNIT_CHICKEN_OLD",
+        "MAGNIT_MEATBALLS_OLD",
+        "SIGMA_FITNESS_OLD"
+      ],
+      "reason": "Прямое открытие 404; индексированная карточка не годится как действующая ссылка покупки."
+    },
+    {
+      "sourceIds": [
+        "PEREK_BRAND",
+        "PEREK_NUGGETS",
+        "PEREK_STRIPS",
+        "PEREK_ITALIAN",
+        "PEREK_BITOCHKI",
+        "AV_NUGGETS"
+      ],
+      "reason": "Прямой доступ ограничен 403/450 или web-empty; карточки остаются кандидатами, неliveverified."
+    }
+  ],
+  "sources": {
+    "NF_HOME": {
+      "url": "https://novoferma.ru/",
+      "type": "manufacturer",
+      "access": "direct_http_200 + web text",
+      "verifiedAt": "2026-10-24"
+    },
+    "NF_CATALOGUE": {
+      "url": "https://novoferma.ru/catalogue",
+      "type": "manufacturer",
+      "access": "direct_http_200 + web text",
+      "verifiedAt": "2026-10-24"
+    },
+    "NF_CONTACT": {
+      "url": "https://novoferma.ru/contact",
+      "type": "manufacturer",
+      "access": "direct_http_200; web tool intermittently timed out",
+      "verifiedAt": "2026-10-24"
+    },
+    "MAGNIT_SPICY": {
+      "url": "https://magnit.ru/product/8000058569-novoferma_naggetsy_kurinye_ostrye_400g",
+      "type": "retailer_primary_listing_secondary_product_data",
+      "access": "direct_http_200 + web text",
+      "verifiedAt": "2026-10-24"
+    },
+    "MAGNIT_DINO": {
+      "url": "https://magnit.ru/product/1000529525-novoferma_dinozavry_naggetsy_kurinye_zam_400_g_pl_kon",
+      "type": "retailer_primary_listing_secondary_product_data",
+      "access": "direct_http_200 + web text",
+      "verifiedAt": "2026-10-24"
+    },
+    "SLIM_CHICKEN": {
+      "url": "https://www.slimtasty.ru/katalog/tovar6151.html",
+      "type": "retailer_primary_listing_secondary_product_data",
+      "access": "direct_http_200 + web text",
+      "verifiedAt": "2026-10-24"
+    },
+    "SLIM_HOME": {
+      "url": "https://www.slimtasty.ru/katalog/tovar6152.html",
+      "type": "retailer_primary_listing_secondary_product_data",
+      "access": "direct_http_200 + web text",
+      "verifiedAt": "2026-10-24"
+    },
+    "SLIM_MEATBALLS": {
+      "url": "https://www.slimtasty.ru/katalog/tovar6150.html",
+      "type": "retailer_primary_listing_secondary_product_data",
+      "access": "direct_http_200 + web text",
+      "verifiedAt": "2026-10-24"
+    },
+    "SLIM_HEDGEHOGS": {
+      "url": "https://www.slimtasty.ru/katalog/tovar6274.html",
+      "type": "retailer_candidate",
+      "access": "direct_http_200 + web text; product title omits brand; package not visually authenticated",
+      "verifiedAt": "2026-10-24"
+    },
+    "PEREK_BRAND": {
+      "url": "https://www.perekrestok.ru/cat/b/4623/novoferma",
+      "type": "retailer_search_index",
+      "access": "fresh search result; direct HTTP403; web open empty",
+      "verifiedAt": "2026-10-24"
+    },
+    "PEREK_NUGGETS": {
+      "url": "https://www.perekrestok.ru/cat/417/p/naggetsy-novoferma-kurinye-beskostnye-zamorozennye-400g-4341884",
+      "type": "retailer_search_index",
+      "access": "fresh search result; web open HTTP403",
+      "verifiedAt": "2026-10-24"
+    },
+    "PEREK_STRIPS": {
+      "url": "https://www.perekrestok.ru/cat/417/p/stripsy-novoferma-iz-masa-pticy-v-panirovke-beskostnye-zamorozennye-400g-4374603",
+      "type": "retailer_search_index",
+      "access": "fresh search result; direct HTTP403; web open empty",
+      "verifiedAt": "2026-10-24"
+    },
+    "PEREK_ITALIAN": {
+      "url": "https://www.perekrestok.ru/cat/60/p/kotlety-novoferma-po-italanski-iz-masa-pticy-zamorozennye-480g-4374792",
+      "type": "retailer_search_index",
+      "access": "fresh search result; web open empty",
+      "verifiedAt": "2026-10-24"
+    },
+    "PEREK_BITOCHKI": {
+      "url": "https://www.perekrestok.ru/cat/60/p/bitocki-novoferma-kurinye-s-ovosami-450g-4374881",
+      "type": "retailer_search_index",
+      "access": "listing/reviews visible in search; web open403",
+      "verifiedAt": "2026-10-24"
+    },
+    "AV_NUGGETS": {
+      "url": "https://av.ru/i/549795",
+      "type": "retailer_primary_listing_secondary_product_data",
+      "access": "web open readable; direct HTTP450",
+      "verifiedAt": "2026-10-24"
+    },
+    "KUPER_DINO": {
+      "url": "https://kuper.ru/products/34811317-naggetsy-kurinye-novoferma-dinozavry-zamorozhennye-400-g-e27f316",
+      "type": "delivery_platform_search_index",
+      "access": "fresh search result; web open403",
+      "verifiedAt": "2026-10-24"
+    },
+    "MAGNIT_CHICKEN_OLD": {
+      "url": "https://magnit.ru/product/1000461604-novoferma_kotlety_kurinye_v_panirovke_0_522g",
+      "type": "retailer_search_index",
+      "access": "search result readable; web open404",
+      "verifiedAt": "2026-10-24"
+    },
+    "MAGNIT_MEATBALLS_OLD": {
+      "url": "https://magnit.ru/product/1000414004-novoferma_myaso_ptitsy_frikadel_klassich_p_f_ts_b_500g",
+      "type": "retailer_search_index",
+      "access": "web cached text readable; direct HTTP404",
+      "verifiedAt": "2026-10-24"
+    },
+    "SIGMA_FITNESS_OLD": {
+      "url": "https://sigmadostavka.ru/produkty_pitaniya/polufabrikaty/kotletynaggetsyblinchiki/naggetsy-novoferma-fitnes-iz-myasa-ptitsy-s-indejkoj-400g.html",
+      "type": "retailer_search_index",
+      "access": "web cached text readable; direct HTTP404",
+      "verifiedAt": "2026-10-24"
+    },
+    "VKUSVILL_1KG": {
+      "url": "https://vkusvill.ru/goods/naggetsy-iz-tsyplenka-broylera-klassicheskie-61310/",
+      "type": "retailer_different_sku",
+      "access": "web open readable; fresh open omits Novoferma although search snippet includes it",
+      "verifiedAt": "2026-10-24"
+    },
+    "MFOOD": {
+      "url": "https://www.mfood.ru/zamorozka/kotlety/?PAGEN_1=1&type_show=list",
+      "type": "distributor_search_index",
+      "access": "fresh search result only; manufacturer specification not established",
+      "verifiedAt": "2026-10-24"
+    }
+  }
+}

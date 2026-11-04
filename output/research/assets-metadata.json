@@ -1,0 +1,359 @@
+[
+  {
+    "name": "Untitled_Artwork 9.png",
+    "size": [
+      1339,
+      1300
+    ],
+    "mode": "RGBA",
+    "bytes": 2118387,
+    "sha256": "d34af5e39cd5319757827d079161994b34d02b9e05ddf3793899c5d638850be2",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 49.8,
+    "alpha_bbox": [
+      28,
+      38,
+      1338,
+      1300
+    ]
+  },
+  {
+    "name": "Диноцыпы.png",
+    "size": [
+      2836,
+      1300
+    ],
+    "mode": "RGBA",
+    "bytes": 3291741,
+    "sha256": "b870e39414164c8e8de49da7fad23446dd9482462c67a10dab4e96808f8f2a5d",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 52.4,
+    "alpha_bbox": [
+      230,
+      23,
+      2836,
+      1300
+    ]
+  },
+  {
+    "name": "Индюк.png",
+    "size": [
+      2581,
+      1300
+    ],
+    "mode": "RGBA",
+    "bytes": 2519439,
+    "sha256": "0f7be2dfff1a6af55d7348a4ce0d04a63988bc18cba705d57345db5ec35482a7",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 54.9,
+    "alpha_bbox": [
+      116,
+      168,
+      2497,
+      1300
+    ]
+  },
+  {
+    "name": "Острые.png",
+    "size": [
+      2581,
+      1300
+    ],
+    "mode": "RGBA",
+    "bytes": 2597636,
+    "sha256": "ec30dc56f110ef76bd194261e6cc41cdd64e79d0ddcc72ad697d87bed1a5cf0a",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 60.8,
+    "alpha_bbox": [
+      129,
+      89,
+      2567,
+      1300
+    ]
+  },
+  {
+    "name": "Ресурс 11@3x (1).png",
+    "size": [
+      1973,
+      1300
+    ],
+    "mode": "RGBA",
+    "bytes": 914797,
+    "sha256": "de287a40fbe1088f606b715b1a4638be3aaa673c0ea38463a0e77aae769c97c4",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 87.0,
+    "alpha_bbox": [
+      815,
+      607,
+      1973,
+      1181
+    ]
+  },
+  {
+    "name": "Ресурс 2@3x.png",
+    "size": [
+      1315,
+      1300
+    ],
+    "mode": "RGBA",
+    "bytes": 2022134,
+    "sha256": "01b776f272f0a66ad4ddd9ea9c11a73c5d68c9f7a82620acf093cafa91f41575",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 39.9,
+    "alpha_bbox": [
+      65,
+      0,
+      1315,
+      1300
+    ]
+  },
+  {
+    "name": "Ресурс 3@3x.png",
+    "size": [
+      1765,
+      1300
+    ],
+    "mode": "RGBA",
+    "bytes": 2283250,
+    "sha256": "91509b789291d965f156238b97fd5974750ea46ca29d1acfc4172bc89d436a2d",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 53.7,
+    "alpha_bbox": [
+      322,
+      169,
+      1765,
+      1300
+    ]
+  },
+  {
+    "name": "Ресурс 4@3x.png",
+    "size": [
+      1340,
+      1300
+    ],
+    "mode": "RGBA",
+    "bytes": 1715629,
+    "sha256": "d02d865bfc3fa3acead63a18b06b222533ca5704018646dab588347fb05b145b",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 55.5,
+    "alpha_bbox": [
+      138,
+      108,
+      1339,
+      1300
+    ]
+  },
+  {
+    "name": "Ресурс 5@3x.png",
+    "size": [
+      1313,
+      1300
+    ],
+    "mode": "RGBA",
+    "bytes": 1302114,
+    "sha256": "d06fbda9b112cd13cff31889657d794a2773a27ec80112845b1fef1dd5602b8d",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 70.7,
+    "alpha_bbox": [
+      257,
+      321,
+      1313,
+      1237
+    ]
+  },
+  {
+    "name": "Фрикадельки классические.png",
+    "size": [
+      1025,
+      994
+    ],
+    "mode": "RGBA",
+    "bytes": 648495,
+    "sha256": "0846645d981c5d6898539a1bca3972c7df423111b50e63a60dff25b1df2c3e35",
+    "alpha_minmax": [
+      255,
+      255
+    ],
+    "transparent_percent": 0.0,
+    "alpha_bbox": [
+      0,
+      0,
+      1025,
+      994
+    ]
+  },
+  {
+    "name": "дом_мб.psd@3x.png",
+    "size": [
+      2027,
+      1300
+    ],
+    "mode": "RGBA",
+    "bytes": 2584657,
+    "sha256": "988867292ba98f300cc671332c5709cd7d8fa34d27c2015084c89c762c2e660a",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 56.2,
+    "alpha_bbox": [
+      189,
+      173,
+      1963,
+      1299
+    ]
+  },
+  {
+    "name": "наггетсы@3x (1).png",
+    "size": [
+      1686,
+      1300
+    ],
+    "mode": "RGBA",
+    "bytes": 1790698,
+    "sha256": "b93503ca11230555541f6f20fee2e1bfd0e4cc39bb11d37fdcc09a5f1ecd4138",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 62.4,
+    "alpha_bbox": [
+      23,
+      322,
+      1686,
+      1293
+    ]
+  },
+  {
+    "name": "наггетсы@3x.png",
+    "size": [
+      1686,
+      1300
+    ],
+    "mode": "RGBA",
+    "bytes": 1790698,
+    "sha256": "b93503ca11230555541f6f20fee2e1bfd0e4cc39bb11d37fdcc09a5f1ecd4138",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 62.4,
+    "alpha_bbox": [
+      23,
+      322,
+      1686,
+      1293
+    ]
+  },
+  {
+    "name": "файл.png",
+    "size": [
+      1363,
+      1300
+    ],
+    "mode": "RGBA",
+    "bytes": 1793472,
+    "sha256": "3ab77d491a83d30c78ebd10a3516f0dd386cf0ce1e593b64f299c29ad0310e5f",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 54.7,
+    "alpha_bbox": [
+      0,
+      58,
+      1243,
+      1219
+    ]
+  },
+  {
+    "name": "швед_мб.psd@3x (1).png",
+    "size": [
+      2051,
+      1300
+    ],
+    "mode": "RGBA",
+    "bytes": 2215342,
+    "sha256": "5937e019e84892a319d763077b1c69b02a64d8f684d38fe4bcef7af85fe49892",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 64.1,
+    "alpha_bbox": [
+      14,
+      30,
+      1975,
+      1265
+    ]
+  },
+  {
+    "name": "швед_мб.psd@3x (2).png",
+    "size": [
+      698,
+      652
+    ],
+    "mode": "RGBA",
+    "bytes": 520508,
+    "sha256": "0f5801cce48249b4acd58c98c8d0e6292c8164266d4c72208a3ecda8597f7f9b",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 52.9,
+    "alpha_bbox": [
+      10,
+      80,
+      698,
+      618
+    ]
+  },
+  {
+    "name": "швед_мб.psd@3x.png",
+    "size": [
+      2051,
+      1300
+    ],
+    "mode": "RGBA",
+    "bytes": 2215342,
+    "sha256": "5937e019e84892a319d763077b1c69b02a64d8f684d38fe4bcef7af85fe49892",
+    "alpha_minmax": [
+      0,
+      255
+    ],
+    "transparent_percent": 64.1,
+    "alpha_bbox": [
+      14,
+      30,
+      1975,
+      1265
+    ]
+  }
+]

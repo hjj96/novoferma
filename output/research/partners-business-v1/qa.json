@@ -1,0 +1,181 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "width": 320,
+      "overflow": false,
+      "broken": [],
+      "badText": [],
+      "sections": [
+        "partners-business",
+        "partners-private-label",
+        "partners-contact"
+      ],
+      "noOldSections": true,
+      "stmHeading": "Ваш бренд.Наш продукт.",
+      "stmHeight": 401,
+      "contactTop": 1026,
+      "formTop": 1445,
+      "pageHeight": 2524,
+      "heroContact": true,
+      "stmContact": true,
+      "required": true,
+      "copy": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "badText": [],
+      "sections": [
+        "partners-business",
+        "partners-private-label",
+        "partners-contact"
+      ],
+      "noOldSections": true,
+      "stmHeading": "Ваш бренд.Наш продукт.",
+      "stmHeight": 401,
+      "contactTop": 996,
+      "formTop": 1393,
+      "pageHeight": 2381,
+      "heroContact": true,
+      "stmContact": true,
+      "required": true,
+      "copy": true,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "badText": [],
+      "sections": [
+        "partners-business",
+        "partners-private-label",
+        "partners-contact"
+      ],
+      "noOldSections": true,
+      "stmHeading": "Ваш бренд.Наш продукт.",
+      "stmHeight": 308,
+      "contactTop": 811,
+      "formTop": 865,
+      "pageHeight": 1690,
+      "heroContact": true,
+      "stmContact": true,
+      "required": true,
+      "copy": true,
+      "errors": []
+    },
+    {
+      "width": 899,
+      "overflow": false,
+      "broken": [],
+      "badText": [],
+      "sections": [
+        "partners-business",
+        "partners-private-label",
+        "partners-contact"
+      ],
+      "noOldSections": true,
+      "stmHeading": "Ваш бренд.Наш продукт.",
+      "stmHeight": 285,
+      "contactTop": 802,
+      "formTop": 856,
+      "pageHeight": 1661,
+      "heroContact": true,
+      "stmContact": true,
+      "required": true,
+      "copy": true,
+      "errors": []
+    },
+    {
+      "width": 900,
+      "overflow": false,
+      "broken": [],
+      "badText": [],
+      "sections": [
+        "partners-business",
+        "partners-private-label",
+        "partners-contact"
+      ],
+      "noOldSections": true,
+      "stmHeading": "Ваш бренд.Наш продукт.",
+      "stmHeight": 285,
+      "contactTop": 802,
+      "formTop": 856,
+      "pageHeight": 1662,
+      "heroContact": true,
+      "stmContact": true,
+      "required": true,
+      "copy": true,
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "broken": [],
+      "badText": [],
+      "sections": [
+        "partners-business",
+        "partners-private-label",
+        "partners-contact"
+      ],
+      "noOldSections": true,
+      "stmHeading": "Ваш бренд.Наш продукт.",
+      "stmHeight": 285,
+      "contactTop": 815,
+      "formTop": 869,
+      "pageHeight": 1674,
+      "heroContact": true,
+      "stmContact": true,
+      "required": true,
+      "copy": true,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "badText": [],
+      "sections": [
+        "partners-business",
+        "partners-private-label",
+        "partners-contact"
+      ],
+      "noOldSections": true,
+      "stmHeading": "Ваш бренд.Наш продукт.",
+      "stmHeight": 327,
+      "contactTop": 950,
+      "formTop": 1020,
+      "pageHeight": 1804,
+      "heroContact": true,
+      "stmContact": true,
+      "required": true,
+      "copy": true,
+      "errors": []
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "broken": [],
+      "badText": [],
+      "sections": [
+        "partners-business",
+        "partners-private-label",
+        "partners-contact"
+      ],
+      "noOldSections": true,
+      "stmHeading": "Ваш бренд.Наш продукт.",
+      "stmHeight": 327,
+      "contactTop": 952,
+      "formTop": 1022,
+      "pageHeight": 1805,
+      "heroContact": true,
+      "stmContact": true,
+      "required": true,
+      "copy": true,
+      "errors": []
+    }
+  ]
+}

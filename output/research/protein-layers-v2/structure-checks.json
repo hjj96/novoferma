@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "h1Count": 1,
+  "uniqueIds": true,
+  "validAriaTargets": true,
+  "allImagesHaveAlt": true,
+  "oldWholePostersInRuntime": false,
+  "heroPanels": 4,
+  "proteinLiveHeading": true,
+  "proteinSeparateIllustrations": 2
+}

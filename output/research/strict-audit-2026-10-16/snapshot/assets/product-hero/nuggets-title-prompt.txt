@@ -1,0 +1,6 @@
+Use case: background-extraction
+Input image: edit target is the supplied complete Novoferma nuggets poster.
+Primary request: Extract ONLY the exact giant dark-brown НАГГЕТСЫ title lettering from the reference onto a truly transparent background. Keep the precise original thick, playful, compressed poster letter shapes, original dark chocolate-brown color, subtle dimensional texture, slight uneven sculpted baseline, proportions and spacing. Do not typeset a new font, do not redesign. The exact spelling is НАГГЕТСЫ: Н А Г Г Е Т С Ы, all eight Cyrillic letters fully visible in one horizontal line.
+Remove absolutely every other image element: food, ketchup, crumbs, parsley, cartoon chicken, strokes/hearts, logo, navigation, buttons, subheading and descriptions, cream background, orange hill and shadows.
+Composition: a wide tightly cropped transparent rectangular asset containing only the original word, with roughly 4% clear margin around every side. Keep the entire title and original edges, no clipped letters.
+Constraints: real alpha transparency, no background of any color, no new elements, no other text, no watermark. Preserve original title shapes exactly.

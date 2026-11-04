@@ -1,0 +1,67 @@
+[
+  {
+    "broken": [],
+    "cta": {
+      "h": 50,
+      "w": 240,
+      "x": 20,
+      "y": 336
+    },
+    "gap": 26,
+    "id": "scene-protein",
+    "overflow": false,
+    "viewport": 390
+  },
+  {
+    "broken": [],
+    "cta": {
+      "h": 50,
+      "w": 240,
+      "x": 20,
+      "y": 336
+    },
+    "gap": 26,
+    "id": "scene-meatballs",
+    "overflow": false,
+    "viewport": 390
+  },
+  {
+    "broken": [],
+    "cta": {
+      "h": 50,
+      "w": 240,
+      "x": 20,
+      "y": 336
+    },
+    "gap": 26,
+    "id": "scene-nuggets",
+    "overflow": false,
+    "viewport": 390
+  },
+  {
+    "broken": [],
+    "cta": {
+      "h": 50,
+      "w": 240,
+      "x": 20,
+      "y": 336
+    },
+    "gap": 26,
+    "id": "scene-fibriki",
+    "overflow": false,
+    "viewport": 390
+  },
+  {
+    "broken": [],
+    "cta": {
+      "h": 50,
+      "w": 240,
+      "x": 20,
+      "y": 336
+    },
+    "gap": 26,
+    "id": "scene-lulia-mini",
+    "overflow": false,
+    "viewport": 390
+  }
+]

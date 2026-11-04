@@ -1,0 +1,953 @@
+{
+  "elements": [
+    {
+      "background": "rgb(255, 249, 237)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 628,
+      "lineHeight": "normal",
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": ".product-showcase",
+      "size": "16px",
+      "text": "Новоферма — продукты из курицы и индейкиФрикаделькиЕсть вкусныйповод собраться.Классические куриные фрикадельки. Сочно. Натурально. Для своих.Перейти в каталогНаггетсыКлассические куриныеХрустящие куриные наггетсы. Нежно внутри. Любимые с детства.Перейти в каталогНовинкаФибрикиФрикадельки из курицыБелок + клетчаткаСочные куриные фрикадельки с пищевыми волокнами.Перейти в каталогНовинкаЛюля миниКуриные колбаскис зеленью и овощамиНежные мини-люля из курицы. С зеленью и овощами.Перейти в каталогНаггетсы. 2 из 4",
+      "tracking": "normal",
+      "transform": "none",
+      "weight": "400",
+      "width": 320,
+      "x": 0,
+      "y": 72
+    },
+    {
+      "missing": true,
+      "selector": ".showcase-actions a"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 780.609375,
+      "lineHeight": "normal",
+      "margin": [
+        "0px",
+        "16px",
+        "0px",
+        "16px"
+      ],
+      "padding": [
+        "48px",
+        "0px",
+        "48px",
+        "0px"
+      ],
+      "selector": ".home-products",
+      "size": "16px",
+      "text": "01 / выбираем любимоеУ каждого — свой вкус.Весь каталогИз курицы · 400 гНаггетсы куриныеИз курицы · 400 гКуриный попкорнИз курицы · 400 гСтрипсыИз курицы · 500 гФрикадельки «Классические»",
+      "tracking": "normal",
+      "transform": "none",
+      "weight": "400",
+      "width": 288,
+      "x": 16,
+      "y": 700
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 16.5,
+      "lineHeight": "16.5px",
+      "margin": [
+        "0px",
+        "0px",
+        "20px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": ".home-products .eyebrow",
+      "size": "11px",
+      "text": "01 / выбираем любимое",
+      "tracking": "1.32px",
+      "transform": "none",
+      "weight": "650",
+      "width": 288,
+      "x": 16,
+      "y": 748
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+      "height": 85.234375,
+      "lineHeight": "42.624px",
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": ".home-products h2",
+      "size": "47.36px",
+      "text": "У каждого — свой вкус.",
+      "tracking": "-0.56832px",
+      "transform": "none",
+      "weight": "850",
+      "width": 288,
+      "x": 16,
+      "y": 784.5
+    },
+    {
+      "missing": true,
+      "selector": ".home-products .btn"
+    },
+    {
+      "background": "rgb(216, 220, 161)",
+      "backgroundImage": "radial-gradient(at 38% 45%, rgb(225, 229, 180) 0px, rgb(216, 220, 161) 70%, rgb(209, 216, 155) 100%)",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 578.8203125,
+      "lineHeight": "normal",
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": "#protein",
+      "size": "16px",
+      "text": "02 / Заглянем внутрьВ основе — птица.Курица и индейка — природные источники белка. Мы делаем из них то, что вы любите.Вот чтовнутри!",
+      "tracking": "normal",
+      "transform": "none",
+      "weight": "400",
+      "width": 320,
+      "x": 0,
+      "y": 1480.609375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 16.5,
+      "lineHeight": "16.5px",
+      "margin": [
+        "0px",
+        "0px",
+        "20px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": "#protein .protein-poster-eyebrow",
+      "size": "11px",
+      "text": "02 / Заглянем внутрь",
+      "tracking": "1.32px",
+      "transform": "none",
+      "weight": "650",
+      "width": 288,
+      "x": 16,
+      "y": 1528.609375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+      "height": 127.5390625,
+      "lineHeight": "62.832px",
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": "#protein h2",
+      "size": "81.6px",
+      "text": "В основе — птица.",
+      "tracking": "-0.9792px",
+      "transform": "none",
+      "weight": "850",
+      "width": 288,
+      "x": 16,
+      "y": 1565.109375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+      "height": 62.828125,
+      "lineHeight": "62.832px",
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": "#protein h2 span",
+      "size": "81.6px",
+      "text": "В основе —",
+      "tracking": "-0.9792px",
+      "transform": "matrix(0.675, 0, 0, 1, 0, 0)",
+      "weight": "850",
+      "width": 287.9982604980469,
+      "x": 16,
+      "y": 1565.109375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(201, 67, 16)",
+      "family": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+      "height": 64.7109375,
+      "lineHeight": "64.717px",
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": "#protein h2 em",
+      "size": "84.048px",
+      "text": "птица.",
+      "tracking": "-0.9792px",
+      "transform": "matrix(0.8, 0, 0, 1, 0, 0)",
+      "weight": "850",
+      "width": 288,
+      "x": 16,
+      "y": 1627.9375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 75.5859375,
+      "lineHeight": "25.2px",
+      "margin": [
+        "24px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": "#protein .protein-poster-description",
+      "size": "18px",
+      "text": "Курица и индейка — природные источники белка. Мы делаем из них то, что вы любите.",
+      "tracking": "-0.36px",
+      "transform": "none",
+      "weight": "450",
+      "width": 288,
+      "x": 16,
+      "y": 1716.6484375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(201, 67, 16)",
+      "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+      "height": 67.41845703125,
+      "lineHeight": "25.2px",
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": "#protein .protein-poster-caption",
+      "size": "28px",
+      "text": "Вот чтовнутри!",
+      "tracking": "normal",
+      "transform": "matrix(0.978148, -0.207912, 0.207912, 0.978148, 0, 0)",
+      "weight": "700",
+      "width": 95.76669311523438,
+      "x": 133.3080596923828,
+      "y": 1807.720458984375
+    },
+    {
+      "background": "rgb(244, 217, 152)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 637.046875,
+      "lineHeight": "normal",
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": "#cooperation",
+      "size": "16px",
+      "text": "03 / для вашего бизнесаДавайте работать вместе.Производим замороженные продукты из курицы и индейки для вашего бизнеса.HoReCaДля меню кафе, ресторанов и отелей.СТМПродукция под вашей торговой маркой.Обсудить сотрудничествоО производстве",
+      "tracking": "normal",
+      "transform": "none",
+      "weight": "400",
+      "width": 320,
+      "x": 0,
+      "y": 2059.4296875
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 16.5,
+      "lineHeight": "16.5px",
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": "#cooperation .eyebrow",
+      "size": "11px",
+      "text": "03 / для вашего бизнеса",
+      "tracking": "1.32px",
+      "transform": "none",
+      "weight": "650",
+      "width": 288,
+      "x": 16,
+      "y": 2107.4296875
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+      "height": 127.8515625,
+      "lineHeight": "42.624px",
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": "#cooperation h2",
+      "size": "47.36px",
+      "text": "Давайте работать вместе.",
+      "tracking": "-0.56832px",
+      "transform": "none",
+      "weight": "850",
+      "width": 288,
+      "x": 16,
+      "y": 2143.9296875
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+      "height": 42.6171875,
+      "lineHeight": "42.624px",
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": "#cooperation h2 span",
+      "size": "47.36px",
+      "text": "Давайте",
+      "tracking": "-0.56832px",
+      "transform": "none",
+      "weight": "850",
+      "width": 288,
+      "x": 16,
+      "y": 2143.9296875
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(201, 67, 16)",
+      "family": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+      "height": 42.6171875,
+      "lineHeight": "42.624px",
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": "#cooperation h2 em",
+      "size": "47.36px",
+      "text": "вместе.",
+      "tracking": "-0.56832px",
+      "transform": "none",
+      "weight": "850",
+      "width": 288,
+      "x": 16,
+      "y": 2229.1640625
+    },
+    {
+      "missing": true,
+      "selector": "#cooperation .partnership-intro"
+    },
+    {
+      "background": "rgb(64, 33, 17)",
+      "backgroundImage": "none",
+      "color": "rgb(255, 245, 227)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 68,
+      "lineHeight": "18.2px",
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "14px",
+        "16px",
+        "14px",
+        "16px"
+      ],
+      "selector": "#cooperation .button",
+      "size": "13px",
+      "text": "Обсудить сотрудничество",
+      "tracking": "normal",
+      "transform": "none",
+      "weight": "650",
+      "width": 168,
+      "x": 16,
+      "y": 2524.4765625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 515.140625,
+      "lineHeight": "normal",
+      "margin": [
+        "0px",
+        "16px",
+        "0px",
+        "16px"
+      ],
+      "padding": [
+        "48px",
+        "0px",
+        "48px",
+        "0px"
+      ],
+      "selector": ".where-preview",
+      "size": "16px",
+      "text": "04 / осталось попробоватьВстретимся на полке.Поможем узнать, где искатьНовоферму в вашем городе.Где купить Уточните точки продаж в вашем городеЗадать вопрос О продукте, приготовлении или сотрудничестве",
+      "tracking": "normal",
+      "transform": "none",
+      "weight": "400",
+      "width": 288,
+      "x": 16,
+      "y": 2696.4765625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 16.5,
+      "lineHeight": "16.5px",
+      "margin": [
+        "0px",
+        "0px",
+        "20px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": ".where-preview .eyebrow",
+      "size": "11px",
+      "text": "04 / осталось попробовать",
+      "tracking": "1.32px",
+      "transform": "none",
+      "weight": "650",
+      "width": 288,
+      "x": 16,
+      "y": 2744.4765625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+      "height": 85.234375,
+      "lineHeight": "42.624px",
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": ".where-preview h2",
+      "size": "47.36px",
+      "text": "Встретимся на полке.",
+      "tracking": "-0.56832px",
+      "transform": "none",
+      "weight": "850",
+      "width": 288,
+      "x": 16,
+      "y": 2780.9765625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 16.5,
+      "lineHeight": "16.5px",
+      "margin": [
+        "0px",
+        "0px",
+        "20px",
+        "0px"
+      ],
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "selector": ".where-preview p",
+      "size": "11px",
+      "text": "04 / осталось попробовать",
+      "tracking": "1.32px",
+      "transform": "none",
+      "weight": "650",
+      "width": 288,
+      "x": 16,
+      "y": 2744.4765625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 328.109375,
+      "lineHeight": "normal",
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "padding": [
+        "30px",
+        "0px",
+        "24px",
+        "0px"
+      ],
+      "selector": ".site-footer",
+      "size": "16px",
+      "text": "Для ужина. Для кино. Для своих.info@novoferma.ru © 2026 ООО «НОВОФЕРМА»ПродукцияПартнёрамКонтакты+7 (812) 915-54-54",
+      "tracking": "normal",
+      "transform": "none",
+      "weight": "400",
+      "width": 320,
+      "x": 0,
+      "y": 3211.6171875
+    }
+  ],
+  "links": [
+    {
+      "background": "rgb(201, 67, 16)",
+      "borderRadius": "100px",
+      "class": "button product-scene-cta",
+      "color": "rgb(255, 249, 237)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 50,
+      "size": "15px",
+      "text": "Перейти в каталог",
+      "weight": "650",
+      "width": 240,
+      "x": 16
+    },
+    {
+      "background": "rgb(201, 67, 16)",
+      "borderRadius": "100px",
+      "class": "button product-scene-cta",
+      "color": "rgb(255, 249, 237)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 50,
+      "size": "15px",
+      "text": "Перейти в каталог",
+      "weight": "650",
+      "width": 240,
+      "x": 16
+    },
+    {
+      "background": "rgb(201, 67, 16)",
+      "borderRadius": "100px",
+      "class": "button product-scene-cta",
+      "color": "rgb(255, 249, 237)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 50,
+      "size": "15px",
+      "text": "Перейти в каталог",
+      "weight": "650",
+      "width": 240,
+      "x": 16
+    },
+    {
+      "background": "rgb(201, 67, 16)",
+      "borderRadius": "100px",
+      "class": "button product-scene-cta",
+      "color": "rgb(255, 249, 237)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 50,
+      "size": "15px",
+      "text": "Перейти в каталог",
+      "weight": "650",
+      "width": 240,
+      "x": 16
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "class": "button button-dark",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 44,
+      "size": "13px",
+      "text": "Весь каталог",
+      "weight": "650",
+      "width": 127.5703125,
+      "x": 16
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "class": "product-image packshot-stage",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 155.5,
+      "size": "16px",
+      "text": "",
+      "weight": "400",
+      "width": 137.5,
+      "x": 16
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "class": "product-title",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 7,
+      "size": "16px",
+      "text": "Наггетсы куриные",
+      "weight": "400",
+      "width": 137.5,
+      "x": 16
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "class": "product-image packshot-stage",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 155.5,
+      "size": "16px",
+      "text": "",
+      "weight": "400",
+      "width": 137.5,
+      "x": 166.5
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "class": "product-title",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 7,
+      "size": "16px",
+      "text": "Куриный попкорн",
+      "weight": "400",
+      "width": 137.5,
+      "x": 166.5
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "class": "product-image packshot-stage",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 155.5,
+      "size": "16px",
+      "text": "",
+      "weight": "400",
+      "width": 137.5,
+      "x": 16
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "class": "product-title",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 7,
+      "size": "16px",
+      "text": "Стрипсы",
+      "weight": "400",
+      "width": 137.5,
+      "x": 16
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "class": "product-image packshot-stage",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 155.5,
+      "size": "16px",
+      "text": "",
+      "weight": "400",
+      "width": 137.5,
+      "x": 166.5
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "class": "product-title",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 7,
+      "size": "16px",
+      "text": "Фрикадельки «Классические»",
+      "weight": "400",
+      "width": 137.5,
+      "x": 166.5
+    },
+    {
+      "background": "rgb(64, 33, 17)",
+      "borderRadius": "50px",
+      "class": "button button-dark",
+      "color": "rgb(255, 245, 227)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 68,
+      "size": "13px",
+      "text": "Обсудить сотрудничество",
+      "weight": "650",
+      "width": 168,
+      "x": 16
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "class": "partnership-secondary",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 44,
+      "size": "13px",
+      "text": "О производстве",
+      "weight": "650",
+      "width": 168,
+      "x": 16
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "class": "",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 92.453125,
+      "size": "16px",
+      "text": "Где купить Уточните точки продаж в вашем городе",
+      "weight": "400",
+      "width": 288,
+      "x": 16
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "class": "",
+      "color": "rgb(64, 33, 17)",
+      "family": "\"Novoferma Sans\", Arial, sans-serif",
+      "height": 112.953125,
+      "size": "16px",
+      "text": "Задать вопрос О продукте, приготовлении или сотрудничестве",
+      "weight": "400",
+      "width": 288,
+      "x": 16
+    }
+  ],
+  "overflow": false,
+  "pageHeight": 3539,
+  "viewport": {
+    "height": 780,
+    "width": 320
+  },
+  "extra": {
+    "fontLoaded": true,
+    "images": true,
+    "labels": [
+      {
+        "lineHeight": "16.5px",
+        "size": "11px",
+        "text": "01 / выбираем любимое",
+        "tracking": "1.32px",
+        "weight": "650",
+        "x": 16
+      },
+      {
+        "lineHeight": "16.5px",
+        "size": "11px",
+        "text": "02 / Заглянем внутрь",
+        "tracking": "1.32px",
+        "weight": "650",
+        "x": 16
+      },
+      {
+        "lineHeight": "16.5px",
+        "size": "11px",
+        "text": "03 / для вашего бизнеса",
+        "tracking": "1.32px",
+        "weight": "650",
+        "x": 16
+      },
+      {
+        "lineHeight": "16.5px",
+        "size": "11px",
+        "text": "04 / осталось попробовать",
+        "tracking": "1.32px",
+        "weight": "650",
+        "x": 16
+      }
+    ],
+    "sections": [
+      {
+        "cls": "product-showcase",
+        "height": 628,
+        "id": "",
+        "y": 72
+      },
+      {
+        "cls": "section wrap home-products",
+        "height": 780.609375,
+        "id": "products",
+        "y": 700
+      },
+      {
+        "cls": "protein-poster",
+        "height": 578.8203125,
+        "id": "protein",
+        "y": 1480.609375
+      },
+      {
+        "cls": "brand-story brand-partnership",
+        "height": 637.046875,
+        "id": "cooperation",
+        "y": 2059.4296875
+      },
+      {
+        "cls": "section wrap where-preview",
+        "height": 515.140625,
+        "id": "",
+        "y": 2696.4765625
+      }
+    ]
+  }
+}

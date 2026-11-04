@@ -1,0 +1,10 @@
+Mode: built-in image_gen transparent extraction
+
+Use case: background-extraction.
+Asset type: full-frame transparent artwork layer for a website hero.
+Input image: fibriki-plate-v3.webp at 1672×941 is the exact edit target.
+Primary request: remove only the cream paper background AND the entire orange floor curve AND all brown cast shadows painted on the floor. Make those pixels genuinely transparent. Preserve ALL three original different fibriki food pieces including the cut-open rightmost one, the exact running chicken mascot with white apron and green checks, both green parsley sprigs, all orange motion/energy brush strokes including the small pair near the upper-left blank title area, and black running puff marks.
+STRICT GEOMETRY: keep the ENTIRE original 1672×941 wide landscape canvas, same framing, same empty left half. Do not crop to the subjects, do not recenter the group, do not shift it left or right, do not move any individual object, do not change any size, rotation, spacing or relative position. Each preserved object must remain in its exact source coordinates. This will be overlaid full-frame 1:1 on a separate 1672×941 background, so an object shifted even slightly will be wrong.
+Preserve original silhouettes, textures, distinctive cooking marks of each food piece, visible cutaway, chicken illustration and proportions, fine dark outlines and apron white. The white apron and chicken bow are part of the mascot, NOT background; preserve them opaque. Retain the black curved running puff lines. Remove the source cream paper everywhere outside objects and between objects, remove orange ground completely below the character, remove ground shadows completely.
+Return actual transparent alpha PNG, exact 1672×941 16:9 full-frame. No white fill, no cream fill, no orange ground, no checkerboard drawn into pixels. Do not clone or add anything. No text, logos, interface, labels or watermark. This is ONLY a background-removal edit of the source, not a redesign or reconstruction of the layout.
+

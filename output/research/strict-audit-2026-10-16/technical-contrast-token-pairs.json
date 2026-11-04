@@ -1,0 +1,71 @@
+{
+  "method": "WCAG relative luminance arithmetic for solid source-declared color pairs. This is not a rendered/computed style contrast sweep; confirms only listed pairs if used on those backgrounds.",
+  "pairs": [
+    {
+      "context": "brown on cream",
+      "foreground": "#402111",
+      "background": "#fff5e3",
+      "ratio": 13.45
+    },
+    {
+      "context": "muted on cream",
+      "foreground": "#795e4c",
+      "background": "#fff5e3",
+      "ratio": 5.52
+    },
+    {
+      "context": "orange on cream",
+      "foreground": "#ec5812",
+      "background": "#fff5e3",
+      "ratio": 3.25
+    },
+    {
+      "context": "hero CTA",
+      "foreground": "#fff9ed",
+      "background": "#c94310",
+      "ratio": 4.66
+    },
+    {
+      "context": "home accent on green",
+      "foreground": "#c94310",
+      "background": "#d8dca1",
+      "ratio": 3.42
+    },
+    {
+      "context": "partners muted on cream",
+      "foreground": "#756458",
+      "background": "#fff5e3",
+      "ratio": 5.22
+    },
+    {
+      "context": "partners field border",
+      "foreground": "#9b8674",
+      "background": "#fff5e3",
+      "ratio": 3.21
+    },
+    {
+      "context": "partners placeholder",
+      "foreground": "#796653",
+      "background": "#fff5e3",
+      "ratio": 5.06
+    },
+    {
+      "context": "partners focus",
+      "foreground": "#ba3d0d",
+      "background": "#fff5e3",
+      "ratio": 5.16
+    },
+    {
+      "context": "contacts audience text",
+      "foreground": "#d8bfa9",
+      "background": "#402111",
+      "ratio": 8.27
+    },
+    {
+      "context": "contacts map",
+      "foreground": "#e2cbb6",
+      "background": "#402111",
+      "ratio": 9.32
+    }
+  ]
+}

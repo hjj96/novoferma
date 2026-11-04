@@ -1,0 +1,158 @@
+[
+  {
+    "slide": "meatballs",
+    "reference": "/Users/andrey/Desktop/сайт нф/Изображение ChatGPT 8 окт. 2026 г., 11_20_33.png",
+    "referencePixels": [
+      1672,
+      941
+    ],
+    "screenshot": "/Users/andrey/Desktop/сайт нф/output/research/site-polish/after/hero-meatballs-desktop.jpg",
+    "screenshotPixels": [
+      1440,
+      900
+    ],
+    "viewportCSS": [
+      1440,
+      900
+    ],
+    "density": 1,
+    "heroCSS": [
+      0,
+      0,
+      1440,
+      810.4296875
+    ],
+    "comparisonPixels": [
+      2880,
+      841
+    ],
+    "referenceContained": [
+      1440,
+      810
+    ],
+    "screenshotCrop": [
+      0,
+      0,
+      1440,
+      811
+    ],
+    "labelsHeight": 30
+  },
+  {
+    "slide": "nuggets",
+    "reference": "/Users/andrey/Desktop/сайт нф/Изображение ChatGPT 8 окт. 2026 г., 11_21_02.jpg",
+    "referencePixels": [
+      1536,
+      864
+    ],
+    "screenshot": "/Users/andrey/Desktop/сайт нф/output/research/site-polish/after/hero-nuggets-desktop.jpg",
+    "screenshotPixels": [
+      1440,
+      900
+    ],
+    "viewportCSS": [
+      1440,
+      900
+    ],
+    "density": 1,
+    "heroCSS": [
+      0,
+      0,
+      1440,
+      810.4296875
+    ],
+    "comparisonPixels": [
+      2880,
+      841
+    ],
+    "referenceContained": [
+      1440,
+      810
+    ],
+    "screenshotCrop": [
+      0,
+      0,
+      1440,
+      811
+    ],
+    "labelsHeight": 30
+  },
+  {
+    "slide": "fibriki",
+    "reference": "/Users/andrey/Desktop/сайт нф/Изображение ChatGPT 8 окт. 2026 г., 11_21_07.jpg",
+    "referencePixels": [
+      1536,
+      864
+    ],
+    "screenshot": "/Users/andrey/Desktop/сайт нф/output/research/site-polish/after/hero-fibriki-desktop.jpg",
+    "screenshotPixels": [
+      1440,
+      900
+    ],
+    "viewportCSS": [
+      1440,
+      900
+    ],
+    "density": 1,
+    "heroCSS": [
+      0,
+      0,
+      1440,
+      810.4296875
+    ],
+    "comparisonPixels": [
+      2880,
+      841
+    ],
+    "referenceContained": [
+      1440,
+      810
+    ],
+    "screenshotCrop": [
+      0,
+      0,
+      1440,
+      811
+    ],
+    "labelsHeight": 30
+  },
+  {
+    "slide": "lulia-mini",
+    "reference": "/Users/andrey/Desktop/сайт нф/Изображение ChatGPT 8 окт. 2026 г., 11_20_52.jpg",
+    "referencePixels": [
+      1536,
+      864
+    ],
+    "screenshot": "/Users/andrey/Desktop/сайт нф/output/research/site-polish/after/hero-lulia-mini-desktop.jpg",
+    "screenshotPixels": [
+      1440,
+      900
+    ],
+    "viewportCSS": [
+      1440,
+      900
+    ],
+    "density": 1,
+    "heroCSS": [
+      0,
+      0,
+      1440,
+      810.4296875
+    ],
+    "comparisonPixels": [
+      2880,
+      841
+    ],
+    "referenceContained": [
+      1440,
+      810
+    ],
+    "screenshotCrop": [
+      0,
+      0,
+      1440,
+      811
+    ],
+    "labelsHeight": 30
+  }
+]

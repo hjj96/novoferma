@@ -1,0 +1,59 @@
+{
+  "approved": {
+    "file": "output/concept/assets/novelty-packaging/fibriki-pack-v9.webp",
+    "sha256": "ec0f05989f9a753c8e59336ce05976151324f91927a2ad11f30ff9f38d8bb901",
+    "paper": [
+      242,
+      229,
+      207
+    ],
+    "logo": [
+      251,
+      70,
+      4
+    ],
+    "ink": [
+      88,
+      46,
+      1
+    ]
+  },
+  "candidate": {
+    "file": "output/research/fibriki-ink-match-v10/fibriki-pack-v10.webp",
+    "sha256": "495de4333a37287ef1722fa3d50acbf8f68155c31c5d721e4355b4e9e6ff3009",
+    "paper": [
+      242,
+      229,
+      209
+    ],
+    "logo": [
+      251,
+      86,
+      4
+    ],
+    "ink": [
+      109,
+      64,
+      9
+    ]
+  },
+  "reference": {
+    "file": "output/concept/assets/novelty-packaging/lulia-mini-pack-v3.webp",
+    "sha256": "5406742c35631a8b6ac22e29baac8652b9ae4c9eb6fe39141938eab24bea784f",
+    "paper": [
+      239,
+      225,
+      197
+    ],
+    "logo": [
+      250,
+      108,
+      5
+    ],
+    "ink": [
+      103,
+      65,
+      19
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-16",
+  "browser": "Google Chrome headless / Playwright",
+  "widths": [
+    320,
+    360,
+    390,
+    499,
+    500,
+    600,
+    699,
+    700,
+    768,
+    900,
+    959,
+    960,
+    1024,
+    1199,
+    1200,
+    1280,
+    1440,
+    1920
+  ],
+  "horizontalOverflow": "pass",
+  "contactTextBounds": "pass",
+  "contactLinkHitTargets": "pass",
+  "mobileMenuOpenEscape": "pass",
+  "keyboardFocus": "pass",
+  "brokenImages": [],
+  "pageErrors": [],
+  "notes": "Initial matrix of 16 widths; after the medium-width layout refinement, 499, 500, 600, 699 and 700 were checked again, including image/contact overlap."
+}

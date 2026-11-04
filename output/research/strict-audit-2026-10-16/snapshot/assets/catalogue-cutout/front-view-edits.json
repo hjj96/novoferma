@@ -1,0 +1,55 @@
+{
+  "note": "These two packshots are composites, not unchanged official catalogue photographs. Original official photos and cutouts are retained.",
+  "edits": [
+    {
+      "slug": "bitochki-kurinye-s-ovoshchami",
+      "file": "bitochki-kurinye-s-ovoshchami-front-v1.webp",
+      "kind": "User-requested ImageGen packaging composite",
+      "date": "2026-10-16",
+      "method": "Built-in ImageGen edit; resized to existing 800x800 catalogue canvas and encoded as lossless WebP, with alpha preserved.",
+      "labelSource": "bitochki-kurinye-s-ovoshchami.webp",
+      "trayAndPerspectiveSource": "kotlety-po-domashnemu.webp",
+      "references": [
+        {
+          "file": "bitochki-kurinye-s-ovoshchami.webp",
+          "sha256": "ca1402cf5854bfb5bdcbee66d038f32e70a2c4cf0c66597b55eef49e452d61b5"
+        },
+        {
+          "file": "kotlety-po-domashnemu.webp",
+          "sha256": "a6712121c44cd15ca7a1d0927149cc59a3a2b69299afff7bbc73503d3288cfbf"
+        }
+      ],
+      "originalPng": "output/research/catalogue-packshots/bitochki-kurinye-s-ovoshchami-front-v1.png",
+      "prompt": "output/research/catalogue-packshots/bitochki-kurinye-s-ovoshchami-front-v1-prompt.txt",
+      "width": 800,
+      "height": 800,
+      "hasAlpha": true,
+      "sha256": "df48c114a40c325f695ae3c3a69e1e76ac41d3f774df70f0aec2deed98fe27f8"
+    },
+    {
+      "slug": "ezhiki-iz-tsyplenka-s-risom",
+      "file": "ezhiki-iz-tsyplenka-s-risom-front-v1.webp",
+      "kind": "User-requested ImageGen packaging composite",
+      "date": "2026-10-16",
+      "method": "Built-in ImageGen edit; resized to existing 800x800 catalogue canvas and encoded as lossless WebP, with alpha preserved.",
+      "labelSource": "ezhiki-iz-tsyplenka-s-risom.webp",
+      "trayAndPerspectiveSource": "frikadelki-klassicheskie.webp",
+      "references": [
+        {
+          "file": "ezhiki-iz-tsyplenka-s-risom.webp",
+          "sha256": "ec01fd0c5e37753e74432b0a6553c0a9285bd8a238f07c236dbff20e9b35c8de"
+        },
+        {
+          "file": "frikadelki-klassicheskie.webp",
+          "sha256": "bf1f81e93c22349b61795458d8b7bbe8f94ef03f2496d9e1c893a5dae6c2cc8d"
+        }
+      ],
+      "originalPng": "output/research/catalogue-packshots/ezhiki-iz-tsyplenka-s-risom-front-v1.png",
+      "prompt": "output/research/catalogue-packshots/ezhiki-iz-tsyplenka-s-risom-front-v1-prompt.txt",
+      "width": 800,
+      "height": 800,
+      "hasAlpha": true,
+      "sha256": "0961af5ec3cb4f2fc164fda442a53b9ce77fbd092309520b4a68a7d2ccaf99c2"
+    }
+  ]
+}

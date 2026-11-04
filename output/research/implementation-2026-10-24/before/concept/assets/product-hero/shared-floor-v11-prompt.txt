@@ -1,0 +1,14 @@
+Mode: built-in image_gen transparent extraction and color refinement
+
+Edit the FIRST reference image, background-v2.webp. This is a strict asset extraction and color refinement, not a new composition.
+
+OUTPUT: a transparent RGBA PNG on exactly the same 1672 × 941 canvas. Preserve the full canvas and all original empty space. Never crop, tighten, center, enlarge, shrink, stretch, reposition, or recompose the orange floor.
+
+Primary geometry reference: FIRST image only. Preserve EXACTLY its current orange floor silhouette and upper arc, including every boundary coordinate: the floor first reaches the left-bottom edge near x190,y941, its gently rounded crest is near x1040,y732, and its upper boundary reaches the right edge near y878. Preserve its existing gentle perspective and existing subtle brown-orange horizontal brush shadow marks on the floor in the same positions. Do not substitute the curve or floor extent from the second image.
+
+The SECOND image, nuggets-reference.webp, is ONLY a color and material reference. Use its warm, rich, vivid orange floor color and subtle printed-paper material. The resulting floor should be saturated warm orange in the range #ff5a12 to #ff6a19, with gentle variation, fine natural paper texture, and softly integrated darker orange brush shadows. Avoid dull brown, pastel peach, muddy tan, beige, or washed-out pale orange. Do not add strong new gradients or new shadow objects.
+
+Remove the entire cream paper background ABOVE and OUTSIDE the floor silhouette, replacing it with actual alpha transparency. All 1672 × 941 canvas pixels outside the floor must be fully transparent, with only normal antialiasing along the floor's precise upper boundary. The floor itself is opaque, clean, continuous, and reaches the canvas bottom and right edges as in the FIRST reference. No cream halo or residual paper rectangle. No opaque black or white background. No drawn checkerboard.
+
+Preserve existing subtle floor shadows, but add no food, no chicken mascot, no typography, no letters, no logos, no interface, no symbols, no decorative strokes above the floor. This is only ONE shared orange ground layer for overlaying on both cream and green backgrounds. Full-frame 1672 × 941, faithful original arc geometry, actual transparent background.
+

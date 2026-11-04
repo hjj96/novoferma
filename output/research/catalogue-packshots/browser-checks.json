@@ -1,0 +1,16 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "catalogueImages": "pass",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "catalogueImages": "pass",
+      "overflow": false
+    }
+  ],
+  "detailImages": "pass",
+  "errors": []
+}

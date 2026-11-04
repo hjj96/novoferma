@@ -1,0 +1,10 @@
+Use case: background-extraction.
+Asset type: independently animated food cutout for the Novoferma website hero.
+Input image: reference image and extraction target — the supplied classic meatball hero artwork. Preserve the original appetizing photographic food style exactly.
+Primary request: extract and faithfully recreate ONE complete whole round chicken meatball, like the large golden meatball floating at the upper center of the reference. A single food object only.
+Scene/backdrop: genuinely transparent alpha background, square canvas.
+Subject: a spherical cooked chicken meatball, golden orange browned irregular surface, tiny green herb flecks and visible chicken pieces, juicy realistic food texture matching the reference.
+Composition/framing: one large central meatball, fully visible, occupying about 75% of the canvas width and height, with clean transparent margins, front three-quarter view. Do not cut it open.
+Lighting/mood: warm soft food photography lighting from upper left; retain local surface shading but no external floor shadow.
+Constraints: retain the reference chicken meatball identity, shape, color, surface texture and realism. Clean high detail edges suitable for independent animation. Exactly one ball, no other objects.
+Avoid: cartoon mascot, extra balls, parsley sprigs, garnish outside the ball, typography, logo, text, cream background, orange hill, action strokes, droplets, plates, utensils, floor or cast shadows. Output transparent PNG.

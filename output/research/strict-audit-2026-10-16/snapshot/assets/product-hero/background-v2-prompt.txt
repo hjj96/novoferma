@@ -1,0 +1,8 @@
+Mode: built-in image_gen edit
+
+Use case: precise-object-edit.
+Asset type: separated website hero background layer.
+Input images: image 1 is the classic meatballs hero reference at 1672×941, image 2 is the nuggets reference. These are edit targets for extracting only their shared backdrop, not subject references.
+Primary request: create a clean isolated backdrop for a layered website scene in the same cream paper and vivid orange style. Match the warm ivory textured paper from both references exactly, soft and subtle with a premium food brand feel. Keep the orange curved hill across the bottom, like the source classic-meatballs scene: the curve crests at about 81% of canvas height around x=67%, then slopes toward the lower left and lower right. The hill has the source smooth vivid orange tonal variation, with a few very subtle low-opacity warm orange generic food-cast shadows clustered near the lower right on the hill. All of the upper 80% is empty warm cream paper texture.
+Composition/framing: exact wide landscape 1672×941; filled canvas, no borders. Preserve the background appearance, arc shape, texture and source color palette.
+Constraints: remove ALL chicken character, food, leaves, ketchup, logos, labels, typography, handwritten words, hearts, arrows, strokes, flourishes, icons, buttons, navigation, symbols and any remaining visible objects. This deliverable is BACKGROUND ONLY. No white patches or filled rectangles where removed objects were. No lettering anywhere. No transparent checkerboard. No invented visual elements.

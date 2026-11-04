@@ -1,0 +1,161 @@
+[
+  {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fonts": [
+      {
+        "family": "Onest",
+        "status": "loaded",
+        "weight": "100 900"
+      },
+      {
+        "family": "Golos Text",
+        "status": "loaded",
+        "weight": "400 900"
+      },
+      {
+        "family": "Caveat",
+        "status": "loaded",
+        "weight": "400 700"
+      },
+      {
+        "family": "Marck Script",
+        "status": "loaded",
+        "weight": "400"
+      },
+      {
+        "family": "Bad Script",
+        "status": "loaded",
+        "weight": "400"
+      }
+    ],
+    "cyrillicCheck": [
+      {
+        "family": "Onest",
+        "ready": true
+      },
+      {
+        "family": "Golos Text",
+        "ready": true
+      },
+      {
+        "family": "Caveat",
+        "ready": true
+      },
+      {
+        "family": "Marck Script",
+        "ready": true
+      },
+      {
+        "family": "Bad Script",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "scrollWidth": 375,
+    "fonts": [
+      {
+        "family": "Onest",
+        "status": "loaded",
+        "weight": "100 900"
+      },
+      {
+        "family": "Golos Text",
+        "status": "loaded",
+        "weight": "400 900"
+      },
+      {
+        "family": "Caveat",
+        "status": "loaded",
+        "weight": "400 700"
+      },
+      {
+        "family": "Marck Script",
+        "status": "loaded",
+        "weight": "400"
+      },
+      {
+        "family": "Bad Script",
+        "status": "loaded",
+        "weight": "400"
+      }
+    ],
+    "cyrillicCheck": [
+      {
+        "family": "Onest",
+        "ready": true
+      },
+      {
+        "family": "Golos Text",
+        "ready": true
+      },
+      {
+        "family": "Caveat",
+        "ready": true
+      },
+      {
+        "family": "Marck Script",
+        "ready": true
+      },
+      {
+        "family": "Bad Script",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "scrollWidth": 320,
+    "fonts": [
+      {
+        "family": "Onest",
+        "status": "loaded",
+        "weight": "100 900"
+      },
+      {
+        "family": "Golos Text",
+        "status": "loaded",
+        "weight": "400 900"
+      },
+      {
+        "family": "Caveat",
+        "status": "loaded",
+        "weight": "400 700"
+      },
+      {
+        "family": "Marck Script",
+        "status": "loaded",
+        "weight": "400"
+      },
+      {
+        "family": "Bad Script",
+        "status": "loaded",
+        "weight": "400"
+      }
+    ],
+    "cyrillicCheck": [
+      {
+        "family": "Onest",
+        "ready": true
+      },
+      {
+        "family": "Golos Text",
+        "ready": true
+      },
+      {
+        "family": "Caveat",
+        "ready": true
+      },
+      {
+        "family": "Marck Script",
+        "ready": true
+      },
+      {
+        "family": "Bad Script",
+        "ready": true
+      }
+    ]
+  }
+]

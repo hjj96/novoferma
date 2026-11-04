@@ -1,0 +1,86 @@
+[
+  {
+    "product": "meatballs",
+    "sourceSize": [
+      1672,
+      941
+    ],
+    "screenshotSize": [
+      1440,
+      900
+    ],
+    "crop": [
+      0,
+      0,
+      1440,
+      811
+    ],
+    "comparisonSize": [
+      2880,
+      841
+    ]
+  },
+  {
+    "product": "nuggets",
+    "sourceSize": [
+      1536,
+      864
+    ],
+    "screenshotSize": [
+      1440,
+      900
+    ],
+    "crop": [
+      0,
+      0,
+      1440,
+      811
+    ],
+    "comparisonSize": [
+      2880,
+      841
+    ]
+  },
+  {
+    "product": "fibriki",
+    "sourceSize": [
+      1536,
+      864
+    ],
+    "screenshotSize": [
+      1440,
+      900
+    ],
+    "crop": [
+      0,
+      0,
+      1440,
+      811
+    ],
+    "comparisonSize": [
+      2880,
+      841
+    ]
+  },
+  {
+    "product": "lulia-mini",
+    "sourceSize": [
+      1536,
+      864
+    ],
+    "screenshotSize": [
+      1440,
+      900
+    ],
+    "crop": [
+      0,
+      0,
+      1440,
+      811
+    ],
+    "comparisonSize": [
+      2880,
+      841
+    ]
+  }
+]

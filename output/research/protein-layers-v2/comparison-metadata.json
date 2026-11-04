@@ -1,0 +1,45 @@
+{
+  "desktop": {
+    "source": "output/concept/assets/protein-story/reveal-desktop-v1.webp",
+    "sourcePixels": [
+      1909,
+      824
+    ],
+    "cssWidth": 1440,
+    "normalization": "Proportional source resize to1440x622; browser crop recorded inafter-1440-metrics.json"
+  },
+  "mobile": {
+    "source": "output/concept/assets/protein-story/reveal-mobile-v1.webp",
+    "sourcePixels": [
+      780,
+      1200
+    ],
+    "cssWidth": 390,
+    "sourceAtCss": [
+      390,
+      600
+    ],
+    "implementationAtCss": [
+      390,
+      639
+    ],
+    "normalization": "Equalwidth390, noverticalstretch; source padded below tocompare naturalflowheight"
+  },
+  "focusedZoom": {
+    "sourceWidthAtEquivalentZoom": 2880,
+    "runtimeFixture": "zoom-200-qa.html",
+    "runtimeCssWidth": 1440,
+    "cssZoom": 2,
+    "viewport": [
+      1440,
+      1100
+    ],
+    "focusRegion": [
+      100,
+      230,
+      1300,
+      840
+    ],
+    "browserOrOSZoomTest": false
+  }
+}

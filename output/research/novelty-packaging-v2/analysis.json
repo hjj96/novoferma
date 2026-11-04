@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-16",
+  "request": "Refine Fibriki first, then Lulia mini, comparing the result in the existing product lineup.",
+  "references": [
+    "assets/catalogue-clean-v2/frikadelki-klassicheskie.webp",
+    "assets/catalogue/frikadelki-klassicheskie.webp",
+    "assets/catalogue-clean-v2/kotlety-po-domashnemu.webp",
+    "assets/catalogue-clean-v2/ezhiki-iz-tsyplenka-s-risom.webp"
+  ],
+  "v1_findings": [
+    "Paper already matches closely; a global background recolor would not fix the mismatch.",
+    "The Fibriki title was taller and darker, and its descriptor too prominent.",
+    "The left serving cluster was about 45% wider than the classic meatball reference.",
+    "The running hero chicken has a different drawing style, contrast and scale from the printed label illustration.",
+    "Orange central handwriting, glossy food, strong green accents and fresh garnish introduced a different hierarchy and palette."
+  ],
+  "layout_reference_on_800_canvas": {
+    "logo": [292, 114, 518, 143],
+    "classic_title": [111, 170, 687, 247],
+    "microcopy": [286, 255, 511, 286],
+    "left_food_cluster_approx": [109, 345, 350, 508],
+    "printed_character_approx": [500, 274, 719, 455]
+  },
+  "title_ink_median_rgb_in_band_y160_230": {
+    "classic_reference": [100, 62, 17],
+    "fibriki_v1": [82, 46, 16],
+    "fibriki_v2_candidate": [93, 54, 11]
+  },
+  "fibriki_strategy": "Edit the existing classic meatballs package with minimal changes. Preserve its physical geometry, paper, logo, printed flying-chef illustration and element positions. Replace agreed copy, keep food small and matte, use a small brown arc instead of a central orange slogan.",
+  "lulia_strategy": "Only after the Fibriki family comparison is satisfactory, adapt the existing home-style cutlet package. Reuse its printed chef and tray, replacing food with small oval chicken sausages, with the same restrained print finish.",
+  "invariants": [
+    "Transparent background and complete rounded tray rim",
+    "No invented weight, ingredients list, nutrition or production barcode",
+    "Existing products and hero compositions unchanged",
+    "Native images, exact prompts and rejected versions retained"
+  ]
+}

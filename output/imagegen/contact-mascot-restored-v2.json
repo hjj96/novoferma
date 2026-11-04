@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "transparentBackground": true,
+  "source": "assets/mascot-reference.webp",
+  "sourceSize": [
+    335,
+    548
+  ],
+  "master": "output/imagegen/contact-mascot-restored-v2.png",
+  "asset": "assets/mascot-contact-restored-v2.webp",
+  "size": [
+    980,
+    1605
+  ],
+  "encoding": "lossless WebP; visible RGBA pixels and entire alpha channel verified against generated PNG",
+  "notes": "AI restoration: drawn details reconstructed from the reference, not recovered from original higher-resolution artwork. Original source retained."
+}

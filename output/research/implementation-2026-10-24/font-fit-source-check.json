@@ -1,0 +1,283 @@
+{
+  "method": "FontTools decompresses the actual local WOFF2; HarfBuzz shapes uppercase Cyrillic at the CSS weight, then CSS letter/word spacing and declared container widths are applied. Sizes are source-derived estimates, not browser screenshots or DOM proof. Primary-font advances only; raster illustration positions, fallback fonts and browser rounding require visual validation.",
+  "files": [
+    "RobotoFlex-Protein.woff2 (static wdth70/wght850)",
+    "Onest-wght.woff2 (wght650)"
+  ],
+  "all_estimated_lines_fit": true,
+  "rows": [
+    {
+      "viewport_px": 320,
+      "hero_title": {
+        "font_px": 40.0,
+        "text_px": 250.58,
+        "available_px": 288,
+        "spare_px": 37.42
+      },
+      "protein_first_line": {
+        "font_px": 56.0,
+        "text_px": 280.32,
+        "available_px": 288,
+        "spare_px": 7.68
+      },
+      "hero_cta": {
+        "font_px": 15,
+        "text_px": 169.0,
+        "available_for_text_px": 195,
+        "spare_px": 26.0
+      }
+    },
+    {
+      "viewport_px": 360,
+      "hero_title": {
+        "font_px": 45.0,
+        "text_px": 281.9,
+        "available_px": 320,
+        "spare_px": 38.1
+      },
+      "protein_first_line": {
+        "font_px": 63.0,
+        "text_px": 315.36,
+        "available_px": 320,
+        "spare_px": 4.64
+      },
+      "hero_cta": {
+        "font_px": 15,
+        "text_px": 169.0,
+        "available_for_text_px": 195,
+        "spare_px": 26.0
+      }
+    },
+    {
+      "viewport_px": 390,
+      "hero_title": {
+        "font_px": 48.75,
+        "text_px": 305.39,
+        "available_px": 350,
+        "spare_px": 44.61
+      },
+      "protein_first_line": {
+        "font_px": 68.25,
+        "text_px": 341.64,
+        "available_px": 350,
+        "spare_px": 8.36
+      },
+      "hero_cta": {
+        "font_px": 15,
+        "text_px": 169.0,
+        "available_for_text_px": 195,
+        "spare_px": 26.0
+      }
+    },
+    {
+      "viewport_px": 699,
+      "hero_title": {
+        "font_px": 76,
+        "text_px": 476.1,
+        "available_px": 659,
+        "spare_px": 182.9
+      },
+      "protein_first_line": {
+        "font_px": 110,
+        "text_px": 550.62,
+        "available_px": 659,
+        "spare_px": 108.38
+      },
+      "hero_cta": {
+        "font_px": 15,
+        "text_px": 169.0,
+        "available_for_text_px": 195,
+        "spare_px": 26.0
+      }
+    },
+    {
+      "viewport_px": 700,
+      "hero_title": {
+        "font_px": 58.1,
+        "text_px": 362.69,
+        "available_px": 410.2,
+        "spare_px": 47.51
+      },
+      "protein_first_line": {
+        "font_px": 110,
+        "text_px": 550.62,
+        "available_px": 604,
+        "spare_px": 53.38
+      },
+      "hero_cta": {
+        "font_px": 13,
+        "text_px": 146.47,
+        "available_for_text_px": 214,
+        "spare_px": 67.53
+      }
+    },
+    {
+      "viewport_px": 768,
+      "hero_title": {
+        "font_px": 63.74,
+        "text_px": 397.92,
+        "available_px": 450.05,
+        "spare_px": 52.13
+      },
+      "protein_first_line": {
+        "font_px": 110,
+        "text_px": 550.62,
+        "available_px": 672,
+        "spare_px": 121.38
+      },
+      "hero_cta": {
+        "font_px": 13,
+        "text_px": 146.47,
+        "available_for_text_px": 214,
+        "spare_px": 67.53
+      }
+    },
+    {
+      "viewport_px": 900,
+      "hero_title": {
+        "font_px": 74.7,
+        "text_px": 466.31,
+        "available_px": 527.4,
+        "spare_px": 61.09
+      },
+      "protein_first_line": {
+        "font_px": 68.4,
+        "text_px": 342.39,
+        "available_px": 357.0,
+        "spare_px": 14.61
+      },
+      "hero_cta": {
+        "font_px": 13,
+        "text_px": 146.47,
+        "available_for_text_px": 214,
+        "spare_px": 67.53
+      }
+    },
+    {
+      "viewport_px": 1024,
+      "hero_title": {
+        "font_px": 84.99,
+        "text_px": 530.56,
+        "available_px": 600.06,
+        "spare_px": 69.5
+      },
+      "protein_first_line": {
+        "font_px": 77.82,
+        "text_px": 389.56,
+        "available_px": 412.8,
+        "spare_px": 23.24
+      },
+      "hero_cta": {
+        "font_px": 13,
+        "text_px": 146.47,
+        "available_for_text_px": 220.19,
+        "spare_px": 73.72
+      }
+    },
+    {
+      "viewport_px": 1100,
+      "hero_title": {
+        "font_px": 91.3,
+        "text_px": 569.94,
+        "available_px": 644.6,
+        "spare_px": 74.66
+      },
+      "protein_first_line": {
+        "font_px": 83.6,
+        "text_px": 418.47,
+        "available_px": 447.0,
+        "spare_px": 28.53
+      },
+      "hero_cta": {
+        "font_px": 16.5,
+        "text_px": 185.91,
+        "available_for_text_px": 207.8,
+        "spare_px": 21.89
+      }
+    },
+    {
+      "viewport_px": 1199,
+      "hero_title": {
+        "font_px": 99.52,
+        "text_px": 621.23,
+        "available_px": 702.61,
+        "spare_px": 81.38
+      },
+      "protein_first_line": {
+        "font_px": 91.12,
+        "text_px": 456.13,
+        "available_px": 491.55,
+        "spare_px": 35.42
+      },
+      "hero_cta": {
+        "font_px": 17.98,
+        "text_px": 202.64,
+        "available_for_text_px": 233.34,
+        "spare_px": 30.71
+      }
+    },
+    {
+      "viewport_px": 1200,
+      "hero_title": {
+        "font_px": 100.8,
+        "text_px": 629.24,
+        "available_px": 703.2,
+        "spare_px": 73.96
+      },
+      "protein_first_line": {
+        "font_px": 91.2,
+        "text_px": 456.51,
+        "available_px": 492.0,
+        "spare_px": 35.49
+      },
+      "hero_cta": {
+        "font_px": 18.0,
+        "text_px": 202.81,
+        "available_for_text_px": 233.6,
+        "spare_px": 30.79
+      }
+    },
+    {
+      "viewport_px": 1440,
+      "hero_title": {
+        "font_px": 120.96,
+        "text_px": 755.09,
+        "available_px": 843.84,
+        "spare_px": 88.75
+      },
+      "protein_first_line": {
+        "font_px": 105.79,
+        "text_px": 529.56,
+        "available_px": 578.4,
+        "spare_px": 48.84
+      },
+      "hero_cta": {
+        "font_px": 21.6,
+        "text_px": 243.37,
+        "available_for_text_px": 295.52,
+        "spare_px": 52.15
+      }
+    },
+    {
+      "viewport_px": 1920,
+      "hero_title": {
+        "font_px": 156,
+        "text_px": 973.83,
+        "available_px": 1125.12,
+        "spare_px": 151.29
+      },
+      "protein_first_line": {
+        "font_px": 105.79,
+        "text_px": 529.56,
+        "available_px": 578.4,
+        "spare_px": 48.84
+      },
+      "hero_cta": {
+        "font_px": 22,
+        "text_px": 247.87,
+        "available_for_text_px": 332,
+        "spare_px": 84.13
+      }
+    }
+  ]
+}

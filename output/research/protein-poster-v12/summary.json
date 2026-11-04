@@ -1,0 +1,98 @@
+[
+  {
+    "width": 1440,
+    "noOverflow": true,
+    "loaded": true,
+    "CTAidentical": true,
+    "stageHeightIdentical": true,
+    "minGap": 19.65625,
+    "proteinFloor": "none",
+    "productsFloor": [
+      "block",
+      "block",
+      "block",
+      "block"
+    ],
+    "allPanelsCorrect": true
+  },
+  {
+    "width": 1024,
+    "noOverflow": true,
+    "loaded": true,
+    "CTAidentical": true,
+    "stageHeightIdentical": true,
+    "minGap": 34.171875,
+    "proteinFloor": "none",
+    "productsFloor": [
+      "block",
+      "block",
+      "block",
+      "block"
+    ],
+    "allPanelsCorrect": true
+  },
+  {
+    "width": 768,
+    "noOverflow": true,
+    "loaded": true,
+    "CTAidentical": true,
+    "stageHeightIdentical": true,
+    "minGap": 21.5703125,
+    "proteinFloor": "none",
+    "productsFloor": [
+      "block",
+      "block",
+      "block",
+      "block"
+    ],
+    "allPanelsCorrect": true
+  },
+  {
+    "width": 700,
+    "noOverflow": true,
+    "loaded": true,
+    "CTAidentical": true,
+    "stageHeightIdentical": true,
+    "minGap": 13.1875,
+    "proteinFloor": "none",
+    "productsFloor": [
+      "block",
+      "block",
+      "block",
+      "block"
+    ],
+    "allPanelsCorrect": true
+  },
+  {
+    "width": 390,
+    "noOverflow": true,
+    "loaded": true,
+    "CTAidentical": true,
+    "stageHeightIdentical": true,
+    "minGap": 17.078125,
+    "proteinFloor": "none",
+    "productsFloor": [
+      "block",
+      "block",
+      "block",
+      "block"
+    ],
+    "allPanelsCorrect": true
+  },
+  {
+    "width": 320,
+    "noOverflow": true,
+    "loaded": true,
+    "CTAidentical": true,
+    "stageHeightIdentical": true,
+    "minGap": 45.1171875,
+    "proteinFloor": "none",
+    "productsFloor": [
+      "block",
+      "block",
+      "block",
+      "block"
+    ],
+    "allPanelsCorrect": true
+  }
+]

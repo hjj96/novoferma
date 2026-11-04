@@ -1,0 +1,802 @@
+[
+  {
+    "formats": [
+      {
+        "clientWidth": 136,
+        "rect": {
+          "bottom": 507.3671875,
+          "height": 99.6953125,
+          "right": 152,
+          "width": 136,
+          "x": 16,
+          "y": 407.671875
+        },
+        "scrollWidth": 136
+      },
+      {
+        "clientWidth": 136,
+        "rect": {
+          "bottom": 507.3671875,
+          "height": 99.6953125,
+          "right": 304,
+          "width": 136,
+          "x": 168,
+          "y": 407.671875
+        },
+        "scrollWidth": 136
+      }
+    ],
+    "links": [
+      {
+        "href": "partners.html#partner-contact",
+        "rect": {
+          "bottom": 601.3671875,
+          "height": 68,
+          "right": 184,
+          "width": 168,
+          "x": 16,
+          "y": 533.3671875
+        },
+        "text": "Обсудить сотрудничество"
+      },
+      {
+        "href": "about.html",
+        "rect": {
+          "bottom": 657.3671875,
+          "height": 44,
+          "right": 184,
+          "width": 168,
+          "x": 16,
+          "y": 613.3671875
+        },
+        "text": "О производстве"
+      }
+    ],
+    "mascot": {
+      "bottom": 693.3671875,
+      "height": 149.328125,
+      "loaded": true,
+      "right": 320,
+      "width": 112,
+      "x": 208,
+      "y": 544.0390625
+    },
+    "overflow": false,
+    "section": {
+      "bottom": 693.3671875,
+      "height": 623.3125,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 70.0546875
+    },
+    "svgCount": 0,
+    "terms": [
+      {
+        "font": "22px",
+        "rect": {
+          "bottom": 431.8671875,
+          "height": 24.1953125,
+          "right": 152,
+          "width": 136,
+          "x": 16,
+          "y": 407.671875
+        },
+        "text": "HoReCa"
+      },
+      {
+        "font": "22px",
+        "rect": {
+          "bottom": 431.8671875,
+          "height": 24.1953125,
+          "right": 304,
+          "width": 136,
+          "x": 168,
+          "y": 407.671875
+        },
+        "text": "СТМ"
+      }
+    ],
+    "width": 320
+  },
+  {
+    "formats": [
+      {
+        "clientWidth": 164,
+        "rect": {
+          "bottom": 604.609375,
+          "height": 79.3984375,
+          "right": 184,
+          "width": 164,
+          "x": 20,
+          "y": 525.2109375
+        },
+        "scrollWidth": 164
+      },
+      {
+        "clientWidth": 164,
+        "rect": {
+          "bottom": 604.609375,
+          "height": 79.3984375,
+          "right": 370,
+          "width": 164,
+          "x": 206,
+          "y": 525.2109375
+        },
+        "scrollWidth": 164
+      }
+    ],
+    "links": [
+      {
+        "href": "partners.html#partner-contact",
+        "rect": {
+          "bottom": 715.40625,
+          "height": 69.1875,
+          "right": 233.3984375,
+          "width": 213.3984375,
+          "x": 20,
+          "y": 646.21875
+        },
+        "text": "Обсудить сотрудничество"
+      },
+      {
+        "href": "about.html",
+        "rect": {
+          "bottom": 771.40625,
+          "height": 44,
+          "right": 233.3984375,
+          "width": 213.3984375,
+          "x": 20,
+          "y": 727.40625
+        },
+        "text": "О производстве"
+      }
+    ],
+    "mascot": {
+      "bottom": 807.40625,
+      "height": 176.7890625,
+      "loaded": true,
+      "right": 390,
+      "width": 132.59375,
+      "x": 257.40625,
+      "y": 630.6171875
+    },
+    "overflow": false,
+    "section": {
+      "bottom": 807.40625,
+      "height": 629.5625,
+      "right": 390,
+      "width": 390,
+      "x": 0,
+      "y": 177.84375
+    },
+    "svgCount": 0,
+    "terms": [
+      {
+        "font": "24px",
+        "rect": {
+          "bottom": 551.609375,
+          "height": 26.3984375,
+          "right": 184,
+          "width": 164,
+          "x": 20,
+          "y": 525.2109375
+        },
+        "text": "HoReCa"
+      },
+      {
+        "font": "24px",
+        "rect": {
+          "bottom": 551.609375,
+          "height": 26.3984375,
+          "right": 370,
+          "width": 164,
+          "x": 206,
+          "y": 525.2109375
+        },
+        "text": "СТМ"
+      }
+    ],
+    "width": 390
+  },
+  {
+    "formats": [
+      {
+        "clientWidth": 132,
+        "rect": {
+          "bottom": 698.3046875,
+          "height": 101.8984375,
+          "right": 152,
+          "width": 132,
+          "x": 20,
+          "y": 596.40625
+        },
+        "scrollWidth": 132
+      },
+      {
+        "clientWidth": 132,
+        "rect": {
+          "bottom": 698.3046875,
+          "height": 101.8984375,
+          "right": 306,
+          "width": 132,
+          "x": 174,
+          "y": 596.40625
+        },
+        "scrollWidth": 132
+      }
+    ],
+    "links": [
+      {
+        "href": "partners.html#partner-contact",
+        "rect": {
+          "bottom": 792.3046875,
+          "height": 68,
+          "right": 306,
+          "width": 286,
+          "x": 20,
+          "y": 724.3046875
+        },
+        "text": "Обсудить сотрудничество"
+      },
+      {
+        "href": "about.html",
+        "rect": {
+          "bottom": 848.3046875,
+          "height": 44,
+          "right": 306,
+          "width": 286,
+          "x": 20,
+          "y": 804.3046875
+        },
+        "text": "О производстве"
+      }
+    ],
+    "mascot": {
+      "bottom": 884.3046875,
+      "height": 226.6640625,
+      "loaded": true,
+      "right": 500,
+      "width": 170,
+      "x": 330,
+      "y": 657.640625
+    },
+    "overflow": false,
+    "section": {
+      "bottom": 884.3046875,
+      "height": 644.921875,
+      "right": 500,
+      "width": 500,
+      "x": 0,
+      "y": 239.3828125
+    },
+    "svgCount": 0,
+    "terms": [
+      {
+        "font": "24px",
+        "rect": {
+          "bottom": 622.8046875,
+          "height": 26.3984375,
+          "right": 152,
+          "width": 132,
+          "x": 20,
+          "y": 596.40625
+        },
+        "text": "HoReCa"
+      },
+      {
+        "font": "24px",
+        "rect": {
+          "bottom": 622.8046875,
+          "height": 26.3984375,
+          "right": 306,
+          "width": 132,
+          "x": 174,
+          "y": 596.40625
+        },
+        "text": "СТМ"
+      }
+    ],
+    "width": 500
+  },
+  {
+    "formats": [
+      {
+        "clientWidth": 152,
+        "rect": {
+          "bottom": 641.078125,
+          "height": 101.8984375,
+          "right": 171.796875,
+          "width": 151.796875,
+          "x": 20,
+          "y": 539.1796875
+        },
+        "scrollWidth": 152
+      },
+      {
+        "clientWidth": 152,
+        "rect": {
+          "bottom": 641.078125,
+          "height": 101.8984375,
+          "right": 345.6015625,
+          "width": 151.8046875,
+          "x": 193.796875,
+          "y": 539.1796875
+        },
+        "scrollWidth": 152
+      }
+    ],
+    "links": [
+      {
+        "href": "partners.html#partner-contact",
+        "rect": {
+          "bottom": 735.078125,
+          "height": 68,
+          "right": 345.6015625,
+          "width": 325.6015625,
+          "x": 20,
+          "y": 667.078125
+        },
+        "text": "Обсудить сотрудничество"
+      },
+      {
+        "href": "about.html",
+        "rect": {
+          "bottom": 791.078125,
+          "height": 44,
+          "right": 345.6015625,
+          "width": 325.6015625,
+          "x": 20,
+          "y": 747.078125
+        },
+        "text": "О производстве"
+      }
+    ],
+    "mascot": {
+      "bottom": 827.078125,
+      "height": 253.859375,
+      "loaded": true,
+      "right": 560,
+      "width": 190.3984375,
+      "x": 369.6015625,
+      "y": 573.21875
+    },
+    "overflow": false,
+    "section": {
+      "bottom": 827.078125,
+      "height": 664.890625,
+      "right": 560,
+      "width": 560,
+      "x": 0,
+      "y": 162.1875
+    },
+    "svgCount": 0,
+    "terms": [
+      {
+        "font": "24px",
+        "rect": {
+          "bottom": 565.578125,
+          "height": 26.3984375,
+          "right": 171.796875,
+          "width": 151.796875,
+          "x": 20,
+          "y": 539.1796875
+        },
+        "text": "HoReCa"
+      },
+      {
+        "font": "24px",
+        "rect": {
+          "bottom": 565.578125,
+          "height": 26.3984375,
+          "right": 345.6015625,
+          "width": 151.8046875,
+          "x": 193.796875,
+          "y": 539.1796875
+        },
+        "text": "СТМ"
+      }
+    ],
+    "width": 560
+  },
+  {
+    "formats": [
+      {
+        "clientWidth": 231,
+        "rect": {
+          "bottom": 825.5546875,
+          "height": 81.3984375,
+          "right": 263,
+          "width": 231,
+          "x": 32,
+          "y": 744.15625
+        },
+        "scrollWidth": 231
+      },
+      {
+        "clientWidth": 231,
+        "rect": {
+          "bottom": 825.5546875,
+          "height": 81.3984375,
+          "right": 526,
+          "width": 231,
+          "x": 295,
+          "y": 744.15625
+        },
+        "scrollWidth": 231
+      }
+    ],
+    "links": [
+      {
+        "href": "partners.html#partner-contact",
+        "rect": {
+          "bottom": 909.15625,
+          "height": 54,
+          "right": 304.625,
+          "width": 272.625,
+          "x": 32,
+          "y": 855.15625
+        },
+        "text": "Обсудить сотрудничество"
+      },
+      {
+        "href": "about.html",
+        "rect": {
+          "bottom": 971.15625,
+          "height": 44,
+          "right": 175.25,
+          "width": 143.25,
+          "x": 32,
+          "y": 927.15625
+        },
+        "text": "О производстве"
+      }
+    ],
+    "mascot": {
+      "bottom": 1025.15625,
+      "height": 280,
+      "loaded": true,
+      "right": 768,
+      "width": 210,
+      "x": 558,
+      "y": 745.15625
+    },
+    "overflow": false,
+    "section": {
+      "bottom": 1025.15625,
+      "height": 687.4765625,
+      "right": 768,
+      "width": 768,
+      "x": 0,
+      "y": 337.6796875
+    },
+    "svgCount": 0,
+    "terms": [
+      {
+        "font": "24px",
+        "rect": {
+          "bottom": 770.5546875,
+          "height": 26.3984375,
+          "right": 263,
+          "width": 231,
+          "x": 32,
+          "y": 744.15625
+        },
+        "text": "HoReCa"
+      },
+      {
+        "font": "24px",
+        "rect": {
+          "bottom": 770.5546875,
+          "height": 26.3984375,
+          "right": 526,
+          "width": 231,
+          "x": 295,
+          "y": 744.15625
+        },
+        "text": "СТМ"
+      }
+    ],
+    "width": 768
+  },
+  {
+    "formats": [
+      {
+        "clientWidth": 341,
+        "rect": {
+          "bottom": 595.8359375,
+          "height": 81.3984375,
+          "right": 373.1171875,
+          "width": 341.1171875,
+          "x": 32,
+          "y": 514.4375
+        },
+        "scrollWidth": 341
+      },
+      {
+        "clientWidth": 341,
+        "rect": {
+          "bottom": 595.8359375,
+          "height": 81.3984375,
+          "right": 746.2421875,
+          "width": 341.125,
+          "x": 405.1171875,
+          "y": 514.4375
+        },
+        "scrollWidth": 341
+      }
+    ],
+    "links": [
+      {
+        "href": "partners.html#partner-contact",
+        "rect": {
+          "bottom": 726.1171875,
+          "height": 54,
+          "right": 304.625,
+          "width": 272.625,
+          "x": 32,
+          "y": 672.1171875
+        },
+        "text": "Обсудить сотрудничество"
+      },
+      {
+        "href": "about.html",
+        "rect": {
+          "bottom": 788.1171875,
+          "height": 44,
+          "right": 175.25,
+          "width": 143.25,
+          "x": 32,
+          "y": 744.1171875
+        },
+        "text": "О производстве"
+      }
+    ],
+    "mascot": {
+      "bottom": 842.1171875,
+      "height": 327.671875,
+      "loaded": true,
+      "right": 1024,
+      "width": 245.7578125,
+      "x": 778.2421875,
+      "y": 514.4453125
+    },
+    "overflow": false,
+    "section": {
+      "bottom": 842.1171875,
+      "height": 772.2890625,
+      "right": 1024,
+      "width": 1024,
+      "x": 0,
+      "y": 69.828125
+    },
+    "svgCount": 0,
+    "terms": [
+      {
+        "font": "24px",
+        "rect": {
+          "bottom": 540.8359375,
+          "height": 26.3984375,
+          "right": 373.1171875,
+          "width": 341.1171875,
+          "x": 32,
+          "y": 514.4375
+        },
+        "text": "HoReCa"
+      },
+      {
+        "font": "24px",
+        "rect": {
+          "bottom": 540.8359375,
+          "height": 26.3984375,
+          "right": 746.2421875,
+          "width": 341.125,
+          "x": 405.1171875,
+          "y": 514.4375
+        },
+        "text": "СТМ"
+      }
+    ],
+    "width": 1024
+  },
+  {
+    "formats": [
+      {
+        "clientWidth": 194,
+        "rect": {
+          "bottom": 110.4921875,
+          "height": 81.3984375,
+          "right": 690.5,
+          "width": 193.5,
+          "x": 497,
+          "y": 29.09375
+        },
+        "scrollWidth": 194
+      },
+      {
+        "clientWidth": 194,
+        "rect": {
+          "bottom": 110.4921875,
+          "height": 81.3984375,
+          "right": 916,
+          "width": 193.5,
+          "x": 722.5,
+          "y": 29.09375
+        },
+        "scrollWidth": 194
+      }
+    ],
+    "links": [
+      {
+        "href": "partners.html#partner-contact",
+        "rect": {
+          "bottom": 190.4921875,
+          "height": 54,
+          "right": 769.625,
+          "width": 272.625,
+          "x": 497,
+          "y": 136.4921875
+        },
+        "text": "Обсудить сотрудничество"
+      },
+      {
+        "href": "about.html",
+        "rect": {
+          "bottom": 256.4921875,
+          "height": 44,
+          "right": 640.25,
+          "width": 143.25,
+          "x": 497,
+          "y": 212.4921875
+        },
+        "text": "О производстве"
+      }
+    ],
+    "mascot": {
+      "bottom": 324.4921875,
+      "height": 457.5859375,
+      "loaded": true,
+      "right": 1200,
+      "width": 252,
+      "x": 948,
+      "y": -133.09375
+    },
+    "overflow": false,
+    "section": {
+      "bottom": 324.4921875,
+      "height": 485.5859375,
+      "right": 1200,
+      "width": 1200,
+      "x": 0,
+      "y": -161.09375
+    },
+    "svgCount": 0,
+    "terms": [
+      {
+        "font": "24px",
+        "rect": {
+          "bottom": 55.4921875,
+          "height": 26.3984375,
+          "right": 690.5,
+          "width": 193.5,
+          "x": 497,
+          "y": 29.09375
+        },
+        "text": "HoReCa"
+      },
+      {
+        "font": "24px",
+        "rect": {
+          "bottom": 55.4921875,
+          "height": 26.3984375,
+          "right": 916,
+          "width": 193.5,
+          "x": 722.5,
+          "y": 29.09375
+        },
+        "text": "СТМ"
+      }
+    ],
+    "width": 1200
+  },
+  {
+    "formats": [
+      {
+        "clientWidth": 233,
+        "rect": {
+          "bottom": 667.078125,
+          "height": 85.796875,
+          "right": 840.1953125,
+          "width": 233.3984375,
+          "x": 606.796875,
+          "y": 581.28125
+        },
+        "scrollWidth": 233
+      },
+      {
+        "clientWidth": 233,
+        "rect": {
+          "bottom": 667.078125,
+          "height": 85.796875,
+          "right": 1105.6015625,
+          "width": 233.40625,
+          "x": 872.1953125,
+          "y": 581.28125
+        },
+        "scrollWidth": 233
+      }
+    ],
+    "links": [
+      {
+        "href": "partners.html#partner-contact",
+        "rect": {
+          "bottom": 747.078125,
+          "height": 54,
+          "right": 879.421875,
+          "width": 272.625,
+          "x": 606.796875,
+          "y": 693.078125
+        },
+        "text": "Обсудить сотрудничество"
+      },
+      {
+        "href": "about.html",
+        "rect": {
+          "bottom": 742.078125,
+          "height": 44,
+          "right": 1044.671875,
+          "width": 143.25,
+          "x": 901.421875,
+          "y": 698.078125
+        },
+        "text": "О производстве"
+      }
+    ],
+    "mascot": {
+      "bottom": 815.078125,
+      "height": 406.984375,
+      "loaded": true,
+      "right": 1440,
+      "width": 302.3984375,
+      "x": 1137.6015625,
+      "y": 408.09375
+    },
+    "overflow": false,
+    "section": {
+      "bottom": 815.078125,
+      "height": 434.984375,
+      "right": 1440,
+      "width": 1440,
+      "x": 0,
+      "y": 380.09375
+    },
+    "svgCount": 0,
+    "terms": [
+      {
+        "font": "28px",
+        "rect": {
+          "bottom": 612.078125,
+          "height": 30.796875,
+          "right": 840.1953125,
+          "width": 233.3984375,
+          "x": 606.796875,
+          "y": 581.28125
+        },
+        "text": "HoReCa"
+      },
+      {
+        "font": "28px",
+        "rect": {
+          "bottom": 612.078125,
+          "height": 30.796875,
+          "right": 1105.6015625,
+          "width": 233.40625,
+          "x": 872.1953125,
+          "y": 581.28125
+        },
+        "text": "СТМ"
+      }
+    ],
+    "width": 1440
+  }
+]

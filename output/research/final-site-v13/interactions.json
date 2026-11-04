@@ -1,0 +1,88 @@
+{
+  "checks": [
+    {
+      "action": "End",
+      "active": "scene-lulia-mini",
+      "focus": "Люля мини",
+      "h1": "Новоферма — продукты из курицы и индейки"
+    },
+    {
+      "action": "Tab after selected tab",
+      "focus": "Предыдущий слайд"
+    },
+    {
+      "action": "Tab after previous",
+      "focus": "Следующий слайд"
+    },
+    {
+      "action": "Tab after next",
+      "focus": "Перейти в каталог",
+      "href": "catalogue.html"
+    },
+    {
+      "action": "Previous wraps",
+      "active": "scene-lulia-mini"
+    },
+    {
+      "action": "Next wraps",
+      "active": "scene-meatballs"
+    },
+    {
+      "action": "Hero CTA",
+      "url": "http://127.0.0.1:8765/output/concept/catalogue.html"
+    },
+    {
+      "action": "Nuggets category",
+      "count": "5 продуктов",
+      "visible": 5
+    },
+    {
+      "action": "Empty search",
+      "count": "0 продуктов",
+      "empty": true,
+      "novelties": 2
+    },
+    {
+      "action": "Reset filters",
+      "count": "14 продуктов",
+      "empty": false,
+      "query": ""
+    },
+    {
+      "action": "Fibriki novelty CTA",
+      "url": "http://127.0.0.1:8765/output/concept/where-to-buy.html?product=fibriki",
+      "label": "Фибрики — новинка",
+      "selected": "fibriki"
+    },
+    {
+      "action": "Lulia novelty CTA",
+      "url": "http://127.0.0.1:8765/output/concept/where-to-buy.html?product=lulia-mini",
+      "label": "Люля мини — новинка",
+      "selected": "lulia-mini"
+    },
+    {
+      "action": "Open mobile menu",
+      "expanded": "true",
+      "open": true
+    },
+    {
+      "action": "Escape closes menu",
+      "expanded": "false",
+      "focus": "Открыть меню",
+      "open": false
+    },
+    {
+      "action": "Mobile menu navigation",
+      "url": "http://127.0.0.1:8765/output/concept/about.html"
+    },
+    {
+      "action": "Swipe left",
+      "active": "scene-nuggets"
+    },
+    {
+      "action": "Swipe right",
+      "active": "scene-meatballs"
+    }
+  ],
+  "logs": []
+}

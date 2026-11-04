@@ -1,0 +1,29 @@
+{
+  "interactions": [
+    {
+      "action": "wrapPrevious",
+      "active": "scene-lulia-mini"
+    },
+    {
+      "action": "wrapNext",
+      "active": "scene-meatballs"
+    },
+    {
+      "action": "End",
+      "active": "scene-lulia-mini"
+    },
+    {
+      "action": "Home",
+      "active": "scene-meatballs"
+    },
+    {
+      "action": "swipeLeft",
+      "active": "scene-nuggets"
+    },
+    {
+      "action": "CTA",
+      "url": "http://127.0.0.1:8765/output/concept/catalogue.html"
+    }
+  ],
+  "console": []
+}

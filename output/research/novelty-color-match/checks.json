@@ -1,0 +1,120 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "mainProducts": 14,
+      "novelties": [
+        {
+          "source": "assets/novelty-packaging/fibriki-pack-v8.webp?v=8ee54e56eb",
+          "loaded": true,
+          "width": 252,
+          "height": 234
+        },
+        {
+          "source": "assets/novelty-packaging/lulia-mini-pack-v3.webp?v=5406742c35",
+          "loaded": true,
+          "width": 252,
+          "height": 234
+        }
+      ],
+      "cardBackgrounds": [
+        "rgb(245, 228, 190)",
+        "rgb(232, 233, 206)"
+      ]
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "mainProducts": 14,
+      "novelties": [
+        {
+          "source": "assets/novelty-packaging/fibriki-pack-v8.webp?v=8ee54e56eb",
+          "loaded": true,
+          "width": 114,
+          "height": 105
+        },
+        {
+          "source": "assets/novelty-packaging/lulia-mini-pack-v3.webp?v=5406742c35",
+          "loaded": true,
+          "width": 114,
+          "height": 105
+        }
+      ],
+      "cardBackgrounds": [
+        "rgb(245, 228, 190)",
+        "rgb(232, 233, 206)"
+      ]
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "mainProducts": 14,
+      "novelties": [
+        {
+          "source": "assets/novelty-packaging/fibriki-pack-v8.webp?v=8ee54e56eb",
+          "loaded": true,
+          "width": 141,
+          "height": 141
+        },
+        {
+          "source": "assets/novelty-packaging/lulia-mini-pack-v3.webp?v=5406742c35",
+          "loaded": true,
+          "width": 141,
+          "height": 141
+        }
+      ],
+      "cardBackgrounds": [
+        "rgb(245, 228, 190)",
+        "rgb(232, 233, 206)"
+      ]
+    },
+    {
+      "width": 320,
+      "documentWidth": 320,
+      "mainProducts": 14,
+      "novelties": [
+        {
+          "source": "assets/novelty-packaging/fibriki-pack-v8.webp?v=8ee54e56eb",
+          "loaded": true,
+          "width": 116,
+          "height": 116
+        },
+        {
+          "source": "assets/novelty-packaging/lulia-mini-pack-v3.webp?v=5406742c35",
+          "loaded": true,
+          "width": 116,
+          "height": 116
+        }
+      ],
+      "cardBackgrounds": [
+        "rgb(245, 228, 190)",
+        "rgb(232, 233, 206)"
+      ]
+    }
+  ],
+  "alpha": {
+    "canvas": [
+      800,
+      800
+    ],
+    "transparentBorder": true
+  },
+  "preservedOtherPackages": true,
+  "fibrikiSelection": true,
+  "errors": [],
+  "packageAlpha": [
+    {
+      "file": "fibriki-pack-v8.webp",
+      "width": 800,
+      "height": 800,
+      "borderAlphaPixels": 0
+    },
+    {
+      "file": "lulia-mini-pack-v3.webp",
+      "width": 800,
+      "height": 800,
+      "borderAlphaPixels": 0
+    }
+  ]
+}

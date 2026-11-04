@@ -1,0 +1,6 @@
+Use case: precise-object-edit.
+Edit target: the attached approved Novoferma shop illustration.
+Make only two changes:
+1. Remove the entire potted plant at the far left: all leaves, branches, pot and its cast shadow. Seamlessly reconstruct the orange wall and cream/sage checker-tile floor that were behind it.
+2. Remove the framed chicken picture on the upper-left orange wall, including the frame and its shadow. Seamlessly continue the existing orange wall texture.
+Preserve everything else as closely as possible: exact chicken identity and expression, beak/eyes/comb/feather ink work, pose and both wings, green-check cream apron, feet and fan tail, freezer shape/position/perspective, open glass door, shelves, all product packages and their labels, orange wall arch, existing lighting and checkerboard floor. Retain the original 1536 x 1024 landscape composition, scale and placement. Do not move or crop the chicken or freezer. Do not add any new decorations, signs, furniture or text. Keep the surrounding background genuinely transparent with the same soft boundary and preserve the interior wall and floor as opaque painted scene surfaces. Keep the approved hand-drawn brand style unchanged.

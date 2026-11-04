@@ -1,0 +1,13 @@
+{
+  "source": "/Users/andrey/Downloads/novoferma_live_design 2.pdf",
+  "artworkSource": "/Users/andrey/Downloads/Новая папка/Фрикадельки классические.png",
+  "assets": [
+    {"file":"hero-reference.webp","width":768,"height":545,"alpha":true,"sourcePage":3,"recommendedBackground":"#ec5812","notes":"PDF composition with edge-connected orange removed. Contains source orange edge light and preserved shadows; intended for matching orange hero."},
+    {"file":"hero-reference-orange.webp","width":768,"height":545,"alpha":false,"sourcePage":3,"background":"#ec5812","notes":"Opaque source crop fallback. Headline fragment removed from top left."},
+    {"file":"pack-nuggets.webp","width":410,"height":345,"alpha":true,"sourcePage":4,"notes":"Traced sleeve and tub silhouette; cream cardboard preserved. No caption text."},
+    {"file":"pack-popcorn.webp","width":410,"height":345,"alpha":true,"sourcePage":4,"notes":"Traced sleeve and tub silhouette; cream cardboard preserved. No caption text."},
+    {"file":"pack-strips.webp","width":410,"height":345,"alpha":true,"sourcePage":4,"notes":"Traced sleeve and tub silhouette; cream cardboard preserved. No caption text."},
+    {"file":"mascot-contact.webp","width":335,"height":548,"alpha":true,"sourcePage":8,"recommendedBackground":"#3e2113","notes":"Contact-page chicken from source PDF. Right and bottom edges intentionally crop character as in source."},
+    {"file":"logo-reference.webp","width":377,"height":76,"alpha":true,"color":"#cd4209","notes":"Same wordmark as PDF, extracted at higher resolution from user-supplied product label and recolored to PDF orange. Current official live-site SVG is an older green identity, so it is not substituted."}
+  ]
+}

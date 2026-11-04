@@ -1,0 +1,80 @@
+[
+  {
+    "complete": true,
+    "headingCount": 1,
+    "height": 900,
+    "naturalHeight": 1200,
+    "naturalWidth": 780,
+    "overflow": false,
+    "posterCount": 1,
+    "sectionHeight": 1180,
+    "sectionWidth": 767,
+    "src": "http://127.0.0.1:8765/output/concept/assets/protein-story/reveal-mobile-v1.webp?v=e7603ad119",
+    "width": 767
+  },
+  {
+    "complete": true,
+    "headingCount": 1,
+    "height": 900,
+    "naturalHeight": 1200,
+    "naturalWidth": 780,
+    "overflow": false,
+    "posterCount": 1,
+    "sectionHeight": 1181.53125,
+    "sectionWidth": 768,
+    "src": "http://127.0.0.1:8765/output/concept/assets/protein-story/reveal-mobile-v1.webp?v=e7603ad119",
+    "width": 768
+  },
+  {
+    "complete": true,
+    "headingCount": 1,
+    "height": 900,
+    "naturalHeight": 1200,
+    "naturalWidth": 780,
+    "overflow": false,
+    "posterCount": 1,
+    "sectionHeight": 1383.0703125,
+    "sectionWidth": 899,
+    "src": "http://127.0.0.1:8765/output/concept/assets/protein-story/reveal-mobile-v1.webp?v=e7603ad119",
+    "width": 899
+  },
+  {
+    "complete": true,
+    "headingCount": 1,
+    "height": 900,
+    "naturalHeight": 824,
+    "naturalWidth": 1909,
+    "overflow": false,
+    "posterCount": 1,
+    "sectionHeight": 388.46875,
+    "sectionWidth": 900,
+    "src": "http://127.0.0.1:8765/output/concept/assets/protein-story/reveal-desktop-v1.webp?v=6227c72445",
+    "width": 900
+  },
+  {
+    "complete": true,
+    "headingCount": 1,
+    "height": 900,
+    "naturalHeight": 824,
+    "naturalWidth": 1909,
+    "overflow": false,
+    "posterCount": 1,
+    "sectionHeight": 441.9921875,
+    "sectionWidth": 1024,
+    "src": "http://127.0.0.1:8765/output/concept/assets/protein-story/reveal-desktop-v1.webp?v=6227c72445",
+    "width": 1024
+  },
+  {
+    "complete": true,
+    "headingCount": 1,
+    "height": 900,
+    "naturalHeight": 1200,
+    "naturalWidth": 780,
+    "overflow": false,
+    "posterCount": 1,
+    "sectionHeight": 492.3046875,
+    "sectionWidth": 320,
+    "src": "http://127.0.0.1:8765/output/concept/assets/protein-story/reveal-mobile-v1.webp?v=e7603ad119",
+    "width": 320
+  }
+]

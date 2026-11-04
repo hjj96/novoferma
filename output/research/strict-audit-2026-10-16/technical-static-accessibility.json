@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "aria_reference_tokens": 43,
+    "duplicate_ids": 0,
+    "controls_without_source_label": 0,
+    "buttons_without_source_name": 0
+  },
+  "issues": [],
+  "limitations": "Source names/reference/label checks, not accessibility-tree, browser or assistive-technology tests."
+}

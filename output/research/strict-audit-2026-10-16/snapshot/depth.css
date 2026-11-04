@@ -1,0 +1,117 @@
+/* Few composed overlaps, each anchored to its own product or editorial scene. */
+#main{overflow-x:clip;overflow-y:visible}
+[data-depth-scene]{position:relative}
+.depth-motion{transform:translate3d(0,var(--depth-y,0px),0) rotate(calc(var(--rest-turn,0deg) + var(--depth-turn,0deg)));transform-origin:center}
+
+/* The complete hero composition crosses the edge as one connected object. */
+.hero{overflow:visible;position:relative;z-index:3}
+.hero-art{pointer-events:none}
+.hero-art .depth-motion{transform:translate3d(0,calc(96px + var(--depth-y,0px)),0) rotate(var(--depth-turn,0deg));transform-origin:65% 60%}
+.tagline{padding-top:88px}
+
+/* Main food scene: an ample cluster, a smaller second plane, a shared diagonal. */
+.protein-section{overflow:visible}
+.protein-inner{padding-bottom:192px}
+.protein-bridge{width:420px;height:290px;right:max(6%,calc((100vw - 1296px)/2 + 90px));bottom:-118px}
+.protein-bridge .bridge-cluster{width:360px;left:0;bottom:0;--rest-turn:-9deg;filter:drop-shadow(4px 18px 12px #27170b30)}
+.protein-bridge .bridge-single{width:155px;right:-35px;top:-8px;--rest-turn:13deg;animation:none;translate:none;rotate:none;filter:drop-shadow(7px 28px 17px #27170b26)}
+.protein-bridge .depth-motion{transform:translate3d(0,var(--depth-y,0px),0) rotate(calc(var(--rest-turn) + var(--depth-turn,0deg)))}
+.protein-section+.serving-section>.section{padding-top:165px}
+
+/* Package faces move independently of their labels, links and sticky figures. */
+[data-tilt]{perspective:1000px}
+.tilt-plane{transform:translate3d(0,var(--tilt-lift,0px),0) rotateX(var(--tilt-x,0deg)) rotateY(var(--tilt-y,0deg)) rotate(var(--pack-turn,0deg));transform-origin:center;transition:transform .5s var(--ease),filter .5s var(--ease)}
+.product-image .tilt-plane{filter:drop-shadow(0 12px 9px #40211113)}
+.product-image:hover .tilt-plane{transform:translate3d(0,var(--tilt-lift,0px),0) rotateX(var(--tilt-x,0deg)) rotateY(var(--tilt-y,0deg)) rotate(var(--pack-turn,0deg));filter:drop-shadow(3px 23px 13px #40211123)}
+.catalogue-grid .product-image{border-radius:3px;background:linear-gradient(145deg,#f8eacf,#efdcbb)}
+.catalogue-grid .product-card:nth-child(3n+2) .product-image{background:linear-gradient(145deg,#f8ebc8,#f0dba6)}
+.product-image:focus-visible .tilt-plane{filter:drop-shadow(0 17px 11px #40211128)}
+.detail-visual{background:linear-gradient(to bottom,transparent 11%,#f3e3c6 11%);padding-top:0;margin-top:25px;isolation:isolate}
+.detail-visual .tilt-plane{--pack-turn:-4deg;filter:drop-shadow(8px 26px 16px #40211126)}
+.detail-visual figcaption{position:relative;z-index:1}
+.product-detail{padding-bottom:118px}
+.related-section{background:#f2e3c8}
+.related-section>.section{padding-top:0;padding-bottom:78px}
+.related-section .section-heading{position:relative;align-items:center;min-height:89px;margin-bottom:22px}
+.related-section .section-heading h2{position:relative;top:-.46em}
+.related-section .section-heading .button{margin-top:20px}
+
+/* Editorial depth on About; cropped mascots stay anchored to their cut edges. */
+.brand-story{overflow:visible;position:relative;z-index:2}
+.story-mascot{max-width:235px;max-height:365px;pointer-events:none}
+.story-mascot,.contacts-mascot{right:calc((100% - 100vw)/2);bottom:0;transform:none;filter:none}
+.brand-story:hover .story-mascot{transform:none}
+.editorial-photo{transform:rotate(-2deg);box-shadow:10px 18px 0 #e7d4b329}
+.editorial-photo figcaption{transform:rotate(4deg);bottom:-15px;box-shadow:0 7px 18px #40211112}
+
+/* One generous nugget marks the transition to the business assortment. */
+.depth-seam{position:absolute;inset:auto 0 0;height:0;z-index:5;pointer-events:none;user-select:none}
+.depth-object{position:absolute;display:block;left:82%;top:0;width:clamp(190px,17vw,245px);aspect-ratio:1;transform:translate(-50%,-50%)}
+.depth-object img{width:100%;height:100%;object-fit:contain;--rest-turn:-17deg;filter:drop-shadow(4px 19px 12px #351c1230)}
+.partner-hero+.section{padding-top:150px}
+
+/* A paper note crosses the contact header. Form and contact data remain still. */
+.contacts-main{overflow:visible;margin-top:63px}
+.contacts-mascot{width:225px;height:340px;pointer-events:none}
+.contacts-bottom{padding-right:205px}
+.contacts-bottom .hand{display:none}
+.contact-columns{max-width:calc(100% - 210px)}
+.contact-heading .hand{position:absolute;right:2%;top:-32px;max-width:none;padding:15px 26px;background:var(--cream);color:var(--brown);font-size:30px;box-shadow:0 9px 24px #24130d20;transform:rotate(5deg);z-index:2}
+
+@media(min-width:700px) and (max-width:1099px){
+ .hero-art .depth-motion{transform:translate3d(0,calc(75px + var(--depth-y,0px)),0) rotate(var(--depth-turn,0deg))}
+ .tagline{padding-top:82px}
+ .protein-inner{padding-bottom:153px}
+ .protein-bridge{width:320px;height:220px;right:9%;bottom:-91px}
+ .protein-bridge .bridge-cluster{width:260px}.protein-bridge .bridge-single{width:112px;right:-30px;top:3px}
+ .protein-section+.serving-section>.section{padding-top:137px}
+ .brand-inner{padding-right:140px}
+ .story-mascot{max-width:170px;max-height:295px}
+ .page-about .brand-inner{grid-template-columns:1fr;gap:28px;padding-right:180px}
+ .page-about .brand-copy{padding-top:0;max-width:465px}
+ .page-about .brand-inner h2{font-size:clamp(45px,6vw,58px)}
+ .contacts-mascot{width:155px;height:255px}
+ .contact-columns{max-width:calc(100% - 105px)}
+ .contacts-bottom{padding-right:135px}
+ .related-section .section-heading h2{font-size:51px}
+}
+@media(max-width:699px){
+ .hero-art .depth-motion{transform:translate3d(0,48px,0)}
+ .tagline{padding-top:68px}
+ .protein-inner{padding-bottom:168px}
+ .protein-bridge{width:274px;height:205px;right:28px;bottom:-86px}
+ .protein-bridge .bridge-cluster{width:254px}
+ .protein-bridge .bridge-single{width:112px;right:-9px;top:-19px}
+ .protein-section+.serving-section>.section{padding-top:123px}
+ .product-image .tilt-plane{filter:drop-shadow(0 7px 5px #40211115)}
+ .brand-inner{padding-right:0}.brand-copy{width:69%}
+ .story-mascot{max-width:118px;max-height:210px}
+ .editorial-photo{transform:rotate(-1.5deg);margin-inline:4px}
+ .editorial-photo figcaption{bottom:-12px}
+ .depth-object{left:80%;top:5px;width:151px}
+ .depth-object img{filter:drop-shadow(2px 13px 8px #351c122b)}
+ .partner-hero{padding-bottom:73px}
+ .partner-hero+.section{padding-top:104px}
+ .detail-visual{margin-top:8px;padding-top:0;background:linear-gradient(to bottom,transparent 13%,#f3e3c6 13%)}
+ .detail-visual .tilt-plane{--pack-turn:-3deg;filter:drop-shadow(4px 15px 9px #40211124)}
+ .product-detail{padding-bottom:88px}
+ .related-section>.section{padding-bottom:53px}
+ .related-section .section-heading{display:block;margin-bottom:20px;min-height:0}
+ .related-section .section-heading h2{font-size:clamp(33px,9vw,49px);top:-.49em}
+ .related-section .section-heading .button{margin-top:-3px}
+ .contacts-main{margin-top:55px}.contacts-main>.wrap{padding-top:67px}
+ .contact-heading .hand{top:-28px;right:4%;margin:0;font-size:23px;padding:12px 18px}
+ .contacts-mascot{width:106px;height:174px}
+ .contact-columns{max-width:100%}.contact-columns>div{padding-right:0}
+ .contacts-bottom{padding-right:85px}.requisites{padding-top:56px}
+}
+@media(max-width:359px){
+ .protein-bridge{width:246px;right:24px}.protein-bridge .bridge-cluster{width:235px}
+ .protein-bridge .bridge-single{width:100px;right:-8px;top:-15px}
+ .depth-object{width:138px;left:78%}
+}
+@media(prefers-reduced-motion:reduce){
+ .depth-motion{--depth-y:0px!important;--depth-turn:0deg!important}
+ .tilt-plane{--tilt-x:0deg!important;--tilt-y:0deg!important;--tilt-lift:0px!important}
+ .bridge-single{animation:none!important;translate:none!important;rotate:none!important}
+}

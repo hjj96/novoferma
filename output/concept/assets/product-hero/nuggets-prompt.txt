@@ -1,0 +1,7 @@
+Use case: background-extraction
+Asset type: transparent website hero cutout for Novoferma product slider.
+Input image: edit target — supplied nuggets hero, preserve its original subjects closely.
+Primary request: Extract the food and cartoon chicken group from this image onto a genuinely transparent background. Preserve the same five crispy chicken nugget pieces (including the two broken halves with visible white chicken center), white cup of red ketchup, scattered golden crumbs, parsley, and the exact friendly orange cartoon chicken with white-and-green checked apron and running pose. Preserve the original subject appearance, color, texture, expression, pose, proportions and relative food arrangement around the chicken.
+Remove all writing of every kind: product headline, body copy, all handwritten labels, logo, navigation and buttons. Also remove all decorative orange marks/hearts/strokes, the entire orange ground mound and cream page background, and brown ground shadows and small motion clouds. The only visible pixels should belong to the original food, ketchup cup, parsley, crumbs and mascot.
+Composition/framing: crop and position the retained central/right subject group as a compact wide near-square composition (approximately 1.2:1), minimal transparent margins. Keep all food pieces and the chicken completely visible; do not overlap or clip them.
+Constraints: real alpha transparency. No background, no ground, no words, no typography, no logos, no labels, no watermarks. Do not redesign the mascot, do not replace food, do not add new elements.

@@ -1,0 +1,55 @@
+{
+  "interactions": [
+    {
+      "action": "next",
+      "active": "scene-meatballs"
+    },
+    {
+      "action": "previous",
+      "active": "scene-protein"
+    },
+    {
+      "action": "End",
+      "active": "scene-lulia-mini"
+    },
+    {
+      "action": "Home",
+      "active": "scene-protein"
+    },
+    {
+      "action": "swipeLeft",
+      "active": "scene-meatballs"
+    },
+    {
+      "action": "catalogueCTA",
+      "url": "http://127.0.0.1:8765/output/concept/catalogue.html"
+    }
+  ],
+  "catalogue": {
+    "cards": 14,
+    "grid": "167px 167px",
+    "overflow": false,
+    "search": {
+      "bottom": 286.484375,
+      "height": 47,
+      "left": 20,
+      "right": 370,
+      "top": 239.484375,
+      "width": 350,
+      "x": 20,
+      "y": 239.484375
+    },
+    "width": 390
+  },
+  "console": [],
+  "lowerCornerClick700": "catalogue.html",
+  "finalPreview": {
+    "viewport": [
+      1384,
+      988
+    ],
+    "scrollY": 0,
+    "active": "scene-protein",
+    "overrideReset": true
+  }
+}

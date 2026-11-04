@@ -1,0 +1,534 @@
+{
+  "request": "Уточнить цвет новинок относительно существующей линейки и их вид на сайте",
+  "mode": "Built-in ImageGen edits",
+  "before": [
+    {
+      "name": "Котлеты куриные",
+      "kind": "reference",
+      "file": "output/concept/assets/catalogue-clean-v2/kotlety-kurinye.webp",
+      "paper": {
+        "pixels": 3750,
+        "rgb": [
+          242,
+          226,
+          197
+        ]
+      },
+      "logo": {
+        "pixels": 2157,
+        "rgb": [
+          251,
+          116,
+          6
+        ]
+      },
+      "type": {
+        "pixels": 8231,
+        "rgb": [
+          106,
+          64,
+          9
+        ]
+      }
+    },
+    {
+      "name": "Биточки куриные с овощами",
+      "kind": "reference",
+      "file": "output/concept/assets/catalogue-clean-v2/bitochki-kurinye-s-ovoshchami.webp",
+      "paper": {
+        "pixels": 3145,
+        "rgb": [
+          240,
+          226,
+          201
+        ]
+      },
+      "logo": {
+        "pixels": 2186,
+        "rgb": [
+          251,
+          117,
+          6
+        ]
+      },
+      "type": {
+        "pixels": 9640,
+        "rgb": [
+          88,
+          55,
+          13
+        ]
+      }
+    },
+    {
+      "name": "Ёжики из цыпленка с рисом",
+      "kind": "reference",
+      "file": "output/concept/assets/catalogue-clean-v2/ezhiki-iz-tsyplenka-s-risom.webp",
+      "paper": {
+        "pixels": 3671,
+        "rgb": [
+          237,
+          223,
+          197
+        ]
+      },
+      "logo": {
+        "pixels": 2121,
+        "rgb": [
+          248,
+          114,
+          10
+        ]
+      },
+      "type": {
+        "pixels": 7992,
+        "rgb": [
+          113,
+          62,
+          20
+        ]
+      }
+    },
+    {
+      "name": "Куриный попкорн",
+      "kind": "reference",
+      "file": "output/concept/assets/catalogue-clean-v2/kurinyj-popkorn.webp",
+      "paper": {
+        "pixels": 3750,
+        "rgb": [
+          240,
+          227,
+          199
+        ]
+      },
+      "logo": {
+        "pixels": 2191,
+        "rgb": [
+          251,
+          108,
+          5
+        ]
+      },
+      "type": {
+        "pixels": 7043,
+        "rgb": [
+          93,
+          62,
+          15
+        ]
+      }
+    },
+    {
+      "name": "Наггетсы куриные",
+      "kind": "reference",
+      "file": "output/concept/assets/catalogue-clean-v2/naggetsy-kurinye.webp",
+      "paper": {
+        "pixels": 3750,
+        "rgb": [
+          243,
+          224,
+          190
+        ]
+      },
+      "logo": {
+        "pixels": 2136,
+        "rgb": [
+          250,
+          123,
+          6
+        ]
+      },
+      "type": {
+        "pixels": 8182,
+        "rgb": [
+          90,
+          62,
+          4
+        ]
+      }
+    },
+    {
+      "name": "Наггетсы куриные с сыром",
+      "kind": "reference",
+      "file": "output/concept/assets/catalogue-clean-v2/naggetsy-kurinye-s-syrom.webp",
+      "paper": {
+        "pixels": 3577,
+        "rgb": [
+          237,
+          222,
+          200
+        ]
+      },
+      "logo": {
+        "pixels": 2471,
+        "rgb": [
+          235,
+          109,
+          3
+        ]
+      },
+      "type": {
+        "pixels": 8535,
+        "rgb": [
+          106,
+          69,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Наггетсы куриные «Динозавры»",
+      "kind": "reference",
+      "file": "output/concept/assets/catalogue-clean-v2/naggetsy-dinozavry.webp",
+      "paper": {
+        "pixels": 3441,
+        "rgb": [
+          236,
+          220,
+          195
+        ]
+      },
+      "logo": {
+        "pixels": 2292,
+        "rgb": [
+          240,
+          103,
+          13
+        ]
+      },
+      "type": {
+        "pixels": 6269,
+        "rgb": [
+          90,
+          56,
+          11
+        ]
+      }
+    },
+    {
+      "name": "Наггетсы куриные острые",
+      "kind": "reference",
+      "file": "output/concept/assets/catalogue-clean-v2/naggetsy-ostrye.webp",
+      "paper": {
+        "pixels": 3750,
+        "rgb": [
+          238,
+          224,
+          197
+        ]
+      },
+      "logo": {
+        "pixels": 2301,
+        "rgb": [
+          248,
+          135,
+          5
+        ]
+      },
+      "type": {
+        "pixels": 8139,
+        "rgb": [
+          113,
+          79,
+          9
+        ]
+      }
+    },
+    {
+      "name": "Наггетсы с индейкой «Фитнес»",
+      "kind": "reference",
+      "file": "output/concept/assets/catalogue-clean-v2/naggetsy-s-indeykoy-fitnes.webp",
+      "paper": {
+        "pixels": 1286,
+        "rgb": [
+          240,
+          223,
+          193
+        ]
+      },
+      "logo": {
+        "pixels": 2317,
+        "rgb": [
+          241,
+          105,
+          6
+        ]
+      },
+      "type": {
+        "pixels": 0,
+        "rgb": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "name": "Стрипсы",
+      "kind": "reference",
+      "file": "output/concept/assets/catalogue-clean-v2/stripsy.webp",
+      "paper": {
+        "pixels": 2566,
+        "rgb": [
+          240,
+          223,
+          194
+        ]
+      },
+      "logo": {
+        "pixels": 2449,
+        "rgb": [
+          251,
+          107,
+          6
+        ]
+      },
+      "type": {
+        "pixels": 8638,
+        "rgb": [
+          88,
+          60,
+          4
+        ]
+      }
+    },
+    {
+      "name": "Котлеты по-домашнему",
+      "kind": "reference",
+      "file": "output/concept/assets/catalogue-clean-v2/kotlety-po-domashnemu.webp",
+      "paper": {
+        "pixels": 3750,
+        "rgb": [
+          237,
+          221,
+          192
+        ]
+      },
+      "logo": {
+        "pixels": 2147,
+        "rgb": [
+          250,
+          138,
+          7
+        ]
+      },
+      "type": {
+        "pixels": 8150,
+        "rgb": [
+          94,
+          66,
+          19
+        ]
+      }
+    },
+    {
+      "name": "Котлеты пикантные",
+      "kind": "reference",
+      "file": "output/concept/assets/catalogue-clean-v2/kotlety-pikantnye.webp",
+      "paper": {
+        "pixels": 3750,
+        "rgb": [
+          239,
+          224,
+          198
+        ]
+      },
+      "logo": {
+        "pixels": 2232,
+        "rgb": [
+          246,
+          105,
+          5
+        ]
+      },
+      "type": {
+        "pixels": 8243,
+        "rgb": [
+          96,
+          66,
+          15
+        ]
+      }
+    },
+    {
+      "name": "Котлеты по-итальянски",
+      "kind": "reference",
+      "file": "output/concept/assets/catalogue-clean-v2/kotlety-po-italyanski.webp",
+      "paper": {
+        "pixels": 3750,
+        "rgb": [
+          237,
+          220,
+          189
+        ]
+      },
+      "logo": {
+        "pixels": 2303,
+        "rgb": [
+          251,
+          101,
+          5
+        ]
+      },
+      "type": {
+        "pixels": 8193,
+        "rgb": [
+          91,
+          64,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Фрикадельки «Классические»",
+      "kind": "reference",
+      "file": "output/concept/assets/catalogue-clean-v2/frikadelki-klassicheskie.webp",
+      "paper": {
+        "pixels": 3750,
+        "rgb": [
+          240,
+          226,
+          199
+        ]
+      },
+      "logo": {
+        "pixels": 2451,
+        "rgb": [
+          244,
+          83,
+          3
+        ]
+      },
+      "type": {
+        "pixels": 8157,
+        "rgb": [
+          100,
+          62,
+          17
+        ]
+      }
+    },
+    {
+      "name": "Фибрики v6",
+      "kind": "before",
+      "file": "output/concept/assets/novelty-packaging/fibriki-pack-v6.webp",
+      "paper": {
+        "pixels": 3750,
+        "rgb": [
+          231,
+          220,
+          203
+        ]
+      },
+      "logo": {
+        "pixels": 2629,
+        "rgb": [
+          250,
+          30,
+          4
+        ]
+      },
+      "type": {
+        "pixels": 9019,
+        "rgb": [
+          76,
+          37,
+          3
+        ]
+      }
+    },
+    {
+      "name": "Люля мини v2",
+      "kind": "before",
+      "file": "output/concept/assets/novelty-packaging/lulia-mini-pack-v2.webp",
+      "paper": {
+        "pixels": 3750,
+        "rgb": [
+          233,
+          217,
+          192
+        ]
+      },
+      "logo": {
+        "pixels": 2244,
+        "rgb": [
+          249,
+          106,
+          5
+        ]
+      },
+      "type": {
+        "pixels": 10104,
+        "rgb": [
+          102,
+          65,
+          19
+        ]
+      }
+    }
+  ],
+  "after": [
+    {
+      "name": "Фибрики",
+      "file": "output/concept/assets/novelty-packaging/fibriki-pack-v8.webp",
+      "paper": {
+        "pixels": 3750,
+        "rgb": [
+          239,
+          225,
+          202
+        ]
+      },
+      "logo": {
+        "pixels": 2659,
+        "rgb": [
+          250,
+          67,
+          5
+        ]
+      },
+      "type": {
+        "pixels": 8962,
+        "rgb": [
+          92,
+          51,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Люля мини",
+      "file": "output/concept/assets/novelty-packaging/lulia-mini-pack-v3.webp",
+      "paper": {
+        "pixels": 3750,
+        "rgb": [
+          239,
+          225,
+          197
+        ]
+      },
+      "logo": {
+        "pixels": 2253,
+        "rgb": [
+          250,
+          108,
+          5
+        ]
+      },
+      "type": {
+        "pixels": 10234,
+        "rgb": [
+          103,
+          65,
+          19
+        ]
+      }
+    }
+  ],
+  "sitePalette": {
+    "fibriki": "#f5e4be",
+    "lulia-mini": "#e8e9ce"
+  },
+  "note": "Pixel medians describe selected comparable regions, not flat fills or claims of pixel-identical editing. Approved subjects and layout were visually checked. Generative editing may introduce minor texture differences.",
+  "comparison": "output/research/novelty-color-match/family-lineup.png"
+}

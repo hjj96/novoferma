@@ -1,0 +1,19 @@
+Tool: built-in image_gen.imagegen
+Source: Изображение ChatGPT 8 окт. 2026 г., 11_21_07.jpg
+Final asset: fibriki-title.png
+
+Selected extraction prompt:
+Use case: background-extraction.
+Asset type: standalone transparent mobile website title graphic.
+Input image: the original full Fibriki hero reference is the edit target.
+Primary request: extract ONLY the existing enormous dark-brown headline «ФИБРИКИ» from the left/middle of this image. Keep the exact original seven letterforms and all their original heavy, slightly irregular, tightly spaced/compressed playful poster shapes. Preserve original outlines, proportions, thickness, dark-brown color, relative sizes, alignment, and kerning. Do not typeset, redraw, reinterpret, beautify, or redesign the typography.
+Exact title spelling: ФИБРИКИ (seven Cyrillic letters: Ф, И, Б, Р, И, К, И). Every letter must be entirely visible.
+Composition: one single horizontal line, same original baseline and relative positions, centered on a wide shallow canvas with tight fully transparent padding about 4% around the whole title. Aspect ratio should follow the extracted original word, approximately 4.5–5:1. No large empty space. Do not split the word into lines or crop its endpoints.
+Scene/background: genuine transparent RGBA background, no baked-in white, cream, black or checkerboard backdrop.
+Remove everything except that exact original giant brown word: no food, chicken, parsley, logo, navigation, buttons, orange brush, description, other words, orange energy strokes, handwritten lettering, hearts, shadows, hill, or paper texture. No new marks or decorations. Keep only the original «ФИБРИКИ» lettering.
+
+Inspection:
+2056 × 765 pixels, RGBA. Exact spelling ФИБРИКИ, all seven Cyrillic letters fully visible in one horizontal line. Original heavy irregular compressed poster lettering preserved visually. All other subjects and decorations removed. Alpha extrema 0–255; fully transparent pixels 61.90%; visible alpha bounds (>10): [52, 200, 1991, 571]. Output has extra transparent vertical padding; CSS framing may use the visible alpha bounds.
+
+A targeted follow-up margin edit was attempted before the parent's stop instruction arrived; it did not reduce canvas height and was not selected. The final saved image is the first inspected extraction with the bounds above.
+

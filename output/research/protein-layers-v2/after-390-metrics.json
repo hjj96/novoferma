@@ -1,0 +1,70 @@
+{
+  "caption": {
+    "bottom": 430.194580078125,
+    "height": 67.60791015625,
+    "left": 163.39773559570312,
+    "right": 259.4382019042969,
+    "top": 362.586669921875,
+    "width": 96.04046630859376,
+    "x": 163.39773559570312,
+    "y": 362.586669921875
+  },
+  "captionGap": 12.125732421875,
+  "description": {
+    "bottom": 350.4609375,
+    "height": 73.4296875,
+    "left": 30.0234375,
+    "right": 359.9765625,
+    "top": 277.03125,
+    "width": 329.953125,
+    "x": 30.0234375,
+    "y": 277.03125
+  },
+  "documentOverflow": false,
+  "font": "\"Novoferma Protein\", \"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+  "fontLoaded": true,
+  "fontSize": "99.45px",
+  "hiddenCopy": 0,
+  "images": [
+    {
+      "complete": true,
+      "naturalHeight": 1086,
+      "naturalWidth": 1448,
+      "src": "assets/protein-story/nuggets-layer-v2.webp?v=a648c271e1"
+    },
+    {
+      "complete": true,
+      "naturalHeight": 1254,
+      "naturalWidth": 1254,
+      "src": "assets/protein-story/hen-layer-v2.webp?v=bd32bcefd0"
+    }
+  ],
+  "liveText": "02 / ЗАГЛЯНЕМ ВНУТРЬ\n\nВ ОСНОВЕ —\nПТИЦА.\n\nКурица и индейка — природные источники белка. Мы делаем из них то, что вы любите.\n\nВот что\nвнутри!",
+  "pageY": 1544.5625,
+  "scrollY": 1519.5,
+  "section": {
+    "bottom": 663.6171875,
+    "height": 638.5546875,
+    "left": 0,
+    "right": 390,
+    "top": 25.0625,
+    "width": 390,
+    "x": 0,
+    "y": 25.0625
+  },
+  "title": {
+    "bottom": 257.53125,
+    "height": 155.4453125,
+    "left": 30.0234375,
+    "right": 359.9765625,
+    "top": 102.0859375,
+    "width": 329.953125,
+    "x": 30.0234375,
+    "y": 102.0859375
+  },
+  "viewport": [
+    390,
+    844
+  ],
+  "wholePoster": false
+}

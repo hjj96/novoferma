@@ -1,0 +1,26 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "cardCount": 16,
+      "source": "assets/novelty-packaging/fibriki-pack-v10.webp?v=495de4333a",
+      "loaded": true,
+      "link": "product-fibriki.html"
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "cardCount": 16,
+      "source": "assets/novelty-packaging/fibriki-pack-v10.webp?v=495de4333a",
+      "loaded": true,
+      "link": "product-fibriki.html"
+    }
+  ],
+  "canvas": [
+    800,
+    800
+  ],
+  "transparentBorder": true,
+  "errors": []
+}

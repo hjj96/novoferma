@@ -1,0 +1,4847 @@
+{
+  "date": "2026-09-24T10:26:19.730Z",
+  "scope": "Home cleanup only: 7 widths x normal/reduced motion; no mutations",
+  "hashes": {
+    "index.html": "2caa163a9937cb1a0dc251433847f0ad450e41a16608a3f8ecf55979378ab517",
+    "style.css": "563159403d3064eb224ddee44cfc8b8dab4a52272250183a0eff5a00a1cf8494",
+    "script.js": "2388bb671ea2085e1ef3021f6402bf2bf8e0948f2aabdb95eac02341d0766358",
+    "assets/meatball-cluster.webp": "f8f8be736798a041f29d77d68efa42a4000e85c33c1a11a56f3edceb73f3bd90",
+    "assets/meatball-float.webp": "6b7b21f0963cd06ae2c464deccf74e29eefdb074b13b1cb6126115e80401f077"
+  },
+  "passes": [
+    {
+      "width": 320,
+      "reduced": false,
+      "failures": [],
+      "errors": [],
+      "layout": {
+        "docWidth": 320,
+        "viewport": 320,
+        "h1": 1,
+        "fonts": [
+          {
+            "family": "Novoferma Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Novoferma Hand",
+            "status": "loaded"
+          }
+        ],
+        "brokenImages": [],
+        "boxes": {
+          ".protein-section": {
+            "x": 0,
+            "y": 88.5,
+            "w": 320,
+            "h": 797.125,
+            "right": 320,
+            "bottom": 885.625,
+            "scrollWidth": 320,
+            "clientWidth": 320
+          },
+          ".protein-inner": {
+            "x": 16,
+            "y": 88.5,
+            "w": 288,
+            "h": 797.125,
+            "right": 304,
+            "bottom": 885.625,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          ".protein-copy": {
+            "x": 16,
+            "y": 135.5,
+            "w": 288,
+            "h": 209.84375,
+            "right": 304,
+            "bottom": 345.34375,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          ".protein-word": {
+            "x": 16,
+            "y": 185.5,
+            "w": 288,
+            "h": 77.84375,
+            "right": 304,
+            "bottom": 263.34375,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          ".protein-hand": {
+            "x": 17.181406021118164,
+            "y": 293.17523193359375,
+            "w": 124.29344940185547,
+            "h": 57.3370361328125,
+            "right": 141.47485542297363,
+            "bottom": 350.51226806640625,
+            "scrollWidth": 121,
+            "clientWidth": 121
+          },
+          ".protein-story": {
+            "x": 16,
+            "y": 393.3577575683594,
+            "w": 288,
+            "h": 354.2812805175781,
+            "right": 304,
+            "bottom": 747.6390380859375,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          ".protein-story h3": {
+            "x": 16,
+            "y": 393.3577575683594,
+            "w": 288,
+            "h": 69.28125,
+            "right": 304,
+            "bottom": 462.6390075683594,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          ".protein-story .button": {
+            "x": 16,
+            "y": 694.6390380859375,
+            "w": 222.515625,
+            "h": 53,
+            "right": 238.515625,
+            "bottom": 747.6390380859375,
+            "scrollWidth": 221,
+            "clientWidth": 221
+          },
+          ".protein-bridge": {
+            "x": 65,
+            "y": 791.625,
+            "w": 220,
+            "h": 150,
+            "right": 285,
+            "bottom": 941.625,
+            "scrollWidth": 241,
+            "clientWidth": 220
+          },
+          ".bridge-cluster": {
+            "x": 54.445281982421875,
+            "y": 792.3320922851562,
+            "w": 186.10943603515625,
+            "h": 162.5858154296875,
+            "right": 240.55471801757812,
+            "bottom": 954.9179077148438,
+            "scrollWidth": 165,
+            "clientWidth": 165
+          },
+          ".bridge-single": {
+            "x": 216.4716339111328,
+            "y": 783.0966186523438,
+            "w": 89.05674743652344,
+            "h": 89.0567626953125,
+            "right": 305.52838134765625,
+            "bottom": 872.1533813476562,
+            "scrollWidth": 72,
+            "clientWidth": 72
+          },
+          ".serving-section": {
+            "x": 0,
+            "y": 885.625,
+            "w": 320,
+            "h": 988.28125,
+            "right": 320,
+            "bottom": 1873.90625,
+            "scrollWidth": 320,
+            "clientWidth": 320
+          },
+          ".serving-section .section-heading": {
+            "x": 16,
+            "y": 1012.625,
+            "w": 288,
+            "h": 180.65625,
+            "right": 304,
+            "bottom": 1193.28125,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          ".serving-section .section-heading h2": {
+            "x": 16,
+            "y": 1047.625,
+            "w": 288,
+            "h": 85.65625,
+            "right": 304,
+            "bottom": 1133.28125,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          }
+        },
+        "textBoxes": [
+          {
+            "text": "02 / в основе — мясо птицы",
+            "tag": "P",
+            "cls": "eyebrow",
+            "x": 16,
+            "y": 136.5,
+            "w": 195.015625,
+            "h": 13,
+            "right": 211.015625,
+            "bottom": 149.5
+          },
+          {
+            "text": "На каждый день.С удовольствием.",
+            "tag": "H3",
+            "cls": "",
+            "x": 16,
+            "y": 389.3577575683594,
+            "w": 277.09375,
+            "h": 76.640625,
+            "right": 293.09375,
+            "bottom": 465.9983825683594
+          },
+          {
+            "text": "Курица и индейка — природные источники белка. Он помогает поддерживать мышцы и важен в повседневном рационе.",
+            "tag": "P",
+            "cls": "",
+            "x": 16,
+            "y": 487.6390075683594,
+            "w": 234.625,
+            "h": 92.00003051757812,
+            "right": 250.625,
+            "bottom": 579.6390380859375
+          },
+          {
+            "text": "А мы делаем из птицы то, что вы любите: фрикадельки, наггетсы и не только.",
+            "tag": "P",
+            "cls": "",
+            "x": 16,
+            "y": 599.6390380859375,
+            "w": 262.421875,
+            "h": 68,
+            "right": 278.421875,
+            "bottom": 667.6390380859375
+          },
+          {
+            "text": "Выбрать свой вкус↗",
+            "tag": "A",
+            "cls": "button button-dark",
+            "x": 43,
+            "y": 707.6390380859375,
+            "w": 168.515625,
+            "h": 26,
+            "right": 211.515625,
+            "bottom": 733.6390380859375
+          },
+          {
+            "text": "На вечер есть план.",
+            "tag": "H2",
+            "cls": "",
+            "x": 16,
+            "y": 1041.625,
+            "w": 197.703125,
+            "h": 96.828125,
+            "right": 213.703125,
+            "bottom": 1138.453125
+          },
+          {
+            "text": "Хорошо сидим! ",
+            "tag": "P",
+            "cls": "hand ",
+            "x": 124.62327575683594,
+            "y": 1147.69921875,
+            "w": 170.7134552001953,
+            "h": 46.875244140625,
+            "right": 295.33673095703125,
+            "bottom": 1194.574462890625
+          }
+        ],
+        "artBoxes": [
+          {
+            "s": ".bridge-cluster",
+            "x": 54.445281982421875,
+            "y": 792.3320922851562,
+            "w": 186.10943603515625,
+            "h": 162.5858154296875,
+            "right": 240.55471801757812,
+            "bottom": 954.9179077148438,
+            "scrollWidth": 165,
+            "clientWidth": 165
+          },
+          {
+            "s": ".bridge-single",
+            "x": 216.4716339111328,
+            "y": 783.0966186523438,
+            "w": 89.05674743652344,
+            "h": 89.0567626953125,
+            "right": 305.52838134765625,
+            "bottom": 872.1533813476562,
+            "scrollWidth": 72,
+            "clientWidth": 72
+          }
+        ],
+        "artTextOverlaps": [],
+        "homeMeta": 0,
+        "homeCards": [
+          {
+            "name": "наггетсы куриные",
+            "visible": true,
+            "title": "Наггетсы"
+          },
+          {
+            "name": "куриный попкорн",
+            "visible": true,
+            "title": "Попкорн"
+          },
+          {
+            "name": "стрипсы",
+            "visible": false,
+            "title": "Стрипсы"
+          }
+        ],
+        "servingNumber": false,
+        "servingFinePrint": false,
+        "reduced": {
+          "animations": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "scroll": "smooth",
+          "transitions": [
+            {
+              "cls": "protein-copy reveal is-prepared is-visible",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "protein-story reveal is-prepared is-visible",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "button button-dark",
+              "duration": "0.2s, 0.25s, 0.25s"
+            },
+            {
+              "cls": "",
+              "duration": "0.25s"
+            },
+            {
+              "cls": "section-heading reveal is-prepared",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "",
+              "duration": "0.18s"
+            },
+            {
+              "cls": "button button-cream",
+              "duration": "0.2s, 0.25s, 0.25s"
+            },
+            {
+              "cls": "",
+              "duration": "0.25s"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "tabs": [
+          {
+            "key": "dinner",
+            "src": "assets/serving-dinner-crop.webp",
+            "loaded": true,
+            "link": "product-stripsy.html",
+            "labelledby": "tab-dinner",
+            "selected": "true"
+          },
+          {
+            "key": "movie",
+            "src": "assets/serving-movie-crop.webp",
+            "loaded": true,
+            "link": "product-naggetsy-kurinye.html",
+            "labelledby": "tab-movie",
+            "selected": "true"
+          },
+          {
+            "key": "company",
+            "src": "assets/serving-company-crop.webp",
+            "loaded": true,
+            "link": "catalogue.html",
+            "labelledby": "tab-company",
+            "selected": "true"
+          }
+        ],
+        "keyboard": true,
+        "menuOpen": true,
+        "menuClose": true,
+        "catalogueRoute": true
+      },
+      "issues": []
+    },
+    {
+      "width": 320,
+      "reduced": true,
+      "failures": [],
+      "errors": [],
+      "layout": {
+        "docWidth": 320,
+        "viewport": 320,
+        "h1": 1,
+        "fonts": [
+          {
+            "family": "Novoferma Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Novoferma Hand",
+            "status": "loaded"
+          }
+        ],
+        "brokenImages": [],
+        "boxes": {
+          ".protein-section": {
+            "x": 0,
+            "y": 88.5,
+            "w": 320,
+            "h": 797.125,
+            "right": 320,
+            "bottom": 885.625,
+            "scrollWidth": 320,
+            "clientWidth": 320
+          },
+          ".protein-inner": {
+            "x": 16,
+            "y": 88.5,
+            "w": 288,
+            "h": 797.125,
+            "right": 304,
+            "bottom": 885.625,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          ".protein-copy": {
+            "x": 16,
+            "y": 135.5,
+            "w": 288,
+            "h": 209.84375,
+            "right": 304,
+            "bottom": 345.34375,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          ".protein-word": {
+            "x": 16,
+            "y": 185.5,
+            "w": 288,
+            "h": 77.84375,
+            "right": 304,
+            "bottom": 263.34375,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          ".protein-hand": {
+            "x": 17.181406021118164,
+            "y": 293.17523193359375,
+            "w": 124.29344940185547,
+            "h": 57.3370361328125,
+            "right": 141.47485542297363,
+            "bottom": 350.51226806640625,
+            "scrollWidth": 121,
+            "clientWidth": 121
+          },
+          ".protein-story": {
+            "x": 16,
+            "y": 393.34375,
+            "w": 288,
+            "h": 354.28125,
+            "right": 304,
+            "bottom": 747.625,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          ".protein-story h3": {
+            "x": 16,
+            "y": 393.34375,
+            "w": 288,
+            "h": 69.28125,
+            "right": 304,
+            "bottom": 462.625,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          ".protein-story .button": {
+            "x": 16,
+            "y": 694.625,
+            "w": 222.515625,
+            "h": 53,
+            "right": 238.515625,
+            "bottom": 747.625,
+            "scrollWidth": 221,
+            "clientWidth": 221
+          },
+          ".protein-bridge": {
+            "x": 65,
+            "y": 791.625,
+            "w": 220,
+            "h": 150,
+            "right": 285,
+            "bottom": 941.625,
+            "scrollWidth": 241,
+            "clientWidth": 220
+          },
+          ".bridge-cluster": {
+            "x": 54.445281982421875,
+            "y": 792.3320922851562,
+            "w": 186.10943603515625,
+            "h": 162.5858154296875,
+            "right": 240.55471801757812,
+            "bottom": 954.9179077148438,
+            "scrollWidth": 165,
+            "clientWidth": 165
+          },
+          ".bridge-single": {
+            "x": 216.4716339111328,
+            "y": 783.0966186523438,
+            "w": 89.05674743652344,
+            "h": 89.0567626953125,
+            "right": 305.52838134765625,
+            "bottom": 872.1533813476562,
+            "scrollWidth": 72,
+            "clientWidth": 72
+          },
+          ".serving-section": {
+            "x": 0,
+            "y": 885.625,
+            "w": 320,
+            "h": 988.28125,
+            "right": 320,
+            "bottom": 1873.90625,
+            "scrollWidth": 320,
+            "clientWidth": 320
+          },
+          ".serving-section .section-heading": {
+            "x": 16,
+            "y": 990.625,
+            "w": 288,
+            "h": 180.65625,
+            "right": 304,
+            "bottom": 1171.28125,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          ".serving-section .section-heading h2": {
+            "x": 16,
+            "y": 1025.625,
+            "w": 288,
+            "h": 85.65625,
+            "right": 304,
+            "bottom": 1111.28125,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          }
+        },
+        "textBoxes": [
+          {
+            "text": "02 / в основе — мясо птицы",
+            "tag": "P",
+            "cls": "eyebrow",
+            "x": 16,
+            "y": 136.5,
+            "w": 195.015625,
+            "h": 13,
+            "right": 211.015625,
+            "bottom": 149.5
+          },
+          {
+            "text": "На каждый день.С удовольствием.",
+            "tag": "H3",
+            "cls": "",
+            "x": 16,
+            "y": 389.34375,
+            "w": 277.09375,
+            "h": 76.640625,
+            "right": 293.09375,
+            "bottom": 465.984375
+          },
+          {
+            "text": "Курица и индейка — природные источники белка. Он помогает поддерживать мышцы и важен в повседневном рационе.",
+            "tag": "P",
+            "cls": "",
+            "x": 16,
+            "y": 487.625,
+            "w": 234.625,
+            "h": 92,
+            "right": 250.625,
+            "bottom": 579.625
+          },
+          {
+            "text": "А мы делаем из птицы то, что вы любите: фрикадельки, наггетсы и не только.",
+            "tag": "P",
+            "cls": "",
+            "x": 16,
+            "y": 599.625,
+            "w": 262.421875,
+            "h": 68,
+            "right": 278.421875,
+            "bottom": 667.625
+          },
+          {
+            "text": "Выбрать свой вкус↗",
+            "tag": "A",
+            "cls": "button button-dark",
+            "x": 43,
+            "y": 707.625,
+            "w": 168.515625,
+            "h": 26,
+            "right": 211.515625,
+            "bottom": 733.625
+          },
+          {
+            "text": "На вечер есть план.",
+            "tag": "H2",
+            "cls": "",
+            "x": 16,
+            "y": 1019.625,
+            "w": 197.703125,
+            "h": 96.828125,
+            "right": 213.703125,
+            "bottom": 1116.453125
+          },
+          {
+            "text": "Хорошо сидим! ",
+            "tag": "P",
+            "cls": "hand ",
+            "x": 124.62327575683594,
+            "y": 1125.69921875,
+            "w": 170.7134552001953,
+            "h": 46.875244140625,
+            "right": 295.33673095703125,
+            "bottom": 1172.574462890625
+          }
+        ],
+        "artBoxes": [
+          {
+            "s": ".bridge-cluster",
+            "x": 54.445281982421875,
+            "y": 792.3320922851562,
+            "w": 186.10943603515625,
+            "h": 162.5858154296875,
+            "right": 240.55471801757812,
+            "bottom": 954.9179077148438,
+            "scrollWidth": 165,
+            "clientWidth": 165
+          },
+          {
+            "s": ".bridge-single",
+            "x": 216.4716339111328,
+            "y": 783.0966186523438,
+            "w": 89.05674743652344,
+            "h": 89.0567626953125,
+            "right": 305.52838134765625,
+            "bottom": 872.1533813476562,
+            "scrollWidth": 72,
+            "clientWidth": 72
+          }
+        ],
+        "artTextOverlaps": [],
+        "homeMeta": 0,
+        "homeCards": [
+          {
+            "name": "наггетсы куриные",
+            "visible": true,
+            "title": "Наггетсы"
+          },
+          {
+            "name": "куриный попкорн",
+            "visible": true,
+            "title": "Попкорн"
+          },
+          {
+            "name": "стрипсы",
+            "visible": false,
+            "title": "Стрипсы"
+          }
+        ],
+        "servingNumber": false,
+        "servingFinePrint": false,
+        "reduced": {
+          "animations": [],
+          "scroll": "auto",
+          "transitions": []
+        }
+      },
+      "interaction": {
+        "tabs": [
+          {
+            "key": "dinner",
+            "src": "assets/serving-dinner-crop.webp",
+            "loaded": true,
+            "link": "product-stripsy.html",
+            "labelledby": "tab-dinner",
+            "selected": "true"
+          },
+          {
+            "key": "movie",
+            "src": "assets/serving-movie-crop.webp",
+            "loaded": true,
+            "link": "product-naggetsy-kurinye.html",
+            "labelledby": "tab-movie",
+            "selected": "true"
+          },
+          {
+            "key": "company",
+            "src": "assets/serving-company-crop.webp",
+            "loaded": true,
+            "link": "catalogue.html",
+            "labelledby": "tab-company",
+            "selected": "true"
+          }
+        ],
+        "keyboard": true,
+        "menuOpen": true,
+        "menuClose": true,
+        "catalogueRoute": true
+      },
+      "issues": []
+    },
+    {
+      "width": 375,
+      "reduced": false,
+      "failures": [],
+      "errors": [],
+      "layout": {
+        "docWidth": 375,
+        "viewport": 375,
+        "h1": 1,
+        "fonts": [
+          {
+            "family": "Novoferma Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Novoferma Hand",
+            "status": "loaded"
+          }
+        ],
+        "brokenImages": [],
+        "boxes": {
+          ".protein-section": {
+            "x": 0,
+            "y": 96.09375,
+            "w": 375,
+            "h": 782.546875,
+            "right": 375,
+            "bottom": 878.640625,
+            "scrollWidth": 375,
+            "clientWidth": 375
+          },
+          ".protein-inner": {
+            "x": 20,
+            "y": 96.09375,
+            "w": 335,
+            "h": 782.546875,
+            "right": 355,
+            "bottom": 878.640625,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          ".protein-copy": {
+            "x": 20,
+            "y": 143.09375,
+            "w": 335,
+            "h": 224.796875,
+            "right": 355,
+            "bottom": 367.890625,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          ".protein-word": {
+            "x": 20,
+            "y": 193.09375,
+            "w": 335,
+            "h": 91.046875,
+            "right": 355,
+            "bottom": 284.140625,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          ".protein-hand": {
+            "x": 21.113706588745117,
+            "y": 313.7793273925781,
+            "w": 128.9288330078125,
+            "h": 59.472564697265625,
+            "right": 150.04253959655762,
+            "bottom": 373.25189208984375,
+            "scrollWidth": 125,
+            "clientWidth": 125
+          },
+          ".protein-story": {
+            "x": 20,
+            "y": 415.90472412109375,
+            "w": 335,
+            "h": 324.75,
+            "right": 355,
+            "bottom": 740.6547241210938,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          ".protein-story h3": {
+            "x": 20,
+            "y": 415.90472412109375,
+            "w": 335,
+            "h": 79.78125,
+            "right": 355,
+            "bottom": 495.68597412109375,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          ".protein-story .button": {
+            "x": 20,
+            "y": 687.6547241210938,
+            "w": 222.515625,
+            "h": 53,
+            "right": 242.515625,
+            "bottom": 740.6547241210938,
+            "scrollWidth": 221,
+            "clientWidth": 221
+          },
+          ".protein-bridge": {
+            "x": 120,
+            "y": 784.640625,
+            "w": 220,
+            "h": 150,
+            "right": 340,
+            "bottom": 934.640625,
+            "scrollWidth": 241,
+            "clientWidth": 220
+          },
+          ".bridge-cluster": {
+            "x": 109.44528198242188,
+            "y": 785.3477172851562,
+            "w": 186.10943603515625,
+            "h": 162.5858154296875,
+            "right": 295.5547180175781,
+            "bottom": 947.9335327148438,
+            "scrollWidth": 165,
+            "clientWidth": 165
+          },
+          ".bridge-single": {
+            "x": 271.47161865234375,
+            "y": 776.1122436523438,
+            "w": 89.0567626953125,
+            "h": 89.0567626953125,
+            "right": 360.52838134765625,
+            "bottom": 865.1690063476562,
+            "scrollWidth": 72,
+            "clientWidth": 72
+          },
+          ".serving-section": {
+            "x": 0,
+            "y": 878.640625,
+            "w": 375,
+            "h": 1026.984375,
+            "right": 375,
+            "bottom": 1905.625,
+            "scrollWidth": 375,
+            "clientWidth": 375
+          },
+          ".serving-section .section-heading": {
+            "x": 20,
+            "y": 1005.640625,
+            "w": 335,
+            "h": 188.8125,
+            "right": 355,
+            "bottom": 1194.453125,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          ".serving-section .section-heading h2": {
+            "x": 20,
+            "y": 1040.640625,
+            "w": 335,
+            "h": 93.8125,
+            "right": 355,
+            "bottom": 1134.453125,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          }
+        },
+        "textBoxes": [
+          {
+            "text": "02 / в основе — мясо птицы",
+            "tag": "P",
+            "cls": "eyebrow",
+            "x": 20,
+            "y": 144.09375,
+            "w": 195.015625,
+            "h": 13,
+            "right": 215.015625,
+            "bottom": 157.09375
+          },
+          {
+            "text": "На каждый день.С удовольствием.",
+            "tag": "H3",
+            "cls": "",
+            "x": 20,
+            "y": 410.90472412109375,
+            "w": 319.078125,
+            "h": 88.890625,
+            "right": 339.078125,
+            "bottom": 499.79534912109375
+          },
+          {
+            "text": "Курица и индейка — природные источники белка. Он помогает поддерживать мышцы и важен в повседневном рационе.",
+            "tag": "P",
+            "cls": "",
+            "x": 20,
+            "y": 520.6859741210938,
+            "w": 328.875,
+            "h": 72.1875,
+            "right": 348.875,
+            "bottom": 592.8734741210938
+          },
+          {
+            "text": "А мы делаем из птицы то, что вы любите: фрикадельки, наггетсы и не только.",
+            "tag": "P",
+            "cls": "",
+            "x": 20,
+            "y": 613.4672241210938,
+            "w": 314.96875,
+            "h": 46.59375,
+            "right": 334.96875,
+            "bottom": 660.0609741210938
+          },
+          {
+            "text": "Выбрать свой вкус↗",
+            "tag": "A",
+            "cls": "button button-dark",
+            "x": 47,
+            "y": 700.6547241210938,
+            "w": 168.515625,
+            "h": 26,
+            "right": 215.515625,
+            "bottom": 726.6547241210938
+          },
+          {
+            "text": "На вечер есть план.",
+            "tag": "H2",
+            "cls": "",
+            "x": 20,
+            "y": 1033.640625,
+            "w": 216.53125,
+            "h": 105.90625,
+            "right": 236.53125,
+            "bottom": 1139.546875
+          },
+          {
+            "text": "Хорошо сидим! ",
+            "tag": "P",
+            "cls": "hand ",
+            "x": 175.62327575683594,
+            "y": 1148.87109375,
+            "w": 170.7134552001953,
+            "h": 46.875244140625,
+            "right": 346.33673095703125,
+            "bottom": 1195.746337890625
+          }
+        ],
+        "artBoxes": [
+          {
+            "s": ".bridge-cluster",
+            "x": 109.44528198242188,
+            "y": 785.3477172851562,
+            "w": 186.10943603515625,
+            "h": 162.5858154296875,
+            "right": 295.5547180175781,
+            "bottom": 947.9335327148438,
+            "scrollWidth": 165,
+            "clientWidth": 165
+          },
+          {
+            "s": ".bridge-single",
+            "x": 271.47161865234375,
+            "y": 776.1122436523438,
+            "w": 89.0567626953125,
+            "h": 89.0567626953125,
+            "right": 360.52838134765625,
+            "bottom": 865.1690063476562,
+            "scrollWidth": 72,
+            "clientWidth": 72
+          }
+        ],
+        "artTextOverlaps": [],
+        "homeMeta": 0,
+        "homeCards": [
+          {
+            "name": "наггетсы куриные",
+            "visible": true,
+            "title": "Наггетсы"
+          },
+          {
+            "name": "куриный попкорн",
+            "visible": true,
+            "title": "Попкорн"
+          },
+          {
+            "name": "стрипсы",
+            "visible": false,
+            "title": "Стрипсы"
+          }
+        ],
+        "servingNumber": false,
+        "servingFinePrint": false,
+        "reduced": {
+          "animations": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "scroll": "smooth",
+          "transitions": [
+            {
+              "cls": "protein-copy reveal is-prepared is-visible",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "protein-story reveal is-prepared is-visible",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "button button-dark",
+              "duration": "0.2s, 0.25s, 0.25s"
+            },
+            {
+              "cls": "",
+              "duration": "0.25s"
+            },
+            {
+              "cls": "section-heading reveal is-prepared",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "",
+              "duration": "0.18s"
+            },
+            {
+              "cls": "button button-cream",
+              "duration": "0.2s, 0.25s, 0.25s"
+            },
+            {
+              "cls": "",
+              "duration": "0.25s"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "tabs": [
+          {
+            "key": "dinner",
+            "src": "assets/serving-dinner-crop.webp",
+            "loaded": true,
+            "link": "product-stripsy.html",
+            "labelledby": "tab-dinner",
+            "selected": "true"
+          },
+          {
+            "key": "movie",
+            "src": "assets/serving-movie-crop.webp",
+            "loaded": true,
+            "link": "product-naggetsy-kurinye.html",
+            "labelledby": "tab-movie",
+            "selected": "true"
+          },
+          {
+            "key": "company",
+            "src": "assets/serving-company-crop.webp",
+            "loaded": true,
+            "link": "catalogue.html",
+            "labelledby": "tab-company",
+            "selected": "true"
+          }
+        ],
+        "keyboard": true,
+        "menuOpen": true,
+        "menuClose": true,
+        "catalogueRoute": true
+      },
+      "issues": []
+    },
+    {
+      "width": 375,
+      "reduced": true,
+      "failures": [],
+      "errors": [],
+      "layout": {
+        "docWidth": 375,
+        "viewport": 375,
+        "h1": 1,
+        "fonts": [
+          {
+            "family": "Novoferma Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Novoferma Hand",
+            "status": "loaded"
+          }
+        ],
+        "brokenImages": [],
+        "boxes": {
+          ".protein-section": {
+            "x": 0,
+            "y": 96.09375,
+            "w": 375,
+            "h": 782.546875,
+            "right": 375,
+            "bottom": 878.640625,
+            "scrollWidth": 375,
+            "clientWidth": 375
+          },
+          ".protein-inner": {
+            "x": 20,
+            "y": 96.09375,
+            "w": 335,
+            "h": 782.546875,
+            "right": 355,
+            "bottom": 878.640625,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          ".protein-copy": {
+            "x": 20,
+            "y": 143.09375,
+            "w": 335,
+            "h": 224.796875,
+            "right": 355,
+            "bottom": 367.890625,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          ".protein-word": {
+            "x": 20,
+            "y": 193.09375,
+            "w": 335,
+            "h": 91.046875,
+            "right": 355,
+            "bottom": 284.140625,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          ".protein-hand": {
+            "x": 21.113706588745117,
+            "y": 313.7793273925781,
+            "w": 128.9288330078125,
+            "h": 59.472564697265625,
+            "right": 150.04253959655762,
+            "bottom": 373.25189208984375,
+            "scrollWidth": 125,
+            "clientWidth": 125
+          },
+          ".protein-story": {
+            "x": 20,
+            "y": 415.890625,
+            "w": 335,
+            "h": 324.75,
+            "right": 355,
+            "bottom": 740.640625,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          ".protein-story h3": {
+            "x": 20,
+            "y": 415.890625,
+            "w": 335,
+            "h": 79.78125,
+            "right": 355,
+            "bottom": 495.671875,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          ".protein-story .button": {
+            "x": 20,
+            "y": 687.640625,
+            "w": 222.515625,
+            "h": 53,
+            "right": 242.515625,
+            "bottom": 740.640625,
+            "scrollWidth": 221,
+            "clientWidth": 221
+          },
+          ".protein-bridge": {
+            "x": 120,
+            "y": 784.640625,
+            "w": 220,
+            "h": 150,
+            "right": 340,
+            "bottom": 934.640625,
+            "scrollWidth": 241,
+            "clientWidth": 220
+          },
+          ".bridge-cluster": {
+            "x": 109.44528198242188,
+            "y": 785.3477172851562,
+            "w": 186.10943603515625,
+            "h": 162.5858154296875,
+            "right": 295.5547180175781,
+            "bottom": 947.9335327148438,
+            "scrollWidth": 165,
+            "clientWidth": 165
+          },
+          ".bridge-single": {
+            "x": 271.47161865234375,
+            "y": 776.1122436523438,
+            "w": 89.0567626953125,
+            "h": 89.0567626953125,
+            "right": 360.52838134765625,
+            "bottom": 865.1690063476562,
+            "scrollWidth": 72,
+            "clientWidth": 72
+          },
+          ".serving-section": {
+            "x": 0,
+            "y": 878.640625,
+            "w": 375,
+            "h": 1026.984375,
+            "right": 375,
+            "bottom": 1905.625,
+            "scrollWidth": 375,
+            "clientWidth": 375
+          },
+          ".serving-section .section-heading": {
+            "x": 20,
+            "y": 983.640625,
+            "w": 335,
+            "h": 188.8125,
+            "right": 355,
+            "bottom": 1172.453125,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          ".serving-section .section-heading h2": {
+            "x": 20,
+            "y": 1018.640625,
+            "w": 335,
+            "h": 93.8125,
+            "right": 355,
+            "bottom": 1112.453125,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          }
+        },
+        "textBoxes": [
+          {
+            "text": "02 / в основе — мясо птицы",
+            "tag": "P",
+            "cls": "eyebrow",
+            "x": 20,
+            "y": 144.09375,
+            "w": 195.015625,
+            "h": 13,
+            "right": 215.015625,
+            "bottom": 157.09375
+          },
+          {
+            "text": "На каждый день.С удовольствием.",
+            "tag": "H3",
+            "cls": "",
+            "x": 20,
+            "y": 410.890625,
+            "w": 319.078125,
+            "h": 88.890625,
+            "right": 339.078125,
+            "bottom": 499.78125
+          },
+          {
+            "text": "Курица и индейка — природные источники белка. Он помогает поддерживать мышцы и важен в повседневном рационе.",
+            "tag": "P",
+            "cls": "",
+            "x": 20,
+            "y": 520.671875,
+            "w": 328.875,
+            "h": 72.1875,
+            "right": 348.875,
+            "bottom": 592.859375
+          },
+          {
+            "text": "А мы делаем из птицы то, что вы любите: фрикадельки, наггетсы и не только.",
+            "tag": "P",
+            "cls": "",
+            "x": 20,
+            "y": 613.453125,
+            "w": 314.96875,
+            "h": 46.59375,
+            "right": 334.96875,
+            "bottom": 660.046875
+          },
+          {
+            "text": "Выбрать свой вкус↗",
+            "tag": "A",
+            "cls": "button button-dark",
+            "x": 47,
+            "y": 700.640625,
+            "w": 168.515625,
+            "h": 26,
+            "right": 215.515625,
+            "bottom": 726.640625
+          },
+          {
+            "text": "На вечер есть план.",
+            "tag": "H2",
+            "cls": "",
+            "x": 20,
+            "y": 1011.640625,
+            "w": 216.53125,
+            "h": 105.90625,
+            "right": 236.53125,
+            "bottom": 1117.546875
+          },
+          {
+            "text": "Хорошо сидим! ",
+            "tag": "P",
+            "cls": "hand ",
+            "x": 175.62327575683594,
+            "y": 1126.87109375,
+            "w": 170.7134552001953,
+            "h": 46.875244140625,
+            "right": 346.33673095703125,
+            "bottom": 1173.746337890625
+          }
+        ],
+        "artBoxes": [
+          {
+            "s": ".bridge-cluster",
+            "x": 109.44528198242188,
+            "y": 785.3477172851562,
+            "w": 186.10943603515625,
+            "h": 162.5858154296875,
+            "right": 295.5547180175781,
+            "bottom": 947.9335327148438,
+            "scrollWidth": 165,
+            "clientWidth": 165
+          },
+          {
+            "s": ".bridge-single",
+            "x": 271.47161865234375,
+            "y": 776.1122436523438,
+            "w": 89.0567626953125,
+            "h": 89.0567626953125,
+            "right": 360.52838134765625,
+            "bottom": 865.1690063476562,
+            "scrollWidth": 72,
+            "clientWidth": 72
+          }
+        ],
+        "artTextOverlaps": [],
+        "homeMeta": 0,
+        "homeCards": [
+          {
+            "name": "наггетсы куриные",
+            "visible": true,
+            "title": "Наггетсы"
+          },
+          {
+            "name": "куриный попкорн",
+            "visible": true,
+            "title": "Попкорн"
+          },
+          {
+            "name": "стрипсы",
+            "visible": false,
+            "title": "Стрипсы"
+          }
+        ],
+        "servingNumber": false,
+        "servingFinePrint": false,
+        "reduced": {
+          "animations": [],
+          "scroll": "auto",
+          "transitions": []
+        }
+      },
+      "interaction": {
+        "tabs": [
+          {
+            "key": "dinner",
+            "src": "assets/serving-dinner-crop.webp",
+            "loaded": true,
+            "link": "product-stripsy.html",
+            "labelledby": "tab-dinner",
+            "selected": "true"
+          },
+          {
+            "key": "movie",
+            "src": "assets/serving-movie-crop.webp",
+            "loaded": true,
+            "link": "product-naggetsy-kurinye.html",
+            "labelledby": "tab-movie",
+            "selected": "true"
+          },
+          {
+            "key": "company",
+            "src": "assets/serving-company-crop.webp",
+            "loaded": true,
+            "link": "catalogue.html",
+            "labelledby": "tab-company",
+            "selected": "true"
+          }
+        ],
+        "keyboard": true,
+        "menuOpen": true,
+        "menuClose": true,
+        "catalogueRoute": true
+      },
+      "issues": []
+    },
+    {
+      "width": 700,
+      "reduced": false,
+      "failures": [],
+      "errors": [],
+      "layout": {
+        "docWidth": 700,
+        "viewport": 700,
+        "h1": 1,
+        "fonts": [
+          {
+            "family": "Novoferma Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Novoferma Hand",
+            "status": "loaded"
+          }
+        ],
+        "brokenImages": [],
+        "boxes": {
+          ".protein-section": {
+            "x": 0,
+            "y": 223.09375,
+            "w": 700,
+            "h": 601.25,
+            "right": 700,
+            "bottom": 824.34375,
+            "scrollWidth": 700,
+            "clientWidth": 700
+          },
+          ".protein-inner": {
+            "x": 32,
+            "y": 223.09375,
+            "w": 636,
+            "h": 601.25,
+            "right": 668,
+            "bottom": 824.34375,
+            "scrollWidth": 636,
+            "clientWidth": 636
+          },
+          ".protein-copy": {
+            "x": 32,
+            "y": 394.671875,
+            "w": 314.28125,
+            "h": 212.078125,
+            "right": 346.28125,
+            "bottom": 606.75,
+            "scrollWidth": 314,
+            "clientWidth": 314
+          },
+          ".protein-word": {
+            "x": 32,
+            "y": 447.171875,
+            "w": 314.28125,
+            "h": 76.578125,
+            "right": 346.28125,
+            "bottom": 523.75,
+            "scrollWidth": 314,
+            "clientWidth": 314
+          },
+          ".protein-hand": {
+            "x": 37.94925308227539,
+            "y": 547.9215087890625,
+            "w": 140.16400146484375,
+            "h": 64.656982421875,
+            "right": 178.11325454711914,
+            "bottom": 612.5784912109375,
+            "scrollWidth": 136,
+            "clientWidth": 136
+          },
+          ".protein-story": {
+            "x": 382.28125,
+            "y": 287.10772705078125,
+            "w": 285.71875,
+            "h": 427.25,
+            "right": 668,
+            "bottom": 714.3577270507812,
+            "scrollWidth": 286,
+            "clientWidth": 286
+          },
+          ".protein-story h3": {
+            "x": 382.28125,
+            "y": 311.10772705078125,
+            "w": 285.71875,
+            "h": 110.25,
+            "right": 668,
+            "bottom": 421.35772705078125,
+            "scrollWidth": 286,
+            "clientWidth": 286
+          },
+          ".protein-story .button": {
+            "x": 382.28125,
+            "y": 661.3577270507812,
+            "w": 222.515625,
+            "h": 53,
+            "right": 604.796875,
+            "bottom": 714.3577270507812,
+            "scrollWidth": 221,
+            "clientWidth": 221
+          },
+          ".protein-bridge": {
+            "x": 399,
+            "y": 734.34375,
+            "w": 245,
+            "h": 155,
+            "right": 644,
+            "bottom": 889.34375,
+            "scrollWidth": 261,
+            "clientWidth": 245
+          },
+          ".bridge-cluster": {
+            "x": 387.804931640625,
+            "y": 730.9953002929688,
+            "w": 197.39013671875,
+            "h": 172.44696044921875,
+            "right": 585.195068359375,
+            "bottom": 903.4422607421875,
+            "scrollWidth": 175,
+            "clientWidth": 175
+          },
+          ".bridge-single": {
+            "x": 564.87939453125,
+            "y": 712.22314453125,
+            "w": 95.2412109375,
+            "h": 95.2412109375,
+            "right": 660.12060546875,
+            "bottom": 807.46435546875,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          },
+          ".serving-section": {
+            "x": 0,
+            "y": 824.34375,
+            "w": 700,
+            "h": 699.875,
+            "right": 700,
+            "bottom": 1524.21875,
+            "scrollWidth": 700,
+            "clientWidth": 700
+          },
+          ".serving-section .section-heading": {
+            "x": 32,
+            "y": 962.34375,
+            "w": 636,
+            "h": 86.40625,
+            "right": 668,
+            "bottom": 1048.75,
+            "scrollWidth": 637,
+            "clientWidth": 636
+          },
+          ".serving-section .section-heading h2": {
+            "x": 32,
+            "y": 998.84375,
+            "w": 437.40625,
+            "h": 49.90625,
+            "right": 469.40625,
+            "bottom": 1048.75,
+            "scrollWidth": 437,
+            "clientWidth": 437
+          }
+        },
+        "textBoxes": [
+          {
+            "text": "02 / в основе — мясо птицы",
+            "tag": "P",
+            "cls": "eyebrow",
+            "x": 32,
+            "y": 395.671875,
+            "w": 214.515625,
+            "h": 14,
+            "right": 246.515625,
+            "bottom": 409.671875
+          },
+          {
+            "text": "На каждый день.С удовольствием.",
+            "tag": "H3",
+            "cls": "",
+            "x": 382.28125,
+            "y": 306.10772705078125,
+            "w": 279.84375,
+            "h": 118.5,
+            "right": 662.125,
+            "bottom": 424.60772705078125
+          },
+          {
+            "text": "Курица и индейка — природные источники белка. Он помогает поддерживать мышцы и важен в повседневном рационе.",
+            "tag": "P",
+            "cls": "",
+            "x": 382.28125,
+            "y": 450.35772705078125,
+            "w": 234.625,
+            "h": 92,
+            "right": 616.90625,
+            "bottom": 542.3577270507812
+          },
+          {
+            "text": "А мы делаем из птицы то, что вы любите: фрикадельки, наггетсы и не только.",
+            "tag": "P",
+            "cls": "",
+            "x": 382.28125,
+            "y": 562.3577270507812,
+            "w": 262.421875,
+            "h": 68,
+            "right": 644.703125,
+            "bottom": 630.3577270507812
+          },
+          {
+            "text": "Выбрать свой вкус↗",
+            "tag": "A",
+            "cls": "button button-dark",
+            "x": 409.28125,
+            "y": 674.3577270507812,
+            "w": 168.515625,
+            "h": 26,
+            "right": 577.796875,
+            "bottom": 700.3577270507812
+          },
+          {
+            "text": "На вечер есть план.",
+            "tag": "H2",
+            "cls": "",
+            "x": 32,
+            "y": 991.84375,
+            "w": 437.40625,
+            "h": 62,
+            "right": 469.40625,
+            "bottom": 1053.84375
+          },
+          {
+            "text": "Хорошо сидим! ",
+            "tag": "P",
+            "cls": "hand ",
+            "x": 508.5912780761719,
+            "y": 979.736572265625,
+            "w": 160.76419067382812,
+            "h": 45.3165283203125,
+            "right": 669.35546875,
+            "bottom": 1025.0531005859375
+          }
+        ],
+        "artBoxes": [
+          {
+            "s": ".bridge-cluster",
+            "x": 387.804931640625,
+            "y": 730.9953002929688,
+            "w": 197.39013671875,
+            "h": 172.44696044921875,
+            "right": 585.195068359375,
+            "bottom": 903.4422607421875,
+            "scrollWidth": 175,
+            "clientWidth": 175
+          },
+          {
+            "s": ".bridge-single",
+            "x": 564.87939453125,
+            "y": 712.22314453125,
+            "w": 95.2412109375,
+            "h": 95.2412109375,
+            "right": 660.12060546875,
+            "bottom": 807.46435546875,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          }
+        ],
+        "artTextOverlaps": [],
+        "homeMeta": 0,
+        "homeCards": [
+          {
+            "name": "наггетсы куриные",
+            "visible": true,
+            "title": "Наггетсы"
+          },
+          {
+            "name": "куриный попкорн",
+            "visible": true,
+            "title": "Попкорн"
+          },
+          {
+            "name": "стрипсы",
+            "visible": true,
+            "title": "Стрипсы"
+          }
+        ],
+        "servingNumber": false,
+        "servingFinePrint": false,
+        "reduced": {
+          "animations": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "scroll": "smooth",
+          "transitions": [
+            {
+              "cls": "protein-copy reveal is-prepared is-visible",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "protein-story reveal is-prepared is-visible",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "button button-dark",
+              "duration": "0.2s, 0.25s, 0.25s"
+            },
+            {
+              "cls": "",
+              "duration": "0.25s"
+            },
+            {
+              "cls": "section-heading reveal is-prepared",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "",
+              "duration": "0.18s"
+            },
+            {
+              "cls": "button button-cream",
+              "duration": "0.2s, 0.25s, 0.25s"
+            },
+            {
+              "cls": "",
+              "duration": "0.25s"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "tabs": [
+          {
+            "key": "dinner",
+            "src": "assets/serving-dinner-crop.webp",
+            "loaded": true,
+            "link": "product-stripsy.html",
+            "labelledby": "tab-dinner",
+            "selected": "true"
+          },
+          {
+            "key": "movie",
+            "src": "assets/serving-movie-crop.webp",
+            "loaded": true,
+            "link": "product-naggetsy-kurinye.html",
+            "labelledby": "tab-movie",
+            "selected": "true"
+          },
+          {
+            "key": "company",
+            "src": "assets/serving-company-crop.webp",
+            "loaded": true,
+            "link": "catalogue.html",
+            "labelledby": "tab-company",
+            "selected": "true"
+          }
+        ],
+        "keyboard": true,
+        "menuOpen": true,
+        "menuClose": true,
+        "catalogueRoute": true
+      },
+      "issues": []
+    },
+    {
+      "width": 700,
+      "reduced": true,
+      "failures": [],
+      "errors": [],
+      "layout": {
+        "docWidth": 700,
+        "viewport": 700,
+        "h1": 1,
+        "fonts": [
+          {
+            "family": "Novoferma Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Novoferma Hand",
+            "status": "loaded"
+          }
+        ],
+        "brokenImages": [],
+        "boxes": {
+          ".protein-section": {
+            "x": 0,
+            "y": 223.09375,
+            "w": 700,
+            "h": 601.25,
+            "right": 700,
+            "bottom": 824.34375,
+            "scrollWidth": 700,
+            "clientWidth": 700
+          },
+          ".protein-inner": {
+            "x": 32,
+            "y": 223.09375,
+            "w": 636,
+            "h": 601.25,
+            "right": 668,
+            "bottom": 824.34375,
+            "scrollWidth": 636,
+            "clientWidth": 636
+          },
+          ".protein-copy": {
+            "x": 32,
+            "y": 394.671875,
+            "w": 314.28125,
+            "h": 212.078125,
+            "right": 346.28125,
+            "bottom": 606.75,
+            "scrollWidth": 314,
+            "clientWidth": 314
+          },
+          ".protein-word": {
+            "x": 32,
+            "y": 447.171875,
+            "w": 314.28125,
+            "h": 76.578125,
+            "right": 346.28125,
+            "bottom": 523.75,
+            "scrollWidth": 314,
+            "clientWidth": 314
+          },
+          ".protein-hand": {
+            "x": 37.94925308227539,
+            "y": 547.9215087890625,
+            "w": 140.16400146484375,
+            "h": 64.656982421875,
+            "right": 178.11325454711914,
+            "bottom": 612.5784912109375,
+            "scrollWidth": 136,
+            "clientWidth": 136
+          },
+          ".protein-story": {
+            "x": 382.28125,
+            "y": 287.09375,
+            "w": 285.71875,
+            "h": 427.25,
+            "right": 668,
+            "bottom": 714.34375,
+            "scrollWidth": 286,
+            "clientWidth": 286
+          },
+          ".protein-story h3": {
+            "x": 382.28125,
+            "y": 311.09375,
+            "w": 285.71875,
+            "h": 110.25,
+            "right": 668,
+            "bottom": 421.34375,
+            "scrollWidth": 286,
+            "clientWidth": 286
+          },
+          ".protein-story .button": {
+            "x": 382.28125,
+            "y": 661.34375,
+            "w": 222.515625,
+            "h": 53,
+            "right": 604.796875,
+            "bottom": 714.34375,
+            "scrollWidth": 221,
+            "clientWidth": 221
+          },
+          ".protein-bridge": {
+            "x": 399,
+            "y": 734.34375,
+            "w": 245,
+            "h": 155,
+            "right": 644,
+            "bottom": 889.34375,
+            "scrollWidth": 261,
+            "clientWidth": 245
+          },
+          ".bridge-cluster": {
+            "x": 387.804931640625,
+            "y": 730.9953002929688,
+            "w": 197.39013671875,
+            "h": 172.44696044921875,
+            "right": 585.195068359375,
+            "bottom": 903.4422607421875,
+            "scrollWidth": 175,
+            "clientWidth": 175
+          },
+          ".bridge-single": {
+            "x": 564.87939453125,
+            "y": 712.22314453125,
+            "w": 95.2412109375,
+            "h": 95.2412109375,
+            "right": 660.12060546875,
+            "bottom": 807.46435546875,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          },
+          ".serving-section": {
+            "x": 0,
+            "y": 824.34375,
+            "w": 700,
+            "h": 699.875,
+            "right": 700,
+            "bottom": 1524.21875,
+            "scrollWidth": 700,
+            "clientWidth": 700
+          },
+          ".serving-section .section-heading": {
+            "x": 32,
+            "y": 940.34375,
+            "w": 636,
+            "h": 86.40625,
+            "right": 668,
+            "bottom": 1026.75,
+            "scrollWidth": 637,
+            "clientWidth": 636
+          },
+          ".serving-section .section-heading h2": {
+            "x": 32,
+            "y": 976.84375,
+            "w": 437.40625,
+            "h": 49.90625,
+            "right": 469.40625,
+            "bottom": 1026.75,
+            "scrollWidth": 437,
+            "clientWidth": 437
+          }
+        },
+        "textBoxes": [
+          {
+            "text": "02 / в основе — мясо птицы",
+            "tag": "P",
+            "cls": "eyebrow",
+            "x": 32,
+            "y": 395.671875,
+            "w": 214.515625,
+            "h": 14,
+            "right": 246.515625,
+            "bottom": 409.671875
+          },
+          {
+            "text": "На каждый день.С удовольствием.",
+            "tag": "H3",
+            "cls": "",
+            "x": 382.28125,
+            "y": 306.09375,
+            "w": 279.84375,
+            "h": 118.5,
+            "right": 662.125,
+            "bottom": 424.59375
+          },
+          {
+            "text": "Курица и индейка — природные источники белка. Он помогает поддерживать мышцы и важен в повседневном рационе.",
+            "tag": "P",
+            "cls": "",
+            "x": 382.28125,
+            "y": 450.34375,
+            "w": 234.625,
+            "h": 92,
+            "right": 616.90625,
+            "bottom": 542.34375
+          },
+          {
+            "text": "А мы делаем из птицы то, что вы любите: фрикадельки, наггетсы и не только.",
+            "tag": "P",
+            "cls": "",
+            "x": 382.28125,
+            "y": 562.34375,
+            "w": 262.421875,
+            "h": 68,
+            "right": 644.703125,
+            "bottom": 630.34375
+          },
+          {
+            "text": "Выбрать свой вкус↗",
+            "tag": "A",
+            "cls": "button button-dark",
+            "x": 409.28125,
+            "y": 674.34375,
+            "w": 168.515625,
+            "h": 26,
+            "right": 577.796875,
+            "bottom": 700.34375
+          },
+          {
+            "text": "На вечер есть план.",
+            "tag": "H2",
+            "cls": "",
+            "x": 32,
+            "y": 969.84375,
+            "w": 437.40625,
+            "h": 62,
+            "right": 469.40625,
+            "bottom": 1031.84375
+          },
+          {
+            "text": "Хорошо сидим! ",
+            "tag": "P",
+            "cls": "hand ",
+            "x": 508.5912780761719,
+            "y": 957.736572265625,
+            "w": 160.76419067382812,
+            "h": 45.3165283203125,
+            "right": 669.35546875,
+            "bottom": 1003.0531005859375
+          }
+        ],
+        "artBoxes": [
+          {
+            "s": ".bridge-cluster",
+            "x": 387.804931640625,
+            "y": 730.9953002929688,
+            "w": 197.39013671875,
+            "h": 172.44696044921875,
+            "right": 585.195068359375,
+            "bottom": 903.4422607421875,
+            "scrollWidth": 175,
+            "clientWidth": 175
+          },
+          {
+            "s": ".bridge-single",
+            "x": 564.87939453125,
+            "y": 712.22314453125,
+            "w": 95.2412109375,
+            "h": 95.2412109375,
+            "right": 660.12060546875,
+            "bottom": 807.46435546875,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          }
+        ],
+        "artTextOverlaps": [],
+        "homeMeta": 0,
+        "homeCards": [
+          {
+            "name": "наггетсы куриные",
+            "visible": true,
+            "title": "Наггетсы"
+          },
+          {
+            "name": "куриный попкорн",
+            "visible": true,
+            "title": "Попкорн"
+          },
+          {
+            "name": "стрипсы",
+            "visible": true,
+            "title": "Стрипсы"
+          }
+        ],
+        "servingNumber": false,
+        "servingFinePrint": false,
+        "reduced": {
+          "animations": [],
+          "scroll": "auto",
+          "transitions": []
+        }
+      },
+      "interaction": {
+        "tabs": [
+          {
+            "key": "dinner",
+            "src": "assets/serving-dinner-crop.webp",
+            "loaded": true,
+            "link": "product-stripsy.html",
+            "labelledby": "tab-dinner",
+            "selected": "true"
+          },
+          {
+            "key": "movie",
+            "src": "assets/serving-movie-crop.webp",
+            "loaded": true,
+            "link": "product-naggetsy-kurinye.html",
+            "labelledby": "tab-movie",
+            "selected": "true"
+          },
+          {
+            "key": "company",
+            "src": "assets/serving-company-crop.webp",
+            "loaded": true,
+            "link": "catalogue.html",
+            "labelledby": "tab-company",
+            "selected": "true"
+          }
+        ],
+        "keyboard": true,
+        "menuOpen": true,
+        "menuClose": true,
+        "catalogueRoute": true
+      },
+      "issues": []
+    },
+    {
+      "width": 768,
+      "reduced": false,
+      "failures": [],
+      "errors": [],
+      "layout": {
+        "docWidth": 768,
+        "viewport": 768,
+        "h1": 1,
+        "fonts": [
+          {
+            "family": "Novoferma Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Novoferma Hand",
+            "status": "loaded"
+          }
+        ],
+        "brokenImages": [],
+        "boxes": {
+          ".protein-section": {
+            "x": 0,
+            "y": 253.75,
+            "w": 768,
+            "h": 540,
+            "right": 768,
+            "bottom": 793.75,
+            "scrollWidth": 768,
+            "clientWidth": 768
+          },
+          ".protein-inner": {
+            "x": 32,
+            "y": 253.75,
+            "w": 704,
+            "h": 540,
+            "right": 736,
+            "bottom": 793.75,
+            "scrollWidth": 704,
+            "clientWidth": 704
+          },
+          ".protein-copy": {
+            "x": 32,
+            "y": 391.515625,
+            "w": 349.890625,
+            "h": 218.453125,
+            "right": 381.890625,
+            "bottom": 609.96875,
+            "scrollWidth": 350,
+            "clientWidth": 350
+          },
+          ".protein-word": {
+            "x": 32,
+            "y": 444.015625,
+            "w": 349.890625,
+            "h": 82.953125,
+            "right": 381.890625,
+            "bottom": 526.96875,
+            "scrollWidth": 350,
+            "clientWidth": 350
+          },
+          ".protein-hand": {
+            "x": 37.94925308227539,
+            "y": 551.1402587890625,
+            "w": 140.16400146484375,
+            "h": 64.656982421875,
+            "right": 178.11325454711914,
+            "bottom": 615.7972412109375,
+            "scrollWidth": 136,
+            "clientWidth": 136
+          },
+          ".protein-story": {
+            "x": 417.890625,
+            "y": 329.5140075683594,
+            "w": 318.109375,
+            "h": 342.5000305175781,
+            "right": 736,
+            "bottom": 672.0140380859375,
+            "scrollWidth": 318,
+            "clientWidth": 318
+          },
+          ".protein-story h3": {
+            "x": 417.890625,
+            "y": 353.5140075683594,
+            "w": 318.109375,
+            "h": 73.5,
+            "right": 736,
+            "bottom": 427.0140075683594,
+            "scrollWidth": 318,
+            "clientWidth": 318
+          },
+          ".protein-story .button": {
+            "x": 417.890625,
+            "y": 619.0140380859375,
+            "w": 222.515625,
+            "h": 53,
+            "right": 640.40625,
+            "bottom": 672.0140380859375,
+            "scrollWidth": 221,
+            "clientWidth": 221
+          },
+          ".protein-bridge": {
+            "x": 461.5625,
+            "y": 703.75,
+            "w": 245,
+            "h": 155,
+            "right": 706.5625,
+            "bottom": 858.75,
+            "scrollWidth": 261,
+            "clientWidth": 245
+          },
+          ".bridge-cluster": {
+            "x": 450.367431640625,
+            "y": 700.4015502929688,
+            "w": 197.39013671875,
+            "h": 172.44696044921875,
+            "right": 647.757568359375,
+            "bottom": 872.8485107421875,
+            "scrollWidth": 175,
+            "clientWidth": 175
+          },
+          ".bridge-single": {
+            "x": 627.44189453125,
+            "y": 681.62939453125,
+            "w": 95.2412109375,
+            "h": 95.2412109375,
+            "right": 722.68310546875,
+            "bottom": 776.87060546875,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          },
+          ".serving-section": {
+            "x": 0,
+            "y": 793.75,
+            "w": 768,
+            "h": 731.90625,
+            "right": 768,
+            "bottom": 1525.65625,
+            "scrollWidth": 768,
+            "clientWidth": 768
+          },
+          ".serving-section .section-heading": {
+            "x": 32,
+            "y": 931.75,
+            "w": 704,
+            "h": 86.40625,
+            "right": 736,
+            "bottom": 1018.15625,
+            "scrollWidth": 705,
+            "clientWidth": 704
+          },
+          ".serving-section .section-heading h2": {
+            "x": 32,
+            "y": 968.25,
+            "w": 437.40625,
+            "h": 49.90625,
+            "right": 469.40625,
+            "bottom": 1018.15625,
+            "scrollWidth": 437,
+            "clientWidth": 437
+          }
+        },
+        "textBoxes": [
+          {
+            "text": "02 / в основе — мясо птицы",
+            "tag": "P",
+            "cls": "eyebrow",
+            "x": 32,
+            "y": 392.515625,
+            "w": 214.515625,
+            "h": 14,
+            "right": 246.515625,
+            "bottom": 406.515625
+          },
+          {
+            "text": "На каждый день.С удовольствием.",
+            "tag": "H3",
+            "cls": "",
+            "x": 417.890625,
+            "y": 348.5140075683594,
+            "w": 293.890625,
+            "h": 81.75,
+            "right": 711.78125,
+            "bottom": 430.2640075683594
+          },
+          {
+            "text": "Курица и индейка — природные источники белка. Он помогает поддерживать мышцы и важен в повседневном рационе.",
+            "tag": "P",
+            "cls": "",
+            "x": 417.890625,
+            "y": 456.0140075683594,
+            "w": 317.75,
+            "h": 68.00003051757812,
+            "right": 735.640625,
+            "bottom": 524.0140380859375
+          },
+          {
+            "text": "А мы делаем из птицы то, что вы любите: фрикадельки, наггетсы и не только.",
+            "tag": "P",
+            "cls": "",
+            "x": 417.890625,
+            "y": 544.0140380859375,
+            "w": 295.28125,
+            "h": 44,
+            "right": 713.171875,
+            "bottom": 588.0140380859375
+          },
+          {
+            "text": "Выбрать свой вкус↗",
+            "tag": "A",
+            "cls": "button button-dark",
+            "x": 444.890625,
+            "y": 632.0140380859375,
+            "w": 168.515625,
+            "h": 26,
+            "right": 613.40625,
+            "bottom": 658.0140380859375
+          },
+          {
+            "text": "На вечер есть план.",
+            "tag": "H2",
+            "cls": "",
+            "x": 32,
+            "y": 961.25,
+            "w": 437.40625,
+            "h": 62,
+            "right": 469.40625,
+            "bottom": 1023.25
+          },
+          {
+            "text": "Хорошо сидим! ",
+            "tag": "P",
+            "cls": "hand ",
+            "x": 576.59130859375,
+            "y": 949.142822265625,
+            "w": 160.76416015625,
+            "h": 45.3165283203125,
+            "right": 737.35546875,
+            "bottom": 994.4593505859375
+          }
+        ],
+        "artBoxes": [
+          {
+            "s": ".bridge-cluster",
+            "x": 450.367431640625,
+            "y": 700.4015502929688,
+            "w": 197.39013671875,
+            "h": 172.44696044921875,
+            "right": 647.757568359375,
+            "bottom": 872.8485107421875,
+            "scrollWidth": 175,
+            "clientWidth": 175
+          },
+          {
+            "s": ".bridge-single",
+            "x": 627.44189453125,
+            "y": 681.62939453125,
+            "w": 95.2412109375,
+            "h": 95.2412109375,
+            "right": 722.68310546875,
+            "bottom": 776.87060546875,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          }
+        ],
+        "artTextOverlaps": [],
+        "homeMeta": 0,
+        "homeCards": [
+          {
+            "name": "наггетсы куриные",
+            "visible": true,
+            "title": "Наггетсы"
+          },
+          {
+            "name": "куриный попкорн",
+            "visible": true,
+            "title": "Попкорн"
+          },
+          {
+            "name": "стрипсы",
+            "visible": true,
+            "title": "Стрипсы"
+          }
+        ],
+        "servingNumber": false,
+        "servingFinePrint": false,
+        "reduced": {
+          "animations": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "scroll": "smooth",
+          "transitions": [
+            {
+              "cls": "protein-copy reveal is-prepared is-visible",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "protein-story reveal is-prepared is-visible",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "button button-dark",
+              "duration": "0.2s, 0.25s, 0.25s"
+            },
+            {
+              "cls": "",
+              "duration": "0.25s"
+            },
+            {
+              "cls": "section-heading reveal is-prepared",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "",
+              "duration": "0.18s"
+            },
+            {
+              "cls": "button button-cream",
+              "duration": "0.2s, 0.25s, 0.25s"
+            },
+            {
+              "cls": "",
+              "duration": "0.25s"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "tabs": [
+          {
+            "key": "dinner",
+            "src": "assets/serving-dinner-crop.webp",
+            "loaded": true,
+            "link": "product-stripsy.html",
+            "labelledby": "tab-dinner",
+            "selected": "true"
+          },
+          {
+            "key": "movie",
+            "src": "assets/serving-movie-crop.webp",
+            "loaded": true,
+            "link": "product-naggetsy-kurinye.html",
+            "labelledby": "tab-movie",
+            "selected": "true"
+          },
+          {
+            "key": "company",
+            "src": "assets/serving-company-crop.webp",
+            "loaded": true,
+            "link": "catalogue.html",
+            "labelledby": "tab-company",
+            "selected": "true"
+          }
+        ],
+        "keyboard": true,
+        "menuOpen": true,
+        "menuClose": true,
+        "catalogueRoute": true
+      },
+      "issues": []
+    },
+    {
+      "width": 768,
+      "reduced": true,
+      "failures": [],
+      "errors": [],
+      "layout": {
+        "docWidth": 768,
+        "viewport": 768,
+        "h1": 1,
+        "fonts": [
+          {
+            "family": "Novoferma Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Novoferma Hand",
+            "status": "loaded"
+          }
+        ],
+        "brokenImages": [],
+        "boxes": {
+          ".protein-section": {
+            "x": 0,
+            "y": 253.75,
+            "w": 768,
+            "h": 540,
+            "right": 768,
+            "bottom": 793.75,
+            "scrollWidth": 768,
+            "clientWidth": 768
+          },
+          ".protein-inner": {
+            "x": 32,
+            "y": 253.75,
+            "w": 704,
+            "h": 540,
+            "right": 736,
+            "bottom": 793.75,
+            "scrollWidth": 704,
+            "clientWidth": 704
+          },
+          ".protein-copy": {
+            "x": 32,
+            "y": 391.515625,
+            "w": 349.890625,
+            "h": 218.453125,
+            "right": 381.890625,
+            "bottom": 609.96875,
+            "scrollWidth": 350,
+            "clientWidth": 350
+          },
+          ".protein-word": {
+            "x": 32,
+            "y": 444.015625,
+            "w": 349.890625,
+            "h": 82.953125,
+            "right": 381.890625,
+            "bottom": 526.96875,
+            "scrollWidth": 350,
+            "clientWidth": 350
+          },
+          ".protein-hand": {
+            "x": 37.94925308227539,
+            "y": 551.1402587890625,
+            "w": 140.16400146484375,
+            "h": 64.656982421875,
+            "right": 178.11325454711914,
+            "bottom": 615.7972412109375,
+            "scrollWidth": 136,
+            "clientWidth": 136
+          },
+          ".protein-story": {
+            "x": 417.890625,
+            "y": 329.5,
+            "w": 318.109375,
+            "h": 342.5,
+            "right": 736,
+            "bottom": 672,
+            "scrollWidth": 318,
+            "clientWidth": 318
+          },
+          ".protein-story h3": {
+            "x": 417.890625,
+            "y": 353.5,
+            "w": 318.109375,
+            "h": 73.5,
+            "right": 736,
+            "bottom": 427,
+            "scrollWidth": 318,
+            "clientWidth": 318
+          },
+          ".protein-story .button": {
+            "x": 417.890625,
+            "y": 619,
+            "w": 222.515625,
+            "h": 53,
+            "right": 640.40625,
+            "bottom": 672,
+            "scrollWidth": 221,
+            "clientWidth": 221
+          },
+          ".protein-bridge": {
+            "x": 461.5625,
+            "y": 703.75,
+            "w": 245,
+            "h": 155,
+            "right": 706.5625,
+            "bottom": 858.75,
+            "scrollWidth": 261,
+            "clientWidth": 245
+          },
+          ".bridge-cluster": {
+            "x": 450.367431640625,
+            "y": 700.4015502929688,
+            "w": 197.39013671875,
+            "h": 172.44696044921875,
+            "right": 647.757568359375,
+            "bottom": 872.8485107421875,
+            "scrollWidth": 175,
+            "clientWidth": 175
+          },
+          ".bridge-single": {
+            "x": 627.44189453125,
+            "y": 681.62939453125,
+            "w": 95.2412109375,
+            "h": 95.2412109375,
+            "right": 722.68310546875,
+            "bottom": 776.87060546875,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          },
+          ".serving-section": {
+            "x": 0,
+            "y": 793.75,
+            "w": 768,
+            "h": 731.90625,
+            "right": 768,
+            "bottom": 1525.65625,
+            "scrollWidth": 768,
+            "clientWidth": 768
+          },
+          ".serving-section .section-heading": {
+            "x": 32,
+            "y": 909.75,
+            "w": 704,
+            "h": 86.40625,
+            "right": 736,
+            "bottom": 996.15625,
+            "scrollWidth": 705,
+            "clientWidth": 704
+          },
+          ".serving-section .section-heading h2": {
+            "x": 32,
+            "y": 946.25,
+            "w": 437.40625,
+            "h": 49.90625,
+            "right": 469.40625,
+            "bottom": 996.15625,
+            "scrollWidth": 437,
+            "clientWidth": 437
+          }
+        },
+        "textBoxes": [
+          {
+            "text": "02 / в основе — мясо птицы",
+            "tag": "P",
+            "cls": "eyebrow",
+            "x": 32,
+            "y": 392.515625,
+            "w": 214.515625,
+            "h": 14,
+            "right": 246.515625,
+            "bottom": 406.515625
+          },
+          {
+            "text": "На каждый день.С удовольствием.",
+            "tag": "H3",
+            "cls": "",
+            "x": 417.890625,
+            "y": 348.5,
+            "w": 293.890625,
+            "h": 81.75,
+            "right": 711.78125,
+            "bottom": 430.25
+          },
+          {
+            "text": "Курица и индейка — природные источники белка. Он помогает поддерживать мышцы и важен в повседневном рационе.",
+            "tag": "P",
+            "cls": "",
+            "x": 417.890625,
+            "y": 456,
+            "w": 317.75,
+            "h": 68,
+            "right": 735.640625,
+            "bottom": 524
+          },
+          {
+            "text": "А мы делаем из птицы то, что вы любите: фрикадельки, наггетсы и не только.",
+            "tag": "P",
+            "cls": "",
+            "x": 417.890625,
+            "y": 544,
+            "w": 295.28125,
+            "h": 44,
+            "right": 713.171875,
+            "bottom": 588
+          },
+          {
+            "text": "Выбрать свой вкус↗",
+            "tag": "A",
+            "cls": "button button-dark",
+            "x": 444.890625,
+            "y": 632,
+            "w": 168.515625,
+            "h": 26,
+            "right": 613.40625,
+            "bottom": 658
+          },
+          {
+            "text": "На вечер есть план.",
+            "tag": "H2",
+            "cls": "",
+            "x": 32,
+            "y": 939.25,
+            "w": 437.40625,
+            "h": 62,
+            "right": 469.40625,
+            "bottom": 1001.25
+          },
+          {
+            "text": "Хорошо сидим! ",
+            "tag": "P",
+            "cls": "hand ",
+            "x": 576.59130859375,
+            "y": 927.142822265625,
+            "w": 160.76416015625,
+            "h": 45.3165283203125,
+            "right": 737.35546875,
+            "bottom": 972.4593505859375
+          }
+        ],
+        "artBoxes": [
+          {
+            "s": ".bridge-cluster",
+            "x": 450.367431640625,
+            "y": 700.4015502929688,
+            "w": 197.39013671875,
+            "h": 172.44696044921875,
+            "right": 647.757568359375,
+            "bottom": 872.8485107421875,
+            "scrollWidth": 175,
+            "clientWidth": 175
+          },
+          {
+            "s": ".bridge-single",
+            "x": 627.44189453125,
+            "y": 681.62939453125,
+            "w": 95.2412109375,
+            "h": 95.2412109375,
+            "right": 722.68310546875,
+            "bottom": 776.87060546875,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          }
+        ],
+        "artTextOverlaps": [],
+        "homeMeta": 0,
+        "homeCards": [
+          {
+            "name": "наггетсы куриные",
+            "visible": true,
+            "title": "Наггетсы"
+          },
+          {
+            "name": "куриный попкорн",
+            "visible": true,
+            "title": "Попкорн"
+          },
+          {
+            "name": "стрипсы",
+            "visible": true,
+            "title": "Стрипсы"
+          }
+        ],
+        "servingNumber": false,
+        "servingFinePrint": false,
+        "reduced": {
+          "animations": [],
+          "scroll": "auto",
+          "transitions": []
+        }
+      },
+      "interaction": {
+        "tabs": [
+          {
+            "key": "dinner",
+            "src": "assets/serving-dinner-crop.webp",
+            "loaded": true,
+            "link": "product-stripsy.html",
+            "labelledby": "tab-dinner",
+            "selected": "true"
+          },
+          {
+            "key": "movie",
+            "src": "assets/serving-movie-crop.webp",
+            "loaded": true,
+            "link": "product-naggetsy-kurinye.html",
+            "labelledby": "tab-movie",
+            "selected": "true"
+          },
+          {
+            "key": "company",
+            "src": "assets/serving-company-crop.webp",
+            "loaded": true,
+            "link": "catalogue.html",
+            "labelledby": "tab-company",
+            "selected": "true"
+          }
+        ],
+        "keyboard": true,
+        "menuOpen": true,
+        "menuClose": true,
+        "catalogueRoute": true
+      },
+      "issues": []
+    },
+    {
+      "width": 1024,
+      "reduced": false,
+      "failures": [],
+      "errors": [],
+      "layout": {
+        "docWidth": 1024,
+        "viewport": 1024,
+        "h1": 1,
+        "fonts": [
+          {
+            "family": "Novoferma Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Novoferma Hand",
+            "status": "loaded"
+          }
+        ],
+        "brokenImages": [],
+        "boxes": {
+          ".protein-section": {
+            "x": 0,
+            "y": 254.328125,
+            "w": 1024,
+            "h": 540,
+            "right": 1024,
+            "bottom": 794.328125,
+            "scrollWidth": 1024,
+            "clientWidth": 1024
+          },
+          ".protein-inner": {
+            "x": 32,
+            "y": 254.328125,
+            "w": 960,
+            "h": 540,
+            "right": 992,
+            "bottom": 794.328125,
+            "scrollWidth": 960,
+            "clientWidth": 960
+          },
+          ".protein-copy": {
+            "x": 32,
+            "y": 377.9375,
+            "w": 484,
+            "h": 246.765625,
+            "right": 516,
+            "bottom": 624.703125,
+            "scrollWidth": 484,
+            "clientWidth": 484
+          },
+          ".protein-word": {
+            "x": 32,
+            "y": 430.4375,
+            "w": 484,
+            "h": 111.265625,
+            "right": 516,
+            "bottom": 541.703125,
+            "scrollWidth": 484,
+            "clientWidth": 484
+          },
+          ".protein-hand": {
+            "x": 37.94925308227539,
+            "y": 565.8746337890625,
+            "w": 140.16400146484375,
+            "h": 64.656982421875,
+            "right": 178.11325454711914,
+            "bottom": 630.5316162109375,
+            "scrollWidth": 136,
+            "clientWidth": 136
+          },
+          ".protein-story": {
+            "x": 552,
+            "y": 330.0921325683594,
+            "w": 440,
+            "h": 342.5000305175781,
+            "right": 992,
+            "bottom": 672.5921630859375,
+            "scrollWidth": 440,
+            "clientWidth": 440
+          },
+          ".protein-story h3": {
+            "x": 552,
+            "y": 354.0921325683594,
+            "w": 440,
+            "h": 73.5,
+            "right": 992,
+            "bottom": 427.5921325683594,
+            "scrollWidth": 440,
+            "clientWidth": 440
+          },
+          ".protein-story .button": {
+            "x": 552,
+            "y": 619.5921630859375,
+            "w": 222.515625,
+            "h": 53,
+            "right": 774.515625,
+            "bottom": 672.5921630859375,
+            "scrollWidth": 221,
+            "clientWidth": 221
+          },
+          ".protein-bridge": {
+            "x": 697.09375,
+            "y": 704.328125,
+            "w": 245,
+            "h": 155,
+            "right": 942.09375,
+            "bottom": 859.328125,
+            "scrollWidth": 261,
+            "clientWidth": 245
+          },
+          ".bridge-cluster": {
+            "x": 685.7053833007812,
+            "y": 698.8743896484375,
+            "w": 197.7767333984375,
+            "h": 172.95745849609375,
+            "right": 883.4821166992188,
+            "bottom": 871.8318481445312,
+            "scrollWidth": 175,
+            "clientWidth": 175
+          },
+          ".bridge-single": {
+            "x": 862.8214111328125,
+            "y": 683.6458129882812,
+            "w": 95.544677734375,
+            "h": 95.54461669921875,
+            "right": 958.3660888671875,
+            "bottom": 779.1904296875,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          },
+          ".serving-section": {
+            "x": 0,
+            "y": 794.328125,
+            "w": 1024,
+            "h": 854.296875,
+            "right": 1024,
+            "bottom": 1648.625,
+            "scrollWidth": 1024,
+            "clientWidth": 1024
+          },
+          ".serving-section .section-heading": {
+            "x": 32,
+            "y": 932.328125,
+            "w": 960,
+            "h": 92.921875,
+            "right": 992,
+            "bottom": 1025.25,
+            "scrollWidth": 961,
+            "clientWidth": 960
+          },
+          ".serving-section .section-heading h2": {
+            "x": 32,
+            "y": 968.828125,
+            "w": 494.546875,
+            "h": 56.421875,
+            "right": 526.546875,
+            "bottom": 1025.25,
+            "scrollWidth": 495,
+            "clientWidth": 495
+          }
+        },
+        "textBoxes": [
+          {
+            "text": "02 / в основе — мясо птицы",
+            "tag": "P",
+            "cls": "eyebrow",
+            "x": 32,
+            "y": 378.9375,
+            "w": 214.515625,
+            "h": 14,
+            "right": 246.515625,
+            "bottom": 392.9375
+          },
+          {
+            "text": "На каждый день.С удовольствием.",
+            "tag": "H3",
+            "cls": "",
+            "x": 552,
+            "y": 349.0921325683594,
+            "w": 293.890625,
+            "h": 81.75,
+            "right": 845.890625,
+            "bottom": 430.8421325683594
+          },
+          {
+            "text": "Курица и индейка — природные источники белка. Он помогает поддерживать мышцы и важен в повседневном рационе.",
+            "tag": "P",
+            "cls": "",
+            "x": 552,
+            "y": 456.5921325683594,
+            "w": 381.234375,
+            "h": 68.00003051757812,
+            "right": 933.234375,
+            "bottom": 524.5921630859375
+          },
+          {
+            "text": "А мы делаем из птицы то, что вы любите: фрикадельки, наггетсы и не только.",
+            "tag": "P",
+            "cls": "",
+            "x": 552,
+            "y": 544.5921630859375,
+            "w": 397.859375,
+            "h": 44,
+            "right": 949.859375,
+            "bottom": 588.5921630859375
+          },
+          {
+            "text": "Выбрать свой вкус↗",
+            "tag": "A",
+            "cls": "button button-dark",
+            "x": 579,
+            "y": 632.5921630859375,
+            "w": 168.515625,
+            "h": 26,
+            "right": 747.515625,
+            "bottom": 658.5921630859375
+          },
+          {
+            "text": "На вечер есть план.",
+            "tag": "H2",
+            "cls": "",
+            "x": 32,
+            "y": 961.828125,
+            "w": 494.546875,
+            "h": 70,
+            "right": 526.546875,
+            "bottom": 1031.828125
+          },
+          {
+            "text": "Хорошо сидим! ",
+            "tag": "P",
+            "cls": "hand ",
+            "x": 807.74951171875,
+            "y": 949.8286743164062,
+            "w": 185.62109375,
+            "h": 52.14556884765625,
+            "right": 993.37060546875,
+            "bottom": 1001.9742431640625
+          }
+        ],
+        "artBoxes": [
+          {
+            "s": ".bridge-cluster",
+            "x": 685.7053833007812,
+            "y": 698.8743896484375,
+            "w": 197.7767333984375,
+            "h": 172.95745849609375,
+            "right": 883.4821166992188,
+            "bottom": 871.8318481445312,
+            "scrollWidth": 175,
+            "clientWidth": 175
+          },
+          {
+            "s": ".bridge-single",
+            "x": 862.8214111328125,
+            "y": 683.6458129882812,
+            "w": 95.544677734375,
+            "h": 95.54461669921875,
+            "right": 958.3660888671875,
+            "bottom": 779.1904296875,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          }
+        ],
+        "artTextOverlaps": [],
+        "homeMeta": 0,
+        "homeCards": [
+          {
+            "name": "наггетсы куриные",
+            "visible": true,
+            "title": "Наггетсы"
+          },
+          {
+            "name": "куриный попкорн",
+            "visible": true,
+            "title": "Попкорн"
+          },
+          {
+            "name": "стрипсы",
+            "visible": true,
+            "title": "Стрипсы"
+          }
+        ],
+        "servingNumber": false,
+        "servingFinePrint": false,
+        "reduced": {
+          "animations": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "scroll": "smooth",
+          "transitions": [
+            {
+              "cls": "protein-copy reveal is-prepared is-visible",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "protein-story reveal is-prepared is-visible",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "button button-dark",
+              "duration": "0.2s, 0.25s, 0.25s"
+            },
+            {
+              "cls": "",
+              "duration": "0.25s"
+            },
+            {
+              "cls": "section-heading reveal is-prepared",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "",
+              "duration": "0.18s"
+            },
+            {
+              "cls": "button button-cream",
+              "duration": "0.2s, 0.25s, 0.25s"
+            },
+            {
+              "cls": "",
+              "duration": "0.25s"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "tabs": [
+          {
+            "key": "dinner",
+            "src": "assets/serving-dinner-crop.webp",
+            "loaded": true,
+            "link": "product-stripsy.html",
+            "labelledby": "tab-dinner",
+            "selected": "true"
+          },
+          {
+            "key": "movie",
+            "src": "assets/serving-movie-crop.webp",
+            "loaded": true,
+            "link": "product-naggetsy-kurinye.html",
+            "labelledby": "tab-movie",
+            "selected": "true"
+          },
+          {
+            "key": "company",
+            "src": "assets/serving-company-crop.webp",
+            "loaded": true,
+            "link": "catalogue.html",
+            "labelledby": "tab-company",
+            "selected": "true"
+          }
+        ],
+        "keyboard": true,
+        "catalogueRoute": true
+      },
+      "issues": []
+    },
+    {
+      "width": 1024,
+      "reduced": true,
+      "failures": [],
+      "errors": [],
+      "layout": {
+        "docWidth": 1024,
+        "viewport": 1024,
+        "h1": 1,
+        "fonts": [
+          {
+            "family": "Novoferma Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Novoferma Hand",
+            "status": "loaded"
+          }
+        ],
+        "brokenImages": [],
+        "boxes": {
+          ".protein-section": {
+            "x": 0,
+            "y": 254.328125,
+            "w": 1024,
+            "h": 540,
+            "right": 1024,
+            "bottom": 794.328125,
+            "scrollWidth": 1024,
+            "clientWidth": 1024
+          },
+          ".protein-inner": {
+            "x": 32,
+            "y": 254.328125,
+            "w": 960,
+            "h": 540,
+            "right": 992,
+            "bottom": 794.328125,
+            "scrollWidth": 960,
+            "clientWidth": 960
+          },
+          ".protein-copy": {
+            "x": 32,
+            "y": 377.9375,
+            "w": 484,
+            "h": 246.765625,
+            "right": 516,
+            "bottom": 624.703125,
+            "scrollWidth": 484,
+            "clientWidth": 484
+          },
+          ".protein-word": {
+            "x": 32,
+            "y": 430.4375,
+            "w": 484,
+            "h": 111.265625,
+            "right": 516,
+            "bottom": 541.703125,
+            "scrollWidth": 484,
+            "clientWidth": 484
+          },
+          ".protein-hand": {
+            "x": 37.94925308227539,
+            "y": 565.8746337890625,
+            "w": 140.16400146484375,
+            "h": 64.656982421875,
+            "right": 178.11325454711914,
+            "bottom": 630.5316162109375,
+            "scrollWidth": 136,
+            "clientWidth": 136
+          },
+          ".protein-story": {
+            "x": 552,
+            "y": 330.078125,
+            "w": 440,
+            "h": 342.5,
+            "right": 992,
+            "bottom": 672.578125,
+            "scrollWidth": 440,
+            "clientWidth": 440
+          },
+          ".protein-story h3": {
+            "x": 552,
+            "y": 354.078125,
+            "w": 440,
+            "h": 73.5,
+            "right": 992,
+            "bottom": 427.578125,
+            "scrollWidth": 440,
+            "clientWidth": 440
+          },
+          ".protein-story .button": {
+            "x": 552,
+            "y": 619.578125,
+            "w": 222.515625,
+            "h": 53,
+            "right": 774.515625,
+            "bottom": 672.578125,
+            "scrollWidth": 221,
+            "clientWidth": 221
+          },
+          ".protein-bridge": {
+            "x": 697.09375,
+            "y": 704.328125,
+            "w": 245,
+            "h": 155,
+            "right": 942.09375,
+            "bottom": 859.328125,
+            "scrollWidth": 261,
+            "clientWidth": 245
+          },
+          ".bridge-cluster": {
+            "x": 685.898681640625,
+            "y": 700.9796752929688,
+            "w": 197.39013671875,
+            "h": 172.44696044921875,
+            "right": 883.288818359375,
+            "bottom": 873.4266357421875,
+            "scrollWidth": 175,
+            "clientWidth": 175
+          },
+          ".bridge-single": {
+            "x": 862.97314453125,
+            "y": 682.20751953125,
+            "w": 95.2412109375,
+            "h": 95.2412109375,
+            "right": 958.21435546875,
+            "bottom": 777.44873046875,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          },
+          ".serving-section": {
+            "x": 0,
+            "y": 794.328125,
+            "w": 1024,
+            "h": 854.296875,
+            "right": 1024,
+            "bottom": 1648.625,
+            "scrollWidth": 1024,
+            "clientWidth": 1024
+          },
+          ".serving-section .section-heading": {
+            "x": 32,
+            "y": 910.328125,
+            "w": 960,
+            "h": 92.921875,
+            "right": 992,
+            "bottom": 1003.25,
+            "scrollWidth": 961,
+            "clientWidth": 960
+          },
+          ".serving-section .section-heading h2": {
+            "x": 32,
+            "y": 946.828125,
+            "w": 494.546875,
+            "h": 56.421875,
+            "right": 526.546875,
+            "bottom": 1003.25,
+            "scrollWidth": 495,
+            "clientWidth": 495
+          }
+        },
+        "textBoxes": [
+          {
+            "text": "02 / в основе — мясо птицы",
+            "tag": "P",
+            "cls": "eyebrow",
+            "x": 32,
+            "y": 378.9375,
+            "w": 214.515625,
+            "h": 14,
+            "right": 246.515625,
+            "bottom": 392.9375
+          },
+          {
+            "text": "На каждый день.С удовольствием.",
+            "tag": "H3",
+            "cls": "",
+            "x": 552,
+            "y": 349.078125,
+            "w": 293.890625,
+            "h": 81.75,
+            "right": 845.890625,
+            "bottom": 430.828125
+          },
+          {
+            "text": "Курица и индейка — природные источники белка. Он помогает поддерживать мышцы и важен в повседневном рационе.",
+            "tag": "P",
+            "cls": "",
+            "x": 552,
+            "y": 456.578125,
+            "w": 381.234375,
+            "h": 68,
+            "right": 933.234375,
+            "bottom": 524.578125
+          },
+          {
+            "text": "А мы делаем из птицы то, что вы любите: фрикадельки, наггетсы и не только.",
+            "tag": "P",
+            "cls": "",
+            "x": 552,
+            "y": 544.578125,
+            "w": 397.859375,
+            "h": 44,
+            "right": 949.859375,
+            "bottom": 588.578125
+          },
+          {
+            "text": "Выбрать свой вкус↗",
+            "tag": "A",
+            "cls": "button button-dark",
+            "x": 579,
+            "y": 632.578125,
+            "w": 168.515625,
+            "h": 26,
+            "right": 747.515625,
+            "bottom": 658.578125
+          },
+          {
+            "text": "На вечер есть план.",
+            "tag": "H2",
+            "cls": "",
+            "x": 32,
+            "y": 939.828125,
+            "w": 494.546875,
+            "h": 70,
+            "right": 526.546875,
+            "bottom": 1009.828125
+          },
+          {
+            "text": "Хорошо сидим! ",
+            "tag": "P",
+            "cls": "hand ",
+            "x": 807.74951171875,
+            "y": 927.8286743164062,
+            "w": 185.62109375,
+            "h": 52.14556884765625,
+            "right": 993.37060546875,
+            "bottom": 979.9742431640625
+          }
+        ],
+        "artBoxes": [
+          {
+            "s": ".bridge-cluster",
+            "x": 685.898681640625,
+            "y": 700.9796752929688,
+            "w": 197.39013671875,
+            "h": 172.44696044921875,
+            "right": 883.288818359375,
+            "bottom": 873.4266357421875,
+            "scrollWidth": 175,
+            "clientWidth": 175
+          },
+          {
+            "s": ".bridge-single",
+            "x": 862.97314453125,
+            "y": 682.20751953125,
+            "w": 95.2412109375,
+            "h": 95.2412109375,
+            "right": 958.21435546875,
+            "bottom": 777.44873046875,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          }
+        ],
+        "artTextOverlaps": [],
+        "homeMeta": 0,
+        "homeCards": [
+          {
+            "name": "наггетсы куриные",
+            "visible": true,
+            "title": "Наггетсы"
+          },
+          {
+            "name": "куриный попкорн",
+            "visible": true,
+            "title": "Попкорн"
+          },
+          {
+            "name": "стрипсы",
+            "visible": true,
+            "title": "Стрипсы"
+          }
+        ],
+        "servingNumber": false,
+        "servingFinePrint": false,
+        "reduced": {
+          "animations": [],
+          "scroll": "auto",
+          "transitions": []
+        }
+      },
+      "interaction": {
+        "tabs": [
+          {
+            "key": "dinner",
+            "src": "assets/serving-dinner-crop.webp",
+            "loaded": true,
+            "link": "product-stripsy.html",
+            "labelledby": "tab-dinner",
+            "selected": "true"
+          },
+          {
+            "key": "movie",
+            "src": "assets/serving-movie-crop.webp",
+            "loaded": true,
+            "link": "product-naggetsy-kurinye.html",
+            "labelledby": "tab-movie",
+            "selected": "true"
+          },
+          {
+            "key": "company",
+            "src": "assets/serving-company-crop.webp",
+            "loaded": true,
+            "link": "catalogue.html",
+            "labelledby": "tab-company",
+            "selected": "true"
+          }
+        ],
+        "keyboard": true,
+        "catalogueRoute": true
+      },
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "reduced": false,
+      "failures": [],
+      "errors": [],
+      "layout": {
+        "docWidth": 1440,
+        "viewport": 1440,
+        "h1": 1,
+        "fonts": [
+          {
+            "family": "Novoferma Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Novoferma Hand",
+            "status": "loaded"
+          }
+        ],
+        "brokenImages": [],
+        "boxes": {
+          ".protein-section": {
+            "x": 0,
+            "y": 229.875,
+            "w": 1440,
+            "h": 588.71875,
+            "right": 1440,
+            "bottom": 818.59375,
+            "scrollWidth": 1440,
+            "clientWidth": 1440
+          },
+          ".protein-inner": {
+            "x": 72,
+            "y": 229.875,
+            "w": 1296,
+            "h": 588.71875,
+            "right": 1368,
+            "bottom": 818.59375,
+            "scrollWidth": 1296,
+            "clientWidth": 1296
+          },
+          ".protein-copy": {
+            "x": 72,
+            "y": 336.96875,
+            "w": 663.609375,
+            "h": 327.53125,
+            "right": 735.609375,
+            "bottom": 664.5,
+            "scrollWidth": 664,
+            "clientWidth": 664
+          },
+          ".protein-word": {
+            "x": 72,
+            "y": 398.46875,
+            "w": 663.609375,
+            "h": 164.03125,
+            "right": 735.609375,
+            "bottom": 562.5,
+            "scrollWidth": 664,
+            "clientWidth": 664
+          },
+          ".protein-hand": {
+            "x": 77.29145812988281,
+            "y": 586.8021240234375,
+            "w": 185.12022399902344,
+            "h": 85.395751953125,
+            "right": 262.41168212890625,
+            "bottom": 672.1978759765625,
+            "scrollWidth": 180,
+            "clientWidth": 180
+          },
+          ".protein-story": {
+            "x": 805.609375,
+            "y": 307.8890686035156,
+            "w": 480,
+            "h": 385.7187194824219,
+            "right": 1285.609375,
+            "bottom": 693.6077880859375,
+            "scrollWidth": 480,
+            "clientWidth": 480
+          },
+          ".protein-story h3": {
+            "x": 805.609375,
+            "y": 332.8890686035156,
+            "w": 480,
+            "h": 99.78125,
+            "right": 1285.609375,
+            "bottom": 432.6703186035156,
+            "scrollWidth": 480,
+            "clientWidth": 480
+          },
+          ".protein-story .button": {
+            "x": 805.609375,
+            "y": 640.6077880859375,
+            "w": 222.515625,
+            "h": 53,
+            "right": 1028.125,
+            "bottom": 693.6077880859375,
+            "scrollWidth": 221,
+            "clientWidth": 221
+          },
+          ".protein-bridge": {
+            "x": 938,
+            "y": 703.59375,
+            "w": 300,
+            "h": 200,
+            "right": 1238,
+            "bottom": 903.59375,
+            "scrollWidth": 328,
+            "clientWidth": 300
+          },
+          ".bridge-cluster": {
+            "x": 924.0171508789062,
+            "y": 706.9613647460938,
+            "w": 242.96575927734375,
+            "h": 212.46600341796875,
+            "right": 1166.98291015625,
+            "bottom": 919.4273681640625,
+            "scrollWidth": 215,
+            "clientWidth": 215
+          },
+          ".bridge-single": {
+            "x": 1148.5662841796875,
+            "y": 680.7000732421875,
+            "w": 117.867431640625,
+            "h": 117.86737060546875,
+            "right": 1266.4337158203125,
+            "bottom": 798.5674438476562,
+            "scrollWidth": 95,
+            "clientWidth": 95
+          },
+          ".serving-section": {
+            "x": 0,
+            "y": 818.59375,
+            "w": 1440,
+            "h": 1065.109375,
+            "right": 1440,
+            "bottom": 1883.703125,
+            "scrollWidth": 1440,
+            "clientWidth": 1440
+          },
+          ".serving-section .section-heading": {
+            "x": 72,
+            "y": 975.59375,
+            "w": 1296,
+            "h": 115.859375,
+            "right": 1368,
+            "bottom": 1091.453125,
+            "scrollWidth": 1297,
+            "clientWidth": 1296
+          },
+          ".serving-section .section-heading h2": {
+            "x": 72,
+            "y": 1012.09375,
+            "w": 695.484375,
+            "h": 79.359375,
+            "right": 767.484375,
+            "bottom": 1091.453125,
+            "scrollWidth": 695,
+            "clientWidth": 695
+          }
+        },
+        "textBoxes": [
+          {
+            "text": "02 / в основе — мясо птицы",
+            "tag": "P",
+            "cls": "eyebrow",
+            "x": 72,
+            "y": 337.96875,
+            "w": 214.515625,
+            "h": 14,
+            "right": 286.515625,
+            "bottom": 351.96875
+          },
+          {
+            "text": "На каждый день.С удовольствием.",
+            "tag": "H3",
+            "cls": "",
+            "x": 805.609375,
+            "y": 326.8890686035156,
+            "w": 399.015625,
+            "h": 109.890625,
+            "right": 1204.625,
+            "bottom": 436.7796936035156
+          },
+          {
+            "text": "Курица и индейка — природные источники белка. Он помогает поддерживать мышцы и важен в повседневном рационе.",
+            "tag": "P",
+            "cls": "",
+            "x": 805.609375,
+            "y": 462.6703186035156,
+            "w": 404.875,
+            "h": 75.37496948242188,
+            "right": 1210.484375,
+            "bottom": 538.0452880859375
+          },
+          {
+            "text": "А мы делаем из птицы то, что вы любите: фрикадельки, наггетсы и не только.",
+            "tag": "P",
+            "cls": "",
+            "x": 805.609375,
+            "y": 560.2327880859375,
+            "w": 334.65625,
+            "h": 48.1875,
+            "right": 1140.265625,
+            "bottom": 608.4202880859375
+          },
+          {
+            "text": "Выбрать свой вкус↗",
+            "tag": "A",
+            "cls": "button button-dark",
+            "x": 832.609375,
+            "y": 653.6077880859375,
+            "w": 168.515625,
+            "h": 26,
+            "right": 1001.125,
+            "bottom": 679.6077880859375
+          },
+          {
+            "text": "На вечер есть план.",
+            "tag": "H2",
+            "cls": "",
+            "x": 72,
+            "y": 1003.09375,
+            "w": 695.484375,
+            "h": 97,
+            "right": 767.484375,
+            "bottom": 1100.09375
+          },
+          {
+            "text": "Хорошо сидим! ",
+            "tag": "P",
+            "cls": "hand ",
+            "x": 1183.74951171875,
+            "y": 1004.5630493164062,
+            "w": 185.62109375,
+            "h": 52.14556884765625,
+            "right": 1369.37060546875,
+            "bottom": 1056.7086181640625
+          }
+        ],
+        "artBoxes": [
+          {
+            "s": ".bridge-cluster",
+            "x": 924.0171508789062,
+            "y": 706.9613647460938,
+            "w": 242.96575927734375,
+            "h": 212.46600341796875,
+            "right": 1166.98291015625,
+            "bottom": 919.4273681640625,
+            "scrollWidth": 215,
+            "clientWidth": 215
+          },
+          {
+            "s": ".bridge-single",
+            "x": 1148.5662841796875,
+            "y": 680.7000732421875,
+            "w": 117.867431640625,
+            "h": 117.86737060546875,
+            "right": 1266.4337158203125,
+            "bottom": 798.5674438476562,
+            "scrollWidth": 95,
+            "clientWidth": 95
+          }
+        ],
+        "artTextOverlaps": [],
+        "homeMeta": 0,
+        "homeCards": [
+          {
+            "name": "наггетсы куриные",
+            "visible": true,
+            "title": "Наггетсы"
+          },
+          {
+            "name": "куриный попкорн",
+            "visible": true,
+            "title": "Попкорн"
+          },
+          {
+            "name": "стрипсы",
+            "visible": true,
+            "title": "Стрипсы"
+          }
+        ],
+        "servingNumber": false,
+        "servingFinePrint": false,
+        "reduced": {
+          "animations": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "scroll": "smooth",
+          "transitions": [
+            {
+              "cls": "protein-copy reveal is-prepared is-visible",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "protein-story reveal is-prepared is-visible",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "button button-dark",
+              "duration": "0.2s, 0.25s, 0.25s"
+            },
+            {
+              "cls": "",
+              "duration": "0.25s"
+            },
+            {
+              "cls": "section-heading reveal is-prepared",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "",
+              "duration": "0.18s"
+            },
+            {
+              "cls": "button button-cream",
+              "duration": "0.2s, 0.25s, 0.25s"
+            },
+            {
+              "cls": "",
+              "duration": "0.25s"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "tabs": [
+          {
+            "key": "dinner",
+            "src": "assets/serving-dinner-crop.webp",
+            "loaded": true,
+            "link": "product-stripsy.html",
+            "labelledby": "tab-dinner",
+            "selected": "true"
+          },
+          {
+            "key": "movie",
+            "src": "assets/serving-movie-crop.webp",
+            "loaded": true,
+            "link": "product-naggetsy-kurinye.html",
+            "labelledby": "tab-movie",
+            "selected": "true"
+          },
+          {
+            "key": "company",
+            "src": "assets/serving-company-crop.webp",
+            "loaded": true,
+            "link": "catalogue.html",
+            "labelledby": "tab-company",
+            "selected": "true"
+          }
+        ],
+        "keyboard": true,
+        "catalogueRoute": true
+      },
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "reduced": true,
+      "failures": [],
+      "errors": [],
+      "layout": {
+        "docWidth": 1440,
+        "viewport": 1440,
+        "h1": 1,
+        "fonts": [
+          {
+            "family": "Novoferma Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Novoferma Hand",
+            "status": "loaded"
+          }
+        ],
+        "brokenImages": [],
+        "boxes": {
+          ".protein-section": {
+            "x": 0,
+            "y": 229.875,
+            "w": 1440,
+            "h": 588.71875,
+            "right": 1440,
+            "bottom": 818.59375,
+            "scrollWidth": 1440,
+            "clientWidth": 1440
+          },
+          ".protein-inner": {
+            "x": 72,
+            "y": 229.875,
+            "w": 1296,
+            "h": 588.71875,
+            "right": 1368,
+            "bottom": 818.59375,
+            "scrollWidth": 1296,
+            "clientWidth": 1296
+          },
+          ".protein-copy": {
+            "x": 72,
+            "y": 336.96875,
+            "w": 663.609375,
+            "h": 327.53125,
+            "right": 735.609375,
+            "bottom": 664.5,
+            "scrollWidth": 664,
+            "clientWidth": 664
+          },
+          ".protein-word": {
+            "x": 72,
+            "y": 398.46875,
+            "w": 663.609375,
+            "h": 164.03125,
+            "right": 735.609375,
+            "bottom": 562.5,
+            "scrollWidth": 664,
+            "clientWidth": 664
+          },
+          ".protein-hand": {
+            "x": 77.29145812988281,
+            "y": 586.8021240234375,
+            "w": 185.12022399902344,
+            "h": 85.395751953125,
+            "right": 262.41168212890625,
+            "bottom": 672.1978759765625,
+            "scrollWidth": 180,
+            "clientWidth": 180
+          },
+          ".protein-story": {
+            "x": 805.609375,
+            "y": 307.875,
+            "w": 480,
+            "h": 385.71875,
+            "right": 1285.609375,
+            "bottom": 693.59375,
+            "scrollWidth": 480,
+            "clientWidth": 480
+          },
+          ".protein-story h3": {
+            "x": 805.609375,
+            "y": 332.875,
+            "w": 480,
+            "h": 99.78125,
+            "right": 1285.609375,
+            "bottom": 432.65625,
+            "scrollWidth": 480,
+            "clientWidth": 480
+          },
+          ".protein-story .button": {
+            "x": 805.609375,
+            "y": 640.59375,
+            "w": 222.515625,
+            "h": 53,
+            "right": 1028.125,
+            "bottom": 693.59375,
+            "scrollWidth": 221,
+            "clientWidth": 221
+          },
+          ".protein-bridge": {
+            "x": 938,
+            "y": 703.59375,
+            "w": 300,
+            "h": 200,
+            "right": 1238,
+            "bottom": 903.59375,
+            "scrollWidth": 328,
+            "clientWidth": 300
+          },
+          ".bridge-cluster": {
+            "x": 924.246337890625,
+            "y": 709.0540161132812,
+            "w": 242.50732421875,
+            "h": 211.8607177734375,
+            "right": 1166.753662109375,
+            "bottom": 920.9147338867188,
+            "scrollWidth": 215,
+            "clientWidth": 215
+          },
+          ".bridge-single": {
+            "x": 1148.747314453125,
+            "y": 679.341064453125,
+            "w": 117.50537109375,
+            "h": 117.50537109375,
+            "right": 1266.252685546875,
+            "bottom": 796.846435546875,
+            "scrollWidth": 95,
+            "clientWidth": 95
+          },
+          ".serving-section": {
+            "x": 0,
+            "y": 818.59375,
+            "w": 1440,
+            "h": 1065.109375,
+            "right": 1440,
+            "bottom": 1883.703125,
+            "scrollWidth": 1440,
+            "clientWidth": 1440
+          },
+          ".serving-section .section-heading": {
+            "x": 72,
+            "y": 953.59375,
+            "w": 1296,
+            "h": 115.859375,
+            "right": 1368,
+            "bottom": 1069.453125,
+            "scrollWidth": 1297,
+            "clientWidth": 1296
+          },
+          ".serving-section .section-heading h2": {
+            "x": 72,
+            "y": 990.09375,
+            "w": 695.484375,
+            "h": 79.359375,
+            "right": 767.484375,
+            "bottom": 1069.453125,
+            "scrollWidth": 695,
+            "clientWidth": 695
+          }
+        },
+        "textBoxes": [
+          {
+            "text": "02 / в основе — мясо птицы",
+            "tag": "P",
+            "cls": "eyebrow",
+            "x": 72,
+            "y": 337.96875,
+            "w": 214.515625,
+            "h": 14,
+            "right": 286.515625,
+            "bottom": 351.96875
+          },
+          {
+            "text": "На каждый день.С удовольствием.",
+            "tag": "H3",
+            "cls": "",
+            "x": 805.609375,
+            "y": 326.875,
+            "w": 399.015625,
+            "h": 109.890625,
+            "right": 1204.625,
+            "bottom": 436.765625
+          },
+          {
+            "text": "Курица и индейка — природные источники белка. Он помогает поддерживать мышцы и важен в повседневном рационе.",
+            "tag": "P",
+            "cls": "",
+            "x": 805.609375,
+            "y": 462.65625,
+            "w": 404.875,
+            "h": 75.375,
+            "right": 1210.484375,
+            "bottom": 538.03125
+          },
+          {
+            "text": "А мы делаем из птицы то, что вы любите: фрикадельки, наггетсы и не только.",
+            "tag": "P",
+            "cls": "",
+            "x": 805.609375,
+            "y": 560.21875,
+            "w": 334.65625,
+            "h": 48.1875,
+            "right": 1140.265625,
+            "bottom": 608.40625
+          },
+          {
+            "text": "Выбрать свой вкус↗",
+            "tag": "A",
+            "cls": "button button-dark",
+            "x": 832.609375,
+            "y": 653.59375,
+            "w": 168.515625,
+            "h": 26,
+            "right": 1001.125,
+            "bottom": 679.59375
+          },
+          {
+            "text": "На вечер есть план.",
+            "tag": "H2",
+            "cls": "",
+            "x": 72,
+            "y": 981.09375,
+            "w": 695.484375,
+            "h": 97,
+            "right": 767.484375,
+            "bottom": 1078.09375
+          },
+          {
+            "text": "Хорошо сидим! ",
+            "tag": "P",
+            "cls": "hand ",
+            "x": 1183.74951171875,
+            "y": 982.5630493164062,
+            "w": 185.62109375,
+            "h": 52.14556884765625,
+            "right": 1369.37060546875,
+            "bottom": 1034.7086181640625
+          }
+        ],
+        "artBoxes": [
+          {
+            "s": ".bridge-cluster",
+            "x": 924.246337890625,
+            "y": 709.0540161132812,
+            "w": 242.50732421875,
+            "h": 211.8607177734375,
+            "right": 1166.753662109375,
+            "bottom": 920.9147338867188,
+            "scrollWidth": 215,
+            "clientWidth": 215
+          },
+          {
+            "s": ".bridge-single",
+            "x": 1148.747314453125,
+            "y": 679.341064453125,
+            "w": 117.50537109375,
+            "h": 117.50537109375,
+            "right": 1266.252685546875,
+            "bottom": 796.846435546875,
+            "scrollWidth": 95,
+            "clientWidth": 95
+          }
+        ],
+        "artTextOverlaps": [],
+        "homeMeta": 0,
+        "homeCards": [
+          {
+            "name": "наггетсы куриные",
+            "visible": true,
+            "title": "Наггетсы"
+          },
+          {
+            "name": "куриный попкорн",
+            "visible": true,
+            "title": "Попкорн"
+          },
+          {
+            "name": "стрипсы",
+            "visible": true,
+            "title": "Стрипсы"
+          }
+        ],
+        "servingNumber": false,
+        "servingFinePrint": false,
+        "reduced": {
+          "animations": [],
+          "scroll": "auto",
+          "transitions": []
+        }
+      },
+      "interaction": {
+        "tabs": [
+          {
+            "key": "dinner",
+            "src": "assets/serving-dinner-crop.webp",
+            "loaded": true,
+            "link": "product-stripsy.html",
+            "labelledby": "tab-dinner",
+            "selected": "true"
+          },
+          {
+            "key": "movie",
+            "src": "assets/serving-movie-crop.webp",
+            "loaded": true,
+            "link": "product-naggetsy-kurinye.html",
+            "labelledby": "tab-movie",
+            "selected": "true"
+          },
+          {
+            "key": "company",
+            "src": "assets/serving-company-crop.webp",
+            "loaded": true,
+            "link": "catalogue.html",
+            "labelledby": "tab-company",
+            "selected": "true"
+          }
+        ],
+        "keyboard": true,
+        "catalogueRoute": true
+      },
+      "issues": []
+    },
+    {
+      "width": 1920,
+      "reduced": false,
+      "failures": [],
+      "errors": [],
+      "layout": {
+        "docWidth": 1920,
+        "viewport": 1920,
+        "h1": 1,
+        "fonts": [
+          {
+            "family": "Novoferma Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Novoferma Hand",
+            "status": "loaded"
+          }
+        ],
+        "brokenImages": [],
+        "boxes": {
+          ".protein-section": {
+            "x": 0,
+            "y": 229.21875,
+            "w": 1920,
+            "h": 589.71875,
+            "right": 1920,
+            "bottom": 818.9375,
+            "scrollWidth": 1920,
+            "clientWidth": 1920
+          },
+          ".protein-inner": {
+            "x": 312,
+            "y": 229.21875,
+            "w": 1296,
+            "h": 589.71875,
+            "right": 1608,
+            "bottom": 818.9375,
+            "scrollWidth": 1296,
+            "clientWidth": 1296
+          },
+          ".protein-copy": {
+            "x": 312,
+            "y": 336.8125,
+            "w": 663.609375,
+            "h": 327.53125,
+            "right": 975.609375,
+            "bottom": 664.34375,
+            "scrollWidth": 664,
+            "clientWidth": 664
+          },
+          ".protein-word": {
+            "x": 312,
+            "y": 398.3125,
+            "w": 663.609375,
+            "h": 164.03125,
+            "right": 975.609375,
+            "bottom": 562.34375,
+            "scrollWidth": 664,
+            "clientWidth": 664
+          },
+          ".protein-hand": {
+            "x": 317.2914733886719,
+            "y": 586.6458740234375,
+            "w": 185.12020874023438,
+            "h": 85.395751953125,
+            "right": 502.41168212890625,
+            "bottom": 672.0416259765625,
+            "scrollWidth": 180,
+            "clientWidth": 180
+          },
+          ".protein-story": {
+            "x": 1045.609375,
+            "y": 307.23284912109375,
+            "w": 480,
+            "h": 386.71875,
+            "right": 1525.609375,
+            "bottom": 693.9515991210938,
+            "scrollWidth": 480,
+            "clientWidth": 480
+          },
+          ".protein-story h3": {
+            "x": 1045.609375,
+            "y": 332.23284912109375,
+            "w": 480,
+            "h": 100.78125,
+            "right": 1525.609375,
+            "bottom": 433.01409912109375,
+            "scrollWidth": 480,
+            "clientWidth": 480
+          },
+          ".protein-story .button": {
+            "x": 1045.609375,
+            "y": 640.9515991210938,
+            "w": 222.515625,
+            "h": 53,
+            "right": 1268.125,
+            "bottom": 693.9515991210938,
+            "scrollWidth": 221,
+            "clientWidth": 221
+          },
+          ".protein-bridge": {
+            "x": 1178,
+            "y": 703.9375,
+            "w": 300,
+            "h": 200,
+            "right": 1478,
+            "bottom": 903.9375,
+            "scrollWidth": 328,
+            "clientWidth": 300
+          },
+          ".bridge-cluster": {
+            "x": 1164.018310546875,
+            "y": 707.3167114257812,
+            "w": 242.96337890625,
+            "h": 212.46282958984375,
+            "right": 1406.981689453125,
+            "bottom": 919.779541015625,
+            "scrollWidth": 215,
+            "clientWidth": 215
+          },
+          ".bridge-single": {
+            "x": 1388.56689453125,
+            "y": 681.0343627929688,
+            "w": 117.8662109375,
+            "h": 117.86627197265625,
+            "right": 1506.43310546875,
+            "bottom": 798.900634765625,
+            "scrollWidth": 95,
+            "clientWidth": 95
+          },
+          ".serving-section": {
+            "x": 0,
+            "y": 818.9375,
+            "w": 1920,
+            "h": 1065.828125,
+            "right": 1920,
+            "bottom": 1884.765625,
+            "scrollWidth": 1920,
+            "clientWidth": 1920
+          },
+          ".serving-section .section-heading": {
+            "x": 312,
+            "y": 975.9375,
+            "w": 1296,
+            "h": 116.578125,
+            "right": 1608,
+            "bottom": 1092.515625,
+            "scrollWidth": 1297,
+            "clientWidth": 1296
+          },
+          ".serving-section .section-heading h2": {
+            "x": 312,
+            "y": 1012.4375,
+            "w": 701.671875,
+            "h": 80.078125,
+            "right": 1013.671875,
+            "bottom": 1092.515625,
+            "scrollWidth": 702,
+            "clientWidth": 702
+          }
+        },
+        "textBoxes": [
+          {
+            "text": "02 / в основе — мясо птицы",
+            "tag": "P",
+            "cls": "eyebrow",
+            "x": 312,
+            "y": 337.8125,
+            "w": 214.515625,
+            "h": 14,
+            "right": 526.515625,
+            "bottom": 351.8125
+          },
+          {
+            "text": "На каждый день.С удовольствием.",
+            "tag": "H3",
+            "cls": "",
+            "x": 1045.609375,
+            "y": 326.23284912109375,
+            "w": 403.046875,
+            "h": 112.390625,
+            "right": 1448.65625,
+            "bottom": 438.62347412109375
+          },
+          {
+            "text": "Курица и индейка — природные источники белка. Он помогает поддерживать мышцы и важен в повседневном рационе.",
+            "tag": "P",
+            "cls": "",
+            "x": 1045.609375,
+            "y": 463.01409912109375,
+            "w": 404.875,
+            "h": 75.375,
+            "right": 1450.484375,
+            "bottom": 538.3890991210938
+          },
+          {
+            "text": "А мы делаем из птицы то, что вы любите: фрикадельки, наггетсы и не только.",
+            "tag": "P",
+            "cls": "",
+            "x": 1045.609375,
+            "y": 560.5765991210938,
+            "w": 334.65625,
+            "h": 48.1875,
+            "right": 1380.265625,
+            "bottom": 608.7640991210938
+          },
+          {
+            "text": "Выбрать свой вкус↗",
+            "tag": "A",
+            "cls": "button button-dark",
+            "x": 1072.609375,
+            "y": 653.9515991210938,
+            "w": 168.515625,
+            "h": 26,
+            "right": 1241.125,
+            "bottom": 679.9515991210938
+          },
+          {
+            "text": "На вечер есть план.",
+            "tag": "H2",
+            "cls": "",
+            "x": 312,
+            "y": 1003.4375,
+            "w": 701.671875,
+            "h": 98,
+            "right": 1013.671875,
+            "bottom": 1101.4375
+          },
+          {
+            "text": "Хорошо сидим! ",
+            "tag": "P",
+            "cls": "hand ",
+            "x": 1423.74951171875,
+            "y": 1005.2661743164062,
+            "w": 185.62109375,
+            "h": 52.14556884765625,
+            "right": 1609.37060546875,
+            "bottom": 1057.4117431640625
+          }
+        ],
+        "artBoxes": [
+          {
+            "s": ".bridge-cluster",
+            "x": 1164.018310546875,
+            "y": 707.3167114257812,
+            "w": 242.96337890625,
+            "h": 212.46282958984375,
+            "right": 1406.981689453125,
+            "bottom": 919.779541015625,
+            "scrollWidth": 215,
+            "clientWidth": 215
+          },
+          {
+            "s": ".bridge-single",
+            "x": 1388.56689453125,
+            "y": 681.0343627929688,
+            "w": 117.8662109375,
+            "h": 117.86627197265625,
+            "right": 1506.43310546875,
+            "bottom": 798.900634765625,
+            "scrollWidth": 95,
+            "clientWidth": 95
+          }
+        ],
+        "artTextOverlaps": [],
+        "homeMeta": 0,
+        "homeCards": [
+          {
+            "name": "наггетсы куриные",
+            "visible": true,
+            "title": "Наггетсы"
+          },
+          {
+            "name": "куриный попкорн",
+            "visible": true,
+            "title": "Попкорн"
+          },
+          {
+            "name": "стрипсы",
+            "visible": true,
+            "title": "Стрипсы"
+          }
+        ],
+        "servingNumber": false,
+        "servingFinePrint": false,
+        "reduced": {
+          "animations": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "scroll": "smooth",
+          "transitions": [
+            {
+              "cls": "protein-copy reveal is-prepared is-visible",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "protein-story reveal is-prepared is-visible",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "button button-dark",
+              "duration": "0.2s, 0.25s, 0.25s"
+            },
+            {
+              "cls": "",
+              "duration": "0.25s"
+            },
+            {
+              "cls": "section-heading reveal is-prepared",
+              "duration": "0.75s, 0.75s"
+            },
+            {
+              "cls": "",
+              "duration": "0.18s"
+            },
+            {
+              "cls": "button button-cream",
+              "duration": "0.2s, 0.25s, 0.25s"
+            },
+            {
+              "cls": "",
+              "duration": "0.25s"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "tabs": [
+          {
+            "key": "dinner",
+            "src": "assets/serving-dinner-crop.webp",
+            "loaded": true,
+            "link": "product-stripsy.html",
+            "labelledby": "tab-dinner",
+            "selected": "true"
+          },
+          {
+            "key": "movie",
+            "src": "assets/serving-movie-crop.webp",
+            "loaded": true,
+            "link": "product-naggetsy-kurinye.html",
+            "labelledby": "tab-movie",
+            "selected": "true"
+          },
+          {
+            "key": "company",
+            "src": "assets/serving-company-crop.webp",
+            "loaded": true,
+            "link": "catalogue.html",
+            "labelledby": "tab-company",
+            "selected": "true"
+          }
+        ],
+        "keyboard": true,
+        "catalogueRoute": true
+      },
+      "issues": []
+    },
+    {
+      "width": 1920,
+      "reduced": true,
+      "failures": [],
+      "errors": [],
+      "layout": {
+        "docWidth": 1920,
+        "viewport": 1920,
+        "h1": 1,
+        "fonts": [
+          {
+            "family": "Novoferma Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Novoferma Hand",
+            "status": "loaded"
+          }
+        ],
+        "brokenImages": [],
+        "boxes": {
+          ".protein-section": {
+            "x": 0,
+            "y": 229.21875,
+            "w": 1920,
+            "h": 589.71875,
+            "right": 1920,
+            "bottom": 818.9375,
+            "scrollWidth": 1920,
+            "clientWidth": 1920
+          },
+          ".protein-inner": {
+            "x": 312,
+            "y": 229.21875,
+            "w": 1296,
+            "h": 589.71875,
+            "right": 1608,
+            "bottom": 818.9375,
+            "scrollWidth": 1296,
+            "clientWidth": 1296
+          },
+          ".protein-copy": {
+            "x": 312,
+            "y": 336.8125,
+            "w": 663.609375,
+            "h": 327.53125,
+            "right": 975.609375,
+            "bottom": 664.34375,
+            "scrollWidth": 664,
+            "clientWidth": 664
+          },
+          ".protein-word": {
+            "x": 312,
+            "y": 398.3125,
+            "w": 663.609375,
+            "h": 164.03125,
+            "right": 975.609375,
+            "bottom": 562.34375,
+            "scrollWidth": 664,
+            "clientWidth": 664
+          },
+          ".protein-hand": {
+            "x": 317.2914733886719,
+            "y": 586.6458740234375,
+            "w": 185.12020874023438,
+            "h": 85.395751953125,
+            "right": 502.41168212890625,
+            "bottom": 672.0416259765625,
+            "scrollWidth": 180,
+            "clientWidth": 180
+          },
+          ".protein-story": {
+            "x": 1045.609375,
+            "y": 307.21875,
+            "w": 480,
+            "h": 386.71875,
+            "right": 1525.609375,
+            "bottom": 693.9375,
+            "scrollWidth": 480,
+            "clientWidth": 480
+          },
+          ".protein-story h3": {
+            "x": 1045.609375,
+            "y": 332.21875,
+            "w": 480,
+            "h": 100.78125,
+            "right": 1525.609375,
+            "bottom": 433,
+            "scrollWidth": 480,
+            "clientWidth": 480
+          },
+          ".protein-story .button": {
+            "x": 1045.609375,
+            "y": 640.9375,
+            "w": 222.515625,
+            "h": 53,
+            "right": 1268.125,
+            "bottom": 693.9375,
+            "scrollWidth": 221,
+            "clientWidth": 221
+          },
+          ".protein-bridge": {
+            "x": 1178,
+            "y": 703.9375,
+            "w": 300,
+            "h": 200,
+            "right": 1478,
+            "bottom": 903.9375,
+            "scrollWidth": 328,
+            "clientWidth": 300
+          },
+          ".bridge-cluster": {
+            "x": 1164.246337890625,
+            "y": 709.3977661132812,
+            "w": 242.50732421875,
+            "h": 211.8607177734375,
+            "right": 1406.753662109375,
+            "bottom": 921.2584838867188,
+            "scrollWidth": 215,
+            "clientWidth": 215
+          },
+          ".bridge-single": {
+            "x": 1388.747314453125,
+            "y": 679.684814453125,
+            "w": 117.50537109375,
+            "h": 117.50537109375,
+            "right": 1506.252685546875,
+            "bottom": 797.190185546875,
+            "scrollWidth": 95,
+            "clientWidth": 95
+          },
+          ".serving-section": {
+            "x": 0,
+            "y": 818.9375,
+            "w": 1920,
+            "h": 1065.828125,
+            "right": 1920,
+            "bottom": 1884.765625,
+            "scrollWidth": 1920,
+            "clientWidth": 1920
+          },
+          ".serving-section .section-heading": {
+            "x": 312,
+            "y": 953.9375,
+            "w": 1296,
+            "h": 116.578125,
+            "right": 1608,
+            "bottom": 1070.515625,
+            "scrollWidth": 1297,
+            "clientWidth": 1296
+          },
+          ".serving-section .section-heading h2": {
+            "x": 312,
+            "y": 990.4375,
+            "w": 701.671875,
+            "h": 80.078125,
+            "right": 1013.671875,
+            "bottom": 1070.515625,
+            "scrollWidth": 702,
+            "clientWidth": 702
+          }
+        },
+        "textBoxes": [
+          {
+            "text": "02 / в основе — мясо птицы",
+            "tag": "P",
+            "cls": "eyebrow",
+            "x": 312,
+            "y": 337.8125,
+            "w": 214.515625,
+            "h": 14,
+            "right": 526.515625,
+            "bottom": 351.8125
+          },
+          {
+            "text": "На каждый день.С удовольствием.",
+            "tag": "H3",
+            "cls": "",
+            "x": 1045.609375,
+            "y": 326.21875,
+            "w": 403.046875,
+            "h": 112.390625,
+            "right": 1448.65625,
+            "bottom": 438.609375
+          },
+          {
+            "text": "Курица и индейка — природные источники белка. Он помогает поддерживать мышцы и важен в повседневном рационе.",
+            "tag": "P",
+            "cls": "",
+            "x": 1045.609375,
+            "y": 463,
+            "w": 404.875,
+            "h": 75.375,
+            "right": 1450.484375,
+            "bottom": 538.375
+          },
+          {
+            "text": "А мы делаем из птицы то, что вы любите: фрикадельки, наггетсы и не только.",
+            "tag": "P",
+            "cls": "",
+            "x": 1045.609375,
+            "y": 560.5625,
+            "w": 334.65625,
+            "h": 48.1875,
+            "right": 1380.265625,
+            "bottom": 608.75
+          },
+          {
+            "text": "Выбрать свой вкус↗",
+            "tag": "A",
+            "cls": "button button-dark",
+            "x": 1072.609375,
+            "y": 653.9375,
+            "w": 168.515625,
+            "h": 26,
+            "right": 1241.125,
+            "bottom": 679.9375
+          },
+          {
+            "text": "На вечер есть план.",
+            "tag": "H2",
+            "cls": "",
+            "x": 312,
+            "y": 981.4375,
+            "w": 701.671875,
+            "h": 98,
+            "right": 1013.671875,
+            "bottom": 1079.4375
+          },
+          {
+            "text": "Хорошо сидим! ",
+            "tag": "P",
+            "cls": "hand ",
+            "x": 1423.74951171875,
+            "y": 983.2661743164062,
+            "w": 185.62109375,
+            "h": 52.14556884765625,
+            "right": 1609.37060546875,
+            "bottom": 1035.4117431640625
+          }
+        ],
+        "artBoxes": [
+          {
+            "s": ".bridge-cluster",
+            "x": 1164.246337890625,
+            "y": 709.3977661132812,
+            "w": 242.50732421875,
+            "h": 211.8607177734375,
+            "right": 1406.753662109375,
+            "bottom": 921.2584838867188,
+            "scrollWidth": 215,
+            "clientWidth": 215
+          },
+          {
+            "s": ".bridge-single",
+            "x": 1388.747314453125,
+            "y": 679.684814453125,
+            "w": 117.50537109375,
+            "h": 117.50537109375,
+            "right": 1506.252685546875,
+            "bottom": 797.190185546875,
+            "scrollWidth": 95,
+            "clientWidth": 95
+          }
+        ],
+        "artTextOverlaps": [],
+        "homeMeta": 0,
+        "homeCards": [
+          {
+            "name": "наггетсы куриные",
+            "visible": true,
+            "title": "Наггетсы"
+          },
+          {
+            "name": "куриный попкорн",
+            "visible": true,
+            "title": "Попкорн"
+          },
+          {
+            "name": "стрипсы",
+            "visible": true,
+            "title": "Стрипсы"
+          }
+        ],
+        "servingNumber": false,
+        "servingFinePrint": false,
+        "reduced": {
+          "animations": [],
+          "scroll": "auto",
+          "transitions": []
+        }
+      },
+      "interaction": {
+        "tabs": [
+          {
+            "key": "dinner",
+            "src": "assets/serving-dinner-crop.webp",
+            "loaded": true,
+            "link": "product-stripsy.html",
+            "labelledby": "tab-dinner",
+            "selected": "true"
+          },
+          {
+            "key": "movie",
+            "src": "assets/serving-movie-crop.webp",
+            "loaded": true,
+            "link": "product-naggetsy-kurinye.html",
+            "labelledby": "tab-movie",
+            "selected": "true"
+          },
+          {
+            "key": "company",
+            "src": "assets/serving-company-crop.webp",
+            "loaded": true,
+            "link": "catalogue.html",
+            "labelledby": "tab-company",
+            "selected": "true"
+          }
+        ],
+        "keyboard": true,
+        "catalogueRoute": true
+      },
+      "issues": []
+    }
+  ],
+  "bugs": [],
+  "summary": {
+    "configurations": 14,
+    "passed": 14,
+    "bugs": 0
+  },
+  "hashesAfter": {
+    "index.html": "2caa163a9937cb1a0dc251433847f0ad450e41a16608a3f8ecf55979378ab517",
+    "style.css": "563159403d3064eb224ddee44cfc8b8dab4a52272250183a0eff5a00a1cf8494",
+    "script.js": "2388bb671ea2085e1ef3021f6402bf2bf8e0948f2aabdb95eac02341d0766358",
+    "assets/meatball-cluster.webp": "f8f8be736798a041f29d77d68efa42a4000e85c33c1a11a56f3edceb73f3bd90",
+    "assets/meatball-float.webp": "6b7b21f0963cd06ae2c464deccf74e29eefdb074b13b1cb6126115e80401f077"
+  },
+  "filesChanged": []
+}

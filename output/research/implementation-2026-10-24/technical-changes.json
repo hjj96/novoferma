@@ -1,0 +1,235 @@
+{
+  "date": "2026-10-24",
+  "scope": "Technical implementation for local concept. No deployment, no field Core Web Vitals measurement, no actual mail submission.",
+  "backup": {
+    "path": "output/research/implementation-2026-10-24/before/concept",
+    "verifiedBeforeEdits": true,
+    "assetMasterBaseline": "20 current masters match before/concept; approved Fibriki v10 matches approved-masters/fibriki-pack-v10.webp. Historical v9 backup remains unchanged.",
+    "approvedV10": "output/research/implementation-2026-10-24/approved-masters/fibriki-pack-v10.webp",
+    "allCurrentMastersMatchTheirRecordedBaseline": true
+  },
+  "ownedFiles": [
+    {
+      "path": "output/concept/script.js",
+      "sha256": "65160eba7f2e90d87863aed6341497c9717d900d51c273782e4a1d2adcb015d4",
+      "beforeSha256": "62e2f17cad4101dbb81a8260ab9243d2a1dd3aaacfb669c1138f32f87413cd6a",
+      "change": "City feedback reset on every input/change; current city/product mailto; clipboard copy and manual readonly draft fallback; pending-copy revision guard. Existing mailto is opened only by explicit submit. Explicitly listens to an associated product selector outside the form; form= does not change event ancestry."
+    },
+    {
+      "path": "output/concept/product-hero.js",
+      "sha256": "005574cdda650466a426456625d3c9c205c5c5d67810584e28d162bdb3b5d8db",
+      "beforeSha256": "3ed49fa50c08e370af3bf84a9b642c8721a3aae292bc6fe2a80722e1d6f7d272",
+      "change": "On-demand data-src/data-srcset/data-sizes hydration with decode before scene commit; last-request-wins navigation; sequential idle warm after load, disabled for hidden tabs, saveData and 2g; no autoplay."
+    },
+    {
+      "path": "scripts/optimize_site_assets.py",
+      "sha256": "ded1357f830cca107ef39ce64e8920baca1632d90f0291a2fe861c8d1badcb32",
+      "change": "Reproducible non-generative responsive WebP derivative pipeline; requires backup; writes atomically; verifies source stability and exact decoded alpha."
+    },
+    {
+      "path": "output/concept/asset-variants.json",
+      "sha256": "a5f29b386ed09f8200b56c5ff676c8f9c09af1d3cd8a0395337a890c7386674e",
+      "change": "Integration manifest keyed by exact original source paths without query strings."
+    },
+    {
+      "path": "output/concept/assets/responsive/",
+      "change": "47 generated derivatives plus review-only QA sheets in _qa."
+    },
+    {
+      "path": "scripts/check_interactions.cjs",
+      "sha256": "53450d1e45e3d6f17fda9344b25d9c07d1d8774d6079b130d3ff46a24426d4b9",
+      "change": "Portable builtins-only Node VM behavior tests; actual generated HTML defines controls, options and form/selector ancestry."
+    },
+    {
+      "path": "output/concept/partners-scenes.js",
+      "sha256": "4721eb618455d5ba2575f257773a0f9aa7f0bcd52320730edf4fa56edbd4c7e5",
+      "beforeSha256": "cb2523297eddb32e827791f43f00da6e20161a5266591df5ea2a1f30582536ec",
+      "change": "Revision guard prevents old asynchronous clipboard feedback/manual drafts after field, radio or format-link changes. Input and change both reset feedback; submit/copy clear prior feedback before validation."
+    }
+  ],
+  "integration": {
+    "cityCopy": "button type=button with data-city-copy; readonly hidden textarea data-city-draft with accessible label; existing .form-feedback role=status. Native city required validation remains.",
+    "hero": "First active scene keeps real src eagerly. Inactive images use placeholder normal src plus data-src, optional data-srcset and data-sizes. title text is supplied by parent in .product-title-live.",
+    "manifest": "manifest.assets[sourcePathWithoutQuery] has src (800 px), width, height, srcset. Packaging candidates are400/800; five illustrations add native-width candidates. Consumer supplies truthful sizes.",
+    "qa": "assets/responsive/_qa files are visual review aids, not runtime image sources."
+  },
+  "assets": {
+    "method": "Pillow WebP method6; packaging q94, illustrations q90; premultiplied RGBA LANCZOS resize; no generative changes; originals preserved.",
+    "totals": {
+      "sources": 21,
+      "packagingSources": 16,
+      "variants": 47,
+      "sourceBytes": 12714512,
+      "defaultSrcBytes": 3120062,
+      "allVariantsBytes": 5448128
+    },
+    "default800SavingPercent": 75.46,
+    "groups": {
+      "packshots": {
+        "sources": 16,
+        "sourceBytes": 8254966,
+        "bytes400": 780050,
+        "bytes800": 2354028,
+        "saving800Percent": 71.48,
+        "foregroundRgbMae8BitRange": [
+          2.0242,
+          3.8114
+        ]
+      },
+      "illustrations": {
+        "sources": 5,
+        "sourceBytes": 4459546,
+        "bytes400": 251746,
+        "bytes800": 766034,
+        "saving800Percent": 82.82,
+        "foregroundRgbMae8BitRange": [
+          1.6778,
+          6.0663
+        ]
+      }
+    },
+    "validation": {
+      "pathsDimensionsBytesAndHashes": "47/47 pass",
+      "alphaMaxDifference": 0,
+      "sourceMatchesBackup": "20/20 historical baseline + 1/1 separately approved current v10 master pass",
+      "metricCaveat": "RGB MAE is an arithmetic foreground error, not a perceptual quality or legibility score. Alpha is compared against the corresponding resized RGBA reference, not against original dimensions.",
+      "incrementalRebuild": "47 cached derivatives were decoded and remeasured; manifest SHA256 unchanged on rerun"
+    },
+    "visualReview": {
+      "choice": "q94 selected conservatively for all16 packshots after SOURCE/q90/q94 comparison of logo and small label text. q90 used for five illustrations. All16 400px package previews and all5 800px illustrations reviewed; contact mascot original/800 also reviewed separately. Current approved Fibriki v10 replaces v9 in the 16 current masters; v10 original,400,800 visually reviewed separately and the 400 gallery refreshed.",
+      "observations": "Package wording, shapes and drawings preserved in reviewed examples; no newly generated text. Original tiny outer flecks/crop boundaries were retained rather than retouched. No conspicuous new contour or label defects observed at review scales.",
+      "proofs": [
+        "output/concept/assets/responsive/_qa/labels-q90-q94.png",
+        "output/concept/assets/responsive/_qa/packshots-400-gallery.jpg",
+        "output/concept/assets/responsive/_qa/illustrations-800-gallery.jpg"
+      ]
+    },
+    "historicalUnusedFiles": "Earlier v9 derivatives remain on disk but are absent from current manifest and runtime references. They are not included in current 47-variant totals.",
+    "fibrikiV10": {
+      "src": "assets/responsive/packshots/fibriki-pack-v10-800-q94-495de433.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/fibriki-pack-v10-400-q94-495de433.webp 400w, assets/responsive/packshots/fibriki-pack-v10-800-q94-495de433.webp 800w",
+      "sourceWidth": 800,
+      "sourceHeight": 800,
+      "sourceBytes": 439000,
+      "sourceSha256": "495de4333a37287ef1722fa3d50acbf8f68155c31c5d721e4355b4e9e6ff3009",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/fibriki-pack-v10-400-q94-495de433.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 45448,
+          "quality": 94,
+          "sha256": "1e7161419ce8e147c29dc5210c7e2c59fb6aead793fe787d600aaaafd8eb9a16",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.649
+        },
+        {
+          "src": "assets/responsive/packshots/fibriki-pack-v10-800-q94-495de433.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 126096,
+          "quality": 94,
+          "sha256": "50991f7e725f908d20fc32b1870048dba5ea35c413915aecdb56a1400a5083ec",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.0242
+        }
+      ]
+    }
+  },
+  "tests": {
+    "nodeSyntax": {
+      "runtime": "/Users/andrey/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+      "files": [
+        "output/concept/script.js",
+        "output/concept/product-hero.js",
+        "output/concept/partners-scenes.js"
+      ],
+      "result": "All three passed node --check (hero unchanged since its check)"
+    },
+    "vmBehavior": {
+      "result": "21 passed",
+      "command": "node scripts/check_interactions.cjs [path/to/site]",
+      "script": "scripts/check_interactions.cjs",
+      "cases": [
+        "city: generated copy/manual controls retain their HTML contract",
+        "city: known product query preset; unknown values are ignored",
+        "city: whitespace fails native validity and does not navigate",
+        "city: submit prepares current city/product and edit clears stale retry",
+        "city: external product select change clears old retry despite form association",
+        "city: clipboard success never navigates or sends; uses current request",
+        "city: unavailable/rejected clipboard exposes selected manual draft",
+        "city: product edit while clipboard is pending suppresses stale success or failure",
+        "partners: valid copy contains current form data and never navigates",
+        "partners: blank or whitespace required fields prevent copy",
+        "partners: manual draft is selected, then field change clears draft and stale retry",
+        "partners: field/radio/format-link edit cancels pending clipboard success and failure",
+        "hero: generated panels/tabs are paired, first real art eager, inactive art deferred",
+        "hero: selection waits for artwork; responsive hints precede src",
+        "hero: rapid navigation commits only the latest scene",
+        "hero: rejected decode does not trap navigation or aria-busy",
+        "hero: End key focuses without scrolling and commits the last scene",
+        "hero: focus inside the old panel is moved out before it becomes inert",
+        "hero: idle warm starts after load, one scene at a time, without autoplay",
+        "hero: saveData/slow connection skips speculative warm but keeps explicit selection",
+        "hero: hidden document defers warm; visibility resumes; timeout fallback remains delayed"
+      ],
+      "method": "Node builtins only, VM with minimal DOM, controlled image decode and clipboard promises. Parses actual generated HTML for relevant attributes/options/ancestry. No browser, network or real mail."
+    },
+    "assetManifest": "All47 paths, dimensions, byte counts and hashes verified; 20 historical sources and current approved v10 match baselines; exact alpha per resized reference.",
+    "generatorIntegration": "Read-only AST execution of actual responsive_markup function, without running generator top-level: all21 current manifest masters replace src/srcset/width/height correctly."
+  },
+  "acceptanceStillForParent": [
+    "Integrate responsive attributes and accurate component sizes; verify currentSrc and requests at relevant viewports/DPR.",
+    "Browser-check copy success and unavailable-clipboard fallback after markup integration, editing city/product, and native validation. Do not send actual mail.",
+    "Browser-check delayed hero images, keyboard, rapid switching, reduced motion, and JS error console with final markup/CSS.",
+    "Measure real network/page performance separately; byte reductions do not establish LCP/INP/CLS improvement."
+  ],
+  "constraintsRespected": [
+    "No build_site.py executed",
+    "No generator, CSS, HTML or product data edited by this subagent",
+    "Only approved added ownership: partners-scenes.js, portable interaction check and v10 master evidence",
+    "No original master replaced or redrawn; historical before backup retained",
+    "No real mail sent",
+    "All runtime mutations limited to assigned JS files and derivative/manifest files"
+  ],
+  "independentIntegrationReview": {
+    "scope": [
+      "scripts/build_site.py",
+      "scripts/site_sections.py",
+      "output/concept/script.js",
+      "output/concept/product-hero.js",
+      "output/concept/partners-scenes.js",
+      "generated target pages"
+    ],
+    "findings": [
+      {
+        "id": "integration-city-external-select",
+        "status": "fixed",
+        "source": "scripts/site_sections.py:17 and output/concept/script.js:98",
+        "fact": "Product select lives outside city form; form attribute does not make input/change bubble to form. Added direct listeners for external select. Covered by current HTML topology tests."
+      },
+      {
+        "id": "integration-b2b-clipboard-race",
+        "status": "fixed",
+        "source": "output/concept/partners-scenes.js",
+        "fact": "Pending copy could restore stale status/draft after any field or format edit. Added revision guard; tests cover success/rejection and field/radio/format-link changes."
+      },
+      {
+        "id": "integration-fibriki-v10-responsive",
+        "status": "assets complete; parent rebuild required at time of this review",
+        "source": "scripts/build_site.py and output/concept/asset-variants.json",
+        "fact": "Generator switched to v10 but earlier manifest had v9. Current manifest/optimizer target v10. Before parent rebuild the only two non-responsive uses were catalogue and product-fibriki v10 images; all other20 target masters already use derivatives."
+      },
+      {
+        "id": "integration-illustration-sizes",
+        "status": "reported to parent; generator owned by parent",
+        "source": "scripts/build_site.py:28; output/concept/catalogue.css:14,27; output/concept/contacts.css:66; output/concept/partnership.css:13",
+        "fact": "Generic illustration sizes 70vw/600px overstates catalogue mascot86/170/210px, contact mobile84px and about mascotmax300px. Candidate overfetch is a risk; actual network choice not measured."
+      }
+    ],
+    "otherTargetMasterSrcsetOmissions": 0
+  }
+}

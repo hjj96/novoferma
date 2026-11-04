@@ -1,0 +1,32 @@
+Built-in ImageGen EDIT. No CLI/API generation. No programmatic image editing.
+
+PASS 1 — source edit target:
+/Users/andrey/Desktop/сайт нф/output/research/protein-concept/protein-reveal-curious-hen-v2.png
+
+Use case: background-extraction.
+Asset type: high-resolution transparent food layer for a website section.
+Input image 1 is the exact EDIT TARGET: the approved green poster. Extract only the existing pair of two broken chicken nugget halves at its center.
+Primary request: preserve the two approved halves faithfully: exact distinctive silhouettes and proportions, crunchy orange crumb texture and browning, white fibrous torn chicken interior, their existing relative positions, spacing, camera angle and equal shared scale. The larger left half faces right and the right half faces left. Do not redesign or reinterpret the food.
+Keep exactly TWO halves. Keep the nearby naturally scattered small crumbs and a few airborne crumbs belonging to this pair. Keep subtle soft translucent contact shadows under both pieces, fading into actual transparency.
+Remove everything else: all green paper/background, the hen character, all text/lettering, orange decorative accent strokes, orange arrow, plate, ingredients and any other product.
+Composition/framing: isolated complete pair plus crumbs and shadows, centered on a genuinely transparent canvas with safe empty margins on all four sides, no cut-off crumb or shadow. Reframe the retained pair together uniformly; do not move, rotate or resize one half independently. The pair should remain large and sharp. Output at 2048 × 1536 pixels if possible, otherwise a 2048 × 2048 square.
+Constraints: exactly the original two distinct halves, no cloned or repeated food, no additional nugget, no hen, no typography, no arrow, no decorative orange marks, no solid or painted backdrop, no checkerboard baked into pixels. Preserve the natural edge detail and semi-transparent shadows.
+
+PASS 2 — framing-only edit target:
+/Users/andrey/.codex/generated_images/01a12fd1-47c9-7073-8270-4bd63eadde39/exec-0fbceea5-1e57-4bc7-852b-0ec84a39b821.png
+
+Use case: background-extraction.
+Asset type: high-resolution transparent food layer for a website section.
+Input image 1 is the exact EDIT TARGET: the approved green poster. Extract only the existing pair of two broken chicken nugget halves at its center.
+Primary request: preserve the two approved halves faithfully: exact distinctive silhouettes and proportions, crunchy orange crumb texture and browning, white fibrous torn chicken interior, their existing relative positions, spacing, camera angle and equal shared scale. The larger left half faces right and the right half faces left. Do not redesign or reinterpret the food.
+Keep exactly TWO halves. Keep the nearby naturally scattered small crumbs and a few airborne crumbs belonging to this pair. Keep subtle soft translucent contact shadows under both pieces, fading into actual transparency.
+Remove everything else: all green paper/background, the hen character, all text/lettering, orange decorative accent strokes, orange arrow, plate, ingredients and any other product.
+Composition/framing: isolated complete pair plus crumbs and shadows, centered on a genuinely transparent canvas with safe empty margins on all four sides, no cut-off crumb or shadow. Reframe the retained pair together uniformly; do not move, rotate or resize one half independently. The pair should remain large and sharp. Output at 2048 × 1536 pixels if possible, otherwise a 2048 × 2048 square.
+Constraints: exactly the original two distinct halves, no cloned or repeated food, no additional nugget, no hen, no typography, no arrow, no decorative orange marks, no solid or painted backdrop, no checkerboard baked into pixels. Preserve the natural edge detail and semi-transparent shadows.
+
+Targeted follow-up EDIT: the supplied image is the extracted food layer. Keep every retained detail, the exact TWO existing halves, their relative spacing, orientation, textures, scattered crumbs and shadows unchanged. Change ONLY the canvas framing: uniformly reduce the entire retained pair+crumbs+shadows as one group and center it so there is a fully transparent safe margin of at least 8% of the canvas on ALL four sides. All shadows and every crumb must finish before these margins. Remove stray low-alpha colored noise from the empty margins. No added food or other elements. Export at 2048 × 1536 pixels, genuine alpha transparency.
+
+Selected original generated output:
+/Users/andrey/.codex/generated_images/01a12fd1-47c9-7073-8270-4bd63eadde39/exec-4e363d97-7e51-43f4-b3ee-b5c5f56ceb55.png
+
+Postprocessing: exact original PNG copy and lossless alpha-preserving WebP conversion only; no crop, resize, or retouch.

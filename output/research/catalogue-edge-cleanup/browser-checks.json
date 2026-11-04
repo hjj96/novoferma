@@ -1,0 +1,20 @@
+{
+  "catalogue": [
+    {
+      "width": 1440,
+      "products": 14,
+      "allCleanImagesLoaded": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "products": 14,
+      "allCleanImagesLoaded": true,
+      "overflow": false
+    }
+  ],
+  "detailPages": 14,
+  "homeImages": 4,
+  "allClean": true,
+  "errors": []
+}

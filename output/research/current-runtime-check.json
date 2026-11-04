@@ -1,0 +1,1050 @@
+{
+  "pass": true,
+  "checked": 80,
+  "results": [
+    {
+      "width": 320,
+      "file": "index.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand",
+        "Novoferma Poster"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "catalogue.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "about.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "where-to-buy.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "partners.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "contacts.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "product-kotlety-kurinye.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "product-bitochki-kurinye-s-ovoshchami.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "product-ezhiki-iz-tsyplenka-s-risom.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "product-kurinyj-popkorn.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "product-naggetsy-kurinye.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "product-naggetsy-kurinye-s-syrom.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "product-naggetsy-dinozavry.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "product-naggetsy-ostrye.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "product-naggetsy-s-indeykoy-fitnes.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "product-stripsy.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "product-kotlety-po-domashnemu.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "product-kotlety-pikantnye.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "product-kotlety-po-italyanski.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 320,
+      "file": "product-frikadelki-klassicheskie.html",
+      "failures": [],
+      "w": 320,
+      "doc": 320,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "index.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand",
+        "Novoferma Poster"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "catalogue.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "about.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "where-to-buy.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "partners.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "contacts.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "product-kotlety-kurinye.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "product-bitochki-kurinye-s-ovoshchami.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "product-ezhiki-iz-tsyplenka-s-risom.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "product-kurinyj-popkorn.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "product-naggetsy-kurinye.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "product-naggetsy-kurinye-s-syrom.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "product-naggetsy-dinozavry.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "product-naggetsy-ostrye.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "product-naggetsy-s-indeykoy-fitnes.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "product-stripsy.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "product-kotlety-po-domashnemu.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "product-kotlety-pikantnye.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "product-kotlety-po-italyanski.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 375,
+      "file": "product-frikadelki-klassicheskie.html",
+      "failures": [],
+      "w": 375,
+      "doc": 375,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "index.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand",
+        "Novoferma Poster"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "catalogue.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "about.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "where-to-buy.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "partners.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "contacts.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "product-kotlety-kurinye.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "product-bitochki-kurinye-s-ovoshchami.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "product-ezhiki-iz-tsyplenka-s-risom.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "product-kurinyj-popkorn.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "product-naggetsy-kurinye.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "product-naggetsy-kurinye-s-syrom.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "product-naggetsy-dinozavry.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "product-naggetsy-ostrye.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "product-naggetsy-s-indeykoy-fitnes.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "product-stripsy.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "product-kotlety-po-domashnemu.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "product-kotlety-pikantnye.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "product-kotlety-po-italyanski.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 768,
+      "file": "product-frikadelki-klassicheskie.html",
+      "failures": [],
+      "w": 768,
+      "doc": 768,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "index.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand",
+        "Novoferma Poster"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "catalogue.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "about.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "where-to-buy.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "partners.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "contacts.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "product-kotlety-kurinye.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "product-bitochki-kurinye-s-ovoshchami.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "product-ezhiki-iz-tsyplenka-s-risom.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "product-kurinyj-popkorn.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "product-naggetsy-kurinye.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "product-naggetsy-kurinye-s-syrom.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "product-naggetsy-dinozavry.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "product-naggetsy-ostrye.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "product-naggetsy-s-indeykoy-fitnes.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "product-stripsy.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "product-kotlety-po-domashnemu.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "product-kotlety-pikantnye.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "product-kotlety-po-italyanski.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    },
+    {
+      "width": 1440,
+      "file": "product-frikadelki-klassicheskie.html",
+      "failures": [],
+      "w": 1440,
+      "doc": 1440,
+      "h1": 1,
+      "broken": 0,
+      "fonts": [
+        "Novoferma Sans",
+        "Novoferma Hand"
+      ]
+    }
+  ]
+}

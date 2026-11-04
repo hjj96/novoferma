@@ -1,0 +1,231 @@
+[
+  {
+    "active": "scene-protein",
+    "activeCount": 1,
+    "cta": {
+      "bottom": 515.796875,
+      "height": 47.828125,
+      "left": 49.1484375,
+      "right": 294.90625,
+      "top": 467.96875,
+      "width": 245.7578125,
+      "x": 49.1484375,
+      "y": 467.96875
+    },
+    "description": {
+      "bottom": 400.53125,
+      "height": 41.46875,
+      "left": 49.1484375,
+      "right": 315.3828125,
+      "top": 359.0625,
+      "width": 266.234375,
+      "x": 49.1484375,
+      "y": 359.0625
+    },
+    "descriptionFont": "15.36px",
+    "floorDisplay": "none",
+    "height": 900,
+    "heroHeight": 576.3046875,
+    "inactiveInert": true,
+    "overflow": false,
+    "pack": {
+      "bottom": 444.6953125,
+      "height": 306.3828125,
+      "left": 616.453125,
+      "right": 974.8515625,
+      "top": 138.3125,
+      "width": 358.3984375,
+      "x": 616.453125,
+      "y": 138.3125
+    },
+    "scrollY": 0,
+    "title": {
+      "bottom": 350.0546875,
+      "height": 223.2734375,
+      "left": 49.1484375,
+      "right": 602.1015625,
+      "top": 126.78125,
+      "width": 552.953125,
+      "x": 49.1484375,
+      "y": 126.78125
+    },
+    "unloaded": [],
+    "width": 1024
+  },
+  {
+    "active": "scene-meatballs",
+    "activeCount": 1,
+    "cta": {
+      "bottom": 515.796875,
+      "height": 47.828125,
+      "left": 49.1484375,
+      "right": 294.90625,
+      "top": 467.96875,
+      "width": 245.7578125,
+      "x": 49.1484375,
+      "y": 467.96875
+    },
+    "description": {
+      "bottom": 401.171875,
+      "height": 44.21875,
+      "left": 49.1484375,
+      "right": 463.0703125,
+      "top": 356.953125,
+      "width": 413.921875,
+      "x": 49.1484375,
+      "y": 356.953125
+    },
+    "descriptionFont": "16.384px",
+    "floorDisplay": "block",
+    "height": 900,
+    "heroHeight": 576.3046875,
+    "inactiveInert": true,
+    "overflow": false,
+    "pack": null,
+    "scrollY": 0,
+    "title": {
+      "bottom": 225.0390625,
+      "height": 98.2578125,
+      "left": 49.1484375,
+      "right": 649.2109375,
+      "top": 126.78125,
+      "width": 600.0625,
+      "x": 49.1484375,
+      "y": 126.78125
+    },
+    "unloaded": [],
+    "width": 1024
+  },
+  {
+    "active": "scene-nuggets",
+    "activeCount": 1,
+    "cta": {
+      "bottom": 515.796875,
+      "height": 47.828125,
+      "left": 49.1484375,
+      "right": 294.90625,
+      "top": 467.96875,
+      "width": 245.7578125,
+      "x": 49.1484375,
+      "y": 467.96875
+    },
+    "description": {
+      "bottom": 352.578125,
+      "height": 44.21875,
+      "left": 49.1484375,
+      "right": 397.7109375,
+      "top": 308.359375,
+      "width": 348.5625,
+      "x": 49.1484375,
+      "y": 308.359375
+    },
+    "descriptionFont": "16.384px",
+    "floorDisplay": "block",
+    "height": 900,
+    "heroHeight": 576.3046875,
+    "inactiveInert": true,
+    "overflow": false,
+    "pack": null,
+    "scrollY": 0,
+    "title": {
+      "bottom": 249.90625,
+      "height": 123.125,
+      "left": 49.1484375,
+      "right": 571.3828125,
+      "top": 126.78125,
+      "width": 522.234375,
+      "x": 49.1484375,
+      "y": 126.78125
+    },
+    "unloaded": [],
+    "width": 1024
+  },
+  {
+    "active": "scene-fibriki",
+    "activeCount": 1,
+    "cta": {
+      "bottom": 515.796875,
+      "height": 47.828125,
+      "left": 49.1484375,
+      "right": 294.90625,
+      "top": 467.96875,
+      "width": 245.7578125,
+      "x": 49.1484375,
+      "y": 467.96875
+    },
+    "description": {
+      "bottom": 433.796875,
+      "height": 44.21875,
+      "left": 49.1484375,
+      "right": 463.0703125,
+      "top": 389.578125,
+      "width": 413.921875,
+      "x": 49.1484375,
+      "y": 389.578125
+    },
+    "descriptionFont": "16.384px",
+    "floorDisplay": "block",
+    "height": 900,
+    "heroHeight": 576.3046875,
+    "inactiveInert": true,
+    "overflow": false,
+    "pack": null,
+    "scrollY": 0,
+    "title": {
+      "bottom": 247.0078125,
+      "height": 120.2265625,
+      "left": 49.1484375,
+      "right": 648.1796875,
+      "top": 126.78125,
+      "width": 599.03125,
+      "x": 49.1484375,
+      "y": 126.78125
+    },
+    "unloaded": [],
+    "width": 1024
+  },
+  {
+    "active": "scene-lulia-mini",
+    "activeCount": 1,
+    "cta": {
+      "bottom": 515.796875,
+      "height": 47.828125,
+      "left": 49.1484375,
+      "right": 294.90625,
+      "top": 467.96875,
+      "width": 245.7578125,
+      "x": 49.1484375,
+      "y": 467.96875
+    },
+    "description": {
+      "bottom": 417.4140625,
+      "height": 44.21875,
+      "left": 49.1484375,
+      "right": 463.0703125,
+      "top": 373.1953125,
+      "width": 413.921875,
+      "x": 49.1484375,
+      "y": 373.1953125
+    },
+    "descriptionFont": "16.384px",
+    "floorDisplay": "block",
+    "height": 900,
+    "heroHeight": 576.3046875,
+    "inactiveInert": true,
+    "overflow": false,
+    "pack": null,
+    "scrollY": 0,
+    "title": {
+      "bottom": 298.8671875,
+      "height": 180.7265625,
+      "left": 49.1484375,
+      "right": 474.1015625,
+      "top": 118.140625,
+      "width": 424.953125,
+      "x": 49.1484375,
+      "y": 118.140625
+    },
+    "unloaded": [],
+    "width": 1024
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "background": "assets/product-hero/background-v2.webp?v=b9fdef9d25",
+    "broken": [],
+    "cta": {
+      "h": 67.265625,
+      "w": 345.59375,
+      "x": 69.1171875,
+      "y": 666.1796875
+    },
+    "gap": 47.40625,
+    "href": "catalogue.html",
+    "id": "scene-protein",
+    "inert": 4,
+    "overflow": false,
+    "viewport": 1440
+  },
+  {
+    "background": "assets/product-hero/background-v2.webp?v=b9fdef9d25",
+    "broken": [],
+    "cta": {
+      "h": 67.265625,
+      "w": 345.59375,
+      "x": 69.1171875,
+      "y": 666.1796875
+    },
+    "gap": 47.40625,
+    "href": "catalogue.html",
+    "id": "scene-meatballs",
+    "inert": 4,
+    "overflow": false,
+    "viewport": 1440
+  },
+  {
+    "background": "assets/product-hero/background-v2.webp?v=b9fdef9d25",
+    "broken": [],
+    "cta": {
+      "h": 67.265625,
+      "w": 345.59375,
+      "x": 69.1171875,
+      "y": 666.1796875
+    },
+    "gap": 47.40625,
+    "href": "catalogue.html",
+    "id": "scene-nuggets",
+    "inert": 4,
+    "overflow": false,
+    "viewport": 1440
+  },
+  {
+    "background": "assets/product-hero/background-v2.webp?v=b9fdef9d25",
+    "broken": [],
+    "cta": {
+      "h": 67.265625,
+      "w": 345.59375,
+      "x": 69.1171875,
+      "y": 666.1796875
+    },
+    "gap": 47.40625,
+    "href": "catalogue.html",
+    "id": "scene-fibriki",
+    "inert": 4,
+    "overflow": false,
+    "viewport": 1440
+  },
+  {
+    "background": "assets/product-hero/background-v2.webp?v=b9fdef9d25",
+    "broken": [],
+    "cta": {
+      "h": 67.265625,
+      "w": 345.59375,
+      "x": 69.1171875,
+      "y": 666.1796875
+    },
+    "gap": 47.40625,
+    "href": "catalogue.html",
+    "id": "scene-lulia-mini",
+    "inert": 4,
+    "overflow": false,
+    "viewport": 1440
+  }
+]

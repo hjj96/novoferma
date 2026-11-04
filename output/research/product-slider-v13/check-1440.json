@@ -1,0 +1,178 @@
+[
+  {
+    "active": "scene-meatballs",
+    "activeCount": 1,
+    "cta": {
+      "bottom": 696.9765625,
+      "height": 67.265625,
+      "left": 69.1171875,
+      "right": 414.7109375,
+      "top": 629.7109375,
+      "width": 345.59375,
+      "x": 69.1171875,
+      "y": 629.7109375
+    },
+    "description": {
+      "bottom": 564.1640625,
+      "height": 62.203125,
+      "left": 69.1171875,
+      "right": 651.3359375,
+      "top": 501.9609375,
+      "width": 582.21875,
+      "x": 69.1171875,
+      "y": 501.9609375
+    },
+    "descriptionFont": "23.04px",
+    "floorDisplay": "block",
+    "height": 900,
+    "heroHeight": 810.4296875,
+    "inactiveInert": true,
+    "overflow": false,
+    "pack": null,
+    "scrollY": 0,
+    "title": {
+      "bottom": 316.4609375,
+      "height": 138.171875,
+      "left": 69.1171875,
+      "right": 912.953125,
+      "top": 178.2890625,
+      "width": 843.8359375,
+      "x": 69.1171875,
+      "y": 178.2890625
+    },
+    "unloaded": [],
+    "width": 1440
+  },
+  {
+    "active": "scene-nuggets",
+    "activeCount": 1,
+    "cta": {
+      "bottom": 696.9765625,
+      "height": 67.265625,
+      "left": 69.1171875,
+      "right": 414.7109375,
+      "top": 629.7109375,
+      "width": 345.59375,
+      "x": 69.1171875,
+      "y": 629.7109375
+    },
+    "description": {
+      "bottom": 495.8359375,
+      "height": 62.203125,
+      "left": 69.1171875,
+      "right": 559.40625,
+      "top": 433.6328125,
+      "width": 490.2890625,
+      "x": 69.1171875,
+      "y": 433.6328125
+    },
+    "descriptionFont": "23.04px",
+    "floorDisplay": "block",
+    "height": 900,
+    "heroHeight": 810.4296875,
+    "inactiveInert": true,
+    "overflow": false,
+    "pack": null,
+    "scrollY": 0,
+    "title": {
+      "bottom": 351.4375,
+      "height": 173.1484375,
+      "left": 69.1171875,
+      "right": 803.515625,
+      "top": 178.2890625,
+      "width": 734.3984375,
+      "x": 69.1171875,
+      "y": 178.2890625
+    },
+    "unloaded": [],
+    "width": 1440
+  },
+  {
+    "active": "scene-fibriki",
+    "activeCount": 1,
+    "cta": {
+      "bottom": 696.9765625,
+      "height": 67.265625,
+      "left": 69.1171875,
+      "right": 414.7109375,
+      "top": 629.7109375,
+      "width": 345.59375,
+      "x": 69.1171875,
+      "y": 629.7109375
+    },
+    "description": {
+      "bottom": 610.0546875,
+      "height": 62.203125,
+      "left": 69.1171875,
+      "right": 651.3359375,
+      "top": 547.8515625,
+      "width": 582.21875,
+      "x": 69.1171875,
+      "y": 547.8515625
+    },
+    "descriptionFont": "23.04px",
+    "floorDisplay": "block",
+    "height": 900,
+    "heroHeight": 810.4296875,
+    "inactiveInert": true,
+    "overflow": false,
+    "pack": null,
+    "scrollY": 0,
+    "title": {
+      "bottom": 347.3671875,
+      "height": 169.078125,
+      "left": 69.1171875,
+      "right": 911.5078125,
+      "top": 178.2890625,
+      "width": 842.390625,
+      "x": 69.1171875,
+      "y": 178.2890625
+    },
+    "unloaded": [],
+    "width": 1440
+  },
+  {
+    "active": "scene-lulia-mini",
+    "activeCount": 1,
+    "cta": {
+      "bottom": 696.9765625,
+      "height": 67.265625,
+      "left": 69.1171875,
+      "right": 414.7109375,
+      "top": 629.7109375,
+      "width": 345.59375,
+      "x": 69.1171875,
+      "y": 629.7109375
+    },
+    "description": {
+      "bottom": 587,
+      "height": 62.203125,
+      "left": 69.1171875,
+      "right": 651.3359375,
+      "top": 524.796875,
+      "width": 582.21875,
+      "x": 69.1171875,
+      "y": 524.796875
+    },
+    "descriptionFont": "23.04px",
+    "floorDisplay": "block",
+    "height": 900,
+    "heroHeight": 810.4296875,
+    "inactiveInert": true,
+    "overflow": false,
+    "pack": null,
+    "scrollY": 0,
+    "title": {
+      "bottom": 420.28125,
+      "height": 254.1484375,
+      "left": 69.1171875,
+      "right": 666.7109375,
+      "top": 166.1328125,
+      "width": 597.59375,
+      "x": 69.1171875,
+      "y": 166.1328125
+    },
+    "unloaded": [],
+    "width": 1440
+  }
+]

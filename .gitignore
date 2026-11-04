@@ -1,0 +1,21 @@
+.DS_Store
+tmp/
+__pycache__/
+*.pyc
+
+# Generated archives are rebuilt locally from project files.
+*.zip
+*.zip.part
+
+# Local environments and installed dependencies.
+.venv/
+venv/
+node_modules/
+
+# Local credentials; share only placeholder examples.
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key

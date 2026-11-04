@@ -1,0 +1,58 @@
+[
+  {
+    "page": "partners.html",
+    "path": "/Users/andrey/Desktop/сайт нф/output/research/final-site-v13/partners-768.png",
+    "clientWidth": 768,
+    "h1": "Давайтеработатьвместе.",
+    "height": 900,
+    "hiddenReveals": [],
+    "overflow": false,
+    "scrollWidth": 768,
+    "scrollY": 0,
+    "totalHeight": 2237,
+    "unloaded": [],
+    "width": 768
+  },
+  {
+    "page": "contacts.html",
+    "path": "/Users/andrey/Desktop/сайт нф/output/research/final-site-v13/contacts-768.png",
+    "clientWidth": 768,
+    "h1": "Мына связи.",
+    "height": 900,
+    "hiddenReveals": [],
+    "overflow": false,
+    "scrollWidth": 768,
+    "scrollY": 0,
+    "totalHeight": 1301,
+    "unloaded": [],
+    "width": 768
+  },
+  {
+    "page": "partners.html",
+    "path": "/Users/andrey/Desktop/сайт нф/output/research/final-site-v13/partners-1024.png",
+    "clientWidth": 1024,
+    "h1": "Давайтеработатьвместе.",
+    "height": 900,
+    "hiddenReveals": [],
+    "overflow": false,
+    "scrollWidth": 1024,
+    "scrollY": 0,
+    "totalHeight": 2137,
+    "unloaded": [],
+    "width": 1024
+  },
+  {
+    "page": "contacts.html",
+    "path": "/Users/andrey/Desktop/сайт нф/output/research/final-site-v13/contacts-1024.png",
+    "clientWidth": 1024,
+    "h1": "Мына связи.",
+    "height": 900,
+    "hiddenReveals": [],
+    "overflow": false,
+    "scrollWidth": 1024,
+    "scrollY": 0,
+    "totalHeight": 1301,
+    "unloaded": [],
+    "width": 1024
+  }
+]

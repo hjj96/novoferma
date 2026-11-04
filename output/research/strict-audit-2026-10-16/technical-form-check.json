@@ -1,0 +1,15 @@
+{
+  "test": "Change city/product after composing first draft",
+  "before": {
+    "city": "Москва",
+    "product": "Весь ассортимент"
+  },
+  "after": {
+    "city": "Казань",
+    "product": "Фибрики — новинка"
+  },
+  "feedbackStillVisible": true,
+  "retryDraftStillOld": true,
+  "decodedRetry": "mailto:info@novoferma.ru?subject=Где купить Новоферму&body=Здравствуйте!\nПодскажите, пожалуйста, где можно купить продукцию Новофермы.\nГород: Москва\nПродукт: Весь ассортимент\nСпасибо!",
+  "realNavigation": false
+}

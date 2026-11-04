@@ -1,0 +1,221 @@
+{
+  "method": "Pillow same-size WebP quality=90 method=6 encoded entirely in memory. No source asset or derivative image saved. This is a byte-size experiment only; visual and packaging text/brand fidelity require review before applying.",
+  "results": [
+    {
+      "path": "assets/catalogue-clean-v2/bitochki-kurinye-s-ovoshchami.webp",
+      "bytes_current": 501724,
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 116234,
+      "test_saving_percent": 76.8
+    },
+    {
+      "path": "assets/catalogue-clean-v2/naggetsy-s-indeykoy-fitnes.webp",
+      "bytes_current": 521720,
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 119440,
+      "test_saving_percent": 77.1
+    },
+    {
+      "path": "assets/catalogue-clean-v2/naggetsy-dinozavry.webp",
+      "bytes_current": 555360,
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 130022,
+      "test_saving_percent": 76.6
+    },
+    {
+      "path": "assets/catalogue-clean-v2/naggetsy-ostrye.webp",
+      "bytes_current": 576496,
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 124174,
+      "test_saving_percent": 78.5
+    },
+    {
+      "path": "assets/catalogue-clean-v2/naggetsy-kurinye.webp",
+      "bytes_current": 509862,
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 114802,
+      "test_saving_percent": 77.5
+    },
+    {
+      "path": "assets/catalogue-clean-v2/kotlety-po-domashnemu.webp",
+      "bytes_current": 488560,
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 109540,
+      "test_saving_percent": 77.6
+    },
+    {
+      "path": "assets/catalogue-clean-v2/kotlety-po-italyanski.webp",
+      "bytes_current": 514540,
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 118248,
+      "test_saving_percent": 77.0
+    },
+    {
+      "path": "assets/catalogue-clean-v2/frikadelki-klassicheskie.webp",
+      "bytes_current": 497636,
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 119050,
+      "test_saving_percent": 76.1
+    },
+    {
+      "path": "assets/catalogue-clean-v2/ezhiki-iz-tsyplenka-s-risom.webp",
+      "bytes_current": 510218,
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 121508,
+      "test_saving_percent": 76.2
+    },
+    {
+      "path": "assets/catalogue-clean-v2/naggetsy-kurinye-s-syrom.webp",
+      "bytes_current": 587546,
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 128194,
+      "test_saving_percent": 78.2
+    },
+    {
+      "path": "assets/catalogue-clean-v2/kurinyj-popkorn.webp",
+      "bytes_current": 545294,
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 131930,
+      "test_saving_percent": 75.8
+    },
+    {
+      "path": "assets/catalogue-clean-v2/kotlety-kurinye.webp",
+      "bytes_current": 520016,
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 126086,
+      "test_saving_percent": 75.8
+    },
+    {
+      "path": "assets/catalogue-clean-v2/stripsy.webp",
+      "bytes_current": 527268,
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 117328,
+      "test_saving_percent": 77.7
+    },
+    {
+      "path": "assets/catalogue-clean-v2/kotlety-pikantnye.webp",
+      "bytes_current": 488268,
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 107452,
+      "test_saving_percent": 78.0
+    },
+    {
+      "path": "assets/mascot-contact-restored-v2.webp",
+      "bytes_current": 1535898,
+      "dimensions": [
+        980,
+        1605
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 401986,
+      "test_saving_percent": 73.8
+    },
+    {
+      "path": "assets/mascot-partnership-v2.webp",
+      "bytes_current": 1014060,
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 221022,
+      "test_saving_percent": 78.2
+    },
+    {
+      "path": "assets/protein-story/hen-layer-v2.webp",
+      "bytes_current": 879398,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 230378,
+      "test_saving_percent": 73.8
+    },
+    {
+      "path": "assets/protein-story/nuggets-layer-v2.webp",
+      "bytes_current": 783132,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "contains_lossless_vp8l_chunk": true,
+      "test_q90_bytes": 230906,
+      "test_saving_percent": 70.5
+    }
+  ]
+}

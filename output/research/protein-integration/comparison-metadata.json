@@ -1,0 +1,54 @@
+{
+  "desktop": {
+    "reference": "/Users/andrey/Desktop/сайт нф/output/research/protein-concept/protein-reveal-curious-hen-v2.png",
+    "source": [
+      1909,
+      824
+    ],
+    "viewport": [
+      1440,
+      900
+    ],
+    "crop": [
+      0,
+      186,
+      1440,
+      808
+    ],
+    "captured": [
+      1440,
+      622
+    ],
+    "normalized": [
+      1440,
+      622
+    ],
+    "provenance": "Browser viewport screenshot: desktop-context.jpg"
+  },
+  "mobile": {
+    "reference": "/Users/andrey/Desktop/сайт нф/output/concept/assets/protein-story/reveal-mobile-v1.png",
+    "source": [
+      780,
+      1200
+    ],
+    "viewport": [
+      390,
+      844
+    ],
+    "crop": [
+      0,
+      80,
+      390,
+      680
+    ],
+    "captured": [
+      390,
+      600
+    ],
+    "normalized": [
+      390,
+      600
+    ],
+    "provenance": "Browser viewport screenshot: mobile-context.jpg"
+  }
+}

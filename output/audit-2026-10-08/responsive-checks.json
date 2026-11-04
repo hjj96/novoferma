@@ -1,0 +1,114 @@
+[
+  {
+    "route": "index.html",
+    "height": 740,
+    "scrollWidth": 320,
+    "visibleBrokenImages": [],
+    "width": 320
+  },
+  {
+    "route": "catalogue.html",
+    "height": 740,
+    "scrollWidth": 320,
+    "visibleBrokenImages": [],
+    "width": 320
+  },
+  {
+    "route": "about.html",
+    "height": 740,
+    "scrollWidth": 320,
+    "visibleBrokenImages": [],
+    "width": 320
+  },
+  {
+    "route": "partners.html",
+    "height": 740,
+    "scrollWidth": 320,
+    "visibleBrokenImages": [],
+    "width": 320
+  },
+  {
+    "route": "where-to-buy.html",
+    "height": 740,
+    "scrollWidth": 320,
+    "visibleBrokenImages": [],
+    "width": 320
+  },
+  {
+    "route": "contacts.html",
+    "height": 740,
+    "scrollWidth": 320,
+    "visibleBrokenImages": [],
+    "width": 320
+  },
+  {
+    "route": "product-kotlety-kurinye.html",
+    "height": 740,
+    "scrollWidth": 320,
+    "visibleBrokenImages": [],
+    "width": 320
+  },
+  {
+    "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "height": 740,
+    "scrollWidth": 320,
+    "visibleBrokenImages": [],
+    "width": 320
+  },
+  {
+    "route": "index.html",
+    "height": 1024,
+    "scrollWidth": 768,
+    "visibleBrokenImages": [],
+    "width": 768
+  },
+  {
+    "route": "catalogue.html",
+    "height": 1024,
+    "scrollWidth": 768,
+    "visibleBrokenImages": [],
+    "width": 768
+  },
+  {
+    "route": "about.html",
+    "height": 1024,
+    "scrollWidth": 768,
+    "visibleBrokenImages": [],
+    "width": 768
+  },
+  {
+    "route": "partners.html",
+    "height": 1024,
+    "scrollWidth": 768,
+    "visibleBrokenImages": [],
+    "width": 768
+  },
+  {
+    "route": "where-to-buy.html",
+    "height": 1024,
+    "scrollWidth": 768,
+    "visibleBrokenImages": [],
+    "width": 768
+  },
+  {
+    "route": "contacts.html",
+    "height": 1024,
+    "scrollWidth": 768,
+    "visibleBrokenImages": [],
+    "width": 768
+  },
+  {
+    "route": "product-kotlety-kurinye.html",
+    "height": 1024,
+    "scrollWidth": 768,
+    "visibleBrokenImages": [],
+    "width": 768
+  },
+  {
+    "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "height": 1024,
+    "scrollWidth": 768,
+    "visibleBrokenImages": [],
+    "width": 768
+  }
+]

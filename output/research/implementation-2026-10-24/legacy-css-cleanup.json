@@ -1,0 +1,3547 @@
+{
+  "method": "tinycss2 recursively parsed rules. A rule is removed only when every comma-separated selector branch requires at least one manually allowlisted legacy class absent from all 22 manifest HTML pages and every current JS file loaded by those pages. Only top-level class selectors count; classes inside :not/:is/etc are not used as proof. Mixed selector lists and selectors mentioning protected components are retained. Existing font family files and weights are unchanged.",
+  "pages_checked": [
+    "index.html",
+    "catalogue.html",
+    "about.html",
+    "where-to-buy.html",
+    "partners.html",
+    "contacts.html",
+    "product-kotlety-kurinye.html",
+    "product-bitochki-kurinye-s-ovoshchami.html",
+    "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "product-kurinyj-popkorn.html",
+    "product-naggetsy-kurinye.html",
+    "product-naggetsy-kurinye-s-syrom.html",
+    "product-naggetsy-dinozavry.html",
+    "product-naggetsy-ostrye.html",
+    "product-naggetsy-s-indeykoy-fitnes.html",
+    "product-stripsy.html",
+    "product-kotlety-po-domashnemu.html",
+    "product-kotlety-pikantnye.html",
+    "product-kotlety-po-italyanski.html",
+    "product-frikadelki-klassicheskie.html",
+    "product-fibriki.html",
+    "product-lulia-mini.html"
+  ],
+  "js_checked": [
+    "catalogue.js",
+    "depth.js",
+    "partners-scenes.js",
+    "product-hero.js",
+    "script.js",
+    "where-to-buy.js"
+  ],
+  "css_checked_for_animation_references": [
+    "assets/fonts/font-face.css",
+    "catalogue.css",
+    "contacts.css",
+    "depth.css",
+    "design-system.css",
+    "home-unified.css",
+    "mobile.css",
+    "motion.css",
+    "partners-scenes.css",
+    "partnership.css",
+    "polish.css",
+    "product-cards.css",
+    "product-detail.css",
+    "product-hero.css",
+    "protein-story.css",
+    "style.css",
+    "where-to-buy.css"
+  ],
+  "allowlisted_absent_classes": [
+    "bridge-cluster",
+    "bridge-single",
+    "category-filters",
+    "depth-object",
+    "depth-seam",
+    "empty-state",
+    "filter-meta",
+    "hero",
+    "hero-art",
+    "hero-copy",
+    "hero-inner",
+    "hero-note",
+    "hero-signature",
+    "hero-tagline",
+    "home-product",
+    "meat-filters",
+    "product-caption",
+    "protein-bridge",
+    "protein-copy",
+    "protein-hand",
+    "protein-heading",
+    "protein-inner",
+    "protein-o",
+    "protein-section",
+    "protein-story",
+    "protein-word",
+    "search-clear",
+    "serving-content",
+    "serving-copy",
+    "serving-section",
+    "serving-tabs",
+    "tagline",
+    "tagline-rule"
+  ],
+  "protected_components": [
+    "catalogue-tools",
+    "product-showcase",
+    "protein-poster"
+  ],
+  "summary": {
+    "style.css": {
+      "bytes_before": 44293,
+      "bytes_after": 31635,
+      "bytes_removed": 12658,
+      "qualified_rules_removed": 187,
+      "sha256_before": "77d18be679357429082e274872576c892c672b84f9fa54f512e1272b261d5983",
+      "sha256_after": "aeca8820c8bb79d7ef29977dee3b28832102e6e23aa8ba705981ca76ab1583f7"
+    },
+    "depth.css": {
+      "bytes_before": 7643,
+      "bytes_after": 5222,
+      "bytes_removed": 2421,
+      "qualified_rules_removed": 35,
+      "sha256_before": "9043a69f010f03e264b2e9b54a245efc9e6bfc4ce837a8fff26adfbd679020ac",
+      "sha256_after": "e66316dafad34313187abf5c8848964884b9b8fdaaad8f803cf986f90afdc5d4"
+    },
+    "design-system.css": {
+      "bytes_before": 8789,
+      "bytes_after": 6674,
+      "bytes_removed": 2115,
+      "qualified_rules_removed": 25,
+      "sha256_before": "19e64cdeab19e52db966225d9ac4d3c3aae2ffa9428609307e563239eb4adfcf",
+      "sha256_after": "bf90b0034dd5b480a2c77ceef69ede2fcc014a1b0c8345a682dd87e09ffd0257"
+    }
+  },
+  "removed_rules": [
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".hero",
+      "absent_mandatory_classes": [
+        [
+          "hero"
+        ]
+      ],
+      "rule_before": ".hero{background:var(--orange);overflow:hidden}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".hero-inner",
+      "absent_mandatory_classes": [
+        [
+          "hero-inner"
+        ]
+      ],
+      "rule_before": ".hero-inner{position:relative;display:grid;grid-template-columns:1fr 1.1fr;align-items:center;min-height:592px;padding-block:48px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".hero-copy",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy"
+        ]
+      ],
+      "rule_before": ".hero-copy{z-index:2;padding-bottom:12px;min-width:0}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".hero h1",
+      "absent_mandatory_classes": [
+        [
+          "hero"
+        ]
+      ],
+      "rule_before": ".hero h1{color:var(--cream);font-size:clamp(66px,7.2vw,105px);font-weight:900;letter-spacing:-.04em;line-height:.95;max-width:640px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".hero-copy>p",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy"
+        ]
+      ],
+      "rule_before": ".hero-copy>p{color:var(--ink);font-size:19px;line-height:1.5;margin-top:31px;max-width:400px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".hero-copy .button",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy"
+        ]
+      ],
+      "rule_before": ".hero-copy .button{margin-top:31px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".hero-art",
+      "absent_mandatory_classes": [
+        [
+          "hero-art"
+        ]
+      ],
+      "rule_before": ".hero-art{position:relative;align-self:stretch;margin-left:-11%;margin-right:-4%;display:flex;align-items:center;justify-content:center}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".hero-art img",
+      "absent_mandatory_classes": [
+        [
+          "hero-art"
+        ]
+      ],
+      "rule_before": ".hero-art img{width:112%;max-width:112%;object-fit:contain;max-height:560px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".tagline",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline{display:flex;align-items:center;gap:40px;padding-block:29px 37px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".tagline strong",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline strong{font-size:clamp(28px,3vw,42px);font-weight:850;letter-spacing:-.035em;line-height:1.1}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".tagline-rule",
+      "absent_mandatory_classes": [
+        [
+          "tagline-rule"
+        ]
+      ],
+      "rule_before": ".tagline-rule{flex:1;min-width:50px;height:1px;background:#ad947d;margin-left:15px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".tagline .hand",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline .hand{font-size:30px;flex:none;text-align:center}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".tagline>.heart",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline>.heart{align-self:flex-start;width:32px;margin-left:-20px;margin-top:-6px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".product-caption",
+      "absent_mandatory_classes": [
+        [
+          "product-caption"
+        ]
+      ],
+      "rule_before": ".product-caption{font-size:12px;color:var(--muted);line-height:1.5;margin-top:5px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-section",
+      "absent_mandatory_classes": [
+        [
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".serving-section{background:var(--brown);color:var(--cream)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-section .section-heading",
+      "absent_mandatory_classes": [
+        [
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".serving-section .section-heading{align-items:center;margin-bottom:40px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-section h2",
+      "absent_mandatory_classes": [
+        [
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".serving-section h2{font-size:clamp(48px,5.3vw,77px)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-section .hand",
+      "absent_mandatory_classes": [
+        [
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".serving-section .hand{color:#deb578;font-size:31px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-section .heart",
+      "absent_mandatory_classes": [
+        [
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".serving-section .heart{width:30px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-tabs",
+      "absent_mandatory_classes": [
+        [
+          "serving-tabs"
+        ]
+      ],
+      "rule_before": ".serving-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-bottom:34px;border-bottom:1px solid #fff5e333}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-tabs button",
+      "absent_mandatory_classes": [
+        [
+          "serving-tabs"
+        ]
+      ],
+      "rule_before": ".serving-tabs button{border:0;border-bottom:3px solid transparent;background:none;color:#d9bea8;text-align:left;font-size:16px;display:flex;align-items:center;gap:16px;min-height:58px;padding:12px 24px 18px 0}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-tabs small",
+      "absent_mandatory_classes": [
+        [
+          "serving-tabs"
+        ]
+      ],
+      "rule_before": ".serving-tabs small{font-size:10px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-tabs button>span",
+      "absent_mandatory_classes": [
+        [
+          "serving-tabs"
+        ]
+      ],
+      "rule_before": ".serving-tabs button>span{margin-left:auto;font-size:22px;opacity:0}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-tabs button[aria-selected=true]",
+      "absent_mandatory_classes": [
+        [
+          "serving-tabs"
+        ]
+      ],
+      "rule_before": ".serving-tabs button[aria-selected=true]{border-bottom-color:#ed8b47;color:var(--cream)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-tabs button[aria-selected=true]>span",
+      "absent_mandatory_classes": [
+        [
+          "serving-tabs"
+        ]
+      ],
+      "rule_before": ".serving-tabs button[aria-selected=true]>span{opacity:1}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-tabs button:hover",
+      "absent_mandatory_classes": [
+        [
+          "serving-tabs"
+        ]
+      ],
+      "rule_before": ".serving-tabs button:hover{color:var(--cream)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-content",
+      "absent_mandatory_classes": [
+        [
+          "serving-content"
+        ]
+      ],
+      "rule_before": ".serving-content{display:grid;grid-template-columns:1.16fr 1fr;gap:60px;align-items:center}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-content figure",
+      "absent_mandatory_classes": [
+        [
+          "serving-content"
+        ]
+      ],
+      "rule_before": ".serving-content figure{position:relative;aspect-ratio:1.14}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-content figure>img",
+      "absent_mandatory_classes": [
+        [
+          "serving-content"
+        ]
+      ],
+      "rule_before": ".serving-content figure>img{width:100%;height:100%;object-fit:cover;object-position:left;transition:opacity .18s}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-content figcaption",
+      "absent_mandatory_classes": [
+        [
+          "serving-content"
+        ]
+      ],
+      "rule_before": ".serving-content figcaption{position:absolute;bottom:12px;left:15px;background:var(--cream);color:var(--brown);padding:10px 18px;font-size:25px;box-shadow:0 3px 12px #0002}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-copy .eyebrow",
+      "absent_mandatory_classes": [
+        [
+          "serving-copy"
+        ]
+      ],
+      "rule_before": ".serving-copy .eyebrow{font-size:10px;margin-bottom:25px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-copy h3",
+      "absent_mandatory_classes": [
+        [
+          "serving-copy"
+        ]
+      ],
+      "rule_before": ".serving-copy h3{font-size:clamp(36px,3.7vw,53px);line-height:1.03;max-width:390px;margin-bottom:24px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-copy>p:not(.eyebrow)",
+      "absent_mandatory_classes": [
+        [
+          "serving-copy"
+        ]
+      ],
+      "rule_before": ".serving-copy>p:not(.eyebrow){font-size:16px;color:#e2cbb6;max-width:380px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-copy .button",
+      "absent_mandatory_classes": [
+        [
+          "serving-copy"
+        ]
+      ],
+      "rule_before": ".serving-copy .button{margin-top:28px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".serving-copy .fine-print",
+      "absent_mandatory_classes": [
+        [
+          "serving-copy"
+        ]
+      ],
+      "rule_before": ".serving-copy .fine-print{font-size:12px!important;max-width:360px!important;margin-top:24px;line-height:1.5}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".category-filters",
+      "absent_mandatory_classes": [
+        [
+          "category-filters"
+        ]
+      ],
+      "rule_before": ".category-filters{display:flex;flex-wrap:wrap;gap:7px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".category-filters button",
+      "absent_mandatory_classes": [
+        [
+          "category-filters"
+        ]
+      ],
+      "rule_before": ".category-filters button{border:0;background:none;padding:12px 17px;min-height:44px;border-radius:40px;font-size:13px;white-space:nowrap}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".category-filters button[aria-pressed=true]",
+      "absent_mandatory_classes": [
+        [
+          "category-filters"
+        ]
+      ],
+      "rule_before": ".category-filters button[aria-pressed=true]{background:var(--orange);color:var(--ink);font-weight:700}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".category-filters button:hover",
+      "absent_mandatory_classes": [
+        [
+          "category-filters"
+        ]
+      ],
+      "rule_before": ".category-filters button:hover{background:#eddcc2}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".category-filters button[aria-pressed=true]:hover",
+      "absent_mandatory_classes": [
+        [
+          "category-filters"
+        ]
+      ],
+      "rule_before": ".category-filters button[aria-pressed=true]:hover{background:var(--orange)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".search-clear",
+      "absent_mandatory_classes": [
+        [
+          "search-clear"
+        ]
+      ],
+      "rule_before": ".search-clear{position:absolute;right:0;border:0;background:transparent;font-size:24px;width:28px;height:40px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".filter-meta",
+      "absent_mandatory_classes": [
+        [
+          "filter-meta"
+        ]
+      ],
+      "rule_before": ".filter-meta{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-block:20px 14px;color:var(--muted);font-size:11px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".meat-filters",
+      "absent_mandatory_classes": [
+        [
+          "meat-filters"
+        ]
+      ],
+      "rule_before": ".meat-filters{display:flex;gap:8px;flex-wrap:wrap}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".meat-filters button",
+      "absent_mandatory_classes": [
+        [
+          "meat-filters"
+        ]
+      ],
+      "rule_before": ".meat-filters button{font-size:11px;border:1px solid var(--line);border-radius:30px;background:transparent;padding:8px 15px;min-height:38px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".meat-filters button[aria-pressed=true]",
+      "absent_mandatory_classes": [
+        [
+          "meat-filters"
+        ]
+      ],
+      "rule_before": ".meat-filters button[aria-pressed=true]{background:var(--brown);color:var(--cream);border-color:var(--brown)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".catalogue-grid .product-caption",
+      "absent_mandatory_classes": [
+        [
+          "product-caption"
+        ]
+      ],
+      "rule_before": ".catalogue-grid .product-caption{display:none}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".empty-state",
+      "absent_mandatory_classes": [
+        [
+          "empty-state"
+        ]
+      ],
+      "rule_before": ".empty-state{text-align:center;padding:90px 20px 110px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".empty-state .hand",
+      "absent_mandatory_classes": [
+        [
+          "empty-state"
+        ]
+      ],
+      "rule_before": ".empty-state .hand{font-size:35px;margin-bottom:15px;color:var(--rust)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".empty-state h2",
+      "absent_mandatory_classes": [
+        [
+          "empty-state"
+        ]
+      ],
+      "rule_before": ".empty-state h2{font-size:38px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".empty-state>p:not(.hand)",
+      "absent_mandatory_classes": [
+        [
+          "empty-state"
+        ]
+      ],
+      "rule_before": ".empty-state>p:not(.hand){margin-block:20px 27px;color:var(--muted)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 15,
+      "context": [
+        "@media (prefers-reduced-motion:no-preference)"
+      ],
+      "selector": ".hero-copy",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy"
+        ]
+      ],
+      "rule_before": ".hero-copy{animation:rise-in .75s var(--ease) both}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 15,
+      "context": [
+        "@media (prefers-reduced-motion:no-preference)"
+      ],
+      "selector": ".hero-art",
+      "absent_mandatory_classes": [
+        [
+          "hero-art"
+        ]
+      ],
+      "rule_before": ".hero-art{animation:hero-enter 1.1s var(--ease) both}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 15,
+      "context": [
+        "@media (prefers-reduced-motion:no-preference)"
+      ],
+      "selector": ".hero-copy h1",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy"
+        ]
+      ],
+      "rule_before": ".hero-copy h1{animation:rise-in .75s var(--ease) both}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 15,
+      "context": [
+        "@media (prefers-reduced-motion:no-preference)"
+      ],
+      "selector": ".hero-copy>p",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy"
+        ]
+      ],
+      "rule_before": ".hero-copy>p{animation:rise-in .85s .1s var(--ease) both}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 15,
+      "context": [
+        "@media (prefers-reduced-motion:no-preference)"
+      ],
+      "selector": ".hero-copy>.button",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy"
+        ]
+      ],
+      "rule_before": ".hero-copy>.button{animation:rise-in .8s .18s var(--ease) both}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 15,
+      "context": [
+        "@media (prefers-reduced-motion:no-preference)"
+      ],
+      "selector": ".serving-content.is-changing",
+      "absent_mandatory_classes": [
+        [
+          "serving-content"
+        ]
+      ],
+      "rule_before": ".serving-content.is-changing{animation:panel-in .48s var(--ease)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 17,
+      "context": [
+        "@media (max-width:1199px)"
+      ],
+      "selector": ".hero-inner",
+      "absent_mandatory_classes": [
+        [
+          "hero-inner"
+        ]
+      ],
+      "rule_before": ".hero-inner{min-height:555px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 17,
+      "context": [
+        "@media (max-width:1199px)"
+      ],
+      "selector": ".hero h1",
+      "absent_mandatory_classes": [
+        [
+          "hero"
+        ]
+      ],
+      "rule_before": ".hero h1{font-size:clamp(63px,7.1vw,86px)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 17,
+      "context": [
+        "@media (max-width:1199px)"
+      ],
+      "selector": ".hero-art",
+      "absent_mandatory_classes": [
+        [
+          "hero-art"
+        ]
+      ],
+      "rule_before": ".hero-art{margin-left:-9%;margin-right:-6%}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 17,
+      "context": [
+        "@media (max-width:1199px)"
+      ],
+      "selector": ".hero-copy>p",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy"
+        ]
+      ],
+      "rule_before": ".hero-copy>p{font-size:17px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 17,
+      "context": [
+        "@media (max-width:1199px)"
+      ],
+      "selector": ".tagline strong",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline strong{font-size:32px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 17,
+      "context": [
+        "@media (max-width:1199px)"
+      ],
+      "selector": ".tagline .hand",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline .hand{font-size:27px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 17,
+      "context": [
+        "@media (max-width:1199px)"
+      ],
+      "selector": ".tagline",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline{gap:24px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 17,
+      "context": [
+        "@media (max-width:1199px)"
+      ],
+      "selector": ".serving-content",
+      "absent_mandatory_classes": [
+        [
+          "serving-content"
+        ]
+      ],
+      "rule_before": ".serving-content{gap:40px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".hero-inner",
+      "absent_mandatory_classes": [
+        [
+          "hero-inner"
+        ]
+      ],
+      "rule_before": ".hero-inner{grid-template-columns:1fr 1fr;min-height:495px;padding-block:40px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".hero h1",
+      "absent_mandatory_classes": [
+        [
+          "hero"
+        ]
+      ],
+      "rule_before": ".hero h1{font-size:clamp(53px,7.3vw,70px)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".hero-copy>p",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy"
+        ]
+      ],
+      "rule_before": ".hero-copy>p{font-size:16px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".hero-art",
+      "absent_mandatory_classes": [
+        [
+          "hero-art"
+        ]
+      ],
+      "rule_before": ".hero-art{margin-left:-16%;margin-right:-8%}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".hero-art img",
+      "absent_mandatory_classes": [
+        [
+          "hero-art"
+        ]
+      ],
+      "rule_before": ".hero-art img{max-width:122%;width:122%}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".tagline strong",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline strong{font-size:28px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".tagline-rule",
+      "absent_mandatory_classes": [
+        [
+          "tagline-rule"
+        ]
+      ],
+      "rule_before": ".tagline-rule{display:none}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".tagline .hand",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline .hand{margin-left:auto;font-size:25px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".tagline>.heart",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline>.heart{display:none}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".serving-content",
+      "absent_mandatory_classes": [
+        [
+          "serving-content"
+        ]
+      ],
+      "rule_before": ".serving-content{gap:30px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".serving-copy h3",
+      "absent_mandatory_classes": [
+        [
+          "serving-copy"
+        ]
+      ],
+      "rule_before": ".serving-copy h3{font-size:39px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".serving-copy>p:not(.eyebrow)",
+      "absent_mandatory_classes": [
+        [
+          "serving-copy"
+        ]
+      ],
+      "rule_before": ".serving-copy>p:not(.eyebrow){font-size:14px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".serving-copy .fine-print",
+      "absent_mandatory_classes": [
+        [
+          "serving-copy"
+        ]
+      ],
+      "rule_before": ".serving-copy .fine-print{font-size:11px!important}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".serving-section .hand",
+      "absent_mandatory_classes": [
+        [
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".serving-section .hand{font-size:26px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".serving-tabs button",
+      "absent_mandatory_classes": [
+        [
+          "serving-tabs"
+        ]
+      ],
+      "rule_before": ".serving-tabs button{font-size:14px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 18,
+      "context": [
+        "@media (max-width:959px)"
+      ],
+      "selector": ".serving-content figcaption",
+      "absent_mandatory_classes": [
+        [
+          "serving-content"
+        ]
+      ],
+      "rule_before": ".serving-content figcaption{font-size:21px;left:9px;bottom:10px;padding:8px 12px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".hero-inner",
+      "absent_mandatory_classes": [
+        [
+          "hero-inner"
+        ]
+      ],
+      "rule_before": ".hero-inner{display:flex;flex-direction:column;padding-block:35px 10px;gap:5px;min-height:0}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".hero-copy",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy"
+        ]
+      ],
+      "rule_before": ".hero-copy{width:100%;padding:0}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".hero h1",
+      "absent_mandatory_classes": [
+        [
+          "hero"
+        ]
+      ],
+      "rule_before": ".hero h1{font-size:clamp(49px,12.8vw,78px);line-height:.96;letter-spacing:-.045em}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".hero-copy>p",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy"
+        ]
+      ],
+      "rule_before": ".hero-copy>p{font-size:16px;margin-top:26px;line-height:1.5;max-width:360px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".hero-copy .button",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy"
+        ]
+      ],
+      "rule_before": ".hero-copy .button{margin-top:24px;font-size:12px;min-height:49px;padding:14px 24px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".hero-art",
+      "absent_mandatory_classes": [
+        [
+          "hero-art"
+        ]
+      ],
+      "rule_before": ".hero-art{align-self:center;width:100%;margin:0;min-height:270px;max-width:525px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".hero-art img",
+      "absent_mandatory_classes": [
+        [
+          "hero-art"
+        ]
+      ],
+      "rule_before": ".hero-art img{width:100%;max-width:100%;max-height:400px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".tagline",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline{display:block;padding-block:25px 34px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".tagline strong",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline strong{font-size:29px;line-height:1.06;display:block;max-width:420px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".tagline .hand",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline .hand{font-size:28px;max-width:190px;margin:27px 15px 0 auto}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".product-caption",
+      "absent_mandatory_classes": [
+        [
+          "product-caption"
+        ]
+      ],
+      "rule_before": ".product-caption{font-size:10px;margin-top:3px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".serving-section .section-heading",
+      "absent_mandatory_classes": [
+        [
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".serving-section .section-heading{display:block;margin-bottom:26px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".serving-section .section-heading h2",
+      "absent_mandatory_classes": [
+        [
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".serving-section .section-heading h2{font-size:46px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".serving-section .section-heading>.hand",
+      "absent_mandatory_classes": [
+        [
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".serving-section .section-heading>.hand{font-size:28px;margin:22px 10px 0 auto;width:max-content}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".serving-tabs",
+      "absent_mandatory_classes": [
+        [
+          "serving-tabs"
+        ]
+      ],
+      "rule_before": ".serving-tabs{margin-bottom:24px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".serving-tabs button",
+      "absent_mandatory_classes": [
+        [
+          "serving-tabs"
+        ]
+      ],
+      "rule_before": ".serving-tabs button{font-size:13px;gap:0;min-height:50px;padding:10px 7px 15px 0;line-height:1.3}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".serving-tabs small",
+      "absent_mandatory_classes": [
+        [
+          "serving-tabs"
+        ]
+      ],
+      "rule_before": ".serving-tabs small{display:none}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".serving-tabs button>span",
+      "absent_mandatory_classes": [
+        [
+          "serving-tabs"
+        ]
+      ],
+      "rule_before": ".serving-tabs button>span{display:none}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".serving-content",
+      "absent_mandatory_classes": [
+        [
+          "serving-content"
+        ]
+      ],
+      "rule_before": ".serving-content{grid-template-columns:1fr;gap:32px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".serving-content figure",
+      "absent_mandatory_classes": [
+        [
+          "serving-content"
+        ]
+      ],
+      "rule_before": ".serving-content figure{aspect-ratio:1.08}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".serving-content figcaption",
+      "absent_mandatory_classes": [
+        [
+          "serving-content"
+        ]
+      ],
+      "rule_before": ".serving-content figcaption{font-size:24px;bottom:15px;left:13px;padding:9px 17px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".serving-copy h3",
+      "absent_mandatory_classes": [
+        [
+          "serving-copy"
+        ]
+      ],
+      "rule_before": ".serving-copy h3{font-size:42px;max-width:400px;margin-bottom:21px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".serving-copy .eyebrow",
+      "absent_mandatory_classes": [
+        [
+          "serving-copy"
+        ]
+      ],
+      "rule_before": ".serving-copy .eyebrow{margin-bottom:17px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".serving-copy>p:not(.eyebrow)",
+      "absent_mandatory_classes": [
+        [
+          "serving-copy"
+        ]
+      ],
+      "rule_before": ".serving-copy>p:not(.eyebrow){font-size:15px;max-width:500px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".serving-copy .button",
+      "absent_mandatory_classes": [
+        [
+          "serving-copy"
+        ]
+      ],
+      "rule_before": ".serving-copy .button{margin-top:23px;font-size:12px;min-height:49px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".serving-copy .fine-print",
+      "absent_mandatory_classes": [
+        [
+          "serving-copy"
+        ]
+      ],
+      "rule_before": ".serving-copy .fine-print{font-size:11px!important;max-width:400px!important;margin-top:20px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".category-filters",
+      "absent_mandatory_classes": [
+        [
+          "category-filters"
+        ]
+      ],
+      "rule_before": ".category-filters{flex-wrap:nowrap;overflow:auto;gap:4px;margin-inline:-20px;padding-inline:20px;scrollbar-width:thin;padding-bottom:10px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".category-filters button",
+      "absent_mandatory_classes": [
+        [
+          "category-filters"
+        ]
+      ],
+      "rule_before": ".category-filters button{font-size:12px;padding:10px 15px;min-height:43px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".filter-meta",
+      "absent_mandatory_classes": [
+        [
+          "filter-meta"
+        ]
+      ],
+      "rule_before": ".filter-meta{gap:12px;align-items:flex-start;margin-block:18px 10px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".meat-filters",
+      "absent_mandatory_classes": [
+        [
+          "meat-filters"
+        ]
+      ],
+      "rule_before": ".meat-filters{gap:5px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".meat-filters button",
+      "absent_mandatory_classes": [
+        [
+          "meat-filters"
+        ]
+      ],
+      "rule_before": ".meat-filters button{font-size:10px;padding:8px 11px;min-height:37px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".filter-meta>p",
+      "absent_mandatory_classes": [
+        [
+          "filter-meta"
+        ]
+      ],
+      "rule_before": ".filter-meta>p{font-size:9px;white-space:nowrap;padding-top:12px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".empty-state",
+      "absent_mandatory_classes": [
+        [
+          "empty-state"
+        ]
+      ],
+      "rule_before": ".empty-state{padding:55px 10px 65px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".empty-state h2",
+      "absent_mandatory_classes": [
+        [
+          "empty-state"
+        ]
+      ],
+      "rule_before": ".empty-state h2{font-size:32px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".empty-state .hand",
+      "absent_mandatory_classes": [
+        [
+          "empty-state"
+        ]
+      ],
+      "rule_before": ".empty-state .hand{font-size:31px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 19,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".empty-state>p:not(.hand)",
+      "absent_mandatory_classes": [
+        [
+          "empty-state"
+        ]
+      ],
+      "rule_before": ".empty-state>p:not(.hand){font-size:14px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 20,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".hero-inner",
+      "absent_mandatory_classes": [
+        [
+          "hero-inner"
+        ]
+      ],
+      "rule_before": ".hero-inner{padding-top:31px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 20,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".hero h1",
+      "absent_mandatory_classes": [
+        [
+          "hero"
+        ]
+      ],
+      "rule_before": ".hero h1{font-size:44px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 20,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".hero-copy>p",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy"
+        ]
+      ],
+      "rule_before": ".hero-copy>p{font-size:15px;margin-top:22px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 20,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".hero-art",
+      "absent_mandatory_classes": [
+        [
+          "hero-art"
+        ]
+      ],
+      "rule_before": ".hero-art{min-height:220px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 20,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".tagline strong",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline strong{font-size:27px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 20,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".tagline .hand",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline .hand{font-size:26px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 20,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".product-caption",
+      "absent_mandatory_classes": [
+        [
+          "product-caption"
+        ]
+      ],
+      "rule_before": ".product-caption{font-size:9px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 20,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".serving-section .section-heading h2",
+      "absent_mandatory_classes": [
+        [
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".serving-section .section-heading h2{font-size:42px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 20,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".serving-tabs button",
+      "absent_mandatory_classes": [
+        [
+          "serving-tabs"
+        ]
+      ],
+      "rule_before": ".serving-tabs button{font-size:12px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 20,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".serving-copy h3",
+      "absent_mandatory_classes": [
+        [
+          "serving-copy"
+        ]
+      ],
+      "rule_before": ".serving-copy h3{font-size:37px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 20,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".filter-meta",
+      "absent_mandatory_classes": [
+        [
+          "filter-meta"
+        ]
+      ],
+      "rule_before": ".filter-meta{gap:6px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 20,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".meat-filters button",
+      "absent_mandatory_classes": [
+        [
+          "meat-filters"
+        ]
+      ],
+      "rule_before": ".meat-filters button{font-size:9px;padding-inline:9px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 21,
+      "context": [
+        "@media (prefers-reduced-motion:reduce)"
+      ],
+      "selector": ".hero-art,.hero-copy",
+      "absent_mandatory_classes": [
+        [
+          "hero-art"
+        ],
+        [
+          "hero-copy"
+        ]
+      ],
+      "rule_before": ".hero-art,.hero-copy{translate:none!important}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 24,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".hero-tagline .hand",
+      "absent_mandatory_classes": [
+        [
+          "hero-tagline"
+        ]
+      ],
+      "rule_before": ".hero-tagline .hand{max-width:100%}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 26,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".category-filters",
+      "absent_mandatory_classes": [
+        [
+          "category-filters"
+        ]
+      ],
+      "rule_before": ".category-filters{margin-inline:-16px;padding-inline:16px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 27,
+      "context": [],
+      "selector": ".serving-content figcaption.hand",
+      "absent_mandatory_classes": [
+        [
+          "serving-content"
+        ]
+      ],
+      "rule_before": ".serving-content figcaption.hand{color:var(--brown)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 48,
+      "context": [],
+      "selector": ".home-products .home-product .product-title",
+      "absent_mandatory_classes": [
+        [
+          "home-product"
+        ]
+      ],
+      "rule_before": ".home-products .home-product .product-title{border-top:1px solid var(--line);padding-top:20px;min-height:0}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 49,
+      "context": [],
+      "selector": ".home-products .home-product .product-title h3",
+      "absent_mandatory_classes": [
+        [
+          "home-product"
+        ]
+      ],
+      "rule_before": ".home-products .home-product .product-title h3{font-size:32px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 50,
+      "context": [],
+      "selector": ".protein-section",
+      "absent_mandatory_classes": [
+        [
+          "protein-section"
+        ]
+      ],
+      "rule_before": ".protein-section{position:relative;isolation:isolate;z-index:2;background:#d8dca1;background-image:linear-gradient(#d8dca180,#d8dca180),url(\"assets/protein-paper.webp\");color:var(--brown)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 51,
+      "context": [],
+      "selector": ".protein-inner",
+      "absent_mandatory_classes": [
+        [
+          "protein-inner"
+        ]
+      ],
+      "rule_before": ".protein-inner{display:grid;grid-template-columns:1.18fr 1fr;align-items:center;gap:70px;padding-block:78px 125px;min-height:580px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 52,
+      "context": [],
+      "selector": ".protein-copy",
+      "absent_mandatory_classes": [
+        [
+          "protein-copy"
+        ]
+      ],
+      "rule_before": ".protein-copy{min-width:0;position:relative}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 53,
+      "context": [],
+      "selector": ".protein-copy>.eyebrow",
+      "absent_mandatory_classes": [
+        [
+          "protein-copy"
+        ]
+      ],
+      "rule_before": ".protein-copy>.eyebrow{margin-bottom:45px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 54,
+      "context": [],
+      "selector": ".protein-heading",
+      "absent_mandatory_classes": [
+        [
+          "protein-heading"
+        ]
+      ],
+      "rule_before": ".protein-heading{margin:0;max-width:100%;font-weight:900;line-height:.85;text-wrap:initial}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 55,
+      "context": [],
+      "selector": ".protein-word",
+      "absent_mandatory_classes": [
+        [
+          "protein-word"
+        ]
+      ],
+      "rule_before": ".protein-word{display:flex;align-items:baseline;white-space:nowrap;font-size:clamp(95px,12.4vw,178px);letter-spacing:-.065em;line-height:.85}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 56,
+      "context": [],
+      "selector": ".protein-o",
+      "absent_mandatory_classes": [
+        [
+          "protein-o"
+        ]
+      ],
+      "rule_before": ".protein-o{position:relative;display:block;flex:0 0 .82em;height:.83em;margin-left:.01em;margin-right:.02em}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 57,
+      "context": [],
+      "selector": ".protein-o img",
+      "absent_mandatory_classes": [
+        [
+          "protein-o"
+        ]
+      ],
+      "rule_before": ".protein-o img{position:absolute;width:1.38em;max-width:none;height:1.42em;object-fit:contain;right:-.04em;top:-.05em}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 58,
+      "context": [],
+      "selector": ".protein-heading .protein-hand",
+      "absent_mandatory_classes": [
+        [
+          "protein-hand",
+          "protein-heading"
+        ]
+      ],
+      "rule_before": ".protein-heading .protein-hand{display:block;width:max-content;color:#ac481a;font-size:clamp(48px,5vw,70px);line-height:1;letter-spacing:-.025em;margin-top:32px;margin-left:8px;transform:rotate(-5deg)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 59,
+      "context": [],
+      "selector": ".protein-story",
+      "absent_mandatory_classes": [
+        [
+          "protein-story"
+        ]
+      ],
+      "rule_before": ".protein-story{min-width:0;max-width:480px;padding-top:25px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 60,
+      "context": [],
+      "selector": ".protein-story h3",
+      "absent_mandatory_classes": [
+        [
+          "protein-story"
+        ]
+      ],
+      "rule_before": ".protein-story h3{font-size:clamp(36px,3.3vw,48px);line-height:1.05;letter-spacing:-.04em;margin-bottom:27px;text-wrap:initial}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 61,
+      "context": [],
+      "selector": ".protein-story p",
+      "absent_mandatory_classes": [
+        [
+          "protein-story"
+        ]
+      ],
+      "rule_before": ".protein-story p{font-size:17px;line-height:1.6;max-width:410px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 62,
+      "context": [],
+      "selector": ".protein-story p+p",
+      "absent_mandatory_classes": [
+        [
+          "protein-story"
+        ]
+      ],
+      "rule_before": ".protein-story p+p{margin-top:16px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 63,
+      "context": [],
+      "selector": ".protein-story .button",
+      "absent_mandatory_classes": [
+        [
+          "protein-story"
+        ]
+      ],
+      "rule_before": ".protein-story .button{margin-top:29px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 64,
+      "context": [],
+      "selector": ".protein-bridge",
+      "absent_mandatory_classes": [
+        [
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge{position:absolute;right:max(7%,calc((100vw - 1296px)/2 + 130px));bottom:-85px;width:300px;height:200px;z-index:3;pointer-events:none}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 65,
+      "context": [],
+      "selector": ".protein-bridge img",
+      "absent_mandatory_classes": [
+        [
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge img{position:absolute;height:auto;filter:drop-shadow(0 17px 10px #27170b45)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 66,
+      "context": [],
+      "selector": ".bridge-cluster",
+      "absent_mandatory_classes": [
+        [
+          "bridge-cluster"
+        ]
+      ],
+      "rule_before": ".bridge-cluster{width:215px;left:0;bottom:0;transform:rotate(-10deg)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 67,
+      "context": [],
+      "selector": ".bridge-single",
+      "absent_mandatory_classes": [
+        [
+          "bridge-single"
+        ]
+      ],
+      "rule_before": ".bridge-single{width:95px;right:-17px;top:-13px;transform:rotate(16deg)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 68,
+      "context": [],
+      "selector": ".protein-section+.serving-section>.section",
+      "absent_mandatory_classes": [
+        [
+          "protein-section",
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".protein-section+.serving-section>.section{padding-top:135px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 69,
+      "context": [
+        "@media (prefers-reduced-motion:no-preference)"
+      ],
+      "selector": ".bridge-single",
+      "absent_mandatory_classes": [
+        [
+          "bridge-single"
+        ]
+      ],
+      "rule_before": ".bridge-single{animation:meatball-drift 7s ease-in-out infinite alternate}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 70,
+      "context": [
+        "@media (min-width:1600px)"
+      ],
+      "selector": ".protein-word",
+      "absent_mandatory_classes": [
+        [
+          "protein-word"
+        ]
+      ],
+      "rule_before": ".protein-word{font-size:178px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 72,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".protein-inner",
+      "absent_mandatory_classes": [
+        [
+          "protein-inner"
+        ]
+      ],
+      "rule_before": ".protein-inner{gap:36px;padding-block:64px 110px;min-height:540px;grid-template-columns:1.1fr 1fr}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 73,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".protein-word",
+      "absent_mandatory_classes": [
+        [
+          "protein-word"
+        ]
+      ],
+      "rule_before": ".protein-word{font-size:clamp(80px,11.7vw,128px)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 74,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".protein-copy>.eyebrow",
+      "absent_mandatory_classes": [
+        [
+          "protein-copy"
+        ]
+      ],
+      "rule_before": ".protein-copy>.eyebrow{margin-bottom:36px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 74,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".protein-heading .protein-hand",
+      "absent_mandatory_classes": [
+        [
+          "protein-hand",
+          "protein-heading"
+        ]
+      ],
+      "rule_before": ".protein-heading .protein-hand{font-size:53px;margin-top:30px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 75,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".protein-story h3",
+      "absent_mandatory_classes": [
+        [
+          "protein-story"
+        ]
+      ],
+      "rule_before": ".protein-story h3{font-size:clamp(30px,4vw,35px)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 75,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".protein-story p",
+      "absent_mandatory_classes": [
+        [
+          "protein-story"
+        ]
+      ],
+      "rule_before": ".protein-story p{font-size:15px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 75,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".protein-story",
+      "absent_mandatory_classes": [
+        [
+          "protein-story"
+        ]
+      ],
+      "rule_before": ".protein-story{padding-top:24px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 76,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".protein-bridge",
+      "absent_mandatory_classes": [
+        [
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge{width:245px;right:8%;height:155px;bottom:-65px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 76,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".bridge-cluster",
+      "absent_mandatory_classes": [
+        [
+          "bridge-cluster"
+        ]
+      ],
+      "rule_before": ".bridge-cluster{width:175px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 76,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".bridge-single",
+      "absent_mandatory_classes": [
+        [
+          "bridge-single"
+        ]
+      ],
+      "rule_before": ".bridge-single{width:77px;right:-7px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 77,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".protein-section+.serving-section>.section",
+      "absent_mandatory_classes": [
+        [
+          "protein-section",
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".protein-section+.serving-section>.section{padding-top:116px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 80,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".home-products .home-product .product-title",
+      "absent_mandatory_classes": [
+        [
+          "home-product"
+        ]
+      ],
+      "rule_before": ".home-products .home-product .product-title{padding-top:16px;align-items:center;gap:8px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 80,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".home-products .home-product .product-title h3",
+      "absent_mandatory_classes": [
+        [
+          "home-product"
+        ]
+      ],
+      "rule_before": ".home-products .home-product .product-title h3{font-size:23px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 81,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".protein-inner",
+      "absent_mandatory_classes": [
+        [
+          "protein-inner"
+        ]
+      ],
+      "rule_before": ".protein-inner{grid-template-columns:1fr;gap:48px;padding-block:47px 138px;min-height:0}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 82,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".protein-copy>.eyebrow",
+      "absent_mandatory_classes": [
+        [
+          "protein-copy"
+        ]
+      ],
+      "rule_before": ".protein-copy>.eyebrow{margin-bottom:35px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 83,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".protein-word",
+      "absent_mandatory_classes": [
+        [
+          "protein-word"
+        ]
+      ],
+      "rule_before": ".protein-word{font-size:clamp(80px,26.2vw,154px);letter-spacing:-.065em}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 84,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".protein-heading .protein-hand",
+      "absent_mandatory_classes": [
+        [
+          "protein-hand",
+          "protein-heading"
+        ]
+      ],
+      "rule_before": ".protein-heading .protein-hand{font-size:clamp(47px,13vw,65px);margin-top:35px;margin-left:3px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 85,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".protein-story",
+      "absent_mandatory_classes": [
+        [
+          "protein-story"
+        ]
+      ],
+      "rule_before": ".protein-story{padding-top:0;max-width:100%}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 85,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".protein-story h3",
+      "absent_mandatory_classes": [
+        [
+          "protein-story"
+        ]
+      ],
+      "rule_before": ".protein-story h3{font-size:38px;margin-bottom:23px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 85,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".protein-story p",
+      "absent_mandatory_classes": [
+        [
+          "protein-story"
+        ]
+      ],
+      "rule_before": ".protein-story p{font-size:16px;max-width:420px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 85,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".protein-story .button",
+      "absent_mandatory_classes": [
+        [
+          "protein-story"
+        ]
+      ],
+      "rule_before": ".protein-story .button{margin-top:25px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 86,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".protein-bridge",
+      "absent_mandatory_classes": [
+        [
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge{right:35px;bottom:-56px;width:220px;height:150px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 86,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".bridge-cluster",
+      "absent_mandatory_classes": [
+        [
+          "bridge-cluster"
+        ]
+      ],
+      "rule_before": ".bridge-cluster{width:165px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 86,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".bridge-single",
+      "absent_mandatory_classes": [
+        [
+          "bridge-single"
+        ]
+      ],
+      "rule_before": ".bridge-single{width:72px;right:-12px;top:0}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 87,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".protein-section+.serving-section>.section",
+      "absent_mandatory_classes": [
+        [
+          "protein-section",
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".protein-section+.serving-section>.section{padding-top:105px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 89,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".home-products .home-product .product-title h3",
+      "absent_mandatory_classes": [
+        [
+          "home-product"
+        ]
+      ],
+      "rule_before": ".home-products .home-product .product-title h3{font-size:21px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 89,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".protein-story h3",
+      "absent_mandatory_classes": [
+        [
+          "protein-story"
+        ]
+      ],
+      "rule_before": ".protein-story h3{font-size:33px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 89,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".protein-story p",
+      "absent_mandatory_classes": [
+        [
+          "protein-story"
+        ]
+      ],
+      "rule_before": ".protein-story p{font-size:15px}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 91,
+      "context": [],
+      "selector": ".page-index .hero-copy",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy"
+        ]
+      ],
+      "rule_before": ".page-index .hero-copy{container-type:inline-size}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 92,
+      "context": [],
+      "selector": ".page-index .hero h1",
+      "absent_mandatory_classes": [
+        [
+          "hero"
+        ]
+      ],
+      "rule_before": ".page-index .hero h1{\n font-family:\"Novoferma Poster\",var(--font-display);\n font-weight:850;\n font-size:clamp(51px,7.4vw,108px);\n letter-spacing:-.022em;\n line-height:.97;\n text-wrap:initial;\n}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 101,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".page-index .hero h1",
+      "absent_mandatory_classes": [
+        [
+          "hero"
+        ]
+      ],
+      "rule_before": ".page-index .hero h1{font-size:clamp(48px,15.3vw,108px)}"
+    },
+    {
+      "file": "style.css",
+      "line_before": 104,
+      "context": [
+        "@supports (font-size:1cqw)"
+      ],
+      "selector": ".page-index .hero h1",
+      "absent_mandatory_classes": [
+        [
+          "hero"
+        ]
+      ],
+      "rule_before": ".page-index .hero h1{font-size:min(17.1cqw,108px)}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 7,
+      "context": [],
+      "selector": ".hero",
+      "absent_mandatory_classes": [
+        [
+          "hero"
+        ]
+      ],
+      "rule_before": ".hero{overflow:visible;position:relative;z-index:3}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 8,
+      "context": [],
+      "selector": ".hero-art",
+      "absent_mandatory_classes": [
+        [
+          "hero-art"
+        ]
+      ],
+      "rule_before": ".hero-art{pointer-events:none}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 9,
+      "context": [],
+      "selector": ".hero-art .depth-motion",
+      "absent_mandatory_classes": [
+        [
+          "hero-art"
+        ]
+      ],
+      "rule_before": ".hero-art .depth-motion{transform:translate3d(0,calc(96px + var(--depth-y,0px)),0) rotate(var(--depth-turn,0deg));transform-origin:65% 60%}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 10,
+      "context": [],
+      "selector": ".tagline",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline{padding-top:88px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 13,
+      "context": [],
+      "selector": ".protein-section",
+      "absent_mandatory_classes": [
+        [
+          "protein-section"
+        ]
+      ],
+      "rule_before": ".protein-section{overflow:visible}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 14,
+      "context": [],
+      "selector": ".protein-inner",
+      "absent_mandatory_classes": [
+        [
+          "protein-inner"
+        ]
+      ],
+      "rule_before": ".protein-inner{padding-bottom:192px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 15,
+      "context": [],
+      "selector": ".protein-bridge",
+      "absent_mandatory_classes": [
+        [
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge{width:420px;height:290px;right:max(6%,calc((100vw - 1296px)/2 + 90px));bottom:-118px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 16,
+      "context": [],
+      "selector": ".protein-bridge .bridge-cluster",
+      "absent_mandatory_classes": [
+        [
+          "bridge-cluster",
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge .bridge-cluster{width:360px;left:0;bottom:0;--rest-turn:-9deg;filter:drop-shadow(4px 18px 12px #27170b30)}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 17,
+      "context": [],
+      "selector": ".protein-bridge .bridge-single",
+      "absent_mandatory_classes": [
+        [
+          "bridge-single",
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge .bridge-single{width:155px;right:-35px;top:-8px;--rest-turn:13deg;animation:none;translate:none;rotate:none;filter:drop-shadow(7px 28px 17px #27170b26)}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 18,
+      "context": [],
+      "selector": ".protein-bridge .depth-motion",
+      "absent_mandatory_classes": [
+        [
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge .depth-motion{transform:translate3d(0,var(--depth-y,0px),0) rotate(calc(var(--rest-turn) + var(--depth-turn,0deg)))}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 19,
+      "context": [],
+      "selector": ".protein-section+.serving-section>.section",
+      "absent_mandatory_classes": [
+        [
+          "protein-section",
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".protein-section+.serving-section>.section{padding-top:165px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 48,
+      "context": [],
+      "selector": ".depth-seam",
+      "absent_mandatory_classes": [
+        [
+          "depth-seam"
+        ]
+      ],
+      "rule_before": ".depth-seam{position:absolute;inset:auto 0 0;height:0;z-index:5;pointer-events:none;user-select:none}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 49,
+      "context": [],
+      "selector": ".depth-object",
+      "absent_mandatory_classes": [
+        [
+          "depth-object"
+        ]
+      ],
+      "rule_before": ".depth-object{position:absolute;display:block;left:82%;top:0;width:clamp(190px,17vw,245px);aspect-ratio:1;transform:translate(-50%,-50%)}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 50,
+      "context": [],
+      "selector": ".depth-object img",
+      "absent_mandatory_classes": [
+        [
+          "depth-object"
+        ]
+      ],
+      "rule_before": ".depth-object img{width:100%;height:100%;object-fit:contain;--rest-turn:-17deg;filter:drop-shadow(4px 19px 12px #351c1230)}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 62,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".hero-art .depth-motion",
+      "absent_mandatory_classes": [
+        [
+          "hero-art"
+        ]
+      ],
+      "rule_before": ".hero-art .depth-motion{transform:translate3d(0,calc(75px + var(--depth-y,0px)),0) rotate(var(--depth-turn,0deg))}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 63,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".tagline",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline{padding-top:82px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 64,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".protein-inner",
+      "absent_mandatory_classes": [
+        [
+          "protein-inner"
+        ]
+      ],
+      "rule_before": ".protein-inner{padding-bottom:153px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 65,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".protein-bridge",
+      "absent_mandatory_classes": [
+        [
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge{width:320px;height:220px;right:9%;bottom:-91px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 66,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".protein-bridge .bridge-cluster",
+      "absent_mandatory_classes": [
+        [
+          "bridge-cluster",
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge .bridge-cluster{width:260px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 66,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".protein-bridge .bridge-single",
+      "absent_mandatory_classes": [
+        [
+          "bridge-single",
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge .bridge-single{width:112px;right:-30px;top:3px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 67,
+      "context": [
+        "@media (min-width:700px) and (max-width:1099px)"
+      ],
+      "selector": ".protein-section+.serving-section>.section",
+      "absent_mandatory_classes": [
+        [
+          "protein-section",
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".protein-section+.serving-section>.section{padding-top:137px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 79,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".hero-art .depth-motion",
+      "absent_mandatory_classes": [
+        [
+          "hero-art"
+        ]
+      ],
+      "rule_before": ".hero-art .depth-motion{transform:translate3d(0,48px,0)}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 80,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".tagline",
+      "absent_mandatory_classes": [
+        [
+          "tagline"
+        ]
+      ],
+      "rule_before": ".tagline{padding-top:68px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 81,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".protein-inner",
+      "absent_mandatory_classes": [
+        [
+          "protein-inner"
+        ]
+      ],
+      "rule_before": ".protein-inner{padding-bottom:168px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 82,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".protein-bridge",
+      "absent_mandatory_classes": [
+        [
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge{width:274px;height:205px;right:28px;bottom:-86px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 83,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".protein-bridge .bridge-cluster",
+      "absent_mandatory_classes": [
+        [
+          "bridge-cluster",
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge .bridge-cluster{width:254px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 84,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".protein-bridge .bridge-single",
+      "absent_mandatory_classes": [
+        [
+          "bridge-single",
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge .bridge-single{width:112px;right:-9px;top:-19px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 85,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".protein-section+.serving-section>.section",
+      "absent_mandatory_classes": [
+        [
+          "protein-section",
+          "serving-section"
+        ]
+      ],
+      "rule_before": ".protein-section+.serving-section>.section{padding-top:123px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 91,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".depth-object",
+      "absent_mandatory_classes": [
+        [
+          "depth-object"
+        ]
+      ],
+      "rule_before": ".depth-object{left:80%;top:5px;width:151px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 92,
+      "context": [
+        "@media (max-width:699px)"
+      ],
+      "selector": ".depth-object img",
+      "absent_mandatory_classes": [
+        [
+          "depth-object"
+        ]
+      ],
+      "rule_before": ".depth-object img{filter:drop-shadow(2px 13px 8px #351c122b)}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 109,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".protein-bridge",
+      "absent_mandatory_classes": [
+        [
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge{width:246px;right:24px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 109,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".protein-bridge .bridge-cluster",
+      "absent_mandatory_classes": [
+        [
+          "bridge-cluster",
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge .bridge-cluster{width:235px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 110,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".protein-bridge .bridge-single",
+      "absent_mandatory_classes": [
+        [
+          "bridge-single",
+          "protein-bridge"
+        ]
+      ],
+      "rule_before": ".protein-bridge .bridge-single{width:100px;right:-8px;top:-15px}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 111,
+      "context": [
+        "@media (max-width:359px)"
+      ],
+      "selector": ".depth-object",
+      "absent_mandatory_classes": [
+        [
+          "depth-object"
+        ]
+      ],
+      "rule_before": ".depth-object{width:138px;left:78%}"
+    },
+    {
+      "file": "depth.css",
+      "line_before": 116,
+      "context": [
+        "@media (prefers-reduced-motion:reduce)"
+      ],
+      "selector": ".bridge-single",
+      "absent_mandatory_classes": [
+        [
+          "bridge-single"
+        ]
+      ],
+      "rule_before": ".bridge-single{animation:none!important;translate:none!important;rotate:none!important}"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 17,
+      "context": [],
+      "selector": ".hero-copy > p.hero-note",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy",
+          "hero-note"
+        ]
+      ],
+      "rule_before": ".hero-copy > p.hero-note {\n  display: block;\n  max-width: 30ch;\n  margin-top: 25px;\n  color: var(--type-ink);\n  font-family: var(--font-hand);\n  font-size: clamp(30px, 2.55vw, 38px);\n  font-weight: 500;\n  line-height: 1.06;\n  letter-spacing: -.025em;\n  transform: rotate(var(--hand-angle));\n  transform-origin: left center;\n}"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 62,
+      "context": [],
+      "selector": ".protein-heading .protein-hand",
+      "absent_mandatory_classes": [
+        [
+          "protein-hand",
+          "protein-heading"
+        ]
+      ],
+      "rule_before": ".protein-heading .protein-hand { color:var(--type-hand); }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 83,
+      "context": [],
+      "selector": ".hero + .hero-signature",
+      "absent_mandatory_classes": [
+        [
+          "hero",
+          "hero-signature"
+        ]
+      ],
+      "rule_before": ".hero + .hero-signature {\n  min-height: 0;\n  padding-block: 30px 32px;\n  border-bottom: 1px solid var(--line);\n  gap: 32px;\n}"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 89,
+      "context": [],
+      "selector": ".hero-signature strong",
+      "absent_mandatory_classes": [
+        [
+          "hero-signature"
+        ]
+      ],
+      "rule_before": ".hero-signature strong { font-size:clamp(28px,3vw,42px); }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 90,
+      "context": [],
+      "selector": ".hero-signature .hand",
+      "absent_mandatory_classes": [
+        [
+          "hero-signature"
+        ]
+      ],
+      "rule_before": ".hero-signature .hand { font-size:var(--hand-note); }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 91,
+      "context": [],
+      "selector": ".hero-signature > .heart",
+      "absent_mandatory_classes": [
+        [
+          "hero-signature"
+        ]
+      ],
+      "rule_before": ".hero-signature > .heart { flex:0 0 auto; }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 98,
+      "context": [],
+      "selector": ".category-filters button, .meat-filters button",
+      "absent_mandatory_classes": [
+        [
+          "category-filters"
+        ],
+        [
+          "meat-filters"
+        ]
+      ],
+      "rule_before": ".category-filters button, .meat-filters button { font-size:13px; min-height:44px; }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 100,
+      "context": [],
+      "selector": ".search-clear",
+      "absent_mandatory_classes": [
+        [
+          "search-clear"
+        ]
+      ],
+      "rule_before": ".search-clear { width:44px; height:44px; }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 101,
+      "context": [],
+      "selector": ".filter-meta, .filter-meta > p",
+      "absent_mandatory_classes": [
+        [
+          "filter-meta"
+        ],
+        [
+          "filter-meta"
+        ]
+      ],
+      "rule_before": ".filter-meta, .filter-meta > p { font-size:12px; }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 106,
+      "context": [],
+      "selector": ".serving-content figcaption.hand",
+      "absent_mandatory_classes": [
+        [
+          "serving-content"
+        ]
+      ],
+      "rule_before": ".serving-content figcaption.hand {\n  font-size: var(--hand-caption);\n  line-height: 1.05;\n  color: var(--brown);\n}"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 120,
+      "context": [
+        "@media (min-width: 700px) and (max-width: 1099px)"
+      ],
+      "selector": ".home-products .home-product .product-title h3",
+      "absent_mandatory_classes": [
+        [
+          "home-product"
+        ]
+      ],
+      "rule_before": ".home-products .home-product .product-title h3 { font-size: 27px; }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 124,
+      "context": [
+        "@media (min-width: 700px) and (max-width: 1099px)"
+      ],
+      "selector": ".protein-story h3",
+      "absent_mandatory_classes": [
+        [
+          "protein-story"
+        ]
+      ],
+      "rule_before": ".protein-story h3 { font-size:clamp(30px,4vw,35px); }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 139,
+      "context": [
+        "@media (max-width: 699px)"
+      ],
+      "selector": ".hero + .hero-signature",
+      "absent_mandatory_classes": [
+        [
+          "hero",
+          "hero-signature"
+        ]
+      ],
+      "rule_before": ".hero + .hero-signature {\n    display:grid;\n    grid-template-columns:minmax(0,1fr) minmax(112px,.42fr);\n    align-items:center;\n    gap:14px;\n    padding-block:27px 30px;\n  }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 146,
+      "context": [
+        "@media (max-width: 699px)"
+      ],
+      "selector": ".hero-signature strong",
+      "absent_mandatory_classes": [
+        [
+          "hero-signature"
+        ]
+      ],
+      "rule_before": ".hero-signature strong {\n    max-width:none;\n    font-size:clamp(24px,7.4vw,29px);\n    line-height:1.06;\n  }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 151,
+      "context": [
+        "@media (max-width: 699px)"
+      ],
+      "selector": ".hero-signature .hand",
+      "absent_mandatory_classes": [
+        [
+          "hero-signature"
+        ]
+      ],
+      "rule_before": ".hero-signature .hand {\n    max-width:none;\n    margin:0;\n    font-size:clamp(23px,6.8vw,28px);\n    text-align:right;\n  }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 157,
+      "context": [
+        "@media (max-width: 699px)"
+      ],
+      "selector": ".hero-signature > .heart",
+      "absent_mandatory_classes": [
+        [
+          "hero-signature"
+        ]
+      ],
+      "rule_before": ".hero-signature > .heart { display:none; }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 159,
+      "context": [
+        "@media (max-width: 699px)"
+      ],
+      "selector": ".hero-copy > p.hero-note",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy",
+          "hero-note"
+        ]
+      ],
+      "rule_before": ".hero-copy > p.hero-note {\n    max-width: 27ch;\n    margin-top: 22px;\n    font-size: clamp(29px, 8.1vw, 34px);\n    line-height: 1.08;\n  }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 169,
+      "context": [
+        "@media (max-width: 699px)"
+      ],
+      "selector": ".category-filters button, .meat-filters button",
+      "absent_mandatory_classes": [
+        [
+          "category-filters"
+        ],
+        [
+          "meat-filters"
+        ]
+      ],
+      "rule_before": ".category-filters button, .meat-filters button { font-size:12px; min-height:44px; }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 170,
+      "context": [
+        "@media (max-width: 699px)"
+      ],
+      "selector": ".meat-filters",
+      "absent_mandatory_classes": [
+        [
+          "meat-filters"
+        ]
+      ],
+      "rule_before": ".meat-filters { gap:6px; }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 171,
+      "context": [
+        "@media (max-width: 699px)"
+      ],
+      "selector": ".filter-meta",
+      "absent_mandatory_classes": [
+        [
+          "filter-meta"
+        ]
+      ],
+      "rule_before": ".filter-meta { flex-wrap:wrap; align-items:center; gap:8px; margin-bottom:20px; }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 172,
+      "context": [
+        "@media (max-width: 699px)"
+      ],
+      "selector": ".filter-meta > p",
+      "absent_mandatory_classes": [
+        [
+          "filter-meta"
+        ]
+      ],
+      "rule_before": ".filter-meta > p { padding-top:0; }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 178,
+      "context": [
+        "@media (max-width: 699px)"
+      ],
+      "selector": ".home-products .home-product .product-title h3",
+      "absent_mandatory_classes": [
+        [
+          "home-product"
+        ]
+      ],
+      "rule_before": ".home-products .home-product .product-title h3 { font-size:27px; }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 205,
+      "context": [
+        "@media (max-width: 699px)"
+      ],
+      "selector": ".product-caption",
+      "absent_mandatory_classes": [
+        [
+          "product-caption"
+        ]
+      ],
+      "rule_before": ".product-caption { display:none; }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 217,
+      "context": [
+        "@media (max-width: 359px)"
+      ],
+      "selector": ".hero-copy > p.hero-note",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy",
+          "hero-note"
+        ]
+      ],
+      "rule_before": ".hero-copy > p.hero-note { font-size: 29px; }"
+    },
+    {
+      "file": "design-system.css",
+      "line_before": 228,
+      "context": [
+        "@media (prefers-reduced-motion: reduce)"
+      ],
+      "selector": ".hero-copy > p.hero-note",
+      "absent_mandatory_classes": [
+        [
+          "hero-copy",
+          "hero-note"
+        ]
+      ],
+      "rule_before": ".hero-copy > p.hero-note { transform: none; }"
+    }
+  ],
+  "empty_containers_removed": [
+    {
+      "file": "style.css",
+      "condition": "@media (min-width:1600px)"
+    },
+    {
+      "file": "style.css",
+      "condition": "@media (min-width:700px) and (max-width:1099px)"
+    },
+    {
+      "file": "style.css",
+      "condition": "@media (max-width:699px)"
+    },
+    {
+      "file": "style.css",
+      "condition": "@media (max-width:359px)"
+    },
+    {
+      "file": "style.css",
+      "condition": "@media (max-width:699px)"
+    },
+    {
+      "file": "style.css",
+      "condition": "@supports (font-size:1cqw)"
+    },
+    {
+      "file": "depth.css",
+      "condition": "@media (max-width:359px)"
+    },
+    {
+      "file": "design-system.css",
+      "condition": "@media (prefers-reduced-motion: reduce)"
+    }
+  ],
+  "other_removals": [
+    {
+      "file": "style.css",
+      "removed": "@import url(\"assets/fonts/font-face.css\");",
+      "reason": "Root added explicit versioned font-face stylesheet link before style.css in shared head"
+    },
+    {
+      "file": "style.css",
+      "removed": "@keyframes rise-in{from{opacity:0;translate:0 20px}to{opacity:1;translate:0 0}}",
+      "reason": "Legacy keyframe name has no remaining reference in all loaded CSS or current JS"
+    },
+    {
+      "file": "style.css",
+      "removed": "@keyframes hero-enter{from{opacity:0;translate:35px 18px;rotate:2deg}to{opacity:1;translate:0 0;rotate:0deg}}",
+      "reason": "Legacy keyframe name has no remaining reference in all loaded CSS or current JS"
+    }
+  ],
+  "mixed_or_protected_rules_retained": [
+    {
+      "file": "design-system.css",
+      "selector": ".tagline .hand,\n.heading-aside .hand,\n.serving-section .section-heading > .hand,\n.brand-copy .hand,\n.page-heading .hand,\n.about-intro .hand,\n.page-intro .hand,\n.detail-copy .hand,\n.where-explanation > .hand,\n.partner-hero .hand,\n.partner-contact .hand,\n.contact-heading .hand,\n.footer-top .hand",
+      "reason": "At least one selector branch is not a confirmed legacy selector"
+    },
+    {
+      "file": "design-system.css",
+      "selector": ".tagline .hand, .serving-section .section-heading > .hand,\n.brand-copy .hand, .detail-copy .hand",
+      "reason": "At least one selector branch is not a confirmed legacy selector"
+    },
+    {
+      "file": "design-system.css",
+      "selector": ".serving-copy > p:not(.eyebrow), .about-editorial p:not(.eyebrow),\n.where-explanation > p:not(.hand), .detail-copy > p:not(.eyebrow):not(.hand),\n.protein-story p, .contact-details p",
+      "reason": "At least one selector branch is not a confirmed legacy selector"
+    }
+  ],
+  "backup": "legacy-css-before/",
+  "limitations": "Source proof scoped to the current generated site and its six linked JS files. Parent performs build and browser regression check; no browser acceptance is claimed by this cleanup.",
+  "verification": {
+    "retained_rule_ast_comparison": {
+      "style.css": {
+        "retained_qualified_rules_unchanged": true,
+        "syntax_errors": [],
+        "remaining_qualified_rules": 521
+      },
+      "depth.css": {
+        "retained_qualified_rules_unchanged": true,
+        "syntax_errors": [],
+        "remaining_qualified_rules": 66
+      },
+      "design-system.css": {
+        "retained_qualified_rules_unchanged": true,
+        "syntax_errors": [],
+        "remaining_qualified_rules": 69
+      }
+    },
+    "absence_rechecked_after_edit": true,
+    "source_sha256": {
+      "index.html": "e62aab5c8014d8bf85054cbaab677706b39c182a23887aab93ceb9b4cb5454ed",
+      "catalogue.html": "73890c34e9135c43f5b7c9fa1488d6af162952b665a9f5bef76823d00cde25ec",
+      "about.html": "7c2be93bde1f0c1e30170d0404beacbfa0cd6e88c447817f39f68ff794c1095d",
+      "where-to-buy.html": "a88b5e0cd1cb956c8afd1218ffe524a05bb844cc2a096838687b45f5d48a58b7",
+      "partners.html": "ce70cd88b8b265285c7a246f61c73362dc937fd62f75a2d9394acb4f28f04725",
+      "contacts.html": "9388c451050b5c5f2d691e5ec863fed69b04da4e6dfcdebc38fa525cb55b999f",
+      "product-kotlety-kurinye.html": "25f882b792d9f19356e1c9da2e2facc623114e29b1f1ddf14b967e659c786143",
+      "product-bitochki-kurinye-s-ovoshchami.html": "5d3643e955adaf08ee1576e46f801bde14dd4dc6ea9576e4d1fe3eca0da9ee22",
+      "product-ezhiki-iz-tsyplenka-s-risom.html": "41ba373ad384e46153e465777d057382456d3b76558474bdcda1b8941d52eca7",
+      "product-kurinyj-popkorn.html": "ac635d8528780ca4154adb04c581419ef1a37fddc004fc1c3b81fad740e30fa9",
+      "product-naggetsy-kurinye.html": "fb1a3d12496c27c76cf274d16d7f0cd93be9209ed3478c334871ec4456aa8fea",
+      "product-naggetsy-kurinye-s-syrom.html": "61a2f555c461d640e407bb7758fb58cf7607758399ac2d5d9780f0788e74a14c",
+      "product-naggetsy-dinozavry.html": "b2b513afd66fd2e9564f6095a66bb9a3c328621f72f70717306153c981b21bc0",
+      "product-naggetsy-ostrye.html": "75eb5eb2f4b19787bad97d8050c2be4684bcd3403387c690f29534106f4e626e",
+      "product-naggetsy-s-indeykoy-fitnes.html": "dbc73847589206e81d6de72f7cd725564c51d81acea224f817f0e56dd29bfb0c",
+      "product-stripsy.html": "56bfe8f03cad8a3546c58b081e31eeb2348b6847fc3ef0d71cf58019a7ff2ac0",
+      "product-kotlety-po-domashnemu.html": "33b40cbf63debb562d7043d4daca5540ae48d87e68eaf6078964b7cb2f35a86c",
+      "product-kotlety-pikantnye.html": "d057e2c6bb82de1a581c74c537d9504561ea4ae82e8d5adaad00648044053cdd",
+      "product-kotlety-po-italyanski.html": "69fca9cb7bcd802140667524d3d57a78c6efac6ae2082ec249cfa962d3e21168",
+      "product-frikadelki-klassicheskie.html": "2a7718c687686ac65ebe48d71de1da26ae1e49d66f77194b41cc6f941f88f9d9",
+      "product-fibriki.html": "abe83fbc8584e671a49072e6e2ad52870644be57390b100be84c9c6243bb0354",
+      "product-lulia-mini.html": "59a02063fe986901283e9476eac9df9305227b66f01a900b8c680a5b1c3f445d",
+      "catalogue.js": "11f0d1febe9acf523fa781a43ee20ab1c1fa1d82c621386be9169e39fb2b4b1b",
+      "depth.js": "c2715d391dd9dba66b2f448b8cdef70f3bbbdf48c564de66ee2ba6fc28737634",
+      "partners-scenes.js": "4721eb618455d5ba2575f257773a0f9aa7f0bcd52320730edf4fa56edbd4c7e5",
+      "product-hero.js": "005574cdda650466a426456625d3c9c205c5c5d67810584e28d162bdb3b5d8db",
+      "script.js": "65160eba7f2e90d87863aed6341497c9717d900d51c273782e4a1d2adcb015d4",
+      "where-to-buy.js": "e2d571b68892c39f1604fb47ae7da29c20938f5112a443482458c8f9af5da11d"
+    },
+    "font_faces_preserved": [
+      "Novoferma Sans: Onest wght100–900",
+      "Novoferma Hand: Caveat wght400–700",
+      "Novoferma Poster: Rubik wght300–900",
+      "Novoferma Protein: RobotoFlex-Protein static wght850"
+    ],
+    "font_assets_modified": false
+  }
+}
