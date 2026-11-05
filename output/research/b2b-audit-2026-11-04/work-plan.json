@@ -91,8 +91,8 @@
     {
       "id": "R15",
       "requirement": "Публикация всего итогового аудита на GitHub и проверка remote",
-      "evidence": "publication.json",
-      "status": "in_progress"
+      "evidence": "publication.json; auditCommit 163b5393d4e83bf95786d481c5cc7271f269bed2; all49 files read back from remote",
+      "status": "complete"
     }
   ],
   "stages": [
@@ -127,5 +127,12 @@
       "evidence": "publication.json"
     }
   ],
-  "completionRule": "Полнота аудита и публикации отделена от исполнения всех будущих рекомендаций. Неизвестные бизнес-данные и пределы доказательств перечислены; это не подтверждение роста продаж, WCAG или сертификации."
+  "completionRule": "Полнота аудита и публикации отделена от исполнения всех будущих рекомендаций. Неизвестные бизнес-данные и пределы доказательств перечислены; это не подтверждение роста продаж, WCAG или сертификации.",
+  "completionAudit": {
+    "result": "pass",
+    "requirements": 15,
+    "reportIntegrity": "report-validation.json pass",
+    "publication": "all49 files verified in remote main",
+    "scopeLimits": "Unknown sales/food data and unavailable production visual inspection are explicitly recorded, not invented."
+  }
 }

@@ -1,8 +1,15 @@
 {
-  "status": "prepared",
+  "status": "published_and_verified",
   "repository": "hjj96/novoferma",
-  "path": "output/research/b2b-audit-2026-11-04",
-  "authorization": "User explicitly requested uploading the complete audit to their GitHub.",
-  "method": "Existing git origin; connector repository access returned404, git transport read succeeds.",
-  "verified": false
+  "branch": "main",
+  "directory": "output/research/b2b-audit-2026-11-04",
+  "auditCommit": "163b5393d4e83bf95786d481c5cc7271f269bed2",
+  "url": "https://github.com/hjj96/novoferma/tree/main/output/research/b2b-audit-2026-11-04",
+  "reportUrl": "https://github.com/hjj96/novoferma/blob/main/output/research/b2b-audit-2026-11-04/audit.md",
+  "verifiedOn": "2026-11-05T11:23:40.573172+00:00",
+  "verified": true,
+  "verifiedFiles": 49,
+  "verification": "git ls-remote main equals pushed audit commit; git fetch and readback of every49 audit file matches local bytes. This record is committed after the content commit.",
+  "scope": "Audit-only publication. Concurrent website edits and other packaging work not included.",
+  "authority": "Explicit user request to upload the complete audit to their GitHub."
 }
