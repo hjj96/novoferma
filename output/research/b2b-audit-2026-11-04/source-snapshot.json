@@ -1,0 +1,315 @@
+{
+  "sourceCommit": "3894d447cbff0a6a2e9d7b637910ca71e736ae5d",
+  "capturedOn": "2026-11-04",
+  "hashesWrittenOn": "2026-11-05",
+  "scope": "Local project. Public novoferma.ru text extraction differs; no accepted production screenshot.",
+  "files": [
+    {
+      "path": "output/concept/about.html",
+      "sha256": "4ee88f3147cbd39e8c8c66ba2d317ce4f16c06a6e55b9fb8513a1986fbf9befb"
+    },
+    {
+      "path": "output/concept/catalogue.css",
+      "sha256": "2e2cea63445d803c015a3ebdf6c8b44ff3d989670a742a05389ac1110eaa19e0"
+    },
+    {
+      "path": "output/concept/catalogue.html",
+      "sha256": "90df53a15836a9cb729807a4b42b8b33a55588b7584e8d8733032ab635896a02"
+    },
+    {
+      "path": "output/concept/catalogue.js",
+      "sha256": "11f0d1febe9acf523fa781a43ee20ab1c1fa1d82c621386be9169e39fb2b4b1b"
+    },
+    {
+      "path": "output/concept/contacts.css",
+      "sha256": "de711517b23d726ffd3aa1af661aa5349e923aa72520032d4cd00f3b240fdd16"
+    },
+    {
+      "path": "output/concept/contacts.html",
+      "sha256": "ab275b46212b7eb4ab30443b9a5cf2fa735bddd371cb1b9ab7421c20a7cf8258"
+    },
+    {
+      "path": "output/concept/depth.css",
+      "sha256": "e66316dafad34313187abf5c8848964884b9b8fdaaad8f803cf986f90afdc5d4"
+    },
+    {
+      "path": "output/concept/depth.js",
+      "sha256": "c2715d391dd9dba66b2f448b8cdef70f3bbbdf48c564de66ee2ba6fc28737634"
+    },
+    {
+      "path": "output/concept/design-system.css",
+      "sha256": "bf90b0034dd5b480a2c77ceef69ede2fcc014a1b0c8345a682dd87e09ffd0257"
+    },
+    {
+      "path": "output/concept/home-unified.css",
+      "sha256": "e1bc5da176f4db313e978b9f35397f4b6fd713f066d5df939953502f1a2df570"
+    },
+    {
+      "path": "output/concept/index.html",
+      "sha256": "654d505887c143bd4aa798b594e66ff004342fc791f981e0c9802285cb5432d6"
+    },
+    {
+      "path": "output/concept/loading-concept.css",
+      "sha256": "625d41290f0a4c9e66584aa3900fc1edcb44759ce238b6c434aa29cb7e371c8e"
+    },
+    {
+      "path": "output/concept/loading-concept.js",
+      "sha256": "eeaa2317a60b81642adfb4cd7efe441c8b393749457bcb1519e1258b46aefa5f"
+    },
+    {
+      "path": "output/concept/loading-physics.js",
+      "sha256": "2efe7114f25474828df4206dd7714c26c6aaf68782aa46c64f998adb61dcf10c"
+    },
+    {
+      "path": "output/concept/loading-story.css",
+      "sha256": "be8df7dd3565e56017c3bb04c37a6be57e02ac73a84d3895b9a6e39d62dcf159"
+    },
+    {
+      "path": "output/concept/loading-story.js",
+      "sha256": "64fa8681202c07a5717edbbbe0be9eca2d07d2a40a605585009729eedd15c0bd"
+    },
+    {
+      "path": "output/concept/mobile.css",
+      "sha256": "5ec1868bf6cdef0137c3165611561dbf45d793b55ff0b69cfbea0796e62284db"
+    },
+    {
+      "path": "output/concept/motion.css",
+      "sha256": "d1e04eec5d08c685b140c84372c68190ffe2e92fc0f3b372098f4f73749c9ee1"
+    },
+    {
+      "path": "output/concept/partners-scenes.css",
+      "sha256": "4351fcc0065ecff2512de749bc899839383179b89def652c4f78784153b75878"
+    },
+    {
+      "path": "output/concept/partners-scenes.js",
+      "sha256": "4721eb618455d5ba2575f257773a0f9aa7f0bcd52320730edf4fa56edbd4c7e5"
+    },
+    {
+      "path": "output/concept/partners.html",
+      "sha256": "6296581c92dfc87d1ee308998e4eaba7db156e48727145ea929621e3faf7e1a7"
+    },
+    {
+      "path": "output/concept/partnership.css",
+      "sha256": "64200d3d16716c4973c413164b74f4c26e1e84eb9deae8671223a0326b524e1c"
+    },
+    {
+      "path": "output/concept/polish.css",
+      "sha256": "0015d3dc423d75b6482be6c32f9de4968dca9123d10c6e5fcd66abafeb19a89b"
+    },
+    {
+      "path": "output/concept/product-bitochki-kurinye-s-ovoshchami.html",
+      "sha256": "9b1583e92693285a943921b15165ce26c3b5d4839d81cb842b39870cf4581057"
+    },
+    {
+      "path": "output/concept/product-cards.css",
+      "sha256": "5bfb1a80d186c00eb0dcadbece74429b11b972e738ee3f39b8f5f4a7d2652e04"
+    },
+    {
+      "path": "output/concept/product-detail.css",
+      "sha256": "0ec2efffa34a4919d1a54457906b4911ab44318a8e85fced46df809a30f62d4c"
+    },
+    {
+      "path": "output/concept/product-ezhiki-iz-tsyplenka-s-risom.html",
+      "sha256": "796c1eaa519b6adb89056761ac6c918c66406db632dcd56b7a051b15c17c91d8"
+    },
+    {
+      "path": "output/concept/product-fibriki.html",
+      "sha256": "e49bd3c411e03a0557e63568d0f0a28c54f471c9e53c24c9d093af5751678349"
+    },
+    {
+      "path": "output/concept/product-frikadelki-klassicheskie.html",
+      "sha256": "6785bc3e1b73a75d7480b7ed596a9cc03a9aceb1d29affb1ddf2e45b8dfdd8a5"
+    },
+    {
+      "path": "output/concept/product-hero.css",
+      "sha256": "badd00c24f11ce0dd2202cc4605a8d2b446bc83247c18e8509769666599bca56"
+    },
+    {
+      "path": "output/concept/product-hero.js",
+      "sha256": "005574cdda650466a426456625d3c9c205c5c5d67810584e28d162bdb3b5d8db"
+    },
+    {
+      "path": "output/concept/product-kotlety-kurinye.html",
+      "sha256": "b9e2efa46f0fe00662ba6f6587250148b35bda9354edbecf5b7d99fe916e5235"
+    },
+    {
+      "path": "output/concept/product-kotlety-pikantnye.html",
+      "sha256": "da2767fd5e434842e657857d2cfc1b9da772bc196e3e0e926bbfcca47978b92a"
+    },
+    {
+      "path": "output/concept/product-kotlety-po-domashnemu.html",
+      "sha256": "8f1f1c11ed8891e57bcad374b3289e6d85ded32553d5ade9d2bfb10c7b51b388"
+    },
+    {
+      "path": "output/concept/product-kotlety-po-italyanski.html",
+      "sha256": "3513b685647b403fa9bcae686c10da83cb2bea3dd9cfe53f4c010fb18a680ad4"
+    },
+    {
+      "path": "output/concept/product-kurinyj-popkorn.html",
+      "sha256": "fcb778fb1d8ade19e0692c07abfccbdd7d09a73c49e592bc2c889d5fffe96dca"
+    },
+    {
+      "path": "output/concept/product-lulia-mini.html",
+      "sha256": "20fc3281c52e927a88484292b98c7a19e8a863351017e0444490e98861ee0762"
+    },
+    {
+      "path": "output/concept/product-naggetsy-dinozavry.html",
+      "sha256": "8069f4765fe9f48ab6b75bdbb147f06726909c8f1ce207f1b20cafcb4a210183"
+    },
+    {
+      "path": "output/concept/product-naggetsy-kurinye-s-syrom.html",
+      "sha256": "791e1622ca6d53911ab214f3ae52a787790e44c679bd4010437b066bd219f300"
+    },
+    {
+      "path": "output/concept/product-naggetsy-kurinye.html",
+      "sha256": "63b8086b88231979a93df98e334e4db57ee9c6ad1f7a442ce7338aba68554bc1"
+    },
+    {
+      "path": "output/concept/product-naggetsy-ostrye.html",
+      "sha256": "0abbb30047ec56ac4bf3dc461f893cc38853c29d2637d352ed25b26bf9f0700d"
+    },
+    {
+      "path": "output/concept/product-naggetsy-s-indeykoy-fitnes.html",
+      "sha256": "a3a2e2e710e9f95311a8545d451879a121e6be440f03f4cdbbcf82e3e7898b3a"
+    },
+    {
+      "path": "output/concept/product-stripsy.html",
+      "sha256": "97f7c9be957c085949de19e6c69bb5dea1f53ac996bbee674dba59bf8220e1a9"
+    },
+    {
+      "path": "output/concept/products.json",
+      "sha256": "c3755a31821446ce1107ed7965484af4566470d9320df291656b4f586696e5ef"
+    },
+    {
+      "path": "output/concept/protein-story.css",
+      "sha256": "8cfe26d81b48165c6f34f43e7196d80f69a9f4865facff324d614853d0fba36f"
+    },
+    {
+      "path": "output/concept/retailers.json",
+      "sha256": "d3e4bff0bc16be548523b79387bd54bf02882d4f6bee012a829254ce4140bc17"
+    },
+    {
+      "path": "output/concept/script.js",
+      "sha256": "65160eba7f2e90d87863aed6341497c9717d900d51c273782e4a1d2adcb015d4"
+    },
+    {
+      "path": "output/concept/site-manifest.json",
+      "sha256": "a9c1391d640135a1f404acc69f4abaef4eca77385a01eb9232a02ca1decb931e"
+    },
+    {
+      "path": "output/concept/style.css",
+      "sha256": "aeca8820c8bb79d7ef29977dee3b28832102e6e23aa8ba705981ca76ab1583f7"
+    },
+    {
+      "path": "output/concept/where-to-buy.css",
+      "sha256": "447119b60ff2f769602e96fbf13dea36e6ea00f62bbbff54bac1f20f48aa29b9"
+    },
+    {
+      "path": "output/concept/where-to-buy.html",
+      "sha256": "6b89a39cb553dc804eff5cf2eac915680cda14c15225b1ea91263bc0a840bdcf"
+    },
+    {
+      "path": "output/concept/where-to-buy.js",
+      "sha256": "e2d571b68892c39f1604fb47ae7da29c20938f5112a443482458c8f9af5da11d"
+    },
+    {
+      "path": "scripts/build_site.py",
+      "sha256": "8d515f54b6c1608ce787a3dc3c8cb12d28daee8894b42463dcd964d1a1841f59"
+    },
+    {
+      "path": "scripts/site_sections.py",
+      "sha256": "ad9075fa0f4360a114a0427005594c1f77d7812929603f0ae4778c095c510459"
+    }
+  ],
+  "sourceKind": "Committed base used for original audit capture; working delta is recorded separately.",
+  "workingDelta05November": [
+    {
+      "path": "output/concept/catalogue.html",
+      "sha256": "118dccc6cc316323eb0fd266f329be6c1cef43587d3e4e1f523e3647007ed4ad"
+    },
+    {
+      "path": "output/concept/index.html",
+      "sha256": "3a07ba03482884defdd7dbe24fb8c64a1baf5b30d9541167f66cada8883f34ea"
+    },
+    {
+      "path": "output/concept/partners-scenes.css",
+      "sha256": "50dcb1ded23537e5b04a6a95ec4e79acb9609c395bc363cc4cfd1da7a935d93c"
+    },
+    {
+      "path": "output/concept/partners.html",
+      "sha256": "57ab8811cbf2a87f6356982e965557b7b97f6e8b6ae5190d62cf8609066bf661"
+    },
+    {
+      "path": "output/concept/product-bitochki-kurinye-s-ovoshchami.html",
+      "sha256": "9051171e06d4f8730005909afdb01da38a3f1cdffba4e8199186c26195e41409"
+    },
+    {
+      "path": "output/concept/product-cards.css",
+      "sha256": "b8850af4a7d412aca0678ceac4fdc1bb2e448b72ec8e8eec43922158e6b17037"
+    },
+    {
+      "path": "output/concept/product-ezhiki-iz-tsyplenka-s-risom.html",
+      "sha256": "5e5bf3e8bd315f9803b08040581b30b77af136cdf6776e6824a08543f23b9c94"
+    },
+    {
+      "path": "output/concept/product-fibriki.html",
+      "sha256": "fbb17e4410809c47e7212e5526d4df6c52ecb1c27126c6833c504e0e48557944"
+    },
+    {
+      "path": "output/concept/product-frikadelki-klassicheskie.html",
+      "sha256": "16db618ce6dab727c4b400368f6903e81b05ed19b0515f7db4b4fa64baa3a39c"
+    },
+    {
+      "path": "output/concept/product-kotlety-kurinye.html",
+      "sha256": "a83d0d3bb1b19e05b29f18dec8c15c1d442fc1441c8e8de774141a168a9ce54d"
+    },
+    {
+      "path": "output/concept/product-kotlety-pikantnye.html",
+      "sha256": "498580a3a75056c2c331b3c0227d2a76d02dcc32e2f07c67f65c5f5b8717819f"
+    },
+    {
+      "path": "output/concept/product-kotlety-po-domashnemu.html",
+      "sha256": "977f9dd376d465d45a162c97b817b21d73894debe2ad700ed61350f08639088c"
+    },
+    {
+      "path": "output/concept/product-kotlety-po-italyanski.html",
+      "sha256": "d8e973752f44fd1bf3bfab8b2b4bc90d9f4a028dd5502326e4b391ead110c72b"
+    },
+    {
+      "path": "output/concept/product-kurinyj-popkorn.html",
+      "sha256": "48760792dcbda7c7cb7f0d578dea7801e8d95f5a89640ed3591af7c3d2cd665b"
+    },
+    {
+      "path": "output/concept/product-lulia-mini.html",
+      "sha256": "cd3c67ebb9aad5907a045187634f38fc72c58fe70c9fbac2a400b28a71d5403c"
+    },
+    {
+      "path": "output/concept/product-naggetsy-dinozavry.html",
+      "sha256": "6de66d6d5da1aee3d7e9a017537ae585c53a4f301f28e4660c248a66f6b9e24d"
+    },
+    {
+      "path": "output/concept/product-naggetsy-kurinye-s-syrom.html",
+      "sha256": "f8bf9e7e96b1041b432b248239e73050a476ba5ed96c11f2d7600a8f0bb3ac67"
+    },
+    {
+      "path": "output/concept/product-naggetsy-kurinye.html",
+      "sha256": "c773cda2571c4056f91b8054d70abf3c4f4358ef66871f70d9012cafb077b1bd"
+    },
+    {
+      "path": "output/concept/product-naggetsy-ostrye.html",
+      "sha256": "a84196de4d230fd0d0f2babe009dd6d82d652e45a8e6118e4d9b335f99d964b7"
+    },
+    {
+      "path": "output/concept/product-naggetsy-s-indeykoy-fitnes.html",
+      "sha256": "73cb3b253d03f377700c200ffcf8a66b7069a9a28bbadb65ff0e993c7e397ed2"
+    },
+    {
+      "path": "output/concept/product-stripsy.html",
+      "sha256": "6fde41000a85c42b2a90f3a07a0a990e1f9dbcf303edc70220dfc02e9ebeabb4"
+    },
+    {
+      "path": "scripts/build_site.py",
+      "sha256": "ce4bcd3d0aac8c83583731bda3754dff2a1d611b07ea26cbade129f1fef883b0"
+    }
+  ]
+}

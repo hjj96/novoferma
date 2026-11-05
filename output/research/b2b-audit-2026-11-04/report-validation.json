@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "wordCount": 15364,
+  "screens": 26,
+  "externalSourceCount": 75,
+  "h1": 1,
+  "inlineCss": true,
+  "htmlImagePolicy": "26 exact accepted PNG files embedded; no external image dependencies",
+  "localLinks": "pass",
+  "errors": [],
+  "visualReview": {
+    "result": "pass",
+    "desktop": [
+      1280,
+      720
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "horizontalOverflow": 0,
+    "toc": "opens and links navigate",
+    "images": "26 exact accepted captures embedded; 24 original views and2 current delta captures inspected.",
+    "previews": [
+      "report-preview-desktop.png",
+      "report-preview-mobile.png"
+    ]
+  },
+  "scope": "Report integrity only; website functional evidence is in technical-commercial.json and screenshot-manifest.json."
+}

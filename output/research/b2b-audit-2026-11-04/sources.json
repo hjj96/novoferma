@@ -1,0 +1,658 @@
+[
+  {
+    "id": "TY1",
+    "title": "Tyson Foodservice — homepage",
+    "url": "https://www.tysonfoodservice.com/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "TY2",
+    "title": "Tyson Gluten Free Fully Cooked Breaded Chicken Breast Nuggets, 10000069616",
+    "url": "https://www.tysonfoodservice.com/products/tyson/chicken/nuggets-%26-specialty-shapes/00023700061669",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "TY3",
+    "title": "Tyson — Find A Sales Rep",
+    "url": "https://www.tysonfoodservice.com/connect/find-a-sales-rep",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "BE1",
+    "title": "Bell & Evans — Products",
+    "url": "https://www.bellandevans.com/products/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "BE2",
+    "title": "Bell & Evans — Traditional Chicken Meatballs",
+    "url": "https://www.bellandevans.com/product/traditional-chicken-meatballs/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "BE3",
+    "title": "Bell & Evans — Our Process",
+    "url": "https://www.bellandevans.com/inside-bell-evans/our-process/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "BE4",
+    "title": "Bell & Evans — FAQ",
+    "url": "https://www.bellandevans.com/faq/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "GL1",
+    "title": "GoodLife Foods — Home",
+    "url": "https://glfoods.com/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "GL2",
+    "title": "GoodLife Foods — About",
+    "url": "https://glfoods.com/over-ons",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "GL3",
+    "title": "GoodLife Foods — Chicken assortment",
+    "url": "https://glfoods.com/assortiment/kip",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "GL4",
+    "title": "GoodLife Foods — Contact",
+    "url": "https://glfoods.com/contact",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "GL5",
+    "title": "GoodLife Foods — Sustainability",
+    "url": "https://glfoods.com/duurzaamheid",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "GL6",
+    "title": "GoodLife Foods — current CSR download",
+    "url": "https://glfoods.com/sites/default/files/2026-07/LR_GOOD_CSR%20brochure_2026.pdf",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Точная дата публикации не установлена. URL содержит 2026-07 и filename2026, внутри есть footer CSR Update2025 и события2026; не называем весь документ отчётом исключительно за2026.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "CP1",
+    "title": "CP Foods UK — Corporate homepage",
+    "url": "https://www.cpfoods.co.uk/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "CP2",
+    "title": "CP Foods UK — Manufacturing",
+    "url": "https://www.cpfoods.co.uk/manufacturing/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "CP3",
+    "title": "CP Foods UK — Retail",
+    "url": "https://www.cpfoods.co.uk/retail/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "CP4",
+    "title": "CP Foods UK — B2B ingredients",
+    "url": "https://www.cpfoods.co.uk/b2b/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "CP5",
+    "title": "CP Foods UK — B2B Product Catalogue",
+    "url": "https://www.cpfoods.co.uk/b2b/b2b-catalogue/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "CP6",
+    "title": "CP Foods UK — Contact",
+    "url": "https://www.cpfoods.co.uk/contact-us/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "GY1",
+    "title": "Greenyard/Pinguin — Private label",
+    "url": "https://www.pinguinfoods.com/en/nl/private-label/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "GY2",
+    "title": "Pinguin — Products",
+    "url": "https://www.pinguinfoods.com/en/nl/products/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "GY3",
+    "title": "Pinguin — Fit mix",
+    "url": "https://www.pinguinfoods.com/en/nl/products/fit-mix/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "GY4",
+    "title": "Greenyard Frozen — Convenience",
+    "url": "https://www.greenyard.group/divisions/frozen/our-products/convenience",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "AF1",
+    "title": "AFFI/FMI — Power of Frozen2026 launch",
+    "url": "https://affi.org/americas-rethinking-meal-planning-new-report-finds-frozen-foods-becoming-a-kitchen-essential/",
+    "accessed_at": "2026-11-04",
+    "publication_date": "2026-02-23",
+    "date_note": "Дата релиза23.02.2026. Полевой опрос проведён в октябре2025, а не в2026.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "AF2",
+    "title": "AFFI — Business Insights public findings",
+    "url": "https://affi.org/insights/",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Дата публикации на проверенной странице не указана; дата доступа не подменяет её.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "IF1",
+    "title": "IFIC2026 Food & Health Survey: Food & Nutrition",
+    "url": "https://ific.org/research/2026-ific-food-health-survey-a-focus-on-food-nutrition/",
+    "accessed_at": "2026-11-04",
+    "publication_date": "2026-10-07",
+    "date_note": "США:22.03–08.04.2026; Канада:27.03–08.04.2026. Данные стран взвешивались отдельно.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "IF2",
+    "title": "IFIC2026 Food & Health Survey — Nutrition PDF",
+    "url": "https://ific.org/wp-content/uploads/2026-IFIC-Food-Health-Survey-Nutrition.pdf",
+    "accessed_at": "2026-11-04",
+    "publication_date": "2026-10-07",
+    "date_note": "Дата страницы публикации IF1; PDF68страниц. Для выбранных метрик используются слайды США, не объединённая выборка.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "PL1",
+    "title": "PLMA — News Releases:2025 results and2026 awards",
+    "url": "https://www.plma.com/events/press-room/plma-news-releases",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Страница агрегирует релизы. Использованы отдельно:20.01.2026 (итоги2025) и20.10.2026 (награды); дата агрегатора не считается датой каждого утверждения.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "PL2",
+    "title": "PLMA2026 Private Label Report",
+    "url": "https://www.plma.com/sites/default/files/files/2026-01/plma-2026-report.pdf",
+    "accessed_at": "2026-11-04",
+    "publication_date": "2026-01",
+    "date_note": "Точный день выпуска PDF не установлен; год2026/путь2026-01. Измеряемый период —52недели до28.12.2025.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "EU1",
+    "title": "European Commission — Nutrition claims",
+    "url": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/nutrition-and-health-claims/nutrition-claims_en",
+    "accessed_at": "2026-11-04",
+    "publication_date": null,
+    "date_note": "Официальное пояснение условий ЕС по Regulation(EC)1924/2006. Дата обновления страницы не указана; это определения, не тренд2026 и не российское право.",
+    "kind": "official_primary"
+  },
+  {
+    "id": "RU01",
+    "publisher": "Казанские Деликатесы",
+    "title": "Производство под СТМ",
+    "url": "https://kazandelikates.tatar/stm",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Первичная страница предложения производителя; описание процесса и возможностей, не независимый аудит выполнения заказов."
+  },
+  {
+    "id": "RU02",
+    "publisher": "Казанские Деликатесы",
+    "title": "Котлеты для бургеров халяль",
+    "url": "https://kazandelikates.tatar/kotlety-dlya-burgerov-halal",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Страница категории. Числовые характеристики относятся к описанным говяжьим котлетам; на странице также есть изображения куриных. Не переносить спецификации между видами."
+  },
+  {
+    "id": "RU03",
+    "publisher": "Казанские Деликатесы",
+    "title": "Сертификаты",
+    "url": "https://kazandelikates.tatar/certificates",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Наличие галереи документов подтверждено; содержание изображений, область действия, сроки и подлинность сертификатов не проверены."
+  },
+  {
+    "id": "RU04",
+    "publisher": "Казанские Деликатесы",
+    "title": "Продукты для HoReCa",
+    "url": "https://kazandelikates.tatar/horeca-produkty-pitaniya",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Подтверждено отдельное направление HoReCa. Не проводились заказ, дегустация и проверка обещаний поставки."
+  },
+  {
+    "id": "RU05",
+    "publisher": "Щёлковский МПК",
+    "title": "Главная страница производителя",
+    "url": "https://shmpk.ru/",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Первичный корпоративный источник. Производственные цифры и сертификация являются заявлениями компании, не независимой проверкой."
+  },
+  {
+    "id": "RU06",
+    "publisher": "Щёлковский МПК",
+    "title": "СТМ",
+    "url": "https://shmpk.ru/brand/ctm",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Проверен текст предложения и поля формы; заявка не отправлялась."
+  },
+  {
+    "id": "RU07",
+    "publisher": "Щёлковский МПК",
+    "title": "HoReCa",
+    "url": "https://shmpk.ru/brand/horeca",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Проверены предложение, форма и ссылка на каталог; доступность продукции по регионам не проверялась."
+  },
+  {
+    "id": "RU08",
+    "publisher": "Щёлковский МПК",
+    "title": "Контроль качества",
+    "url": "https://shmpk.ru/quality_control",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Описанные процедуры и FSSC — утверждения производителя. Текущий сертификат и протоколы испытаний отдельно не верифицированы."
+  },
+  {
+    "id": "RU09",
+    "publisher": "Щёлковский МПК",
+    "title": "Лаборатории",
+    "url": "https://shmpk.ru/laboratories",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Первичное описание лабораторий; аттестаты, аккредитация и измерения не проверены в реестрах."
+  },
+  {
+    "id": "RU10",
+    "publisher": "Щёлковский МПК",
+    "title": "Разработка новых продуктов",
+    "url": "https://shmpk.ru/development_of_new_products",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Сроки разработки и ответа — опубликованные обещания производителя; реальная работа процесса не тестировалась."
+  },
+  {
+    "id": "RU11",
+    "publisher": "Щёлковский МПК",
+    "title": "Стартап",
+    "url": "https://shmpk.ru/startup",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Подтверждено предложение ресурсов для разработки продукта; коммерческие условия проекта не получены."
+  },
+  {
+    "id": "RU12",
+    "publisher": "Сибирская коллекция",
+    "title": "Потребительский сайт",
+    "url": "https://sibircollection.ru/",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Текстовая проверка архитектуры ассортимента и связи с производителем; визуальная оценка в этом исследовании не выполнялась."
+  },
+  {
+    "id": "RU13",
+    "publisher": "Сибирская коллекция",
+    "title": "Котлеты запечённые с фермерской индейкой",
+    "url": "https://sibircollection.ru/products/kotlety/zapechennye-s-fermerskoy-indeykoy/",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Основание расчёта пищевой ценности «на 100 г» в полученном тексте явно не видно. Полная оборотная этикетка и отдельная маркировка аллергенов не проверены."
+  },
+  {
+    "id": "RU14",
+    "publisher": "Щёлковский МПК",
+    "title": "Каталог HoReCa PDF",
+    "url": "https://shmpk.ru/uploads/brand/horeca-presentation-ru-compressed-FTfk.pdf",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "official_link_confirmed_content_not_read",
+    "limitations": "Ссылка найдена на официальной странице; инструмент не открыл файл из-за размера около 11 МБ. Содержимое не использовано как доказательство."
+  },
+  {
+    "id": "RU15",
+    "publisher": "Мираторг",
+    "title": "HoReCa",
+    "url": "https://miratorg.ru/business/horeca/",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "search_index_text_only_direct_fetch_403",
+    "limitations": "Прямое открытие не удалось: 403/тайм-аут. Подробный текст получен из индекса поиска. Это подтверждение индексируемого предложения, не текущей работоспособности страницы или кабинета."
+  },
+  {
+    "id": "RU16",
+    "publisher": "Мираторг",
+    "title": "Наггетсы куриные классические",
+    "url": "https://miratorg.ru/products/catalog/naggetsy/naggetsy_kurinye_klassicheskie_/",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Прочитан текст карточки; полный состав, аллергены и полноценная таблица БЖУ в извлечении не найдены. Изображения этикетки не читались."
+  },
+  {
+    "id": "RU17",
+    "publisher": "Мираторг",
+    "title": "Производство полуфабрикатов и готовых блюд",
+    "url": "https://miratorg.ru/about/activity/proizvodstvo-polufabrikatov-i-gotovykh-blyud/",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Мощность, ассортимент и FSSC — заявления компании; мощность не равна фактическому выпуску, сертификат не проверен по реестру."
+  },
+  {
+    "id": "RU18",
+    "publisher": "Морозко",
+    "title": "Главная страница",
+    "url": "https://morozko.ru/",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "История и масштаб производства — самоописание бренда. Доказательство качества конкретного SKU из этих цифр не следует."
+  },
+  {
+    "id": "RU19",
+    "publisher": "Морозко",
+    "title": "Сотрудничество",
+    "url": "https://morozko.ru/cooperation/",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Страница адресована поставщикам сырья и компонентов, а не оптовым покупателям готовой продукции."
+  },
+  {
+    "id": "RU20",
+    "publisher": "Морозко",
+    "title": "Котлеты куриные 330 г",
+    "url": "https://morozko.ru/catalog/kotleti/kurinye_423e/",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Состав и БЖУ не найдены в прочитанном тексте, несмотря на соответствующие слова в заголовке поиска. Это не доказывает отсутствие сведений на упаковке."
+  },
+  {
+    "id": "RU21",
+    "publisher": "Морозко",
+    "title": "Каталог котлет",
+    "url": "https://morozko.ru/catalog/kotleti/",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "opened_page_text",
+    "limitations": "Сравнивались структура и текст категории, без проверки всех SKU и без визуального аудита."
+  },
+  {
+    "id": "RU22",
+    "publisher": "Черкизово",
+    "title": "Foodservice",
+    "url": "https://foodservice.cherkizovo-group.com/",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "access_failed_403_or_tls_eof",
+    "limitations": "Прямой доступ не получен. Текущая структура, CTA, состав паспортов и работоспособность сайта не подтверждены."
+  },
+  {
+    "id": "RU23",
+    "publisher": "Черкизово",
+    "title": "Каталог Food Service 2023",
+    "url": "https://cherkizovo-group.com/upload/files/catalog%20Food%20Service%20%D0%A7%D0%B5%D1%80%D0%BA%D0%B8%D0%B7%D0%BE%D0%B2%D0%BE%202023.pdf",
+    "accessedAt": "2026-11-04",
+    "publishedAt": "2023",
+    "verificationMethod": "search_index_text_only_direct_access_failed",
+    "limitations": "Старый официальный каталог в поисковом индексе; не подтверждает ассортимент, фасовки и условия 2026 года."
+  },
+  {
+    "id": "RU24",
+    "publisher": "DADA",
+    "title": "Кейс Черкизово Foodservice",
+    "url": "https://www.dada.llc/cases/foodservice.html",
+    "accessedAt": "2026-11-04",
+    "publishedAt": null,
+    "verificationMethod": "search_index_text",
+    "limitations": "Первичное описание проекта агентством, но не независимый анализ продаж. Заявленных результатов конверсии в исследовании нет."
+  },
+  {
+    "id": "M01",
+    "publisher": "INFOLine",
+    "title": "Рынок готовой еды: итоги 2025 года и прогноз 2026",
+    "url": "https://infoline.spb.ru/news/?news=306796",
+    "accessedAt": "2026-11-04",
+    "publishedAt": "2026-04-23",
+    "verificationMethod": "opened_page_text",
+    "limitations": "Определение прямо исключает замороженные блюда и полуфабрикаты. 2026 — прогноз, а не итог года; использовать как смежный контекст, не TAM Новофермы."
+  },
+  {
+    "id": "M02",
+    "publisher": "NTech",
+    "title": "Итоги I квартала 2025",
+    "url": "https://adindex.ru/publication/analitics/search/334299/img/NTech.%20%D0%98%D1%82%D0%BE%D0%B3%D0%B8%20I%20%D0%BA%D0%B2.%202025.pdf",
+    "accessedAt": "2026-11-04",
+    "publishedAt": "2025",
+    "verificationMethod": "primary_authored_pdf_on_third_party_host",
+    "limitations": "Документ автора исследования размещён на AdIndex. Два денежных значения относятся к разным, пересекающимся периодам. Готовые блюда не равны замороженным полуфабрикатам птицы."
+  },
+  {
+    "id": "M03",
+    "publisher": "Nielsen",
+    "title": "Презентация Марии Гараниной для Союза мясопереработчиков",
+    "url": "https://adindex.ru/publication/analitics/search/330602/img/2025_02_04_%D0%A1%D0%BE%D1%8E%D0%B7_%D0%9C%D1%8F%D1%81%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%BE%D0%B2_%D0%93%D0%B0%D1%80%D0%B0%D0%BD%D0%B8%D0%BD%D0%B0_%D0%9D%D0%B8%D0%BB%D1%8C%D1%81%D0%B5%D0%BD.pdf",
+    "accessedAt": "2026-11-04",
+    "publishedAt": "2025-02-04",
+    "verificationMethod": "primary_authored_pdf_on_third_party_host",
+    "limitations": "TSR сетевой розницы, 12 месяцев по декабрь 2024. Денежная динамика готовой еды; не натуральный рост и не весь рынок HoReCa."
+  },
+  {
+    "id": "M04",
+    "publisher": "NeoAnalytics",
+    "title": "Российский рынок замороженных полуфабрикатов 2025",
+    "url": "https://www.neoanalytics.ru/rossiiskii-rynok-zamorozhennyh-polufabrikatov-2025/",
+    "accessedAt": "2026-11-04",
+    "publishedAt": "2025-05-05",
+    "verificationMethod": "opened_page_text",
+    "limitations": "Открытая карточка платного исследования и оглавление. Полные рыночные оценки не прочитаны. Категория шире мясных и тем более птичьих полуфабрикатов."
+  },
+  {
+    "id": "M05",
+    "publisher": "INFOLine",
+    "title": "Тренды мясной индустрии 2026",
+    "url": "https://infoline.spb.ru/news/index.php?news=306448",
+    "accessedAt": "2026-11-04",
+    "publishedAt": "2026-04-02",
+    "verificationMethod": "opened_page_text",
+    "limitations": "Наблюдения за новинками производителей. Не доказательство размера спроса, эффективности конкретного заявления о белке или клетчатке и не прогноз продаж Новофермы."
+  },
+  {
+    "id": "S01",
+    "title": "IETF RFC 6068 — mailto URI Scheme",
+    "url": "https://www.rfc-editor.org/rfc/rfc6068",
+    "scope": "Открытие mailto не является подтверждением доставки обращения.",
+    "accessed": "2026-11-04"
+  },
+  {
+    "id": "S02",
+    "title": "W3C Understanding SC 1.3.5 — Identify Input Purpose",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html",
+    "scope": "Для mixed-purpose поля допускается отсутствие autocomplete; это не автоматическое WCAG-нарушение.",
+    "accessed": "2026-11-04"
+  },
+  {
+    "id": "S03",
+    "title": "W3C Understanding SC 4.1.3 — Status Messages",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html",
+    "scope": "Статусы должны быть программно определимыми и доступными вспомогательной технологии.",
+    "accessed": "2026-11-04"
+  },
+  {
+    "id": "S04",
+    "title": "W3C Understanding SC 3.3.1 — Error Identification",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html",
+    "scope": "Обнаруженная ошибка идентифицируется и описывается текстом.",
+    "accessed": "2026-11-04"
+  },
+  {
+    "id": "S05",
+    "title": "Google Search Essentials",
+    "url": "https://developers.google.com/search/docs/essentials",
+    "scope": "Полезное содержание, релевантные слова и доступные ссылки; выполнение рекомендаций не гарантирует индексации.",
+    "accessed": "2026-11-04"
+  },
+  {
+    "id": "S06",
+    "title": "Google Search Central — canonical URLs",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+    "scope": "Canonical помогает консолидировать URL; его отсутствие в preview не доказывает проблему production.",
+    "accessed": "2026-11-04"
+  },
+  {
+    "id": "S07",
+    "title": "web.dev — Web Vitals",
+    "url": "https://web.dev/articles/vitals",
+    "scope": "p75 ориентиры: LCP≤2,5с, INP≤200мс, CLS≤0,1, отдельно mobile/desktop. Размер файлов и VM-тесты не измеряют CWV.",
+    "accessed": "2026-11-04"
+  },
+  {
+    "id": "S08",
+    "title": "web.dev — Serve responsive images",
+    "url": "https://web.dev/articles/serve-responsive-images",
+    "scope": "srcset/sizes дают варианты; реальный выбор проверяется currentSrc/network.",
+    "accessed": "2026-11-04"
+  },
+  {
+    "title": "EEC: первичный текст ТР ТС 022/2011; консолидация редакции не установлена",
+    "url": "https://eec.eaeunion.org/upload/medialibrary/9db/TrTsPishevkaMarkirovka.pdf",
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "title": "Публичный Novoferma: текстовое извлечение",
+    "url": "https://novoferma.ru/",
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "title": "NN/G: B2B usability — исследование 2006, базовые принципы, не тренд 2026",
+    "url": "https://www.nngroup.com/articles/b2b-usability/",
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "title": "NN/G: About Us, 2019",
+    "url": "https://www.nngroup.com/articles/about-us-information-on-websites/",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "title": "NN/G: Trustworthiness in Web Design, 2016",
+    "url": "https://www.nngroup.com/articles/trustworthy-design/",
+    "accessed_at": "2026-11-05"
+  },
+  {
+    "title": "W3C WCAG 2.2",
+    "url": "https://www.w3.org/TR/WCAG22/",
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "title": "Google: оценка CWV и p75",
+    "url": "https://support.google.com/webmasters/answer/9205520?hl=en-EN",
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "title": "BFFF Business Conference 2026: открытые выводы",
+    "url": "https://bfff.co.uk/industry-leaders-come-together-at-the-bfff-business-conference-2026/",
+    "accessed_at": "2026-11-05"
+  }
+]

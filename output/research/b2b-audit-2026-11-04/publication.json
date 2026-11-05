@@ -1,0 +1,8 @@
+{
+  "status": "prepared",
+  "repository": "hjj96/novoferma",
+  "path": "output/research/b2b-audit-2026-11-04",
+  "authorization": "User explicitly requested uploading the complete audit to their GitHub.",
+  "method": "Existing git origin; connector repository access returned404, git transport read succeeds.",
+  "verified": false
+}

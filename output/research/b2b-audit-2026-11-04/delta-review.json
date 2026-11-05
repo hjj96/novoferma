@@ -1,0 +1,26 @@
+{
+  "checkedOn": "2026-11-05",
+  "scope": "Bounded delta review during publication; not a new full audit or functional regression.",
+  "freshScreens": [
+    "screens/25-delta-partners-mobile.png",
+    "screens/26-delta-catalogue-mobile.png"
+  ],
+  "changesObserved": [
+    "Compact mobile partner hero: CTA alongside character",
+    "Cards: name before facts, mass separated, decorative arrow removed",
+    "Hover/focus style rules updated; no new behavior test claimed"
+  ],
+  "productData": {
+    "ingredients": 0,
+    "allergens": 0,
+    "nutrition": 0,
+    "storage": 0,
+    "preparation": 0
+  },
+  "skuCount": 14,
+  "pdfOrDownloadLinksInRoutes": [],
+  "localBrochureExists": true,
+  "brochureContentValidated": false,
+  "remainingConclusions": "Core data, supplier proof, STM process and lead measurement findings remain material. Original metrics belong to04.11 base.",
+  "concurrentWorkPublication": "Not included in audit-only commit."
+}
