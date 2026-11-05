@@ -1,0 +1,114 @@
+[
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "kotlety-kurinye",
+    "selected": "Котлеты куриные — 522 г",
+    "url": "http://127.0.0.1:8772/partners.html?product=kotlety-kurinye&intent=quote&format=retail#partner-contact"
+  },
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "bitochki-kurinye-s-ovoshchami",
+    "selected": "Биточки куриные с овощами — 450 г",
+    "url": "http://127.0.0.1:8772/partners.html?product=bitochki-kurinye-s-ovoshchami&intent=quote&format=retail#partner-contact"
+  },
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "ezhiki-iz-tsyplenka-s-risom",
+    "selected": "Ёжики из цыпленка с рисом — 480 г",
+    "url": "http://127.0.0.1:8772/partners.html?product=ezhiki-iz-tsyplenka-s-risom&intent=quote&format=retail#partner-contact"
+  },
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "kurinyj-popkorn",
+    "selected": "Куриный попкорн — 400 г",
+    "url": "http://127.0.0.1:8772/partners.html?product=kurinyj-popkorn&intent=quote&format=retail#partner-contact"
+  },
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "naggetsy-kurinye",
+    "selected": "Наггетсы куриные — 400 г",
+    "url": "http://127.0.0.1:8772/partners.html?product=naggetsy-kurinye&intent=quote&format=retail#partner-contact"
+  },
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "naggetsy-kurinye-s-syrom",
+    "selected": "Наггетсы куриные с сыром — 400 г",
+    "url": "http://127.0.0.1:8772/partners.html?product=naggetsy-kurinye-s-syrom&intent=quote&format=retail#partner-contact"
+  },
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "naggetsy-dinozavry",
+    "selected": "Наггетсы куриные «Динозавры» — 400 г",
+    "url": "http://127.0.0.1:8772/partners.html?product=naggetsy-dinozavry&intent=quote&format=retail#partner-contact"
+  },
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "naggetsy-ostrye",
+    "selected": "Наггетсы куриные острые — 400 г",
+    "url": "http://127.0.0.1:8772/partners.html?product=naggetsy-ostrye&intent=quote&format=retail#partner-contact"
+  },
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "naggetsy-s-indeykoy-fitnes",
+    "selected": "Наггетсы с индейкой «Фитнес» — 400 г",
+    "url": "http://127.0.0.1:8772/partners.html?product=naggetsy-s-indeykoy-fitnes&intent=quote&format=retail#partner-contact"
+  },
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "stripsy",
+    "selected": "Стрипсы — 400 г",
+    "url": "http://127.0.0.1:8772/partners.html?product=stripsy&intent=quote&format=retail#partner-contact"
+  },
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "kotlety-po-domashnemu",
+    "selected": "Котлеты по-домашнему — 480 г",
+    "url": "http://127.0.0.1:8772/partners.html?product=kotlety-po-domashnemu&intent=quote&format=retail#partner-contact"
+  },
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "kotlety-pikantnye",
+    "selected": "Котлеты пикантные — 480 г",
+    "url": "http://127.0.0.1:8772/partners.html?product=kotlety-pikantnye&intent=quote&format=retail#partner-contact"
+  },
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "kotlety-po-italyanski",
+    "selected": "Котлеты по-итальянски — 480 г",
+    "url": "http://127.0.0.1:8772/partners.html?product=kotlety-po-italyanski&intent=quote&format=retail#partner-contact"
+  },
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "frikadelki-klassicheskie",
+    "selected": "Фрикадельки «Классические» — 500 г",
+    "url": "http://127.0.0.1:8772/partners.html?product=frikadelki-klassicheskie&intent=quote&format=retail#partner-contact"
+  },
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "fibriki",
+    "selected": "Фибрики — концепт новинки",
+    "url": "http://127.0.0.1:8772/partners.html?product=fibriki&intent=quote&format=retail#partner-contact"
+  },
+  {
+    "format": "retail",
+    "intent": "quote",
+    "product": "lulia-mini",
+    "selected": "Люля мини — концепт новинки",
+    "url": "http://127.0.0.1:8772/partners.html?product=lulia-mini&intent=quote&format=retail#partner-contact"
+  }
+]

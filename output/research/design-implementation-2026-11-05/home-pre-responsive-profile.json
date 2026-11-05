@@ -1,0 +1,495 @@
+{
+  "profile": "loopback; no throttling; QA server Cache-Control:no-store; not field CWV",
+  "qa": {
+    "cls": 0,
+    "decodedBodySize": 1943519,
+    "encodedBodySize": 1943519,
+    "fontSetStatus": "loaded",
+    "fonts": [
+      {
+        "family": "Novoferma Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "Novoferma Hand",
+        "status": "loaded"
+      },
+      {
+        "family": "Novoferma Poster",
+        "status": "loaded"
+      },
+      {
+        "family": "Novoferma Protein",
+        "status": "loaded"
+      }
+    ],
+    "layoutShiftCount": 0,
+    "lcp": {
+      "id": "",
+      "loadTime": 82.80000001192093,
+      "renderTime": 140,
+      "size": 276692,
+      "startTime": 140,
+      "tagName": "IMG",
+      "url": "http://127.0.0.1:8774/assets/product-hero/background-v2.webp?v=b9fdef9d25"
+    },
+    "navigation": {
+      "domContentLoadedEventEnd": 106.80000001192091,
+      "encodedBodySize": 25509,
+      "loadEventEnd": 120.40000000596046,
+      "responseStart": 20.099999994039536,
+      "startTime": 0,
+      "transferSize": 25809,
+      "type": "navigate"
+    },
+    "observerErrors": [],
+    "resourceCount": 42,
+    "resourceListLimit": 300,
+    "resources": [
+      {
+        "decodedBodySize": 651,
+        "duration": 22.599999994039536,
+        "encodedBodySize": 651,
+        "initiatorType": "link",
+        "name": "http://127.0.0.1:8774/assets/fonts/font-face.css?v=4ab22c3bae",
+        "responseStatus": 200,
+        "startTime": 39.5,
+        "transferSize": 951
+      },
+      {
+        "decodedBodySize": 31635,
+        "duration": 23.19999998807907,
+        "encodedBodySize": 31635,
+        "initiatorType": "link",
+        "name": "http://127.0.0.1:8774/style.css?v=aeca8820c8",
+        "responseStatus": 200,
+        "startTime": 39.70000001788139,
+        "transferSize": 31935
+      },
+      {
+        "decodedBodySize": 5284,
+        "duration": 23.69999998807907,
+        "encodedBodySize": 5284,
+        "initiatorType": "link",
+        "name": "http://127.0.0.1:8774/depth.css?v=38a885c665",
+        "responseStatus": 200,
+        "startTime": 39.70000001788139,
+        "transferSize": 5584
+      },
+      {
+        "decodedBodySize": 21956,
+        "duration": 24.099999994039536,
+        "encodedBodySize": 21956,
+        "initiatorType": "link",
+        "name": "http://127.0.0.1:8774/polish.css?v=0015d3dc42",
+        "responseStatus": 200,
+        "startTime": 39.80000001192093,
+        "transferSize": 22256
+      },
+      {
+        "decodedBodySize": 6438,
+        "duration": 24.299999982118607,
+        "encodedBodySize": 6438,
+        "initiatorType": "link",
+        "name": "http://127.0.0.1:8774/design-system.css?v=e290db3c19",
+        "responseStatus": 200,
+        "startTime": 39.80000001192093,
+        "transferSize": 6738
+      },
+      {
+        "decodedBodySize": 5064,
+        "duration": 26.299999982118607,
+        "encodedBodySize": 5064,
+        "initiatorType": "link",
+        "name": "http://127.0.0.1:8774/motion.css?v=ad822dccd3",
+        "responseStatus": 200,
+        "startTime": 39.80000001192093,
+        "transferSize": 5364
+      },
+      {
+        "decodedBodySize": 3164,
+        "duration": 26.200000017881393,
+        "encodedBodySize": 3164,
+        "initiatorType": "link",
+        "name": "http://127.0.0.1:8774/protein-story.css?v=340321c8cb",
+        "responseStatus": 200,
+        "startTime": 40,
+        "transferSize": 3464
+      },
+      {
+        "decodedBodySize": 5849,
+        "duration": 26.700000017881393,
+        "encodedBodySize": 5849,
+        "initiatorType": "link",
+        "name": "http://127.0.0.1:8774/mobile.css?v=3a933c2e36",
+        "responseStatus": 200,
+        "startTime": 40,
+        "transferSize": 6149
+      },
+      {
+        "decodedBodySize": 9332,
+        "duration": 26.900000005960464,
+        "encodedBodySize": 9332,
+        "initiatorType": "link",
+        "name": "http://127.0.0.1:8774/product-hero.css?v=b5bd2781dd",
+        "responseStatus": 200,
+        "startTime": 40,
+        "transferSize": 9632
+      },
+      {
+        "decodedBodySize": 6645,
+        "duration": 28.100000023841854,
+        "encodedBodySize": 6645,
+        "initiatorType": "link",
+        "name": "http://127.0.0.1:8774/home-unified.css?v=e1bc5da176",
+        "responseStatus": 200,
+        "startTime": 40.099999994039536,
+        "transferSize": 6945
+      },
+      {
+        "decodedBodySize": 4049,
+        "duration": 27.900000005960464,
+        "encodedBodySize": 4049,
+        "initiatorType": "link",
+        "name": "http://127.0.0.1:8774/product-cards.css?v=e03f3af964",
+        "responseStatus": 200,
+        "startTime": 40.099999994039536,
+        "transferSize": 4349
+      },
+      {
+        "decodedBodySize": 10936,
+        "duration": 28.799999982118607,
+        "encodedBodySize": 10936,
+        "initiatorType": "link",
+        "name": "http://127.0.0.1:8774/b2b.css?v=42a1426cb9",
+        "responseStatus": 200,
+        "startTime": 40.20000001788139,
+        "transferSize": 11236
+      },
+      {
+        "decodedBodySize": 2730,
+        "duration": 29.099999994039536,
+        "encodedBodySize": 2730,
+        "initiatorType": "link",
+        "name": "http://127.0.0.1:8774/typography.css?v=a04c6a4feb",
+        "responseStatus": 200,
+        "startTime": 40.20000001788139,
+        "transferSize": 3030
+      },
+      {
+        "decodedBodySize": 4156,
+        "duration": 33.69999998807907,
+        "encodedBodySize": 4156,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/logo-reference.webp",
+        "responseStatus": 200,
+        "startTime": 40.20000001788139,
+        "transferSize": 4456
+      },
+      {
+        "decodedBodySize": 44500,
+        "duration": 33.099999994039536,
+        "encodedBodySize": 44500,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/product-hero/background-v2.webp?v=b9fdef9d25",
+        "responseStatus": 200,
+        "startTime": 40.5,
+        "transferSize": 44800
+      },
+      {
+        "decodedBodySize": 237222,
+        "duration": 31.200000017881393,
+        "encodedBodySize": 237222,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/product-hero/fibriki-art-v5.webp?v=1b6cf1a289",
+        "responseStatus": 200,
+        "startTime": 40.599999994039536,
+        "transferSize": 237522
+      },
+      {
+        "decodedBodySize": 7957,
+        "duration": 40.80000001192093,
+        "encodedBodySize": 7957,
+        "initiatorType": "script",
+        "name": "http://127.0.0.1:8774/script.js?v=1c50fcee82",
+        "responseStatus": 200,
+        "startTime": 40,
+        "transferSize": 8257
+      },
+      {
+        "decodedBodySize": 7017,
+        "duration": 43,
+        "encodedBodySize": 7017,
+        "initiatorType": "script",
+        "name": "http://127.0.0.1:8774/depth.js?v=49a230a53b",
+        "responseStatus": 200,
+        "startTime": 40,
+        "transferSize": 7317
+      },
+      {
+        "decodedBodySize": 6899,
+        "duration": 44.70000001788139,
+        "encodedBodySize": 6899,
+        "initiatorType": "script",
+        "name": "http://127.0.0.1:8774/product-hero.js?v=e50577848c",
+        "responseStatus": 200,
+        "startTime": 40,
+        "transferSize": 7199
+      },
+      {
+        "decodedBodySize": 438,
+        "duration": 46,
+        "encodedBodySize": 438,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/icons/menu-2.svg",
+        "responseStatus": 200,
+        "startTime": 40.20000001788139,
+        "transferSize": 738
+      },
+      {
+        "decodedBodySize": 430,
+        "duration": 47,
+        "encodedBodySize": 430,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/icons/arrow-up-right.svg",
+        "responseStatus": 200,
+        "startTime": 40.20000001788139,
+        "transferSize": 730
+      },
+      {
+        "decodedBodySize": 406,
+        "duration": 44,
+        "encodedBodySize": 406,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/icons/x.svg",
+        "responseStatus": 200,
+        "startTime": 40.5,
+        "transferSize": 706
+      },
+      {
+        "decodedBodySize": 40316,
+        "duration": 40.80000001192093,
+        "encodedBodySize": 40316,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+        "responseStatus": 200,
+        "startTime": 40.599999994039536,
+        "transferSize": 40616
+      },
+      {
+        "decodedBodySize": 433,
+        "duration": 46.80000001192093,
+        "encodedBodySize": 433,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/icons/arrow-left.svg",
+        "responseStatus": 200,
+        "startTime": 40.599999994039536,
+        "transferSize": 733
+      },
+      {
+        "decodedBodySize": 428,
+        "duration": 47.5,
+        "encodedBodySize": 428,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/icons/arrow-right.svg",
+        "responseStatus": 200,
+        "startTime": 40.599999994039536,
+        "transferSize": 728
+      },
+      {
+        "decodedBodySize": 421,
+        "duration": 47.80000001192093,
+        "encodedBodySize": 421,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/icons/arrow-up.svg",
+        "responseStatus": 200,
+        "startTime": 40.599999994039536,
+        "transferSize": 721
+      },
+      {
+        "decodedBodySize": 430,
+        "duration": 1.2000000178813934,
+        "encodedBodySize": 430,
+        "initiatorType": "css",
+        "name": "http://127.0.0.1:8774/assets/icons/arrow-up-right.svg",
+        "responseStatus": 200,
+        "startTime": 88.09999999403954,
+        "transferSize": 730
+      },
+      {
+        "decodedBodySize": 47402,
+        "duration": 7.599999994039536,
+        "encodedBodySize": 47402,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/responsive/packshots/naggetsy-kurinye-400-q94-712fb649.webp",
+        "responseStatus": 200,
+        "startTime": 95.30000001192091,
+        "transferSize": 47702
+      },
+      {
+        "decodedBodySize": 47964,
+        "duration": 9.300000011920927,
+        "encodedBodySize": 47964,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/responsive/packshots/stripsy-400-q94-04f43af0.webp",
+        "responseStatus": 200,
+        "startTime": 95.40000000596046,
+        "transferSize": 48264
+      },
+      {
+        "decodedBodySize": 52282,
+        "duration": 12.699999988079073,
+        "encodedBodySize": 52282,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/responsive/packshots/kurinyj-popkorn-400-q94-d707c51a.webp",
+        "responseStatus": 200,
+        "startTime": 95.40000000596046,
+        "transferSize": 52582
+      },
+      {
+        "decodedBodySize": 47916,
+        "duration": 12.900000005960464,
+        "encodedBodySize": 47916,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/responsive/packshots/frikadelki-klassicheskie-400-q94-e0ef4bbb.webp",
+        "responseStatus": 200,
+        "startTime": 95.40000000596046,
+        "transferSize": 48216
+      },
+      {
+        "decodedBodySize": 31708,
+        "duration": 16.80000001192093,
+        "encodedBodySize": 31708,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/responsive/illustrations/nuggets-layer-v2-400-q90-a648c271.webp",
+        "responseStatus": 200,
+        "startTime": 95.40000000596046,
+        "transferSize": 32008
+      },
+      {
+        "decodedBodySize": 84076,
+        "duration": 30.400000005960464,
+        "encodedBodySize": 84076,
+        "initiatorType": "css",
+        "name": "http://127.0.0.1:8774/assets/fonts/Onest-wght.woff2",
+        "responseStatus": 200,
+        "startTime": 81.40000000596046,
+        "transferSize": 84376
+      },
+      {
+        "decodedBodySize": 38644,
+        "duration": 31,
+        "encodedBodySize": 38644,
+        "initiatorType": "css",
+        "name": "http://127.0.0.1:8774/assets/fonts/RobotoFlex-Protein.woff2",
+        "responseStatus": 200,
+        "startTime": 82.80000001192093,
+        "transferSize": 38944
+      },
+      {
+        "decodedBodySize": 65868,
+        "duration": 30.799999982118607,
+        "encodedBodySize": 65868,
+        "initiatorType": "css",
+        "name": "http://127.0.0.1:8774/assets/fonts/Rubik-wght.woff2",
+        "responseStatus": 200,
+        "startTime": 82.80000001192093,
+        "transferSize": 66168
+      },
+      {
+        "decodedBodySize": 44868,
+        "duration": 19.69999998807907,
+        "encodedBodySize": 44868,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/responsive/illustrations/hen-layer-v2-400-q90-bd32bcef.webp",
+        "responseStatus": 200,
+        "startTime": 95.40000000596046,
+        "transferSize": 45168
+      },
+      {
+        "decodedBodySize": 49364,
+        "duration": 22.30000001192093,
+        "encodedBodySize": 49364,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/responsive/illustrations/mascot-partnership-v2-400-q90-66fd6b8d.webp",
+        "responseStatus": 200,
+        "startTime": 95.40000000596046,
+        "transferSize": 49664
+      },
+      {
+        "decodedBodySize": 173472,
+        "duration": 32,
+        "encodedBodySize": 173472,
+        "initiatorType": "css",
+        "name": "http://127.0.0.1:8774/assets/fonts/Caveat-wght.woff2",
+        "responseStatus": 200,
+        "startTime": 83,
+        "transferSize": 173772
+      },
+      {
+        "decodedBodySize": 185,
+        "duration": 9.599999994039536,
+        "encodedBodySize": 185,
+        "initiatorType": "other",
+        "name": "http://127.0.0.1:8774/assets/favicon.svg",
+        "responseStatus": 200,
+        "startTime": 137.90000000596046,
+        "transferSize": 485
+      },
+      {
+        "decodedBodySize": 223898,
+        "duration": 9.300000011920927,
+        "encodedBodySize": 223898,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/product-hero/meatballs-art-v4.webp?v=8e04511ae7",
+        "responseStatus": 200,
+        "startTime": 138.40000000596046,
+        "transferSize": 224198
+      },
+      {
+        "decodedBodySize": 278058,
+        "duration": 4.5,
+        "encodedBodySize": 278058,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/product-hero/nuggets-art-v4.webp?v=e6e41be33f",
+        "responseStatus": 200,
+        "startTime": 166,
+        "transferSize": 278358
+      },
+      {
+        "decodedBodySize": 293028,
+        "duration": 2.5,
+        "encodedBodySize": 293028,
+        "initiatorType": "img",
+        "name": "http://127.0.0.1:8774/assets/product-hero/lulia-mini-art-v4.webp?v=7ed345d89b",
+        "responseStatus": 200,
+        "startTime": 187.5999999940395,
+        "transferSize": 293328
+      }
+    ],
+    "scope": "local single-visit QA; not field CWV",
+    "supported": [
+      "element",
+      "event",
+      "first-input",
+      "interaction-contentful-paint",
+      "largest-contentful-paint",
+      "layout-shift",
+      "long-animation-frame",
+      "longtask",
+      "mark",
+      "measure",
+      "navigation",
+      "paint",
+      "resource",
+      "soft-navigation",
+      "visibility-state"
+    ],
+    "transferSize": 1956119
+  },
+  "viewport": {
+    "dpr": 1,
+    "height": 900,
+    "width": 390
+  }
+}

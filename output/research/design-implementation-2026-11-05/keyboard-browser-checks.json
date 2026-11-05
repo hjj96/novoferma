@@ -1,0 +1,52 @@
+[
+  {
+    "focus": "Открыть меню",
+    "open": false,
+    "stage": "menu-escape"
+  },
+  {
+    "errors": [],
+    "focus": "company",
+    "stage": "empty-submit"
+  },
+  {
+    "focus": "<a href=\"catalogue.html\">Продукция</a>",
+    "inside": true,
+    "stage": "menu-tab"
+  },
+  {
+    "focus": "<a href=\"about.html\">О нас</a>",
+    "inside": true,
+    "stage": "menu-tab"
+  },
+  {
+    "focus": "<a href=\"partners.html\" class=\"is-section-active\" aria-current=\"page\">Партнёрам</a>",
+    "inside": true,
+    "stage": "menu-tab"
+  },
+  {
+    "focus": "<a href=\"contacts.html\">Контакты</a>",
+    "inside": true,
+    "stage": "menu-tab"
+  },
+  {
+    "focus": "<a href=\"where-to-buy.html\">Где купить</a>",
+    "inside": true,
+    "stage": "menu-tab"
+  },
+  {
+    "focus": "<body class=\"page-partners menu-open\"><a class=\"skip-link\" href=\"#main\">Перейти к содержанию</a><header class=\"site-header\"><div class=\"wrap header-inner\"><a class=\"brand\" href=\"index.html\" aria-label=\"Новоферма — главна",
+    "inside": false,
+    "stage": "menu-tab"
+  },
+  {
+    "focus": "<a class=\"brand\" href=\"index.html\"><img src=\"assets/logo-reference.webp\" width=\"342\" height=\"64\" alt=\"NOVOferma\"></a>",
+    "inside": true,
+    "stage": "menu-tab"
+  },
+  {
+    "focus": "<button class=\"menu-close icon-button\" aria-label=\"Закрыть меню\"><img class=\"ui-icon\" src=\"assets/icons/x.svg\" width=\"24\" height=\"24\" alt=\"\" aria-hidden=\"true\"></button>",
+    "inside": true,
+    "stage": "menu-tab"
+  }
+]

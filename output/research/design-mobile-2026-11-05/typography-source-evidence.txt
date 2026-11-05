@@ -1,0 +1,33 @@
+Типографика и мобильные компоненты — source evidence, 05.11.2026
+
+typography.css подключается последним как небольшой общий контракт семейства/навигации. Компонентные размеры остаются в собственных файлах.
+PDP H1: Onest750, sentence case, 30–48px при базовом16px, unitless1.16, overflow-wrap:anywhere на случай широкого fallback.
+Факты PDP: repeat(auto-fit,minmax(min(100%,8.5rem),1fr)), подписи14px, значения16px. Колонки уступают место читаемому тексту, а не уменьшают кегль.
+Статус концепта и подпись изображения14px; важное ограничение концепта16px. Градиент и палитра сохранены: фактические пары уже дают достаточный численный контраст для дальнейшей браузерной проверки.
+Фото подачи: до600px, width100%, heightauto, без растяжения и фильтра; подпись14px/1.6, отступ12px. Факты не менялись.
+B2B служебный текст/consent/format hints14px, поля16px; radio labels44px min, контейнер flex-wrap. Button/copy/email не зажимают длинный текст.
+Партнёрский крупный заголовок допускает перенос span; rem min/max, естественная высота, без nowrap. Это защищает text200%/fallback, не меняя бренд-фразу.
+Контакты: email/phone/map min44px, разрешён перенос; реквизиты minmax0 и текст14–15px. Маскот и фон не перерисовывались.
+В собственных CSS font-size px переведены в rem, layout dimensions сохранены; это поддерживает пользовательский размер текста.
+Из mobile.css удалены40 подтверждённо неиспользуемых старых правил (protein bridge/story, serving tabs/copy, старые filter buttons, home-product, partner-hero/contact, contact-columns/bottom). Наличие классов проверено по23HTML и текущимJS; активные правила смешанной desktop home-grid строки сохранены.
+Новые декоративные разделители не добавлялись; старый border у product-facts убран, группа отделяется whitespace.
+
+Реальные пары контраста:
+- PDP caption / gradient light: #795e4c / #f8edda = 5.149:1 (product-detail.css; --muted in style.css)
+- PDP caption / gradient dark: #795e4c / #f0e0c4 = 4.594:1 (product-detail.css; --muted in style.css)
+- Primary text / cream: #402111 / #fff5e3 = 13.454:1 (style.css)
+- Muted text / cream: #795e4c / #fff5e3 = 5.52:1 (style.css)
+- Concept status / cream: #ac3a09 / #fff5e3 = 5.775:1 (product-detail.css; style.css)
+- B2B service note / material panel: #65503d / #f2e4c9 = 6.039:1 (b2b.css)
+- B2B privacy note / brown: #efddc4 / #402111 = 10.951:1 (b2b.css; style.css)
+- B2B format hint / brown: #e1ccb1 / #402111 = 9.333:1 (partners-scenes.css; style.css)
+- Form placeholder / input: #79634d / #fff8ed = 5.372:1 (partners-scenes.css)
+- Contacts description / brown: #d8bfa9 / #402111 = 8.274:1 (contacts.css; style.css)
+- Contacts map / brown: #e2cbb6 / #402111 = 9.318:1 (contacts.css; style.css)
+- Large white poster / orange: #fff5e3 / #fa4b06 = 3.198:1 (partners-scenes.css; style.css)
+- STM note / cream: #6a5140 / #fff5e3 = 6.782:1 (b2b.css; style.css)
+- B2B section emphasis / cream: #b53b0c / #fff5e3 = 5.402:1 (b2b.css; style.css)
+
+Это не полная сертификация WCAG. Численные пары не проверяют фокус, state contrast, фотографии, реальные fallback metrics или поведение диктора.
+Белый текст на оранжевом3.198:1 сохранён только для крупного плакатного заголовка, не для мелких служебных сообщений.
+Мобильный результат и text200%/400% принимаются в реальном браузере отдельно; source-only изменения не являются доказательством отсутствия clipping.

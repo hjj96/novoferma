@@ -1,0 +1,305 @@
+{
+  "method": "Pillow WebP q90, premultiplied LANCZOS whole-canvas resize, exact alpha compared with resized reference. No crop, regeneration or master edits.",
+  "pillowVersion": "11.3.0",
+  "webpVersion": "1.5.0",
+  "rebuild": "python3 scripts/optimize_site_assets.py --hero-only",
+  "defaultWidth": 800,
+  "otherManifestEntriesPreserved": true,
+  "browserCurrentSrcVerified": false,
+  "productionCwvVerified": false,
+  "scopeLimit": "File-byte comparison is not page transfer, LCP or field p75. Final candidate depends on sizes, DPR, cache and viewport.",
+  "assets": [
+    {
+      "source": "assets/product-hero/fibriki-art-v5.webp",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "sourceBytes": 237222,
+      "sourceSha256": "1b6cf1a289654f8fabee1b10cb4e8459380cbd4145734e2b287fa8fecabc8513",
+      "variants": [
+        {
+          "src": "assets/responsive/hero/fibriki-art-v5-640-q90-1b6cf1a2.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 47682,
+          "quality": 90,
+          "sha256": "adf1c9d4ef8a037e317a05b8fe3fe2febcad6d12eafccff279abd0636558497b",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 5.1652,
+          "savingVersusOriginalBytes": 189540,
+          "savingVersusOriginalPercent": 79.9
+        },
+        {
+          "src": "assets/responsive/hero/fibriki-art-v5-800-q90-1b6cf1a2.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 67138,
+          "quality": 90,
+          "sha256": "6cd7e659b28eaff79a91cb7df660aef1039118f9c334ea6006164694fe417b3f",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 4.4911,
+          "savingVersusOriginalBytes": 170084,
+          "savingVersusOriginalPercent": 71.7
+        },
+        {
+          "src": "assets/responsive/hero/fibriki-art-v5-1024-q90-1b6cf1a2.webp",
+          "width": 1024,
+          "height": 576,
+          "bytes": 99574,
+          "quality": 90,
+          "sha256": "5c95c85ddd4f75f0c32f3589f721aaeb3fd784abef487d0cdc88e93b63ff516c",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.8699,
+          "savingVersusOriginalBytes": 137648,
+          "savingVersusOriginalPercent": 58.02
+        },
+        {
+          "src": "assets/responsive/hero/fibriki-art-v5-1280-q90-1b6cf1a2.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 140544,
+          "quality": 90,
+          "sha256": "a659c53e483e486f05fe03dc051bad53b785f9e4001877ca4aaf57aeb18beec5",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.362,
+          "savingVersusOriginalBytes": 96678,
+          "savingVersusOriginalPercent": 40.75
+        },
+        {
+          "src": "assets/responsive/hero/fibriki-art-v5-1672-q90-1b6cf1a2.webp",
+          "width": 1672,
+          "height": 941,
+          "bytes": 200276,
+          "quality": 90,
+          "sha256": "629d8d04a647e1020f09c33bf881c7906e5f12583fbcd9a3108e5fb667502b6f",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.5003,
+          "savingVersusOriginalBytes": 36946,
+          "savingVersusOriginalPercent": 15.57
+        }
+      ],
+      "masterUnchanged": true
+    },
+    {
+      "source": "assets/product-hero/meatballs-art-v4.webp",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "sourceBytes": 223898,
+      "sourceSha256": "8e04511ae7f89a89102daa20499a0c5d62f3f0f34687fc047dcefaec56d88958",
+      "variants": [
+        {
+          "src": "assets/responsive/hero/meatballs-art-v4-640-q90-8e04511a.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 47624,
+          "quality": 90,
+          "sha256": "bc05ad819bf5cc5dd643637ceefce0c8bd803e0cfd791f2529f9d0018d102472",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 5.3615,
+          "savingVersusOriginalBytes": 176274,
+          "savingVersusOriginalPercent": 78.73
+        },
+        {
+          "src": "assets/responsive/hero/meatballs-art-v4-800-q90-8e04511a.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 66922,
+          "quality": 90,
+          "sha256": "78ee3697a929a965744db2da0ef806830c77ce4de57998dad25043d0128a4232",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 4.7087,
+          "savingVersusOriginalBytes": 156976,
+          "savingVersusOriginalPercent": 70.11
+        },
+        {
+          "src": "assets/responsive/hero/meatballs-art-v4-1024-q90-8e04511a.webp",
+          "width": 1024,
+          "height": 576,
+          "bytes": 96772,
+          "quality": 90,
+          "sha256": "5afc268099c22f2f137c5758e12a8a077db934c52e1dcf9a9e87bf407f1be280",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 4.0552,
+          "savingVersusOriginalBytes": 127126,
+          "savingVersusOriginalPercent": 56.78
+        },
+        {
+          "src": "assets/responsive/hero/meatballs-art-v4-1280-q90-8e04511a.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 134640,
+          "quality": 90,
+          "sha256": "830a5850b6b00dd577c686d9764d774d4a3ae733aa3d56b630e9111bdcd8b176",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.5274,
+          "savingVersusOriginalBytes": 89258,
+          "savingVersusOriginalPercent": 39.87
+        },
+        {
+          "src": "assets/responsive/hero/meatballs-art-v4-1672-q90-8e04511a.webp",
+          "width": 1672,
+          "height": 941,
+          "bytes": 188590,
+          "quality": 90,
+          "sha256": "a609a2d9377c4f22915d2b00dd60c9307319d87b950ddb41f408c03ee40df41e",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.6098,
+          "savingVersusOriginalBytes": 35308,
+          "savingVersusOriginalPercent": 15.77
+        }
+      ],
+      "masterUnchanged": true
+    },
+    {
+      "source": "assets/product-hero/nuggets-art-v4.webp",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "sourceBytes": 278058,
+      "sourceSha256": "e6e41be33fa1b039a64cc72efd4d1803b9761716b927ab1345581a1da4598c68",
+      "variants": [
+        {
+          "src": "assets/responsive/hero/nuggets-art-v4-640-q90-e6e41be3.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 57682,
+          "quality": 90,
+          "sha256": "9d3b34afa328441fdbc495b0d782dad300222010a84081e537ab944f3b301713",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 4.8734,
+          "savingVersusOriginalBytes": 220376,
+          "savingVersusOriginalPercent": 79.26
+        },
+        {
+          "src": "assets/responsive/hero/nuggets-art-v4-800-q90-e6e41be3.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 80038,
+          "quality": 90,
+          "sha256": "0cef3e8ed4924572a34c281bcfa02fc0a8fcef4d869ef63df350841e6fcf04ef",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 4.3069,
+          "savingVersusOriginalBytes": 198020,
+          "savingVersusOriginalPercent": 71.22
+        },
+        {
+          "src": "assets/responsive/hero/nuggets-art-v4-1024-q90-e6e41be3.webp",
+          "width": 1024,
+          "height": 576,
+          "bytes": 115230,
+          "quality": 90,
+          "sha256": "ba9255185c3dbe59dc1cade808509da2c5fae15af382dd5e1125d02704e4f3e6",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.7865,
+          "savingVersusOriginalBytes": 162828,
+          "savingVersusOriginalPercent": 58.56
+        },
+        {
+          "src": "assets/responsive/hero/nuggets-art-v4-1280-q90-e6e41be3.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 162616,
+          "quality": 90,
+          "sha256": "f24f947f4b850f59aa0f781f1d5cfc1bce40a8db0c008a05bcb47244711495c8",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.2525,
+          "savingVersusOriginalBytes": 115442,
+          "savingVersusOriginalPercent": 41.52
+        },
+        {
+          "src": "assets/responsive/hero/nuggets-art-v4-1672-q90-e6e41be3.webp",
+          "width": 1672,
+          "height": 941,
+          "bytes": 232478,
+          "quality": 90,
+          "sha256": "1d06196a5bd3fa9818bcc10c72ec5bd0b3962057e6a0eaf0182e3a39222ccf69",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.4526,
+          "savingVersusOriginalBytes": 45580,
+          "savingVersusOriginalPercent": 16.39
+        }
+      ],
+      "masterUnchanged": true
+    },
+    {
+      "source": "assets/product-hero/lulia-mini-art-v4.webp",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "sourceBytes": 293028,
+      "sourceSha256": "7ed345d89b4ca2bfa9cb93d07abc351478346c3e127f680eb712d8e83a2c63cc",
+      "variants": [
+        {
+          "src": "assets/responsive/hero/lulia-mini-art-v4-640-q90-7ed345d8.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 60708,
+          "quality": 90,
+          "sha256": "d093a047fb820fd4758d78a280a1c5cf97c729c73540fa7339cea885fe666c01",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 5.3107,
+          "savingVersusOriginalBytes": 232320,
+          "savingVersusOriginalPercent": 79.28
+        },
+        {
+          "src": "assets/responsive/hero/lulia-mini-art-v4-800-q90-7ed345d8.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 84026,
+          "quality": 90,
+          "sha256": "9f6f3b2dc4e1ce680c12a7c9b398a5e43f26cad5fcf63727592ca31d24710acb",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 4.65,
+          "savingVersusOriginalBytes": 209002,
+          "savingVersusOriginalPercent": 71.32
+        },
+        {
+          "src": "assets/responsive/hero/lulia-mini-art-v4-1024-q90-7ed345d8.webp",
+          "width": 1024,
+          "height": 576,
+          "bytes": 121530,
+          "quality": 90,
+          "sha256": "504bc2eef12522575ffca55eae9fb800160e998b3fba4f71d67fc56234a8f4bb",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 4.0043,
+          "savingVersusOriginalBytes": 171498,
+          "savingVersusOriginalPercent": 58.53
+        },
+        {
+          "src": "assets/responsive/hero/lulia-mini-art-v4-1280-q90-7ed345d8.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 170804,
+          "quality": 90,
+          "sha256": "17d475d3996a341c490f781fc7ed9aa929243d6dce8323489749bd73244d5787",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.3924,
+          "savingVersusOriginalBytes": 122224,
+          "savingVersusOriginalPercent": 41.71
+        },
+        {
+          "src": "assets/responsive/hero/lulia-mini-art-v4-1672-q90-7ed345d8.webp",
+          "width": 1672,
+          "height": 941,
+          "bytes": 245074,
+          "quality": 90,
+          "sha256": "e682551e78cace6b3c034ebc65c3a7d78349d119333418a6010a835b21c73c03",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.5062,
+          "savingVersusOriginalBytes": 47954,
+          "savingVersusOriginalPercent": 16.36
+        }
+      ],
+      "masterUnchanged": true
+    }
+  ],
+  "visualInspection": {
+    "performed": true,
+    "evidence": "output/research/design-mobile-2026-11-05/hero-derivatives-review.png",
+    "compared": "All four original scenes against640w and1024w at equal display size on brand cream.",
+    "result": "Положение и число предметов, силуэт, детали сцены и границы холста сохранены; новых заметных контурных дефектов в просмотренном масштабе не обнаружено.",
+    "limit": "Q90 is lossy RGB; exact alpha refers to each resized reference, not pixel identity with the native master. Browser composition is verified separately."
+  },
+  "secondRun": "Passed from cache; all20 hashes match the first generated set.",
+  "totals": {
+    "masterBytes": 1032206,
+    "default800Bytes": 298124
+  }
+}

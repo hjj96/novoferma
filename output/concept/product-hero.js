@@ -5,6 +5,7 @@
  const scenes=[...carousel.querySelectorAll('.product-scene')];
  const picks=[...carousel.querySelectorAll('[data-product-index]')];
  const stage=carousel.querySelector('.product-stage');
+ const menu=document.querySelector('#site-menu');
  let index=0, requestedIndex=0, selectionVersion=0, pointerStart=null;
  const imageReadiness=new WeakMap();
  const preparedScenes=new WeakSet([scenes[0]]);
@@ -38,14 +39,24 @@
   requestedIndex=target;
   const version=++selectionVersion;
   stage.setAttribute('aria-busy',String(!preparedScenes.has(scenes[target])));
-  // Keep the current artwork visible until the requested scene is decoded.
-  hydrateScene(scenes[target],true).then(()=>{
+  // Give artwork a short head start, but a stalled decorative image must not
+  // hold the selected product text, link or keyboard navigation indefinitely.
+  let deadline;
+  const ready=hydrateScene(scenes[target],true);
+  const bounded=preparedScenes.has(scenes[target])?ready:Promise.race([
+   ready,new Promise(resolve=>{deadline=window.setTimeout(resolve,1500);})
+  ]);
+  bounded.then(()=>{
+   if(deadline!==undefined)window.clearTimeout(deadline);
    if(version!==selectionVersion)return;
    const focusInPanel=scenes[index].contains(document.activeElement);
+   const changed=target!==index;
    index=target;
    scenes.forEach((scene,i)=>{
     const active=i===index;
     scene.classList.toggle('is-active',active);
+    // No entrance on first paint, idle hydration or re-selecting the same tab.
+    if(changed)scene.classList.toggle('is-user-selected',active);
     scene.setAttribute('aria-hidden',String(!active));
     scene.inert=!active;
     picks[i].setAttribute('aria-selected',String(active));
@@ -88,6 +99,7 @@
   if(Math.abs(dx)>55&&Math.abs(dx)>Math.abs(dy)*1.35) select(requestedIndex+(dx<0?1:-1));
  });
  stage.addEventListener('pointercancel',()=>pointerStart=null);
+ stage.addEventListener('lostpointercapture',()=>pointerStart=null);
  stage.addEventListener('dragstart',event=>event.preventDefault());
  let lastWheel=0,lastWheelEvent=0,wheelDistance=0;
  stage.addEventListener('wheel',event=>{
@@ -102,14 +114,18 @@
  // Warm one inactive scene at a time after initial load, without autoplay.
  // Explicit navigation still works with data saver or a slow connection.
  let idleScheduled=false;
- function scheduleIdleScene(){
+ function canWarm(){
   const connection=navigator.connection;
-  if(idleScheduled||document.hidden||connection?.saveData||/^(slow-)?2g$/.test(connection?.effectiveType||''))return;
+  return !document.hidden&&!menu?.open&&!connection?.saveData&&!/^(slow-)?2g$/.test(connection?.effectiveType||'');
+ }
+ function scheduleIdleScene(){
+  if(idleScheduled||!canWarm())return;
   if(scenes.every(scene=>preparedScenes.has(scene)))return;
   idleScheduled=true;
   const warm=()=>{
    idleScheduled=false;
-   if(document.hidden)return;
+   // Settings or dialog state can change after this idle job was queued.
+   if(!canWarm())return;
    const scene=scenes.find(scene=>!preparedScenes.has(scene));
    if(scene)hydrateScene(scene).then(scheduleIdleScene);
   };
@@ -118,5 +134,8 @@
  }
  if(document.readyState==='complete')scheduleIdleScene();
  else window.addEventListener('load',scheduleIdleScene,{once:true});
- document.addEventListener('visibilitychange',()=>{if(document.readyState==='complete')scheduleIdleScene();});
+ const resumeWarm=()=>{if(document.readyState==='complete')scheduleIdleScene();};
+ document.addEventListener('visibilitychange',()=>{pointerStart=null;resumeWarm();});
+ navigator.connection?.addEventListener?.('change',resumeWarm);
+ menu?.addEventListener('close',resumeWarm);
 })();

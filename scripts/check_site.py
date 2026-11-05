@@ -87,7 +87,7 @@ report={'pages':len(pages),'images':images,'localReferences':references,'uniqueT
  'uniqueDescriptions':len(set(descriptions)),'publicUrl':public_url,'errors':errors,'result':'pass' if not errors else 'fail',
  'scope':'Generated source only; visual and interactive browser checks are separate.'}
 parser=argparse.ArgumentParser()
-parser.add_argument('--report',default='output/research/b2b-implementation-2026-11-05/static-checks.json')
+parser.add_argument('--report',default='output/research/design-implementation-2026-11-05/static-checks.json')
 target=ROOT/parser.parse_args().report
 target.parent.mkdir(parents=True,exist_ok=True)
 target.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

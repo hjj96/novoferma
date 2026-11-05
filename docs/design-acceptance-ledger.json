@@ -1,0 +1,1216 @@
+{
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-11-05",
+  "purpose": "Finalized evidence map of TC13–15 and VB01–20. Partial and external statuses are deliberately not closed findings.",
+  "isAcceptancePlanNotCompletionReport": false,
+  "classificationPolicy": {
+    "implemented": "Implementation classification only; actual completion is acceptanceStatus plus evidence and remainingLimit.",
+    "keep": "Сохранить полезную основу/результат предыдущего этапа и проверить отсутствие регрессии. Не освобождает от приёмки.",
+    "external": "Не хватает фактов, документов или production-условий вне дизайна; перечисленные локальные действия и блокировки обязательны.",
+    "non-actionable": "Нет отдельного оправданного изменения интерфейса; сохраняется исходное методическое ограничение. Рекомендация не вычеркнута."
+  },
+  "scopeBoundaries": {
+    "noScopeReduction": "Нельзя закрыть TC14/TC15 одним VM, regex или overflow=0. Реальные zoom, fallback, keyboard, motion, contrast и screen-reader требования сохранены.",
+    "noCompletionClaim": "23 классификации не означают 23 закрытых замечания. Финализатор отмечает фактически выполненную приёмку и непроверенные части.",
+    "noUnsupportedInference": "Проверки дизайна не подтверждают рост продаж, food claims, brand approval или полное WCAG-соответствие.",
+    "parallelWork": "Shared workspace использован только для чтения; изменения туда не записывались."
+  },
+  "sourceFiles": [
+    "output/research/b2b-audit-2026-11-04/audit.md — разделы 9,16,19,20",
+    "output/research/b2b-audit-2026-11-04/technical-commercial.json",
+    "output/research/b2b-audit-2026-11-04/visual-b2b-second-pass.json",
+    "output/research/b2b-implementation-2026-11-05/implementation.md",
+    "output/research/implementation-2026-10-24/character-guidelines.txt"
+  ],
+  "baselineLimit": "Прежние browser/static pass относятся к прежней сборке. Новые шрифты, media queries, hero order и композиции проверяются заново.",
+  "coverage": {
+    "requiredIds": [
+      "TC13",
+      "TC14",
+      "TC15",
+      "VB01",
+      "VB02",
+      "VB03",
+      "VB04",
+      "VB05",
+      "VB06",
+      "VB07",
+      "VB08",
+      "VB09",
+      "VB10",
+      "VB11",
+      "VB12",
+      "VB13",
+      "VB14",
+      "VB15",
+      "VB16",
+      "VB17",
+      "VB18",
+      "VB19",
+      "VB20"
+    ],
+    "recordedIds": [
+      "TC13",
+      "TC14",
+      "TC15",
+      "VB01",
+      "VB02",
+      "VB03",
+      "VB04",
+      "VB05",
+      "VB06",
+      "VB07",
+      "VB08",
+      "VB09",
+      "VB10",
+      "VB11",
+      "VB12",
+      "VB13",
+      "VB14",
+      "VB15",
+      "VB16",
+      "VB17",
+      "VB18",
+      "VB19",
+      "VB20"
+    ],
+    "records": 23,
+    "originalAcceptancePreserved": true
+  },
+  "minimumTestMatrix": {
+    "pages": "Все 23 рабочих маршрута плюс supplier catalogue, все 4 hero-сцены и 16 product→B2B переходов.",
+    "viewportsCssPx": [
+      320,
+      390,
+      768,
+      1024,
+      1280,
+      1440
+    ],
+    "boundaries": "Добавить b−1/b/b+1 для фактически используемых min/max-width границ в 320–1440 после финальной сборки.",
+    "dpr": "1/2; мобильный 3 для выбора изображений.",
+    "zoom": [
+      "200% text resize",
+      "400% equivalent reflow; метод описать явно"
+    ],
+    "states": [
+      "font loaded",
+      "blocked font/fallback",
+      "cold cache with declared network profile",
+      "reduced-motion on/off",
+      "images error/slow",
+      "rapid scene selection",
+      "keyboard/focus",
+      "menu open",
+      "validation/pending/receipt/failure/copy denied"
+    ],
+    "evidenceRule": "Геометрия покрывает все страницы; снимки и реальные действия покрывают типы компонентов и исключения. Скриншот не подменяет взаимодействие, VM не подменяет диктор, bytes не подменяют CWV."
+  },
+  "section9Obligations": [
+    "Полный scroll-ритм: эмоциональный вход → объяснение → товар → доказательства → действие; отсутствие overflow не доказывает качество ритма.",
+    "Типографические роли, русский стресс-контент, text zoom, font fallback и cold load; без искусственного сжатия букв.",
+    "Персонажи: источник, роль, пропорции и служебные границы; resize не устраняет художественную неоднородность.",
+    "Упаковка/еда: точный SKU, original provenance и отдельная подпись подачи; концепты и реальные товары различимы.",
+    "Фактический контраст по состояниям и отделение всех 16 упаковок от фона.",
+    "Обычное/reduced движение, отсутствие ожидания фактов/CTA, ошибки сети, быстрые клики и фокус."
+  ],
+  "section16Requirements": [
+    {
+      "auditSection": 16,
+      "criterion": 1,
+      "originalRequirement": "Паспорта приоритетных серийных SKU согласованы; концепты и доступная продукция различимы.",
+      "currentStageDisposition": "external+keep",
+      "acceptanceStatus": "external_dependency",
+      "remainingLimit": "Approved SKU passports still required.",
+      "acceptedEvidence": [
+        "output/research/design-implementation-2026-11-05/implementation.md"
+      ]
+    },
+    {
+      "auditSection": 16,
+      "criterion": 2,
+      "originalRequirement": "Каждое питание/состав/срок/температура имеет владельца, источник, версию и дату.",
+      "currentStageDisposition": "keep",
+      "acceptanceStatus": "kept_and_regression_checked",
+      "remainingLimit": "Registry/publication gates retained; no unsupported nutrition values published.",
+      "acceptedEvidence": [
+        "output/research/design-implementation-2026-11-05/implementation.md"
+      ]
+    },
+    {
+      "auditSection": 16,
+      "criterion": 3,
+      "originalRequirement": "Утверждения о белке/клетчатке и маркировка проверены по применимым правилам и данным; нет догадок о пользе.",
+      "currentStageDisposition": "external+keep",
+      "acceptanceStatus": "external_dependency",
+      "remainingLimit": "Concept claims and release remain unapproved; clear concept status retained.",
+      "acceptedEvidence": [
+        "output/research/design-implementation-2026-11-05/implementation.md"
+      ]
+    },
+    {
+      "auditSection": 16,
+      "criterion": 4,
+      "originalRequirement": "Три покупателя могут найти подходящее предложение и следующий шаг.",
+      "currentStageDisposition": "implemented",
+      "acceptanceStatus": "passed_local_scope",
+      "remainingLimit": "Retail/HoReCa/STM visible and context preserved.",
+      "acceptedEvidence": [
+        "output/research/design-implementation-2026-11-05/implementation.md"
+      ]
+    },
+    {
+      "auditSection": 16,
+      "criterion": 5,
+      "originalRequirement": "Конкретный SKU сохраняется до запроса; обязательные поля объяснены, ошибки не стирают ввод.",
+      "currentStageDisposition": "keep",
+      "acceptanceStatus": "passed_local_scope",
+      "remainingLimit": "16 real transitions; VM input/error preservation.",
+      "acceptedEvidence": [
+        "output/research/design-implementation-2026-11-05/implementation.md"
+      ]
+    },
+    {
+      "auditSection": 16,
+      "criterion": 6,
+      "originalRequirement": "Подтверждение «получено» возникает только после входящей записи; сбои и повторные отправки обработаны.",
+      "currentStageDisposition": "keep",
+      "acceptanceStatus": "passed_local_scope",
+      "remainingLimit": "Actual native400 receipt and15 server tests; only after commit.",
+      "acceptedEvidence": [
+        "output/research/design-implementation-2026-11-05/implementation.md"
+      ]
+    },
+    {
+      "auditSection": 16,
+      "criterion": 7,
+      "originalRequirement": "Документы скачиваются и читаются; в них нет противоречий с HTML и устаревших claims.",
+      "currentStageDisposition": "implemented+external",
+      "acceptanceStatus": "partial_explicit_limits",
+      "remainingLimit": "Supplier HTML packaged,14 regularSKU; real documents/label versions require owner.",
+      "acceptedEvidence": [
+        "output/research/design-implementation-2026-11-05/implementation.md"
+      ]
+    },
+    {
+      "auditSection": 16,
+      "criterion": 8,
+      "originalRequirement": "Фото, документы, производство и кейсы подлинные; разрешения на публикацию и логотипы подтверждены владельцем.",
+      "currentStageDisposition": "external+keep",
+      "acceptanceStatus": "external_dependency",
+      "remainingLimit": "Provenance distinguished; production facts and publication permissions require owner.",
+      "acceptedEvidence": [
+        "output/research/design-implementation-2026-11-05/implementation.md"
+      ]
+    },
+    {
+      "auditSection": 16,
+      "criterion": 9,
+      "originalRequirement": "На 320–1440 и границах media queries нет пересечения навигации, исчезновения текста, CTA или фокуса.",
+      "currentStageDisposition": "implemented",
+      "acceptanceStatus": "passed_local_scope",
+      "remainingLimit": "966 geometries+42 caption followups+46fallback visits; explicit zoom/focus scope.",
+      "acceptedEvidence": [
+        "output/research/design-implementation-2026-11-05/implementation.md"
+      ]
+    },
+    {
+      "auditSection": 16,
+      "criterion": 10,
+      "originalRequirement": "Клавиатура, меню, радио, фильтры, вкладки, статус и reduced motion проверены в реальных состояниях.",
+      "currentStageDisposition": "implemented",
+      "acceptanceStatus": "partial_explicit_limits",
+      "remainingLimit": "Actual menu/tab/reduce and form paths; no filters in current design, no real AT/physical touch claim.",
+      "acceptedEvidence": [
+        "output/research/design-implementation-2026-11-05/implementation.md"
+      ]
+    },
+    {
+      "auditSection": 16,
+      "criterion": 11,
+      "originalRequirement": "После выбора реального домена проверены HTTPS, redirects, canonical, sitemap, robots, OG и индексируемые посадочные.",
+      "currentStageDisposition": "external",
+      "acceptanceStatus": "external_dependency",
+      "remainingLimit": "No public host/domain deployment selected.",
+      "acceptedEvidence": [
+        "output/research/design-implementation-2026-11-05/implementation.md"
+      ]
+    },
+    {
+      "auditSection": 16,
+      "criterion": 12,
+      "originalRequirement": "Производительность проверена холодной загрузкой и полевыми данными после запуска; локальные байты не выдаются за измеренный LCP.",
+      "currentStageDisposition": "implemented+external",
+      "acceptanceStatus": "partial_explicit_limits",
+      "remainingLimit": "Local no-store profiles recorded; field p75 and shaped mobile network unverified.",
+      "acceptedEvidence": [
+        "output/research/design-implementation-2026-11-05/implementation.md"
+      ]
+    },
+    {
+      "auditSection": 16,
+      "criterion": 13,
+      "originalRequirement": "Команда продаж умеет принимать, квалифицировать и продолжать запрос; обещанный срок ответа достижим.",
+      "currentStageDisposition": "external+keep",
+      "acceptanceStatus": "external_dependency",
+      "remainingLimit": "Operational tools retained; sales ownership/process/response commitments need team.",
+      "acceptedEvidence": [
+        "output/research/design-implementation-2026-11-05/implementation.md"
+      ]
+    },
+    {
+      "auditSection": 16,
+      "criterion": 14,
+      "originalRequirement": "Метрики сверены с операционным реестром; клики не считаются заказами и данные заявок не раскрываются в аналитике.",
+      "currentStageDisposition": "external+keep",
+      "acceptanceStatus": "external_dependency",
+      "remainingLimit": "No clicks-as-orders claim; actual operational metric reconciliation after launch.",
+      "acceptedEvidence": [
+        "output/research/design-implementation-2026-11-05/implementation.md"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "TC13",
+      "priority": "P2",
+      "title": "B2B hero требует отдельного image budget",
+      "classification": "implemented",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "partial_explicit_limits",
+      "baseline": "Исходник partner-host: 1024×1536, 362180 bytes, без srcset. В этом этапе производные готовы; интеграция и сетевые измерения отдельно.",
+      "originalRecommendation": "Измерить currentSrc/network/LCP на целевых устройствах; по результату добавить небольшие варианты и точные sizes, сохранив рисунок/alpha.",
+      "originalAcceptance": [
+        "Записаны viewport/DPR, cache/network profile, выбранный файл и bytes.",
+        "CWV и CLS шрифтов/изображений проверяются отдельно от VM.",
+        "Production p75 ориентиры сопровождаются мониторингом, не одиночным screenshot."
+      ],
+      "currentStageMustProve": [
+        "Сохранить SHA-256 мастера, рисунок, кадрирование и пропорции. Записать размеры, bytes и alpha delta каждого варианта.",
+        "После интеграции записать currentSrc, naturalWidth, CSS-размер, viewport, DPR и состояние кеша на 320/390/768/1024/1280/1440; проверить DPR1/2 и мобильный DPR3.",
+        "Проверить холодную загрузку с заданным сетевым профилем: текущий hero, неактивные сцены, шрифты. Убедиться, что малый mobile-слот не получает исходный 1024 без причины.",
+        "Записать наблюдаемые LCP/CLS и кандидата LCP, если инструмент доступен; иначе оставить измерение открытым. Размер файла не равен сетевому весу страницы или LCP."
+      ],
+      "externalDependencies": [
+        "Production p75 требует опубликованной версии и полевых наблюдений."
+      ],
+      "expectedEvidence": [
+        "output/research/design-mobile-2026-11-05/partner-host-optimization.json",
+        "Final DOM/currentSrc and cold-load network record"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/responsive-image-browser-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/normal-load-profiles.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-mobile-2026-11-05/partner-host-optimization.json",
+          "scope": "Master preservation, alpha and per-file bytes."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 19,
+      "remainingLimit": "DPR1 and loopback no-store measured. DPR2/3, shaped mobile network and production p75 remain unverified."
+    },
+    {
+      "id": "TC14",
+      "priority": "P2",
+      "title": "Доступность: хорошая база, ограниченная приемка",
+      "classification": "implemented",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "partial_explicit_limits",
+      "baseline": "Семантическая база есть; прежние VM/overflow-проверки не являются полным аудитом доступности.",
+      "originalRecommendation": "Проверить клавиатуру, VoiceOver/NVDA, zoom200/400%, узкий viewport: сегмент, ошибка, copy/denied API, draft, mailto fallback, меню/панели.",
+      "originalAcceptance": [
+        "Нет недоступного фокуса и скрытых интерактивных панелей.",
+        "Статусы/ошибки читаются, draft имеет имя.",
+        "Реальные пары контраста и clipping измерены; полного WCAG compliance claim пока нет."
+      ],
+      "currentStageMustProve": [
+        "Пройти реальной клавиатурой skip link, меню/Escape/возврат фокуса, 4 hero tabs, стрелки, PDP, форму, согласие, ошибки, receipt, copy-denied/manual draft и email fallback.",
+        "Проверить 200% увеличения текста и 400% reflow с явно описанным способом; длинные русские названия и контакты не обрезаются, текст/CTA/фокус не исчезают.",
+        "Измерить фактические пары контраста текста и состояний hover/focus/selected/disabled/error. Не применять выдуманное универсальное правило 16px.",
+        "Выполнить реальное чтение VoiceOver или NVDA для меню, вкладок, ошибок и статуса. Если инструмента нет, требование остаётся непроверенным; aria/DOM не заменяют его.",
+        "Проверить доступные имена и отсутствие фокусируемых элементов в hidden/inert панелях на всех 23 маршрутах и в отдельном каталоге."
+      ],
+      "externalDependencies": [],
+      "expectedEvidence": [
+        "Keyboard and screen-reader record",
+        "Zoom/clipping results",
+        "Computed contrast by selector/state"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/menu-wrap-final-browser.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/manual-browser-verification.md",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/computed-colors-browser.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "scripts/check_motion.cjs",
+          "scope": "18 VM regression tests; not a screen reader or browser substitute."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 19,
+      "availableSourceOnlyEvidence": {
+        "path": "output/research/design-mobile-2026-11-05/typography-source-evidence.json",
+        "limit": "CSS-role/contrast/source review; не подтверждает browser zoom, screen reader или итоговую композицию."
+      },
+      "remainingLimit": "Real VoiceOver/NVDA reading and independent text-only zoom are unverified. Native browser zoom200/400, focus/menu/selection and limited contrast are verified; no full WCAG claim."
+    },
+    {
+      "id": "TC15",
+      "priority": "P2",
+      "title": "Motion оценивается по задаче",
+      "classification": "keep",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "passed_local_scope",
+      "baseline": "Ручной hero, отсутствие autoplay и ограниченный prefetch полезны. Новый shared hero меняет композицию и порядок слайдов.",
+      "originalRecommendation": "Проверять B2B задачу с motion/reduced-motion; менять эффект по понятности, latency и фокусу, а не по моде.",
+      "originalAcceptance": [
+        "Задача доступна при reduced-motion и без декора.",
+        "Нет автосмены смысла и устаревшей сцены при быстрых кликах.",
+        "Нагрузочные утверждения основаны на профилировании."
+      ],
+      "currentStageMustProve": [
+        "Сохранить отсутствие автосмены смысла; четыре подписанных таба соответствуют новому порядку, актуальной сцене и product URL.",
+        "Проверить reduced-motion и переключение системного режима на открытой странице: убрать необязательное движение, сохранить содержание/CTA/фокус.",
+        "Проверить медленную загрузку, ошибку изображения и быстрые клики: нет устаревшей сцены, пустого текущего кадра или потерянного фокуса.",
+        "Сохранить ограничения saveData/2g/hidden и остановку декора при меню. Основная информация не ждёт reveal; без JS и декора она доступна. Нагрузочные выводы требуют профиля."
+      ],
+      "externalDependencies": [],
+      "expectedEvidence": [
+        "Updated behaviour tests",
+        "Browser reduced-motion/slow/error/rapid-selection checks"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/image-failure-browser-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/manual-browser-verification.md",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "scripts/check_motion.cjs",
+          "scope": "18 VM regression tests; not a screen reader or browser substitute."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 19,
+      "remainingLimit": "Mid-session preference/race/deadline/prefetch cases are VM evidence; actual reduce and slow/error/rapid selection also have browser evidence. No profiler-based CPU or conversion improvement claimed."
+    },
+    {
+      "id": "VB01",
+      "priority": "P1",
+      "title": "Еда пересекает навигацию на текущем desktop-кадре",
+      "classification": "implemented",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "passed_local_scope",
+      "baseline": "Предыдущий этап снял отрицательный отступ hero; новый параллельный дизайн требует повторной приёмки.",
+      "originalRecommendation": "Задать защищённую область header: пищевые объекты и их тени не должны пересекать логотип, текст ссылок или кнопку. Проверять интервал ширин, а не только два крайних breakpoint.",
+      "originalAcceptance": "На1280, соседних desktop-ширинах и при увеличении текста навигационные элементы остаются на чистой подложке; сцена не обрезается ради случайного исправления.",
+      "currentStageMustProve": [
+        "На 1280, соседних ширинах и границах media queries header находится на чистой подложке, включая text zoom и fallback font.",
+        "Еда/тень/маскот не перекрывают логотип, ссылки, CTA и focus ring, не перехватывают pointer. Исправление не обрезает сцену случайным clip."
+      ],
+      "externalDependencies": [],
+      "expectedEvidence": [
+        "Header/art bounds and screenshots",
+        "Pointer/keyboard check"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/hero-browser-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/layout-final-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "Viewport/screenshot and browser zoom scope, not every possible OS/text setting."
+    },
+    {
+      "id": "VB02",
+      "priority": "P1",
+      "title": "B2B-первый экран обещает настроение раньше делового результата",
+      "classification": "keep",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "kept_and_regression_checked",
+      "baseline": "Предыдущий B2B-этап добавил аудитории и конкретный следующий шаг; сохранить их при типографическом проходе.",
+      "originalRecommendation": "Сохранить лозунг как брендовый акцент, рядом кратко назвать подтверждённые направления и результат обращения: ассортимент/условия, образцы или обсуждение СТМ. Важное обещание должно быть конкретным и выполнимым.",
+      "originalAcceptance": "В первом экране пользователь может объяснить, кому адресовано предложение, что поставляется и какой следующий деловой шаг доступен.",
+      "currentStageMustProve": [
+        "На первом экране партнёров видны адресат, продукт и действие по поставкам; на 320/390 они не вытеснены персонажем.",
+        "CTA описывает реальный запрос/обсуждение, не гарантирует неподтверждённые сроки, бесплатные образцы или готовность концепта."
+      ],
+      "externalDependencies": [
+        "Фактический оффер и процесс подтверждает команда продаж."
+      ],
+      "expectedEvidence": [
+        "B2B first-screen desktop/mobile",
+        "Copy/source comparison"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/screenshots/full-390-partners.png",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/visual-review.md",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "Commercial process/offers still need sales confirmation; visible next action is a request, not a guaranteed outcome."
+    },
+    {
+      "id": "VB03",
+      "priority": "P2",
+      "title": "Глобальный header сильнее направляет в розницу, чем в B2B",
+      "classification": "implemented",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "passed_local_scope",
+      "baseline": "Header ранее выделял розничный путь. Контекст B2B должен иметь ясное действие без разрушения общей навигации.",
+      "originalRecommendation": "Определить приоритет по контексту страницы: на B2B-входе коммерческий контакт должен быть не менее понятным, чем потребительский поиск покупки. Общую навигацию оставить предсказуемой.",
+      "originalAcceptance": "По одному взгляду на B2B-header и первый экран можно найти обращение по поставкам; названия действий не заставляют угадывать их назначение.",
+      "currentStageMustProve": [
+        "На partners/private-label из header или первого экрана легко найти обращение по поставкам и понять его назначение.",
+        "Проверить desktop/mobile, открытое меню, длинные подписи, фокус и правильный сегмент перехода; сохранить потребительский поиск покупки."
+      ],
+      "externalDependencies": [],
+      "expectedEvidence": [
+        "Header/menu states",
+        "Segment click path"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/menu-wrap-final-browser.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/screenshots/full-390-partners.png",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "scripts/check_motion.cjs",
+          "scope": "18 VM regression tests; not a screen reader or browser substitute."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "Contextual header action verified locally; no conversion claim."
+    },
+    {
+      "id": "VB04",
+      "priority": "P2",
+      "title": "Персонаж в деловом костюме сообщает роль, но не доказывает компетентность",
+      "classification": "keep",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "kept_and_regression_checked",
+      "baseline": "Деловой герой остаётся проводником бренда. Новые атрибуты солидности и перерисовка не требуются.",
+      "originalRecommendation": "Сохранить персонажа как проводника, а доверие строить на подтверждённой информации и следующем шаге. Не добавлять костюму ещё больше атрибутов «солидности».",
+      "originalAcceptance": "Даже если мысленно убрать персонажа, предложение партнёру остаётся содержательным и убедительным.",
+      "currentStageMustProve": [
+        "Без изображения B2B-предложение и CTA остаются содержательными и доступными сразу.",
+        "Сохранить существующий рисунок и роль; на mobile декор не вытесняет контакт, не дублируется в форме и не заменяет производственные доказательства."
+      ],
+      "externalDependencies": [
+        "Реальные документы качества не заменяются персонажем."
+      ],
+      "expectedEvidence": [
+        "Images-disabled task check",
+        "Source hash and responsive bounds"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/image-failure-browser-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/responsive-image-browser-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "Illustration remains a brand guide, not production or quality proof."
+    },
+    {
+      "id": "VB05",
+      "priority": "P2",
+      "title": "Семейность сильнее там, где герой участвует в понятном бытовом действии",
+      "classification": "keep",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "kept_and_regression_checked",
+      "baseline": "The shared catalogue changed during work; the latest observed and transferred version is a compact text band with no separate family illustration. Prior observation of a family scene is historical, not current DOM.",
+      "originalRecommendation": "Закрепить роли: персонаж на упаковке объясняет продукт/ситуацию; campaign допускает игру; B2B отдаёт главное место ассортименту и процессу. Не объявлять маскота проблемой сам по себе.",
+      "originalAcceptance": "В каждой сцене можно назвать одну функцию персонажа. Его эмоция и реквизит связаны с продуктом, а не добавлены только для заполнения места.",
+      "currentStageMustProve": [
+        "Для каждой активной сцены можно назвать одну функцию персонажа: campaign, продукт, семейная встреча или приглашение к разговору.",
+        "Сохранить семейную сцену пользователя; не превращать её в заявление о детском назначении, составе, безопасности или реальных сотрудниках."
+      ],
+      "externalDependencies": [],
+      "expectedEvidence": [
+        "Character-role inventory",
+        "Family scene in page context"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/visual-review.md",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "docs/visual-system.md",
+          "scope": "Working roles/provenance/passport, not brand approval."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "Latest observed shared catalogue is the compact text band, without a separate family illustration. Runtime characters have documented roles; no child-safety/recipe claim follows.",
+      "scopeObservation": "The original generic character-role recommendation is preserved. The provisional family-scene requirement does not apply to the latest selected composition; no family master was silently deleted from runtime."
+    },
+    {
+      "id": "VB06",
+      "priority": "P2",
+      "title": "Семейство персонажей узнаваемо, но манера исполнения неоднородна",
+      "classification": "implemented",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "partial_explicit_limits",
+      "baseline": "Рабочий character-guidelines.txt от 24.10 не утверждён брендом и не охватывает новый art-v5/семейную сцену.",
+      "originalRecommendation": "Описать краткий character guide: пропорции головы/тела, контур, свет, палитра, уровень детализации, реквизит и пределы эмоций. Сначала согласовать правила, затем решать, какие изображения действительно нуждаются в правке.",
+      "originalAcceptance": "Новые персонажи проходят сравнение с эталоном семейства; различия объясняются ролью, а не случайной манерой рисования.",
+      "currentStageMustProve": [
+        "Обновить рабочий guide по реальным master paths/hash/ролям: основной герой, product scenes, B2B, контакты и family-сцена; назвать сохраняемые исключения.",
+        "Определить пропорции, сохранение контура/света/палитры, масштаб и служебные границы; сравнить героев в сопоставимом размере и на страницах.",
+        "Не объявлять художественную неоднородность устранённой CSS или resize; не добавлять случайные AI-варианты."
+      ],
+      "externalDependencies": [
+        "Полная художественная унификация и утверждение владельцем бренда требуют отдельного решения."
+      ],
+      "expectedEvidence": [
+        "Versioned working character guide",
+        "Master/provenance inventory"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/visual-review.md",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "docs/visual-system.md",
+          "scope": "Working roles/provenance/passport, not brand approval."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "Working visual passport is versioned; approved model sheet and artistic unification remain external."
+    },
+    {
+      "id": "VB07",
+      "priority": "P2",
+      "title": "Главная продаёт готовое блюдо, но не показывает товарную форму в первом экране",
+      "classification": "keep",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "kept_and_regression_checked",
+      "baseline": "Hero уже ведёт на PDP; shared root делает Фибрики первым слайдом и меняет действия.",
+      "originalRecommendation": "Не превращать hero в складской прайс. Обеспечить короткий переход от сцены к конкретному товару и его доступной фасовке; различать сервировку и вид поставляемого продукта.",
+      "originalAcceptance": "После действия из hero человек попадает к тому же продукту и понимает, что именно поставляется, а что является примером подачи.",
+      "currentStageMustProve": [
+        "Нажать CTA каждой из 4 сцен: product ID и название совпадают; быстрый выбор не оставляет ссылку предыдущего продукта.",
+        "На PDP различаются подача и товарная упаковка; у серийной позиции есть подтверждённая масса, у концепта — ясный статус. Не превращать hero в прайс."
+      ],
+      "externalDependencies": [],
+      "expectedEvidence": [
+        "Four hero→PDP transitions",
+        "Product/concept consistency"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/hero-pdp-and-serving-browser-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/sku-b2b-browser-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "Packaging previews are processed illustrations; original photos remain separately labelled. Not a manufacturing specification."
+    },
+    {
+      "id": "VB08",
+      "priority": "P3",
+      "title": "Каталог — сильнейший видимый аргумент реальности ассортиментной линейки",
+      "classification": "keep",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "kept_and_regression_checked",
+      "baseline": "Регулярная сетка, живые названия и семейство упаковок сохраняются; новый пользовательский каталог — без фильтров.",
+      "originalRecommendation": "Оставить общий принцип сетки и семейство упаковок. При расширении каталога нормировать масштаб товарной формы, оптический центр и поля изображения.",
+      "originalAcceptance": "Карточки можно сравнивать без зрительного скачка размера упаковок; имя товара читается независимо от мелкого текста на этикетке.",
+      "currentStageMustProve": [
+        "Сохранить 14 серийных позиций и 2 явных концепта, сопоставимый масштаб, оптический центр и поля упаковок.",
+        "Проверить 2/3/4 колонки, длинные имена и zoom; название читается независимо от мелкой этикетки.",
+        "Не возвращать удалённые фильтры ради старых тестов. Принимать актуальную полную сетку и её ссылки."
+      ],
+      "externalDependencies": [],
+      "expectedEvidence": [
+        "Catalogue inventory/order",
+        "Screenshots at column changes"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/visual-review.md",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/layout-final-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "Two/three/four-column layout and inventory preserved; exact label accuracy is not certified."
+    },
+    {
+      "id": "VB09",
+      "priority": "P2",
+      "title": "У карточек есть потребительские признаки, но мало закупочных сигналов",
+      "classification": "external",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "external_dependency",
+      "baseline": "Внутренний slug и передача SKU уже доступны. GTIN, официальные артикулы, короб и согласованные паспорта не получены.",
+      "originalRecommendation": "Добавлять закупочные поля выборочно: артикул и формат поставки там, где они помогают сравнению. Не перегружать карточку всеми данными паспорта.",
+      "originalAcceptance": "Из списка можно однозначно сослаться на выбранный товар; детальная карточка содержит согласованный паспорт с тем же идентификатором.",
+      "currentStageMustProve": [
+        "Сохранить однозначную product→B2B передачу, массу и статус концепта; повторно проверить все 16 переходов после изменения каталога.",
+        "Не выдавать внутренний slug за GTIN и не придумывать закупочные числа. Запрос спецификации сохраняет выбранный продукт."
+      ],
+      "externalDependencies": [
+        "Артикулы/GTIN/короб и версии паспортов от изготовителя с владельцем и датой."
+      ],
+      "expectedEvidence": [
+        "SKU context regression",
+        "Content registry/gates retained"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/sku-b2b-browser-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "All16 product contexts verified. Approved GTIN/article/case quantities and signed SKU passports remain unavailable; slug is not advertised as GTIN."
+    },
+    {
+      "id": "VB10",
+      "priority": "P2",
+      "title": "Тёплая подложка объединяет ассортимент, но снижает отделение светлой упаковки",
+      "classification": "implemented",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "passed_local_scope",
+      "baseline": "У каталога спокойная товарная сцена; PDP и новые сцены требуют общей логики фона/тени.",
+      "originalRecommendation": "Задать одну логику товарной сцены: достаточное отличие фона и упаковки, одинаковые принципы тени, чистые поля. Решать контраст нейтральной подложкой, не добавлением декоративной рамки.",
+      "originalAcceptance": "Светлая упаковка различима при уменьшении изображения; фон поддерживает товар, а не формирует отдельный декоративный объект.",
+      "currentStageMustProve": [
+        "На маленьком и большом размере различим верхний контур светлой упаковки. Подложка поддерживает предмет и не становится отдельным декоративным объектом.",
+        "Проверить все 16 упаковок в общей сетке и PDP: поля, статический наклон, радиус и фон согласованы.",
+        "Не менять цвета и мелкие тексты упаковки CSS-фильтром ради контраста."
+      ],
+      "externalDependencies": [],
+      "expectedEvidence": [
+        "All-packshot grid review",
+        "PDP/catalogue stage comparison"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/visual-review.md",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/screenshots/full-390-catalogue.png",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "All16 silhouettes/stages compared visually; non-text image contrast is an expert judgement, not a WCAG text-ratio calculation. Artwork not filtered/recoloured."
+    },
+    {
+      "id": "VB11",
+      "priority": "P2",
+      "title": "У типографики есть характер, но роли нужно зафиксировать",
+      "classification": "implemented",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "passed_local_scope",
+      "baseline": "Есть локальные Protein/Onest/Rubik/Caveat; требуется назначить роли, а не механически сократить число шрифтов.",
+      "originalRecommendation": "Закрепить назначение трёх основных ролей: campaign, деловой/редакционный заголовок, информационный текст. Для каждого определить регистр, интервалы, длину строки и допустимую плотность.",
+      "originalAcceptance": "Новый заголовок можно оформить по существующему правилу, не выбирая очередной визуальный стиль; длинные товарные названия остаются читаемыми.",
+      "currentStageMustProve": [
+        "Зафиксировать campaign, редакционный/B2B-заголовок, информационный текст и короткий рукописный акцент: семейство, вес, регистр, интервалы и длины.",
+        "Проверить русские длинные H1/названия/CTA на 320–1440, границах media, при text zoom и font fallback. Нет неравномерного scaleX/scaleY или искусственного сжатия букв.",
+        "Текст виден во время загрузки шрифтов; зафиксировать font-display и порядок загрузки, наблюдать переносы/CLS при холодной загрузке.",
+        "Статические CSS-значения и regex-проверка не заменяют проверку реального экрана."
+      ],
+      "externalDependencies": [],
+      "expectedEvidence": [
+        "Typography role specification",
+        "Fallback and zoom screenshots",
+        "Font loading/CLS record"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/font-fallback-final-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/normal-load-profiles.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/manual-browser-verification.md",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "docs/visual-system.md",
+          "scope": "Working roles/provenance/passport, not brand approval."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "availableSourceOnlyEvidence": {
+        "path": "output/research/design-mobile-2026-11-05/typography-source-evidence.json",
+        "limit": "CSS-role/contrast/source review; не подтверждает browser zoom, screen reader или итоговую композицию."
+      },
+      "remainingLimit": "Roles/fallback/browser zoom/local font loading checked. Independent text-only zoom and field font performance remain outside measured scope."
+    },
+    {
+      "id": "VB12",
+      "priority": "P2",
+      "title": "Два крупных сообщения hero конкурируют по громкости",
+      "classification": "implemented",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "passed_local_scope",
+      "baseline": "Имя и слоган ранее конкурировали; новый hero вводит отдельную текстовую колонку и другой акцент.",
+      "originalRecommendation": "Сохранить выразительный заголовок, уточнить порядок чтения между именем, слоганом и описанием. Не ослаблять весь брендовый характер — выбрать один главный голос в пределах одного экрана.",
+      "originalAcceptance": "При быстром взгляде сначала считывается одна главная мысль, затем конкретика, затем действие; порядок не зависит только от оранжевого цвета.",
+      "currentStageMustProve": [
+        "Во всех 4 сценах одна основная мысль ведёт к конкретике и действию. Иерархия создаётся размером, положением и ритмом, не одним цветом.",
+        "На desktop/mobile CTA не уходит под artwork, слоган не заслоняет описание, fixed-height сцена не обрезает длинный текст.",
+        "Экспертную оценку порядка чтения не выдавать за eye-tracking или измеренный рост продаж."
+      ],
+      "externalDependencies": [],
+      "expectedEvidence": [
+        "Four-scene hierarchy review",
+        "320/390/768/1280/1440 screenshots"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/hero-browser-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/visual-review.md",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "Hierarchy accepted by expert review, not eye-tracking or sales measurement."
+    },
+    {
+      "id": "VB13",
+      "priority": "P1",
+      "title": "Статус Фибрики честный, но упаковка уже выглядит коммерчески готовой",
+      "classification": "implemented",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "partial_explicit_limits",
+      "baseline": "Оба концепта должны оставаться концептами. Shared тексты «Наша новинка» и изображённый claim не подтверждают запуск или рецептуру.",
+      "originalRecommendation": "Согласовать видимость стадии продукта во всех точках входа. Для перехода к продаже нужны утверждённая спецификация и проверенные формулировки; визуальная готовность упаковки не должна опережать подтверждённую готовность предложения.",
+      "originalAcceptance": "Посетитель и получатель пересланной карточки отличают концепт от доступного SKU; смысл подписи и утверждений на упаковке не противоречит состоянию проекта.",
+      "currentStageMustProve": [
+        "Проверить статус во всех входах: hero, каталог, PDP, связанные карточки, B2B-select и текст запроса; supplier catalogue остаётся только 14 позиций.",
+        "Подпись существенного статуса читаема; пересланная PDP не выглядит как доступный серийный товар.",
+        "При переносе shared generator не возвращать неподтверждённые nutrition/benefit claims; artwork claim не становится количественным HTML-фактом."
+      ],
+      "externalDependencies": [
+        "Утверждение рецептуры, маркировки, формулировок и запуска новинок."
+      ],
+      "expectedEvidence": [
+        "Concept status matrix",
+        "Content gate checks",
+        "Supplier inventory"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/hero-pdp-and-serving-browser-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/sku-b2b-browser-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "Both concepts labelled locally; recipe/packaging claims and commercial release require approval. Supplier catalogue remains14 regular SKU."
+    },
+    {
+      "id": "VB14",
+      "priority": "P3",
+      "title": "Фибрики v11 уже встроены в визуальную семью",
+      "classification": "keep",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "kept_and_regression_checked",
+      "baseline": "Фибрики v11 — текущий мастер визуальной семьи; untracked repair-файлы и брошюры не являются принятой заменой.",
+      "originalRecommendation": "Оставить семейную архитектуру упаковки и различимость имени. Проверять дальнейшие изменения по соседним SKU, а не в изоляции.",
+      "originalAcceptance": "Новая упаковка узнаётся как Новоферма и одновременно не путается с классическими фрикадельками.",
+      "currentStageMustProve": [
+        "Сохранить действующий мастер и отличимость от классических фрикаделек; сравнить рядом с соседними SKU.",
+        "Любая смена artwork имеет явный provenance; не подменять его случайной версией из параллельной рабочей папки."
+      ],
+      "externalDependencies": [
+        "Промышленное согласование упаковки не подтверждается художественным сходством."
+      ],
+      "expectedEvidence": [
+        "Master hashes",
+        "Adjacent-SKU comparison"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/visual-review.md",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "docs/visual-system.md",
+          "scope": "Working roles/provenance/passport, not brand approval."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "Fibriki v11 pack master preserved. Artwork similarity does not approve industrial packaging or release."
+    },
+    {
+      "id": "VB15",
+      "priority": "P2",
+      "title": "Мелкие пояснения визуально слабее, чем их деловой смысл",
+      "classification": "implemented",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "passed_local_scope",
+      "baseline": "Масса, категория и статус концепта — существенные сведения, ранее визуально слишком тихие.",
+      "originalRecommendation": "Разделить действительно второстепенные подписи и существенные статусы. Значимые данные оставить текстом с достаточным размером/контрастом; WCAG оценивать по реальным CSSцветам и состояниям отдельно.",
+      "originalAcceptance": "В масштабе100% и на mobile статус, масса и категория не требуют приближения; проверка контраста документируется измерением, а не субъективным впечатлением.",
+      "currentStageMustProve": [
+        "На 100% и mobile важные подписи читаются без приближения; они не теряются из-за opacity, контраста или clipping.",
+        "Измерить реальные цвета/состояния; проверить text zoom200/400%, длинные названия и массы, отсутствие overlap и потерянных пробелов.",
+        "Не объявлять любой мелкий текст нарушением WCAG только по размеру."
+      ],
+      "externalDependencies": [],
+      "expectedEvidence": [
+        "Computed contrast by state",
+        "Important-label and zoom screenshots"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/computed-colors-browser.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/manual-browser-verification.md",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/layout-final-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "availableSourceOnlyEvidence": {
+        "path": "output/research/design-mobile-2026-11-05/typography-source-evidence.json",
+        "limit": "CSS-role/contrast/source review; не подтверждает browser zoom, screen reader или итоговую композицию."
+      },
+      "remainingLimit": "Important metadata strengthened and limited contrast checked.13 transparent/gradient/transient pairs explicitly need contextual review; no universal16px/WCAG claim."
+    },
+    {
+      "id": "VB16",
+      "priority": "P1",
+      "title": "В B2B доверие формирует последовательность работы, а не деловая иллюстрация",
+      "classification": "keep",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "partial_explicit_limits",
+      "baseline": "Предыдущий этап добавил СТМ-страницу с ориентиром разговора и условностью выпуска.",
+      "originalRecommendation": "Применить принцип наблюдаемого процесса: что делает клиент, что делает производитель и какой результат согласуют. Разместить достаточно близко к B2Bпредложению; не копировать конкретные обещания чужого бизнеса.",
+      "originalAcceptance": "Каждый показанный этап связан с подтверждённым рабочим процессом и имеет понятный результат. Сроки и гарантии не придуманы дизайнером.",
+      "currentStageMustProve": [
+        "Этапы и входные сведения находятся близко к офферу и читаются на mobile без долгого декоративного прохода.",
+        "Сохранить различие между ориентиром разговора и утверждённым регламентом; CTA выбирает правильные СТМ-формат/цель, ввод не теряется."
+      ],
+      "externalDependencies": [
+        "Фактические роли, результаты этапов и обещания процесса подтверждают продажи/технолог."
+      ],
+      "expectedEvidence": [
+        "STM full-page screenshots",
+        "Context/input preservation test"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/screenshots/full-390-private-label.png",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/sku-b2b-browser-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "STM guide is an orientation for discussion. Real roles, production ability, promised results and terms require sales/technologist approval."
+    },
+    {
+      "id": "VB17",
+      "priority": "P2",
+      "title": "У Tyson эмоциональная подача связана с товарными ракурсами",
+      "classification": "implemented",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "partial_explicit_limits",
+      "baseline": "В инвентаре 14/14 imageUrl и servingImage/servingImageUrl. Доступны оригиналы упаковки и подачи; весь пункт нельзя отложить из-за отсутствия коробов.",
+      "originalRecommendation": "Для продаваемых SKU при наличии достоверных материалов предусмотреть последовательность: упаковка, сам продукт, пример подачи, короб. Для концепта не добавлять вымышленные производственные доказательства.",
+      "originalAcceptance": "Каждый ракурс отвечает на отдельный вопрос; подписи различают поставляемый продукт и сервировку, а галерея не содержит повторяющиеся декоративные картинки.",
+      "currentStageMustProve": [
+        "Использовать доступные достоверные ракурсы по точному SKU: упаковка/оригинал и пример подачи с разными ясными подписями. Проверить соответствие источнику.",
+        "Галерея или переключение, если введены, работают клавиатурой/touch, сохраняют alt/подпись и не загружают все картинки eagerly.",
+        "Для концептов не создавать вымышленные производственные ракурсы; сервировка не выдаётся за поставляемую форму."
+      ],
+      "externalDependencies": [
+        "Транспортная коробка, читаемая оборотная этикетка и версия реальной партии пока не предоставлены."
+      ],
+      "expectedEvidence": [
+        "SKU→image/serving source mapping",
+        "Captions and gallery access",
+        "Lazy-load observation"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/hero-pdp-and-serving-browser-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/visual-review.md",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "Original pack photo + serving photo available for14 SKU. Actual case/back label/batch version remain external, not fabricated."
+    },
+    {
+      "id": "VB18",
+      "priority": "P3",
+      "title": "Mobile сохраняет бренд и даёт читаемые действия",
+      "classification": "keep",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "partial_explicit_limits",
+      "baseline": "Подписанные переключатели и самостоятельные CTA сохраняются. Shared mobile оставляет 4 таба и убирает стрелки.",
+      "originalRecommendation": "Оставить подписанные переключатели и самостоятельные CTA. Контролировать, чтобы новые подписи и длинные названия не разрушали эти места при увеличении текста.",
+      "originalAcceptance": "Функциональная проверка отдельно подтверждает фокус, переключение, читаемость и отсутствие горизонтального переполнения; screenshot не считается её заменой.",
+      "currentStageMustProve": [
+        "Проверить все табы и видимые стрелки, keyboard-selection и focus ring; скрытые стрелки не остаются в фокусном порядке.",
+        "Проверять clipping/контраст/CTA при длинном тексте и zoom, не только overflow=0.",
+        "Скриншот не заменяет фактическую проверку touch, клавиатуры и состояний."
+      ],
+      "externalDependencies": [],
+      "expectedEvidence": [
+        "Mobile keyboard/touch record",
+        "Zoom/long-name screenshots"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/hero-browser-checks.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/menu-wrap-final-browser.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/manual-browser-verification.md",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "scripts/check_motion.cjs",
+          "scope": "18 VM regression tests; not a screen reader or browser substitute."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "Browser keyboard and normal/reduce states verified. Physical-device touch and DPR2/3 have not been verified; gesture edge cases have VM evidence."
+    },
+    {
+      "id": "VB19",
+      "priority": "P3",
+      "title": "Кремовый и оранжевый уже могут разделять настроение и чтение",
+      "classification": "keep",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "kept_and_regression_checked",
+      "baseline": "Кремовый, оранжевый и тёмный текст дают полезное разделение эмоциональных и информационных секций.",
+      "originalRecommendation": "Сохранить цветовую преемственность, но ограничить яркий фон короткими сообщениями. Паспорта, условия и сложные формы должны иметь спокойный режим чтения.",
+      "originalAcceptance": "Длинные информационные блоки читаются без цветового напряжения; бренд остаётся узнаваемым без постоянного полноэкранного оранжевого.",
+      "currentStageMustProve": [
+        "Сохранить палитру и спокойные фоны длинных блоков, таблиц и материалов; в форме читаются текст, согласие и ошибки.",
+        "Оценить полный scroll-ритм короткого входа и содержательных секций. Не превращать каждый следующий блок в большой плакат."
+      ],
+      "externalDependencies": [],
+      "expectedEvidence": [
+        "Full-page visual review",
+        "Form contrast/state report"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/visual-review.md",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        },
+        {
+          "path": "output/research/design-implementation-2026-11-05/computed-colors-browser.json",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "Full-page rhythm accepted in sampled views; not a user preference experiment."
+    },
+    {
+      "id": "VB20",
+      "priority": "P2",
+      "title": "Референсы нужно брать по функции, а не объявлять визуальным идеалом",
+      "classification": "non-actionable",
+      "classificationIsTarget": false,
+      "acceptanceStatus": "not_applicable_with_reason",
+      "baseline": "Это ограничение метода, а не требование копировать референс или отдельный доказанный UI-дефект.",
+      "originalRecommendation": "Заимствовать один полезный принцип за раз: процесс у СТМреференса, товарную идентичность/галерею у Tyson. Форму адаптировать к нашему ассортименту и двум-трём реальным сценариям закупки.",
+      "originalAcceptance": "Каждый заимствованный элемент решает конкретный вопрос покупателя и не добавляет навигацию или информацию только ради сходства с крупным производителем.",
+      "currentStageMustProve": [
+        "Для галереи/процесса/структуры объяснить вопрос покупателя, который они решают. Не копировать мегаменю, сроки, коды или достижения конкурента.",
+        "Каждый новый элемент полезен текущему ассортименту и реальным сценариям, а не добавлен только ради сходства."
+      ],
+      "externalDependencies": [],
+      "expectedEvidence": [
+        "Rationale of borrowed functional patterns in implementation report"
+      ],
+      "acceptedEvidence": [
+        {
+          "path": "output/research/design-implementation-2026-11-05/implementation.md",
+          "scope": "Observed evidence; see report and explicit remainingLimit."
+        }
+      ],
+      "source": "output/research/b2b-audit-2026-11-04/audit.md",
+      "sourceSection": 20,
+      "remainingLimit": "Methodological recommendation retained: gallery/process each answer a buyer question; competitor mega-menu, promises and achievements were not copied."
+    }
+  ],
+  "parallelChangesToPreserve": [
+    {
+      "files": [
+        "output/concept/product-hero.css",
+        "output/concept/assets/product-hero/fibriki-art-v5.webp",
+        "output/concept/assets/product-hero/fibriki-art-v5-layout.json"
+      ],
+      "preserve": "Новый hero: Фибрики первым слайдом, две колонки, защищённая шапка, подписанные табы и новые CTA.",
+      "caution": "Переносить дизайн, сохраняя явные статусы концептов и блокировки неподтверждённых пищевых фактов.",
+      "readOnlySourceHashes": {
+        "output/concept/product-hero.css": "44d66a47f23bb42a0b70a282b6aac72e9adde2cd69828cef19ab4fc49a0bfe67",
+        "output/concept/assets/product-hero/fibriki-art-v5.webp": "1b6cf1a289654f8fabee1b10cb4e8459380cbd4145734e2b287fa8fecabc8513",
+        "output/concept/assets/product-hero/fibriki-art-v5-layout.json": "6cc070d8493ee15aca247c35361b9f9e53c39c45b3923c291094728048fdceaa"
+      }
+    },
+    {
+      "files": [
+        "output/concept/catalogue.css",
+        "output/concept/assets/catalogue-family-v1/family-table-v1.webp"
+      ],
+      "preserve": "Компактная текстовая шапка, полная сетка без фильтров, семейная сцена у каталога.",
+      "caution": "catalogue.js в shared удалён; не возвращать старый интерфейс только ради устаревшего теста.",
+      "readOnlySourceHashes": {
+        "output/concept/catalogue.css": "34a56650b713b1596e4033941f5d2447f8be68c16c3725a1848f020911d42f1f",
+        "output/concept/assets/catalogue-family-v1/family-table-v1.webp": "30785e1c2d2785d53588ce54e2dad77e0fd5addae449bae638c454065a166c47"
+      }
+    },
+    {
+      "files": [
+        "scripts/build_site.py"
+      ],
+      "preserve": "Только необходимые hero/catalogue/family фрагменты.",
+      "caution": "Не заменять генератор целиком: shared версия не включает текущие B2B/private-label/data gates. Новые рекламные подписи сами по себе не подтверждены изготовителем.",
+      "readOnlySourceHashes": {
+        "scripts/build_site.py": "531f895846b1fa9d135c4c8b024a69d7eb4e5fcc7522a123550b5e40421857e0"
+      }
+    }
+  ],
+  "assetWork": {
+    "source": "assets/partners-brand-v1/partner-host-v1.webp",
+    "evidence": "output/research/design-mobile-2026-11-05/partner-host-optimization.json",
+    "rebuild": "python3 scripts/optimize_site_assets.py --partner-only",
+    "integrationOwner": "root: responsive_markup/sizes; эта подзадача меняет только partner derivatives и их entry."
+  },
+  "finalization": {
+    "required": "Для каждой записи добавить фактический acceptanceStatus, acceptedEvidence и remainingLimit. Нельзя использовать одну classification как доказательство закрытия.",
+    "allowedAcceptanceStatuses": [
+      "not_yet_proven_in_current_stage",
+      "passed_local_scope",
+      "partial_explicit_limits",
+      "external_dependency",
+      "kept_and_regression_checked",
+      "not_applicable_with_reason"
+    ],
+    "updatedBy": "root",
+    "report": "output/research/design-implementation-2026-11-05/implementation.md",
+    "completionClaim": "Current implementation delivered; no claim that all original audit criteria, real AT/device or external commercial/publication gates are closed."
+  },
+  "finalizedAt": "2026-11-05",
+  "executionSummary": {
+    "finalGeometries": 966,
+    "widthCount": 42,
+    "pageCount": 23,
+    "postCaptionGeometries": 42,
+    "fontFallbackVisits": 46,
+    "heroSceneChecks": 12,
+    "skuB2BRealTransitions": 16,
+    "normalAndStateOpaqueTextPairs": 274,
+    "contextualPairsNotAutoPassed": 13,
+    "nativeChromeZoom": [
+      200,
+      400
+    ],
+    "actualDpr": [
+      1
+    ],
+    "unverified": [
+      "VoiceOver/NVDA reading",
+      "text-only zoom200 separately",
+      "physical-device touch",
+      "DPR2/3",
+      "shaped mobile network and production p75"
+    ],
+    "interactionVmTests": 37,
+    "motionVmTests": 18,
+    "backendTests": 15
+  }
+}

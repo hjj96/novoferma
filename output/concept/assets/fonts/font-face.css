@@ -20,8 +20,5 @@
   --font-hand: "Novoferma Hand", "Segoe Print", cursive;
 }
 
-/* Suggested roles:
-   h1/h2: font-family: var(--font-display); font-weight: 850;
-   body, labels, buttons: font-family: var(--font-display);
-   short editorial notes only: font-family: var(--font-hand); font-weight: 500;
-*/
+/* Every family is local. Role assignments and accessible fallbacks live in
+   typography.css, loaded after component styles on every page. */

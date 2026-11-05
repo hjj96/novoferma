@@ -1,0 +1,57 @@
+[
+  {
+    "inside": true,
+    "name": "Продукция",
+    "step": "Tab"
+  },
+  {
+    "inside": true,
+    "name": "О нас",
+    "step": "Tab"
+  },
+  {
+    "inside": true,
+    "name": "Партнёрам",
+    "step": "Tab"
+  },
+  {
+    "inside": true,
+    "name": "Контакты",
+    "step": "Tab"
+  },
+  {
+    "inside": true,
+    "name": "Где купить",
+    "step": "Tab"
+  },
+  {
+    "inside": true,
+    "name": "",
+    "step": "Tab"
+  },
+  {
+    "inside": true,
+    "name": "Закрыть меню",
+    "step": "Tab"
+  },
+  {
+    "inside": true,
+    "name": "Продукция",
+    "step": "Tab"
+  },
+  {
+    "inside": true,
+    "name": "Закрыть меню",
+    "step": "Shift+Tab"
+  },
+  {
+    "inside": true,
+    "name": "",
+    "step": "Shift+Tab"
+  },
+  {
+    "focus": "Открыть меню",
+    "open": false,
+    "step": "Escape"
+  }
+]

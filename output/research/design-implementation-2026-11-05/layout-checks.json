@@ -1,0 +1,2342 @@
+[
+  {
+    "route": "index.html",
+    "requestedWidth": 320,
+    "actionBottom": 406.953125,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": 695.953125,
+    "heroTop": 72,
+    "width": 320
+  },
+  {
+    "route": "catalogue.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "about.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "where-to-buy.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "partners.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "private-label.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "contacts.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-kotlety-kurinye.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-bitochki-kurinye-s-ovoshchami.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-kurinyj-popkorn.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-naggetsy-kurinye.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-naggetsy-kurinye-s-syrom.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-naggetsy-dinozavry.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-naggetsy-ostrye.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-naggetsy-s-indeykoy-fitnes.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-stripsy.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-kotlety-po-domashnemu.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-kotlety-pikantnye.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-kotlety-po-italyanski.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-frikadelki-klassicheskie.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-fibriki.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "product-lulia-mini.html",
+    "requestedWidth": 320,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 320,
+    "headerBottom": 72,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 320
+  },
+  {
+    "route": "index.html",
+    "requestedWidth": 390,
+    "actionBottom": 403.4921875,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": 785.46875,
+    "heroTop": 76,
+    "width": 390
+  },
+  {
+    "route": "catalogue.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "about.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "where-to-buy.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "partners.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "private-label.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "contacts.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-kotlety-kurinye.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-bitochki-kurinye-s-ovoshchami.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-kurinyj-popkorn.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-naggetsy-kurinye.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-naggetsy-kurinye-s-syrom.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-naggetsy-dinozavry.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-naggetsy-ostrye.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-naggetsy-s-indeykoy-fitnes.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-stripsy.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-kotlety-po-domashnemu.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-kotlety-pikantnye.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-kotlety-po-italyanski.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-frikadelki-klassicheskie.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-fibriki.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "product-lulia-mini.html",
+    "requestedWidth": 390,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 390,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 390
+  },
+  {
+    "route": "index.html",
+    "requestedWidth": 699,
+    "actionBottom": 458.0390625,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": 798.0390625,
+    "heroTop": 76,
+    "width": 699
+  },
+  {
+    "route": "catalogue.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "about.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "where-to-buy.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "partners.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "private-label.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "contacts.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-kotlety-kurinye.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-bitochki-kurinye-s-ovoshchami.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-kurinyj-popkorn.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-naggetsy-kurinye.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-naggetsy-kurinye-s-syrom.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-naggetsy-dinozavry.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-naggetsy-ostrye.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-naggetsy-s-indeykoy-fitnes.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-stripsy.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-kotlety-po-domashnemu.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-kotlety-pikantnye.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-kotlety-po-italyanski.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-frikadelki-klassicheskie.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-fibriki.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "product-lulia-mini.html",
+    "requestedWidth": 699,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 699,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 699
+  },
+  {
+    "route": "index.html",
+    "requestedWidth": 700,
+    "actionBottom": 483.6484375,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": 596,
+    "heroTop": 76,
+    "width": 700
+  },
+  {
+    "route": "catalogue.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "about.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "where-to-buy.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "partners.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "private-label.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "contacts.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-kotlety-kurinye.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-bitochki-kurinye-s-ovoshchami.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-kurinyj-popkorn.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-naggetsy-kurinye.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-naggetsy-kurinye-s-syrom.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-naggetsy-dinozavry.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-naggetsy-ostrye.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-naggetsy-s-indeykoy-fitnes.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-stripsy.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-kotlety-po-domashnemu.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-kotlety-pikantnye.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-kotlety-po-italyanski.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-frikadelki-klassicheskie.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-fibriki.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "product-lulia-mini.html",
+    "requestedWidth": 700,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 700,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 700
+  },
+  {
+    "route": "index.html",
+    "requestedWidth": 768,
+    "actionBottom": 486.7890625,
+    "clipped": [],
+    "documentWidth": 768,
+    "headerBottom": 76,
+    "heroBottom": 596,
+    "heroTop": 76,
+    "width": 768
+  },
+  {
+    "route": "catalogue.html",
+    "requestedWidth": 768,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 768,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 768
+  },
+  {
+    "route": "about.html",
+    "requestedWidth": 768,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 768,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 768
+  },
+  {
+    "route": "where-to-buy.html",
+    "requestedWidth": 768,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 768,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 768
+  },
+  {
+    "route": "partners.html",
+    "requestedWidth": 768,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 768,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 768
+  },
+  {
+    "route": "private-label.html",
+    "requestedWidth": 768,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 768,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 768
+  },
+  {
+    "route": "contacts.html",
+    "requestedWidth": 768,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 768,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 768
+  },
+  {
+    "route": "product-kotlety-kurinye.html",
+    "requestedWidth": 768,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 768,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 768
+  },
+  {
+    "route": "product-bitochki-kurinye-s-ovoshchami.html",
+    "requestedWidth": 768,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 768,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 768
+  },
+  {
+    "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "requestedWidth": 768,
+    "actionBottom": null,
+    "clipped": [],
+    "documentWidth": 768,
+    "headerBottom": 76,
+    "heroBottom": null,
+    "heroTop": null,
+    "width": 768
+  },
+  {
+    "route": "product-kurinyj-popkorn.html",
+    "requestedWidth": 768,
+    "clipped": [],
+    "documentWidth": 768,
+    "width": 768
+  },
+  {
+    "route": "product-naggetsy-kurinye.html",
+    "requestedWidth": 768,
+    "clipped": [],
+    "documentWidth": 768,
+    "width": 768
+  },
+  {
+    "route": "product-naggetsy-kurinye-s-syrom.html",
+    "requestedWidth": 768,
+    "clipped": [],
+    "documentWidth": 768,
+    "width": 768
+  },
+  {
+    "route": "product-naggetsy-dinozavry.html",
+    "requestedWidth": 768,
+    "clipped": [],
+    "documentWidth": 768,
+    "width": 768
+  },
+  {
+    "route": "product-naggetsy-ostrye.html",
+    "requestedWidth": 768,
+    "clipped": [],
+    "documentWidth": 768,
+    "width": 768
+  },
+  {
+    "route": "product-naggetsy-s-indeykoy-fitnes.html",
+    "requestedWidth": 768,
+    "clipped": [],
+    "documentWidth": 768,
+    "width": 768
+  },
+  {
+    "route": "product-stripsy.html",
+    "requestedWidth": 768,
+    "clipped": [],
+    "documentWidth": 768,
+    "width": 768
+  },
+  {
+    "route": "product-kotlety-po-domashnemu.html",
+    "requestedWidth": 768,
+    "clipped": [],
+    "documentWidth": 768,
+    "width": 768
+  },
+  {
+    "route": "product-kotlety-pikantnye.html",
+    "requestedWidth": 768,
+    "clipped": [],
+    "documentWidth": 768,
+    "width": 768
+  },
+  {
+    "route": "product-kotlety-po-italyanski.html",
+    "requestedWidth": 768,
+    "clipped": [],
+    "documentWidth": 768,
+    "width": 768
+  },
+  {
+    "route": "product-frikadelki-klassicheskie.html",
+    "requestedWidth": 768,
+    "clipped": [],
+    "documentWidth": 768,
+    "width": 768
+  },
+  {
+    "route": "product-fibriki.html",
+    "requestedWidth": 768,
+    "clipped": [],
+    "documentWidth": 768,
+    "width": 768
+  },
+  {
+    "route": "product-lulia-mini.html",
+    "requestedWidth": 768,
+    "clipped": [],
+    "documentWidth": 768,
+    "width": 768
+  },
+  {
+    "route": "index.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "catalogue.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "about.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "where-to-buy.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "partners.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "private-label.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "contacts.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-kotlety-kurinye.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-bitochki-kurinye-s-ovoshchami.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-kurinyj-popkorn.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-naggetsy-kurinye.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-naggetsy-kurinye-s-syrom.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-naggetsy-dinozavry.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-naggetsy-ostrye.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-naggetsy-s-indeykoy-fitnes.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-stripsy.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-kotlety-po-domashnemu.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-kotlety-pikantnye.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-kotlety-po-italyanski.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-frikadelki-klassicheskie.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-fibriki.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "product-lulia-mini.html",
+    "requestedWidth": 899,
+    "clipped": [],
+    "documentWidth": 899,
+    "width": 899
+  },
+  {
+    "route": "index.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "catalogue.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "about.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "where-to-buy.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "partners.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "private-label.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "contacts.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-kotlety-kurinye.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-bitochki-kurinye-s-ovoshchami.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-kurinyj-popkorn.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-naggetsy-kurinye.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-naggetsy-kurinye-s-syrom.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-naggetsy-dinozavry.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-naggetsy-ostrye.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-naggetsy-s-indeykoy-fitnes.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-stripsy.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-kotlety-po-domashnemu.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-kotlety-pikantnye.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-kotlety-po-italyanski.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-frikadelki-klassicheskie.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-fibriki.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "product-lulia-mini.html",
+    "requestedWidth": 900,
+    "clipped": [],
+    "documentWidth": 900,
+    "width": 900
+  },
+  {
+    "route": "index.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "catalogue.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "about.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "where-to-buy.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "partners.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "private-label.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "contacts.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-kotlety-kurinye.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-bitochki-kurinye-s-ovoshchami.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-kurinyj-popkorn.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-naggetsy-kurinye.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-naggetsy-kurinye-s-syrom.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-naggetsy-dinozavry.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-naggetsy-ostrye.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-naggetsy-s-indeykoy-fitnes.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-stripsy.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-kotlety-po-domashnemu.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-kotlety-pikantnye.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-kotlety-po-italyanski.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-frikadelki-klassicheskie.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-fibriki.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "product-lulia-mini.html",
+    "requestedWidth": 1024,
+    "clipped": [],
+    "documentWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "index.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "catalogue.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "about.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "where-to-buy.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "partners.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "private-label.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "contacts.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-kotlety-kurinye.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-bitochki-kurinye-s-ovoshchami.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-kurinyj-popkorn.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-naggetsy-kurinye.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-naggetsy-kurinye-s-syrom.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-naggetsy-dinozavry.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-naggetsy-ostrye.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-naggetsy-s-indeykoy-fitnes.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-stripsy.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-kotlety-po-domashnemu.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-kotlety-pikantnye.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-kotlety-po-italyanski.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-frikadelki-klassicheskie.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-fibriki.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "product-lulia-mini.html",
+    "requestedWidth": 1099,
+    "clipped": [],
+    "documentWidth": 1099,
+    "width": 1099
+  },
+  {
+    "route": "index.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "catalogue.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "about.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "where-to-buy.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "partners.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "private-label.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "contacts.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-kotlety-kurinye.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-bitochki-kurinye-s-ovoshchami.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-kurinyj-popkorn.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-naggetsy-kurinye.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-naggetsy-kurinye-s-syrom.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-naggetsy-dinozavry.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-naggetsy-ostrye.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-naggetsy-s-indeykoy-fitnes.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-stripsy.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-kotlety-po-domashnemu.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-kotlety-pikantnye.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-kotlety-po-italyanski.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-frikadelki-klassicheskie.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-fibriki.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "product-lulia-mini.html",
+    "requestedWidth": 1100,
+    "clipped": [],
+    "documentWidth": 1100,
+    "width": 1100
+  },
+  {
+    "route": "index.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "catalogue.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "about.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "where-to-buy.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "partners.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "private-label.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "contacts.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-kotlety-kurinye.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-bitochki-kurinye-s-ovoshchami.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-kurinyj-popkorn.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-naggetsy-kurinye.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-naggetsy-kurinye-s-syrom.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-naggetsy-dinozavry.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-naggetsy-ostrye.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-naggetsy-s-indeykoy-fitnes.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-stripsy.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-kotlety-po-domashnemu.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-kotlety-pikantnye.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-kotlety-po-italyanski.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-frikadelki-klassicheskie.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-fibriki.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "product-lulia-mini.html",
+    "requestedWidth": 1280,
+    "clipped": [],
+    "documentWidth": 1280,
+    "width": 1280
+  },
+  {
+    "route": "index.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "catalogue.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "about.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "where-to-buy.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "partners.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "private-label.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "contacts.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-kotlety-kurinye.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-bitochki-kurinye-s-ovoshchami.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-kurinyj-popkorn.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-naggetsy-kurinye.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-naggetsy-kurinye-s-syrom.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-naggetsy-dinozavry.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-naggetsy-ostrye.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-naggetsy-s-indeykoy-fitnes.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-stripsy.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-kotlety-po-domashnemu.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-kotlety-pikantnye.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-kotlety-po-italyanski.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-frikadelki-klassicheskie.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-fibriki.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "product-lulia-mini.html",
+    "requestedWidth": 1440,
+    "clipped": [],
+    "documentWidth": 1440,
+    "width": 1440
+  }
+]

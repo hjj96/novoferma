@@ -106,8 +106,7 @@
  .contacts-bottom{padding-right:85px}.requisites{padding-top:56px}
 }
 
-@media(prefers-reduced-motion:reduce){
+@media(prefers-reduced-motion:reduce),(max-width:899px),(hover:none),(pointer:coarse){
  .depth-motion{--depth-y:0px!important;--depth-turn:0deg!important}
- .tilt-plane{--tilt-x:0deg!important;--tilt-y:0deg!important;--tilt-lift:0px!important}
- 
+ .tilt-plane{--tilt-x:0deg!important;--tilt-y:0deg!important;--tilt-lift:0px!important;transition:none}
 }

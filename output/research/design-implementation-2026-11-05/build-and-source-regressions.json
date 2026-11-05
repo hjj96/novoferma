@@ -1,0 +1,143 @@
+{
+  "reproducibleHtmlPages": 23,
+  "unpairedV5Guards": [
+    {
+      "missing": "layout",
+      "result": "pass"
+    },
+    {
+      "missing": "image",
+      "result": "pass"
+    }
+  ],
+  "servingImageMappings": [
+    {
+      "id": "kotlety-kurinye",
+      "image": "assets/catalogue/kotlety-kurinye-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/kotlety-kurinye/156-2_600x600.jpg",
+      "size": [
+        600,
+        600
+      ]
+    },
+    {
+      "id": "bitochki-kurinye-s-ovoshchami",
+      "image": "assets/catalogue/bitochki-kurinye-s-ovoshchami-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/bitochki-kurinye-s-ovoshchami/041_600x600.jpg",
+      "size": [
+        600,
+        600
+      ]
+    },
+    {
+      "id": "ezhiki-iz-tsyplenka-s-risom",
+      "image": "assets/catalogue/ezhiki-iz-tsyplenka-s-risom-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/jozhiki/208-2_600x600.jpg",
+      "size": [
+        600,
+        600
+      ]
+    },
+    {
+      "id": "kurinyj-popkorn",
+      "image": "assets/catalogue/kurinyj-popkorn-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/kurinyj-popkorn/165-1_600x600.jpg",
+      "size": [
+        600,
+        600
+      ]
+    },
+    {
+      "id": "naggetsy-kurinye",
+      "image": "assets/catalogue/naggetsy-kurinye-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/naggetsy-kurinye/127-2_600x600.jpg",
+      "size": [
+        600,
+        600
+      ]
+    },
+    {
+      "id": "naggetsy-kurinye-s-syrom",
+      "image": "assets/catalogue/naggetsy-kurinye-s-syrom-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/naggetsy-kurinye-4/031-1_600x600.jpg",
+      "size": [
+        600,
+        600
+      ]
+    },
+    {
+      "id": "naggetsy-dinozavry",
+      "image": "assets/catalogue/naggetsy-dinozavry-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/naggetsy-kurinye-2/028-2_600x600.jpg",
+      "size": [
+        600,
+        600
+      ]
+    },
+    {
+      "id": "naggetsy-ostrye",
+      "image": "assets/catalogue/naggetsy-ostrye-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/naggetsy-kurinye-3/029-1_600x600.jpg",
+      "size": [
+        600,
+        600
+      ]
+    },
+    {
+      "id": "naggetsy-s-indeykoy-fitnes",
+      "image": "assets/catalogue/naggetsy-s-indeykoy-fitnes-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/naggetsy-s-indejkoj/033-1_600x600.jpg",
+      "size": [
+        600,
+        600
+      ]
+    },
+    {
+      "id": "stripsy",
+      "image": "assets/catalogue/stripsy-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/stripsy/140-2_600x600.jpg",
+      "size": [
+        600,
+        600
+      ]
+    },
+    {
+      "id": "kotlety-po-domashnemu",
+      "image": "assets/catalogue/kotlety-po-domashnemu-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/kotlety-po-domashnemu/161-2_600x600.jpg",
+      "size": [
+        600,
+        600
+      ]
+    },
+    {
+      "id": "kotlety-pikantnye",
+      "image": "assets/catalogue/kotlety-pikantnye-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/kotlety-pikantnye/166-2_600x600.jpg",
+      "size": [
+        600,
+        600
+      ]
+    },
+    {
+      "id": "kotlety-po-italyanski",
+      "image": "assets/catalogue/kotlety-po-italyanski-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/kotlety-po-italyanski/159-2_600x600.jpg",
+      "size": [
+        600,
+        600
+      ]
+    },
+    {
+      "id": "frikadelki-klassicheskie",
+      "image": "assets/catalogue/frikadelki-klassicheskie-serving.webp",
+      "source": "https://novoferma.ru/images/spsimpleportfolio/frikadelki/134-2_600x600.jpg",
+      "size": [
+        600,
+        600
+      ]
+    }
+  ],
+  "conceptServingImagesAbsent": true,
+  "result": "pass"
+}

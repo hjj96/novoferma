@@ -1,0 +1,38 @@
+[
+  {
+    "id": "scene-fibriki",
+    "scrollY": 0
+  },
+  {
+    "id": "scene-meatballs",
+    "scrollY": 0
+  },
+  {
+    "id": "scene-nuggets",
+    "scrollY": 0
+  },
+  {
+    "id": "scene-lulia-mini",
+    "scrollY": 0
+  },
+  {
+    "id": "scene-fibriki",
+    "scrollY": 0,
+    "width": 320
+  },
+  {
+    "id": "scene-meatballs",
+    "scrollY": 0,
+    "width": 320
+  },
+  {
+    "id": "scene-nuggets",
+    "scrollY": 0,
+    "width": 320
+  },
+  {
+    "id": "scene-lulia-mini",
+    "scrollY": 0,
+    "width": 320
+  }
+]

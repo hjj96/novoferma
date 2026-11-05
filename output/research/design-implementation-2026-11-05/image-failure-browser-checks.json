@@ -1,0 +1,1255 @@
+[
+  {
+    "failedArt": true,
+    "focus": "pick-meatballs",
+    "link": "product-frikadelki-klassicheskie.html",
+    "mode": "images-404",
+    "panel": "scene-meatballs"
+  },
+  {
+    "failedArt": true,
+    "focus": "pick-lulia-mini",
+    "link": "product-lulia-mini.html",
+    "mode": "images-404",
+    "panel": "scene-lulia-mini"
+  },
+  {
+    "failedArt": true,
+    "focus": "pick-nuggets",
+    "link": "product-naggetsy-kurinye.html",
+    "mode": "images-404",
+    "panel": "scene-nuggets"
+  },
+  {
+    "action": "Запросить условия",
+    "h1": "Дело со вкусом.",
+    "href": "#partner-contact",
+    "mode": "partners-images-404",
+    "offer": "Замороженные продукты из курицы и индейки для вашей полки, меню или собственной марки.",
+    "qa": {
+      "cls": 0.08003581995390155,
+      "decodedBodySize": 494483,
+      "encodedBodySize": 494483,
+      "fontSetStatus": "loaded",
+      "fonts": [
+        {
+          "family": "Novoferma Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Hand",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Poster",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Protein",
+          "status": "loaded"
+        }
+      ],
+      "layoutShiftCount": 2,
+      "lcp": {
+        "id": "formats-heading",
+        "loadTime": 0,
+        "renderTime": 68,
+        "size": 32883,
+        "startTime": 68,
+        "tagName": "H2",
+        "url": ""
+      },
+      "navigation": {
+        "domContentLoadedEventEnd": 46.099999994039536,
+        "encodedBodySize": 22069,
+        "loadEventEnd": 57,
+        "responseStart": 3.900000005960465,
+        "startTime": 0,
+        "transferSize": 22369,
+        "type": "navigate"
+      },
+      "observerErrors": [],
+      "resourceCount": 24,
+      "resourceListLimit": 300,
+      "resources": [
+        {
+          "decodedBodySize": 651,
+          "duration": 10.300000011920927,
+          "encodedBodySize": 651,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8775/assets/fonts/font-face.css?v=4ab22c3bae",
+          "responseStatus": 200,
+          "startTime": 9.699999988079073,
+          "transferSize": 951
+        },
+        {
+          "decodedBodySize": 31635,
+          "duration": 10.699999988079073,
+          "encodedBodySize": 31635,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8775/style.css?v=aeca8820c8",
+          "responseStatus": 200,
+          "startTime": 9.900000005960464,
+          "transferSize": 31935
+        },
+        {
+          "decodedBodySize": 5284,
+          "duration": 10.399999976158142,
+          "encodedBodySize": 5284,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8775/depth.css?v=38a885c665",
+          "responseStatus": 200,
+          "startTime": 9.900000005960464,
+          "transferSize": 5584
+        },
+        {
+          "decodedBodySize": 5064,
+          "duration": 14.099999994039536,
+          "encodedBodySize": 5064,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8775/motion.css?v=ad822dccd3",
+          "responseStatus": 200,
+          "startTime": 9.900000005960464,
+          "transferSize": 5364
+        },
+        {
+          "decodedBodySize": 21956,
+          "duration": 12.899999976158142,
+          "encodedBodySize": 21956,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8775/polish.css?v=0015d3dc42",
+          "responseStatus": 200,
+          "startTime": 9.900000005960464,
+          "transferSize": 22256
+        },
+        {
+          "decodedBodySize": 6438,
+          "duration": 16.799999982118607,
+          "encodedBodySize": 6438,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8775/design-system.css?v=e290db3c19",
+          "responseStatus": 200,
+          "startTime": 9.900000005960464,
+          "transferSize": 6738
+        },
+        {
+          "decodedBodySize": 5849,
+          "duration": 13.599999994039536,
+          "encodedBodySize": 5849,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8775/mobile.css?v=3a933c2e36",
+          "responseStatus": 200,
+          "startTime": 10,
+          "transferSize": 6149
+        },
+        {
+          "decodedBodySize": 10936,
+          "duration": 15,
+          "encodedBodySize": 10936,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8775/b2b.css?v=42a1426cb9",
+          "responseStatus": 200,
+          "startTime": 10,
+          "transferSize": 11236
+        },
+        {
+          "decodedBodySize": 11772,
+          "duration": 17,
+          "encodedBodySize": 11772,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8775/partners-scenes.css?v=86dda0e7e2",
+          "responseStatus": 200,
+          "startTime": 10,
+          "transferSize": 12072
+        },
+        {
+          "decodedBodySize": 472,
+          "duration": 19.099999994039536,
+          "encodedBodySize": 472,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8775/assets/logo-reference.webp",
+          "responseStatus": 404,
+          "startTime": 10,
+          "transferSize": 772
+        },
+        {
+          "decodedBodySize": 2730,
+          "duration": 18.900000005960464,
+          "encodedBodySize": 2730,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8775/typography.css?v=a04c6a4feb",
+          "responseStatus": 200,
+          "startTime": 10,
+          "transferSize": 3030
+        },
+        {
+          "decodedBodySize": 472,
+          "duration": 15.800000011920927,
+          "encodedBodySize": 472,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8775/assets/responsive/partners/partner-host-v1-240-q90-283eb84c.webp",
+          "responseStatus": 404,
+          "startTime": 10.099999994039536,
+          "transferSize": 772
+        },
+        {
+          "decodedBodySize": 7957,
+          "duration": 21.69999998807907,
+          "encodedBodySize": 7957,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8775/script.js?v=1c50fcee82",
+          "responseStatus": 200,
+          "startTime": 9.900000005960464,
+          "transferSize": 8257
+        },
+        {
+          "decodedBodySize": 7017,
+          "duration": 22.099999994039536,
+          "encodedBodySize": 7017,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8775/depth.js?v=49a230a53b",
+          "responseStatus": 200,
+          "startTime": 10,
+          "transferSize": 7317
+        },
+        {
+          "decodedBodySize": 11830,
+          "duration": 25.799999982118607,
+          "encodedBodySize": 11830,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8775/partners-scenes.js?v=82cd53b4af",
+          "responseStatus": 200,
+          "startTime": 10,
+          "transferSize": 12130
+        },
+        {
+          "decodedBodySize": 472,
+          "duration": 30.900000005960464,
+          "encodedBodySize": 472,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8775/assets/icons/arrow-up-right.svg",
+          "responseStatus": 404,
+          "startTime": 10.099999994039536,
+          "transferSize": 772
+        },
+        {
+          "decodedBodySize": 472,
+          "duration": 31,
+          "encodedBodySize": 472,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8775/assets/icons/menu-2.svg",
+          "responseStatus": 404,
+          "startTime": 10.099999994039536,
+          "transferSize": 772
+        },
+        {
+          "decodedBodySize": 472,
+          "duration": 31.099999994039536,
+          "encodedBodySize": 472,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8775/assets/icons/x.svg",
+          "responseStatus": 404,
+          "startTime": 10.099999994039536,
+          "transferSize": 772
+        },
+        {
+          "decodedBodySize": 472,
+          "duration": 31.19999998807907,
+          "encodedBodySize": 472,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8775/assets/icons/arrow-up.svg",
+          "responseStatus": 404,
+          "startTime": 10.099999994039536,
+          "transferSize": 772
+        },
+        {
+          "decodedBodySize": 472,
+          "duration": 8.599999994039536,
+          "encodedBodySize": 472,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8775/assets/logo-reference.webp",
+          "responseStatus": 404,
+          "startTime": 32.69999998807907,
+          "transferSize": 772
+        },
+        {
+          "decodedBodySize": 84076,
+          "duration": 12.5,
+          "encodedBodySize": 84076,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8775/assets/fonts/Onest-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 33.400000005960464,
+          "transferSize": 84376
+        },
+        {
+          "decodedBodySize": 38644,
+          "duration": 11.100000023841858,
+          "encodedBodySize": 38644,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8775/assets/fonts/RobotoFlex-Protein.woff2",
+          "responseStatus": 200,
+          "startTime": 34.29999998211861,
+          "transferSize": 38944
+        },
+        {
+          "decodedBodySize": 65868,
+          "duration": 11.599999994039536,
+          "encodedBodySize": 65868,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8775/assets/fonts/Rubik-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 34.400000005960464,
+          "transferSize": 66168
+        },
+        {
+          "decodedBodySize": 173472,
+          "duration": 11.900000005960464,
+          "encodedBodySize": 173472,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8775/assets/fonts/Caveat-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 34.5,
+          "transferSize": 173772
+        }
+      ],
+      "scope": "local single-visit QA; not field CWV",
+      "supported": [
+        "element",
+        "event",
+        "first-input",
+        "interaction-contentful-paint",
+        "largest-contentful-paint",
+        "layout-shift",
+        "long-animation-frame",
+        "longtask",
+        "mark",
+        "measure",
+        "navigation",
+        "paint",
+        "resource",
+        "soft-navigation",
+        "visibility-state"
+      ],
+      "transferSize": 501683
+    }
+  },
+  {
+    "focus": "pick-nuggets",
+    "imageComplete": false,
+    "link": "product-fibriki.html",
+    "mode": "slow-2500ms-rapid",
+    "panel": "scene-fibriki",
+    "qa": {
+      "cls": 0,
+      "decodedBodySize": 861785,
+      "encodedBodySize": 861785,
+      "fontSetStatus": "loaded",
+      "fonts": [
+        {
+          "family": "Novoferma Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Hand",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Poster",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Protein",
+          "status": "loaded"
+        }
+      ],
+      "layoutShiftCount": 0,
+      "lcp": {
+        "id": "",
+        "loadTime": 40,
+        "renderTime": 96,
+        "size": 276692,
+        "startTime": 96,
+        "tagName": "IMG",
+        "url": "http://127.0.0.1:8776/assets/product-hero/background-v2.webp?v=b9fdef9d25"
+      },
+      "navigation": {
+        "domContentLoadedEventEnd": 0,
+        "encodedBodySize": 28627,
+        "loadEventEnd": 0,
+        "responseStart": 6,
+        "startTime": 0,
+        "transferSize": 28927,
+        "type": "navigate"
+      },
+      "observerErrors": [],
+      "resourceCount": 36,
+      "resourceListLimit": 300,
+      "resources": [
+        {
+          "decodedBodySize": 651,
+          "duration": 10.700000017881392,
+          "encodedBodySize": 651,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/assets/fonts/font-face.css?v=4ab22c3bae",
+          "responseStatus": 200,
+          "startTime": 13.599999994039536,
+          "transferSize": 951
+        },
+        {
+          "decodedBodySize": 5284,
+          "duration": 12.099999994039536,
+          "encodedBodySize": 5284,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/depth.css?v=38a885c665",
+          "responseStatus": 200,
+          "startTime": 13.800000011920927,
+          "transferSize": 5584
+        },
+        {
+          "decodedBodySize": 31635,
+          "duration": 11.599999994039536,
+          "encodedBodySize": 31635,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/style.css?v=aeca8820c8",
+          "responseStatus": 200,
+          "startTime": 13.800000011920927,
+          "transferSize": 31935
+        },
+        {
+          "decodedBodySize": 6438,
+          "duration": 13.399999976158142,
+          "encodedBodySize": 6438,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/design-system.css?v=e290db3c19",
+          "responseStatus": 200,
+          "startTime": 13.800000011920927,
+          "transferSize": 6738
+        },
+        {
+          "decodedBodySize": 21956,
+          "duration": 14.699999988079073,
+          "encodedBodySize": 21956,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/polish.css?v=0015d3dc42",
+          "responseStatus": 200,
+          "startTime": 13.800000011920927,
+          "transferSize": 22256
+        },
+        {
+          "decodedBodySize": 5064,
+          "duration": 14.899999976158142,
+          "encodedBodySize": 5064,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/motion.css?v=ad822dccd3",
+          "responseStatus": 200,
+          "startTime": 13.800000011920927,
+          "transferSize": 5364
+        },
+        {
+          "decodedBodySize": 9353,
+          "duration": 14.900000005960464,
+          "encodedBodySize": 9353,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/product-hero.css?v=4dd654ed75",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 9653
+        },
+        {
+          "decodedBodySize": 5849,
+          "duration": 16.099999994039536,
+          "encodedBodySize": 5849,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/mobile.css?v=3a933c2e36",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 6149
+        },
+        {
+          "decodedBodySize": 3164,
+          "duration": 16.69999998807907,
+          "encodedBodySize": 3164,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/protein-story.css?v=340321c8cb",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 3464
+        },
+        {
+          "decodedBodySize": 6645,
+          "duration": 17.799999982118607,
+          "encodedBodySize": 6645,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/home-unified.css?v=e1bc5da176",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 6945
+        },
+        {
+          "decodedBodySize": 4049,
+          "duration": 18.400000005960464,
+          "encodedBodySize": 4049,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/product-cards.css?v=e03f3af964",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 4349
+        },
+        {
+          "decodedBodySize": 10936,
+          "duration": 19.400000005960464,
+          "encodedBodySize": 10936,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/b2b.css?v=42a1426cb9",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 11236
+        },
+        {
+          "decodedBodySize": 2730,
+          "duration": 20.099999994039536,
+          "encodedBodySize": 2730,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/typography.css?v=a04c6a4feb",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 3030
+        },
+        {
+          "decodedBodySize": 4156,
+          "duration": 21.900000005960464,
+          "encodedBodySize": 4156,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/logo-reference.webp",
+          "responseStatus": 200,
+          "startTime": 14,
+          "transferSize": 4456
+        },
+        {
+          "decodedBodySize": 44500,
+          "duration": 21.900000005960464,
+          "encodedBodySize": 44500,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/product-hero/background-v2.webp?v=b9fdef9d25",
+          "responseStatus": 200,
+          "startTime": 14,
+          "transferSize": 44800
+        },
+        {
+          "decodedBodySize": 7957,
+          "duration": 26.19999998807907,
+          "encodedBodySize": 7957,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8776/script.js?v=1c50fcee82",
+          "responseStatus": 200,
+          "startTime": 13.800000011920927,
+          "transferSize": 8257
+        },
+        {
+          "decodedBodySize": 7017,
+          "duration": 26.5,
+          "encodedBodySize": 7017,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8776/depth.js?v=49a230a53b",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 7317
+        },
+        {
+          "decodedBodySize": 6899,
+          "duration": 26.900000005960464,
+          "encodedBodySize": 6899,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8776/product-hero.js?v=e50577848c",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 7199
+        },
+        {
+          "decodedBodySize": 40316,
+          "duration": 27,
+          "encodedBodySize": 40316,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+          "responseStatus": 200,
+          "startTime": 14,
+          "transferSize": 40616
+        },
+        {
+          "decodedBodySize": 438,
+          "duration": 30.400000005960464,
+          "encodedBodySize": 438,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/icons/menu-2.svg",
+          "responseStatus": 200,
+          "startTime": 14,
+          "transferSize": 738
+        },
+        {
+          "decodedBodySize": 430,
+          "duration": 31.19999998807907,
+          "encodedBodySize": 430,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/icons/arrow-up-right.svg",
+          "responseStatus": 200,
+          "startTime": 14,
+          "transferSize": 730
+        },
+        {
+          "decodedBodySize": 406,
+          "duration": 30.80000001192093,
+          "encodedBodySize": 406,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/icons/x.svg",
+          "responseStatus": 200,
+          "startTime": 14,
+          "transferSize": 706
+        },
+        {
+          "decodedBodySize": 428,
+          "duration": 31.400000005960464,
+          "encodedBodySize": 428,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/icons/arrow-right.svg",
+          "responseStatus": 200,
+          "startTime": 14,
+          "transferSize": 728
+        },
+        {
+          "decodedBodySize": 433,
+          "duration": 31.200000017881393,
+          "encodedBodySize": 433,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/icons/arrow-left.svg",
+          "responseStatus": 200,
+          "startTime": 14.099999994039536,
+          "transferSize": 733
+        },
+        {
+          "decodedBodySize": 421,
+          "duration": 34.900000005960464,
+          "encodedBodySize": 421,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/icons/arrow-up.svg",
+          "responseStatus": 200,
+          "startTime": 14.099999994039536,
+          "transferSize": 721
+        },
+        {
+          "decodedBodySize": 430,
+          "duration": 6.5999999940395355,
+          "encodedBodySize": 430,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8776/assets/icons/arrow-up-right.svg",
+          "responseStatus": 200,
+          "startTime": 41.400000005960464,
+          "transferSize": 730
+        },
+        {
+          "decodedBodySize": 47402,
+          "duration": 4.700000017881393,
+          "encodedBodySize": 47402,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/packshots/naggetsy-kurinye-400-q94-712fb649.webp",
+          "responseStatus": 200,
+          "startTime": 45.599999994039536,
+          "transferSize": 47702
+        },
+        {
+          "decodedBodySize": 52282,
+          "duration": 6.0999999940395355,
+          "encodedBodySize": 52282,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/packshots/kurinyj-popkorn-400-q94-d707c51a.webp",
+          "responseStatus": 200,
+          "startTime": 45.599999994039536,
+          "transferSize": 52582
+        },
+        {
+          "decodedBodySize": 47964,
+          "duration": 7.599999994039536,
+          "encodedBodySize": 47964,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/packshots/stripsy-400-q94-04f43af0.webp",
+          "responseStatus": 200,
+          "startTime": 45.599999994039536,
+          "transferSize": 48264
+        },
+        {
+          "decodedBodySize": 84076,
+          "duration": 14.699999988079073,
+          "encodedBodySize": 84076,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8776/assets/fonts/Onest-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 39,
+          "transferSize": 84376
+        },
+        {
+          "decodedBodySize": 38644,
+          "duration": 17.19999998807907,
+          "encodedBodySize": 38644,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8776/assets/fonts/RobotoFlex-Protein.woff2",
+          "responseStatus": 200,
+          "startTime": 40,
+          "transferSize": 38944
+        },
+        {
+          "decodedBodySize": 65868,
+          "duration": 15.5,
+          "encodedBodySize": 65868,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8776/assets/fonts/Rubik-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 40,
+          "transferSize": 66168
+        },
+        {
+          "decodedBodySize": 173472,
+          "duration": 17.19999998807907,
+          "encodedBodySize": 173472,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8776/assets/fonts/Caveat-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 40.30000001192093,
+          "transferSize": 173772
+        },
+        {
+          "decodedBodySize": 47916,
+          "duration": 13.200000017881392,
+          "encodedBodySize": 47916,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/packshots/frikadelki-klassicheskie-400-q94-e0ef4bbb.webp",
+          "responseStatus": 200,
+          "startTime": 45.599999994039536,
+          "transferSize": 48216
+        },
+        {
+          "decodedBodySize": 31708,
+          "duration": 13.599999994039536,
+          "encodedBodySize": 31708,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/illustrations/nuggets-layer-v2-400-q90-a648c271.webp",
+          "responseStatus": 200,
+          "startTime": 45.599999994039536,
+          "transferSize": 32008
+        },
+        {
+          "decodedBodySize": 44868,
+          "duration": 14.400000005960464,
+          "encodedBodySize": 44868,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/illustrations/hen-layer-v2-400-q90-bd32bcef.webp",
+          "responseStatus": 200,
+          "startTime": 45.599999994039536,
+          "transferSize": 45168
+        }
+      ],
+      "scope": "local single-visit QA; not field CWV",
+      "supported": [
+        "element",
+        "event",
+        "first-input",
+        "interaction-contentful-paint",
+        "largest-contentful-paint",
+        "layout-shift",
+        "long-animation-frame",
+        "longtask",
+        "mark",
+        "measure",
+        "navigation",
+        "paint",
+        "resource",
+        "soft-navigation",
+        "visibility-state"
+      ],
+      "transferSize": 872585
+    }
+  },
+  {
+    "focus": "pick-nuggets",
+    "imageComplete": true,
+    "link": "product-naggetsy-kurinye.html",
+    "mode": "slow-2500ms-rapid-settled",
+    "panel": "scene-nuggets",
+    "qa": {
+      "cls": 0,
+      "decodedBodySize": 1075666,
+      "encodedBodySize": 1075666,
+      "fontSetStatus": "loaded",
+      "fonts": [
+        {
+          "family": "Novoferma Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Hand",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Poster",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Protein",
+          "status": "loaded"
+        }
+      ],
+      "layoutShiftCount": 0,
+      "lcp": {
+        "id": "",
+        "loadTime": 40,
+        "renderTime": 96,
+        "size": 276692,
+        "startTime": 96,
+        "tagName": "IMG",
+        "url": "http://127.0.0.1:8776/assets/product-hero/background-v2.webp?v=b9fdef9d25"
+      },
+      "navigation": {
+        "domContentLoadedEventEnd": 53.900000005960464,
+        "encodedBodySize": 28627,
+        "loadEventEnd": 3289,
+        "responseStart": 6,
+        "startTime": 0,
+        "transferSize": 28927,
+        "type": "navigate"
+      },
+      "observerErrors": [],
+      "resourceCount": 41,
+      "resourceListLimit": 300,
+      "resources": [
+        {
+          "decodedBodySize": 651,
+          "duration": 10.700000017881392,
+          "encodedBodySize": 651,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/assets/fonts/font-face.css?v=4ab22c3bae",
+          "responseStatus": 200,
+          "startTime": 13.599999994039536,
+          "transferSize": 951
+        },
+        {
+          "decodedBodySize": 5284,
+          "duration": 12.099999994039536,
+          "encodedBodySize": 5284,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/depth.css?v=38a885c665",
+          "responseStatus": 200,
+          "startTime": 13.800000011920927,
+          "transferSize": 5584
+        },
+        {
+          "decodedBodySize": 31635,
+          "duration": 11.599999994039536,
+          "encodedBodySize": 31635,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/style.css?v=aeca8820c8",
+          "responseStatus": 200,
+          "startTime": 13.800000011920927,
+          "transferSize": 31935
+        },
+        {
+          "decodedBodySize": 6438,
+          "duration": 13.399999976158142,
+          "encodedBodySize": 6438,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/design-system.css?v=e290db3c19",
+          "responseStatus": 200,
+          "startTime": 13.800000011920927,
+          "transferSize": 6738
+        },
+        {
+          "decodedBodySize": 21956,
+          "duration": 14.699999988079073,
+          "encodedBodySize": 21956,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/polish.css?v=0015d3dc42",
+          "responseStatus": 200,
+          "startTime": 13.800000011920927,
+          "transferSize": 22256
+        },
+        {
+          "decodedBodySize": 5064,
+          "duration": 14.899999976158142,
+          "encodedBodySize": 5064,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/motion.css?v=ad822dccd3",
+          "responseStatus": 200,
+          "startTime": 13.800000011920927,
+          "transferSize": 5364
+        },
+        {
+          "decodedBodySize": 9353,
+          "duration": 14.900000005960464,
+          "encodedBodySize": 9353,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/product-hero.css?v=4dd654ed75",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 9653
+        },
+        {
+          "decodedBodySize": 5849,
+          "duration": 16.099999994039536,
+          "encodedBodySize": 5849,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/mobile.css?v=3a933c2e36",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 6149
+        },
+        {
+          "decodedBodySize": 3164,
+          "duration": 16.69999998807907,
+          "encodedBodySize": 3164,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/protein-story.css?v=340321c8cb",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 3464
+        },
+        {
+          "decodedBodySize": 6645,
+          "duration": 17.799999982118607,
+          "encodedBodySize": 6645,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/home-unified.css?v=e1bc5da176",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 6945
+        },
+        {
+          "decodedBodySize": 4049,
+          "duration": 18.400000005960464,
+          "encodedBodySize": 4049,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/product-cards.css?v=e03f3af964",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 4349
+        },
+        {
+          "decodedBodySize": 10936,
+          "duration": 19.400000005960464,
+          "encodedBodySize": 10936,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/b2b.css?v=42a1426cb9",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 11236
+        },
+        {
+          "decodedBodySize": 2730,
+          "duration": 20.099999994039536,
+          "encodedBodySize": 2730,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8776/typography.css?v=a04c6a4feb",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 3030
+        },
+        {
+          "decodedBodySize": 4156,
+          "duration": 21.900000005960464,
+          "encodedBodySize": 4156,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/logo-reference.webp",
+          "responseStatus": 200,
+          "startTime": 14,
+          "transferSize": 4456
+        },
+        {
+          "decodedBodySize": 44500,
+          "duration": 21.900000005960464,
+          "encodedBodySize": 44500,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/product-hero/background-v2.webp?v=b9fdef9d25",
+          "responseStatus": 200,
+          "startTime": 14,
+          "transferSize": 44800
+        },
+        {
+          "decodedBodySize": 7957,
+          "duration": 26.19999998807907,
+          "encodedBodySize": 7957,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8776/script.js?v=1c50fcee82",
+          "responseStatus": 200,
+          "startTime": 13.800000011920927,
+          "transferSize": 8257
+        },
+        {
+          "decodedBodySize": 7017,
+          "duration": 26.5,
+          "encodedBodySize": 7017,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8776/depth.js?v=49a230a53b",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 7317
+        },
+        {
+          "decodedBodySize": 6899,
+          "duration": 26.900000005960464,
+          "encodedBodySize": 6899,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8776/product-hero.js?v=e50577848c",
+          "responseStatus": 200,
+          "startTime": 13.900000005960464,
+          "transferSize": 7199
+        },
+        {
+          "decodedBodySize": 40316,
+          "duration": 27,
+          "encodedBodySize": 40316,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/product-hero/shared-floor-v11.webp?v=e062992ed8",
+          "responseStatus": 200,
+          "startTime": 14,
+          "transferSize": 40616
+        },
+        {
+          "decodedBodySize": 438,
+          "duration": 30.400000005960464,
+          "encodedBodySize": 438,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/icons/menu-2.svg",
+          "responseStatus": 200,
+          "startTime": 14,
+          "transferSize": 738
+        },
+        {
+          "decodedBodySize": 430,
+          "duration": 31.19999998807907,
+          "encodedBodySize": 430,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/icons/arrow-up-right.svg",
+          "responseStatus": 200,
+          "startTime": 14,
+          "transferSize": 730
+        },
+        {
+          "decodedBodySize": 406,
+          "duration": 30.80000001192093,
+          "encodedBodySize": 406,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/icons/x.svg",
+          "responseStatus": 200,
+          "startTime": 14,
+          "transferSize": 706
+        },
+        {
+          "decodedBodySize": 428,
+          "duration": 31.400000005960464,
+          "encodedBodySize": 428,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/icons/arrow-right.svg",
+          "responseStatus": 200,
+          "startTime": 14,
+          "transferSize": 728
+        },
+        {
+          "decodedBodySize": 433,
+          "duration": 31.200000017881393,
+          "encodedBodySize": 433,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/icons/arrow-left.svg",
+          "responseStatus": 200,
+          "startTime": 14.099999994039536,
+          "transferSize": 733
+        },
+        {
+          "decodedBodySize": 421,
+          "duration": 34.900000005960464,
+          "encodedBodySize": 421,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/icons/arrow-up.svg",
+          "responseStatus": 200,
+          "startTime": 14.099999994039536,
+          "transferSize": 721
+        },
+        {
+          "decodedBodySize": 430,
+          "duration": 6.5999999940395355,
+          "encodedBodySize": 430,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8776/assets/icons/arrow-up-right.svg",
+          "responseStatus": 200,
+          "startTime": 41.400000005960464,
+          "transferSize": 730
+        },
+        {
+          "decodedBodySize": 47402,
+          "duration": 4.700000017881393,
+          "encodedBodySize": 47402,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/packshots/naggetsy-kurinye-400-q94-712fb649.webp",
+          "responseStatus": 200,
+          "startTime": 45.599999994039536,
+          "transferSize": 47702
+        },
+        {
+          "decodedBodySize": 52282,
+          "duration": 6.0999999940395355,
+          "encodedBodySize": 52282,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/packshots/kurinyj-popkorn-400-q94-d707c51a.webp",
+          "responseStatus": 200,
+          "startTime": 45.599999994039536,
+          "transferSize": 52582
+        },
+        {
+          "decodedBodySize": 47964,
+          "duration": 7.599999994039536,
+          "encodedBodySize": 47964,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/packshots/stripsy-400-q94-04f43af0.webp",
+          "responseStatus": 200,
+          "startTime": 45.599999994039536,
+          "transferSize": 48264
+        },
+        {
+          "decodedBodySize": 84076,
+          "duration": 14.699999988079073,
+          "encodedBodySize": 84076,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8776/assets/fonts/Onest-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 39,
+          "transferSize": 84376
+        },
+        {
+          "decodedBodySize": 38644,
+          "duration": 17.19999998807907,
+          "encodedBodySize": 38644,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8776/assets/fonts/RobotoFlex-Protein.woff2",
+          "responseStatus": 200,
+          "startTime": 40,
+          "transferSize": 38944
+        },
+        {
+          "decodedBodySize": 65868,
+          "duration": 15.5,
+          "encodedBodySize": 65868,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8776/assets/fonts/Rubik-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 40,
+          "transferSize": 66168
+        },
+        {
+          "decodedBodySize": 173472,
+          "duration": 17.19999998807907,
+          "encodedBodySize": 173472,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8776/assets/fonts/Caveat-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 40.30000001192093,
+          "transferSize": 173772
+        },
+        {
+          "decodedBodySize": 47916,
+          "duration": 13.200000017881392,
+          "encodedBodySize": 47916,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/packshots/frikadelki-klassicheskie-400-q94-e0ef4bbb.webp",
+          "responseStatus": 200,
+          "startTime": 45.599999994039536,
+          "transferSize": 48216
+        },
+        {
+          "decodedBodySize": 31708,
+          "duration": 13.599999994039536,
+          "encodedBodySize": 31708,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/illustrations/nuggets-layer-v2-400-q90-a648c271.webp",
+          "responseStatus": 200,
+          "startTime": 45.599999994039536,
+          "transferSize": 32008
+        },
+        {
+          "decodedBodySize": 44868,
+          "duration": 14.400000005960464,
+          "encodedBodySize": 44868,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/illustrations/hen-layer-v2-400-q90-bd32bcef.webp",
+          "responseStatus": 200,
+          "startTime": 45.599999994039536,
+          "transferSize": 45168
+        },
+        {
+          "decodedBodySize": 47682,
+          "duration": 2527.699999988079,
+          "encodedBodySize": 47682,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/hero/fibriki-art-v5-640-q90-1b6cf1a2.webp",
+          "responseStatus": 200,
+          "startTime": 14,
+          "transferSize": 47982
+        },
+        {
+          "decodedBodySize": 47624,
+          "duration": 2507.399999976158,
+          "encodedBodySize": 47624,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/hero/meatballs-art-v4-640-q90-8e04511a.webp",
+          "responseStatus": 200,
+          "startTime": 181.30000001192093,
+          "transferSize": 47924
+        },
+        {
+          "decodedBodySize": 60708,
+          "duration": 2507.9000000059605,
+          "encodedBodySize": 60708,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/hero/lulia-mini-art-v4-640-q90-7ed345d8.webp",
+          "responseStatus": 200,
+          "startTime": 480.40000000596046,
+          "transferSize": 61008
+        },
+        {
+          "decodedBodySize": 57682,
+          "duration": 2506.199999988079,
+          "encodedBodySize": 57682,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8776/assets/responsive/hero/nuggets-art-v4-640-q90-e6e41be3.webp",
+          "responseStatus": 200,
+          "startTime": 780.4000000059605,
+          "transferSize": 57982
+        },
+        {
+          "decodedBodySize": 185,
+          "duration": 3.5,
+          "encodedBodySize": 185,
+          "initiatorType": "other",
+          "name": "http://127.0.0.1:8776/assets/favicon.svg",
+          "responseStatus": 200,
+          "startTime": 3290.5,
+          "transferSize": 485
+        }
+      ],
+      "scope": "local single-visit QA; not field CWV",
+      "supported": [
+        "element",
+        "event",
+        "first-input",
+        "interaction-contentful-paint",
+        "largest-contentful-paint",
+        "layout-shift",
+        "long-animation-frame",
+        "longtask",
+        "mark",
+        "measure",
+        "navigation",
+        "paint",
+        "resource",
+        "soft-navigation",
+        "visibility-state"
+      ],
+      "transferSize": 1087966
+    }
+  }
+]

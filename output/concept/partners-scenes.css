@@ -1,5 +1,4 @@
 /* The partnership page shares the homepage's poster type and brand palette. */
-@font-face{font-family:'Novoferma Protein';src:url('assets/fonts/RobotoFlex-Protein.woff2') format('woff2');font-weight:850;font-style:normal;font-display:swap}
 .page-partners{--partner-orange:#fa4b06;--partner-orange-ink:#c94310;--partner-title:'Novoferma Protein','Novoferma Poster',Arial,sans-serif;font-family:var(--font-display);font-weight:500}
 .page-partners .to-top{display:none}
 .page-partners .breadcrumb{padding-top:16px;padding-bottom:20px;font-size:11px}

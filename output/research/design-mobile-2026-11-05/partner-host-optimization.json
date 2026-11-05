@@ -1,0 +1,92 @@
+{
+  "source": "assets/partners-brand-v1/partner-host-v1.webp",
+  "method": "Pillow q90, premultiplied LANCZOS resize, exact alpha to resized reference; no generative edit or crop",
+  "sourceSha256": "283eb84c820753b8aa8c61d4e9024f939d560f9f2d31ea23f0be46ddad81e2bd",
+  "sourceDimensions": [
+    1024,
+    1536
+  ],
+  "sourceBytes": 362180,
+  "variants": [
+    {
+      "src": "assets/responsive/partners/partner-host-v1-240-q90-283eb84c.webp",
+      "width": 240,
+      "height": 360,
+      "bytes": 33582,
+      "quality": 90,
+      "sha256": "de216ed78460d4065a3a5a92f4b3d814fa5dc9f9e22eab9977a1d16f293a19d9",
+      "alphaMaxDifference": 0,
+      "foregroundRgbMae8Bit": 6.4199,
+      "savingVersusOriginalBytes": 328598,
+      "savingVersusOriginalPercent": 90.73
+    },
+    {
+      "src": "assets/responsive/partners/partner-host-v1-400-q90-283eb84c.webp",
+      "width": 400,
+      "height": 600,
+      "bytes": 72726,
+      "quality": 90,
+      "sha256": "f441dd0bb987201631d6f466f12163919a644f7821d7a6a21d1b12ee0855672c",
+      "alphaMaxDifference": 0,
+      "foregroundRgbMae8Bit": 4.8774,
+      "savingVersusOriginalBytes": 289454,
+      "savingVersusOriginalPercent": 79.92
+    },
+    {
+      "src": "assets/responsive/partners/partner-host-v1-640-q90-283eb84c.webp",
+      "width": 640,
+      "height": 960,
+      "bytes": 157060,
+      "quality": 90,
+      "sha256": "39bff86676d81c793d0309d02a7e04a28e526db216215fe98d1789e90429c07f",
+      "alphaMaxDifference": 0,
+      "foregroundRgbMae8Bit": 3.6056,
+      "savingVersusOriginalBytes": 205120,
+      "savingVersusOriginalPercent": 56.63
+    },
+    {
+      "src": "assets/responsive/partners/partner-host-v1-800-q90-283eb84c.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 227456,
+      "quality": 90,
+      "sha256": "3776708c8f61e449384397feadbca5b64dc36441637d97582add679c6f3da18b",
+      "alphaMaxDifference": 0,
+      "foregroundRgbMae8Bit": 3.1104,
+      "savingVersusOriginalBytes": 134724,
+      "savingVersusOriginalPercent": 37.2
+    },
+    {
+      "src": "assets/responsive/partners/partner-host-v1-1024-q90-283eb84c.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 314984,
+      "quality": 90,
+      "sha256": "978fbe99cb19c9cbdbb18c8b070997b60b6004138388e0a944e04b39f4c8179c",
+      "alphaMaxDifference": 0,
+      "foregroundRgbMae8Bit": 2.1602,
+      "savingVersusOriginalBytes": 47196,
+      "savingVersusOriginalPercent": 13.03
+    }
+  ],
+  "otherManifestEntriesPreserved": true,
+  "masterUnchanged": true,
+  "browserCurrentSrcVerified": false,
+  "productionCwvVerified": false,
+  "scopeLimit": "Byte comparisons are source-file sizes, not page transfer size or measured LCP; source selection depends on final sizes, viewport, DPR and cache.",
+  "visualInspection": {
+    "performed": true,
+    "viewed": [
+      "original1024x1536",
+      "cream-background comparison of original,240,640,800"
+    ],
+    "result": "Силуэт, композиция, пропорции, лапы, крылья и предметы сохранены. Изменяется только разрешение/кодирование; сравнение не является художественным утверждением брендом.",
+    "limitation": "Не сравнение runtime currentSrc и не браузерный performance test."
+  },
+  "reproducibility": {
+    "command": "python3 scripts/optimize_site_assets.py --partner-only",
+    "secondRun": "passed; cached variant hashes unchanged",
+    "pillowVersion": "11.3.0",
+    "webpVersion": "1.5.0"
+  }
+}

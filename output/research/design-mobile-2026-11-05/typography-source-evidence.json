@@ -1,0 +1,164 @@
+{
+  "date": "2026-11-05",
+  "scope": "Source changes only. Browser acceptance performed separately by root.",
+  "files": [
+    "output/concept/design-system.css",
+    "output/concept/product-detail.css",
+    "output/concept/contacts.css",
+    "output/concept/b2b.css",
+    "output/concept/mobile.css",
+    "output/concept/typography.css"
+  ],
+  "auditReferences": [
+    "VB11",
+    "VB15",
+    "TC14"
+  ],
+  "roles": [
+    {
+      "family": "Novoferma Protein",
+      "asset": "RobotoFlex-Protein.woff2",
+      "use": "Короткая плакатная фраза, uppercase, static850. Без scaleX и искусственного растяжения."
+    },
+    {
+      "family": "Onest / Novoferma Sans",
+      "asset": "Onest-wght.woff2",
+      "use": "Длинные названия товаров (PDP), абзацы, формы, действия, обычный регистр."
+    },
+    {
+      "family": "Caveat / Novoferma Hand",
+      "asset": "Caveat-wght.woff2",
+      "use": "Короткая поддерживающая подпись; не факты и не статусы."
+    },
+    {
+      "family": "Rubik / Novoferma Poster",
+      "asset": "Rubik-wght.woff2",
+      "use": "Вторичная нумерация/статусный акцент. Не длинные названия."
+    }
+  ],
+  "decisions": [
+    "typography.css подключается последним как небольшой общий контракт семейства/навигации. Компонентные размеры остаются в собственных файлах.",
+    "PDP H1: Onest750, sentence case, 30–48px при базовом16px, unitless1.16, overflow-wrap:anywhere на случай широкого fallback.",
+    "Факты PDP: repeat(auto-fit,minmax(min(100%,8.5rem),1fr)), подписи14px, значения16px. Колонки уступают место читаемому тексту, а не уменьшают кегль.",
+    "Статус концепта и подпись изображения14px; важное ограничение концепта16px. Градиент и палитра сохранены: фактические пары уже дают достаточный численный контраст для дальнейшей браузерной проверки.",
+    "Фото подачи: до600px, width100%, heightauto, без растяжения и фильтра; подпись14px/1.6, отступ12px. Факты не менялись.",
+    "B2B служебный текст/consent/format hints14px, поля16px; radio labels44px min, контейнер flex-wrap. Button/copy/email не зажимают длинный текст.",
+    "Партнёрский крупный заголовок допускает перенос span; rem min/max, естественная высота, без nowrap. Это защищает text200%/fallback, не меняя бренд-фразу.",
+    "Контакты: email/phone/map min44px, разрешён перенос; реквизиты minmax0 и текст14–15px. Маскот и фон не перерисовывались.",
+    "В собственных CSS font-size px переведены в rem, layout dimensions сохранены; это поддерживает пользовательский размер текста.",
+    "Из mobile.css удалены40 подтверждённо неиспользуемых старых правил (protein bridge/story, serving tabs/copy, старые filter buttons, home-product, partner-hero/contact, contact-columns/bottom). Наличие классов проверено по23HTML и текущимJS; активные правила смешанной desktop home-grid строки сохранены.",
+    "Новые декоративные разделители не добавлялись; старый border у product-facts убран, группа отделяется whitespace."
+  ],
+  "contrastMethod": "sRGB channels -> linear luminance (0.2126R+0.7152G+0.0722B), ratio=(Lmax+0.05)/(Lmin+0.05). Actual opaque CSS foreground/background pairs. Gradient endpoints both included; no screenshot sampling or antialiasing used.",
+  "contrast": [
+    {
+      "context": "PDP caption / gradient light",
+      "foreground": "#795e4c",
+      "background": "#f8edda",
+      "ratio": 5.149,
+      "source": "product-detail.css; --muted in style.css"
+    },
+    {
+      "context": "PDP caption / gradient dark",
+      "foreground": "#795e4c",
+      "background": "#f0e0c4",
+      "ratio": 4.594,
+      "source": "product-detail.css; --muted in style.css"
+    },
+    {
+      "context": "Primary text / cream",
+      "foreground": "#402111",
+      "background": "#fff5e3",
+      "ratio": 13.454,
+      "source": "style.css"
+    },
+    {
+      "context": "Muted text / cream",
+      "foreground": "#795e4c",
+      "background": "#fff5e3",
+      "ratio": 5.52,
+      "source": "style.css"
+    },
+    {
+      "context": "Concept status / cream",
+      "foreground": "#ac3a09",
+      "background": "#fff5e3",
+      "ratio": 5.775,
+      "source": "product-detail.css; style.css"
+    },
+    {
+      "context": "B2B service note / material panel",
+      "foreground": "#65503d",
+      "background": "#f2e4c9",
+      "ratio": 6.039,
+      "source": "b2b.css"
+    },
+    {
+      "context": "B2B privacy note / brown",
+      "foreground": "#efddc4",
+      "background": "#402111",
+      "ratio": 10.951,
+      "source": "b2b.css; style.css"
+    },
+    {
+      "context": "B2B format hint / brown",
+      "foreground": "#e1ccb1",
+      "background": "#402111",
+      "ratio": 9.333,
+      "source": "partners-scenes.css; style.css"
+    },
+    {
+      "context": "Form placeholder / input",
+      "foreground": "#79634d",
+      "background": "#fff8ed",
+      "ratio": 5.372,
+      "source": "partners-scenes.css"
+    },
+    {
+      "context": "Contacts description / brown",
+      "foreground": "#d8bfa9",
+      "background": "#402111",
+      "ratio": 8.274,
+      "source": "contacts.css; style.css"
+    },
+    {
+      "context": "Contacts map / brown",
+      "foreground": "#e2cbb6",
+      "background": "#402111",
+      "ratio": 9.318,
+      "source": "contacts.css; style.css"
+    },
+    {
+      "context": "Large white poster / orange",
+      "foreground": "#fff5e3",
+      "background": "#fa4b06",
+      "ratio": 3.198,
+      "source": "partners-scenes.css; style.css"
+    },
+    {
+      "context": "STM note / cream",
+      "foreground": "#6a5140",
+      "background": "#fff5e3",
+      "ratio": 6.782,
+      "source": "b2b.css; style.css"
+    },
+    {
+      "context": "B2B section emphasis / cream",
+      "foreground": "#b53b0c",
+      "background": "#fff5e3",
+      "ratio": 5.402,
+      "source": "b2b.css; style.css"
+    }
+  ],
+  "checks": {
+    "gitDiffCheck": "passed",
+    "braceBalance": "passed for six owned CSS files",
+    "browser": "pending root acceptance",
+    "screenReader": "not performed"
+  },
+  "limits": [
+    "Это не полная сертификация WCAG. Численные пары не проверяют фокус, state contrast, фотографии, реальные fallback metrics или поведение диктора.",
+    "Белый текст на оранжевом3.198:1 сохранён только для крупного плакатного заголовка, не для мелких служебных сообщений.",
+    "Мобильный результат и text200%/400% принимаются в реальном браузере отдельно; source-only изменения не являются доказательством отсутствия clipping."
+  ]
+}

@@ -241,7 +241,8 @@ function heroFixture({saveData = false, effectiveType = '4g', hidden = false, id
   const announcement = new Node('p', {'data-product-announcement':''}, doc); carousel.append(announcement);
   const window = new Node('window'); const idle = []; const timers = [];
   if (idleApi) window.requestIdleCallback = fn => idle.push(fn);
-  window.setTimeout = (fn, ms) => timers.push({fn, ms});
+  window.setTimeout = (fn, ms) => { const timer={fn,ms}; timers.push(timer); return timer; };
+  window.clearTimeout = timer => { if (timer) timer.cancelled=true; };
   execute('product-hero.js', doc, {window, navigator:{connection:{saveData,effectiveType}}});
   const pending = index => scenes[index].querySelectorAll('img').filter(image => image.decodeCalls);
   async function resolveScene(index, error = false) {
@@ -509,7 +510,7 @@ test('hero: generated panels/tabs are paired, first real art eager, inactive art
   h.scenes.forEach((scene, i) => {
     assert.equal(h.picks[i].getAttribute('aria-controls'), scene.getAttribute('id'));
     assert.equal(scene.getAttribute('aria-labelledby'), h.picks[i].getAttribute('id'));
-    const art = scene.querySelectorAll('img').find(image => /(?:data:image|product-hero\/.*-art-)/.test(image.src));
+    const art = scene.querySelectorAll('img').find(image => /(?:data:image|product-hero\/.*-art-|responsive\/hero\/)/.test(image.src));
     assert.ok(art); assert.equal(Boolean(art.dataset.src), i > 0);
     if (i > 0) assert.ok(art.src.startsWith('data:image'));
     assert.equal(scene.inert, i > 0); assert.equal(h.picks[i].tabIndex, i === 0 ? 0 : -1);

@@ -1,0 +1,338 @@
+[
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 952.7772827148438,
+    "documentWidth": 320,
+    "imageBottom": 960.1068115234376,
+    "width": 320
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 971.796875,
+    "documentWidth": 358,
+    "imageBottom": 980.12109375,
+    "width": 358
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 973.2757568359376,
+    "documentWidth": 359,
+    "imageBottom": 981.626220703125,
+    "width": 359
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 970.8373413085938,
+    "documentWidth": 360,
+    "imageBottom": 979.0045166015624,
+    "width": 360
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1014.5255126953124,
+    "documentWidth": 390,
+    "imageBottom": 1023.47802734375,
+    "width": 390
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1093.0093994140625,
+    "documentWidth": 479,
+    "imageBottom": 1104.291748046875,
+    "width": 479
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1094.46484375,
+    "documentWidth": 480,
+    "imageBottom": 1105.7733154296875,
+    "width": 480
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1095.92041015625,
+    "documentWidth": 481,
+    "imageBottom": 1107.2550048828125,
+    "width": 481
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1122.1192626953125,
+    "documentWidth": 499,
+    "imageBottom": 1133.925048828125,
+    "width": 499
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1123.59814453125,
+    "documentWidth": 500,
+    "imageBottom": 1135.43017578125,
+    "width": 500
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1125.0537109375,
+    "documentWidth": 501,
+    "imageBottom": 1136.911865234375,
+    "width": 501
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1336.78515625,
+    "documentWidth": 698,
+    "imageBottom": 1353.80029296875,
+    "width": 698
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1337.77197265625,
+    "documentWidth": 699,
+    "imageBottom": 1354.813232421875,
+    "width": 699
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1012.85107421875,
+    "documentWidth": 700,
+    "imageBottom": 1023.33837890625,
+    "width": 700
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1013.0844116210938,
+    "documentWidth": 701,
+    "imageBottom": 1023.5891723632812,
+    "width": 701
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1015.1875610351562,
+    "documentWidth": 766,
+    "imageBottom": 1026.8265380859375,
+    "width": 766
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1015.4130859375,
+    "documentWidth": 767,
+    "imageBottom": 1027.069580078125,
+    "width": 767
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1015.6463623046876,
+    "documentWidth": 768,
+    "imageBottom": 1027.3203125,
+    "width": 768
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1021.186767578125,
+    "documentWidth": 848,
+    "imageBottom": 1034.256591796875,
+    "width": 848
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1021.4122924804688,
+    "documentWidth": 849,
+    "imageBottom": 1034.4996337890625,
+    "width": 849
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1021.6456298828124,
+    "documentWidth": 850,
+    "imageBottom": 1034.7503662109375,
+    "width": 850
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1032.6417236328125,
+    "documentWidth": 898,
+    "imageBottom": 1046.5841064453125,
+    "width": 898
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1032.875,
+    "documentWidth": 899,
+    "imageBottom": 1046.8348388671875,
+    "width": 899
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1033.1005859375,
+    "documentWidth": 900,
+    "imageBottom": 1047.077880859375,
+    "width": 900
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1033.3338623046875,
+    "documentWidth": 901,
+    "imageBottom": 1047.32861328125,
+    "width": 901
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1032.718994140625,
+    "documentWidth": 958,
+    "imageBottom": 1047.708251953125,
+    "width": 958
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1033.1866455078125,
+    "documentWidth": 959,
+    "imageBottom": 1048.193359375,
+    "width": 959
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1024.3004150390625,
+    "documentWidth": 960,
+    "imageBottom": 1038.9757080078125,
+    "width": 960
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1024.7681884765625,
+    "documentWidth": 961,
+    "imageBottom": 1039.4608154296875,
+    "width": 961
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1054.2093505859375,
+    "documentWidth": 1024,
+    "imageBottom": 1070.0013427734375,
+    "width": 1024
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1070.206298828125,
+    "documentWidth": 1049,
+    "imageBottom": 1086.4345703125,
+    "width": 1049
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1070.908447265625,
+    "documentWidth": 1050,
+    "imageBottom": 1087.154052734375,
+    "width": 1050
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1071.5870361328125,
+    "documentWidth": 1051,
+    "imageBottom": 1087.8502197265625,
+    "width": 1051
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1103.912353515625,
+    "documentWidth": 1098,
+    "imageBottom": 1120.99560546875,
+    "width": 1098
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1104.6143798828125,
+    "documentWidth": 1099,
+    "imageBottom": 1121.715087890625,
+    "width": 1099
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1117.26953125,
+    "documentWidth": 1100,
+    "imageBottom": 1134.3878173828125,
+    "width": 1100
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1117.9716796875,
+    "documentWidth": 1101,
+    "imageBottom": 1135.1072998046875,
+    "width": 1101
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1184.673828125,
+    "documentWidth": 1198,
+    "imageBottom": 1203.5020751953125,
+    "width": 1198
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1185.3524169921875,
+    "documentWidth": 1199,
+    "imageBottom": 1204.1981201171875,
+    "width": 1199
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1113.41943359375,
+    "documentWidth": 1200,
+    "imageBottom": 1131.2879638671875,
+    "width": 1200
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1168.4285888671875,
+    "documentWidth": 1280,
+    "imageBottom": 1187.693115234375,
+    "width": 1280
+  },
+  {
+    "captionFont": "14px",
+    "captionPosition": "static",
+    "captionTop": 1256.0211181640625,
+    "documentWidth": 1440,
+    "imageBottom": 1277.239990234375,
+    "width": 1440
+  }
+]

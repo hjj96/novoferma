@@ -1,0 +1,40 @@
+{
+  "sourceWorkspace": "/Users/andrey/Desktop/сайт нф",
+  "sourceSha256": "b90dd9edeea0c740355c6b6f22f68bdb8c602c1bbc23f28bd50240380f05fd8f",
+  "imported": [
+    {
+      "file": "output/concept/product-hero.css",
+      "sha256": "9310a57f3417fbfd7bea91aea56baaa21f7d64480be8d88ec99a8ac6188498cd"
+    },
+    {
+      "file": "output/concept/catalogue.css",
+      "sha256": "8c8679ab51a6d3f479950bd7639c5c5680a5f032884cab4f743cf023cb01b9c7"
+    },
+    {
+      "file": "output/concept/product-cards.css",
+      "sha256": "b8850af4a7d412aca0678ceac4fdc1bb2e448b72ec8e8eec43922158e6b17037"
+    },
+    {
+      "file": "output/concept/assets/product-hero/fibriki-art-v5.webp",
+      "sha256": "1b6cf1a289654f8fabee1b10cb4e8459380cbd4145734e2b287fa8fecabc8513"
+    },
+    {
+      "file": "output/concept/assets/product-hero/fibriki-art-v5-prompt.txt",
+      "sha256": "7aca63d4370d9b1c698ee159d66fcfd64bfa461fa23ab244cbd87e3148d6215f"
+    },
+    {
+      "file": "output/concept/assets/product-hero/fibriki-art-v5.png",
+      "sha256": "cb046fef8f7a21f2041a6e2dda581e359544412e4ef0030d20f7590071094dfa"
+    },
+    {
+      "file": "output/concept/assets/product-hero/fibriki-art-v5-layout.json",
+      "sha256": "6cc070d8493ee15aca247c35361b9f9e53c39c45b3923c291094728048fdceaa"
+    }
+  ],
+  "layout": "Four manual scenes, Fibriki first, compact text catalogue without controls.",
+  "retainedPublishedContracts": [
+    "B2B API and private-label journey",
+    "food publication gates",
+    "unapproved novelty concept labels"
+  ]
+}

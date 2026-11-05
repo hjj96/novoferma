@@ -1,0 +1,2066 @@
+[
+  {
+    "cssWidth": 112,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-240-q90-283eb84c.webp",
+    "dpr": 1,
+    "naturalWidth": 128,
+    "qa": {
+      "cls": 0.05489476664978781,
+      "decodedBodySize": 530612,
+      "encodedBodySize": 530612,
+      "fontSetStatus": "loaded",
+      "fonts": [
+        {
+          "family": "Novoferma Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Hand",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Poster",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Protein",
+          "status": "loaded"
+        }
+      ],
+      "layoutShiftCount": 1,
+      "lcp": {
+        "id": "formats-heading",
+        "loadTime": 0,
+        "renderTime": 108,
+        "size": 25082,
+        "startTime": 108,
+        "tagName": "H2",
+        "url": ""
+      },
+      "navigation": {
+        "domContentLoadedEventEnd": 68.90000000596046,
+        "encodedBodySize": 22069,
+        "loadEventEnd": 83.90000000596046,
+        "responseStart": 6.300000011920929,
+        "startTime": 0,
+        "transferSize": 22369,
+        "type": "navigate"
+      },
+      "observerErrors": [],
+      "resourceCount": 23,
+      "resourceListLimit": 300,
+      "resources": [
+        {
+          "decodedBodySize": 651,
+          "duration": 12.599999994039536,
+          "encodedBodySize": 651,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/assets/fonts/font-face.css?v=4ab22c3bae",
+          "responseStatus": 200,
+          "startTime": 21.700000017881393,
+          "transferSize": 951
+        },
+        {
+          "decodedBodySize": 5284,
+          "duration": 13.099999994039536,
+          "encodedBodySize": 5284,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/depth.css?v=38a885c665",
+          "responseStatus": 200,
+          "startTime": 21.80000001192093,
+          "transferSize": 5584
+        },
+        {
+          "decodedBodySize": 31635,
+          "duration": 13.699999988079073,
+          "encodedBodySize": 31635,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/style.css?v=aeca8820c8",
+          "responseStatus": 200,
+          "startTime": 21.80000001192093,
+          "transferSize": 31935
+        },
+        {
+          "decodedBodySize": 6438,
+          "duration": 13.800000011920927,
+          "encodedBodySize": 6438,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/design-system.css?v=e290db3c19",
+          "responseStatus": 200,
+          "startTime": 21.80000001192093,
+          "transferSize": 6738
+        },
+        {
+          "decodedBodySize": 21956,
+          "duration": 14,
+          "encodedBodySize": 21956,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/polish.css?v=0015d3dc42",
+          "responseStatus": 200,
+          "startTime": 21.80000001192093,
+          "transferSize": 22256
+        },
+        {
+          "decodedBodySize": 5849,
+          "duration": 16.200000017881393,
+          "encodedBodySize": 5849,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/mobile.css?v=3a933c2e36",
+          "responseStatus": 200,
+          "startTime": 21.900000005960464,
+          "transferSize": 6149
+        },
+        {
+          "decodedBodySize": 5064,
+          "duration": 16.30000001192093,
+          "encodedBodySize": 5064,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/motion.css?v=ad822dccd3",
+          "responseStatus": 200,
+          "startTime": 21.900000005960464,
+          "transferSize": 5364
+        },
+        {
+          "decodedBodySize": 10936,
+          "duration": 16.80000001192093,
+          "encodedBodySize": 10936,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/b2b.css?v=42a1426cb9",
+          "responseStatus": 200,
+          "startTime": 21.900000005960464,
+          "transferSize": 11236
+        },
+        {
+          "decodedBodySize": 11772,
+          "duration": 17.900000005960464,
+          "encodedBodySize": 11772,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/partners-scenes.css?v=86dda0e7e2",
+          "responseStatus": 200,
+          "startTime": 21.900000005960464,
+          "transferSize": 12072
+        },
+        {
+          "decodedBodySize": 2730,
+          "duration": 17.900000005960464,
+          "encodedBodySize": 2730,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/typography.css?v=a04c6a4feb",
+          "responseStatus": 200,
+          "startTime": 21.900000005960464,
+          "transferSize": 3030
+        },
+        {
+          "decodedBodySize": 4156,
+          "duration": 19.200000017881393,
+          "encodedBodySize": 4156,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/logo-reference.webp",
+          "responseStatus": 200,
+          "startTime": 22,
+          "transferSize": 4456
+        },
+        {
+          "decodedBodySize": 430,
+          "duration": 26,
+          "encodedBodySize": 430,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/arrow-up-right.svg",
+          "responseStatus": 200,
+          "startTime": 22,
+          "transferSize": 730
+        },
+        {
+          "decodedBodySize": 438,
+          "duration": 26.900000005960464,
+          "encodedBodySize": 438,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/menu-2.svg",
+          "responseStatus": 200,
+          "startTime": 22,
+          "transferSize": 738
+        },
+        "[Circular]",
+        {
+          "decodedBodySize": 421,
+          "duration": 26.899999976158146,
+          "encodedBodySize": 421,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/arrow-up.svg",
+          "responseStatus": 200,
+          "startTime": 22.100000023841854,
+          "transferSize": 721
+        },
+        {
+          "decodedBodySize": 406,
+          "duration": 27.19999998807907,
+          "encodedBodySize": 406,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/x.svg",
+          "responseStatus": 200,
+          "startTime": 22.100000023841854,
+          "transferSize": 706
+        },
+        {
+          "decodedBodySize": 7957,
+          "duration": 23.400000005960464,
+          "encodedBodySize": 7957,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/script.js?v=1c50fcee82",
+          "responseStatus": 200,
+          "startTime": 21.900000005960464,
+          "transferSize": 8257
+        },
+        {
+          "decodedBodySize": 7017,
+          "duration": 23.599999994039536,
+          "encodedBodySize": 7017,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/depth.js?v=49a230a53b",
+          "responseStatus": 200,
+          "startTime": 21.900000005960464,
+          "transferSize": 7317
+        },
+        {
+          "decodedBodySize": 11830,
+          "duration": 26.400000005960464,
+          "encodedBodySize": 11830,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/partners-scenes.js?v=82cd53b4af",
+          "responseStatus": 200,
+          "startTime": 21.900000005960464,
+          "transferSize": 12130
+        },
+        {
+          "decodedBodySize": 84076,
+          "duration": 16.299999982118607,
+          "encodedBodySize": 84076,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Onest-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 48.60000002384186,
+          "transferSize": 84376
+        },
+        {
+          "decodedBodySize": 38644,
+          "duration": 13.099999994039536,
+          "encodedBodySize": 38644,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/RobotoFlex-Protein.woff2",
+          "responseStatus": 200,
+          "startTime": 49.80000001192093,
+          "transferSize": 38944
+        },
+        {
+          "decodedBodySize": 65868,
+          "duration": 14.800000011920927,
+          "encodedBodySize": 65868,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Rubik-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 49.900000005960464,
+          "transferSize": 66168
+        },
+        {
+          "decodedBodySize": 173472,
+          "duration": 15,
+          "encodedBodySize": 173472,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Caveat-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 50,
+          "transferSize": 173772
+        }
+      ],
+      "scope": "local single-visit QA; not field CWV",
+      "supported": [
+        "element",
+        "event",
+        "first-input",
+        "interaction-contentful-paint",
+        "largest-contentful-paint",
+        "layout-shift",
+        "long-animation-frame",
+        "longtask",
+        "mark",
+        "measure",
+        "navigation",
+        "paint",
+        "resource",
+        "soft-navigation",
+        "visibility-state"
+      ],
+      "transferSize": 537512
+    },
+    "resource": {
+      "decodedBodySize": 33582,
+      "duration": 18.899999976158146,
+      "encodedBodySize": 33582,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-240-q90-283eb84c.webp",
+      "responseStatus": 200,
+      "startTime": 22.100000023841854,
+      "transferSize": 33882
+    },
+    "type": "partners",
+    "width": 320
+  },
+  {
+    "cssWidth": 138.78125,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-240-q90-283eb84c.webp",
+    "dpr": 1,
+    "naturalWidth": 156,
+    "qa": {
+      "cls": 0.08179702435007122,
+      "decodedBodySize": 530612,
+      "encodedBodySize": 530612,
+      "fontSetStatus": "loaded",
+      "fonts": [
+        {
+          "family": "Novoferma Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Hand",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Poster",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Protein",
+          "status": "loaded"
+        }
+      ],
+      "layoutShiftCount": 1,
+      "lcp": {
+        "id": "formats-heading",
+        "loadTime": 0,
+        "renderTime": 96,
+        "size": 32883,
+        "startTime": 96,
+        "tagName": "H2",
+        "url": ""
+      },
+      "navigation": {
+        "domContentLoadedEventEnd": 74,
+        "encodedBodySize": 22069,
+        "loadEventEnd": 80.59999999403954,
+        "responseStart": 4.5,
+        "startTime": 0,
+        "transferSize": 22369,
+        "type": "navigate"
+      },
+      "observerErrors": [],
+      "resourceCount": 23,
+      "resourceListLimit": 300,
+      "resources": [
+        {
+          "decodedBodySize": 651,
+          "duration": 9,
+          "encodedBodySize": 651,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/assets/fonts/font-face.css?v=4ab22c3bae",
+          "responseStatus": 200,
+          "startTime": 11,
+          "transferSize": 951
+        },
+        {
+          "decodedBodySize": 31635,
+          "duration": 9,
+          "encodedBodySize": 31635,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/style.css?v=aeca8820c8",
+          "responseStatus": 200,
+          "startTime": 11.099999994039536,
+          "transferSize": 31935
+        },
+        {
+          "decodedBodySize": 5284,
+          "duration": 9.900000005960464,
+          "encodedBodySize": 5284,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/depth.css?v=38a885c665",
+          "responseStatus": 200,
+          "startTime": 11.099999994039536,
+          "transferSize": 5584
+        },
+        {
+          "decodedBodySize": 6438,
+          "duration": 9.899999976158142,
+          "encodedBodySize": 6438,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/design-system.css?v=e290db3c19",
+          "responseStatus": 200,
+          "startTime": 11.200000017881392,
+          "transferSize": 6738
+        },
+        {
+          "decodedBodySize": 21956,
+          "duration": 11.099999994039536,
+          "encodedBodySize": 21956,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/polish.css?v=0015d3dc42",
+          "responseStatus": 200,
+          "startTime": 11.200000017881392,
+          "transferSize": 22256
+        },
+        {
+          "decodedBodySize": 5064,
+          "duration": 11.099999994039536,
+          "encodedBodySize": 5064,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/motion.css?v=ad822dccd3",
+          "responseStatus": 200,
+          "startTime": 11.200000017881392,
+          "transferSize": 5364
+        },
+        {
+          "decodedBodySize": 5849,
+          "duration": 11.299999982118608,
+          "encodedBodySize": 5849,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/mobile.css?v=3a933c2e36",
+          "responseStatus": 200,
+          "startTime": 11.300000011920927,
+          "transferSize": 6149
+        },
+        {
+          "decodedBodySize": 11772,
+          "duration": 12.299999982118608,
+          "encodedBodySize": 11772,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/partners-scenes.css?v=86dda0e7e2",
+          "responseStatus": 200,
+          "startTime": 11.300000011920927,
+          "transferSize": 12072
+        },
+        {
+          "decodedBodySize": 10936,
+          "duration": 12.5,
+          "encodedBodySize": 10936,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/b2b.css?v=42a1426cb9",
+          "responseStatus": 200,
+          "startTime": 11.300000011920927,
+          "transferSize": 11236
+        },
+        {
+          "decodedBodySize": 2730,
+          "duration": 13.099999994039536,
+          "encodedBodySize": 2730,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/typography.css?v=a04c6a4feb",
+          "responseStatus": 200,
+          "startTime": 11.300000011920927,
+          "transferSize": 3030
+        },
+        "[Circular]",
+        {
+          "decodedBodySize": 4156,
+          "duration": 19,
+          "encodedBodySize": 4156,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/logo-reference.webp",
+          "responseStatus": 200,
+          "startTime": 11.400000005960464,
+          "transferSize": 4456
+        },
+        {
+          "decodedBodySize": 7957,
+          "duration": 22.19999998807907,
+          "encodedBodySize": 7957,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/script.js?v=1c50fcee82",
+          "responseStatus": 200,
+          "startTime": 11.200000017881392,
+          "transferSize": 8257
+        },
+        {
+          "decodedBodySize": 7017,
+          "duration": 22.900000005960464,
+          "encodedBodySize": 7017,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/depth.js?v=49a230a53b",
+          "responseStatus": 200,
+          "startTime": 11.300000011920927,
+          "transferSize": 7317
+        },
+        {
+          "decodedBodySize": 11830,
+          "duration": 24.599999994039536,
+          "encodedBodySize": 11830,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/partners-scenes.js?v=82cd53b4af",
+          "responseStatus": 200,
+          "startTime": 11.300000011920927,
+          "transferSize": 12130
+        },
+        {
+          "decodedBodySize": 438,
+          "duration": 24.69999998807907,
+          "encodedBodySize": 438,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/menu-2.svg",
+          "responseStatus": 200,
+          "startTime": 11.400000005960464,
+          "transferSize": 738
+        },
+        {
+          "decodedBodySize": 406,
+          "duration": 25.19999998807907,
+          "encodedBodySize": 406,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/x.svg",
+          "responseStatus": 200,
+          "startTime": 11.400000005960464,
+          "transferSize": 706
+        },
+        {
+          "decodedBodySize": 430,
+          "duration": 25.400000005960464,
+          "encodedBodySize": 430,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/arrow-up-right.svg",
+          "responseStatus": 200,
+          "startTime": 11.400000005960464,
+          "transferSize": 730
+        },
+        {
+          "decodedBodySize": 421,
+          "duration": 39.599999994039536,
+          "encodedBodySize": 421,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/arrow-up.svg",
+          "responseStatus": 200,
+          "startTime": 11.400000005960464,
+          "transferSize": 721
+        },
+        {
+          "decodedBodySize": 84076,
+          "duration": 21.099999994039536,
+          "encodedBodySize": 84076,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Onest-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 34.5,
+          "transferSize": 84376
+        },
+        {
+          "decodedBodySize": 38644,
+          "duration": 21.099999994039536,
+          "encodedBodySize": 38644,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/RobotoFlex-Protein.woff2",
+          "responseStatus": 200,
+          "startTime": 35.400000005960464,
+          "transferSize": 38944
+        },
+        {
+          "decodedBodySize": 65868,
+          "duration": 28.69999998807907,
+          "encodedBodySize": 65868,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Rubik-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 35.400000005960464,
+          "transferSize": 66168
+        },
+        {
+          "decodedBodySize": 173472,
+          "duration": 28.80000001192093,
+          "encodedBodySize": 173472,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Caveat-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 35.5,
+          "transferSize": 173772
+        }
+      ],
+      "scope": "local single-visit QA; not field CWV",
+      "supported": [
+        "element",
+        "event",
+        "first-input",
+        "interaction-contentful-paint",
+        "largest-contentful-paint",
+        "layout-shift",
+        "long-animation-frame",
+        "longtask",
+        "mark",
+        "measure",
+        "navigation",
+        "paint",
+        "resource",
+        "soft-navigation",
+        "visibility-state"
+      ],
+      "transferSize": 537512
+    },
+    "resource": {
+      "decodedBodySize": 33582,
+      "duration": 13.900000005960464,
+      "encodedBodySize": 33582,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-240-q90-283eb84c.webp",
+      "responseStatus": 200,
+      "startTime": 11.400000005960464,
+      "transferSize": 33882
+    },
+    "type": "partners",
+    "width": 390
+  },
+  {
+    "cssWidth": 266.6640625,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-400-q90-283eb84c.webp",
+    "dpr": 1,
+    "naturalWidth": 267,
+    "qa": {
+      "cls": 0.045329949273003475,
+      "decodedBodySize": 569756,
+      "encodedBodySize": 569756,
+      "fontSetStatus": "loaded",
+      "fonts": [
+        {
+          "family": "Novoferma Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Hand",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Poster",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Protein",
+          "status": "loaded"
+        }
+      ],
+      "layoutShiftCount": 1,
+      "lcp": {
+        "id": "",
+        "loadTime": 38.400000005960464,
+        "renderTime": 84,
+        "size": 106800,
+        "startTime": 84,
+        "tagName": "IMG",
+        "url": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-400-q90-283eb84c.webp"
+      },
+      "navigation": {
+        "domContentLoadedEventEnd": 53.69999998807907,
+        "encodedBodySize": 22069,
+        "loadEventEnd": 63.099999994039536,
+        "responseStart": 3.5,
+        "startTime": 0,
+        "transferSize": 22369,
+        "type": "navigate"
+      },
+      "observerErrors": [],
+      "resourceCount": 23,
+      "resourceListLimit": 300,
+      "resources": [
+        {
+          "decodedBodySize": 651,
+          "duration": 14.5,
+          "encodedBodySize": 651,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/assets/fonts/font-face.css?v=4ab22c3bae",
+          "responseStatus": 200,
+          "startTime": 10.099999994039536,
+          "transferSize": 951
+        },
+        {
+          "decodedBodySize": 31635,
+          "duration": 15.300000011920927,
+          "encodedBodySize": 31635,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/style.css?v=aeca8820c8",
+          "responseStatus": 200,
+          "startTime": 10.099999994039536,
+          "transferSize": 31935
+        },
+        {
+          "decodedBodySize": 5284,
+          "duration": 15.900000005960464,
+          "encodedBodySize": 5284,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/depth.css?v=38a885c665",
+          "responseStatus": 200,
+          "startTime": 10.099999994039536,
+          "transferSize": 5584
+        },
+        {
+          "decodedBodySize": 6438,
+          "duration": 15.099999994039536,
+          "encodedBodySize": 6438,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/design-system.css?v=e290db3c19",
+          "responseStatus": 200,
+          "startTime": 10.199999988079073,
+          "transferSize": 6738
+        },
+        {
+          "decodedBodySize": 21956,
+          "duration": 19.700000017881393,
+          "encodedBodySize": 21956,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/polish.css?v=0015d3dc42",
+          "responseStatus": 200,
+          "startTime": 10.199999988079073,
+          "transferSize": 22256
+        },
+        {
+          "decodedBodySize": 5064,
+          "duration": 21.400000005960464,
+          "encodedBodySize": 5064,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/motion.css?v=ad822dccd3",
+          "responseStatus": 200,
+          "startTime": 10.199999988079073,
+          "transferSize": 5364
+        },
+        {
+          "decodedBodySize": 5849,
+          "duration": 21.100000023841854,
+          "encodedBodySize": 5849,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/mobile.css?v=3a933c2e36",
+          "responseStatus": 200,
+          "startTime": 10.299999982118608,
+          "transferSize": 6149
+        },
+        {
+          "decodedBodySize": 10936,
+          "duration": 21.700000017881393,
+          "encodedBodySize": 10936,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/b2b.css?v=42a1426cb9",
+          "responseStatus": 200,
+          "startTime": 10.299999982118608,
+          "transferSize": 11236
+        },
+        {
+          "decodedBodySize": 11772,
+          "duration": 22.100000023841854,
+          "encodedBodySize": 11772,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/partners-scenes.css?v=86dda0e7e2",
+          "responseStatus": 200,
+          "startTime": 10.299999982118608,
+          "transferSize": 12072
+        },
+        {
+          "decodedBodySize": 2730,
+          "duration": 22.600000023841854,
+          "encodedBodySize": 2730,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/typography.css?v=a04c6a4feb",
+          "responseStatus": 200,
+          "startTime": 10.299999982118608,
+          "transferSize": 3030
+        },
+        "[Circular]",
+        {
+          "decodedBodySize": 4156,
+          "duration": 23.900000005960464,
+          "encodedBodySize": 4156,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/logo-reference.webp",
+          "responseStatus": 200,
+          "startTime": 10.299999982118608,
+          "transferSize": 4456
+        },
+        {
+          "decodedBodySize": 430,
+          "duration": 30.400000005960464,
+          "encodedBodySize": 430,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/arrow-up-right.svg",
+          "responseStatus": 200,
+          "startTime": 10.299999982118608,
+          "transferSize": 730
+        },
+        {
+          "decodedBodySize": 438,
+          "duration": 32.900000005960464,
+          "encodedBodySize": 438,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/menu-2.svg",
+          "responseStatus": 200,
+          "startTime": 10.299999982118608,
+          "transferSize": 738
+        },
+        {
+          "decodedBodySize": 406,
+          "duration": 33.900000005960464,
+          "encodedBodySize": 406,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/x.svg",
+          "responseStatus": 200,
+          "startTime": 10.299999982118608,
+          "transferSize": 706
+        },
+        {
+          "decodedBodySize": 421,
+          "duration": 33.5,
+          "encodedBodySize": 421,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/arrow-up.svg",
+          "responseStatus": 200,
+          "startTime": 10.400000005960464,
+          "transferSize": 721
+        },
+        {
+          "decodedBodySize": 7957,
+          "duration": 29.80000001192093,
+          "encodedBodySize": 7957,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/script.js?v=1c50fcee82",
+          "responseStatus": 200,
+          "startTime": 10.199999988079073,
+          "transferSize": 8257
+        },
+        {
+          "decodedBodySize": 7017,
+          "duration": 31.5,
+          "encodedBodySize": 7017,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/depth.js?v=49a230a53b",
+          "responseStatus": 200,
+          "startTime": 10.199999988079073,
+          "transferSize": 7317
+        },
+        {
+          "decodedBodySize": 11830,
+          "duration": 32.10000002384186,
+          "encodedBodySize": 11830,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/partners-scenes.js?v=82cd53b4af",
+          "responseStatus": 200,
+          "startTime": 10.299999982118608,
+          "transferSize": 12130
+        },
+        {
+          "decodedBodySize": 38644,
+          "duration": 13.399999976158142,
+          "encodedBodySize": 38644,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/RobotoFlex-Protein.woff2",
+          "responseStatus": 200,
+          "startTime": 38.400000005960464,
+          "transferSize": 38944
+        },
+        {
+          "decodedBodySize": 84076,
+          "duration": 16.200000017881393,
+          "encodedBodySize": 84076,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Onest-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 37.19999998807907,
+          "transferSize": 84376
+        },
+        {
+          "decodedBodySize": 65868,
+          "duration": 15.099999994039536,
+          "encodedBodySize": 65868,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Rubik-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 38.400000005960464,
+          "transferSize": 66168
+        },
+        {
+          "decodedBodySize": 173472,
+          "duration": 15.099999994039536,
+          "encodedBodySize": 173472,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Caveat-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 38.599999994039536,
+          "transferSize": 173772
+        }
+      ],
+      "scope": "local single-visit QA; not field CWV",
+      "supported": [
+        "element",
+        "event",
+        "first-input",
+        "interaction-contentful-paint",
+        "largest-contentful-paint",
+        "layout-shift",
+        "long-animation-frame",
+        "longtask",
+        "mark",
+        "measure",
+        "navigation",
+        "paint",
+        "resource",
+        "soft-navigation",
+        "visibility-state"
+      ],
+      "transferSize": 576656
+    },
+    "resource": {
+      "decodedBodySize": 72726,
+      "duration": 23.299999982118607,
+      "encodedBodySize": 72726,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-400-q90-283eb84c.webp",
+      "responseStatus": 200,
+      "startTime": 10.400000005960464,
+      "transferSize": 73026
+    },
+    "type": "partners",
+    "width": 768
+  },
+  {
+    "cssWidth": 266.6640625,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-400-q90-283eb84c.webp",
+    "dpr": 1,
+    "naturalWidth": 267,
+    "qa": {
+      "cls": 0.0698284211754799,
+      "decodedBodySize": 569756,
+      "encodedBodySize": 569756,
+      "fontSetStatus": "loaded",
+      "fonts": [
+        {
+          "family": "Novoferma Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Hand",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Poster",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Protein",
+          "status": "loaded"
+        }
+      ],
+      "layoutShiftCount": 1,
+      "lcp": {
+        "id": "",
+        "loadTime": 36,
+        "renderTime": 88,
+        "size": 106600,
+        "startTime": 88,
+        "tagName": "IMG",
+        "url": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-400-q90-283eb84c.webp"
+      },
+      "navigation": {
+        "domContentLoadedEventEnd": 54.30000001192093,
+        "encodedBodySize": 22069,
+        "loadEventEnd": 56.20000001788139,
+        "responseStart": 4,
+        "startTime": 0,
+        "transferSize": 22369,
+        "type": "navigate"
+      },
+      "observerErrors": [],
+      "resourceCount": 23,
+      "resourceListLimit": 300,
+      "resources": [
+        {
+          "decodedBodySize": 31635,
+          "duration": 11.800000011920927,
+          "encodedBodySize": 31635,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/style.css?v=aeca8820c8",
+          "responseStatus": 200,
+          "startTime": 10.400000005960464,
+          "transferSize": 31935
+        },
+        {
+          "decodedBodySize": 651,
+          "duration": 12.300000011920927,
+          "encodedBodySize": 651,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/assets/fonts/font-face.css?v=4ab22c3bae",
+          "responseStatus": 200,
+          "startTime": 10.400000005960464,
+          "transferSize": 951
+        },
+        {
+          "decodedBodySize": 5284,
+          "duration": 10.900000005960464,
+          "encodedBodySize": 5284,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/depth.css?v=38a885c665",
+          "responseStatus": 200,
+          "startTime": 10.5,
+          "transferSize": 5584
+        },
+        {
+          "decodedBodySize": 6438,
+          "duration": 12.100000023841858,
+          "encodedBodySize": 6438,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/design-system.css?v=e290db3c19",
+          "responseStatus": 200,
+          "startTime": 10.5,
+          "transferSize": 6738
+        },
+        {
+          "decodedBodySize": 21956,
+          "duration": 12.599999994039536,
+          "encodedBodySize": 21956,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/polish.css?v=0015d3dc42",
+          "responseStatus": 200,
+          "startTime": 10.600000023841858,
+          "transferSize": 22256
+        },
+        {
+          "decodedBodySize": 5849,
+          "duration": 13.699999988079073,
+          "encodedBodySize": 5849,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/mobile.css?v=3a933c2e36",
+          "responseStatus": 200,
+          "startTime": 10.600000023841858,
+          "transferSize": 6149
+        },
+        {
+          "decodedBodySize": 5064,
+          "duration": 14.099999994039536,
+          "encodedBodySize": 5064,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/motion.css?v=ad822dccd3",
+          "responseStatus": 200,
+          "startTime": 10.600000023841858,
+          "transferSize": 5364
+        },
+        {
+          "decodedBodySize": 10936,
+          "duration": 14,
+          "encodedBodySize": 10936,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/b2b.css?v=42a1426cb9",
+          "responseStatus": 200,
+          "startTime": 10.600000023841858,
+          "transferSize": 11236
+        },
+        {
+          "decodedBodySize": 11772,
+          "duration": 14.799999982118608,
+          "encodedBodySize": 11772,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/partners-scenes.css?v=86dda0e7e2",
+          "responseStatus": 200,
+          "startTime": 10.600000023841858,
+          "transferSize": 12072
+        },
+        {
+          "decodedBodySize": 2730,
+          "duration": 15.799999982118608,
+          "encodedBodySize": 2730,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/typography.css?v=a04c6a4feb",
+          "responseStatus": 200,
+          "startTime": 10.600000023841858,
+          "transferSize": 3030
+        },
+        {
+          "decodedBodySize": 4156,
+          "duration": 16,
+          "encodedBodySize": 4156,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/logo-reference.webp",
+          "responseStatus": 200,
+          "startTime": 10.600000023841858,
+          "transferSize": 4456
+        },
+        {
+          "decodedBodySize": 7957,
+          "duration": 20.5,
+          "encodedBodySize": 7957,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/script.js?v=1c50fcee82",
+          "responseStatus": 200,
+          "startTime": 10.600000023841858,
+          "transferSize": 8257
+        },
+        {
+          "decodedBodySize": 430,
+          "duration": 27.19999998807907,
+          "encodedBodySize": 430,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/arrow-up-right.svg",
+          "responseStatus": 200,
+          "startTime": 10.600000023841858,
+          "transferSize": 730
+        },
+        {
+          "decodedBodySize": 7017,
+          "duration": 20.799999982118607,
+          "encodedBodySize": 7017,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/depth.js?v=49a230a53b",
+          "responseStatus": 200,
+          "startTime": 10.600000023841858,
+          "transferSize": 7317
+        },
+        "[Circular]",
+        {
+          "decodedBodySize": 438,
+          "duration": 26.799999982118607,
+          "encodedBodySize": 438,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/menu-2.svg",
+          "responseStatus": 200,
+          "startTime": 10.700000017881392,
+          "transferSize": 738
+        },
+        {
+          "decodedBodySize": 406,
+          "duration": 27.599999994039536,
+          "encodedBodySize": 406,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/x.svg",
+          "responseStatus": 200,
+          "startTime": 10.700000017881392,
+          "transferSize": 706
+        },
+        {
+          "decodedBodySize": 421,
+          "duration": 27.5,
+          "encodedBodySize": 421,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/arrow-up.svg",
+          "responseStatus": 200,
+          "startTime": 10.800000011920927,
+          "transferSize": 721
+        },
+        {
+          "decodedBodySize": 11830,
+          "duration": 24.299999982118607,
+          "encodedBodySize": 11830,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/partners-scenes.js?v=82cd53b4af",
+          "responseStatus": 200,
+          "startTime": 10.600000023841858,
+          "transferSize": 12130
+        },
+        {
+          "decodedBodySize": 84076,
+          "duration": 6.5,
+          "encodedBodySize": 84076,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Onest-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 35.30000001192093,
+          "transferSize": 84376
+        },
+        {
+          "decodedBodySize": 38644,
+          "duration": 5.399999976158142,
+          "encodedBodySize": 38644,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/RobotoFlex-Protein.woff2",
+          "responseStatus": 200,
+          "startTime": 36.10000002384186,
+          "transferSize": 38944
+        },
+        {
+          "decodedBodySize": 65868,
+          "duration": 6.0999999940395355,
+          "encodedBodySize": 65868,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Rubik-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 36.10000002384186,
+          "transferSize": 66168
+        },
+        {
+          "decodedBodySize": 173472,
+          "duration": 6.699999988079071,
+          "encodedBodySize": 173472,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Caveat-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 36.30000001192093,
+          "transferSize": 173772
+        }
+      ],
+      "scope": "local single-visit QA; not field CWV",
+      "supported": [
+        "element",
+        "event",
+        "first-input",
+        "interaction-contentful-paint",
+        "largest-contentful-paint",
+        "layout-shift",
+        "long-animation-frame",
+        "longtask",
+        "mark",
+        "measure",
+        "navigation",
+        "paint",
+        "resource",
+        "soft-navigation",
+        "visibility-state"
+      ],
+      "transferSize": 576656
+    },
+    "resource": {
+      "decodedBodySize": 72726,
+      "duration": 16.099999994039536,
+      "encodedBodySize": 72726,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-400-q90-283eb84c.webp",
+      "responseStatus": 200,
+      "startTime": 10.700000017881392,
+      "transferSize": 73026
+    },
+    "type": "partners",
+    "width": 1024
+  },
+  {
+    "cssWidth": 326.6640625,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-400-q90-283eb84c.webp",
+    "dpr": 1,
+    "naturalWidth": 327,
+    "qa": {
+      "cls": 0.0686350679397583,
+      "decodedBodySize": 569756,
+      "encodedBodySize": 569756,
+      "fontSetStatus": "loaded",
+      "fonts": [
+        {
+          "family": "Novoferma Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Hand",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Poster",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Protein",
+          "status": "loaded"
+        }
+      ],
+      "layoutShiftCount": 1,
+      "lcp": {
+        "id": "",
+        "loadTime": 31.400000005960464,
+        "renderTime": 88,
+        "size": 159985,
+        "startTime": 88,
+        "tagName": "IMG",
+        "url": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-400-q90-283eb84c.webp"
+      },
+      "navigation": {
+        "domContentLoadedEventEnd": 51.70000001788139,
+        "encodedBodySize": 22069,
+        "loadEventEnd": 54.30000001192093,
+        "responseStart": 2.9000000059604645,
+        "startTime": 0,
+        "transferSize": 22369,
+        "type": "navigate"
+      },
+      "observerErrors": [],
+      "resourceCount": 23,
+      "resourceListLimit": 300,
+      "resources": [
+        {
+          "decodedBodySize": 651,
+          "duration": 10.399999976158142,
+          "encodedBodySize": 651,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/assets/fonts/font-face.css?v=4ab22c3bae",
+          "responseStatus": 200,
+          "startTime": 8.200000017881393,
+          "transferSize": 951
+        },
+        {
+          "decodedBodySize": 31635,
+          "duration": 11.599999994039536,
+          "encodedBodySize": 31635,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/style.css?v=aeca8820c8",
+          "responseStatus": 200,
+          "startTime": 8.400000005960464,
+          "transferSize": 31935
+        },
+        {
+          "decodedBodySize": 5284,
+          "duration": 10.800000011920927,
+          "encodedBodySize": 5284,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/depth.css?v=38a885c665",
+          "responseStatus": 200,
+          "startTime": 8.400000005960464,
+          "transferSize": 5584
+        },
+        {
+          "decodedBodySize": 6438,
+          "duration": 12.5,
+          "encodedBodySize": 6438,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/design-system.css?v=e290db3c19",
+          "responseStatus": 200,
+          "startTime": 8.400000005960464,
+          "transferSize": 6738
+        },
+        {
+          "decodedBodySize": 5064,
+          "duration": 13.199999988079073,
+          "encodedBodySize": 5064,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/motion.css?v=ad822dccd3",
+          "responseStatus": 200,
+          "startTime": 8.400000005960464,
+          "transferSize": 5364
+        },
+        {
+          "decodedBodySize": 21956,
+          "duration": 13.400000005960464,
+          "encodedBodySize": 21956,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/polish.css?v=0015d3dc42",
+          "responseStatus": 200,
+          "startTime": 8.400000005960464,
+          "transferSize": 22256
+        },
+        {
+          "decodedBodySize": 5849,
+          "duration": 14.5,
+          "encodedBodySize": 5849,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/mobile.css?v=3a933c2e36",
+          "responseStatus": 200,
+          "startTime": 8.400000005960464,
+          "transferSize": 6149
+        },
+        {
+          "decodedBodySize": 11772,
+          "duration": 14.900000005960464,
+          "encodedBodySize": 11772,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/partners-scenes.css?v=86dda0e7e2",
+          "responseStatus": 200,
+          "startTime": 8.400000005960464,
+          "transferSize": 12072
+        },
+        {
+          "decodedBodySize": 10936,
+          "duration": 15.400000005960464,
+          "encodedBodySize": 10936,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/b2b.css?v=42a1426cb9",
+          "responseStatus": 200,
+          "startTime": 8.400000005960464,
+          "transferSize": 11236
+        },
+        {
+          "decodedBodySize": 7957,
+          "duration": 17.69999998807907,
+          "encodedBodySize": 7957,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/script.js?v=1c50fcee82",
+          "responseStatus": 200,
+          "startTime": 8.400000005960464,
+          "transferSize": 8257
+        },
+        {
+          "decodedBodySize": 2730,
+          "duration": 15.099999994039536,
+          "encodedBodySize": 2730,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/typography.css?v=a04c6a4feb",
+          "responseStatus": 200,
+          "startTime": 8.5,
+          "transferSize": 3030
+        },
+        "[Circular]",
+        {
+          "decodedBodySize": 4156,
+          "duration": 16.599999994039536,
+          "encodedBodySize": 4156,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/logo-reference.webp",
+          "responseStatus": 200,
+          "startTime": 8.5,
+          "transferSize": 4456
+        },
+        {
+          "decodedBodySize": 430,
+          "duration": 22.5,
+          "encodedBodySize": 430,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/arrow-up-right.svg",
+          "responseStatus": 200,
+          "startTime": 8.5,
+          "transferSize": 730
+        },
+        {
+          "decodedBodySize": 438,
+          "duration": 22.80000001192093,
+          "encodedBodySize": 438,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/menu-2.svg",
+          "responseStatus": 200,
+          "startTime": 8.5,
+          "transferSize": 738
+        },
+        {
+          "decodedBodySize": 406,
+          "duration": 23.80000001192093,
+          "encodedBodySize": 406,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/x.svg",
+          "responseStatus": 200,
+          "startTime": 8.5,
+          "transferSize": 706
+        },
+        {
+          "decodedBodySize": 421,
+          "duration": 24,
+          "encodedBodySize": 421,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/arrow-up.svg",
+          "responseStatus": 200,
+          "startTime": 8.5,
+          "transferSize": 721
+        },
+        {
+          "decodedBodySize": 11830,
+          "duration": 22.400000005960464,
+          "encodedBodySize": 11830,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/partners-scenes.js?v=82cd53b4af",
+          "responseStatus": 200,
+          "startTime": 8.400000005960464,
+          "transferSize": 12130
+        },
+        {
+          "decodedBodySize": 7017,
+          "duration": 22.400000005960464,
+          "encodedBodySize": 7017,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/depth.js?v=49a230a53b",
+          "responseStatus": 200,
+          "startTime": 8.400000005960464,
+          "transferSize": 7317
+        },
+        {
+          "decodedBodySize": 84076,
+          "duration": 8.599999994039536,
+          "encodedBodySize": 84076,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Onest-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 30.80000001192093,
+          "transferSize": 84376
+        },
+        {
+          "decodedBodySize": 38644,
+          "duration": 6.300000011920929,
+          "encodedBodySize": 38644,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/RobotoFlex-Protein.woff2",
+          "responseStatus": 200,
+          "startTime": 31.5,
+          "transferSize": 38944
+        },
+        {
+          "decodedBodySize": 65868,
+          "duration": 8.5,
+          "encodedBodySize": 65868,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Rubik-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 31.599999994039536,
+          "transferSize": 66168
+        },
+        {
+          "decodedBodySize": 173472,
+          "duration": 8.400000005960464,
+          "encodedBodySize": 173472,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Caveat-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 31.599999994039536,
+          "transferSize": 173772
+        }
+      ],
+      "scope": "local single-visit QA; not field CWV",
+      "supported": [
+        "element",
+        "event",
+        "first-input",
+        "interaction-contentful-paint",
+        "largest-contentful-paint",
+        "layout-shift",
+        "long-animation-frame",
+        "longtask",
+        "mark",
+        "measure",
+        "navigation",
+        "paint",
+        "resource",
+        "soft-navigation",
+        "visibility-state"
+      ],
+      "transferSize": 576656
+    },
+    "resource": {
+      "decodedBodySize": 72726,
+      "duration": 15.599999994039536,
+      "encodedBodySize": 72726,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-400-q90-283eb84c.webp",
+      "responseStatus": 200,
+      "startTime": 8.5,
+      "transferSize": 73026
+    },
+    "type": "partners",
+    "width": 1280
+  },
+  {
+    "cssWidth": 326.6640625,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-400-q90-283eb84c.webp",
+    "dpr": 1,
+    "naturalWidth": 327,
+    "qa": {
+      "cls": 0.06981608826437115,
+      "decodedBodySize": 569756,
+      "encodedBodySize": 569756,
+      "fontSetStatus": "loaded",
+      "fonts": [
+        {
+          "family": "Novoferma Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Hand",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Poster",
+          "status": "loaded"
+        },
+        {
+          "family": "Novoferma Protein",
+          "status": "loaded"
+        }
+      ],
+      "layoutShiftCount": 1,
+      "lcp": {
+        "id": "",
+        "loadTime": 35.900000005960464,
+        "renderTime": 88,
+        "size": 159821,
+        "startTime": 88,
+        "tagName": "IMG",
+        "url": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-400-q90-283eb84c.webp"
+      },
+      "navigation": {
+        "domContentLoadedEventEnd": 49.19999998807907,
+        "encodedBodySize": 22069,
+        "loadEventEnd": 57.5,
+        "responseStart": 3.300000011920929,
+        "startTime": 0,
+        "transferSize": 22369,
+        "type": "navigate"
+      },
+      "observerErrors": [],
+      "resourceCount": 23,
+      "resourceListLimit": 300,
+      "resources": [
+        {
+          "decodedBodySize": 651,
+          "duration": 12.300000011920927,
+          "encodedBodySize": 651,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/assets/fonts/font-face.css?v=4ab22c3bae",
+          "responseStatus": 200,
+          "startTime": 9,
+          "transferSize": 951
+        },
+        {
+          "decodedBodySize": 31635,
+          "duration": 13.800000011920927,
+          "encodedBodySize": 31635,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/style.css?v=aeca8820c8",
+          "responseStatus": 200,
+          "startTime": 9.099999994039536,
+          "transferSize": 31935
+        },
+        {
+          "decodedBodySize": 5284,
+          "duration": 16.099999994039536,
+          "encodedBodySize": 5284,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/depth.css?v=38a885c665",
+          "responseStatus": 200,
+          "startTime": 9.099999994039536,
+          "transferSize": 5584
+        },
+        {
+          "decodedBodySize": 6438,
+          "duration": 15.5,
+          "encodedBodySize": 6438,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/design-system.css?v=e290db3c19",
+          "responseStatus": 200,
+          "startTime": 9.199999988079073,
+          "transferSize": 6738
+        },
+        {
+          "decodedBodySize": 21956,
+          "duration": 16.200000017881393,
+          "encodedBodySize": 21956,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/polish.css?v=0015d3dc42",
+          "responseStatus": 200,
+          "startTime": 9.199999988079073,
+          "transferSize": 22256
+        },
+        {
+          "decodedBodySize": 5849,
+          "duration": 16.30000001192093,
+          "encodedBodySize": 5849,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/mobile.css?v=3a933c2e36",
+          "responseStatus": 200,
+          "startTime": 9.199999988079073,
+          "transferSize": 6149
+        },
+        {
+          "decodedBodySize": 5064,
+          "duration": 16.700000017881393,
+          "encodedBodySize": 5064,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/motion.css?v=ad822dccd3",
+          "responseStatus": 200,
+          "startTime": 9.199999988079073,
+          "transferSize": 5364
+        },
+        {
+          "decodedBodySize": 11772,
+          "duration": 19.900000005960464,
+          "encodedBodySize": 11772,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/partners-scenes.css?v=86dda0e7e2",
+          "responseStatus": 200,
+          "startTime": 9.199999988079073,
+          "transferSize": 12072
+        },
+        {
+          "decodedBodySize": 10936,
+          "duration": 20.400000005960464,
+          "encodedBodySize": 10936,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/b2b.css?v=42a1426cb9",
+          "responseStatus": 200,
+          "startTime": 9.199999988079073,
+          "transferSize": 11236
+        },
+        {
+          "decodedBodySize": 2730,
+          "duration": 21.700000017881393,
+          "encodedBodySize": 2730,
+          "initiatorType": "link",
+          "name": "http://127.0.0.1:8774/typography.css?v=a04c6a4feb",
+          "responseStatus": 200,
+          "startTime": 9.199999988079073,
+          "transferSize": 3030
+        },
+        "[Circular]",
+        {
+          "decodedBodySize": 7957,
+          "duration": 25,
+          "encodedBodySize": 7957,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/script.js?v=1c50fcee82",
+          "responseStatus": 200,
+          "startTime": 9.199999988079073,
+          "transferSize": 8257
+        },
+        {
+          "decodedBodySize": 7017,
+          "duration": 30,
+          "encodedBodySize": 7017,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/depth.js?v=49a230a53b",
+          "responseStatus": 200,
+          "startTime": 9.199999988079073,
+          "transferSize": 7317
+        },
+        {
+          "decodedBodySize": 11830,
+          "duration": 31.200000017881393,
+          "encodedBodySize": 11830,
+          "initiatorType": "script",
+          "name": "http://127.0.0.1:8774/partners-scenes.js?v=82cd53b4af",
+          "responseStatus": 200,
+          "startTime": 9.199999988079073,
+          "transferSize": 12130
+        },
+        {
+          "decodedBodySize": 4156,
+          "duration": 24.5,
+          "encodedBodySize": 4156,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/logo-reference.webp",
+          "responseStatus": 200,
+          "startTime": 9.300000011920927,
+          "transferSize": 4456
+        },
+        {
+          "decodedBodySize": 430,
+          "duration": 30.19999998807907,
+          "encodedBodySize": 430,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/arrow-up-right.svg",
+          "responseStatus": 200,
+          "startTime": 9.300000011920927,
+          "transferSize": 730
+        },
+        {
+          "decodedBodySize": 438,
+          "duration": 31.299999982118607,
+          "encodedBodySize": 438,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/menu-2.svg",
+          "responseStatus": 200,
+          "startTime": 9.300000011920927,
+          "transferSize": 738
+        },
+        {
+          "decodedBodySize": 406,
+          "duration": 32.29999998211861,
+          "encodedBodySize": 406,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/x.svg",
+          "responseStatus": 200,
+          "startTime": 9.300000011920927,
+          "transferSize": 706
+        },
+        {
+          "decodedBodySize": 421,
+          "duration": 31.5,
+          "encodedBodySize": 421,
+          "initiatorType": "img",
+          "name": "http://127.0.0.1:8774/assets/icons/arrow-up.svg",
+          "responseStatus": 200,
+          "startTime": 9.400000005960464,
+          "transferSize": 721
+        },
+        {
+          "decodedBodySize": 84076,
+          "duration": 13.599999994039536,
+          "encodedBodySize": 84076,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Onest-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 35,
+          "transferSize": 84376
+        },
+        {
+          "decodedBodySize": 38644,
+          "duration": 12.699999988079073,
+          "encodedBodySize": 38644,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/RobotoFlex-Protein.woff2",
+          "responseStatus": 200,
+          "startTime": 35.900000005960464,
+          "transferSize": 38944
+        },
+        {
+          "decodedBodySize": 65868,
+          "duration": 13.199999988079073,
+          "encodedBodySize": 65868,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Rubik-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 36,
+          "transferSize": 66168
+        },
+        {
+          "decodedBodySize": 173472,
+          "duration": 13.900000005960464,
+          "encodedBodySize": 173472,
+          "initiatorType": "css",
+          "name": "http://127.0.0.1:8774/assets/fonts/Caveat-wght.woff2",
+          "responseStatus": 200,
+          "startTime": 36.19999998807907,
+          "transferSize": 173772
+        }
+      ],
+      "scope": "local single-visit QA; not field CWV",
+      "supported": [
+        "element",
+        "event",
+        "first-input",
+        "interaction-contentful-paint",
+        "largest-contentful-paint",
+        "layout-shift",
+        "long-animation-frame",
+        "longtask",
+        "mark",
+        "measure",
+        "navigation",
+        "paint",
+        "resource",
+        "soft-navigation",
+        "visibility-state"
+      ],
+      "transferSize": 576656
+    },
+    "resource": {
+      "decodedBodySize": 72726,
+      "duration": 20.299999982118607,
+      "encodedBodySize": 72726,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/partners/partner-host-v1-400-q90-283eb84c.webp",
+      "responseStatus": 200,
+      "startTime": 9.300000011920927,
+      "transferSize": 73026
+    },
+    "type": "partners",
+    "width": 1440
+  },
+  {
+    "cssWidth": 518.4375,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/fibriki-art-v5-640-q90-1b6cf1a2.webp",
+    "dpr": 1,
+    "naturalWidth": 518,
+    "panel": "scene-fibriki",
+    "resource": {
+      "decodedBodySize": 47682,
+      "duration": 20.80000001192093,
+      "encodedBodySize": 47682,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/hero/fibriki-art-v5-640-q90-1b6cf1a2.webp",
+      "responseStatus": 200,
+      "startTime": 9.599999994039536,
+      "transferSize": 47982
+    },
+    "type": "hero",
+    "width": 320
+  },
+  {
+    "cssWidth": 490.0078125,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/meatballs-art-v4-640-q90-8e04511a.webp",
+    "dpr": 1,
+    "naturalWidth": 490,
+    "panel": "scene-meatballs",
+    "resource": {
+      "decodedBodySize": 47624,
+      "duration": 2.2999999821186066,
+      "encodedBodySize": 47624,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/hero/meatballs-art-v4-640-q90-8e04511a.webp",
+      "responseStatus": 200,
+      "startTime": 73.30000001192093,
+      "transferSize": 47924
+    },
+    "type": "hero",
+    "width": 320
+  },
+  {
+    "cssWidth": 459.1015625,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/nuggets-art-v4-640-q90-e6e41be3.webp",
+    "dpr": 1,
+    "naturalWidth": 459,
+    "panel": "scene-nuggets",
+    "resource": {
+      "decodedBodySize": 57682,
+      "duration": 2.2000000178813934,
+      "encodedBodySize": 57682,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/hero/nuggets-art-v4-640-q90-e6e41be3.webp",
+      "responseStatus": 200,
+      "startTime": 94,
+      "transferSize": 57982
+    },
+    "type": "hero",
+    "width": 320
+  },
+  {
+    "cssWidth": 478.171875,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/lulia-mini-art-v4-640-q90-7ed345d8.webp",
+    "dpr": 1,
+    "naturalWidth": 478,
+    "panel": "scene-lulia-mini",
+    "resource": {
+      "decodedBodySize": 60708,
+      "duration": 2,
+      "encodedBodySize": 60708,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/hero/lulia-mini-art-v4-640-q90-7ed345d8.webp",
+      "responseStatus": 200,
+      "startTime": 128.09999999403954,
+      "transferSize": 61008
+    },
+    "type": "hero",
+    "width": 320
+  },
+  {
+    "cssWidth": 723.046875,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/fibriki-art-v5-800-q90-1b6cf1a2.webp",
+    "dpr": 1,
+    "naturalWidth": 723,
+    "panel": "scene-fibriki",
+    "resource": {
+      "decodedBodySize": 67138,
+      "duration": 25.69999998807907,
+      "encodedBodySize": 67138,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/hero/fibriki-art-v5-800-q90-1b6cf1a2.webp",
+      "responseStatus": 200,
+      "startTime": 15.5,
+      "transferSize": 67438
+    },
+    "type": "hero",
+    "width": 768
+  },
+  {
+    "cssWidth": 640.71875,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/meatballs-art-v4-800-q90-8e04511a.webp",
+    "dpr": 1,
+    "naturalWidth": 640,
+    "panel": "scene-meatballs",
+    "resource": {
+      "decodedBodySize": 66922,
+      "duration": 3,
+      "encodedBodySize": 66922,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/hero/meatballs-art-v4-800-q90-8e04511a.webp",
+      "responseStatus": 200,
+      "startTime": 86.19999998807907,
+      "transferSize": 67222
+    },
+    "type": "hero",
+    "width": 768
+  },
+  {
+    "cssWidth": 600.3046875,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/nuggets-art-v4-640-q90-e6e41be3.webp",
+    "dpr": 1,
+    "naturalWidth": 600,
+    "panel": "scene-nuggets",
+    "resource": {
+      "decodedBodySize": 57682,
+      "duration": 1.9000000059604645,
+      "encodedBodySize": 57682,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/hero/nuggets-art-v4-640-q90-e6e41be3.webp",
+      "responseStatus": 200,
+      "startTime": 108,
+      "transferSize": 57982
+    },
+    "type": "hero",
+    "width": 768
+  },
+  {
+    "cssWidth": 625.2422485351562,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/lulia-mini-art-v4-640-q90-7ed345d8.webp",
+    "dpr": 1,
+    "naturalWidth": 625,
+    "panel": "scene-lulia-mini",
+    "resource": {
+      "decodedBodySize": 60708,
+      "duration": 1.9000000059604645,
+      "encodedBodySize": 60708,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/hero/lulia-mini-art-v4-640-q90-7ed345d8.webp",
+      "responseStatus": 200,
+      "startTime": 113.09999999403954,
+      "transferSize": 61008
+    },
+    "type": "hero",
+    "width": 768
+  },
+  {
+    "cssWidth": 1231.3046875,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/fibriki-art-v5-1280-q90-1b6cf1a2.webp",
+    "dpr": 1,
+    "naturalWidth": 1231,
+    "panel": "scene-fibriki",
+    "resource": {
+      "decodedBodySize": 140544,
+      "duration": 35.5,
+      "encodedBodySize": 140544,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/hero/fibriki-art-v5-1280-q90-1b6cf1a2.webp",
+      "responseStatus": 200,
+      "startTime": 31.799999982118607,
+      "transferSize": 140844
+    },
+    "type": "hero",
+    "width": 1440
+  },
+  {
+    "cssWidth": 1223.6953125,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/meatballs-art-v4-1280-q90-8e04511a.webp",
+    "dpr": 1,
+    "naturalWidth": 1223,
+    "panel": "scene-meatballs",
+    "resource": {
+      "decodedBodySize": 134640,
+      "duration": 7.199999988079071,
+      "encodedBodySize": 134640,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/hero/meatballs-art-v4-1280-q90-8e04511a.webp",
+      "responseStatus": 200,
+      "startTime": 136.19999998807907,
+      "transferSize": 134940
+    },
+    "type": "hero",
+    "width": 1440
+  },
+  {
+    "cssWidth": 1146.5,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/nuggets-art-v4-1280-q90-e6e41be3.webp",
+    "dpr": 1,
+    "naturalWidth": 1146,
+    "panel": "scene-nuggets",
+    "resource": {
+      "decodedBodySize": 162616,
+      "duration": 1.5999999940395355,
+      "encodedBodySize": 162616,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/hero/nuggets-art-v4-1280-q90-e6e41be3.webp",
+      "responseStatus": 200,
+      "startTime": 156.5,
+      "transferSize": 162916
+    },
+    "type": "hero",
+    "width": 1440
+  },
+  {
+    "cssWidth": 1194.1328125,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/lulia-mini-art-v4-1280-q90-7ed345d8.webp",
+    "dpr": 1,
+    "naturalWidth": 1194,
+    "panel": "scene-lulia-mini",
+    "resource": {
+      "decodedBodySize": 170804,
+      "duration": 3.2000000178813934,
+      "encodedBodySize": 170804,
+      "initiatorType": "img",
+      "name": "http://127.0.0.1:8774/assets/responsive/hero/lulia-mini-art-v4-1280-q90-7ed345d8.webp",
+      "responseStatus": 200,
+      "startTime": 199.7999999821186,
+      "transferSize": 171104
+    },
+    "type": "hero",
+    "width": 1440
+  }
+]

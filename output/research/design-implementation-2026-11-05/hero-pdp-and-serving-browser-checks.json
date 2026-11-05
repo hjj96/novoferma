@@ -1,0 +1,29 @@
+[
+  {
+    "status": "Концепт новинки",
+    "title": "Фибрики",
+    "url": "http://127.0.0.1:8772/product-fibriki.html"
+  },
+  {
+    "status": null,
+    "title": "Фрикадельки «Классические»",
+    "url": "http://127.0.0.1:8772/product-frikadelki-klassicheskie.html"
+  },
+  {
+    "status": null,
+    "title": "Наггетсы куриные",
+    "url": "http://127.0.0.1:8772/product-naggetsy-kurinye.html"
+  },
+  {
+    "status": "Концепт новинки",
+    "title": "Люля мини",
+    "url": "http://127.0.0.1:8772/product-lulia-mini.html"
+  },
+  {
+    "caption": "Пример подачи с сайта производителя. Состав и способ приготовления сверяйте по актуальной этикетке.",
+    "img": "assets/catalogue/naggetsy-kurinye-s-syrom-serving.webp",
+    "loading": "lazy",
+    "mode": "serving-open",
+    "open": true
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "cta": {
+      "bottom": 135.953125,
+      "left": 20,
+      "right": 266,
+      "top": 85.953125
+    },
+    "dpr": 1,
+    "focus": "pick-fibriki",
+    "headerBottom": -199,
+    "link": "product-fibriki.html",
+    "panel": "scene-fibriki",
+    "selected": [
+      "01Фибрики"
+    ],
+    "stage": {
+      "bottom": 424.953125,
+      "top": -199
+    },
+    "width": 320,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/fibriki-art-v5-640-q90-1b6cf1a2.webp",
+    "canvasWidth": 518.4375,
+    "naturalWidth": 518
+  },
+  {
+    "cta": {
+      "bottom": 120.859375,
+      "left": 20,
+      "right": 199.703125,
+      "top": 70.859375
+    },
+    "dpr": 1,
+    "focus": "pick-meatballs",
+    "headerBottom": -199,
+    "link": "product-frikadelki-klassicheskie.html",
+    "panel": "scene-meatballs",
+    "selected": [
+      "02Фрикадельки"
+    ],
+    "stage": {
+      "bottom": 424.953125,
+      "top": -199
+    },
+    "width": 320,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/meatballs-art-v4-640-q90-8e04511a.webp",
+    "canvasWidth": 490.0078125,
+    "naturalWidth": 490
+  },
+  {
+    "cta": {
+      "bottom": 135.15625,
+      "left": 20,
+      "right": 169.90625,
+      "top": 85.15625
+    },
+    "dpr": 1,
+    "focus": "pick-nuggets",
+    "headerBottom": -199,
+    "link": "product-naggetsy-kurinye.html",
+    "panel": "scene-nuggets",
+    "selected": [
+      "03Наггетсы"
+    ],
+    "stage": {
+      "bottom": 424.953125,
+      "top": -199
+    },
+    "width": 320,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/nuggets-art-v4-640-q90-e6e41be3.webp",
+    "canvasWidth": 459.1015625,
+    "naturalWidth": 459
+  },
+  {
+    "cta": {
+      "bottom": 159.953125,
+      "left": 20,
+      "right": 178.5390625,
+      "top": 109.953125
+    },
+    "dpr": 1,
+    "focus": "pick-lulia-mini",
+    "headerBottom": -199,
+    "link": "product-lulia-mini.html",
+    "panel": "scene-lulia-mini",
+    "selected": [
+      "04Люля мини"
+    ],
+    "stage": {
+      "bottom": 424.953125,
+      "top": -199
+    },
+    "width": 320,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/lulia-mini-art-v4-640-q90-7ed345d8.webp",
+    "canvasWidth": 478.171875,
+    "naturalWidth": 478
+  },
+  {
+    "cta": {
+      "bottom": 357.1875,
+      "left": 32,
+      "right": 290.234375,
+      "top": 305.1875
+    },
+    "dpr": 1,
+    "focus": "pick-fibriki",
+    "headerBottom": -59,
+    "link": "product-fibriki.html",
+    "panel": "scene-fibriki",
+    "selected": [
+      "01Фибрики"
+    ],
+    "stage": {
+      "bottom": 461,
+      "top": -59
+    },
+    "width": 768,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/fibriki-art-v5-800-q90-1b6cf1a2.webp",
+    "canvasWidth": 723.046875,
+    "naturalWidth": 723
+  },
+  {
+    "cta": {
+      "bottom": 357,
+      "left": 32,
+      "right": 218.8359375,
+      "top": 305
+    },
+    "dpr": 1,
+    "focus": "pick-meatballs",
+    "headerBottom": -59,
+    "link": "product-frikadelki-klassicheskie.html",
+    "panel": "scene-meatballs",
+    "selected": [
+      "02Фрикадельки"
+    ],
+    "stage": {
+      "bottom": 461,
+      "top": -59
+    },
+    "width": 768,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/meatballs-art-v4-800-q90-8e04511a.webp",
+    "canvasWidth": 640.71875,
+    "naturalWidth": 640
+  },
+  {
+    "cta": {
+      "bottom": 366.7890625,
+      "left": 32,
+      "right": 186.7421875,
+      "top": 314.7890625
+    },
+    "dpr": 1,
+    "focus": "pick-nuggets",
+    "headerBottom": -59,
+    "link": "product-naggetsy-kurinye.html",
+    "panel": "scene-nuggets",
+    "selected": [
+      "03Наггетсы"
+    ],
+    "stage": {
+      "bottom": 461,
+      "top": -59
+    },
+    "width": 768,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/nuggets-art-v4-640-q90-e6e41be3.webp",
+    "canvasWidth": 600.3046875,
+    "naturalWidth": 600
+  },
+  {
+    "cta": {
+      "bottom": 364.2890625,
+      "left": 32,
+      "right": 196.0390625,
+      "top": 312.2890625
+    },
+    "dpr": 1,
+    "focus": "pick-lulia-mini",
+    "headerBottom": -59,
+    "link": "product-lulia-mini.html",
+    "panel": "scene-lulia-mini",
+    "selected": [
+      "04Люля мини"
+    ],
+    "stage": {
+      "bottom": 461,
+      "top": -59
+    },
+    "width": 768,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/lulia-mini-art-v4-640-q90-7ed345d8.webp",
+    "canvasWidth": 625.2422485351562,
+    "naturalWidth": 625
+  },
+  {
+    "cta": {
+      "bottom": 320.8515625,
+      "left": 69.1171875,
+      "right": 353.3515625,
+      "top": 264.8515625
+    },
+    "dpr": 1,
+    "focus": "pick-fibriki",
+    "headerBottom": -241,
+    "link": "product-fibriki.html",
+    "panel": "scene-fibriki",
+    "selected": [
+      "01Фибрики"
+    ],
+    "stage": {
+      "bottom": 459,
+      "top": -241
+    },
+    "width": 1440,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/fibriki-art-v5-1280-q90-1b6cf1a2.webp",
+    "canvasWidth": 1231.3046875,
+    "naturalWidth": 1231
+  },
+  {
+    "cta": {
+      "bottom": 310.0859375,
+      "left": 69.1171875,
+      "right": 281.953125,
+      "top": 254.0859375
+    },
+    "dpr": 1,
+    "focus": "pick-meatballs",
+    "headerBottom": -241,
+    "link": "product-frikadelki-klassicheskie.html",
+    "panel": "scene-meatballs",
+    "selected": [
+      "02Фрикадельки"
+    ],
+    "stage": {
+      "bottom": 459,
+      "top": -241
+    },
+    "width": 1440,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/meatballs-art-v4-1280-q90-8e04511a.webp",
+    "canvasWidth": 1223.6953125,
+    "naturalWidth": 1223
+  },
+  {
+    "cta": {
+      "bottom": 318.453125,
+      "left": 69.1171875,
+      "right": 249.859375,
+      "top": 262.453125
+    },
+    "dpr": 1,
+    "focus": "pick-nuggets",
+    "headerBottom": -241,
+    "link": "product-naggetsy-kurinye.html",
+    "panel": "scene-nuggets",
+    "selected": [
+      "03Наггетсы"
+    ],
+    "stage": {
+      "bottom": 459,
+      "top": -241
+    },
+    "width": 1440,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/nuggets-art-v4-1280-q90-e6e41be3.webp",
+    "canvasWidth": 1146.5,
+    "naturalWidth": 1146
+  },
+  {
+    "cta": {
+      "bottom": 323.0625,
+      "left": 69.1171875,
+      "right": 259.15625,
+      "top": 267.0625
+    },
+    "dpr": 1,
+    "focus": "pick-lulia-mini",
+    "headerBottom": -241,
+    "link": "product-lulia-mini.html",
+    "panel": "scene-lulia-mini",
+    "selected": [
+      "04Люля мини"
+    ],
+    "stage": {
+      "bottom": 459,
+      "top": -241
+    },
+    "width": 1440,
+    "currentSrc": "http://127.0.0.1:8774/assets/responsive/hero/lulia-mini-art-v4-1280-q90-7ed345d8.webp",
+    "canvasWidth": 1194.1328125,
+    "naturalWidth": 1194
+  }
+]

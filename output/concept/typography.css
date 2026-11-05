@@ -1,0 +1,57 @@
+/* Font roles, shared by every page. Keep this small contract after page styles.
+   Protein: short campaign phrases; uppercase, weight 850, no geometric stretch.
+   Onest: product names, paragraphs, forms and actions; normal case and spacing.
+   Caveat: a short supporting note, never facts, status or a form label.
+   Rubik: secondary numbering/status accents, not long product titles.
+   Rem sizes follow the reader's preferred text size. Fallbacks may wrap freely. */
+@font-face {
+ font-family:'Novoferma Protein';
+ src:url('assets/fonts/RobotoFlex-Protein.woff2') format('woff2');
+ font-weight:850;font-style:normal;font-display:swap;
+}
+:root {
+ --font-poster-short:'Novoferma Protein','Arial Narrow',Arial,sans-serif;
+ --font-reading:'Novoferma Sans',Arial,sans-serif;
+ --font-secondary:'Novoferma Poster','Novoferma Sans',Arial,sans-serif;
+ --font-note:'Novoferma Hand','Segoe Print',cursive;
+}
+body {font-family:var(--font-reading)}
+input,select,textarea,button {font-family:var(--font-reading)}
+.page-heading h1,.about-hero h1,.page-intro h1,.city-panel h2 {
+ font-family:var(--font-poster-short);font-weight:850;
+ letter-spacing:-.012em;line-height:1.08;overflow-wrap:anywhere;
+}
+.hand {font-family:var(--font-note)}
+/* Navigation and business details do not inherit compact poster treatments. */
+.breadcrumb {
+ min-width:0;max-width:100%;flex-wrap:wrap;gap:0 8px;
+ font-family:var(--font-reading);font-size:.875rem;line-height:1.6;
+}
+.breadcrumb > span {min-width:0;max-width:100%;overflow-wrap:anywhere}
+.breadcrumb a {min-height:44px}
+.footer-top,.footer-bottom,.footer-bottom nav {min-width:0;flex-wrap:wrap}
+.footer-bottom,.footer-bottom nav,.footer-bottom a,.footer-mail {
+ font-family:var(--font-reading);font-size:.875rem;line-height:1.6;overflow-wrap:anywhere;
+}
+.footer-bottom nav {gap:8px 24px}
+.footer-bottom a,.footer-mail {min-height:44px;max-width:100%;white-space:normal}
+.footer-top .hand {max-width:100%;white-space:normal}
+.menu-toggle,.menu-close,.to-top {width:44px;height:44px;min-width:44px;min-height:44px}
+/* Labels stay inside the available column when fonts fail or text is enlarged. */
+.city-panel,.where-explanation,.about-intro,.about-editorial > * {min-width:0}
+.city-panel label,.form-hint,.small-note {font-size:.875rem;line-height:1.6}
+.city-panel input,.city-panel select {font-size:1rem;height:auto;min-height:48px;line-height:1.5}
+.city-panel .button {max-width:100%;white-space:normal;line-height:1.5}
+.where-explanation p,.about-intro p,.about-editorial p {overflow-wrap:anywhere}
+/* Source attribution belongs below the photograph, clear of the product. */
+.about-editorial .editorial-photo figcaption {
+ position:static;transform:none;box-shadow:none;background:none;
+ padding:12px 4px 0;font-family:var(--font-reading);font-size:.875rem;
+ line-height:1.5;color:var(--muted);overflow-wrap:anywhere;
+}
+@media(max-width:699px) {
+ .about-editorial .editorial-photo img {aspect-ratio:1;object-fit:contain;height:auto}
+ .footer-bottom nav {gap:8px 20px}
+ .footer-top .hand {max-width:min(100%,13rem)}
+ .page-intro .hand,.where-explanation .hand {width:auto;max-width:100%;white-space:normal}
+}

@@ -1,0 +1,119 @@
+/* Refine the original playful poster: navigation, copy and art have their own space. */
+.page-index {--hero-paper:#fff9ed}
+.page-index .site-header {position:relative;background:var(--hero-paper)}
+.product-showcase {position:relative;background:var(--hero-paper);overflow:clip}
+.product-stage {position:relative;isolation:isolate;width:100%;height:clamp(540px,calc(100svh - 168px),700px);overflow:hidden;touch-action:pan-y pinch-zoom}
+.product-stage-paper,.product-stage-background {position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.product-stage-paper {object-fit:cover;z-index:-3}
+.product-stage-background {object-fit:fill;z-index:-2}
+.product-scene {position:absolute;inset:0;display:grid;grid-template-columns:47% 53%;color:#432714;opacity:0;visibility:hidden;pointer-events:none;transition:opacity 320ms ease,visibility 320ms}
+.product-scene.is-active {opacity:1;visibility:visible;pointer-events:auto;z-index:2}
+.product-scene-content {position:relative;z-index:3;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:32px 0 58px max(32px,calc((100vw - 1296px)/2));padding-left:clamp(32px,4.8vw,100px);min-width:0}
+.hero-new {display:inline-flex;align-items:center;min-height:28px;margin:0 0 22px;font-size:11px;font-weight:750;line-height:1.2;letter-spacing:.12em;text-transform:uppercase;color:#8e3819}
+.hero-new-accent {padding:8px 13px;background:#f9dfba;color:#753119;border-radius:100px;letter-spacing:.1em}
+.hero-text-stack {width:100%}
+.product-scene-title {margin:0;font-family:'Novoferma Protein','Novoferma Poster',Arial,sans-serif;font-weight:850;font-size:clamp(80px,9.5vw,150px);line-height:.98;letter-spacing:-.014em;word-spacing:.04em;text-transform:uppercase;color:#432714;text-wrap:initial}
+.product-title-live {display:block;white-space:nowrap}
+.product-scene-meatballs .product-scene-title {font-size:clamp(62px,6.4vw,112px)}
+.product-scene-lulia-mini .product-scene-title {font-size:clamp(72px,7.9vw,136px)}
+.product-scene-subtitle {margin:22px 0 0;font-family:var(--font-poster);font-weight:900;font-size:clamp(28px,3.5vw,54px);line-height:1.08;letter-spacing:-.02em;color:#bc4318;text-wrap:initial}
+.product-scene-fibriki .product-scene-subtitle {display:inline-flex;align-items:center;justify-content:center;gap:.18em;white-space:nowrap;width:fit-content;margin:12px 0 0 -14px;padding:18px 28px 24px;background:url('assets/product-hero/benefit-brush-v11.webp') center/100% 100% no-repeat;font-family:var(--font-hand);font-weight:700;font-size:clamp(34px,3.7vw,58px);line-height:1.1;letter-spacing:-.025em;color:#432714;transform:rotate(-3deg)}
+.hero-plus {font-weight:650}
+.product-scene-description {max-width:34ch;margin:20px 0 0;font-size:clamp(15px,1.25vw,18px);line-height:1.5;letter-spacing:-.01em;color:#432714}
+.hero-actions {display:flex;align-items:center;margin-top:28px}
+.product-scene .product-scene-cta {display:inline-flex;align-items:center;justify-content:space-between;gap:30px;min-height:56px;padding:16px 24px;background:#432714;border:0;border-radius:100px;color:#fff9ed;font-size:14px;font-weight:650;line-height:1.3;box-shadow:none;white-space:nowrap;transition:background 180ms,transform 180ms}
+.product-scene .product-scene-cta:hover {background:#7e3619;transform:translateY(-2px)}
+.product-scene .product-scene-cta .ui-icon {width:21px;height:21px;flex:none;filter:brightness(0) invert(1);transition:transform 180ms}
+.product-scene .product-scene-cta:hover .ui-icon {transform:translateX(3px)}
+.product-scene-art {position:relative;z-index:1;align-self:stretch;min-width:0;display:flex;align-items:center;justify-content:center;pointer-events:none;padding:20px 24px 40px 0}
+.hero-art-frame {position:relative;display:block;width:min(100%,calc(570px * var(--art-ratio)));aspect-ratio:var(--art-ratio);overflow:hidden}
+.hero-art-frame img {position:absolute;display:block;width:var(--art-size);height:auto;max-width:none;left:var(--art-left);top:var(--art-top)}
+.product-controls {display:flex;align-items:center;gap:28px;max-width:1296px;margin:auto;padding:14px 0;min-height:80px;color:var(--brown)}
+.product-pickers {display:flex;flex:1;align-items:center;gap:8px;min-width:0}
+.product-picker {display:flex;align-items:center;justify-content:center;gap:12px;flex:1;min-width:0;min-height:48px;padding:12px 14px;border:0;border-radius:10px;background:transparent;color:var(--brown);transition:background 180ms,color 180ms}
+.product-picker-label {font-size:13px;font-weight:650;line-height:1.3;white-space:nowrap}
+.product-picker-mark {font-size:10px;font-weight:500;font-variant-numeric:tabular-nums;opacity:.55}
+.product-picker[aria-selected=true] {background:#f6e1ca;color:#432714}
+.product-picker:hover {background:#f1e9d9}
+.product-picker[aria-selected=true]:hover {background:#f0d4b8}
+.product-picker[aria-selected=true] .product-picker-mark {opacity:1;color:#b64622}
+.product-playback {display:flex;gap:8px;align-items:center;flex:none}
+.product-arrow {display:grid;place-items:center;width:46px;height:46px;background:#f1e9d9;border:0;border-radius:50%;color:var(--brown);transition:background 180ms,transform 180ms}
+.product-arrow:hover {background:#e6dac5;transform:translateY(-1px)}
+.product-showcase :is(a,button):focus-visible {outline:3px solid #344737;outline-offset:4px}
+.sr-only {position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.page-index .home-products {padding-top:64px}
+@media(min-width:1600px) {
+ .product-scene {grid-template-columns:46% 54%;max-width:1720px;margin-inline:auto}
+ .product-scene-content {padding-left:76px}
+ .product-scene-art {padding-right:40px}
+}
+@media(min-width:700px) and (max-width:1099px) {
+ .product-stage {height:520px}
+ .product-scene {grid-template-columns:47% 53%}
+ .product-scene-content {padding:24px 0 42px 32px}
+ .hero-new {margin-bottom:19px;font-size:10px}
+ .product-scene-title {font-size:9.4vw}
+ .product-scene-meatballs .product-scene-title {font-size:6.8vw}
+ .product-scene-lulia-mini .product-scene-title {font-size:8.1vw}
+ .product-scene-subtitle {font-size:3.7vw;margin-top:16px}
+ .product-scene-fibriki .product-scene-subtitle {font-size:4.2vw;padding:16px 22px 20px;margin-left:-12px}
+ .product-scene-description {font-size:14px;max-width:30ch;margin-top:16px;padding-right:12px}
+ .hero-actions {margin-top:24px}
+ .product-scene .product-scene-cta {min-height:52px;font-size:12px;padding:14px 18px;gap:16px}
+ .product-scene-art {padding:16px 20px 30px 0}
+ .product-controls {min-height:76px;gap:16px;padding:12px 24px}
+ .product-picker {padding-inline:8px;gap:8px}
+ .product-picker-label {font-size:12px}
+}
+@media(max-width:699px) {
+ .product-stage {height:auto;display:grid}
+ .product-scene {position:relative;inset:auto;grid-area:1 / 1;grid-template-columns:1fr;grid-template-rows:auto 295px;align-content:start}
+ .product-scene-content {justify-content:flex-start;padding:22px 24px 0;min-height:322px}
+ .hero-new {min-height:24px;margin-bottom:16px;font-size:9px;letter-spacing:.1em}
+ .hero-new-accent {padding:7px 11px}
+ .product-scene-title,.product-scene-lulia-mini .product-scene-title {font-size:clamp(57px,17vw,106px);line-height:.95}
+ .product-scene-meatballs .product-scene-title {font-size:clamp(41px,11.8vw,79px)}
+ .product-scene-subtitle {margin-top:15px;font-size:clamp(26px,7.8vw,40px);line-height:1.04;letter-spacing:-.02em}
+ .product-scene-fibriki .product-scene-subtitle {font-size:clamp(31px,8.3vw,49px);white-space:nowrap;padding:13px 20px 18px;margin:7px 0 0 -10px}
+ .product-scene-description {margin-top:14px;font-size:13px;line-height:1.5;max-width:37ch}
+ .hero-actions {margin-top:20px;width:100%}
+ .product-scene .product-scene-cta {font-size:12px;min-height:48px;padding:13px 20px;gap:24px}
+ .product-scene .product-scene-cta .ui-icon {width:19px;height:19px}
+ .product-scene-art {width:100%;height:295px;justify-self:center;align-items:center;padding:6px 16px 18px}
+ .hero-art-frame {width:min(100%,calc(270px * var(--art-ratio)))}
+ .product-controls {display:grid;grid-template-columns:1fr;gap:8px;min-height:68px;padding:10px 16px}
+ .product-pickers {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2px}
+ .product-picker {flex-direction:column;gap:4px;min-height:48px;padding:6px 2px;border-radius:8px}
+ .product-picker-label {font-size:11px;letter-spacing:-.02em}
+ .product-picker-mark {font-size:8px;line-height:1}
+ .product-playback {display:none}
+ .page-index .home-products {padding-top:42px}
+}
+@media(min-width:480px) and (max-width:699px) {
+ .product-scene-content {padding:28px 32px 0;min-height:370px}
+ .product-scene-description {font-size:15px;max-width:40ch}
+ .product-scene .product-scene-cta {font-size:14px}
+ .product-scene-art {height:340px}
+ .hero-art-frame {width:min(100%,calc(315px * var(--art-ratio)))}
+ .product-scene {grid-template-rows:auto 340px}
+ .product-picker-label {font-size:12px}
+}
+@media(max-width:359px) {
+ .product-scene-content {padding-inline:20px;min-height:330px}
+ .product-scene-art {height:265px;padding-inline:12px}
+ .product-scene {grid-template-rows:auto 265px}
+ .hero-art-frame {width:min(100%,calc(240px * var(--art-ratio)))}
+ .product-scene-title,.product-scene-lulia-mini .product-scene-title {font-size:16.2vw}
+ .product-scene-meatballs .product-scene-title {font-size:11.5vw}
+ .product-scene-fibriki .product-scene-subtitle {font-size:29px;padding-inline:17px}
+ .product-scene .product-scene-cta {gap:15px;font-size:11px}
+ .product-picker-label {font-size:10px}
+}
+@media(prefers-reduced-motion:no-preference) {
+ .product-scene.is-active .hero-art-frame {animation:hero-scene-in 600ms cubic-bezier(.2,.65,.3,1) both}
+ @keyframes hero-scene-in {from {opacity:0;translate:16px 8px} to {opacity:1;translate:0 0}}
+}
+@media(prefers-reduced-motion:reduce) {
+ .product-showcase *, .product-showcase *::before, .product-showcase *::after {animation:none!important;transition:none!important}
+}
