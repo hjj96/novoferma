@@ -1,0 +1,90 @@
+/* Buyer information uses the existing palette and type; characters keep their own space. */
+.b2b-section-heading h2,.b2b-materials h2,.b2b-answers h2,.stm-intro h1,.stm-brief h2,.stm-process h2,.stm-invitation h2{font-family:var(--font-poster);font-weight:900;text-transform:uppercase;font-size:clamp(34px,4vw,60px);line-height:1.06;letter-spacing:-.025em;text-wrap:initial}
+.b2b-section-heading h2 em,.b2b-materials h2 em,.b2b-answers h2 em,.page-private-label em{color:#b53b0c}
+.b2b-segments{padding-block:64px 72px}
+.b2b-section-heading{margin-bottom:38px}
+.b2b-segment-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}
+.b2b-segment-grid article{display:flex;flex-direction:column;align-items:flex-start;min-width:0;scroll-margin-top:24px}
+.b2b-number{color:#8b481e;font-size:12px;font-weight:650;letter-spacing:.07em;margin-bottom:16px}
+.b2b-segment-grid h3{font-family:var(--font-display);font-size:clamp(22px,2.1vw,29px);font-weight:700;line-height:1.2;letter-spacing:-.025em}
+.b2b-segment-grid article>p:not(.b2b-number){font-size:16px;line-height:1.65;max-width:32ch;margin-top:16px;margin-bottom:20px;flex:1}
+.b2b-segment-grid .text-link{font-size:15px;min-height:48px;gap:14px}
+.b2b-materials{background:#f2e4c9}
+.b2b-materials-inner{display:grid;grid-template-columns:1.3fr .8fr;align-items:center;gap:64px;padding-block:56px}
+.b2b-materials-inner>div>p:not(.eyebrow),.stm-brief>div>p:not(.eyebrow){font-size:17px;line-height:1.65;max-width:50ch;margin-top:24px}
+.b2b-material-actions{display:flex;flex-direction:column;align-items:flex-start;gap:20px}
+.b2b-material-actions>p{font-size:13px;color:#65503d;margin-top:-10px;line-height:1.5}
+.b2b-material-actions .text-link{font-size:15px;min-height:44px;gap:16px}
+.b2b-answers{display:grid;grid-template-columns:.9fr 1.2fr;gap:72px;padding-block:64px 72px}
+.b2b-questions details{padding:0 0 24px}
+.b2b-questions details+details{padding-top:8px}
+.b2b-questions summary{cursor:pointer;font-size:18px;line-height:1.5;font-weight:650;min-height:44px;padding-block:8px}
+.b2b-questions details p{font-size:16px;line-height:1.7;margin-top:12px;max-width:62ch}
+.partners-business-description{max-width:36ch}
+.partners-form-field select{width:100%;min-width:0;max-width:100%;background:#fff8ed;border:1px solid #fff8ed;border-radius:6px;color:var(--brown);font-size:16px;font-weight:500;line-height:1.5;padding:13px 34px 13px 14px;min-height:52px}
+.partners-form-field select:focus-visible{outline:2px solid var(--cream);outline-offset:4px}
+.partners-consent{display:flex;align-items:flex-start;gap:12px;margin-top:22px;font-size:13px;line-height:1.6;cursor:pointer}
+.partners-consent input{width:20px;height:20px;flex:0 0 20px;margin-top:1px;accent-color:#f3dc9e}
+.partners-consent input:focus-visible{outline:2px solid var(--cream);outline-offset:4px}
+.partners-data-notice{font-size:13px;line-height:1.7;margin-top:8px;color:#efddc4}
+.partners-data-notice summary{min-height:44px;padding-block:10px;cursor:pointer}
+.partners-data-notice p{max-width:62ch}
+.partners-data-notice a,.partners-email-fallback{text-decoration:underline;text-underline-offset:4px}
+.partners-email-fallback{display:inline-flex;align-items:center;min-height:44px;font-size:13px;margin-top:12px;line-height:1.5;color:#efddc4}
+.partners-form-actions{align-items:center;flex-wrap:wrap;gap:8px 22px}
+.partners-form-actions .button{gap:16px}
+.partners-form-actions button:disabled{opacity:.65;cursor:wait}
+.partners-form-feedback{padding:16px 18px;border-radius:6px;background:#fff5e3;color:var(--brown);font-size:15px;line-height:1.6;overflow-wrap:anywhere}
+.partners-form-feedback[hidden]{display:none}
+.partners-form-feedback a{font-weight:650}
+.partners-contact-inner{align-items:start}
+.detail-actions{flex-wrap:wrap}
+.detail-b2b{margin-top:28px;padding:22px 24px;background:#f2e4c9;border-radius:8px}
+.detail-b2b h2{font-family:var(--font-display);font-size:19px;font-weight:700;line-height:1.35;text-transform:none;letter-spacing:0}
+.detail-b2b p{font-size:14px;line-height:1.65;margin-top:10px}
+.detail-b2b .text-link{font-size:14px;gap:12px;min-height:44px;margin-top:8px;max-width:100%}
+.detail-b2b-actions{display:flex;flex-wrap:wrap;gap:0 24px}
+.page-private-label .breadcrumb{padding-block:16px 20px}
+.stm-intro{display:grid;grid-template-columns:1.15fr 1fr;align-items:center;gap:56px;padding-block:38px 64px}
+.stm-intro h1{font-size:clamp(48px,5.4vw,80px)}
+.stm-lead{font-size:21px;line-height:1.6;max-width:36ch;margin-block:28px}
+.stm-intro figure{min-width:0;text-align:center}
+.stm-intro figure img{width:100%;max-width:490px;max-height:500px;object-fit:contain}
+.stm-intro figcaption{font-size:12px;line-height:1.5;margin-top:16px;color:#6a5140}
+.stm-brief{display:grid;grid-template-columns:1fr 1fr;gap:80px;padding-block:56px}
+.stm-brief dl{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.stm-brief dt{font-size:18px;font-weight:700;line-height:1.4;margin-bottom:12px}
+.stm-brief dd{font-size:16px;line-height:1.65;margin:0}
+.stm-process{padding-block:64px 72px}
+.stm-process ol{list-style:none;counter-reset:stm;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px;padding:0;margin-top:40px}
+.stm-process li{counter-increment:stm}
+.stm-process li:before{content:'0' counter(stm);display:block;font-size:14px;font-weight:650;color:#a23b11;margin-bottom:20px}
+.stm-process h3{font-family:var(--font-display);font-size:22px;line-height:1.3;font-weight:700;letter-spacing:-.02em}
+.stm-process li p{font-size:16px;line-height:1.65;margin-top:16px}
+.b2b-note{font-size:14px;line-height:1.7;max-width:84ch;margin-top:36px;color:#6a5140}
+.stm-invitation{background:#f2d780}
+.stm-invitation>.wrap{padding-block:54px 62px}
+.stm-invitation .button{margin-top:30px;margin-right:32px}
+.stm-invitation .text-link{min-height:48px;font-size:15px;gap:16px;margin-top:20px}
+@media(min-width:700px) and (max-width:1099px){
+ .b2b-segment-grid{gap:24px}.b2b-segment-grid h3{font-size:22px}.b2b-segment-grid article>p:not(.b2b-number){font-size:15px}
+ .b2b-materials-inner,.b2b-answers{gap:36px}.b2b-materials-inner{grid-template-columns:1fr .8fr}
+ .stm-intro{gap:32px}.stm-lead{font-size:18px}.stm-brief{gap:40px}.stm-process ol{grid-template-columns:1fr 1fr;gap:36px}
+}
+@media(max-width:699px){
+ .b2b-segments{padding-block:38px 42px}.b2b-section-heading{margin-bottom:30px}
+ .b2b-section-heading h2,.b2b-materials h2,.b2b-answers h2,.stm-brief h2,.stm-process h2,.stm-invitation h2{font-size:clamp(30px,8.8vw,48px)}
+ .b2b-segment-grid{grid-template-columns:1fr;gap:30px}.b2b-number{margin-bottom:10px}.b2b-segment-grid h3{font-size:25px}.b2b-segment-grid article>p:not(.b2b-number){max-width:42ch;margin-block:12px 8px;font-size:16px}
+ .b2b-materials-inner,.b2b-answers,.stm-intro,.stm-brief{grid-template-columns:1fr;gap:30px}
+ .b2b-materials-inner,.stm-brief{padding-block:38px 42px}.b2b-materials-inner>div>p:not(.eyebrow),.stm-brief>div>p:not(.eyebrow){font-size:16px;margin-top:20px}
+ .b2b-material-actions{gap:14px}.b2b-material-actions .button{width:100%;gap:14px;font-size:15px;justify-content:space-between}
+ .b2b-answers{padding-block:38px 32px}.b2b-questions summary{font-size:17px}.b2b-questions details p{font-size:15px}
+ .partners-business-description{max-width:25ch;font-size:16px}.partners-primary{white-space:normal;text-align:left}
+ .partners-form-field select{font-size:16px;padding-left:12px}.partners-form-actions{align-items:stretch}.partners-form-actions .button{gap:12px;font-size:14px;padding-inline:20px;justify-content:space-between}
+ .partners-consent,.partners-data-notice,.partners-email-fallback{font-size:13px}.partners-form-feedback{font-size:14px;padding:14px}
+ .detail-b2b{padding:20px}.detail-b2b-actions{display:block}
+ .stm-intro{padding-block:24px 38px;gap:24px}.stm-intro h1{font-size:clamp(36px,11vw,68px)}.stm-lead{font-size:18px;margin-block:22px}.stm-intro figure img{max-height:290px}.stm-intro figcaption{font-size:11px}
+ .stm-brief dl{gap:26px;grid-template-columns:1fr}.stm-brief dt{font-size:18px;margin-bottom:8px}
+ .stm-process{padding-block:38px 42px}.stm-process ol{grid-template-columns:1fr;gap:30px;margin-top:30px}.stm-process li:before{margin-bottom:10px}.stm-process li p{margin-top:10px;max-width:42ch}.b2b-note{font-size:13px;margin-top:28px}
+ .stm-invitation>.wrap{padding-block:38px 42px}.stm-invitation .button{margin-right:0;width:100%;font-size:14px;gap:12px;justify-content:space-between}.stm-invitation .text-link{font-size:14px;gap:12px}
+}

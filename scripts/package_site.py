@@ -18,7 +18,7 @@ TARGET = ROOT / 'output/novoferma-site.zip'
 REPORT = ROOT / 'output/research/site-package-validation.json'
 PREFIX = 'novoferma-site/'
 manifest = json.loads((SITE / 'site-manifest.json').read_text())
-expected_pages = {'index.html', 'catalogue.html', 'about.html', 'where-to-buy.html', 'partners.html', 'contacts.html'}
+expected_pages = {'index.html', 'catalogue.html', 'about.html', 'where-to-buy.html', 'partners.html', 'private-label.html', 'contacts.html'}
 expected_pages.update(p['url'] for p in manifest['products'])
 expected_pages.update(p['url'] for p in manifest.get('novelties', []) if p['url'].endswith('.html'))
 assert set(manifest['pages']) == expected_pages
@@ -102,11 +102,35 @@ while pending:
         links.append((name, ref, target, fragment))
         if target not in files: pending.append(target)
 
-zip_readme = '# Новоферма — готовый статический сайт\n\nРаспакуйте архив и откройте novoferma-site/index.html. Для HTTP-предпросмотра\nв папке сайта выполните: python3 -m http.server 8765 --bind 127.0.0.1\n\nСостав: 22 страницы — шесть основных, 14 продуктов официального каталога\nи два явно обозначенных концепта новинок. Все ресурсы и шрифты локальные.\nКаталог поддерживает фильтры, главный экран — ручное переключение слайдов.\nРаздел покупки содержит пять проверенных карточек магазинов. Наличие\nопределяется магазином по адресу пользователя; ссылки проверены 24.10.2026.\n\nПисьма сайт не отправляет. Формы составляют черновик в почтовом приложении\nили дают скопировать текст. Серверного приёма заявок и аналитики нет.\nНеподтверждённые рецептуры, аллергены, БЖУ и инструкции не опубликованы.\nОбработанные изображения упаковок не заменяют актуальную этикетку.\nТекущие концепты упаковки — Фибрики v11 и Люля мини v3. 4 ноября 2026 года\nв изображение Фибриков добавлены редкие мелкие зелёные вкрапления на продукте,\nсрезе и шариках внутри лотка; цвета и композиция сохранены. Состав и надписи\nне изменялись. PNG и точный промпт встроенного ImageGen сохранены в\noutput/research/fibriki-herbs-v11/ полного рабочего проекта.\n\nИсходные JSON включены для происхождения данных; sourceSnapshot указывает\nна исследование рабочего проекта и не является ссылкой сайта. Архив содержит\nтолько сайт и используемые ресурсы, без исследовательских скриншотов и PNG-мастеров.\nДля регенерации нужны scripts и полный рабочий проект, в архив они не входят.\n\nCanonical, sitemap и robots генерируются только при явном указании реального\nHTTPS-адреса через scripts/build_site.py --site-url. Адрес указан в site-manifest.json;\nсама сборка не выполняет публикацию.\n'
+zip_readme = """# Новоферма — статическая копия сайта
+
+23 страницы: семь основных, 14 продуктов и два явно обозначенных концепта.
+Дополнительно — самостоятельный печатный HTML-каталог закупщика в downloads/.
+Ресурсы и шрифты локальные. Для HTTP-предпросмотра в папке сайта:
+python3 -m http.server 8765 --bind 127.0.0.1
+
+Этот ZIP не содержит сервер приёма заявок. B2B-форма обращается к
+/api/partner-requests и подтверждает получение только по ответу сервера.
+На обычном статическом хостинге она честно сообщает об отсутствии подтверждения
+и оставляет почту/копирование как явный запасной способ. Рабочий сервер,
+проверки, команды оператора и инструкции Beget/Amvera находятся в полном
+репозитории GitHub. Данные заявок в архив не включаются.
+
+Магазин определяет наличие по адресу покупателя. Ссылки проверены 24.10.2026.
+Составы, аллергены, БЖУ и инструкции не заполнены догадками. Изображения
+упаковок не заменяют этикетку. Фибрики v11 и Люля мини v3 остаются концептами.
+
+Включены только используемые ресурсы. Исследования, PNG-мастера, ключи,
+базы заявок и серверные файлы не включены. Пути исходников в README.md и
+sourceSnapshot относятся к полному репозиторию и не являются ссылками сайта.
+
+Canonical, sitemap и robots создаются только при передаче реального HTTPS
+адреса в scripts/build_site.py --site-url. Сама сборка не публикует сайт.
+"""
 files['ZIP-README.md'] = zip_readme.encode('utf-8')
 
 # Assert exactly the agreed pages, font families, and no scratch or secret files.
-assert set(x for x in files if x.endswith('.html')) == set(manifest['pages'])
+assert set(x for x in files if x.endswith('.html')) == set(manifest['pages']) | {'downloads/novoferma-supplier-catalogue.html'}
 assert set(x for x in files if x.endswith('.woff2')) == {
     'assets/fonts/Onest-wght.woff2', 'assets/fonts/Caveat-wght.woff2',
     'assets/fonts/Rubik-wght.woff2', 'assets/fonts/RobotoFlex-Protein.woff2'}
@@ -152,6 +176,7 @@ report = {
     'megabytes': round(TARGET.stat().st_size / 1000000, 3),
     'fileCount': len(files),
     'pageCount': len(manifest['pages']),
+    'downloadableDocuments': ['downloads/novoferma-supplier-catalogue.html'],
     'localReferencesChecked': len(links),
     'extensions': dict(Counter(PurePosixPath(n).suffix for n in files)),
     'sha256': hashlib.sha256(TARGET.read_bytes()).hexdigest(),

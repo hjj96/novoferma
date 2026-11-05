@@ -2,6 +2,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
+import argparse
 import json
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'output/concept'
@@ -24,7 +25,7 @@ class Document(HTMLParser):
         if self.in_title: self.title+=data
 pages=manifest['pages']
 check(len(pages)==len(set(pages)), 'Duplicate manifest pages')
-check(len(pages)==6+len(manifest['products'])+2, 'Incorrect route count')
+check(len(pages)==7+len(manifest['products'])+2, 'Incorrect route count')
 docs={name:Document((SITE/name).read_text()) for name in pages}
 titles=[]; descriptions=[]; references=0; images=0
 for name,doc in docs.items():
@@ -68,6 +69,13 @@ check(not any('title-art' in a.get('class','') for tag,a in home.nodes), 'Raster
 where=(SITE/'where-to-buy.html').read_text()
 check('data-city-copy' in where and 'data-city-draft' in where, 'City copy fallback')
 check('data-retailer-products' in where, 'Retailer links')
+partners=docs['partners.html']
+check({'partner-product','partner-intent','partner-consent','partner-request-feedback'}<=set(partners.ids), 'B2B request context and consent')
+for product in manifest['products']+manifest.get('novelties',[]):
+    source=(SITE/product['url']).read_text()
+    check('partners.html?product='+product['id']+'&amp;intent=specification' in source, f'{product["id"]}: missing SKU specification journey')
+check('private-label.html' in pages, 'Dedicated private-label journey')
+check((SITE/'downloads/novoferma-supplier-catalogue.html').is_file(), 'Supplier download')
 public_url=manifest.get('publicUrl')
 if public_url:
     for name,doc in docs.items():
@@ -78,7 +86,9 @@ else:
 report={'pages':len(pages),'images':images,'localReferences':references,'uniqueTitles':len(set(titles)),
  'uniqueDescriptions':len(set(descriptions)),'publicUrl':public_url,'errors':errors,'result':'pass' if not errors else 'fail',
  'scope':'Generated source only; visual and interactive browser checks are separate.'}
-target=ROOT/'output/research/implementation-2026-10-24/static-checks.json'
+parser=argparse.ArgumentParser()
+parser.add_argument('--report',default='output/research/b2b-implementation-2026-11-05/static-checks.json')
+target=ROOT/parser.parse_args().report
 target.parent.mkdir(parents=True,exist_ok=True)
 target.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

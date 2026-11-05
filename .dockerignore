@@ -1,0 +1,14 @@
+**
+!Dockerfile
+!scripts/
+!scripts/package_site.py
+!scripts/serve_site.py
+!output/
+!output/concept/
+!output/concept/**
+# Defence against accidentally added private runtime data.
+**/*.sqlite*
+**/*.db*
+**/.env*
+**/*.pem
+**/*.key

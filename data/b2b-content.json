@@ -1,0 +1,1681 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "2026-11-05.1",
+  "publicationStatus": "publishable_verified_subset",
+  "reviewedAt": "2026-11-05",
+  "ownerApproval": {
+    "status": "not_recorded",
+    "approvedBy": null,
+    "approvedAt": null,
+    "note": "Публикация открытых фактов в рамках реализации не означает утверждения полного продуктового паспорта владельцем бренда."
+  },
+  "publicationPolicy": {
+    "allowedProductFields": [
+      "name",
+      "weight",
+      "weightGrams"
+    ],
+    "excludedProductFields": [
+      "ingredients",
+      "allergens",
+      "nutrition",
+      "cooking",
+      "storage",
+      "casePacking",
+      "gtin",
+      "certificates",
+      "proteinClaims",
+      "fiberClaims"
+    ],
+    "requireEvidencePerPublishedField": true,
+    "unknownIsNotZero": true,
+    "doNotUseRetailerRecipeAsManufacturerApproval": true,
+    "includeConceptsInSupplierCatalogue": false
+  },
+  "inventory": {
+    "path": "output/concept/products.json",
+    "sha256": "c3755a31821446ce1107ed7965484af4566470d9320df291656b4f586696e5ef",
+    "count": 14
+  },
+  "sources": [
+    {
+      "id": "NF_CATALOGUE",
+      "url": "https://novoferma.ru/catalogue",
+      "publisher": "ООО «Новоферма»",
+      "scope": [
+        "name",
+        "weight",
+        "weightGrams"
+      ],
+      "directVerifiedAt": "2026-10-24",
+      "directVerificationEvidence": "output/research/implementation-2026-10-24/content-verification.json",
+      "indexedTextReviewedAt": "2026-11-05",
+      "indexedMatch": "14/14 names and weights",
+      "liveRecheckAt": "2026-11-05",
+      "liveRecheckStatus": "web_timeout_and_direct_tls_handshake_timeout",
+      "note": "Свежий индекс согласуется с прямой проверкой 24.10; live-доступ 05.11 не получен. Статус наличия и текущего выпуска не подтверждён."
+    },
+    {
+      "id": "NF_CONTACT",
+      "url": "https://novoferma.ru/contact",
+      "publisher": "ООО «Новоферма»",
+      "scope": [
+        "orderDepartment",
+        "office",
+        "address"
+      ],
+      "directVerifiedAt": "2026-10-24",
+      "directVerificationEvidence": "output/research/implementation-2026-10-24/content-verification.json",
+      "indexedTextReviewedAt": "2026-11-05",
+      "indexedMatch": "order department and office contacts match",
+      "liveRecheckAt": "2026-11-05",
+      "liveRecheckStatus": "web_timeout_and_direct_tls_handshake_timeout",
+      "note": "Номера и email совпали с официальным индексируемым текстом; звонки и письма не выполнялись."
+    },
+    {
+      "id": "NF_HOME",
+      "url": "https://novoferma.ru/",
+      "publisher": "ООО «Новоферма»",
+      "scope": [
+        "generic_claims_not_used_as_sku_facts"
+      ],
+      "directVerifiedAt": "2026-10-24",
+      "directVerificationEvidence": "output/research/implementation-2026-10-24/content-verification.json",
+      "liveRecheckAt": "2026-11-05",
+      "liveRecheckStatus": "web_timeout_and_direct_tls_handshake_timeout",
+      "note": "Общие заявления главной не используются вместо состава, БЖУ, готовки и хранения точного SKU."
+    }
+  ],
+  "contacts": {
+    "publicationStatus": "publishable_official_contact",
+    "source": "NF_CONTACT",
+    "reviewedAt": "2026-11-05",
+    "orderDepartment": {
+      "label": "Отдел приёма заказов",
+      "phone": "+7 (931) 213-55-50",
+      "tel": "+79312135550",
+      "email": "zakaz@novoferma.ru"
+    },
+    "office": {
+      "label": "Офис",
+      "phone": "+7 (812) 915-54-54",
+      "tel": "+78129155454",
+      "email": "info@novoferma.ru"
+    },
+    "address": "198323, Санкт-Петербург, Горелово, ул. Заречная, д. 2"
+  },
+  "businessGates": {
+    "moq": {
+      "value": null,
+      "publicationStatus": "blocked_unverified",
+      "reviewedAt": "2026-11-05",
+      "reason": "Минимальная партия по SKU/каналу не подтверждена.",
+      "releaseRequires": "Датированное подтверждение уполномоченного сотрудника и применимости к конкретному предложению."
+    },
+    "stmVolumes": {
+      "value": null,
+      "publicationStatus": "blocked_unverified",
+      "reviewedAt": "2026-11-05",
+      "reason": "Минимальный и максимальный объём СТМ не подтверждены.",
+      "releaseRequires": "Датированное подтверждение уполномоченного сотрудника и применимости к конкретному предложению."
+    },
+    "stmRecipeDevelopment": {
+      "value": null,
+      "publicationStatus": "blocked_unverified",
+      "reviewedAt": "2026-11-05",
+      "reason": "Возможности разработки/изменения рецептуры не подтверждены коммерческим регламентом.",
+      "releaseRequires": "Датированное подтверждение уполномоченного сотрудника и применимости к конкретному предложению."
+    },
+    "stmPackaging": {
+      "value": null,
+      "publicationStatus": "blocked_unverified",
+      "reviewedAt": "2026-11-05",
+      "reason": "Доступные типы и ограничения упаковки СТМ не подтверждены.",
+      "releaseRequires": "Датированное подтверждение уполномоченного сотрудника и применимости к конкретному предложению."
+    },
+    "productionCapacity": {
+      "value": null,
+      "publicationStatus": "blocked_unverified",
+      "reviewedAt": "2026-11-05",
+      "reason": "Мощность и свободные объёмы не подтверждены документами.",
+      "releaseRequires": "Датированное подтверждение уполномоченного сотрудника и применимости к конкретному предложению."
+    },
+    "leadTime": {
+      "value": null,
+      "publicationStatus": "blocked_unverified",
+      "reviewedAt": "2026-11-05",
+      "reason": "Срок разработки, производства и отгрузки не подтверждён.",
+      "releaseRequires": "Датированное подтверждение уполномоченного сотрудника и применимости к конкретному предложению."
+    },
+    "deliveryGeography": {
+      "value": null,
+      "publicationStatus": "blocked_unverified",
+      "reviewedAt": "2026-11-05",
+      "reason": "Подтверждённая география и температурная логистика не получены.",
+      "releaseRequires": "Датированное подтверждение уполномоченного сотрудника и применимости к конкретному предложению."
+    },
+    "samples": {
+      "value": null,
+      "publicationStatus": "blocked_unverified",
+      "reviewedAt": "2026-11-05",
+      "reason": "Условия предоставления образцов не подтверждены.",
+      "releaseRequires": "Датированное подтверждение уполномоченного сотрудника и применимости к конкретному предложению."
+    },
+    "prices": {
+      "value": null,
+      "publicationStatus": "blocked_unverified",
+      "reviewedAt": "2026-11-05",
+      "reason": "Текущие цены и условия оплаты не получены.",
+      "releaseRequires": "Датированное подтверждение уполномоченного сотрудника и применимости к конкретному предложению."
+    },
+    "certification": {
+      "value": null,
+      "publicationStatus": "blocked_unverified",
+      "reviewedAt": "2026-11-05",
+      "reason": "Текущие сертификаты и область их действия не проверены.",
+      "releaseRequires": "Датированное подтверждение уполномоченного сотрудника и применимости к конкретному предложению."
+    },
+    "productionPhotos": {
+      "value": null,
+      "publicationStatus": "blocked_unverified",
+      "reviewedAt": "2026-11-05",
+      "reason": "Документальные подписанные материалы производства не подтверждены.",
+      "releaseRequires": "Датированное подтверждение уполномоченного сотрудника и применимости к конкретному предложению."
+    }
+  },
+  "products": [
+    {
+      "slug": "kotlety-kurinye",
+      "name": "Котлеты куриные",
+      "weight": "522 г",
+      "weightGrams": 522,
+      "version": "2026-11-05.1",
+      "publicationStatus": "name_weight_only",
+      "source": "NF_CATALOGUE",
+      "reviewedAt": "2026-11-05",
+      "facts": {
+        "name": {
+          "value": "Котлеты куриные",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weight": {
+          "value": "522 г",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weightGrams": {
+          "value": 522,
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        }
+      },
+      "unverifiedFacts": {
+        "ingredients": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен состав по точному SKU и версии этикетки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "allergens": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужна полная маркировка аллергенов и следовых количеств по точному SKU; не выводить только из названия.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "nutrition": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны утверждённые значения, единицы и основание расчёта; у части продавцов разные версии.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "cooking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_sku_verified",
+          "reason": "Нужна инструкция для точного SKU: метод, условия и критерий готовности. Общий текст главной не переносить.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "storage": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны термическое состояние, температура и срок по утверждённой маркировке.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "casePacking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны единиц в коробе, масса и размеры транспортной упаковки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "gtin": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен идентификатор именно этой фасовки и версии продукта.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "certificates": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_document_verified",
+          "reason": "Нужны документы с областью действия и проверенным статусом по данному SKU.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "proteinClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать источник/высокое содержание белка без данных и проверки применимости формулировки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "fiberClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать количество/эффект/высокое содержание клетчатки без данных по конкретной рецептуре.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        }
+      }
+    },
+    {
+      "slug": "bitochki-kurinye-s-ovoshchami",
+      "name": "Биточки куриные с овощами",
+      "weight": "450 г",
+      "weightGrams": 450,
+      "version": "2026-11-05.1",
+      "publicationStatus": "name_weight_only",
+      "source": "NF_CATALOGUE",
+      "reviewedAt": "2026-11-05",
+      "facts": {
+        "name": {
+          "value": "Биточки куриные с овощами",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weight": {
+          "value": "450 г",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weightGrams": {
+          "value": 450,
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        }
+      },
+      "unverifiedFacts": {
+        "ingredients": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен состав по точному SKU и версии этикетки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "allergens": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужна полная маркировка аллергенов и следовых количеств по точному SKU; не выводить только из названия.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "nutrition": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны утверждённые значения, единицы и основание расчёта; у части продавцов разные версии.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "cooking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_sku_verified",
+          "reason": "Нужна инструкция для точного SKU: метод, условия и критерий готовности. Общий текст главной не переносить.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "storage": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны термическое состояние, температура и срок по утверждённой маркировке.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "casePacking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны единиц в коробе, масса и размеры транспортной упаковки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "gtin": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен идентификатор именно этой фасовки и версии продукта.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "certificates": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_document_verified",
+          "reason": "Нужны документы с областью действия и проверенным статусом по данному SKU.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "proteinClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать источник/высокое содержание белка без данных и проверки применимости формулировки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "fiberClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать количество/эффект/высокое содержание клетчатки без данных по конкретной рецептуре.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        }
+      }
+    },
+    {
+      "slug": "ezhiki-iz-tsyplenka-s-risom",
+      "name": "Ёжики из цыпленка с рисом",
+      "weight": "480 г",
+      "weightGrams": 480,
+      "version": "2026-11-05.1",
+      "publicationStatus": "name_weight_only",
+      "source": "NF_CATALOGUE",
+      "reviewedAt": "2026-11-05",
+      "facts": {
+        "name": {
+          "value": "Ёжики из цыпленка с рисом",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weight": {
+          "value": "480 г",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weightGrams": {
+          "value": 480,
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        }
+      },
+      "unverifiedFacts": {
+        "ingredients": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен состав по точному SKU и версии этикетки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "allergens": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужна полная маркировка аллергенов и следовых количеств по точному SKU; не выводить только из названия.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "nutrition": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны утверждённые значения, единицы и основание расчёта; у части продавцов разные версии.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "cooking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_sku_verified",
+          "reason": "Нужна инструкция для точного SKU: метод, условия и критерий готовности. Общий текст главной не переносить.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "storage": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны термическое состояние, температура и срок по утверждённой маркировке.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "casePacking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны единиц в коробе, масса и размеры транспортной упаковки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "gtin": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен идентификатор именно этой фасовки и версии продукта.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "certificates": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_document_verified",
+          "reason": "Нужны документы с областью действия и проверенным статусом по данному SKU.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "proteinClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать источник/высокое содержание белка без данных и проверки применимости формулировки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "fiberClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать количество/эффект/высокое содержание клетчатки без данных по конкретной рецептуре.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        }
+      }
+    },
+    {
+      "slug": "kurinyj-popkorn",
+      "name": "Куриный попкорн",
+      "weight": "400 г",
+      "weightGrams": 400,
+      "version": "2026-11-05.1",
+      "publicationStatus": "name_weight_only",
+      "source": "NF_CATALOGUE",
+      "reviewedAt": "2026-11-05",
+      "facts": {
+        "name": {
+          "value": "Куриный попкорн",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weight": {
+          "value": "400 г",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weightGrams": {
+          "value": 400,
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        }
+      },
+      "unverifiedFacts": {
+        "ingredients": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен состав по точному SKU и версии этикетки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "allergens": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужна полная маркировка аллергенов и следовых количеств по точному SKU; не выводить только из названия.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "nutrition": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны утверждённые значения, единицы и основание расчёта; у части продавцов разные версии.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "cooking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_sku_verified",
+          "reason": "Нужна инструкция для точного SKU: метод, условия и критерий готовности. Общий текст главной не переносить.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "storage": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны термическое состояние, температура и срок по утверждённой маркировке.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "casePacking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны единиц в коробе, масса и размеры транспортной упаковки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "gtin": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен идентификатор именно этой фасовки и версии продукта.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "certificates": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_document_verified",
+          "reason": "Нужны документы с областью действия и проверенным статусом по данному SKU.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "proteinClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать источник/высокое содержание белка без данных и проверки применимости формулировки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "fiberClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать количество/эффект/высокое содержание клетчатки без данных по конкретной рецептуре.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        }
+      }
+    },
+    {
+      "slug": "naggetsy-kurinye",
+      "name": "Наггетсы куриные",
+      "weight": "400 г",
+      "weightGrams": 400,
+      "version": "2026-11-05.1",
+      "publicationStatus": "name_weight_only",
+      "source": "NF_CATALOGUE",
+      "reviewedAt": "2026-11-05",
+      "facts": {
+        "name": {
+          "value": "Наггетсы куриные",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weight": {
+          "value": "400 г",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weightGrams": {
+          "value": 400,
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        }
+      },
+      "unverifiedFacts": {
+        "ingredients": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен состав по точному SKU и версии этикетки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "allergens": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужна полная маркировка аллергенов и следовых количеств по точному SKU; не выводить только из названия.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "nutrition": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны утверждённые значения, единицы и основание расчёта; у части продавцов разные версии.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "cooking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_sku_verified",
+          "reason": "Нужна инструкция для точного SKU: метод, условия и критерий готовности. Общий текст главной не переносить.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "storage": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны термическое состояние, температура и срок по утверждённой маркировке.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "casePacking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны единиц в коробе, масса и размеры транспортной упаковки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "gtin": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен идентификатор именно этой фасовки и версии продукта.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "certificates": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_document_verified",
+          "reason": "Нужны документы с областью действия и проверенным статусом по данному SKU.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "proteinClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать источник/высокое содержание белка без данных и проверки применимости формулировки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "fiberClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать количество/эффект/высокое содержание клетчатки без данных по конкретной рецептуре.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        }
+      }
+    },
+    {
+      "slug": "naggetsy-kurinye-s-syrom",
+      "name": "Наггетсы куриные с сыром",
+      "weight": "400 г",
+      "weightGrams": 400,
+      "version": "2026-11-05.1",
+      "publicationStatus": "name_weight_only",
+      "source": "NF_CATALOGUE",
+      "reviewedAt": "2026-11-05",
+      "facts": {
+        "name": {
+          "value": "Наггетсы куриные с сыром",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weight": {
+          "value": "400 г",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weightGrams": {
+          "value": 400,
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        }
+      },
+      "unverifiedFacts": {
+        "ingredients": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен состав по точному SKU и версии этикетки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "allergens": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужна полная маркировка аллергенов и следовых количеств по точному SKU; не выводить только из названия.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "nutrition": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны утверждённые значения, единицы и основание расчёта; у части продавцов разные версии.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "cooking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_sku_verified",
+          "reason": "Нужна инструкция для точного SKU: метод, условия и критерий готовности. Общий текст главной не переносить.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "storage": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны термическое состояние, температура и срок по утверждённой маркировке.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "casePacking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны единиц в коробе, масса и размеры транспортной упаковки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "gtin": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен идентификатор именно этой фасовки и версии продукта.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "certificates": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_document_verified",
+          "reason": "Нужны документы с областью действия и проверенным статусом по данному SKU.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "proteinClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать источник/высокое содержание белка без данных и проверки применимости формулировки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "fiberClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать количество/эффект/высокое содержание клетчатки без данных по конкретной рецептуре.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        }
+      }
+    },
+    {
+      "slug": "naggetsy-dinozavry",
+      "name": "Наггетсы куриные «Динозавры»",
+      "weight": "400 г",
+      "weightGrams": 400,
+      "version": "2026-11-05.1",
+      "publicationStatus": "name_weight_only",
+      "source": "NF_CATALOGUE",
+      "reviewedAt": "2026-11-05",
+      "facts": {
+        "name": {
+          "value": "Наггетсы куриные «Динозавры»",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weight": {
+          "value": "400 г",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weightGrams": {
+          "value": 400,
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        }
+      },
+      "unverifiedFacts": {
+        "ingredients": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен состав по точному SKU и версии этикетки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "allergens": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужна полная маркировка аллергенов и следовых количеств по точному SKU; не выводить только из названия.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "nutrition": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны утверждённые значения, единицы и основание расчёта; у части продавцов разные версии.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "cooking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_sku_verified",
+          "reason": "Нужна инструкция для точного SKU: метод, условия и критерий готовности. Общий текст главной не переносить.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "storage": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны термическое состояние, температура и срок по утверждённой маркировке.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "casePacking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны единиц в коробе, масса и размеры транспортной упаковки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "gtin": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен идентификатор именно этой фасовки и версии продукта.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "certificates": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_document_verified",
+          "reason": "Нужны документы с областью действия и проверенным статусом по данному SKU.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "proteinClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать источник/высокое содержание белка без данных и проверки применимости формулировки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "fiberClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать количество/эффект/высокое содержание клетчатки без данных по конкретной рецептуре.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        }
+      }
+    },
+    {
+      "slug": "naggetsy-ostrye",
+      "name": "Наггетсы куриные острые",
+      "weight": "400 г",
+      "weightGrams": 400,
+      "version": "2026-11-05.1",
+      "publicationStatus": "name_weight_only",
+      "source": "NF_CATALOGUE",
+      "reviewedAt": "2026-11-05",
+      "facts": {
+        "name": {
+          "value": "Наггетсы куриные острые",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weight": {
+          "value": "400 г",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weightGrams": {
+          "value": 400,
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        }
+      },
+      "unverifiedFacts": {
+        "ingredients": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен состав по точному SKU и версии этикетки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "allergens": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужна полная маркировка аллергенов и следовых количеств по точному SKU; не выводить только из названия.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "nutrition": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны утверждённые значения, единицы и основание расчёта; у части продавцов разные версии.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "cooking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_sku_verified",
+          "reason": "Нужна инструкция для точного SKU: метод, условия и критерий готовности. Общий текст главной не переносить.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "storage": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны термическое состояние, температура и срок по утверждённой маркировке.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "casePacking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны единиц в коробе, масса и размеры транспортной упаковки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "gtin": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен идентификатор именно этой фасовки и версии продукта.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "certificates": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_document_verified",
+          "reason": "Нужны документы с областью действия и проверенным статусом по данному SKU.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "proteinClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать источник/высокое содержание белка без данных и проверки применимости формулировки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "fiberClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать количество/эффект/высокое содержание клетчатки без данных по конкретной рецептуре.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        }
+      }
+    },
+    {
+      "slug": "naggetsy-s-indeykoy-fitnes",
+      "name": "Наггетсы с индейкой «Фитнес»",
+      "weight": "400 г",
+      "weightGrams": 400,
+      "version": "2026-11-05.1",
+      "publicationStatus": "name_weight_only",
+      "source": "NF_CATALOGUE",
+      "reviewedAt": "2026-11-05",
+      "facts": {
+        "name": {
+          "value": "Наггетсы с индейкой «Фитнес»",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weight": {
+          "value": "400 г",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weightGrams": {
+          "value": 400,
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        }
+      },
+      "unverifiedFacts": {
+        "ingredients": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен состав по точному SKU и версии этикетки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "allergens": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужна полная маркировка аллергенов и следовых количеств по точному SKU; не выводить только из названия.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "nutrition": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны утверждённые значения, единицы и основание расчёта; у части продавцов разные версии.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "cooking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_sku_verified",
+          "reason": "Нужна инструкция для точного SKU: метод, условия и критерий готовности. Общий текст главной не переносить.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "storage": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны термическое состояние, температура и срок по утверждённой маркировке.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "casePacking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны единиц в коробе, масса и размеры транспортной упаковки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "gtin": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен идентификатор именно этой фасовки и версии продукта.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "certificates": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_document_verified",
+          "reason": "Нужны документы с областью действия и проверенным статусом по данному SKU.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "proteinClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать источник/высокое содержание белка без данных и проверки применимости формулировки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "fiberClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать количество/эффект/высокое содержание клетчатки без данных по конкретной рецептуре.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        }
+      }
+    },
+    {
+      "slug": "stripsy",
+      "name": "Стрипсы",
+      "weight": "400 г",
+      "weightGrams": 400,
+      "version": "2026-11-05.1",
+      "publicationStatus": "name_weight_only",
+      "source": "NF_CATALOGUE",
+      "reviewedAt": "2026-11-05",
+      "facts": {
+        "name": {
+          "value": "Стрипсы",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weight": {
+          "value": "400 г",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weightGrams": {
+          "value": 400,
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        }
+      },
+      "unverifiedFacts": {
+        "ingredients": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен состав по точному SKU и версии этикетки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "allergens": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужна полная маркировка аллергенов и следовых количеств по точному SKU; не выводить только из названия.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "nutrition": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны утверждённые значения, единицы и основание расчёта; у части продавцов разные версии.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "cooking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_sku_verified",
+          "reason": "Нужна инструкция для точного SKU: метод, условия и критерий готовности. Общий текст главной не переносить.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "storage": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны термическое состояние, температура и срок по утверждённой маркировке.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "casePacking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны единиц в коробе, масса и размеры транспортной упаковки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "gtin": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен идентификатор именно этой фасовки и версии продукта.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "certificates": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_document_verified",
+          "reason": "Нужны документы с областью действия и проверенным статусом по данному SKU.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "proteinClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать источник/высокое содержание белка без данных и проверки применимости формулировки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "fiberClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать количество/эффект/высокое содержание клетчатки без данных по конкретной рецептуре.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        }
+      }
+    },
+    {
+      "slug": "kotlety-po-domashnemu",
+      "name": "Котлеты по-домашнему",
+      "weight": "480 г",
+      "weightGrams": 480,
+      "version": "2026-11-05.1",
+      "publicationStatus": "name_weight_only",
+      "source": "NF_CATALOGUE",
+      "reviewedAt": "2026-11-05",
+      "facts": {
+        "name": {
+          "value": "Котлеты по-домашнему",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weight": {
+          "value": "480 г",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weightGrams": {
+          "value": 480,
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        }
+      },
+      "unverifiedFacts": {
+        "ingredients": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен состав по точному SKU и версии этикетки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "allergens": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужна полная маркировка аллергенов и следовых количеств по точному SKU; не выводить только из названия.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "nutrition": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны утверждённые значения, единицы и основание расчёта; у части продавцов разные версии.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "cooking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_sku_verified",
+          "reason": "Нужна инструкция для точного SKU: метод, условия и критерий готовности. Общий текст главной не переносить.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "storage": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны термическое состояние, температура и срок по утверждённой маркировке.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "casePacking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны единиц в коробе, масса и размеры транспортной упаковки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "gtin": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен идентификатор именно этой фасовки и версии продукта.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "certificates": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_document_verified",
+          "reason": "Нужны документы с областью действия и проверенным статусом по данному SKU.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "proteinClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать источник/высокое содержание белка без данных и проверки применимости формулировки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "fiberClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать количество/эффект/высокое содержание клетчатки без данных по конкретной рецептуре.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        }
+      }
+    },
+    {
+      "slug": "kotlety-pikantnye",
+      "name": "Котлеты пикантные",
+      "weight": "480 г",
+      "weightGrams": 480,
+      "version": "2026-11-05.1",
+      "publicationStatus": "name_weight_only",
+      "source": "NF_CATALOGUE",
+      "reviewedAt": "2026-11-05",
+      "facts": {
+        "name": {
+          "value": "Котлеты пикантные",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weight": {
+          "value": "480 г",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weightGrams": {
+          "value": 480,
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        }
+      },
+      "unverifiedFacts": {
+        "ingredients": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен состав по точному SKU и версии этикетки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "allergens": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужна полная маркировка аллергенов и следовых количеств по точному SKU; не выводить только из названия.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "nutrition": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны утверждённые значения, единицы и основание расчёта; у части продавцов разные версии.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "cooking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_sku_verified",
+          "reason": "Нужна инструкция для точного SKU: метод, условия и критерий готовности. Общий текст главной не переносить.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "storage": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны термическое состояние, температура и срок по утверждённой маркировке.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "casePacking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны единиц в коробе, масса и размеры транспортной упаковки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "gtin": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен идентификатор именно этой фасовки и версии продукта.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "certificates": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_document_verified",
+          "reason": "Нужны документы с областью действия и проверенным статусом по данному SKU.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "proteinClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать источник/высокое содержание белка без данных и проверки применимости формулировки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "fiberClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать количество/эффект/высокое содержание клетчатки без данных по конкретной рецептуре.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        }
+      }
+    },
+    {
+      "slug": "kotlety-po-italyanski",
+      "name": "Котлеты по-итальянски",
+      "weight": "480 г",
+      "weightGrams": 480,
+      "version": "2026-11-05.1",
+      "publicationStatus": "name_weight_only",
+      "source": "NF_CATALOGUE",
+      "reviewedAt": "2026-11-05",
+      "facts": {
+        "name": {
+          "value": "Котлеты по-итальянски",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weight": {
+          "value": "480 г",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weightGrams": {
+          "value": 480,
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        }
+      },
+      "unverifiedFacts": {
+        "ingredients": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен состав по точному SKU и версии этикетки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "allergens": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужна полная маркировка аллергенов и следовых количеств по точному SKU; не выводить только из названия.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "nutrition": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны утверждённые значения, единицы и основание расчёта; у части продавцов разные версии.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "cooking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_sku_verified",
+          "reason": "Нужна инструкция для точного SKU: метод, условия и критерий готовности. Общий текст главной не переносить.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "storage": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны термическое состояние, температура и срок по утверждённой маркировке.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "casePacking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны единиц в коробе, масса и размеры транспортной упаковки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "gtin": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен идентификатор именно этой фасовки и версии продукта.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "certificates": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_document_verified",
+          "reason": "Нужны документы с областью действия и проверенным статусом по данному SKU.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "proteinClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать источник/высокое содержание белка без данных и проверки применимости формулировки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "fiberClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать количество/эффект/высокое содержание клетчатки без данных по конкретной рецептуре.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        }
+      }
+    },
+    {
+      "slug": "frikadelki-klassicheskie",
+      "name": "Фрикадельки «Классические»",
+      "weight": "500 г",
+      "weightGrams": 500,
+      "version": "2026-11-05.1",
+      "publicationStatus": "name_weight_only",
+      "source": "NF_CATALOGUE",
+      "reviewedAt": "2026-11-05",
+      "facts": {
+        "name": {
+          "value": "Фрикадельки «Классические»",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weight": {
+          "value": "500 г",
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        },
+        "weightGrams": {
+          "value": 500,
+          "publicationStatus": "publishable_source_verified",
+          "source": "NF_CATALOGUE",
+          "verifiedAt": "2026-10-24",
+          "indexedRecheckedAt": "2026-11-05"
+        }
+      },
+      "unverifiedFacts": {
+        "ingredients": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен состав по точному SKU и версии этикетки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "allergens": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужна полная маркировка аллергенов и следовых количеств по точному SKU; не выводить только из названия.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "nutrition": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны утверждённые значения, единицы и основание расчёта; у части продавцов разные версии.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "cooking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_sku_verified",
+          "reason": "Нужна инструкция для точного SKU: метод, условия и критерий готовности. Общий текст главной не переносить.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "storage": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны термическое состояние, температура и срок по утверждённой маркировке.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "casePacking": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужны единиц в коробе, масса и размеры транспортной упаковки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "gtin": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_manufacturer_verified",
+          "reason": "Нужен идентификатор именно этой фасовки и версии продукта.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "certificates": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_document_verified",
+          "reason": "Нужны документы с областью действия и проверенным статусом по данному SKU.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "proteinClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать источник/высокое содержание белка без данных и проверки применимости формулировки.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        },
+        "fiberClaims": {
+          "value": null,
+          "publicationStatus": "blocked_unverified",
+          "evidenceStatus": "not_substantiated",
+          "reason": "Не публиковать количество/эффект/высокое содержание клетчатки без данных по конкретной рецептуре.",
+          "releaseRequires": "Утверждённая маркировка/спецификация по точному SKU, фасовке и версии; источник и дата проверки."
+        }
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Фибрики",
+      "publicationStatus": "hold",
+      "manufacturerApprovalStatus": "unknown",
+      "includeInSupplierCatalogue": false,
+      "reason": "Не получены публичное подтверждение запуска, утверждённая рецептура и паспорт."
+    },
+    {
+      "name": "Люля мини",
+      "publicationStatus": "hold",
+      "manufacturerApprovalStatus": "unknown",
+      "includeInSupplierCatalogue": false,
+      "reason": "Не получены публичное подтверждение запуска, утверждённая рецептура и паспорт."
+    }
+  ],
+  "changeLog": [
+    {
+      "version": "2026-11-05.1",
+      "date": "2026-11-05",
+      "change": "Первый реестр: 14 названий/масс из официального каталога, подтверждённые контакты, отдельные блокировки неподтверждённых характеристик; потребительские и B2B условия не выводятся из общих заявлений."
+    }
+  ]
+}

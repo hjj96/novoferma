@@ -1,0 +1,176 @@
+NOVOFERMA: ЛОКАЛЬНЫЙ ПРИЁМ B2B-ЗАПРОСОВ
+Версия: 5 ноября 2026 года. Python 3.9+; только стандартная библиотека.
+
+ГРАНИЦА СИСТЕМЫ
+
+Форма → POST /api/partner-requests → SQLite transaction/commit → requestId.
+Номер обращения подтверждает запись в локальный реестр. Система не отправляет
+email, не уведомляет менеджера, не подключена к внешней CRM и не обещает SLA.
+Команда должна назначить оператора, который просматривает полученные обращения.
+Состояния qualified/quote/order отмечает оператор по факту, не frontend.
+
+Сервер раздаёт только output/concept. Статические прототипы и публичные JSON
+внутри этого каталога являются публичными файлами. Личные данные в него нельзя
+копировать. База, WAL/SHM, резервные копии и экспорт заявок находятся вне webroot
+и вне Git. Общедоступного API чтения заявок, списка или статистики нет.
+
+ЗАПУСК ДЛЯ ЛОКАЛЬНОЙ РАБОТЫ
+
+Из корня проекта:
+
+  python3 scripts/serve_site.py --db "$HOME/.local/state/novoferma/requests.sqlite3" serve --host 127.0.0.1 --port 8765
+
+Открыть http://127.0.0.1:8765/partners.html . Это сервер сайта, поэтому URL не
+содержит output/concept. Каталог базы создаётся с mode0700, файл — mode0600.
+Если существующий родительский каталог доступен группе/остальным, запуск
+отклоняется: выбирайте отдельную закрытую папку; не меняйте права общей /tmp
+или /data. Путь базы должен быть абсолютным. SQLite file не может быть symlink
+или hard link; путь внутри output/concept отклоняется.
+
+Параметр --db можно заменить NOVOFERMA_DB. База никогда не выбирается молча.
+--site (до подкоманды) переопределяет каталог статики, обычно не требуется.
+После изменения списка SKU перезапустите сервер: allowlist читается из
+site-manifest.json при запуске и включает серийные товары и концепты.
+
+КОНТЕЙНЕР / REVERSE PROXY
+
+Пример команды при persistent mount /data:
+
+  python3 scripts/serve_site.py --db /data/private/requests.sqlite3 serve --host 0.0.0.0 --port 8080 --origin https://YOUR-REAL-HOST --rate-limit 240
+
+Альтернатива: NOVOFERMA_DB=/data/private/requests.sqlite3 и
+NOVOFERMA_ORIGINS=https://YOUR-REAL-HOST . Несколько origins разделяются запятой
+либо задаются повторным --origin (alias --allowed-origin). Без slash/path/query.
+Оставлять placeholder origin в рабочем окружении нельзя.
+
+Это stdlib ThreadingHTTPServer, а не самостоятельно защищённый production edge.
+Он не реализует TLS. Для публичного запуска нужны HTTPS reverse proxy/платформа,
+supervisor/restart policy, persistent volume, backup/restore, ограничения на
+подключения и rate на внешнем уровне, контроль диска и мониторинг ошибок.
+Не открывайте контейнерный HTTP-порт напрямую в Интернет.
+
+Proxy сохраняет исходный Host, ограничивает body16KiB и request timeout,
+отключает запись тела, контактов и чувствительных query в access/error logs.
+Приложение не доверяет X-Forwarded-For/Forwarded: за proxy все запросы выглядят
+как один peer. Встроенный limit поэтому агрегатный; не подменяйте его выдуманной
+идентификацией посетителя. Для публичного per-client rate используйте proxy.
+--rate-limit N задаёт запросы на peer за60с (1..240, default12); общий cap240/60с.
+Контейнерный пример использует240 для общего peer прокси; индивидуальный
+per-client лимит на внешнем proxy остаётся обязательным.
+Лимитер process-local, сбрасывается после restart; несколько реплик его не делят.
+Эта версия рассчитана на один writable instance с локальным SQLite. Не ставить
+несколько реплик с независимыми базами; не использовать неподтверждённую NFS-схему.
+Публичная безопасность/размещение персональных данных отдельно проверяются
+для выбранного Beget/Amvera окружения. Сам этот код не подтверждает compliance.
+
+HTTP КОНТРАКТ
+
+POST /api/partner-requests, Content-Type: application/json[; charset=utf-8].
+Origin обязателен и должен точно совпадать с настроенным origin и Host.
+Для локального bind автоматически разрешены http://localhost:PORT и
+http://127.0.0.1:PORT. CORS/preflight не включены. POST с query не поддерживается.
+GET /api/* не раскрывает заявки. OPTIONS возвращает405.
+
+Обязательные JSON поля:
+  company: string, после trim1..120 символов
+  city: string, 0..100
+  contact: string, 1..160; email либо телефон7..15 цифр
+  message: string, 0..1200; допускает переносы строк
+  format: retail | horeca | stm
+  product: точный slug из manifest либо пустая строка
+  intent: quote | specification | samples | stm
+  consent: literal true
+  idempotencyKey: UUID string
+
+Дополнительные поля:
+  source: partners | catalogue | product | home | direct (default partners)
+  website: только пустая строка (необязательная ловушка для ботов)
+Другие поля отклоняются. Недопустимы control characters, Unicode surrogate
+ошибки, duplicate JSON keys, NaN/Infinity, неподдерживаемый charset и chunked body.
+
+201 после нового commit /200 для точного нормализованного повторного запроса:
+  {"ok":true,"committed":true,"requestId":"UUID","duplicate":false}
+Для повтора duplicate=true; requestId остаётся прежним. Trim строк и явный
+source=partners эквивалентны пропущенному default source. Разные данные с тем же
+idempotencyKey дают409, не переписывают прежнюю запись. Изменённая форма должна
+получить новый ключ; потерянный network response повторяется с прежним ключом.
+
+Ошибка:
+  {"ok":false,"error":{"code":"validation_failed","message":"...","fields":{"contact":"..."}}}
+400 malformed JSON/framing;403 origin/host;404 route;409 mismatch;
+413 body>16KiB;415 content type;422 invalid fields/consent/honeypot;
+429 rate (+Retry-After seconds);503 storage unavailable.
+Ошибка не содержит requestId, данных чужого запроса, пути БД или stack trace.
+Клиент не должен показывать успех по одному HTTP200: обязательны ok:true,
+committed:true и валидный requestId. Timeout не доказывает отсутствие записи.
+
+СОХРАНЕНИЕ И ОПЕРАТОР
+
+SQLite WAL + synchronous=FULL; requests и received event записываются одной
+транзакцией. Receipt выдаётся только после commit. После перезапуска база и
+idempotency mapping сохраняются. Новые события не означают email delivery.
+Согласие хранится в payload, created_at фиксирует время, consent_version имеет
+значение partner-intake-2026-11-05-v1. При изменении текста/основания согласия
+нужно согласованно обновить версию и UI; это не юридическое заключение.
+
+Оператор запускает CLI на машине/в контейнере с доступом к закрытому файлу.
+Это OS/file-permission граница доступа, не публичный админ-пароль:
+
+  python3 scripts/serve_site.py --db /ABS/PRIVATE/requests.sqlite3 list --limit 50
+  python3 scripts/serve_site.py --db /ABS/PRIVATE/requests.sqlite3 show REQUEST_UUID
+  python3 scripts/serve_site.py --db /ABS/PRIVATE/requests.sqlite3 update REQUEST_UUID --status qualified
+  python3 scripts/serve_site.py --db /ABS/PRIVATE/requests.sqlite3 update REQUEST_UUID --status quote
+  python3 scripts/serve_site.py --db /ABS/PRIVATE/requests.sqlite3 update REQUEST_UUID --status order
+  python3 scripts/serve_site.py --db /ABS/PRIVATE/requests.sqlite3 stats
+
+list выводит ID, даты, формат/intent/product/source/status без контактов и тела.
+show намеренно показывает персональные данные только оператору: не направлять
+вывод в публичные CI logs, GitHub issue или общий чат. update допускает received,
+qualified,quote,order,closed и сохраняет историю; повтор того же состояния не
+создаёт лишнее событие. Исправление состояния не стирает прошлую историю.
+stats (alias funnel) возвращает currentStatus и distinct-ever-reached, а также
+committed/qualified/quote/order/closed по format,product,intent. Один запрос может
+достигать нескольких стадий; эти числа нельзя суммировать как разных лидов.
+Пропущенная оператором стадия не придумывается автоматически. Это не конверсия
+визит→лид, не выручка и не количество отправленных писем.
+
+РЕЗЕРВНЫЕ КОПИИ И СРОК ХРАНЕНИЯ
+
+Назначьте владельца, расписание backup, срок хранения заявок и backup, порядок
+удаления и ответа на обращения о данных. Автоматический срок в коде не выдуман.
+SQLite содержит персональные данные в открытом виде; mode0600 ограничивает
+доступ ОС, но не шифрует файл. Шифрование диска/резервных копий и доступы хостинга
+настраиваются отдельно в выбранном окружении.
+Не копируйте только .sqlite3 из работающей WAL-базы обычным cp: используйте
+SQLite Connection.backup либо корректно остановите все процессы и переносите
+согласованную базу. Backup остаётся mode0600 в private0700 вне webroot/Git.
+
+Штатная команда online backup, без перезаписи существующего файла:
+
+  python3 scripts/serve_site.py --db /ABS/PRIVATE/requests.sqlite3 backup --to /ABS/PRIVATE-BACKUPS/requests-YYYY-MM-DD.sqlite3
+
+Она использует SQLite backup API, проверяет integrity_check и mode0700/0600,
+запрещает webroot, symlink и существующий target. При ошибке созданная неполная
+копия удаляется; текущая база не перезаписывается.
+
+Проверьте восстановление на отдельной private копии: integrity_check, count и
+show известного тестового requestId, повтор с исходным idempotencyKey. Не
+перезаписывайте текущую БД поверх работающего процесса. Удаление по утверждённой
+политике требует операционного процесса; очистка только current row при оставшемся
+PII в backup не является полным удалением. Экспорты также входят в политику.
+
+ПРОВЕРКИ
+
+  python3 -m unittest discover -s scripts -p 'test_serve_site.py' -v
+
+Тесты используют настоящий HTTP listener на ephemeral localhost port и отдельную
+SQLite в TemporaryDirectory. Покрываются restart durability, concurrent duplicate,
+conflict, validation, origin/host/body, rate bounds, отказ записи и rollback,
+GET/API запреты, symlink/hardlink/path exposure, отсутствие PII в server logs,
+operator stages и aggregate segments. Письма не отправляются.
+
+До рабочего запуска root отдельно проверяет полную браузерную цепочку:
+форма→fetch→durable receipt→UI; offline/timeout/422/429/503 сохраняют поля;
+повтор после потерянного ответа использует тот же ключ. Production TLS/proxy,
+volume persistence после пересоздания контейнера, backup restore и operator
+доступ должны проверяться в выбранном реальном окружении.

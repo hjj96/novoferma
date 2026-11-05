@@ -19,3 +19,8 @@ node_modules/
 !.env.sample
 *.pem
 *.key
+
+# Private intake databases and online backups never belong in Git.
+*.sqlite*
+*.db
+*.db-*

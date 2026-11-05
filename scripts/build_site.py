@@ -3,6 +3,7 @@ from pathlib import Path
 import json,html,hashlib,re,argparse
 from urllib.parse import quote, urlparse
 from site_sections import where_section
+from b2b_sections import partners_section, private_label_section, request_url
 ROOT=Path(__file__).resolve().parent.parent
 SITE=ROOT/'output/concept'
 parser=argparse.ArgumentParser(description='Build the Novoferma static site from verified content.')
@@ -66,6 +67,7 @@ def page(filename,title,content,active='',desc=''):
  catalogue_style = f'<link rel="stylesheet" href="{asset_url("catalogue.css")}">' if filename == 'catalogue.html' else ''
  partner_style = f'<link rel="stylesheet" href="{asset_url("partnership.css")}">' if filename in ('about.html','catalogue.html') else ''
  partner_scenes = f'<link rel="stylesheet" href="{asset_url("partners-scenes.css")}"><script src="{asset_url("partners-scenes.js")}" defer></script>' if filename == 'partners.html' else ''
+ b2b_style = f'<link rel="stylesheet" href="{asset_url("b2b.css")}">'
  s=f'''<!doctype html><html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#fff5e3"><meta name="description" content="{esc(desc)}"><title>{esc(title)} — Новоферма</title><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><meta property="og:type" content="website"><meta property="og:locale" content="ru_RU"><meta property="og:site_name" content="Новоферма"><meta property="og:title" content="{esc(title)} — Новоферма"><meta property="og:description" content="{esc(desc)}"><link rel="stylesheet" href="{asset_url('assets/fonts/font-face.css')}"><link rel="stylesheet" href="{asset_url('style.css')}"><link rel="stylesheet" href="{asset_url('depth.css')}"><link rel="stylesheet" href="{asset_url('design-system.css')}"><link rel="stylesheet" href="{asset_url('polish.css')}"><link rel="stylesheet" href="{asset_url('motion.css')}"><script src="{asset_url('script.js')}" defer></script><script src="{asset_url('depth.js')}" defer></script></head><body class="page-{filename.removesuffix(".html")}">{header(active,filename)}<main id="main">{content}</main>{footer()}<button class="to-top icon-button" aria-label="Наверх">{icon("arrow-up")}</button></body></html>'''
  preview_style = f'<link rel="stylesheet" href="{asset_url("product-cards.css")}">' if filename in ('index.html','catalogue.html') or filename.startswith('product-') else ''
  home_style = f'<link rel="stylesheet" href="{asset_url("home-unified.css")}">' if filename == 'index.html' else ''
@@ -78,20 +80,23 @@ def page(filename,title,content,active='',desc=''):
   metadata=f'<link rel="canonical" href="{esc(canonical)}"><meta property="og:url" content="{esc(canonical)}"><meta property="og:image" content="{esc(PUBLIC_URL)}/assets/product-hero/meatballs-art-v4.webp"><meta property="og:image:alt" content="Фрикадельки Новофермы — вариант подачи">'
   crumbs=[{'@type':'ListItem','position':1,'name':'Главная','item':PUBLIC_URL+'/index.html'}]
   if filename.startswith('product-'):crumbs.append({'@type':'ListItem','position':2,'name':'Продукция','item':PUBLIC_URL+'/catalogue.html'})
+  elif filename=='private-label.html':crumbs.append({'@type':'ListItem','position':2,'name':'Партнёрам','item':PUBLIC_URL+'/partners.html'})
   if filename!='index.html':crumbs.append({'@type':'ListItem','position':len(crumbs)+1,'name':title,'item':canonical})
   data={'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':crumbs}
   metadata+='<script type="application/ld+json">'+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>'
- s=s.replace('</head>',extra+f'<link rel="stylesheet" href="{asset_url("mobile.css")}">'+story_style+contact_style+partner_style+catalogue_style+partner_scenes+preview_style+home_style+detail_style+catalogue_script+where_assets+metadata+'</head>')
+ s=s.replace('</head>',extra+f'<link rel="stylesheet" href="{asset_url("mobile.css")}">'+story_style+contact_style+partner_style+catalogue_style+partner_scenes+preview_style+home_style+detail_style+catalogue_script+where_assets+b2b_style+metadata+'</head>')
  (SITE/filename).write_text(responsive_markup(s))
 
 def crumb(name): return f'<nav class="breadcrumb wrap" aria-label="Хлебные крошки"><a href="index.html">Главная</a><span aria-hidden="true">/</span><span>{name}</span></nav>'
 def contactband(context):
  invites={
-  'catalogue':('Для вашей полки.','Для вашего меню.','Обсудим интересующие продукты, объём и поставку в ваш город.'),
+  'catalogue':('Для вашей полки.','Для вашего меню.',''),
   'about':('Познакомимся','как партнёры?','Расскажите о вашем магазине или заведении — обсудим сотрудничество.')
  }
  title,accent,copy=invites[context]
- return f'''<section class="cooperation-invite cooperation-invite-{context}" aria-labelledby="invite-{context}-heading"><div class="wrap cooperation-invite-inner"><div class="cooperation-invite-heading"><p class="eyebrow">Магазинам, кафе и ресторанам</p><h2 id="invite-{context}-heading"><span>{title}</span><em>{accent}</em></h2></div><div class="cooperation-invite-response"><p>{copy}</p><a class="cooperation-invite-cta" href="partners.html#partner-contact"><span>Обсудить поставки</span><span class="cooperation-invite-arrow" aria-hidden="true">{arrow()}</span></a></div></div></section>'''
+ eyebrow='<p class="eyebrow">Магазинам, кафе и ресторанам</p>' if context!='catalogue' else ''
+ description=f'<p>{copy}</p>' if copy else ''
+ return f'''<section class="cooperation-invite cooperation-invite-{context}" aria-labelledby="invite-{context}-heading"><div class="wrap cooperation-invite-inner"><div class="cooperation-invite-heading">{eyebrow}<h2 id="invite-{context}-heading"><span>{title}</span><em>{accent}</em></h2></div><div class="cooperation-invite-response">{description}<a class="cooperation-invite-cta" href="partners.html#partner-contact"><span>Обсудить поставки</span><span class="cooperation-invite-arrow" aria-hidden="true">{arrow()}</span></a></div></div></section>'''
 
 # Source data is replaced by the verified inventory when available.
 fallback=[
@@ -106,6 +111,12 @@ if source.exists():
  raw=json.loads(source.read_text())
  if isinstance(raw,dict):raw=raw.get('products',[])
  if raw:products=raw
+# A nonempty imported recipe is not manufacturer approval. A reviewed publication
+# workflow and renderer are required before publishing these safety-relevant fields.
+for product in products:
+ for field in ('ingredients','allergens','nutrition','storage','preparation'):
+  if product.get(field) is not None:
+   raise SystemExit(f"Unapproved food information: {product.get('slug', product.get('id'))}.{field}. Review the exact SKU specification, content registry and renderer before publication.")
 # Stable normalisation permits a catalogue sourced by the independent inventory.
 for i,p in enumerate(products):
  p['id']=p.get('id',p.get('slug',f'product-{i+1}'))
@@ -140,10 +151,11 @@ for i,p in enumerate(products):
 def find(part):return next((p for p in products if part in p['name'].lower()),products[0])
 def card(p):
  turkey=p.get('meatKey','turkey' if 'индейк' in p['meat'].lower() else 'chicken')
- meta=' · '.join(str(value) for value in (p.get('meat'),p.get('weight')) if value)
+ meat=f'<span class="product-meat">{esc(p["meat"])}</span>' if p.get('meat') else ''
+ weight=f'<span class="product-weight">{esc(p["weight"]).replace(" ", "&nbsp;")}</span>' if p.get('weight') else ''
  anchor=f' id="{esc(p["anchor"])}"' if p.get('anchor') else ''
  status='<span class="product-status">Концепт новинки</span>' if p.get('concept') else ''
- return f'''<article class="product-card packshot-preview"{anchor} data-product-id="{p['id']}" data-meat="{turkey}" data-category="{esc(p['category'])}" data-name="{esc(p['name'].lower())}"><a class="product-image product-card-link" href="{p['url']}"><span class="packshot-stage" data-tilt><img class="tilt-plane" src="{p['image']}" width="800" height="800" loading="lazy" decoding="async" alt=""></span><span class="product-meta"><span>{esc(meta)}</span>{status}</span><h3 class="product-title">{esc(p['name'])}<span class="circle-arrow" aria-hidden="true">{arrow()}</span></h3></a></article>'''
+ return f'''<article class="product-card packshot-preview"{anchor} data-product-id="{p['id']}" data-meat="{turkey}" data-category="{esc(p['category'])}" data-name="{esc(p['name'].lower())}"><a class="product-image product-card-link" href="{p['url']}"><span class="packshot-stage" data-tilt><img class="tilt-plane" src="{p['image']}" width="800" height="800" loading="lazy" decoding="async" alt=""></span><h3 class="product-title">{esc(p['name'])}</h3><span class="product-meta">{meat}{weight}{status}</span></a></article>'''
 def cards(items):return ''.join(card(p) for p in items)
 
 def product_hero():
@@ -184,7 +196,7 @@ def protein_poster():
 home=f'''{product_hero()}
 <section class="section wrap home-products" id="products"><div class="section-heading reveal"><div><p class="eyebrow home-kicker">01 / выбираем любимое</p><h2 class="home-editorial-title"><span>У каждого —</span> <span>свой вкус.</span></h2></div><div class="heading-aside">{btn('Весь каталог','catalogue.html')}</div></div><div class="product-grid featured">{cards([find('наггетсы куриные'),find('попкорн'),find('стрипсы'),find('фрикадельки')])}</div></section>
 {protein_poster()}
-<section class="brand-story brand-partnership" id="cooperation" aria-labelledby="cooperation-heading"><div class="wrap brand-inner"><p class="eyebrow home-kicker partnership-eyebrow reveal">03 / для вашего бизнеса</p><h2 class="partnership-title home-editorial-title reveal" id="cooperation-heading"><span>Давайте</span> <span>работать</span> <em>вместе.</em></h2><div class="brand-copy reveal"><p class="partnership-lead">Производим замороженные продукты из курицы и индейки для вашего бизнеса.</p><dl class="partnership-formats"><div><dt>HoReCa</dt><dd>Для меню кафе, ресторанов и отелей.</dd></div><div><dt>СТМ</dt><dd>Продукция под вашей торговой маркой.</dd></div></dl><div class="partnership-actions">{btn('Обсудить сотрудничество','partners.html#partner-contact')}<a class="partnership-secondary" href="about.html">О производстве{arrow()}</a></div></div></div><img class="story-mascot" src="{asset_url('assets/mascot-partnership-v2.webp')}" width="1086" height="1448" loading="lazy" decoding="async" alt="" aria-hidden="true"></section>
+<section class="brand-story brand-partnership" id="cooperation" aria-labelledby="cooperation-heading"><div class="wrap brand-inner"><p class="eyebrow home-kicker partnership-eyebrow reveal">03 / для вашего бизнеса</p><h2 class="partnership-title home-editorial-title reveal" id="cooperation-heading"><span>Давайте</span> <span>работать</span> <em>вместе.</em></h2><div class="brand-copy reveal"><p class="partnership-lead">Производим замороженные продукты из курицы и индейки для вашего бизнеса.</p><dl class="partnership-formats"><div><dt>Розница</dt><dd>Основной ассортимент для вашей полки.</dd></div><div><dt>HoReCa</dt><dd>Для меню кафе, ресторанов и отелей.</dd></div><div><dt>СТМ</dt><dd>Обсудим выпуск под вашей торговой маркой.</dd></div></dl><div class="partnership-actions">{btn('Обсудить сотрудничество','partners.html#partner-contact')}<a class="partnership-secondary" href="private-label.html">Обсудить свою марку{arrow()}</a></div></div></div><img class="story-mascot" src="{asset_url('assets/mascot-partnership-v2.webp')}" width="1086" height="1448" loading="lazy" decoding="async" alt="" aria-hidden="true"></section>
 <section class="section wrap where-preview"><div class="reveal"><p class="eyebrow home-kicker">04 / осталось попробовать</p><h2 class="home-editorial-title"><span>Встретимся</span> <span>на полке.</span></h2><p>Поможем узнать, где искать<br>Новоферму в вашем городе.</p></div><div class="editorial-links reveal"><a href="where-to-buy.html"><h3>Где купить {arrow()}</h3><p>Уточните точки продаж в вашем городе</p></a><a href="contacts.html"><h3>Задать вопрос {arrow()}</h3><p>О продукте, приготовлении или сотрудничестве</p></a></div></section>'''
 page('index.html','Есть повод собраться',home)
 
@@ -192,18 +204,10 @@ catalogue=crumb('Продукция')+f'''<section class="wrap catalogue-page" a
 <div class="page-heading catalogue-heading reveal"><div><p class="eyebrow">Продукция Новофермы</p><h1 id="catalogue-heading">Что сегодня?</h1><p class="catalogue-intro">Из курицы и индейки.<br>Для ужина и не только.</p></div><img class="catalogue-mascot" src="{asset_url('assets/product-hero/running-mascot-v2.webp')}" width="1280" height="1280" alt="" aria-hidden="true"></div>
 <div class="catalogue-tools" data-catalogue-tools hidden><fieldset class="catalogue-filter-fields"><legend>Подобрать продукт</legend><label>Категория<select id="catalogue-category"><option value="">Все категории</option>{''.join(f'<option value="{esc(category)}">{esc(category)}</option>' for category in dict.fromkeys(p['category'] for p in catalogue_products))}</select></label><label>Мясо птицы<select id="catalogue-meat"><option value="">Курица и индейка</option><option value="chicken">Из курицы</option><option value="turkey">С индейкой</option></select></label><button type="button" class="catalogue-reset">Сбросить</button></fieldset><p class="catalogue-count" role="status" aria-live="polite">Все продукты</p></div>
 <h2 class="sr-only">Выберите свой продукт</h2><div class="product-grid catalogue-grid">{cards(catalogue_products)}</div><div class="catalogue-empty" hidden><h2>Пока нет такого сочетания</h2><p>Попробуйте другую категорию или сбросьте фильтры.</p></div>
-<p class="catalogue-note">Продукция продаётся замороженной. Изображения приготовленных блюд — варианты сервировки.</p></section>{contactband('catalogue')}'''
+</section>{contactband('catalogue')}'''
 page('catalogue.html','Продукция',catalogue,'catalogue.html')
 
 def product_information(p):
- sections=[]
- for key,title in [('ingredients','Состав'),('allergens','Аллергены'),('nutrition','Пищевая ценность на 100 г'),('storage','Хранение'),('preparation','Приготовление')]:
-  value=p.get(key)
-  if not value:continue
-  if isinstance(value,dict):content='<dl class="nutrition-list">'+''.join(f'<div><dt>{esc(k)}</dt><dd>{esc(v)}</dd></div>' for k,v in value.items())+'</dl>'
-  else:content=f'<p>{esc(value)}</p>'
-  sections.append(f'<details><summary>{title}</summary>{content}</details>')
- if sections:return '<div class="product-information"><h2>О продукте</h2>'+''.join(sections)+'</div>'
  request=f'Здравствуйте! Пришлите, пожалуйста, актуальный состав, информацию об аллергенах, пищевую ценность, хранение и способ приготовления продукта: {p["name"]}, {p.get("weight","")}. Спасибо!'
  return f'<div class="product-information"><h2>Состав и приготовление</h2><p>Перед покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.</p><a class="text-link" href="mailto:info@novoferma.ru?subject={quote("Информация о продукте: "+p["name"])}&amp;body={quote(request)}">Запросить информацию{arrow()}</a></div>'
 
@@ -217,7 +221,10 @@ for p in catalogue_products:
  info='' if concept else product_information(p)
  original='' if concept else f'<details class="label-reference"><summary>Фото из каталога производителя</summary><img src="{p["officialImage"]}" width="{p.get("imageWidth",900)}" height="{p.get("imageHeight",900)}" alt="{esc(p["name"])} — фото производителя" loading="lazy"><p>Внешний вид и сведения на упаковке могут обновляться. Перед покупкой сверяйте этикетку выбранного товара.</p></details>'
  caption='Визуальный концепт упаковки' if concept else 'Внешний вид упаковки'
- details=crumb(f'<a href="catalogue.html">Продукция</a> / <span aria-current="page">{esc(p["name"])}</span>')+f'''<section class="wrap product-detail"><div class="detail-heading">{status}<p class="eyebrow">{esc(p['category'])} / {esc(p['meat'])}</p><h1>{esc(p['name'])}</h1></div><figure class="detail-visual"><img class="detail-packshot" src="{p['image']}" width="800" height="800" alt="{esc(p['name'])}"><figcaption>{caption}</figcaption></figure><div class="detail-copy">{facts}<div class="detail-actions">{btn(action,'where-to-buy.html?product='+p['id'])}<a class="text-link" href="partners.html">Для партнёров {arrow()}</a></div>{info}{original}</div></section><section class="related-section"><div class="section wrap"><div class="section-heading"><h2>А ещё к столу…</h2>{btn('Весь каталог','catalogue.html')}</div><div class="product-grid featured">{cards(more)}</div></div></section>'''
+ buyer_note='Обсудить возможность выпуска и характеристики концепта.' if concept else 'Уточните состав, аллергены, пищевую ценность, хранение и приготовление для вашей закупки.'
+ buyer_action='Обсудить новинку' if concept else 'Запросить спецификацию'
+ buyer=f'<section class="detail-b2b" aria-labelledby="buyer-{p["id"]}"><h2 id="buyer-{p["id"]}">Покупаете для бизнеса?</h2><p>{buyer_note}</p><div class="detail-b2b-actions"><a class="text-link" href="{request_url(p["id"],"specification")}">{buyer_action}{arrow()}</a><a class="text-link" href="{request_url(p["id"],"samples")}">Обсудить образцы{arrow()}</a></div></section>'
+ details=crumb(f'<a href="catalogue.html">Продукция</a> / <span aria-current="page">{esc(p["name"])}</span>')+f'''<section class="wrap product-detail"><div class="detail-heading">{status}<p class="eyebrow">{esc(p['category'])} / {esc(p['meat'])}</p><h1>{esc(p['name'])}</h1></div><figure class="detail-visual"><img class="detail-packshot" src="{p['image']}" width="800" height="800" alt="{esc(p['name'])}"><figcaption>{caption}</figcaption></figure><div class="detail-copy">{facts}<div class="detail-actions">{btn(action,request_url(p['id'],'specification') if concept else 'where-to-buy.html?product='+p['id'])}<a class="text-link" href="{request_url(p['id'])}">Условия поставки {arrow()}</a></div>{buyer}{info}{original}</div></section><section class="related-section"><div class="section wrap"><div class="section-heading"><h2>А ещё к столу…</h2>{btn('Весь каталог','catalogue.html')}</div><div class="product-grid featured">{cards(more)}</div></div></section>'''
  description=p['description']+' Информация о концепте и контакт для уточнения начала продаж.' if concept else f'{p["name"]}, {p["weight"]}. {p["meat"]}, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.'
  page(p['url'],p['name'],details,'catalogue.html',desc=description)
 
@@ -229,28 +236,15 @@ retailers=json.loads(retailer_file.read_text()) if retailer_file.exists() else [
 where=crumb('Где купить')+where_section(catalogue_products,retailers,arrow)
 page('where-to-buy.html','Где купить',where,'where-to-buy.html')
 
-# Partner offers use the same verified catalogue data as product pages.
-partner_weights={}
-for p in products:
- partner_weights.setdefault(p['category'],set()).add(p['weight'])
-partner_rows=''.join(f'<tr><th scope="row">{esc(category)}</th><td>{esc(", ".join(sorted(weights))).replace(" г", "&nbsp;г")}</td></tr>' for category,weights in partner_weights.items())
-partners=crumb('Партнёрам')+f'''<section class="partners-business" aria-labelledby="partners-heading"><div class="wrap partners-business-inner">
-<div class="partners-business-copy"><p class="eyebrow">Новоферма / Партнёрам</p><h1 id="partners-heading"><span>Дело</span> <span>со вкусом.</span></h1><p class="partners-business-description">Продукты из курицы и&nbsp;индейки <br>для вашего бизнеса.</p><a class="button partners-primary" href="#partner-contact">Стать партнёром{arrow()}</a></div>
-<figure class="partners-business-scene"><div class="partners-scene-disc" aria-hidden="true"></div><img class="partners-host" src="{asset_url('assets/partners-brand-v1/partner-host-v1.webp')}" width="1024" height="1536" alt="Фирменная курочка Новофермы в кремовом пиджаке приглашает к сотрудничеству" fetchpriority="high" decoding="sync"></figure>
-</div></section>
-<section class="partners-offers" aria-label="Форматы сотрудничества"><div class="wrap partners-offers-inner">
-<article class="partners-offer partners-offer-retail" id="partner-retail" aria-labelledby="retail-heading"><p class="eyebrow">Продукция Новофермы</p><h2 id="retail-heading">Для полки.<br><em>Для меню.</em></h2><p class="partners-offer-description">Готовый ассортимент для магазинов, <br>кафе и&nbsp;ресторанов.</p><a class="partners-offer-link" href="catalogue.html">Смотреть каталог{arrow()}</a><details class="partners-specs"><summary>Фасовки из каталога<span aria-hidden="true">+</span></summary><div class="partners-specs-content"><table><thead><tr><th>Продукты</th><th>Масса нетто</th></tr></thead><tbody>{partner_rows}</tbody></table><p>Актуальные фасовки, объём партии и&nbsp;условия поставки уточним при обсуждении заказа.</p></div></details></article>
-<article class="partners-offer partners-offer-stm" id="private-label" aria-labelledby="stm-heading"><p class="eyebrow">Собственная торговая марка</p><h2 id="stm-heading">Ваш бренд.<br><em>Наш продукт.</em></h2><p class="partners-offer-description">Выпускаем продукты <br>под вашей торговой маркой.</p><a class="partners-offer-link" href="#partner-contact" data-partner-format="stm">Обсудить СТМ{arrow()}</a></article>
-</div></section>
-<section class="partners-contact" id="partner-contact" aria-labelledby="partner-contact-heading"><div class="wrap partners-contact-inner"><div class="partners-contact-copy"><p class="eyebrow">Будем на связи</p><h2 id="partner-contact-heading">Давайте<br><em>обсудим.</em></h2><p class="partners-contact-description">Оставьте детали в&nbsp;письме <br>или свяжитесь с&nbsp;нами напрямую.</p><div class="partners-direct"><a class="partners-direct-email" href="mailto:zakaz@novoferma.ru">zakaz@novoferma.ru{arrow()}</a><a class="partners-direct-phone" href="tel:+79312135550">+7 (931) 213-55-50</a></div></div>
-<form class="partners-form" id="partner-request-form" action="mailto:zakaz@novoferma.ru" method="get"><fieldset><legend>Какой формат вам интересен?</legend><div class="partners-format-options"><label class="partners-format-option"><input type="radio" name="format" value="retail" checked aria-describedby="partner-format-help"><span>Розница</span></label><label class="partners-format-option"><input type="radio" name="format" value="horeca" aria-describedby="partner-format-help"><span>HoReCa</span></label><label class="partners-format-option"><input type="radio" name="format" value="stm" aria-describedby="partner-format-help"><span>СТМ</span></label></div><p class="partners-format-help" id="partner-format-help" aria-live="polite">Продукция Новофермы для вашего ассортимента.</p></fieldset><div class="partners-form-fields"><label class="partners-form-field"><span>Компания *</span><input type="text" name="company" autocomplete="organization" placeholder="Название компании" maxlength="120" required></label><label class="partners-form-field"><span>Город</span><input type="text" name="city" autocomplete="address-level2" placeholder="Ваш город" maxlength="100"></label><label class="partners-form-field partners-form-field-wide"><span>Телефон или почта *</span><input type="text" name="contact" placeholder="Как с вами связаться" maxlength="160" required></label><label class="partners-form-field partners-form-field-wide"><span>Ваш запрос</span><textarea name="message" placeholder="Продукты, объём или задача" maxlength="1200"></textarea></label></div><div class="partners-form-actions"><button class="button button-dark" type="submit">Составить письмо{arrow()}</button><button class="partners-copy-button" id="partner-copy-request" type="button">Скопировать запрос</button></div><p class="partners-form-note">Откроется почта. Проверьте и отправьте&nbsp;письмо.</p><p class="partners-form-feedback" id="partner-request-feedback" role="status" hidden></p><textarea class="partners-draft" id="partner-request-draft" aria-label="Текст запроса для копирования" readonly hidden></textarea></form>
-</div></section>'''
-page('partners.html','Партнёрам',partners,'partners.html',desc='Сотрудничество с Новофермой: продукты из курицы и индейки для магазинов, кафе и ресторанов, производство под вашей торговой маркой и контакты отдела заказов.')
+partners=crumb('Партнёрам')+partners_section(catalogue_products,arrow,asset_url)
+page('partners.html','Партнёрам',partners,'partners.html',desc='Новоферма для розницы, HoReCa и собственной торговой марки: основной ассортимент, материалы закупщику, спецификации и запрос условий поставки.')
+private_label=crumb('<a href="partners.html">Партнёрам</a> / <span aria-current="page">Собственная торговая марка</span>')+private_label_section(arrow,asset_url)
+page('private-label.html','Собственная торговая марка',private_label,'partners.html',desc='Обсуждение выпуска продуктов под вашей торговой маркой: что подготовить для обсуждения, этапы согласования продукта, упаковки и условий проекта СТМ.')
 
 contacts=crumb('Контакты')+f'''<section class="contacts-main contacts-poster" aria-labelledby="contacts-heading"><div class="wrap contact-layout"><div class="contact-content"><div class="contact-heading reveal"><h1 id="contacts-heading">Мы<br><span class="no-wrap">на связи.</span></h1></div><div class="contact-groups"><section class="contact-group reveal" aria-labelledby="contact-buyers"><div class="contact-audience"><h2 id="contact-buyers">Покупателям</h2><p>О продуктах и точках продаж.</p></div><div class="contact-links"><a class="contact-email" href="mailto:info@novoferma.ru">info@novoferma.ru {arrow()}</a><a class="contact-phone" href="tel:+78129155454">+7 (812) 915-54-54</a></div></section><section class="contact-group reveal" aria-labelledby="contact-partners"><div class="contact-audience"><h2 id="contact-partners">Партнёрам</h2><p>Ассортимент и условия поставки.</p></div><div class="contact-links"><a class="contact-email" href="mailto:zakaz@novoferma.ru">zakaz@novoferma.ru {arrow()}</a><a class="contact-phone" href="tel:+79312135550">+7 (931) 213-55-50</a></div></section></div><a class="contact-map" href="https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202" target="_blank" rel="noopener"><span>Открыть адрес на карте</span>{arrow()}</a></div></div><img class="contacts-mascot" src="{asset_url('assets/mascot-contact-restored-v2.webp')}" width="980" height="1605" decoding="async" alt="" aria-hidden="true"></section><section class="wrap requisites"><p class="eyebrow">Реквизиты компании</p><div><strong>ООО «НОВОФЕРМА»</strong><p>ИНН 7807396385<br>ОГРН 1147847409148</p></div><div><strong>Адрес компании</strong><p>198323, Санкт-Петербург,<br>ул. Заречная (тер. Горелово), д. 2</p></div></section>'''
 page('contacts.html','Контакты',contacts,'contacts.html')
-(SITE/'site-manifest.json').write_text(json.dumps({'pages':['index.html','catalogue.html','about.html','where-to-buy.html','partners.html','contacts.html']+[p['url'] for p in catalogue_products],'products':products,'novelties':catalogue_products[len(products):],'publicUrl':PUBLIC_URL or None},ensure_ascii=False,indent=2))
-routes=['index.html','catalogue.html','about.html','where-to-buy.html','partners.html','contacts.html']+[p['url'] for p in catalogue_products]
+(SITE/'site-manifest.json').write_text(json.dumps({'pages':['index.html','catalogue.html','about.html','where-to-buy.html','partners.html','private-label.html','contacts.html']+[p['url'] for p in catalogue_products],'products':products,'novelties':catalogue_products[len(products):],'publicUrl':PUBLIC_URL or None},ensure_ascii=False,indent=2))
+routes=['index.html','catalogue.html','about.html','where-to-buy.html','partners.html','private-label.html','contacts.html']+[p['url'] for p in catalogue_products]
 if PUBLIC_URL:
  (SITE/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{esc(PUBLIC_URL+"/"+route)}</loc></url>' for route in routes)+'</urlset>')
  (SITE/'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: '+PUBLIC_URL+'/sitemap.xml\n')

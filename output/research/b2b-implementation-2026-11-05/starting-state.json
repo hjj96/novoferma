@@ -1,0 +1,32 @@
+{
+  "worktree": "/var/folders/b1/s0mpd68155bf8x94y3j6by3c0000gn/T/novoferma-b2b-implementation-20ameohn",
+  "branch": "codex/b2b-stm-priorities-2026-11-05",
+  "remoteBase": "1c1fe78c66ea5fd6083447238dab93c593faaddb",
+  "preservedChanges": [
+    "output/concept/README.md",
+    "output/concept/about.html",
+    "output/concept/catalogue.html",
+    "output/concept/index.html",
+    "output/concept/partners-scenes.css",
+    "output/concept/partners.html",
+    "output/concept/partnership.css",
+    "output/concept/product-bitochki-kurinye-s-ovoshchami.html",
+    "output/concept/product-cards.css",
+    "output/concept/product-ezhiki-iz-tsyplenka-s-risom.html",
+    "output/concept/product-fibriki.html",
+    "output/concept/product-frikadelki-klassicheskie.html",
+    "output/concept/product-kotlety-kurinye.html",
+    "output/concept/product-kotlety-pikantnye.html",
+    "output/concept/product-kotlety-po-domashnemu.html",
+    "output/concept/product-kotlety-po-italyanski.html",
+    "output/concept/product-kurinyj-popkorn.html",
+    "output/concept/product-lulia-mini.html",
+    "output/concept/product-naggetsy-dinozavry.html",
+    "output/concept/product-naggetsy-kurinye-s-syrom.html",
+    "output/concept/product-naggetsy-kurinye.html",
+    "output/concept/product-naggetsy-ostrye.html",
+    "output/concept/product-naggetsy-s-indeykoy-fitnes.html",
+    "output/concept/product-stripsy.html",
+    "scripts/build_site.py"
+  ]
+}

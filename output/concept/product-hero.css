@@ -1,7 +1,7 @@
 /* Product campaign: live condensed titles, protected navigation, named controls. */
 .page-index{--hero-paper:#fff9ed}
-.page-index .site-header{background:transparent}
-.product-showcase{--orange:#fa4b06;position:relative;display:flex;flex-direction:column;margin-top:-88px;background:var(--hero-paper);overflow:clip}
+.page-index .site-header{background:var(--hero-paper)}
+.product-showcase{--orange:#fa4b06;position:relative;display:flex;flex-direction:column;margin-top:0;background:var(--hero-paper);overflow:clip}
 .product-stage{position:relative;order:1;flex-shrink:0;width:100%;aspect-ratio:1672 / 941;touch-action:pan-y pinch-zoom;isolation:isolate}
 .product-stage-background,.product-stage-paper{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
 .product-stage-paper{z-index:-3}
