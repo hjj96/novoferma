@@ -40,6 +40,7 @@
  border-radius:0;padding:12px 0;min-height:44px;gap:32px;box-shadow:none;
 }
 .page-index .home-products .heading-aside .button:hover {color:var(--nf-orange);translate:none}
+.page-index .home-products .heading-aside .button .ui-icon {filter:none}
 .page-index .protein-poster {background:#e2e5bb;background-image:none}
 .page-index .protein-poster-copy {padding-top:64px}
 .page-index h2.protein-poster-title {font-size:clamp(40px,4.25vw,64px);line-height:1.1}
