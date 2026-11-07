@@ -6,6 +6,9 @@
  word-spacing:.06em;text-transform:uppercase;text-wrap:initial;color:var(--rust);
 }
 .page-product-popsy .detail-copy > .detail-intro {margin-bottom:20px}
+.page-product-popsy .product-detail > .detail-visual img {
+ transform:translateY(-2.2%) scale(1.065);
+}
 .popsy-story {background:var(--paper)}
 .popsy-story-inner,.popsy-serving {
  display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);
