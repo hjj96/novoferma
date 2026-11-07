@@ -1,0 +1,115 @@
+/* Shared, bounded motion. Layout, poster artwork and all copy stay anchored. */
+:root {
+  --motion-editorial: cubic-bezier(.2,.72,.2,1);
+  --motion-control: cubic-bezier(.25,.7,.25,1);
+}
+
+.desktop-nav a::after {
+  transform-origin: left center;
+  transition: scale 220ms var(--motion-control);
+}
+.desktop-nav a:focus-visible::after { scale: 1; }
+.button img, .button span {
+  transition: translate 240ms var(--motion-control);
+}
+.button:focus-visible img, .button:focus-visible span { translate: 2px -2px; }
+.editorial-links h3 img {
+  transition: translate 240ms var(--motion-control);
+}
+.editorial-links a:focus-visible h3 img,
+.editorial-links a:focus-visible h3 span { translate: 3px -3px; }
+
+/* One reaction for the entire card, moving only its product image. */
+.product-card .product-image .tilt-plane,
+.product-card .product-image:hover .tilt-plane {
+  transform: translate3d(0,calc(var(--card-lift,0px) + var(--tilt-lift,0px)),0)
+    rotateX(var(--tilt-x,0deg)) rotateY(var(--tilt-y,0deg)) rotate(var(--pack-turn,0deg));
+  transition: transform 420ms var(--motion-editorial), filter 420ms var(--motion-editorial);
+}
+.product-card:focus-within .product-image .tilt-plane {
+  filter: drop-shadow(2px 21px 12px #40211125);
+}
+.product-card:focus-within .circle-arrow {
+  background: var(--brown);
+  color: var(--cream);
+  border-color: var(--brown);
+}
+.circle-arrow img { transition: filter 180ms ease, translate 220ms var(--motion-control); }
+.product-card:focus-within .circle-arrow img { filter: brightness(0) invert(1); }
+
+@media (hover:hover) and (pointer:fine) {
+  .button:hover img { translate: 2px -2px; }
+  .editorial-links a:hover h3 img { translate: 3px -3px; }
+  .product-card:hover .product-image .tilt-plane { filter: drop-shadow(2px 21px 12px #40211125); }
+  .product-card:hover .circle-arrow {
+    background: var(--brown);
+    color: var(--cream);
+    border-color: var(--brown);
+  }
+  .product-card:hover .circle-arrow img { filter: brightness(0) invert(1); }
+}
+
+@media (prefers-reduced-motion:no-preference) {
+  .page-enter {
+    animation: editorial-enter 580ms var(--motion-editorial) var(--entrance-delay,0ms) backwards;
+  }
+  .page-enter:focus-within { animation: none; }
+  .reveal.is-prepared {
+    translate: 0 18px;
+    transition: opacity 660ms var(--motion-editorial), translate 660ms var(--motion-editorial);
+    transition-delay: var(--reveal-delay,0ms);
+  }
+  .reveal.is-visible, .reveal.is-prepared:focus-within {
+    opacity: 1;
+    translate: 0 0;
+  }
+  .reveal.is-prepared:focus-within { transition-delay: 0ms; }
+  .product-card:focus-within { --card-lift:-6px; }
+  .menu-dialog[open] { animation: menu-in 320ms var(--motion-editorial); }
+  .menu-dialog[open] nav a {
+    animation: menu-link-enter 400ms var(--motion-editorial) backwards;
+    animation-delay: var(--menu-link-delay,50ms);
+  }
+  .menu-dialog nav a:nth-child(2) { --menu-link-delay:80ms; }
+  .menu-dialog nav a:nth-child(3) { --menu-link-delay:110ms; }
+  .menu-dialog nav a:nth-child(4) { --menu-link-delay:140ms; }
+  .menu-dialog nav a:nth-child(n+5) { --menu-link-delay:170ms; }
+  .menu-dialog nav a:focus-visible { animation:none; }
+}
+@media (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
+  .product-card:hover { --card-lift:-6px; }
+}
+@keyframes editorial-enter {
+  from { opacity:.72; translate:0 14px; }
+  to { opacity:1; translate:0 0; }
+}
+@keyframes menu-link-enter {
+  from { opacity:.65; translate:0 10px; }
+  to { opacity:1; translate:0 0; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .page-enter, .menu-dialog nav a { animation:none!important; translate:none!important; }
+  .product-card { --card-lift:0px!important; }
+  .button, .button span, .button img,
+  .editorial-links h3 span, .editorial-links h3 img { translate:none!important; }
+  .circle-arrow { rotate:0deg!important; }
+}
+
+/* Shopping information stays anchored: no card tilt, lift or staggered reveal. */
+.product-card.reveal,.product-card.reveal.is-prepared {
+ opacity:1;translate:none;animation:none;transition:none;
+}
+.product-card {--card-lift:0px}
+.product-card .product-image .tilt-plane,
+.product-card .product-image:hover .tilt-plane {
+ transform:rotate(var(--pack-turn,0deg));
+ transition:filter 180ms ease;
+}
+.product-card:focus-within,.product-card:hover {--card-lift:0px}
+.product-detail .reveal,.product-detail .reveal.is-prepared,.product-detail .page-enter {
+ opacity:1;translate:none;animation:none;transition:none;
+}
+.product-detail .tilt-plane {transform:none;transition:none}
+@media(prefers-reduced-motion:reduce) {
+ .product-card .product-image .tilt-plane {transition:none}
+}
