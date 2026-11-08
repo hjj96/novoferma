@@ -1,152 +1,102 @@
-/* About Novoferma: a food poster, an open story, and everyday moments. */
-@font-face {font-family:'Novoferma About';src:url('assets/fonts/RobotoFlex-Protein.woff2') format('woff2');font-weight:850;font-style:normal;font-display:swap}
-.page-about {--about-ink:#402312;--about-muted:#735b47;--about-red:#b93822;--about-cream:#fff5e3;color:var(--about-ink)}
-.page-about .about-shell {width:min(1296px,calc(100% - 96px));margin-inline:auto}
+/* Company chapters and the catalogue preview shared with the homepage. */
+@font-face {
+ font-family:'Novoferma About';src:url('assets/fonts/RobotoFlex-Protein.woff2') format('woff2');
+ font-weight:850;font-style:normal;font-display:swap;
+}
+.page-about,.page-index .about-products {--about-ink:#402312;--about-red:#b93822;--about-cream:#fff5e3;color:var(--about-ink)}
+:is(.page-about,.page-index) .about-shell {width:min(1296px,calc(100% - 96px));margin-inline:auto}
 .page-about .breadcrumb {padding-block:24px;margin-block:0}
-.page-about .about-kicker {margin:0 0 24px;font-size:11px;line-height:1.5;font-weight:650;letter-spacing:.12em;text-transform:uppercase}
-.page-about .about-poster {position:relative;background:var(--about-red);color:var(--about-cream);overflow:hidden}
-.page-about .about-poster-inner {position:relative;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);align-items:center;column-gap:12px;padding-top:60px}
-.page-about .about-poster-copy {min-width:0;position:relative;z-index:2;padding-bottom:46px}
-.page-about .about-poster h1 {margin:0;font-family:'Novoferma About',var(--font-display);font-size:clamp(64px,8vw,115px);font-weight:850;line-height:.96;letter-spacing:-.015em;text-transform:uppercase;text-wrap:initial;color:inherit}
-.page-about .about-poster h1 span {color:#f6d580;white-space:nowrap}
-.page-about .about-poster-lead {margin:28px 0 30px;font-size:clamp(17px,1.55vw,21px);line-height:1.55;letter-spacing:-.015em}
-.page-about .about-pill {display:inline-flex;min-height:54px;align-items:center;justify-content:space-between;gap:30px;padding:15px 24px;border:1px solid transparent;border-radius:100px;font-size:14px;font-weight:600;line-height:1.4;transition:background .2s,transform .2s}
-.page-about .about-pill-light {background:var(--about-cream);color:var(--about-ink)}
-.page-about .about-pill-light:hover {background:#f6d580;transform:translateY(-2px)}
-.page-about .about-pill>span {font-size:23px;line-height:1}
-.page-about .about-pill .ui-icon {width:21px;height:21px;flex:none}
-.page-about .about-poster-art {position:relative;align-self:stretch;min-width:0;margin:-15px -35px 0 -10px;display:flex;align-items:center;justify-content:center}
-.page-about .about-poster-orbit {position:absolute;width:88%;aspect-ratio:1;border-radius:50%;background:#efbc64;top:3%;right:0;border:1px solid #f5d580}
-.page-about .about-poster-art>img {position:relative;z-index:1;width:113%;max-width:none;height:auto;object-fit:contain;transform:rotate(-9deg) translateY(-8px);filter:drop-shadow(0 22px 18px #66220e26)}
-.page-about .about-poster-art figcaption {position:absolute;z-index:2;right:0;bottom:12%;color:var(--about-cream);font-family:var(--font-hand);font-size:clamp(28px,3.1vw,45px);font-weight:550;line-height:1.05;transform:rotate(-8deg);white-space:nowrap}
-.page-about .about-serving-note {position:absolute;left:18%;bottom:4%;font-size:10px;color:#ffe0bc;letter-spacing:.03em}
-.page-about .about-poster-bottom {grid-column:1/-1;position:relative;z-index:2;display:flex;justify-content:space-between;gap:24px;align-items:center;min-height:64px;border-top:1px solid #fff5e347;font-size:10px;font-weight:550;letter-spacing:.1em;text-transform:uppercase}
-.page-about h2 {margin:0;font-family:var(--font-display);font-size:clamp(40px,4.8vw,68px);line-height:1.06;letter-spacing:-.055em;font-weight:600;text-transform:none;text-wrap:initial}
-.page-about h2 em {font-style:normal;color:var(--about-red)}
-.page-about .about-lead {font-size:clamp(19px,1.75vw,24px);line-height:1.5;letter-spacing:-.02em}
-.page-about .about-story {padding-block:104px 94px;display:grid;grid-template-columns:1fr 1fr;gap:60px 80px;scroll-margin-top:40px}
-.page-about .about-story-copy {padding-top:36px}
+:is(.page-about,.page-index) .about-title {
+ margin:0;min-width:0;max-width:100%;font-family:'Novoferma About',var(--font-display);
+ font-size:clamp(64px,7.5vw,106px);font-weight:850;line-height:1.04;
+ letter-spacing:-.015em;text-transform:uppercase;text-wrap:initial;color:inherit;
+}
+:is(.page-about,.page-index) .about-title>span {color:var(--about-red)}
+.page-about .about-copy {
+ font-family:var(--font-display);font-size:clamp(18px,1.55vw,22px);
+ font-weight:450;line-height:1.55;letter-spacing:-.015em;
+}
+:is(.page-about,.page-index) .about-pill {
+ display:inline-flex;align-items:center;justify-content:space-between;gap:28px;
+ min-height:54px;max-width:100%;padding:15px 24px;border:1px solid transparent;border-radius:100px;
+ font-family:var(--font-display);font-size:14px;font-weight:600;line-height:1.45;
+ transition:background .2s,color .2s;
+}
+:is(.page-about,.page-index) .about-pill>span {font-size:23px;line-height:1}
+:is(.page-about,.page-index) .about-pill .ui-icon {width:21px;height:21px;flex:none}
+:is(.page-about,.page-index) .about-pill-light {background:var(--about-cream);color:var(--about-ink)}
+:is(.page-about,.page-index) .about-pill-light:hover {background:#f6d580}
+:is(.page-about,.page-index) .about-pill-dark {background:var(--about-ink);color:var(--about-cream)}
+:is(.page-about,.page-index) .about-pill-dark .ui-icon {filter:brightness(0) invert(1)}
+:is(.page-about,.page-index) .about-pill-dark:hover {background:var(--about-red)}
+.page-about a:focus-visible,.page-index .about-products a:focus-visible {outline:3px solid var(--about-red);outline-offset:6px}
+.page-about .about-story-hero {background:var(--about-red);color:var(--about-cream)}
+.page-about .about-story-inner {
+ display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);
+ align-items:center;gap:80px;padding-block:96px;
+}
+.page-about .about-story .about-title {font-size:clamp(60px,7vw,100px)}
+.page-about .about-story .about-title>span {color:#f6d580}
+.page-about .about-story-copy {min-width:0}
 .page-about .about-story-copy>p {margin:0}
-.page-about .about-story-copy>p+p {margin-top:22px;font-size:16px;line-height:1.7;color:var(--about-muted);max-width:52ch}
-.page-about .about-principles {grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:48px}
-.page-about .about-principles article {border-top:1px solid #cdbb9d;padding-top:24px}
-.page-about .about-index {display:block;margin:0;font-size:10px;line-height:1.5;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--about-muted)}
-.page-about .about-principles .about-index {color:var(--about-red)}
-.page-about h3 {font-family:var(--font-display);font-size:25px;line-height:1.2;letter-spacing:-.035em;font-weight:600;text-transform:none}
-.page-about .about-principles h3 {margin:20px 0 12px}
-.page-about .about-principles p {margin:0;max-width:36ch;font-size:15px;line-height:1.65;color:var(--about-muted)}
-.page-about .about-moments {padding-bottom:104px}
-.page-about .about-section-top {display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-bottom:44px}
-.page-about .about-text-link {display:inline-flex;align-items:center;justify-content:space-between;gap:24px;min-height:46px;border-bottom:1px solid #a88c70;font-size:14px;font-weight:600;line-height:1.45;transition:color .2s,border-color .2s}
-.page-about .about-text-link .ui-icon {width:20px;height:20px;flex:none}
-.page-about .about-text-link:hover {color:var(--about-red);border-color:var(--about-red)}
-.page-about .about-moments-grid {display:grid;grid-template-columns:1.15fr 1fr;align-items:start;gap:32px}
-.page-about .about-moment {margin:0;min-width:0}
-.page-about .about-moment-popsy {padding-top:88px}
-.page-about .about-moment-photo {position:relative;overflow:hidden;background:#e9d8bf}
-.page-about .about-moment-photo>img {display:block;width:100%;height:auto;aspect-ratio:1.22;object-fit:cover;transition:transform .6s}
-.page-about .about-moment-popsy .about-moment-photo>img {aspect-ratio:1.18;object-position:56% center}
-.page-about .about-photo-note {position:absolute;bottom:12px;right:14px;padding:5px 9px;background:#402312c9;color:var(--about-cream);border-radius:2px;font-size:9px;line-height:1.4}
-.page-about .about-moment>figcaption {position:static;transform:none;background:none;box-shadow:none;padding:24px 0 0;color:inherit;max-width:none}
-.page-about .about-moment h3 {font-size:30px;margin:12px 0}
-.page-about .about-moment p {margin:0;max-width:40ch;font-size:16px;line-height:1.6;color:var(--about-muted)}
-.page-about .about-moment .about-text-link {margin-top:18px}
-.page-about .about-package {background:#e1e5bc;overflow:hidden}
-.page-about .about-package-inner {display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;padding-block:80px}
-.page-about .about-package-copy {position:relative;z-index:2}
-.page-about .about-package h2 {font-size:clamp(40px,4.5vw,64px)}
-.page-about .about-package .about-lead {margin:28px 0 0;max-width:26ch}
-.page-about .about-package-copy>p:not(.about-kicker):not(.about-lead) {font-size:16px;line-height:1.7;color:#59603c;max-width:42ch;margin:18px 0 24px}
-.page-about .about-package-art {position:relative;min-width:0;margin:0;aspect-ratio:1;display:grid;place-items:center}
-.page-about .about-package-circle {position:absolute;width:96%;aspect-ratio:1;border-radius:50%;background:#f0efcf}
-.page-about .about-package-art>img {position:relative;width:108%;max-width:none;height:auto;transform:rotate(9deg);filter:drop-shadow(0 24px 16px #48552118)}
-.page-about .about-package-art>figcaption {position:absolute;left:8%;bottom:-2%;padding:0;background:transparent;color:var(--about-ink);font-family:var(--font-hand);font-size:36px;line-height:1;transform:rotate(-8deg);box-shadow:none}
-.page-about .about-finale {display:grid;grid-template-columns:.8fr 1fr;gap:80px;align-items:center;padding-block:88px}
-.page-about .about-finale-art {display:grid;place-items:center}
-.page-about .about-finale-art>img {width:90%;max-width:420px;height:auto;transform:rotate(-7deg)}
-.page-about .about-finale-copy>p:not(.about-kicker) {max-width:34ch;margin:24px 0 28px;font-size:18px;line-height:1.6;color:var(--about-muted)}
-.page-about .about-finale-actions {display:flex;align-items:center;gap:26px;flex-wrap:wrap}
-.page-about .about-pill-dark {background:var(--about-ink);color:var(--about-cream)}
-.page-about .about-pill-dark .ui-icon {filter:brightness(0) invert(1)}
-.page-about .about-pill-dark:hover {background:var(--about-red);transform:translateY(-2px)}
-.page-about a:focus-visible {outline:3px solid #b93822;outline-offset:6px}
-.page-about .about-poster a:focus-visible {outline-color:#fff5e3}
-@media(hover:hover) and (prefers-reduced-motion:no-preference) {.page-about .about-moment:hover .about-moment-photo>img {transform:scale(1.035)}}
-@media(min-width:1600px) {.page-about .about-poster-inner {padding-top:64px}.page-about .about-poster h1 {font-size:115px}}
-@media(max-width:1099px) and (min-width:700px) {
- .page-about .about-shell {width:calc(100% - 64px)}
- .page-about .about-poster-inner {padding-top:48px}
- .page-about .about-poster h1 {font-size:clamp(56px,8vw,88px)}
- .page-about .about-poster-art {margin-right:-14px}
- .page-about .about-poster-art figcaption {font-size:30px;bottom:15%}
- .page-about .about-story {gap:48px 40px;padding-block:76px}
- .page-about .about-story-copy {padding-top:0}
- .page-about .about-principles {gap:28px}
- .page-about .about-principles h3 {font-size:22px}
- .page-about .about-package-inner {gap:30px;padding-block:64px}
- .page-about .about-package-art>figcaption {font-size:30px}
- .page-about .about-finale {gap:40px;padding-block:68px}
- .page-about .about-finale-actions {gap:14px}
+.page-about .about-story-copy>p+p {margin-top:24px}
+:is(.page-about,.page-index) .about-products {padding-block:80px 88px;background:#e1e5bc}
+:is(.page-about,.page-index) .about-products-heading {
+ display:flex;justify-content:space-between;align-items:flex-end;gap:48px;margin-bottom:48px;
+}
+:is(.page-about,.page-index) .about-products-heading>.about-pill {flex:none;margin-bottom:6px}
+:is(.page-about,.page-index) .about-products .product-grid {grid-template-columns:repeat(4,minmax(0,1fr));gap:40px 28px}
+:is(.page-about,.page-index) .about-products .packshot-preview {--packshot-surface:#f0efcf}
+.page-about .cooperation-invite-about {margin:0;background:var(--orange);color:var(--about-ink)}
+.page-about .cooperation-invite-inner {
+ grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:80px;padding-block:80px;
+}
+.page-about .cooperation-invite-about .about-title {font-family:'Novoferma About',var(--font-display);font-size:clamp(60px,7vw,100px);font-weight:850;line-height:1.04;letter-spacing:-.015em}
+.page-about .cooperation-invite-about .about-title>span {color:var(--about-cream)}
+.page-about .cooperation-invite-response {gap:28px;align-items:flex-start;flex-direction:column}
+.page-about .cooperation-invite-response>.about-copy {margin:0;max-width:34ch;font-size:clamp(18px,1.55vw,22px);line-height:1.55}
+.page-about .cooperation-invite-about a:focus-visible {outline-color:var(--about-ink)}
+@media(min-width:700px) and (max-width:1099px) {
+ :is(.page-about,.page-index) .about-shell {width:calc(100% - 64px)}
+ :is(.page-about,.page-index) .about-title {font-size:clamp(56px,7.5vw,82px)}
+ .page-about .about-story-inner,.page-about .cooperation-invite-inner {gap:40px;padding-block:72px}
+ .page-about .about-story .about-title,.page-about .cooperation-invite-about .about-title {font-size:clamp(54px,6.6vw,74px)}
+ :is(.page-about,.page-index) .about-products {padding-block:64px}
+ :is(.page-about,.page-index) .about-products-heading {gap:28px}
+ :is(.page-about,.page-index) .about-products .product-grid {grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 32px}
+}
+@media(max-width:899px) {
+ .page-about .about-story-inner,.page-about .cooperation-invite-inner {grid-template-columns:minmax(0,1fr);gap:32px}
+ .page-about .about-story-copy {max-width:60ch}
+ :is(.page-about,.page-index) .about-products-heading {display:block}
+ :is(.page-about,.page-index) .about-products-heading>.about-pill {margin:26px 0 0}
 }
 @media(max-width:699px) {
- .page-about .about-shell {width:calc(100% - 40px)}
+ :is(.page-about,.page-index) .about-shell {width:calc(100% - 40px)}
  .page-about .breadcrumb {padding-block:16px;font-size:10px}
- .page-about .about-kicker {font-size:10px;margin-bottom:20px;letter-spacing:.1em}
- .page-about .about-poster-inner {grid-template-columns:minmax(0,1fr);padding-top:32px;gap:0}
- .page-about .about-poster-copy {padding:0}
- .page-about .about-poster h1 {font-size:clamp(44px,13.1vw,88px);line-height:.96;letter-spacing:-.012em}
- .page-about .about-poster-lead {font-size:16px;line-height:1.5;margin:22px 0}
- .page-about .about-pill {min-height:50px;padding:13px 21px;font-size:13px;gap:24px}
- .page-about .about-poster-art {width:100%;aspect-ratio:1;margin:14px 0 0;align-self:auto}
- .page-about .about-poster-orbit {width:78%;right:2%;top:0}
- .page-about .about-poster-art>img {width:92%;position:absolute;top:0;right:4%;transform:rotate(-9deg)}
- .page-about .about-poster-art figcaption {font-size:32px;bottom:14%;right:0}
- .page-about .about-serving-note {left:2%;bottom:2%;font-size:9px}
- .page-about .about-poster-bottom {font-size:8px;min-height:57px;gap:18px;line-height:1.6;letter-spacing:.06em}
- .page-about .about-poster-bottom>span {max-width:50%}
- .page-about .about-poster-bottom>span:last-child {text-align:right}
- .page-about h2 {font-size:clamp(37px,9.4vw,54px);line-height:1.08;letter-spacing:-.05em}
- .page-about .about-story {grid-template-columns:1fr;padding-block:56px;gap:26px}
- .page-about .about-story-copy {padding:0}
- .page-about .about-lead {font-size:19px;line-height:1.5}
- .page-about .about-story-copy>p+p {font-size:15px;line-height:1.65;margin-top:18px}
- .page-about .about-principles {grid-template-columns:1fr;gap:24px;margin-top:10px}
- .page-about .about-principles article {padding-top:18px}
- .page-about .about-principles h3 {font-size:23px;margin:13px 0 10px}
- .page-about .about-principles p {max-width:46ch;font-size:15px}
- .page-about .about-index {font-size:9px}
- .page-about .about-moments {padding-bottom:56px}
- .page-about .about-section-top {display:block;margin-bottom:28px}
- .page-about .about-section-top>.about-text-link {margin-top:18px}
- .page-about .about-text-link {font-size:13px;min-height:44px;gap:24px}
- .page-about .about-moments-grid {grid-template-columns:1fr;gap:36px}
- .page-about .about-moment-popsy {padding:0}
- .page-about .about-moment-photo>img {aspect-ratio:1.12}
- .page-about .about-moment-popsy .about-moment-photo>img {aspect-ratio:1.3}
- .page-about .about-moment>figcaption {padding-top:20px}
- .page-about .about-moment h3 {font-size:27px;margin:10px 0}
- .page-about .about-moment p {font-size:15px;line-height:1.6}
- .page-about .about-package-inner {grid-template-columns:1fr;padding-block:48px 40px;gap:20px}
- .page-about .about-package h2 {font-size:clamp(36px,9vw,52px)}
- .page-about .about-package .about-lead {margin-top:24px;font-size:19px}
- .page-about .about-package-copy>p:not(.about-kicker):not(.about-lead) {font-size:15px;margin:18px 0}
- .page-about .about-package-art {width:94%;margin-inline:auto;aspect-ratio:1.05}
- .page-about .about-package-art>img {width:114%}
- .page-about .about-package-art>figcaption {font-size:30px;bottom:1%;left:0}
- .page-about .about-finale {grid-template-columns:1fr;padding-block:48px 56px;gap:24px}
- .page-about .about-finale-art {display:none}
- .page-about .about-finale-copy>p:not(.about-kicker) {font-size:16px;margin:22px 0 24px;max-width:36ch}
- .page-about .about-finale-actions {gap:16px 24px}
+ :is(.page-about,.page-index) .about-title,
+ .page-about .about-story .about-title,
+ .page-about .cooperation-invite-about .about-title {
+  font-size:clamp(42px,12.6vw,76px);line-height:1.04;letter-spacing:-.015em;
+ }
+ .page-about .about-copy,.page-about .cooperation-invite-response>.about-copy {font-size:17px;line-height:1.6}
+ :is(.page-about,.page-index) .about-pill {min-height:50px;padding:13px 21px;font-size:13px;gap:24px}
+ .page-about .about-story-inner {padding-block:48px 56px;gap:28px}
+ .page-about .about-story-copy>p+p {margin-top:20px}
+ :is(.page-about,.page-index) .about-products {padding-block:48px 56px}
+ :is(.page-about,.page-index) .about-products-heading {margin-bottom:32px}
+ :is(.page-about,.page-index) .about-products .about-title {font-size:clamp(36px,10.8vw,66px)}
+ :is(.page-about,.page-index) .about-products .product-grid {grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px}
+ .page-about .cooperation-invite-inner {padding-block:48px 56px;gap:28px}
+ .page-about .cooperation-invite-response {align-items:flex-start;gap:24px}
 }
 @media(max-width:359px) {
- .page-about .about-shell {width:calc(100% - 32px)}
- .page-about .about-poster h1 {font-size:42px}
- .page-about .about-poster-lead {font-size:15px}
- .page-about .about-poster-art figcaption {font-size:27px}
- .page-about h2 {font-size:35px}
- .page-about .about-package h2 {font-size:34px}
+ :is(.page-about,.page-index) .about-shell {width:calc(100% - 32px)}
+ :is(.page-about,.page-index) .about-title,
+ .page-about .about-story .about-title,
+ .page-about .cooperation-invite-about .about-title {font-size:39px}
+ :is(.page-about,.page-index) .about-products .about-title {font-size:34px}
+ .page-about .about-copy,.page-about .cooperation-invite-response>.about-copy {font-size:16px}
+ :is(.page-about,.page-index) .about-products .product-grid {gap:26px 16px}
 }
-@media(prefers-reduced-motion:reduce) {
- .page-about .about-pill,.page-about .about-text-link,.page-about .about-moment-photo>img {transition:none}
- .page-about .about-pill:hover {transform:none}
-}
+@media(prefers-reduced-motion:reduce) {:is(.page-about,.page-index) .about-pill {transition:none}}

@@ -57,6 +57,12 @@
     picks[i].tabIndex=active?0:-1;
    });
    stage.setAttribute('aria-busy','false');
+   const pick=picks[index],rail=pick.parentElement;
+   if(rail&&rail.scrollWidth>rail.clientWidth){
+    const item=pick.getBoundingClientRect(),visible=rail.getBoundingClientRect();
+    if(item.left<visible.left)rail.scrollLeft+=item.left-visible.left;
+    else if(item.right>visible.right)rail.scrollLeft+=item.right-visible.right;
+   }
    carousel.querySelector('[data-product-announcement]').textContent=`${picks[index].dataset.productName}. ${index+1} из ${scenes.length}`;
    if(focusInPanel)picks[index].focus({preventScroll:true});
   });

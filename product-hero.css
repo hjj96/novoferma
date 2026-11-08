@@ -34,7 +34,14 @@
 .hero-cutout {position:absolute;display:block;overflow:hidden}
 .hero-cutout picture {display:block;width:100%;height:100%}
 .hero-art-frame .hero-cutout img {width:var(--crop-scale);left:var(--crop-left);top:var(--crop-top);height:auto}
-.hero-hen-cutout img {filter:saturate(1.12) contrast(1.035)}
+.hero-hen-cutout img {filter:saturate(.8) hue-rotate(-6deg) contrast(1.025)}
+.product-scene-popsy .hero-hen-cutout img {filter:none}
+.hero-food-cutout img {filter:saturate(1.1) contrast(1.025)}
+.product-scene-popsy .hero-layered-frame {overflow:visible}
+@media(min-width:1100px) {
+ .product-scene-art {position:absolute;left:43%;right:0;top:0;bottom:0;padding:20px 24px 40px 0;justify-content:flex-end}
+ .hero-layered-frame {width:min(100%,calc(min(700px,calc(100svh - 180px)) * var(--art-ratio)))}
+}
 .product-controls {display:flex;align-items:center;gap:28px;width:min(1296px,calc(100% - 96px));max-width:1296px;margin:auto;padding:14px 0;min-height:80px;color:var(--brown)}
 .product-pickers {display:flex;flex:1;align-items:center;gap:8px;min-width:0}
 .product-picker {display:flex;align-items:center;justify-content:center;gap:12px;flex:1;min-width:0;min-height:48px;padding:12px 14px;border:0;border-radius:10px;background:transparent;color:var(--brown);transition:background 180ms,color 180ms}
@@ -126,6 +133,9 @@
 @media(max-width:699px) and (orientation:portrait) {
  .hero-mobile-art {display:block}
  .hero-desktop-art {display:none}
+ .product-pickers {display:flex;overflow-x:auto;scrollbar-width:none;justify-content:flex-start}
+ .product-pickers::-webkit-scrollbar {display:none}
+ .product-picker {flex:0 0 auto;min-width:64px}
  .product-scene {grid-template-rows:auto 330px}
  .product-scene-art {height:330px;padding:0 16px 8px}
  .hero-art-frame {width:min(100%,322px);aspect-ratio:var(--mobile-art-ratio,1)}
