@@ -26,7 +26,15 @@
 .product-scene .product-scene-cta:hover .ui-icon {transform:translateX(3px)}
 .product-scene-art {position:relative;z-index:1;align-self:stretch;min-width:0;display:flex;align-items:center;justify-content:center;pointer-events:none;padding:20px 24px 40px 0}
 .hero-art-frame {position:relative;display:block;width:min(100%,calc(570px * var(--art-ratio)));aspect-ratio:var(--art-ratio);overflow:hidden}
+.hero-layered-frame {width:min(100%,calc(max(360px,min(640px,calc(100svh - 228px))) * var(--art-ratio)))}
 .hero-art-frame img {position:absolute;display:block;width:var(--art-size);height:auto;max-width:none;left:var(--art-left);top:var(--art-top)}
+/* Fresh desktop cutouts keep food and illustration independently positioned. */
+.hero-mobile-art {display:none}
+.hero-desktop-art {position:absolute;inset:0;display:block}
+.hero-cutout {position:absolute;display:block;overflow:hidden}
+.hero-cutout picture {display:block;width:100%;height:100%}
+.hero-art-frame .hero-cutout img {width:var(--crop-scale);left:var(--crop-left);top:var(--crop-top);height:auto}
+.hero-hen-cutout img {filter:saturate(1.12) contrast(1.035)}
 .product-controls {display:flex;align-items:center;gap:28px;width:min(1296px,calc(100% - 96px));max-width:1296px;margin:auto;padding:14px 0;min-height:80px;color:var(--brown)}
 .product-pickers {display:flex;flex:1;align-items:center;gap:8px;min-width:0}
 .product-picker {display:flex;align-items:center;justify-content:center;gap:12px;flex:1;min-width:0;min-height:48px;padding:12px 14px;border:0;border-radius:10px;background:transparent;color:var(--brown);transition:background 180ms,color 180ms}
@@ -116,6 +124,8 @@
 
 /* Portrait phones receive their own illustration, composed for this square slot. */
 @media(max-width:699px) and (orientation:portrait) {
+ .hero-mobile-art {display:block}
+ .hero-desktop-art {display:none}
  .product-scene {grid-template-rows:auto 330px}
  .product-scene-art {height:330px;padding:0 16px 8px}
  .hero-art-frame {width:min(100%,322px);aspect-ratio:var(--mobile-art-ratio,1)}
