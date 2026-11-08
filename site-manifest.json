@@ -21,6 +21,7 @@
     "product-kotlety-po-italyanski.html",
     "product-frikadelki-klassicheskie.html",
     "product-fibriki.html",
+    "product-lenivchiki.html",
     "product-lulia-mini.html",
     "product-popsy.html"
   ],
@@ -643,6 +644,20 @@
       "anchor": "novelties",
       "novelty": true,
       "description": "Куриные фрикадельки с пищевыми волокнами. К любимому гарниру, в суп или с соусом."
+    },
+    {
+      "id": "lenivchiki",
+      "name": "Ленивчики",
+      "meat": "Из курицы",
+      "meatKey": "chicken",
+      "weight": "",
+      "category": "Биточки",
+      "image": "assets/novelty-packaging/lenivchiki-pack-v1.webp?v=ff95cef537",
+      "url": "product-lenivchiki.html",
+      "previewTone": 1,
+      "previewLean": "right",
+      "novelty": true,
+      "description": "Биточки из курицы с рисом, капустой и морковью. Ленивые голубцы в новом формате: мясо, гарнир и овощи вместе."
     },
     {
       "id": "lulia-mini",
