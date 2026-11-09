@@ -1,0 +1,31 @@
+{
+  "preparedOnly": false,
+  "snapshotChanged": true,
+  "deploymentRequired": true,
+  "sourceCommit": "d70f471097e98bf204c751fd6a63356ea2aecfb6",
+  "contentSha256": "56696e5f46b34dfeafc29998a70125f552bc82ff5e5fdd31ada6450dbe8b8095",
+  "nextStep": "Run native create_deployment and wait for READY, then --finalize.",
+  "tool": "mcp__codex_apps__vercel_create_deployment",
+  "arguments": {
+    "teamId": "team_bBv8ZcHWkcP0IyMv0bjHTzpd",
+    "requestBody": {
+      "name": "novoferma-team-preview",
+      "project": "prj_DKIlXEO9k29YgKwPB0xi0RlXyF5a",
+      "target": "production",
+      "gitSource": {
+        "type": "github",
+        "org": "hjj96",
+        "repo": "novoferma",
+        "ref": "codex/team-preview-2026-11-07",
+        "sha": "d70f471097e98bf204c751fd6a63356ea2aecfb6"
+      },
+      "projectSettings": {
+        "framework": null,
+        "buildCommand": "",
+        "installCommand": "",
+        "outputDirectory": ".",
+        "rootDirectory": null
+      }
+    }
+  }
+}

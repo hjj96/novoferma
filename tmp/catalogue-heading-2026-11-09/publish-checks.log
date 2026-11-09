@@ -1,25 +1,258 @@
 {
   "pages": 24,
-  "images": 438,
-  "localReferences": 1620,
+  "images": 409,
+  "localReferences": 1568,
   "uniqueTitles": 24,
   "uniqueDescriptions": 24,
   "publicUrl": null,
-  "errors": [
-    "Home requires one Popсы hero section",
-    "Popсы hero requires its live h1",
-    "Popсы hero title must be live text",
-    "Popсы hero requires one popsy-home-pack image",
-    "Popсы hero requires one popsy-home-food image",
-    "Popсы hero contains only the package and ready-food artwork",
-    "Popсы hero CTA must open its product page",
-    "Popсы hero handwritten phrase must be live text",
-    "Popсы hero description must be live text",
-    "Home must load popsy-home.css",
-    "Home must load popsy-home.js",
-    "Home must not retain carousel scenes or ghost tabs"
-  ],
-  "result": "fail",
+  "errors": [],
+  "result": "pass",
   "scope": "Generated source only; visual and interactive browser checks are separate."
 }
-Publication failed: Command failed: /Applications/Xcode.app/Contents/Developer/usr/bin/python3
+TAP version 13
+# Subtest: city: generated copy/manual controls retain their HTML contract
+ok 1 - city: generated copy/manual controls retain their HTML contract
+  ---
+  duration_ms: 4.851333
+  type: 'test'
+  ...
+# Subtest: city: known product query preset; unknown values are ignored
+ok 2 - city: known product query preset; unknown values are ignored
+  ---
+  duration_ms: 12.087542
+  type: 'test'
+  ...
+# Subtest: city: whitespace fails native validity and does not navigate
+ok 3 - city: whitespace fails native validity and does not navigate
+  ---
+  duration_ms: 0.564292
+  type: 'test'
+  ...
+# Subtest: city: submit prepares current city/product and edit clears stale retry
+ok 4 - city: submit prepares current city/product and edit clears stale retry
+  ---
+  duration_ms: 2.32975
+  type: 'test'
+  ...
+# Subtest: city: external product select change clears old retry despite form association
+ok 5 - city: external product select change clears old retry despite form association
+  ---
+  duration_ms: 0.826833
+  type: 'test'
+  ...
+# Subtest: city: clipboard success never navigates or sends; uses current request
+ok 6 - city: clipboard success never navigates or sends; uses current request
+  ---
+  duration_ms: 0.50075
+  type: 'test'
+  ...
+# Subtest: city: unavailable/rejected clipboard exposes selected manual draft
+ok 7 - city: unavailable/rejected clipboard exposes selected manual draft
+  ---
+  duration_ms: 1.343958
+  type: 'test'
+  ...
+# Subtest: city: product edit while clipboard is pending suppresses stale success or failure
+ok 8 - city: product edit while clipboard is pending suppresses stale success or failure
+  ---
+  duration_ms: 0.843833
+  type: 'test'
+  ...
+# Subtest: partners: valid copy contains current form data and never navigates
+ok 9 - partners: valid copy contains current form data and never navigates
+  ---
+  duration_ms: 1.345583
+  type: 'test'
+  ...
+# Subtest: partners: blank or whitespace required fields prevent copy
+ok 10 - partners: blank or whitespace required fields prevent copy
+  ---
+  duration_ms: 0.756125
+  type: 'test'
+  ...
+# Subtest: partners: manual draft is selected, then field change clears draft and stale retry
+ok 11 - partners: manual draft is selected, then field change clears draft and stale retry
+  ---
+  duration_ms: 0.983
+  type: 'test'
+  ...
+# Subtest: partners: field/radio/format-link edit cancels pending clipboard success and failure
+ok 12 - partners: field/radio/format-link edit cancels pending clipboard success and failure
+  ---
+  duration_ms: 2.611
+  type: 'test'
+  ...
+# Subtest: popsy hero: title, artwork and product link are available before enhancement
+ok 13 - popsy hero: title, artwork and product link are available before enhancement
+  ---
+  duration_ms: 1.99775
+  type: 'test'
+  ...
+# Subtest: popsy hero: enhancement starts safely across pointer and motion preferences
+ok 14 - popsy hero: enhancement starts safely across pointer and motion preferences
+  ---
+  duration_ms: 2.286375
+  type: 'test'
+  ...
+# Subtest: popsy hero: reduced motion keeps pointer movement still and the CTA usable
+ok 15 - popsy hero: reduced motion keeps pointer movement still and the CTA usable
+  ---
+  duration_ms: 20.874292
+  type: 'test'
+  ...
+# Subtest: popsy hero: a stalled image decode cannot leave the entrance waiting indefinitely
+ok 16 - popsy hero: a stalled image decode cannot leave the entrance waiting indefinitely
+  ---
+  duration_ms: 0.828166
+  type: 'test'
+  ...
+# Subtest: popsy hero: shared enhancement script is harmless on pages without the hero
+ok 17 - popsy hero: shared enhancement script is harmless on pages without the hero
+  ---
+  duration_ms: 0.676042
+  type: 'test'
+  ...
+1..17
+# tests 17
+# suites 0
+# pass 17
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 64.274542
+{
+  "archive": "output/novoferma-site.zip",
+  "bytes": 18826049,
+  "megabytes": 18.826,
+  "fileCount": 179,
+  "pageCount": 24,
+  "localReferencesChecked": 1691,
+  "extensions": {
+    ".txt": 5,
+    ".md": 2,
+    ".json": 2,
+    ".html": 24,
+    ".svg": 6,
+    ".webp": 108,
+    ".css": 23,
+    ".js": 5,
+    ".woff2": 4
+  },
+  "sha256": "4cda9f7aeb6af2475ddaf84e30a0a3dc82f6f18e98e5b1041576d676eda3ab66",
+  "zipIntegrity": "pass",
+  "localLinks": "pass",
+  "fragmentLinks": "pass"
+}
+TAP version 13
+# Subtest: city: generated copy/manual controls retain their HTML contract
+ok 1 - city: generated copy/manual controls retain their HTML contract
+  ---
+  duration_ms: 2.904875
+  type: 'test'
+  ...
+# Subtest: city: known product query preset; unknown values are ignored
+ok 2 - city: known product query preset; unknown values are ignored
+  ---
+  duration_ms: 8.928208
+  type: 'test'
+  ...
+# Subtest: city: whitespace fails native validity and does not navigate
+ok 3 - city: whitespace fails native validity and does not navigate
+  ---
+  duration_ms: 0.538708
+  type: 'test'
+  ...
+# Subtest: city: submit prepares current city/product and edit clears stale retry
+ok 4 - city: submit prepares current city/product and edit clears stale retry
+  ---
+  duration_ms: 0.581167
+  type: 'test'
+  ...
+# Subtest: city: external product select change clears old retry despite form association
+ok 5 - city: external product select change clears old retry despite form association
+  ---
+  duration_ms: 0.384584
+  type: 'test'
+  ...
+# Subtest: city: clipboard success never navigates or sends; uses current request
+ok 6 - city: clipboard success never navigates or sends; uses current request
+  ---
+  duration_ms: 0.716417
+  type: 'test'
+  ...
+# Subtest: city: unavailable/rejected clipboard exposes selected manual draft
+ok 7 - city: unavailable/rejected clipboard exposes selected manual draft
+  ---
+  duration_ms: 1.0335
+  type: 'test'
+  ...
+# Subtest: city: product edit while clipboard is pending suppresses stale success or failure
+ok 8 - city: product edit while clipboard is pending suppresses stale success or failure
+  ---
+  duration_ms: 0.845875
+  type: 'test'
+  ...
+# Subtest: partners: valid copy contains current form data and never navigates
+ok 9 - partners: valid copy contains current form data and never navigates
+  ---
+  duration_ms: 1.184667
+  type: 'test'
+  ...
+# Subtest: partners: blank or whitespace required fields prevent copy
+ok 10 - partners: blank or whitespace required fields prevent copy
+  ---
+  duration_ms: 0.706917
+  type: 'test'
+  ...
+# Subtest: partners: manual draft is selected, then field change clears draft and stale retry
+ok 11 - partners: manual draft is selected, then field change clears draft and stale retry
+  ---
+  duration_ms: 1.119083
+  type: 'test'
+  ...
+# Subtest: partners: field/radio/format-link edit cancels pending clipboard success and failure
+ok 12 - partners: field/radio/format-link edit cancels pending clipboard success and failure
+  ---
+  duration_ms: 3.465167
+  type: 'test'
+  ...
+# Subtest: popsy hero: title, artwork and product link are available before enhancement
+ok 13 - popsy hero: title, artwork and product link are available before enhancement
+  ---
+  duration_ms: 0.967958
+  type: 'test'
+  ...
+# Subtest: popsy hero: enhancement starts safely across pointer and motion preferences
+ok 14 - popsy hero: enhancement starts safely across pointer and motion preferences
+  ---
+  duration_ms: 2.357667
+  type: 'test'
+  ...
+# Subtest: popsy hero: reduced motion keeps pointer movement still and the CTA usable
+ok 15 - popsy hero: reduced motion keeps pointer movement still and the CTA usable
+  ---
+  duration_ms: 6.596
+  type: 'test'
+  ...
+# Subtest: popsy hero: a stalled image decode cannot leave the entrance waiting indefinitely
+ok 16 - popsy hero: a stalled image decode cannot leave the entrance waiting indefinitely
+  ---
+  duration_ms: 0.605417
+  type: 'test'
+  ...
+# Subtest: popsy hero: shared enhancement script is harmless on pages without the hero
+ok 17 - popsy hero: shared enhancement script is harmless on pages without the hero
+  ---
+  duration_ms: 0.240542
+  type: 'test'
+  ...
+1..17
+# tests 17
+# suites 0
+# pass 17
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 40.02475

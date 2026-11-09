@@ -25,5 +25,13 @@
   ],
   "scale": 0.93,
   "translateY": "-0.8%",
-  "method": "CSS compensation for transparent padding; source images preserved; generator asset_url derives the same version."
+  "method": "CSS compensation for transparent padding; source images preserved; generator asset_url derives the same version.",
+  "publication": {
+    "result": "pass",
+    "url": "https://novoferma-team-preview.vercel.app/catalogue.html",
+    "state": "READY",
+    "deploymentId": "dpl_CuXmDBM1bwhVzjsvyy3AjwpCFMLG",
+    "commit": "d3a218230d8e02ca05c35135df152fe49e49e208",
+    "liveCssVersion": "c76cc5dc22"
+  }
 }

@@ -1,0 +1,36 @@
+{
+  "sourceCommit": "d70f471097e98bf204c751fd6a63356ea2aecfb6",
+  "previousCommit": "d3a218230d8e02ca05c35135df152fe49e49e208",
+  "rootGitCommit": "3894d447cbff0a6a2e9d7b637910ca71e736ae5d",
+  "contentSha256": "56696e5f46b34dfeafc29998a70125f552bc82ff5e5fdd31ada6450dbe8b8095",
+  "previewVersion": {
+    "schemaVersion": 1,
+    "contentSha256": "56696e5f46b34dfeafc29998a70125f552bc82ff5e5fdd31ada6450dbe8b8095"
+  },
+  "sourcePackageSha256": "4cda9f7aeb6af2475ddaf84e30a0a3dc82f6f18e98e5b1041576d676eda3ab66",
+  "sourcePackage": "output/novoferma-site.zip",
+  "pageCount": 24,
+  "localReferences": 1691,
+  "createDeploymentArgs": {
+    "teamId": "team_bBv8ZcHWkcP0IyMv0bjHTzpd",
+    "requestBody": {
+      "name": "novoferma-team-preview",
+      "project": "prj_DKIlXEO9k29YgKwPB0xi0RlXyF5a",
+      "target": "production",
+      "gitSource": {
+        "type": "github",
+        "org": "hjj96",
+        "repo": "novoferma",
+        "ref": "codex/team-preview-2026-11-07",
+        "sha": "d70f471097e98bf204c751fd6a63356ea2aecfb6"
+      },
+      "projectSettings": {
+        "framework": null,
+        "buildCommand": "",
+        "installCommand": "",
+        "outputDirectory": ".",
+        "rootDirectory": null
+      }
+    }
+  }
+}
