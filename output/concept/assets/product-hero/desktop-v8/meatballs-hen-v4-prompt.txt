@@ -1,0 +1,12 @@
+Precise-object-edit of the provided transparent1254square basketball chicken illustration.
+CHANGE ONLY the LENGTH of the LEFT HOOP SUPPORT POLE and the vertical POSITION of its EXISTING WEIGHTED BASE.
+
+Preserve ENTIRE athlete exactly as reference: same full pose and follow-through, facial expression, head/eyes/beak/comb, warm muted ochre/amber colors, chocolate hand-ink contour, forest-green jersey/cream tee, rust-orange shorts and high-top sneakers, feathers/wings/tail, all placements/proportions/texture/detail. Do not change, recolor, resize, shift or redesign any part of the chicken. Preserve existing short motion marks too.
+Preserve the hoop's existing BACKBOARD, RIM, EMPTY NET, support bracket and UPPER POLE in their exact current position/scale. Do not move the whole hoop down.
+
+The current thin dark support pole ends in a weighted base aroundy840, which makes the stand float above the athlete's lowest sneaker aroundy1228.
+Extend ONLY the same straight THIN dark left support pole VERTICALLY DOWN, keeping its original x-position, width, hand-ink texture and perspective, through the empty transparent left area to abouty1195.
+Relocate the EXISTING modest weighted base from its old elevated position to the BOTTOM of the newly extended pole, aroundy1205. Its ground-contact bottom should end near y1220–1228 so it and the lowest sneaker share the SAME visual floor baseline; retain at least25px outer margin. Reuse its original same width, mass, shape, dark charcoal texture and tiny feet: do not enlarge it or invent a different base. The pole enters naturally into the center of the base. Remove the old floating base completely; there is ONE base, at the bottom. No broken pole, doubled base or horizontal brace.
+Result: unchanged lively basketball athlete at right and the same hoop at upper-left, now on one coherent full-height portable stand that reaches down to the same ground line. Keep all objects and tiny stand feet inside at least25px margins, no clipping, no physical contact with chicken.
+
+Native1254×1254 RGBA true transparency, alpha0 in all background/empty gaps, no floor or ground-shadow drawing. The common ground will be added by the website later. No ball, food, text, background, glow, halo, court, new props or additional marks. Keep cream areas of clothing/backboard opaque and same sharp detailed inked-watercolor drawing quality.

@@ -1,0 +1,40 @@
+/* Fibriki uses the existing product layout, palette and poster lettering. */
+.page-product-fibriki .fibriki-lead {
+ margin:0 0 20px;
+ font-family:var(--font-poster);font-size:clamp(30px,3.1vw,44px);
+ font-weight:900;line-height:1.08;letter-spacing:-.015em;
+ word-spacing:.06em;text-transform:uppercase;text-wrap:initial;
+ color:var(--rust);
+}
+.page-product-fibriki .detail-copy > .detail-intro {margin-bottom:20px}
+.fibriki-story {background:var(--paper)}
+.fibriki-story-inner,.fibriki-serving {
+ display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);
+ gap:32px 64px;align-items:start;padding-block:72px;
+}
+.fibriki-story h2,.fibriki-serving h2 {
+ font-family:var(--font-poster);font-size:clamp(34px,4vw,56px);
+ font-weight:900;line-height:1.05;letter-spacing:-.015em;
+ word-spacing:.06em;text-transform:uppercase;text-wrap:initial;
+}
+.fibriki-story h2 em,.fibriki-serving h2 em {color:var(--rust)}
+.fibriki-story-copy > p,.fibriki-serving > p {
+ max-width:46ch;font-size:18px;line-height:1.6;
+}
+.fibriki-fiber {margin-top:28px;padding:20px 24px;background:var(--cream);border-radius:20px}
+.fibriki-fiber summary {
+ cursor:pointer;font-size:16px;font-weight:650;line-height:1.5;
+ min-height:44px;align-content:center;padding-right:8px;
+}
+.fibriki-fiber p {margin-top:14px;font-size:16px;line-height:1.6}
+@media(min-width:700px) and (max-width:1099px) {
+ .fibriki-story-inner,.fibriki-serving {gap:28px 32px;padding-block:56px}
+ .fibriki-story h2,.fibriki-serving h2 {font-size:clamp(34px,4.2vw,46px)}
+}
+@media(max-width:699px) {
+ .page-product-fibriki .fibriki-lead {font-size:clamp(28px,7.8vw,36px);margin-bottom:18px}
+ .fibriki-story-inner,.fibriki-serving {grid-template-columns:1fr;gap:24px;padding-block:44px}
+ .fibriki-story h2,.fibriki-serving h2 {font-size:clamp(32px,9vw,42px)}
+ .fibriki-story-copy > p,.fibriki-serving > p {font-size:16px}
+ .fibriki-fiber {margin-top:24px;padding:16px 20px;border-radius:16px}
+}

@@ -1,0 +1,15 @@
+{
+  "product": "fibriki",
+  "basis": "one whole package",
+  "proteinGrams": 52,
+  "fibreGrams": 5,
+  "sourceType": "user-provided",
+  "confirmedInChat": "2026-11-09",
+  "copy": [
+    "52 г белка",
+    "5 г клетчатки",
+    "В одной упаковке"
+  ],
+  "netWeightProvided": false,
+  "per100gValuesProvided": false
+}

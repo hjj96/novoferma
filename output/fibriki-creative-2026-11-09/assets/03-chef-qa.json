@@ -1,0 +1,52 @@
+{
+  "direction": "03-chef",
+  "checkedAt": "2026-11-09",
+  "generationMode": "built-in ImageGen",
+  "attempts": 2,
+  "sourceNative": "/Users/andrey/.codex/generated_images/01a1baf8-714a-7830-bf3a-d7fe76afd779/exec-37df3069-6df1-4610-add8-7ef182ce8f4c.png",
+  "firstAttemptNative": "/Users/andrey/.codex/generated_images/01a1baf8-714a-7830-bf3a-d7fe76afd779/exec-8a0a44f6-796e-4eb2-8841-8c3ccf162e7c.png",
+  "saved": "/Users/andrey/Desktop/сайт нф/output/fibriki-creative-2026-11-09/assets/03-chef.png",
+  "bytes": 1756221,
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "fullyTransparentPercent": 38.502,
+  "alphaGt128Bbox": [
+    25,
+    139,
+    1228,
+    1102
+  ],
+  "cornerAlpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "textVisualCheck": {
+    "NOVOferma": true,
+    "ФИБРИКИ": true,
+    "ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ": true,
+    "С ПИЩЕВЫМИ ВОЛОКНАМИ": true,
+    "БЕЛОК + КЛЕТЧАТКА": true,
+    "noNewNumbersOrClaims": true
+  },
+  "sceneCheck": {
+    "oneHen": true,
+    "twoWingsAndTwoLegs": true,
+    "chefCapAndNeckerchief": true,
+    "shallowPan": true,
+    "airborneMeatballs": 3,
+    "completeTrayAndSleeve": true,
+    "rawPaleTrayVersusBrownedServing": true
+  },
+  "foodCorrection": "Second attempt uses only generated target + original v11. No rice/cabbage/carrot pieces visible; finer homogeneous texture improved. Some stylized granular mince detail remains and should be reviewed at large scale.",
+  "framing": "Second attempt adds breathing room, package still slightly larger relative to square canvas than v11.",
+  "status": "review-ready; two-attempt limit reached"
+}

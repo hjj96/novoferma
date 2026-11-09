@@ -1,0 +1,132 @@
+{
+  "title": "Новоферма — Попсы",
+  "date": "2026-11-05",
+  "status": "finished visual concept; production fields pending",
+  "presentation": {
+    "artifactRef": "artifact_external_aba819cc-00a3-41cc-a894-124f9bbb63b4",
+    "page_id": "page_8c8f482026e481918ccabfa7d7654d5c",
+    "slides": 9
+  },
+  "files": [
+    {
+      "path": "00_README.txt",
+      "bytes": 2162,
+      "sha256": "a83b38b2167244827ce233ae9d94f7dcdc0317c8de8e99153749271fe75f219e"
+    },
+    {
+      "path": "01_Packaging/README.txt",
+      "bytes": 1019,
+      "sha256": "139a02c50c73b97bddb2860cbb32887b1a4973f2504d92e8d9ffa761aac4eb18"
+    },
+    {
+      "path": "01_Packaging/pops-back-editable.svg",
+      "bytes": 9858,
+      "sha256": "6eb689ddee165fcc10fa4ad5f92596e91b02395af457bbd047f2636cc3bb7ce2"
+    },
+    {
+      "path": "01_Packaging/pops-back.png",
+      "bytes": 188703,
+      "sha256": "e8123f8d136c82ffc30b069941b0260624b93e887a3338a5b38f52240c174b51"
+    },
+    {
+      "path": "01_Packaging/pops-front-editable.svg",
+      "bytes": 4728987,
+      "sha256": "463f3d9696f8cd7d11a6468da665e198d741c387485f326d0602362d90ef4e86"
+    },
+    {
+      "path": "01_Packaging/pops-front.png",
+      "bytes": 1038656,
+      "sha256": "26b4f1611694a101745b0dde42d489c7c15ee0387e3db45b6c6475da886544d2"
+    },
+    {
+      "path": "01_Packaging/pops-packaging-review.pdf",
+      "bytes": 4720249,
+      "sha256": "83534ce1c5112a23142dbe2fc557983054a95e01a8326f0932610604526cddfc"
+    },
+    {
+      "path": "02_Artwork/pops-packshot.png",
+      "bytes": 2040618,
+      "sha256": "fb5c40054282720c67c3d224e5305a7f975cd73807cb80d8cf8218aa87614d27"
+    },
+    {
+      "path": "02_Artwork/pops-food-cutout.png",
+      "bytes": 1910522,
+      "sha256": "5683a02853e05a3dee4dba4946e97132081cec029a8f56b7b3376d5029acc23f"
+    },
+    {
+      "path": "02_Artwork/pops-mascot.png",
+      "bytes": 1631191,
+      "sha256": "b0e9dec6b8fcb131c6eb50c3692abe4f91dddd629b1da3db950f2252d094f8a5"
+    },
+    {
+      "path": "02_Artwork/pops-serving-scene.png",
+      "bytes": 2429942,
+      "sha256": "9c616dfaa0d8c57091f5d1bf2be855ba47affe10195c376ded3495134b457044"
+    },
+    {
+      "path": "02_Artwork/pops-campaign-art.png",
+      "bytes": 371340,
+      "sha256": "904d70af0ebc6f4953f23585f40024352a15d215a20609770cee587e6f85f440"
+    },
+    {
+      "path": "02_Artwork/pops-serving-art.png",
+      "bytes": 1505007,
+      "sha256": "9126e578bda9a54ea180eab3f8e8e9bdb0ffc68d6a705efe601c5efad6dd57f8"
+    },
+    {
+      "path": "02_Artwork/pops-overview.png",
+      "bytes": 542263,
+      "sha256": "f986588367997713709a694adaeb297f6037b160f0c42f4182bce0493829238b"
+    },
+    {
+      "path": "03_Brief/product-brief.txt",
+      "bytes": 4468,
+      "sha256": "418bdc13983b6d15a5d796e4abffcb2679ec9e5578017c4e1e9a1c088f954ce4"
+    },
+    {
+      "path": "04_Prompts/packshot-mascot-provenance.json",
+      "bytes": 1820,
+      "sha256": "e3a22f3c2d782dab9e2e09b83653f671fbd6d7afa97f905014a0cd67e8952fcf"
+    },
+    {
+      "path": "04_Prompts/pops-food-cutout-cleanup.prompt.txt",
+      "bytes": 925,
+      "sha256": "84472e4a8e90dc668d2c8e43e76d5a470de23f3dd67b107d7416c312cc5507d2"
+    },
+    {
+      "path": "04_Prompts/pops-food-cutout.prompt.txt",
+      "bytes": 1894,
+      "sha256": "f78e27c52e31ece112ae96fb972f8f1bd7d990d238d891d706517b3d22057ee9"
+    },
+    {
+      "path": "04_Prompts/pops-food-provenance.json",
+      "bytes": 1612,
+      "sha256": "201901ad19540068c6a1f5dc4b2b62178d58a5649b95285d4ff002afac41d911"
+    },
+    {
+      "path": "04_Prompts/pops-mascot-prompt.txt",
+      "bytes": 1318,
+      "sha256": "2baa889ebbc0b9db18c99f129544d5cf0620aa6bd4a6e7c043d674e56377b33d"
+    },
+    {
+      "path": "04_Prompts/pops-packshot-cleanup-prompt.txt",
+      "bytes": 873,
+      "sha256": "39f3f105ba4614c44d0e66331af7e743ce41d0566b5ab72855599d0690b5f535"
+    },
+    {
+      "path": "04_Prompts/pops-packshot-prompt.txt",
+      "bytes": 2823,
+      "sha256": "e6e49741759fc212de1ff3026be6b7e8c520732af2eb3ad28cc7cc4b5ff7c249"
+    },
+    {
+      "path": "04_Prompts/pops-serving-scene.prompt.txt",
+      "bytes": 1980,
+      "sha256": "cce4bdb67877f3688e575a9250dc5c226b3fca3d163e0e490ecd2ccbcbc4b929"
+    },
+    {
+      "path": "05_Website/pops-website-preview.png",
+      "bytes": 396317,
+      "sha256": "be616b5f2eb67e8b7dc97bdf26ac6dfafe46c49bc01104892754afff1fcca336"
+    }
+  ]
+}

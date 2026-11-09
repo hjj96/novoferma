@@ -1,0 +1,47 @@
+{
+  "category": {
+    "count": "Показано 3 из 16",
+    "visible": [
+      "ezhiki-iz-tsyplenka-s-risom",
+      "frikadelki-klassicheskie",
+      "fibriki"
+    ]
+  },
+  "empty": {
+    "count": "Показано 0 из 16",
+    "emptyVisible": true,
+    "resetEnabled": true,
+    "visible": 0
+  },
+  "reset": {
+    "count": "В каталоге: 16",
+    "emptyHidden": true,
+    "resetDisabled": true,
+    "visible": 16
+  },
+  "turkey": {
+    "count": "Показано 1 из 16",
+    "visible": [
+      "naggetsy-s-indeykoy-fitnes"
+    ]
+  },
+  "keyboard": [
+    {
+      "focused": "catalogue-meat",
+      "outline": "rgb(64, 33, 17) solid 3px"
+    },
+    {
+      "focused": "Сбросить",
+      "outline": "rgb(64, 33, 17) solid 3px"
+    },
+    {
+      "focused": "Наггетсы с индейкой «Фитнес»С индейкой400 г",
+      "href": "product-naggetsy-s-indeykoy-fitnes.html"
+    }
+  ],
+  "destination": {
+    "title": "НАГГЕТСЫ С ИНДЕЙКОЙ «ФИТНЕС»",
+    "url": "http://127.0.0.1:8765/output/concept/product-naggetsy-s-indeykoy-fitnes.html"
+  },
+  "logs": []
+}

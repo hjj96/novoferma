@@ -1,0 +1,48 @@
+/* Lenivchiki keep the catalogue's cream paper, orange accent and poster type. */
+.page-product-lenivchiki .product-detail {
+ grid-template-areas:"heading visual" "copy visual";
+ grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);
+}
+.page-product-lenivchiki .lenivchiki-lead {
+ margin:0 0 20px;color:var(--rust);
+ font-family:var(--font-heading);font-size:clamp(28px,3vw,42px);
+ font-weight:var(--font-heading-weight);line-height:1.08;letter-spacing:var(--font-heading-tracking);
+ word-spacing:.06em;text-transform:uppercase;text-wrap:initial;
+}
+.page-product-lenivchiki .detail-copy > .detail-intro {margin-bottom:20px}
+.page-product-lenivchiki .product-detail > .detail-visual {
+ align-self:start;
+}
+.lenivchiki-story {background:var(--paper)}
+.lenivchiki-story-inner {
+ display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.16fr);
+ gap:40px 64px;align-items:center;padding-block:72px;
+}
+.lenivchiki-story-copy {min-width:0}
+.lenivchiki-story-copy .eyebrow {margin-bottom:18px}
+.lenivchiki-story h2 {
+ margin:0 0 28px;font-family:var(--font-heading);
+ font-size:clamp(36px,4.2vw,58px);font-weight:var(--font-heading-weight);line-height:1.05;
+ letter-spacing:var(--font-heading-tracking);word-spacing:.06em;text-transform:uppercase;text-wrap:initial;
+}
+.lenivchiki-story h2 em {color:var(--rust)}
+.lenivchiki-story-copy > p:not(.eyebrow) {max-width:44ch;font-size:18px;line-height:1.6}
+.lenivchiki-story h3 {font-size:23px;line-height:1.2;margin-block:32px 16px;letter-spacing:-.025em}
+.lenivchiki-story-visual {min-width:0;margin:0}
+.lenivchiki-scene {display:block;width:100%;height:auto;object-fit:contain}
+@media(min-width:700px) and (max-width:1099px) {
+ .lenivchiki-story-inner {gap:28px 32px;padding-block:56px}
+ .lenivchiki-story h2 {font-size:clamp(34px,4.3vw,46px)}
+ .lenivchiki-story-copy > p:not(.eyebrow) {font-size:17px}
+}
+@media(max-width:699px) {
+ .page-product-lenivchiki .product-detail {
+  grid-template-columns:1fr;grid-template-areas:"heading" "visual" "copy";
+ }
+ .page-product-lenivchiki .lenivchiki-lead {font-size:clamp(27px,7.8vw,36px);margin-bottom:18px}
+ .lenivchiki-story-inner {grid-template-columns:1fr;gap:28px;padding-block:44px}
+ .lenivchiki-story h2 {font-size:clamp(33px,9vw,42px);margin-bottom:22px}
+ .lenivchiki-story-copy > p:not(.eyebrow) {font-size:16px}
+ .lenivchiki-story h3 {font-size:21px;margin-top:26px}
+ .lenivchiki-story-visual {max-width:580px;width:100%;margin-inline:auto}
+}

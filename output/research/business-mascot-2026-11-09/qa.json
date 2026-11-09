@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-09",
+  "result": "passed",
+  "cause": "The nf-business replacement omitted the former chicken image. The asset was still present.",
+  "files": [
+    "scripts/brand_layout.py",
+    "scripts/build_site.py",
+    "output/concept/home-sections.css",
+    "output/concept/index.html"
+  ],
+  "checks": {
+    "responsiveWidths": [
+      1440,
+      1920,
+      1024,
+      900,
+      899,
+      768,
+      700,
+      699,
+      390,
+      320
+    ],
+    "imagesLoaded": true,
+    "noHorizontalOverflow": true,
+    "paragraphAndCtaClearOfImage": true,
+    "sourceAndCurrentHtmlMatch": true,
+    "desktopImageAtSectionEdge": true,
+    "consoleErrors": 0
+  },
+  "scope": "Only business section markup, local styles and responsive sizes hook changed. Builder not run; all other page regions preserved.",
+  "screenshots": [
+    "final-block-1440.png",
+    "final-block-1920.png",
+    "block-390.png",
+    "block-320.png"
+  ],
+  "publication": {
+    "url": "https://novoferma-team-preview.vercel.app/#cooperation",
+    "deploymentId": "dpl_HMDTiDj4hhxa3kLZTVC16d2qtdZz",
+    "commit": "b8ae5cc72b68192fb522af9e49c1b62dc8026eb7",
+    "state": "READY",
+    "versionVerified": true,
+    "hostedMarkupHasMascot": true,
+    "hostedCssMatches": true,
+    "noindex": "noindex, nofollow, noarchive"
+  }
+}

@@ -1,0 +1,25 @@
+Built-in ImageGen; 2026-11-05.
+Edit target: assets/product-hero/mobile-v2/meatballs-master.png
+Secondary reference: assets/product-hero/meatballs-art-v4.webp
+
+Use case: compositing / precise-object-edit.
+Asset type: mobile Novoferma campaign illustration, transparent square PNG.
+
+Input image 1 is the EXACT EDIT TARGET (mobile v2). Input image 2 is a STYLE AND MOVEMENT REFERENCE ONLY (original desktop scene). The current mobile edit is too static: three equally small foods in a flat top row. Correct this by restoring the original desktop's expressive DIAGONAL THROWING ARC, with noticeably BIGGER food, size hierarchy and changing depth.
+
+PRESERVE the approved orange chicken's exact illustrated identity, cheerful face, red comb, hand-painted ink outlines, white apron with green checks, neck bow, full original pose, tail and both feet. Preserve original photorealistic food texture. The chicken remains a single intact original drawing in the LOWER LEFT, full body inside frame; do not change it into a different mascot or a realistic bird. Keep exactly THREE WHOLE food pieces. No cutaways.
+
+RECOMPOSE the foods into an energetic, open DIAGONAL ARC from upper-left to upper-right to lower-right of the bird. All three foods need different sizes and visibly different heights/angles. NOT a horizontal row, NOT equal-size identical repeated objects, NOT tiny garnish-like foods. This must feel like the chicken is joyfully tossing substantial delicious food, like the desktop reference.
+- SMALL food about 250–270 px across near upper-left around x270,y185.
+- LARGE hero food about 330–350 px across near upper-right around x830,y250.
+- MEDIUM food about 290–315 px across at lower-right around x1030,y650, to the RIGHT of the raised wing.
+- These are approximate coordinates on a 1254×1254 SQUARE. Adjust positions slightly to make each product's arc look natural. Keep generous outside margins, whole silhouettes inside frame.
+- Chicken roughly bounds x80..780,y490..1170; retain exact proportions and complete body.
+- Maintain at least 55–60 px of ACTUAL EMPTY TRANSPARENT GAP between food silhouettes, and between ANY food and ANY part of the mascot: comb, beak, raised wing, head, tail, feet. The lower-right food must stay clearly to the right of the wing with at least 60 px gap; never place it in front of or touching the wing.
+- Keep food realistically LARGE: in the 322 px mobile display, hero food should appear about 85–90 px, medium about 75–80 px, small about 65–70 px. Do not solve gaps by shrinking all the food.
+- Up to THREE SMALL PAIRS of short red-orange tapered motion strokes along the throwing trajectory are allowed. No giant stroke cloud, no mass of rays, no long looping lines, no hearts.
+
+ABSOLUTELY actual alpha transparency in all background and all gaps. NO white/gray/cream haze or halo behind the scene, no cast ground shadows, no coloured background, no floor or table, no text, logos, labels, packaging or new props. Keep apron opaque white as part of chicken. Same square canvas. This is a dynamic spacing-and-scale edit preserving the beloved character and delicious product, not a new visual style.
+
+FOOD: three distinct WHOLE round browned chicken meatballs, natural golden seared minced exterior and sparse herb flecks, retaining exact reference food style. Different apparent size/rotation and a descending arc at the right. No parsley, vegetables, cuts, bites or visible interior.
+

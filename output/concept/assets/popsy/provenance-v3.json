@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-05",
+  "records": [
+    {
+      "file": "assets/popsy/popsy-rock-v3.webp",
+      "sourcePNG": "output/pops-2026-11-05/revision-3/assets/pops-v3-rock-art.png",
+      "sourceMode": "RGBA",
+      "sourceSize": [
+        1683,
+        935
+      ],
+      "sourceSha256": "c412cca6e7e3a1931f01e966960bb5913336962818bf41acd23e71a8f99fe125",
+      "backupMaster": "output/pops-2026-11-05/revision-3/assets/popsy-rock-v3.webp",
+      "sha256": "955f3f14064684ba47f73dbb231a7abf816774f781d6206394748d4c908b77c3",
+      "bytes": 345768,
+      "sourceGenerationTool": "Built-in ImageGen",
+      "exactPrompt": "output/pops-2026-11-05/revision-3/assets/pops-v3-rock-art.prompt.txt",
+      "generationProvenance": "output/pops-2026-11-05/revision-3/assets/pops-v3-rock-art.provenance.json",
+      "encoding": {
+        "format": "WebP",
+        "quality": 90,
+        "method": 6,
+        "exact": true,
+        "alphaMaxDifference": 0
+      },
+      "processing": "Encoding only, no retouch, no crop, no resize."
+    },
+    {
+      "file": "assets/popsy/popsy-lifestyle-v3.webp",
+      "sourcePNG": "output/pops-2026-11-05/revision-3/assets/pops-v3-lifestyle.png",
+      "sourceMode": "RGB",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "89c99828174475a604fbec596e3d5f20660ba0d21344f210f676437fb3971a47",
+      "backupMaster": "output/pops-2026-11-05/revision-3/assets/popsy-lifestyle-v3.webp",
+      "sha256": "8073b7b6107a805ac6e6daee540a155a4b3d72d0d774d9cf1e2914274ebe4cfb",
+      "bytes": 193534,
+      "sourceGenerationTool": "Built-in ImageGen",
+      "exactPrompt": "output/pops-2026-11-05/revision-3/assets/pops-v3-lifestyle.prompt.txt",
+      "generationProvenance": "output/pops-2026-11-05/revision-3/assets/pops-v3-lifestyle.provenance.json",
+      "encoding": {
+        "format": "WebP",
+        "quality": 90,
+        "method": 6,
+        "exact": true,
+        "alphaMaxDifference": 0
+      },
+      "processing": "Encoding only, no retouch, no crop, no resize."
+    }
+  ],
+  "beforeOptimizerEntryHashes": {
+    "assets/catalogue-clean-v2/bitochki-kurinye-s-ovoshchami.webp": "fdc35f6746ed35f496008be493811e4b972f74193f52bcb289ade9c2b4c0c8cd",
+    "assets/catalogue-clean-v2/ezhiki-iz-tsyplenka-s-risom.webp": "415c1bca94c37794274249760d18406640b831f592b073db19e7c09d92aae363",
+    "assets/catalogue-clean-v2/frikadelki-klassicheskie.webp": "116522b22c23c93f204debfae9b25fd91faf06f124921fda53277959d276dde8",
+    "assets/catalogue-clean-v2/kotlety-kurinye.webp": "20bd42e37f851ad63e07c563e8b1749c41ff7904a42e4d9ee4d3ab8fbad34640",
+    "assets/catalogue-clean-v2/kotlety-pikantnye.webp": "a55a76f963ada30cfea42cf3f8ad9fcb3d6edbf8d255c351d7f7aca7042f7ffd",
+    "assets/catalogue-clean-v2/kotlety-po-domashnemu.webp": "fb86bc12fe7ca4e4f0978ba23ce6b79d6bc9f9fe462178bd65c2f80c126071d5",
+    "assets/catalogue-clean-v2/kotlety-po-italyanski.webp": "1dfba6f6cf5fcc2a0d6d121e4ab6a650144fee2878c553cc86b55aa4b26e7c3a",
+    "assets/catalogue-clean-v2/kurinyj-popkorn.webp": "6ede5163d856d0ebbebe1bc81d1d6fc8612507e3025dc19a56202c73eb75ab77",
+    "assets/catalogue-clean-v2/naggetsy-dinozavry.webp": "d09742dd59132c57ccc55cbdf837aac4b22f13bedd0ff7f90e219ee804cacb8d",
+    "assets/catalogue-clean-v2/naggetsy-kurinye-s-syrom.webp": "d908fd0db52067db6546b5cf72923e503d25dcdb1e5a82cfb2781fb1b277910c",
+    "assets/catalogue-clean-v2/naggetsy-kurinye.webp": "d3763b769b8564df44aa841627ce5411ca2ec6cf3b51e63f88b43f8d1cd62efc",
+    "assets/catalogue-clean-v2/naggetsy-ostrye.webp": "b199a2483eed816291d9e086446256a4d8980a9a498fc8a3b0a0412280282621",
+    "assets/catalogue-clean-v2/naggetsy-s-indeykoy-fitnes.webp": "b657c9ae830feeecbc3c94c08720d5b55b8ecc53e12d04a09573e38f7217caf0",
+    "assets/catalogue-clean-v2/stripsy.webp": "4175686f97067e9c0f1eb3df9be26530991ecd8ffe5812679c8e1220164fbc83",
+    "assets/novelty-packaging/fibriki-pack-v11.webp": "bb05d1f9234638ec503e2a4420513a046c66717cade147a7f50ee1f1e3ba5be8",
+    "assets/novelty-packaging/lulia-mini-pack-v3.webp": "1320d3626330691dd8ce98ac9e0ffb25c093963a2ffddb3d32583b70cbbfcdc0",
+    "assets/novelty-packaging/popsy-pack-v3.webp": "7999b4ffbd4729fc83237b91ba2c565810c568025bb49f068ea3ce7edff6aef0",
+    "assets/catalogue-family-v1/family-table-v1.webp": "d8c49a8d59039363ef875e804b26428c5bc6b5c803ada7f12c5ae01360807d7d",
+    "assets/mascot-contact-restored-v2.webp": "9c3976f1826690bf1848f6e0de0255ffa1ade9ce1b7e0f997b6a3e9d457cfeb6",
+    "assets/mascot-partnership-v2.webp": "24c4ae964f4fffbea689e62c957540d386188c6cc1b7fbeaec4d6b2975d4866b",
+    "assets/product-hero/running-mascot-v2.webp": "870d9aa20411b2c788f7c0956928c49b65e00492540be10867ec4bcfe752a49c",
+    "assets/protein-story/hen-layer-v2.webp": "0bb54dfa4380d1d4ac706e90d9ea65ab873a73031def36fc88ad957446d853cf",
+    "assets/protein-story/nuggets-layer-v2.webp": "2bf25a9222a3cdbf2bab343094b403ce9fdbf452fb84d52ef4c850ce017dc707",
+    "assets/popsy/popsy-food.webp": "cbddd994a7c7320abc888ee9186bdb75acae5ac80164219c5bb3d4a31f140f44",
+    "assets/popsy/popsy-serving.webp": "39df29538722dd724a64a206758491fa295dc8352e5a5f0bdef97057c226f1b1"
+  },
+  "optimizerVerification": {
+    "result": "pass",
+    "runs": 1,
+    "unchangedExistingEntries": 25,
+    "changedExistingEntries": [],
+    "newEntries": {
+      "assets/popsy/popsy-rock-v3.webp": {
+        "src": "assets/responsive/illustrations/popsy-rock-v3-800-q90-955f3f14.webp",
+        "widths": [
+          400,
+          800,
+          1683
+        ],
+        "dimensions": [
+          [
+            400,
+            222
+          ],
+          [
+            800,
+            444
+          ],
+          [
+            1683,
+            935
+          ]
+        ],
+        "alphaMaxDifference": 0
+      },
+      "assets/popsy/popsy-lifestyle-v3.webp": {
+        "src": "assets/responsive/illustrations/popsy-lifestyle-v3-800-q90-8073b7b6.webp",
+        "widths": [
+          400,
+          800,
+          1536
+        ],
+        "dimensions": [
+          [
+            400,
+            267
+          ],
+          [
+            800,
+            533
+          ],
+          [
+            1536,
+            1024
+          ]
+        ],
+        "alphaMaxDifference": 0
+      }
+    },
+    "totals": {
+      "sources": 27,
+      "packagingSources": 17,
+      "variants": 64,
+      "sourceBytes": 14837396,
+      "defaultSrcBytes": 3810012,
+      "allVariantsBytes": 7832990
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "state": "READY",
+  "url": "https://novoferma-team-preview.vercel.app",
+  "deploymentId": "dpl_HMDTiDj4hhxa3kLZTVC16d2qtdZz",
+  "sourceCommit": "b8ae5cc72b68192fb522af9e49c1b62dc8026eb7",
+  "contentSha256": "aedbf06c2911c6214216202f72aad8917cdbc844f8df530a971402d51953eaf1",
+  "checks": {
+    "staticSource": "pass",
+    "interactionTests": "pass",
+    "packagedInteractions": "pass",
+    "pages": 24,
+    "localReferences": 1694,
+    "permanentUrlVersion": "pass",
+    "indexing": "pass"
+  },
+  "httpFontFileMatchesLocal": true,
+  "robotsDisallowsIndexing": true,
+  "browserVisualChecks": "Local: all 24 pages at 5 widths; remote screenshot unavailable because in-app browser timed out."
+}

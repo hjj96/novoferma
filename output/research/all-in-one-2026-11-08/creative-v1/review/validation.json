@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-11-08",
+  "checks": [
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "images": [
+        {
+          "src": "../01-kaprisy.png",
+          "loaded": true
+        },
+        {
+          "src": "../02-lenivchiki.png",
+          "loaded": true
+        },
+        {
+          "src": "../03-obediki.png",
+          "loaded": true
+        },
+        {
+          "src": "../04-sboriki.png",
+          "loaded": true
+        }
+      ],
+      "captions": [
+        "01. Каприсы — курочка-фокусник",
+        "02. Ленивчики — курочка в капустном гамаке",
+        "03. Обедики — курочка-официант на роликах",
+        "04. Сборики — курочка-дирижёр"
+      ]
+    },
+    {
+      "width": 800,
+      "scroll": 800,
+      "images": [
+        {
+          "src": "../01-kaprisy.png",
+          "loaded": true
+        },
+        {
+          "src": "../02-lenivchiki.png",
+          "loaded": true
+        },
+        {
+          "src": "../03-obediki.png",
+          "loaded": true
+        },
+        {
+          "src": "../04-sboriki.png",
+          "loaded": true
+        }
+      ],
+      "captions": [
+        "01. Каприсы — курочка-фокусник",
+        "02. Ленивчики — курочка в капустном гамаке",
+        "03. Обедики — курочка-официант на роликах",
+        "04. Сборики — курочка-дирижёр"
+      ]
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "images": [
+        {
+          "src": "../01-kaprisy.png",
+          "loaded": true
+        },
+        {
+          "src": "../02-lenivchiki.png",
+          "loaded": true
+        },
+        {
+          "src": "../03-obediki.png",
+          "loaded": true
+        },
+        {
+          "src": "../04-sboriki.png",
+          "loaded": true
+        }
+      ],
+      "captions": [
+        "01. Каприсы — курочка-фокусник",
+        "02. Ленивчики — курочка в капустном гамаке",
+        "03. Обедики — курочка-официант на роликах",
+        "04. Сборики — курочка-дирижёр"
+      ]
+    },
+    {
+      "width": 320,
+      "scroll": 320,
+      "images": [
+        {
+          "src": "../01-kaprisy.png",
+          "loaded": true
+        },
+        {
+          "src": "../02-lenivchiki.png",
+          "loaded": true
+        },
+        {
+          "src": "../03-obediki.png",
+          "loaded": true
+        },
+        {
+          "src": "../04-sboriki.png",
+          "loaded": true
+        }
+      ],
+      "captions": [
+        "01. Каприсы — курочка-фокусник",
+        "02. Ленивчики — курочка в капустном гамаке",
+        "03. Обедики — курочка-официант на роликах",
+        "04. Сборики — курочка-дирижёр"
+      ]
+    }
+  ]
+}

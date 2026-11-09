@@ -1,0 +1,46 @@
+[
+  {
+    "id": "silachka",
+    "index": 1,
+    "title": "Силачка — основное направление",
+    "label": "Силачка — основное направление",
+    "src": "../assets/fibriki-pack-v12.png",
+    "href": "../assets/fibriki-pack-v12.png",
+    "output": "fibriki-pack-v12.png",
+    "promptPath": "../art-direction.txt",
+    "showCaptions": true
+  },
+  {
+    "id": "cosmonaut",
+    "index": 2,
+    "title": "Космонавт — приключение на ложке",
+    "label": "Космонавт — приключение на ложке",
+    "src": "../assets/02-cosmonaut.png",
+    "href": "../assets/02-cosmonaut.png",
+    "output": "02-cosmonaut.png",
+    "promptPath": "../art-direction.txt",
+    "showCaptions": true
+  },
+  {
+    "id": "chef",
+    "index": 3,
+    "title": "Шеф-виртуоз — Фибрики в движении",
+    "label": "Шеф-виртуоз — Фибрики в движении",
+    "src": "../assets/03-chef.png",
+    "href": "../assets/03-chef.png",
+    "output": "03-chef.png",
+    "promptPath": "../art-direction.txt",
+    "showCaptions": true
+  },
+  {
+    "id": "tightrope",
+    "index": 4,
+    "title": "Канатоходец — лёгкий баланс",
+    "label": "Канатоходец — лёгкий баланс",
+    "src": "../assets/04-tightrope.png",
+    "href": "../assets/04-tightrope.png",
+    "output": "04-tightrope.png",
+    "promptPath": "../art-direction.txt",
+    "showCaptions": true
+  }
+]

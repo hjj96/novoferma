@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-08",
+  "tool": "Built-in ImageGen",
+  "operation": "One native exterior cast/contact shadow removal; no image manipulation after generation",
+  "source": "output/concept/assets/product-hero/desktop-v8/nuggets-food-v2-master.png",
+  "referenceGeneratedFile": "/Users/andrey/.codex/generated_images/01a1ab8e-30b9-7c40-8344-e020f02641ab/exec-c2ac77f9-5a65-493a-a8a2-55476da48092.png",
+  "prompt": "nuggets-food-v3-prompt.txt",
+  "output": "nuggets-food-v3-master.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "bboxAlpha16": [
+    42,
+    215,
+    1200,
+    1022
+  ],
+  "sourceSha256": "f89fc6f1a05bdc7a5a47b9f66d8d11db0810c0c20e63cde9dd4ce4de73112b03",
+  "outputSha256": "9babb1c1586063a86a4fbb38be655daff67e9dff2a41141fbb1f7c422bdf1659",
+  "visualQA": "Four food pieces (2 whole,2 halves), cup, sauce, crumbs, framing and photographic volume visually preserved; exterior brown shadow mats removed. Checked true alpha composite on matching cream. No claim of pixel-identical regeneration.",
+  "sampleChecks": [
+    {
+      "xy": [
+        650,
+        1040
+      ],
+      "beforeRGBA": [
+        79,
+        32,
+        10,
+        71
+      ],
+      "afterRGBA": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "xy": [
+        260,
+        990
+      ],
+      "beforeRGBA": [
+        108,
+        51,
+        16,
+        108
+      ],
+      "afterRGBA": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "xy": [
+        1180,
+        930
+      ],
+      "beforeRGBA": [
+        90,
+        60,
+        45,
+        17
+      ],
+      "afterRGBA": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "xy": [
+        400,
+        800
+      ],
+      "beforeRGBA": [
+        220,
+        168,
+        128,
+        253
+      ],
+      "afterRGBA": [
+        222,
+        176,
+        142,
+        253
+      ]
+    },
+    {
+      "xy": [
+        1030,
+        890
+      ],
+      "beforeRGBA": [
+        160,
+        139,
+        125,
+        253
+      ],
+      "afterRGBA": [
+        185,
+        179,
+        176,
+        253
+      ]
+    }
+  ]
+}

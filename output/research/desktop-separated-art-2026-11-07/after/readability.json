@@ -1,0 +1,6 @@
+{
+  "cases": 35,
+  "textOrHeaderIntersections": [],
+  "potentialClippingBoxes": [],
+  "method": "Browser DOM text ranges plus alpha>=64 source masks; accent rotation treated as solid bounding box. 1px conservative range expansion. Layout animation translation removed. Does not measure glyph pixels or aesthetic quality."
+}

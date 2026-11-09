@@ -1,0 +1,37 @@
+{
+  "styles": [
+    "protein-story.css",
+    "product-hero.css",
+    "lenivchiki.css",
+    "product-detail.css",
+    "partnership.css",
+    "popsy-home.css",
+    "popsy.css",
+    "where-to-buy.css",
+    "home-sections.css",
+    "home-unified.css",
+    "partners-scenes.css",
+    "fibriki.css",
+    "catalogue.css",
+    "about-refinement.css",
+    "polish.css",
+    "assets/fonts/font-face.css"
+  ],
+  "updatedReferences": {
+    "polish.css": 24,
+    "assets/fonts/font-face.css": 26,
+    "product-detail.css": 18,
+    "popsy.css": 1,
+    "protein-story.css": 1,
+    "popsy-home.css": 1,
+    "home-sections.css": 1,
+    "home-unified.css": 1,
+    "about-refinement.css": 2,
+    "partnership.css": 2,
+    "catalogue.css": 1,
+    "partners-scenes.css": 1,
+    "where-to-buy.css": 1,
+    "fibriki.css": 1,
+    "lenivchiki.css": 1
+  }
+}

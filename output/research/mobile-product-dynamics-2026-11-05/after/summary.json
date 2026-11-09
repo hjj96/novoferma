@@ -1,0 +1,85 @@
+{
+  "result": "pass",
+  "viewports": [
+    [
+      320,
+      740
+    ],
+    [
+      360,
+      800
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      480,
+      900
+    ],
+    [
+      699,
+      1000
+    ],
+    [
+      700,
+      800
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1100,
+      800
+    ],
+    [
+      1199,
+      800
+    ],
+    [
+      1200,
+      800
+    ],
+    [
+      1280,
+      720
+    ],
+    [
+      1440,
+      900
+    ],
+    [
+      1920,
+      1080
+    ],
+    [
+      667,
+      375
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      932,
+      430
+    ]
+  ],
+  "sceneViewportCombinations": 68,
+  "errors": [],
+  "heroUpperCaptions": 0,
+  "desktopArtworkUnchanged": {
+    "fibriki-art-v6.webp": true,
+    "meatballs-art-v5.webp": true,
+    "nuggets-art-v5.webp": true,
+    "lulia-mini-art-v5.webp": true
+  },
+  "sourceBehaviorTests": 22,
+  "independentVisualReview": "All four 390px scenes pass: visibly larger food, varied size, diagonal motion, no contacts or matte",
+  "mobileVersion": "v3"
+}

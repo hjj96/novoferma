@@ -1,0 +1,14 @@
+Use case: background-extraction / precise-object-edit. Make a literal source-preserving cutout of handwritten lettering from the attached approved website screenshot, NOT a new lettering design.
+
+From the attached 1585x992 source image, isolate ONLY the burnt-orange handwritten phrase in the UPPER RIGHT, approximately source region x1210..1550, y140..345. The exact two-line lettering is:
+«Хрусти»
+«в своём ритме»
+Also retain its REAL single curved, slightly tapered orange underline below, from the original screenshot.
+
+Preserve the original calligraphic brush/marker handwriting stroke shapes, varying thickness, spacing, original rising slant/tilt and baseline, word proportions, line breaks and handwritten character. The first word Хрусти has the exact very long lively Х and natural connected letters of the source. The second line includes a correctly readable ё in «своём» with both dots—copy the source exactly, do not invent, add or substitute letters. Exact supplied phrase is «Хрусти в своём ритме». Preserve all original Russian letterforms. Do NOT typeset, trace as a generic font, straighten, recolor, reflow or redesign.
+
+Keep the underline exactly as the source: one long warm-orange curved rising stroke, broadening and tapering naturally, under the second line. It is a real part of the approved handwriting, not a straight CSS rule. Preserve its length, curve, taper, angle and spacing relative to the words.
+
+Remove the cream background completely to genuine alpha. Remove everything outside the phrase and its underline: no title or letter fragments from the giant dark title, no package, no food, no header navigation or button, no separate swashes/doodles/specks/orbs, no border, no shadows, no frame. Do not add any new mark. Output ONLY the original orange letters and their original one curved underline.
+
+Output ONE transparent RGBA PNG cutout, natural landscape ratio about 1.55:1, about 1000x650px. Proportionally enlarge this selected handwriting as one intact group with a small safe transparent margin on each side, no stretching or cropping. Keep every stroke and every dot fully inside the canvas. All non-letter/non-underline pixels must have alpha zero; no creamy rectangle, white background, checkerboard or halo. Source burnt-orange ink should remain the same warm rich color. Aim for literal visual identity to the provided original phrase.

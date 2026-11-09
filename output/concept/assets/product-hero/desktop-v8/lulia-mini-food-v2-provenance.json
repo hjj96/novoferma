@@ -1,0 +1,12 @@
+{
+  "mode": "builtin-imagegen",
+  "operation": "remove exterior shadows only; native generative edit, not a pixel-identical patch",
+  "source": "lulia-mini-food-master.png",
+  "master": "lulia-mini-food-v2-master.png",
+  "prompt": "lulia-mini-food-v2-prompt.txt",
+  "generatedFile": "exec-20211d7b-f639-43cc-8b83-621e4d2c3fed.png",
+  "pixels": [
+    1254,
+    1254
+  ]
+}

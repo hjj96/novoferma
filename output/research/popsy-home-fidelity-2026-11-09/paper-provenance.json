@@ -1,0 +1,30 @@
+{
+  "purpose": "Clean background plate reconstructed from approved Popсы concept screenshot",
+  "mode": "native built-in image_gen edit",
+  "sourceReference": "output/research/home-hero-concepts-2026-11-09/popsy-hero-refined-v2.png",
+  "nativeOutput": "/Users/andrey/.codex/generated_images/01a1bf37-0f55-76b3-8f84-aa37406de825/exec-9e4c53a0-45b8-462d-81c6-438d7c82ba97.png",
+  "master": {
+    "path": "output/research/popsy-home-fidelity-2026-11-09/paper-master.png",
+    "dimensions": [
+      1585,
+      992
+    ],
+    "bytes": 1480496
+  },
+  "runtime": {
+    "path": "output/concept/assets/popsy-home/paper-concept-v2.webp",
+    "dimensions": [
+      1600,
+      1001
+    ],
+    "bytes": 5788,
+    "meanRGB": [
+      251.63,
+      234.53,
+      213.3
+    ],
+    "sha256": "859bec292ddfa0d309e5ead0d9a928979142944c6c38ed5d9190d1d91c462253"
+  },
+  "conversion": "Only full-canvas resize to width1600 and opaque WebP q85/method6; no color/texture edits.",
+  "visualQA": "Almost-flat warm peachcream with extremely subtle finepaper softness and lighting variation. No objects, lettering, UI, shapes, cast shadows, horizon, strong vignette or visible pattern."
+}

@@ -1,0 +1,11 @@
+Use case: precise-object-edit.
+Asset type: a single text-free 16:9 wide editorial infographic backdrop for the Novoferma brand brochure.
+Input image 1 is the sage background and illustrated mascot scene to remake. Input image 2 is the exact mascot identity reference.
+
+Remove ALL food completely. Remove both meatballs and ALL wheat, crumbs, herbs, plates, packages and any ingredient cues. No photorealistic objects whatsoever.
+Retain a seamless warm pale sage #dce1b3 background with very subtle premium paper texture and gentle studio warmth. LEFT 70% of the entire frame must remain fully empty sage space from top to bottom for live text added later. No shadows, wing tips or decorations can enter this left 70% region.
+
+Position ONE faithful full-body illustrated Novoferma chicken only on the FAR RIGHT. Keep its natural proportions, familiar friendly eyes, red comb, warm orange plumage, black ink contour, white apron with soft green checks, and original playful expressive face. Head turned gently to the left; ONE wing extends in a friendly presenting/pointing gesture toward the empty left side, while remaining within the right 30% of the frame. Other wing naturally rests near the body. Do not shade the eyes with a wing in this new pose. Do not change the mascot into a person, 3D sculpture, realistic chicken or a different illustration style.
+Keep the chicken's complete comb, tail, both feet and wing tips within frame, with generous right margin. Aim for the body in x 76–96% of the width, comb around y 22%, feet near y 89%. Natural full-body proportions are more important than stretching to exact coordinates. A very subtle grounding contact shadow only beneath its feet.
+Optional: two tiny orange hand-drawn motion strokes immediately beside the presenting wing, still entirely in right30%. No other decorations.
+Absolutely no text, letters, numbers, symbols, formulas, logos, watermarks, food, wheat or packaging. Do not render an infographic; only the empty background plus mascot.

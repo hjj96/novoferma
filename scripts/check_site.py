@@ -2,7 +2,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
-import json
+import json,re
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'output/concept'
 manifest = json.loads((SITE/'site-manifest.json').read_text())
@@ -12,7 +12,7 @@ def check(ok, message):
 class Document(HTMLParser):
     def __init__(self, source):
         super().__init__()
-        self.nodes=[]; self.ids=[]; self.title=''; self.in_title=False
+        self.nodes=[]; self.ids=[]; self.title=''; self.in_title=False; self.text=[]
         self.feed(source)
     def handle_starttag(self, tag, attrs):
         a=dict(attrs); self.nodes.append((tag,a))
@@ -21,10 +21,12 @@ class Document(HTMLParser):
     def handle_endtag(self, tag):
         if tag=='title': self.in_title=False
     def handle_data(self,data):
+        self.text.append(data)
         if self.in_title: self.title+=data
 pages=manifest['pages']
 check(len(pages)==len(set(pages)), 'Duplicate manifest pages')
-check(len(pages)==6+len(manifest['products'])+2, 'Incorrect route count')
+inventory=manifest['products']+manifest.get('novelties',[])
+check(len(pages)==6+len(inventory), 'Incorrect route count')
 docs={name:Document((SITE/name).read_text()) for name in pages}
 titles=[]; descriptions=[]; references=0; images=0
 for name,doc in docs.items():
@@ -57,15 +59,55 @@ for name,doc in docs.items():
             check('noopener' in a.get('rel',''), f'{name}: external opener')
 check(len(titles)==len(set(titles)), 'Duplicate titles')
 check(len(descriptions)==len(set(descriptions)), 'Duplicate descriptions')
-check(sum('product-card' in a.get('class','').split() for tag,a in docs['catalogue.html'].nodes)==16, 'Catalogue count')
-for slug in ('fibriki','lulia-mini'):
+check(sum('product-card' in a.get('class','').split() for tag,a in docs['catalogue.html'].nodes)==len(inventory), 'Catalogue count')
+catalogue_ids=[a.get('data-product-id') for tag,a in docs['catalogue.html'].nodes if tag=='article' and 'product-card' in a.get('class','').split()]
+check(catalogue_ids==[p['id'] for p in manifest.get('novelties',[])+manifest['products']], 'Catalogue product identity and novelty-first order')
+for product in manifest.get('novelties',[]):
+    slug=product['id']
     source=(SITE/f'product-{slug}.html').read_text()
-    check('Концепт новинки' in source and 'Визуальный концепт упаковки' in source, f'{slug}: concept status')
+    check('Новинка' in source and 'Внешний вид упаковки' in source, f'{slug}: product presentation')
+    check('Где купить' in source, f'{slug}: purchase action')
+for name in pages:
+    source=(SITE/name).read_text().lower()
+    check(not any(marker in source for marker in ('концепт', 'в разработке', 'готовим к выпуску', 'после утверждения продукта')), f'{name}: development language is visible')
 home=docs['index.html']
-check(sum(tag=='img' and bool(a.get('data-src')) for tag,a in home.nodes)==3, 'Inactive hero art must defer')
-check(sum(a.get('role')=='tab' for tag,a in home.nodes)==4, 'Four named tabs required')
+home_source=(SITE/'index.html').read_text()
+hero_sections=[a for tag,a in home.nodes if tag=='section' and 'data-popsy-hero' in a]
+check(len(hero_sections)==1 and 'popsy-home-hero' in hero_sections[0].get('class','').split(), 'Home requires one Popсы hero section')
+hero_markup=re.search(r'<section\b[^>]*\bdata-popsy-hero\b[^>]*>(.*?)</section>', home_source, re.S)
+hero=Document(hero_markup.group(1) if hero_markup else '')
+hero_headings=[a for tag,a in hero.nodes if tag=='h1']
+check(len(hero_headings)==1 and hero_headings[0].get('id')=='popsy-home-title', 'Popсы hero requires its live h1')
+heading_markup=re.search(r'<h1\b[^>]*\bid="popsy-home-title"[^>]*>(.*?)</h1>', home_source, re.S)
+check(bool(heading_markup) and ''.join(Document(heading_markup.group(1)).text).strip().casefold()=='попсы', 'Popсы hero title must be live text')
+check(all('hidden' not in a and 'inert' not in a and a.get('aria-hidden')!='true' and 'sr-only' not in a.get('class','').split() for a in hero_sections+hero_headings), 'Popсы hero and title must be visible without JavaScript')
+for cls,filename in (('popsy-home-pack','pack-concept-v2.webp'),('popsy-home-food','food-concept-v2.webp'),('popsy-home-lettering','handwritten-concept-v2.webp')):
+    artwork=[a for tag,a in hero.nodes if tag=='img' and cls in a.get('class','').split()]
+    check(len(artwork)==1, f'Popсы hero requires one {cls} image')
+    check(all(urlsplit(a.get('src','')).path==f'assets/popsy-home/{filename}' and not a.get('data-src') and a.get('loading')!='lazy' for a in artwork), f'{cls} must have real, eager artwork without JavaScript')
+check(sum(tag=='img' and 'ui-icon' not in a.get('class','').split() for tag,a in hero.nodes)==3, 'Popсы hero contains only the package, ready-food and handwritten artwork, plus UI icons')
+note_markup=re.findall(r'<p\b[^>]*\bclass="[^"]*\bpopsy-home-note\b[^"]*"[^>]*>(.*?)</p>', hero_markup.group(1) if hero_markup else '', re.S)
+check(len(note_markup)==1, 'Popсы hero requires one handwritten note')
+note_nodes=[a for tag,a in hero.nodes if tag=='p' and 'popsy-home-note' in a.get('class','').split()]
+check(len(note_nodes)==1 and all('hidden' not in a and 'inert' not in a and a.get('aria-hidden')!='true' for a in note_nodes), 'Popсы note must remain accessible')
+note=Document(note_markup[0] if note_markup else '')
+lettering=[a for tag,a in note.nodes if tag=='img' and 'popsy-home-lettering' in a.get('class','').split()]
+check(len(lettering)==1 and lettering[0].get('aria-hidden')=='true' and lettering[0].get('alt')=='', 'Handwritten artwork must be decorative inside the Popсы note')
+live_note=re.findall(r'<span\b[^>]*\bclass="[^"]*\bsr-only\b[^"]*"[^>]*>(.*?)</span>', note_markup[0] if note_markup else '', re.S)
+check(any(' '.join(''.join(Document(markup).text).split())=='Хрусти в своём ритме' for markup in live_note), 'Popсы note requires its live screen-reader phrase')
+hero_ctas=[a for tag,a in hero.nodes if tag=='a' and 'popsy-home-cta' in a.get('class','').split()]
+check(len(hero_ctas)==1 and hero_ctas[0].get('href')=='product-popsy.html', 'Popсы hero CTA must open its product page')
+check('Хрусти' in ''.join(hero.text) and 'ритме' in ''.join(hero.text), 'Popсы hero handwritten phrase must be live text')
+check('Мини-наггетсы' in ''.join(hero.text) and 'панировке' in ''.join(hero.text), 'Popсы hero description must be live text')
+for tag,key,filename in (('link','href','popsy-home.css'),('script','src','popsy-home.js')):
+    check(any(t==tag and urlsplit(a.get(key,'')).path==filename for t,a in home.nodes), f'Home must load {filename}')
+check(not any('data-product-carousel' in a or a.get('role') in ('tab','tablist','tabpanel') or {'product-scene','product-pickers','product-picker'}&set(a.get('class','').split()) for tag,a in home.nodes), 'Home must not retain carousel scenes or ghost tabs')
+check('product-naggetsy-kurinye.html' in pages and 'naggetsy-kurinye' in catalogue_ids, 'Nuggets must remain available in the catalogue')
 check(not any('title-art' in a.get('class','') for tag,a in home.nodes), 'Raster hero title remains')
 where=(SITE/'where-to-buy.html').read_text()
+product_select=re.search(r'<select\b[^>]*\bid="wanted-product"[^>]*>(.*?)</select>',where,re.S)
+selected_ids=re.findall(r'<option\b[^>]*\bvalue="([^"]+)"',product_select.group(1)) if product_select else []
+check(set(selected_ids)=={p['id'] for p in inventory}, 'Purchase form product inventory')
 check('data-city-copy' in where and 'data-city-draft' in where, 'City copy fallback')
 check('data-retailer-products' in where, 'Retailer links')
 public_url=manifest.get('publicUrl')

@@ -1,0 +1,50 @@
+{
+  "fibriki": {
+    "source": "/Users/andrey/.codex/generated_images/01a1ab8d-83f6-7f31-a891-a15b371e8271/exec-2a71d0dc-99dd-4180-a9bf-b29a5cd87df4.png",
+    "dimensions": [
+      960,
+      640
+    ],
+    "bytes": 174242,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "meatballs": {
+    "source": "output/concept/assets/product-hero/meatballs-piece-v2.webp",
+    "dimensions": [
+      480,
+      480
+    ],
+    "bytes": 87908,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "nuggets": {
+    "source": "output/concept/assets/product-hero/nuggets-piece-v2.webp",
+    "dimensions": [
+      480,
+      480
+    ],
+    "bytes": 69716,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "lulia-mini": {
+    "source": "output/concept/assets/product-hero/lulia-mini-piece-v2.webp",
+    "dimensions": [
+      480,
+      480
+    ],
+    "bytes": 62732,
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  }
+}

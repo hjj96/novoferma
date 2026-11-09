@@ -1,0 +1,152 @@
+[
+  {
+    "height": 740,
+    "scenes": [
+      {
+        "complete": true,
+        "id": "scene-fibriki",
+        "naturalWidth": 960,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v4/fibriki.webp?v=459ad17a93"
+      },
+      {
+        "complete": true,
+        "id": "scene-meatballs",
+        "naturalWidth": 960,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v4/meatballs.webp?v=06138b7c70"
+      },
+      {
+        "complete": true,
+        "id": "scene-nuggets",
+        "naturalWidth": 960,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v4/nuggets.webp?v=da09a7e7a5"
+      },
+      {
+        "complete": true,
+        "id": "scene-lulia-mini",
+        "naturalWidth": 960,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v4/lulia-mini.webp?v=f4ed56b8d8"
+      }
+    ],
+    "width": 320
+  },
+  {
+    "height": 1000,
+    "scenes": [
+      {
+        "complete": true,
+        "id": "scene-fibriki",
+        "naturalWidth": 960,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v4/fibriki.webp?v=459ad17a93"
+      },
+      {
+        "complete": true,
+        "id": "scene-meatballs",
+        "naturalWidth": 960,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v4/meatballs.webp?v=06138b7c70"
+      },
+      {
+        "complete": true,
+        "id": "scene-nuggets",
+        "naturalWidth": 960,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v4/nuggets.webp?v=da09a7e7a5"
+      },
+      {
+        "complete": true,
+        "id": "scene-lulia-mini",
+        "naturalWidth": 960,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v4/lulia-mini.webp?v=f4ed56b8d8"
+      }
+    ],
+    "width": 699
+  },
+  {
+    "height": 800,
+    "scenes": [
+      {
+        "complete": true,
+        "id": "scene-fibriki",
+        "naturalWidth": 1672,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67"
+      },
+      {
+        "complete": true,
+        "id": "scene-meatballs",
+        "naturalWidth": 1671,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/meatballs-art-v5.webp?v=2ecf36ba54"
+      },
+      {
+        "complete": true,
+        "id": "scene-nuggets",
+        "naturalWidth": 1671,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/nuggets-art-v5.webp?v=2a2730733f"
+      },
+      {
+        "complete": true,
+        "id": "scene-lulia-mini",
+        "naturalWidth": 1672,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/lulia-mini-art-v5.webp?v=c8ec6937e3"
+      }
+    ],
+    "width": 700
+  },
+  {
+    "height": 900,
+    "scenes": [
+      {
+        "complete": true,
+        "id": "scene-fibriki",
+        "naturalWidth": 1672,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67"
+      },
+      {
+        "complete": true,
+        "id": "scene-meatballs",
+        "naturalWidth": 1671,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/meatballs-art-v5.webp?v=2ecf36ba54"
+      },
+      {
+        "complete": true,
+        "id": "scene-nuggets",
+        "naturalWidth": 1671,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/nuggets-art-v5.webp?v=2a2730733f"
+      },
+      {
+        "complete": true,
+        "id": "scene-lulia-mini",
+        "naturalWidth": 1672,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/lulia-mini-art-v5.webp?v=c8ec6937e3"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "height": 390,
+    "scenes": [
+      {
+        "complete": true,
+        "id": "scene-fibriki",
+        "naturalWidth": 1672,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67"
+      },
+      {
+        "complete": true,
+        "id": "scene-meatballs",
+        "naturalWidth": 1671,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/meatballs-art-v5.webp?v=2ecf36ba54"
+      },
+      {
+        "complete": true,
+        "id": "scene-nuggets",
+        "naturalWidth": 1671,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/nuggets-art-v5.webp?v=2a2730733f"
+      },
+      {
+        "complete": true,
+        "id": "scene-lulia-mini",
+        "naturalWidth": 1672,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/lulia-mini-art-v5.webp?v=c8ec6937e3"
+      }
+    ],
+    "width": 844
+  }
+]

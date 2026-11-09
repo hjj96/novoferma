@@ -1,0 +1,402 @@
+{
+  "checkedAt": "2026-11-09",
+  "scope": "Independent visual QA after Fibriki v12 integration, file:// Chrome; no site mutations or server",
+  "productDataUnchanged": true,
+  "productBefore": {
+    "id": "fibriki",
+    "name": "Фибрики",
+    "meat": "Из курицы",
+    "meatKey": "chicken",
+    "weight": "",
+    "category": "Фрикадельки и ёжики",
+    "url": "product-fibriki.html",
+    "previewTone": 3,
+    "previewLean": "left",
+    "anchor": "novelties",
+    "novelty": true,
+    "description": "Куриные фрикадельки с пищевыми волокнами. К любимому гарниру, в суп или с соусом."
+  },
+  "productAfter": {
+    "id": "fibriki",
+    "name": "Фибрики",
+    "meat": "Из курицы",
+    "meatKey": "chicken",
+    "weight": "",
+    "category": "Фрикадельки и ёжики",
+    "url": "product-fibriki.html",
+    "previewTone": 3,
+    "previewLean": "left",
+    "anchor": "novelties",
+    "novelty": true,
+    "description": "Куриные фрикадельки с пищевыми волокнами. К любимому гарниру, в суп или с соусом."
+  },
+  "detail": {
+    "title": "Фибрики",
+    "packSrc": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/fibriki-pack-v12-800-q94-0ea08f11.webp",
+    "packAlt": "Упаковка Фибриков с курочкой-силачкой — куриные фрикадельки с пищевыми волокнами",
+    "intro": "Куриные фрикадельки с пищевыми волокнами. В суп, к любимому гарниру, на домашний ужин.",
+    "hasExtraFactualFields": false
+  },
+  "results": [
+    {
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "scrollY": 1692,
+      "products": [
+        {
+          "id": "fibriki",
+          "title": "Фибрики",
+          "card": {
+            "x": 733,
+            "y": 120.046875,
+            "width": 304.5,
+            "height": 423.21875,
+            "right": 1037.5,
+            "bottom": 543.265625
+          },
+          "stage": {
+            "x": 733,
+            "y": 120.046875,
+            "width": 304.5,
+            "height": 328.5,
+            "right": 1037.5,
+            "bottom": 448.546875
+          },
+          "image": {
+            "x": 736,
+            "y": 132.046875,
+            "width": 298.5,
+            "height": 298.5,
+            "right": 1034.5,
+            "bottom": 430.546875
+          },
+          "currentSrc": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/fibriki-pack-v12-400-q94-0ea08f11.webp",
+          "naturalSize": [
+            320,
+            320
+          ],
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "href": "product-fibriki.html",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "id": "lenivchiki",
+          "title": "Ленивчики",
+          "card": {
+            "x": 1063.5,
+            "y": 120.046875,
+            "width": 304.5,
+            "height": 423.21875,
+            "right": 1368,
+            "bottom": 543.265625
+          },
+          "stage": {
+            "x": 1063.5,
+            "y": 120.046875,
+            "width": 304.5,
+            "height": 328.5,
+            "right": 1368,
+            "bottom": 448.546875
+          },
+          "image": {
+            "x": 1076.947509765625,
+            "y": 140.1063690185547,
+            "width": 277.60498046875,
+            "height": 277.60498046875,
+            "right": 1354.552490234375,
+            "bottom": 417.7113494873047
+          },
+          "currentSrc": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/lenivchiki-pack-v1-400-q94-ff95cef5.webp",
+          "naturalSize": [
+            320,
+            320
+          ],
+          "transform": "matrix(0.93, 0, 0, 0.93, 0, -2.388)",
+          "href": "product-lenivchiki.html",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "id": "popsy",
+          "title": "Попсы",
+          "card": {
+            "x": 402.5,
+            "y": 581.265625,
+            "width": 304.5,
+            "height": 421.609375,
+            "right": 707,
+            "bottom": 1002.875
+          },
+          "stage": {
+            "x": 402.5,
+            "y": 581.265625,
+            "width": 304.5,
+            "height": 328.5,
+            "right": 707,
+            "bottom": 909.765625
+          },
+          "image": {
+            "x": 395.7987365722656,
+            "y": 576.9973754882812,
+            "width": 317.9025573730469,
+            "height": 317.90252685546875,
+            "right": 713.7012939453125,
+            "bottom": 894.89990234375
+          },
+          "currentSrc": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp",
+          "naturalSize": [
+            320,
+            320
+          ],
+          "transform": "matrix(1.065, 0, 0, 1.065, 0, -6.567)",
+          "href": "product-popsy.html",
+          "alt": "",
+          "loaded": true
+        }
+      ],
+      "errors": [],
+      "screenshot": "/Users/andrey/Desktop/сайт нф/output/fibriki-creative-2026-11-09/qa/independent/catalogue-fibriki-1440.png"
+    },
+    {
+      "viewport": 390,
+      "documentWidth": 390,
+      "scrollY": 2244,
+      "products": [
+        {
+          "id": "fibriki",
+          "title": "Фибрики",
+          "card": {
+            "x": 20,
+            "y": 120.484375,
+            "width": 167,
+            "height": 267.953125,
+            "right": 187,
+            "bottom": 388.4375
+          },
+          "stage": {
+            "x": 20,
+            "y": 120.484375,
+            "width": 167,
+            "height": 185,
+            "right": 187,
+            "bottom": 305.484375
+          },
+          "image": {
+            "x": 21,
+            "y": 128.484375,
+            "width": 165,
+            "height": 165,
+            "right": 186,
+            "bottom": 293.484375
+          },
+          "currentSrc": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/fibriki-pack-v12-400-q94-0ea08f11.webp",
+          "naturalSize": [
+            167,
+            167
+          ],
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "href": "product-fibriki.html",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "id": "lenivchiki",
+          "title": "Ленивчики",
+          "card": {
+            "x": 203,
+            "y": 120.484375,
+            "width": 167,
+            "height": 267.953125,
+            "right": 370,
+            "bottom": 388.4375
+          },
+          "stage": {
+            "x": 203,
+            "y": 120.484375,
+            "width": 167,
+            "height": 185,
+            "right": 370,
+            "bottom": 305.484375
+          },
+          "image": {
+            "x": 209.77499389648438,
+            "y": 132.9393768310547,
+            "width": 153.45001220703125,
+            "height": 153.4499969482422,
+            "right": 363.2250061035156,
+            "bottom": 286.3893737792969
+          },
+          "currentSrc": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/lenivchiki-pack-v1-400-q94-ff95cef5.webp",
+          "naturalSize": [
+            167,
+            167
+          ],
+          "transform": "matrix(0.93, 0, 0, 0.93, 0, -1.32)",
+          "href": "product-lenivchiki.html",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "id": "popsy",
+          "title": "Попсы",
+          "card": {
+            "x": 203,
+            "y": 416.4375,
+            "width": 167,
+            "height": 267.953125,
+            "right": 370,
+            "bottom": 684.390625
+          },
+          "stage": {
+            "x": 203,
+            "y": 416.4375,
+            "width": 167,
+            "height": 185,
+            "right": 370,
+            "bottom": 601.4375
+          },
+          "image": {
+            "x": 198.6374969482422,
+            "y": 415.44500732421875,
+            "width": 175.72499084472656,
+            "height": 175.72503662109375,
+            "right": 374.36248779296875,
+            "bottom": 591.1700439453125
+          },
+          "currentSrc": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp",
+          "naturalSize": [
+            167,
+            167
+          ],
+          "transform": "matrix(1.065, 0, 0, 1.065, 0, -3.63)",
+          "href": "product-popsy.html",
+          "alt": "",
+          "loaded": true
+        }
+      ],
+      "errors": [],
+      "screenshot": "/Users/andrey/Desktop/сайт нф/output/fibriki-creative-2026-11-09/qa/independent/catalogue-fibriki-390.png"
+    },
+    {
+      "viewport": 320,
+      "documentWidth": 320,
+      "scrollY": 2001,
+      "products": [
+        {
+          "id": "fibriki",
+          "title": "Фибрики",
+          "card": {
+            "x": 16,
+            "y": 120.359375,
+            "width": 137.5,
+            "height": 236.015625,
+            "right": 153.5,
+            "bottom": 356.375
+          },
+          "stage": {
+            "x": 16,
+            "y": 120.359375,
+            "width": 137.5,
+            "height": 155.5,
+            "right": 153.5,
+            "bottom": 275.859375
+          },
+          "image": {
+            "x": 17,
+            "y": 128.359375,
+            "width": 135.5,
+            "height": 135.5,
+            "right": 152.5,
+            "bottom": 263.859375
+          },
+          "currentSrc": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/fibriki-pack-v12-400-q94-0ea08f11.webp",
+          "naturalSize": [
+            132,
+            132
+          ],
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "href": "product-fibriki.html",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "id": "lenivchiki",
+          "title": "Ленивчики",
+          "card": {
+            "x": 166.5,
+            "y": 120.359375,
+            "width": 137.5,
+            "height": 236.015625,
+            "right": 304,
+            "bottom": 356.375
+          },
+          "stage": {
+            "x": 166.5,
+            "y": 120.359375,
+            "width": 137.5,
+            "height": 155.5,
+            "right": 304,
+            "bottom": 275.859375
+          },
+          "image": {
+            "x": 172.24249267578125,
+            "y": 132.01788330078125,
+            "width": 126.0150146484375,
+            "height": 126.0150146484375,
+            "right": 298.25750732421875,
+            "bottom": 258.03289794921875
+          },
+          "currentSrc": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/lenivchiki-pack-v1-400-q94-ff95cef5.webp",
+          "naturalSize": [
+            132,
+            132
+          ],
+          "transform": "matrix(0.93, 0, 0, 0.93, 0, -1.084)",
+          "href": "product-lenivchiki.html",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "id": "popsy",
+          "title": "Попсы",
+          "card": {
+            "x": 166.5,
+            "y": 382.375,
+            "width": 137.5,
+            "height": 236.015625,
+            "right": 304,
+            "bottom": 618.390625
+          },
+          "stage": {
+            "x": 166.5,
+            "y": 382.375,
+            "width": 137.5,
+            "height": 155.5,
+            "right": 304,
+            "bottom": 537.875
+          },
+          "image": {
+            "x": 163.09625244140625,
+            "y": 382.990234375,
+            "width": 144.3074951171875,
+            "height": 144.3074951171875,
+            "right": 307.40374755859375,
+            "bottom": 527.2977294921875
+          },
+          "currentSrc": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp",
+          "naturalSize": [
+            132,
+            132
+          ],
+          "transform": "matrix(1.065, 0, 0, 1.065, 0, -2.981)",
+          "href": "product-popsy.html",
+          "alt": "",
+          "loaded": true
+        }
+      ],
+      "errors": [],
+      "screenshot": "/Users/andrey/Desktop/сайт нф/output/fibriki-creative-2026-11-09/qa/independent/catalogue-fibriki-320.png"
+    }
+  ]
+}

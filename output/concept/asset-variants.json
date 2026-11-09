@@ -465,36 +465,69 @@
         }
       ]
     },
-    "assets/novelty-packaging/fibriki-pack-v11.webp": {
-      "src": "assets/responsive/packshots/fibriki-pack-v11-800-q94-1c8ec286.webp",
+    "assets/novelty-packaging/lenivchiki-pack-v1.webp": {
+      "src": "assets/responsive/packshots/lenivchiki-pack-v1-800-q94-ff95cef5.webp",
       "width": 800,
       "height": 800,
-      "srcset": "assets/responsive/packshots/fibriki-pack-v11-400-q94-1c8ec286.webp 400w, assets/responsive/packshots/fibriki-pack-v11-800-q94-1c8ec286.webp 800w",
-      "sourceWidth": 800,
-      "sourceHeight": 800,
-      "sourceBytes": 444656,
-      "sourceSha256": "1c8ec286fb4fc031af3ef782c50e569578d454fbbdbc151033c7dac4c60f9da6",
+      "srcset": "assets/responsive/packshots/lenivchiki-pack-v1-400-q94-ff95cef5.webp 400w, assets/responsive/packshots/lenivchiki-pack-v1-800-q94-ff95cef5.webp 800w",
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "sourceBytes": 445510,
+      "sourceSha256": "ff95cef5376a1086647c5265f93d726d164cb0d9361ca0ae321f895cdceb5ac7",
       "kind": "packshots",
       "variants": [
         {
-          "src": "assets/responsive/packshots/fibriki-pack-v11-400-q94-1c8ec286.webp",
+          "src": "assets/responsive/packshots/lenivchiki-pack-v1-400-q94-ff95cef5.webp",
           "width": 400,
           "height": 400,
-          "bytes": 45108,
+          "bytes": 59822,
           "quality": 94,
-          "sha256": "d249c192f40ce771f28a94580bbea642b808db343eda830890c51da1d5265889",
+          "sha256": "d8b1c08339441c6cd4445484816552a6cb893e44736feb84d18f9f70701de14e",
           "alphaMaxDifference": 0,
-          "foregroundRgbMae8Bit": 2.71
+          "foregroundRgbMae8Bit": 3.0409
         },
         {
-          "src": "assets/responsive/packshots/fibriki-pack-v11-800-q94-1c8ec286.webp",
+          "src": "assets/responsive/packshots/lenivchiki-pack-v1-800-q94-ff95cef5.webp",
           "width": 800,
           "height": 800,
-          "bytes": 125346,
+          "bytes": 193350,
           "quality": 94,
-          "sha256": "7cc0ef9a94351d607602023cc771a24c2121fc37ecf850d2a884d01656dca924",
+          "sha256": "bc3addaaa231dc66e51111a28691967476592151e07bb8095d1090394fd3dcbc",
           "alphaMaxDifference": 0,
-          "foregroundRgbMae8Bit": 2.0431
+          "foregroundRgbMae8Bit": 2.179
+        }
+      ]
+    },
+    "assets/novelty-packaging/fibriki-pack-v12.webp": {
+      "src": "assets/responsive/packshots/fibriki-pack-v12-800-q94-0ea08f11.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/fibriki-pack-v12-400-q94-0ea08f11.webp 400w, assets/responsive/packshots/fibriki-pack-v12-800-q94-0ea08f11.webp 800w",
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "sourceBytes": 253066,
+      "sourceSha256": "0ea08f11f186c486e4f0dd2ddc05f5cdc09c883d28e296eae99e2ac94c0a691a",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/fibriki-pack-v12-400-q94-0ea08f11.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 44940,
+          "quality": 94,
+          "sha256": "b86ae96f7f32fcecf5b7925270c3484ae2aefbde580fe54d69ec5d2ef1a7f67a",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.4524
+        },
+        {
+          "src": "assets/responsive/packshots/fibriki-pack-v12-800-q94-0ea08f11.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 127608,
+          "quality": 94,
+          "sha256": "7971ff938278254e69d6db35f0dbe1dc65ba1f286211172f416cd243bbe9eb8a",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 1.5829
         }
       ]
     },
@@ -528,6 +561,158 @@
           "sha256": "5b986470f63be4e12722a38a6a2c3e10f64dad1c4f2d0ca6eeb1c879e5395abf",
           "alphaMaxDifference": 0,
           "foregroundRgbMae8Bit": 2.3075
+        }
+      ]
+    },
+    "assets/novelty-packaging/popsy-pack-v3.webp": {
+      "src": "assets/responsive/packshots/popsy-pack-v3-800-q94-2bbda6ae.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/popsy-pack-v3-400-q94-2bbda6ae.webp 400w, assets/responsive/packshots/popsy-pack-v3-800-q94-2bbda6ae.webp 800w",
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "sourceBytes": 222708,
+      "sourceSha256": "2bbda6aebdfdc5cf36c64a92c834a4c55b2d50f2acd20822cf2ecfd7bbc369f4",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/popsy-pack-v3-400-q94-2bbda6ae.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 40088,
+          "quality": 94,
+          "sha256": "e2c321c07617a3460c669537d019930bbb8db3d46ca095e0affa8de9c9c2dc0f",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.575
+        },
+        {
+          "src": "assets/responsive/packshots/popsy-pack-v3-800-q94-2bbda6ae.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 111676,
+          "quality": 94,
+          "sha256": "a80e7960b9d8f640c1a39d407a9a8ab31d735da91e37b3e797f0aaa72acdb724",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 1.7224
+        }
+      ]
+    },
+    "assets/novelty-packaging/popsy-pack-v4.webp": {
+      "src": "assets/responsive/packshots/popsy-pack-v4-800-q94-36e1736c.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp 400w, assets/responsive/packshots/popsy-pack-v4-800-q94-36e1736c.webp 800w",
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "sourceBytes": 242594,
+      "sourceSha256": "36e1736c4df5abebe26da9c7a526738cb1147f0537159bca20ff9fdcd54a8861",
+      "kind": "packshots",
+      "variants": [
+        {
+          "src": "assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 42046,
+          "quality": 94,
+          "sha256": "71a43703573f84ec8c9b14a7fabc28081cf55b9992c56a78761d1c15b700e17b",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.8546
+        },
+        {
+          "src": "assets/responsive/packshots/popsy-pack-v4-800-q94-36e1736c.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 120944,
+          "quality": 94,
+          "sha256": "d48bfa34824f0572a8c45c1e88172211607f1afee12b27a6099fbc3f5c344bcc",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 1.8722
+        }
+      ]
+    },
+    "assets/lenivchiki/lenivchiki-scene-v1.webp": {
+      "src": "assets/responsive/illustrations/lenivchiki-scene-v1-800-q90-f07b4b18.webp",
+      "width": 800,
+      "height": 533,
+      "srcset": "assets/responsive/illustrations/lenivchiki-scene-v1-400-q90-f07b4b18.webp 400w, assets/responsive/illustrations/lenivchiki-scene-v1-800-q90-f07b4b18.webp 800w, assets/responsive/illustrations/lenivchiki-scene-v1-1536-q90-f07b4b18.webp 1536w",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "sourceBytes": 406722,
+      "sourceSha256": "f07b4b1897528bea90c206155574241486e55317ed0b3d1c221733b8af75e75c",
+      "kind": "illustrations",
+      "variants": [
+        {
+          "src": "assets/responsive/illustrations/lenivchiki-scene-v1-400-q90-f07b4b18.webp",
+          "width": 400,
+          "height": 267,
+          "bytes": 37974,
+          "quality": 90,
+          "sha256": "3757b247e95ded146461ef2747ddaa062eff70560bbe5f8a94470741676a658b",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 5.7182
+        },
+        {
+          "src": "assets/responsive/illustrations/lenivchiki-scene-v1-800-q90-f07b4b18.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 115772,
+          "quality": 90,
+          "sha256": "238ed02ab14b1792f961ef91c9467b5585b07100f73cab83c0c62f91ef9da9ca",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.9945
+        },
+        {
+          "src": "assets/responsive/illustrations/lenivchiki-scene-v1-1536-q90-f07b4b18.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 301990,
+          "quality": 90,
+          "sha256": "ccfe5c6312615feb39e7ce2a127af38120f23aa7afa4abb6871bda1666158a88",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.6254
+        }
+      ]
+    },
+    "assets/catalogue-family-v1/family-table-v1.webp": {
+      "src": "assets/responsive/illustrations/family-table-v1-800-q90-30785e1c.webp",
+      "width": 800,
+      "height": 533,
+      "srcset": "assets/responsive/illustrations/family-table-v1-400-q90-30785e1c.webp 400w, assets/responsive/illustrations/family-table-v1-800-q90-30785e1c.webp 800w, assets/responsive/illustrations/family-table-v1-1536-q90-30785e1c.webp 1536w",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "sourceBytes": 362264,
+      "sourceSha256": "30785e1c2d2785d53588ce54e2dad77e0fd5addae449bae638c454065a166c47",
+      "kind": "illustrations",
+      "variants": [
+        {
+          "src": "assets/responsive/illustrations/family-table-v1-400-q90-30785e1c.webp",
+          "width": 400,
+          "height": 267,
+          "bytes": 48378,
+          "quality": 90,
+          "sha256": "91f0b5762af18d828ec736f232771ac889c173f3862a71e3a510c2f586753ba7",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 5.0194
+        },
+        {
+          "src": "assets/responsive/illustrations/family-table-v1-800-q90-30785e1c.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 138060,
+          "quality": 90,
+          "sha256": "7f18895e67ad1e376a83c05925c4f87daddf3db70b023cc9c710f9199dd5a2b5",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.2002
+        },
+        {
+          "src": "assets/responsive/illustrations/family-table-v1-1536-q90-30785e1c.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 330108,
+          "quality": 90,
+          "sha256": "10085b2b58a8e9b4f8a6719f593ef5cfa62b2b3e13c99c6199c557a54868bbf4",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 1.5988
         }
       ]
     },
@@ -745,14 +930,229 @@
           "foregroundRgbMae8Bit": 3.7853
         }
       ]
+    },
+    "assets/popsy/popsy-food.webp": {
+      "src": "assets/responsive/illustrations/popsy-food-800-q90-719294ed.webp",
+      "width": 800,
+      "height": 800,
+      "srcset": "assets/responsive/illustrations/popsy-food-400-q90-719294ed.webp 400w, assets/responsive/illustrations/popsy-food-800-q90-719294ed.webp 800w, assets/responsive/illustrations/popsy-food-1254-q90-719294ed.webp 1254w",
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "sourceBytes": 544460,
+      "sourceSha256": "719294ede705247db89f1b4d0fae0ec5c2d75f7cca30f68a4c37f7684a5a28b5",
+      "kind": "illustrations",
+      "variants": [
+        {
+          "src": "assets/responsive/illustrations/popsy-food-400-q90-719294ed.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 61854,
+          "quality": 90,
+          "sha256": "8ced87cc2277b9d84a6211d163ac602d7ff8545b1cc92fd64461d03ee93af101",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 4.0318
+        },
+        {
+          "src": "assets/responsive/illustrations/popsy-food-800-q90-719294ed.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 195638,
+          "quality": 90,
+          "sha256": "3b83991aba181af0abd7bd1163973900f295df0879d89734304596c2e7136301",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 3.245
+        },
+        {
+          "src": "assets/responsive/illustrations/popsy-food-1254-q90-719294ed.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 379898,
+          "quality": 90,
+          "sha256": "4d582229397346ede5291b41c47175ef78d37de3cdf7aed75eb1c1077ccfdc66",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.5297
+        }
+      ]
+    },
+    "assets/popsy/popsy-serving.webp": {
+      "src": "assets/responsive/illustrations/popsy-serving-800-q90-936bb2f3.webp",
+      "width": 800,
+      "height": 533,
+      "srcset": "assets/responsive/illustrations/popsy-serving-400-q90-936bb2f3.webp 400w, assets/responsive/illustrations/popsy-serving-800-q90-936bb2f3.webp 800w, assets/responsive/illustrations/popsy-serving-1536-q90-936bb2f3.webp 1536w",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "sourceBytes": 448494,
+      "sourceSha256": "936bb2f37d3a8915b051a5d40131c0d92cd282d53559035cb8a7b3fe585d70e7",
+      "kind": "illustrations",
+      "variants": [
+        {
+          "src": "assets/responsive/illustrations/popsy-serving-400-q90-936bb2f3.webp",
+          "width": 400,
+          "height": 267,
+          "bytes": 22076,
+          "quality": 90,
+          "sha256": "dd726646bad9db831c17efc17c7c8f93fa3b86bee9087fd856f2f880002e97b2",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.2368
+        },
+        {
+          "src": "assets/responsive/illustrations/popsy-serving-800-q90-936bb2f3.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 80096,
+          "quality": 90,
+          "sha256": "69ec01e5ac3b23a45e1c84ccccf96a312ba75faaf5ddf24733ba12efbf475e0f",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 1.8951
+        },
+        {
+          "src": "assets/responsive/illustrations/popsy-serving-1536-q90-936bb2f3.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 249896,
+          "quality": 90,
+          "sha256": "b1dc9819fd061da1698e72231cc913e831c2f985780c7119cfa3ef8744c0f40a",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 1.4459
+        }
+      ]
+    },
+    "assets/popsy/popsy-rock-v3.webp": {
+      "src": "assets/responsive/illustrations/popsy-rock-v3-800-q90-955f3f14.webp",
+      "width": 800,
+      "height": 444,
+      "srcset": "assets/responsive/illustrations/popsy-rock-v3-400-q90-955f3f14.webp 400w, assets/responsive/illustrations/popsy-rock-v3-800-q90-955f3f14.webp 800w, assets/responsive/illustrations/popsy-rock-v3-1683-q90-955f3f14.webp 1683w",
+      "sourceWidth": 1683,
+      "sourceHeight": 935,
+      "sourceBytes": 345768,
+      "sourceSha256": "955f3f14064684ba47f73dbb231a7abf816774f781d6206394748d4c908b77c3",
+      "kind": "illustrations",
+      "variants": [
+        {
+          "src": "assets/responsive/illustrations/popsy-rock-v3-400-q90-955f3f14.webp",
+          "width": 400,
+          "height": 222,
+          "bytes": 34874,
+          "quality": 90,
+          "sha256": "3f177f5cd0bdbe06bd47436fad05c96447775213ab8e532bf75e130a117bfbdd",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 6.4001
+        },
+        {
+          "src": "assets/responsive/illustrations/popsy-rock-v3-800-q90-955f3f14.webp",
+          "width": 800,
+          "height": 444,
+          "bytes": 102458,
+          "quality": 90,
+          "sha256": "acb236b77a65bef1d6e2a4b5cf12126dca7cce7c8d227515c3e4209b6a65fc76",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 4.5324
+        },
+        {
+          "src": "assets/responsive/illustrations/popsy-rock-v3-1683-q90-955f3f14.webp",
+          "width": 1683,
+          "height": 935,
+          "bytes": 332936,
+          "quality": 90,
+          "sha256": "d07067f075c6685d5ca0fb19e81f67755cd0fdf4b6daf97ac22f67acd4c39b5a",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 1.6528
+        }
+      ]
+    },
+    "assets/popsy/popsy-lifestyle-v3.webp": {
+      "src": "assets/responsive/illustrations/popsy-lifestyle-v3-800-q90-8073b7b6.webp",
+      "width": 800,
+      "height": 533,
+      "srcset": "assets/responsive/illustrations/popsy-lifestyle-v3-400-q90-8073b7b6.webp 400w, assets/responsive/illustrations/popsy-lifestyle-v3-800-q90-8073b7b6.webp 800w, assets/responsive/illustrations/popsy-lifestyle-v3-1536-q90-8073b7b6.webp 1536w",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "sourceBytes": 193534,
+      "sourceSha256": "8073b7b6107a805ac6e6daee540a155a4b3d72d0d774d9cf1e2914274ebe4cfb",
+      "kind": "illustrations",
+      "variants": [
+        {
+          "src": "assets/responsive/illustrations/popsy-lifestyle-v3-400-q90-8073b7b6.webp",
+          "width": 400,
+          "height": 267,
+          "bytes": 21150,
+          "quality": 90,
+          "sha256": "b80aee8f61b3a769490eb319e54eb2b0c08efb3596218970e9c8a0f1ec432d51",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.0574
+        },
+        {
+          "src": "assets/responsive/illustrations/popsy-lifestyle-v3-800-q90-8073b7b6.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 62772,
+          "quality": 90,
+          "sha256": "dc21bff6a69575a933bd68b39c03189acbbe1e3792eee0e3752bff39ec19caff",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 1.5802
+        },
+        {
+          "src": "assets/responsive/illustrations/popsy-lifestyle-v3-1536-q90-8073b7b6.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 173994,
+          "quality": 90,
+          "sha256": "6b728f7cfb0a9084e8569cd0a79b31c7d69a79fdcc87c31f5c6d61b499333ba8",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 0.6526
+        }
+      ]
+    },
+    "assets/popsy/popsy-lifestyle-v4.webp": {
+      "src": "assets/responsive/illustrations/popsy-lifestyle-v4-800-q90-ea690375.webp",
+      "width": 800,
+      "height": 533,
+      "srcset": "assets/responsive/illustrations/popsy-lifestyle-v4-400-q90-ea690375.webp 400w, assets/responsive/illustrations/popsy-lifestyle-v4-800-q90-ea690375.webp 800w, assets/responsive/illustrations/popsy-lifestyle-v4-1536-q90-ea690375.webp 1536w",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "sourceBytes": 165934,
+      "sourceSha256": "ea690375aa40a40b836c0fd593456bb6203ec7d843f8789fe7147b860a8c35d2",
+      "kind": "illustrations",
+      "variants": [
+        {
+          "src": "assets/responsive/illustrations/popsy-lifestyle-v4-400-q90-ea690375.webp",
+          "width": 400,
+          "height": 267,
+          "bytes": 21132,
+          "quality": 90,
+          "sha256": "f455c958d02e505ea9e405dbde904758091169239852f197696692f5572cdccb",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 2.0606
+        },
+        {
+          "src": "assets/responsive/illustrations/popsy-lifestyle-v4-800-q90-ea690375.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 61298,
+          "quality": 90,
+          "sha256": "70972b91332b0be952b2b20ab20f43b0a7b46786984702fe72605856f22a4e80",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 1.526
+        },
+        {
+          "src": "assets/responsive/illustrations/popsy-lifestyle-v4-1536-q90-ea690375.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 156158,
+          "quality": 90,
+          "sha256": "91d72a7a4d909c7f0ac06db2fd017971c1d98a9944f747721a2c930e95088fa5",
+          "alphaMaxDifference": 0,
+          "foregroundRgbMae8Bit": 0.5478
+        }
+      ]
     }
   },
   "totals": {
-    "sources": 21,
-    "packagingSources": 16,
-    "variants": 47,
-    "sourceBytes": 12720168,
-    "defaultSrcBytes": 3119312,
-    "allVariantsBytes": 5447038
+    "sources": 31,
+    "packagingSources": 19,
+    "variants": 74,
+    "sourceBytes": 15906566,
+    "defaultSrcBytes": 4303638,
+    "allVariantsBytes": 8945570
   }
 }

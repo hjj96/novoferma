@@ -1,0 +1,12 @@
+{
+  "ctaBottom": 706.03125,
+  "hero": true,
+  "images": true,
+  "oldCarousel": false,
+  "overflow": 0,
+  "url": "https://novoferma-team-preview.vercel.app/",
+  "viewport": [
+    390,
+    844
+  ]
+}

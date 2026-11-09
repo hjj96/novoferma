@@ -1,0 +1,385 @@
+{
+  "pages": 24,
+  "images": 438,
+  "localReferences": 1620,
+  "uniqueTitles": 24,
+  "uniqueDescriptions": 24,
+  "publicUrl": null,
+  "errors": [],
+  "result": "pass",
+  "scope": "Generated source only; visual and interactive browser checks are separate."
+}
+TAP version 13
+# Subtest: city: generated copy/manual controls retain their HTML contract
+ok 1 - city: generated copy/manual controls retain their HTML contract
+  ---
+  duration_ms: 6.482959
+  type: 'test'
+  ...
+# Subtest: city: known product query preset; unknown values are ignored
+ok 2 - city: known product query preset; unknown values are ignored
+  ---
+  duration_ms: 12.214084
+  type: 'test'
+  ...
+# Subtest: city: whitespace fails native validity and does not navigate
+ok 3 - city: whitespace fails native validity and does not navigate
+  ---
+  duration_ms: 0.558584
+  type: 'test'
+  ...
+# Subtest: city: submit prepares current city/product and edit clears stale retry
+ok 4 - city: submit prepares current city/product and edit clears stale retry
+  ---
+  duration_ms: 1.868125
+  type: 'test'
+  ...
+# Subtest: city: external product select change clears old retry despite form association
+ok 5 - city: external product select change clears old retry despite form association
+  ---
+  duration_ms: 0.454042
+  type: 'test'
+  ...
+# Subtest: city: clipboard success never navigates or sends; uses current request
+ok 6 - city: clipboard success never navigates or sends; uses current request
+  ---
+  duration_ms: 0.858083
+  type: 'test'
+  ...
+# Subtest: city: unavailable/rejected clipboard exposes selected manual draft
+ok 7 - city: unavailable/rejected clipboard exposes selected manual draft
+  ---
+  duration_ms: 1.2545
+  type: 'test'
+  ...
+# Subtest: city: product edit while clipboard is pending suppresses stale success or failure
+ok 8 - city: product edit while clipboard is pending suppresses stale success or failure
+  ---
+  duration_ms: 0.835292
+  type: 'test'
+  ...
+# Subtest: partners: valid copy contains current form data and never navigates
+ok 9 - partners: valid copy contains current form data and never navigates
+  ---
+  duration_ms: 1.335458
+  type: 'test'
+  ...
+# Subtest: partners: blank or whitespace required fields prevent copy
+ok 10 - partners: blank or whitespace required fields prevent copy
+  ---
+  duration_ms: 0.731125
+  type: 'test'
+  ...
+# Subtest: partners: manual draft is selected, then field change clears draft and stale retry
+ok 11 - partners: manual draft is selected, then field change clears draft and stale retry
+  ---
+  duration_ms: 1.042917
+  type: 'test'
+  ...
+# Subtest: partners: field/radio/format-link edit cancels pending clipboard success and failure
+ok 12 - partners: field/radio/format-link edit cancels pending clipboard success and failure
+  ---
+  duration_ms: 2.642625
+  type: 'test'
+  ...
+# Subtest: hero: generated panels/tabs are paired, first real art eager, inactive art deferred
+ok 13 - hero: generated panels/tabs are paired, first real art eager, inactive art deferred
+  ---
+  duration_ms: 2.833084
+  type: 'test'
+  ...
+# Subtest: hero: selection waits for artwork; responsive hints precede src
+ok 14 - hero: selection waits for artwork; responsive hints precede src
+  ---
+  duration_ms: 2.150792
+  type: 'test'
+  ...
+# Subtest: hero: portrait artwork stays deferred until selection, then installs before reveal
+ok 15 - hero: portrait artwork stays deferred until selection, then installs before reveal
+  ---
+  duration_ms: 1.077458
+  type: 'test'
+  ...
+# Subtest: hero: a scene waits for every requested art asset before replacing the current scene
+ok 16 - hero: a scene waits for every requested art asset before replacing the current scene
+  ---
+  duration_ms: 1.026541
+  type: 'test'
+  ...
+# Subtest: hero: rapid navigation commits only the latest scene
+ok 17 - hero: rapid navigation commits only the latest scene
+  ---
+  duration_ms: 1.403667
+  type: 'test'
+  ...
+# Subtest: hero: rejected decode does not trap navigation or aria-busy
+ok 18 - hero: rejected decode does not trap navigation or aria-busy
+  ---
+  duration_ms: 0.881667
+  type: 'test'
+  ...
+# Subtest: hero: End key focuses without scrolling and commits the last scene
+ok 19 - hero: End key focuses without scrolling and commits the last scene
+  ---
+  duration_ms: 0.890291
+  type: 'test'
+  ...
+# Subtest: hero: selecting the last product reveals it inside an overflowing tab rail
+ok 20 - hero: selecting the last product reveals it inside an overflowing tab rail
+  ---
+  duration_ms: 1.219125
+  type: 'test'
+  ...
+# Subtest: hero: focus inside the old panel is moved out before it becomes inert
+ok 21 - hero: focus inside the old panel is moved out before it becomes inert
+  ---
+  duration_ms: 1.042584
+  type: 'test'
+  ...
+# Subtest: hero: narrowing the viewport keeps the selected last tab visible without changing the scene
+ok 22 - hero: narrowing the viewport keeps the selected last tab visible without changing the scene
+  ---
+  duration_ms: 0.996041
+  type: 'test'
+  ...
+# Subtest: hero: idle warm starts after load, one scene at a time, without autoplay
+ok 23 - hero: idle warm starts after load, one scene at a time, without autoplay
+  ---
+  duration_ms: 2.044458
+  type: 'test'
+  ...
+# Subtest: hero: saveData/slow connection skips speculative warm but keeps explicit selection
+ok 24 - hero: saveData/slow connection skips speculative warm but keeps explicit selection
+  ---
+  duration_ms: 2.249125
+  type: 'test'
+  ...
+# Subtest: hero: hidden document defers warm; visibility resumes; timeout fallback remains delayed
+ok 25 - hero: hidden document defers warm; visibility resumes; timeout fallback remains delayed
+  ---
+  duration_ms: 1.479583
+  type: 'test'
+  ...
+1..25
+# tests 25
+# suites 0
+# pass 25
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 65.331542
+{
+  "archive": "output/novoferma-site.zip",
+  "bytes": 23976182,
+  "megabytes": 23.976,
+  "fileCount": 192,
+  "pageCount": 24,
+  "localReferencesChecked": 1744,
+  "extensions": {
+    ".txt": 5,
+    ".md": 2,
+    ".json": 2,
+    ".html": 24,
+    ".svg": 8,
+    ".webp": 119,
+    ".css": 23,
+    ".js": 5,
+    ".woff2": 4
+  },
+  "sha256": "10786de900208066e0cecdd10b5a5fda83d8184556d96b11bfd47fb5e2bdc759",
+  "zipIntegrity": "pass",
+  "localLinks": "pass",
+  "fragmentLinks": "pass"
+}
+TAP version 13
+# Subtest: city: generated copy/manual controls retain their HTML contract
+ok 1 - city: generated copy/manual controls retain their HTML contract
+  ---
+  duration_ms: 2.625917
+  type: 'test'
+  ...
+# Subtest: city: known product query preset; unknown values are ignored
+ok 2 - city: known product query preset; unknown values are ignored
+  ---
+  duration_ms: 8.431042
+  type: 'test'
+  ...
+# Subtest: city: whitespace fails native validity and does not navigate
+ok 3 - city: whitespace fails native validity and does not navigate
+  ---
+  duration_ms: 0.557959
+  type: 'test'
+  ...
+# Subtest: city: submit prepares current city/product and edit clears stale retry
+ok 4 - city: submit prepares current city/product and edit clears stale retry
+  ---
+  duration_ms: 0.58825
+  type: 'test'
+  ...
+# Subtest: city: external product select change clears old retry despite form association
+ok 5 - city: external product select change clears old retry despite form association
+  ---
+  duration_ms: 0.407417
+  type: 'test'
+  ...
+# Subtest: city: clipboard success never navigates or sends; uses current request
+ok 6 - city: clipboard success never navigates or sends; uses current request
+  ---
+  duration_ms: 0.691166
+  type: 'test'
+  ...
+# Subtest: city: unavailable/rejected clipboard exposes selected manual draft
+ok 7 - city: unavailable/rejected clipboard exposes selected manual draft
+  ---
+  duration_ms: 0.815709
+  type: 'test'
+  ...
+# Subtest: city: product edit while clipboard is pending suppresses stale success or failure
+ok 8 - city: product edit while clipboard is pending suppresses stale success or failure
+  ---
+  duration_ms: 0.7165
+  type: 'test'
+  ...
+# Subtest: partners: valid copy contains current form data and never navigates
+ok 9 - partners: valid copy contains current form data and never navigates
+  ---
+  duration_ms: 1.141541
+  type: 'test'
+  ...
+# Subtest: partners: blank or whitespace required fields prevent copy
+ok 10 - partners: blank or whitespace required fields prevent copy
+  ---
+  duration_ms: 0.676209
+  type: 'test'
+  ...
+# Subtest: partners: manual draft is selected, then field change clears draft and stale retry
+ok 11 - partners: manual draft is selected, then field change clears draft and stale retry
+  ---
+  duration_ms: 0.951833
+  type: 'test'
+  ...
+# Subtest: partners: field/radio/format-link edit cancels pending clipboard success and failure
+ok 12 - partners: field/radio/format-link edit cancels pending clipboard success and failure
+  ---
+  duration_ms: 2.314209
+  type: 'test'
+  ...
+# Subtest: hero: generated panels/tabs are paired, first real art eager, inactive art deferred
+ok 13 - hero: generated panels/tabs are paired, first real art eager, inactive art deferred
+  ---
+  duration_ms: 2.0245
+  type: 'test'
+  ...
+# Subtest: hero: selection waits for artwork; responsive hints precede src
+ok 14 - hero: selection waits for artwork; responsive hints precede src
+  ---
+  duration_ms: 1.507917
+  type: 'test'
+  ...
+# Subtest: hero: portrait artwork stays deferred until selection, then installs before reveal
+ok 15 - hero: portrait artwork stays deferred until selection, then installs before reveal
+  ---
+  duration_ms: 1.030125
+  type: 'test'
+  ...
+# Subtest: hero: a scene waits for every requested art asset before replacing the current scene
+ok 16 - hero: a scene waits for every requested art asset before replacing the current scene
+  ---
+  duration_ms: 1.0015
+  type: 'test'
+  ...
+# Subtest: hero: rapid navigation commits only the latest scene
+ok 17 - hero: rapid navigation commits only the latest scene
+  ---
+  duration_ms: 1.43625
+  type: 'test'
+  ...
+# Subtest: hero: rejected decode does not trap navigation or aria-busy
+ok 18 - hero: rejected decode does not trap navigation or aria-busy
+  ---
+  duration_ms: 0.878084
+  type: 'test'
+  ...
+# Subtest: hero: End key focuses without scrolling and commits the last scene
+ok 19 - hero: End key focuses without scrolling and commits the last scene
+  ---
+  duration_ms: 0.894417
+  type: 'test'
+  ...
+# Subtest: hero: selecting the last product reveals it inside an overflowing tab rail
+ok 20 - hero: selecting the last product reveals it inside an overflowing tab rail
+  ---
+  duration_ms: 1.526666
+  type: 'test'
+  ...
+# Subtest: hero: focus inside the old panel is moved out before it becomes inert
+ok 21 - hero: focus inside the old panel is moved out before it becomes inert
+  ---
+  duration_ms: 0.974042
+  type: 'test'
+  ...
+# Subtest: hero: narrowing the viewport keeps the selected last tab visible without changing the scene
+ok 22 - hero: narrowing the viewport keeps the selected last tab visible without changing the scene
+  ---
+  duration_ms: 0.960583
+  type: 'test'
+  ...
+# Subtest: hero: idle warm starts after load, one scene at a time, without autoplay
+ok 23 - hero: idle warm starts after load, one scene at a time, without autoplay
+  ---
+  duration_ms: 1.801625
+  type: 'test'
+  ...
+# Subtest: hero: saveData/slow connection skips speculative warm but keeps explicit selection
+ok 24 - hero: saveData/slow connection skips speculative warm but keeps explicit selection
+  ---
+  duration_ms: 2.156542
+  type: 'test'
+  ...
+# Subtest: hero: hidden document defers warm; visibility resumes; timeout fallback remains delayed
+ok 25 - hero: hidden document defers warm; visibility resumes; timeout fallback remains delayed
+  ---
+  duration_ms: 1.517833
+  type: 'test'
+  ...
+1..25
+# tests 25
+# suites 0
+# pass 25
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 50.60875
+{
+  "preparedOnly": false,
+  "snapshotChanged": true,
+  "deploymentRequired": true,
+  "sourceCommit": "04c30083aa2401ffe6c151dc44f0482da127c169",
+  "contentSha256": "d2d8bfeca3dde3355e373df3739c97dedd7c21040257bd7206063d28ff7f6bde",
+  "nextStep": "Run native create_deployment and wait for READY, then --finalize.",
+  "tool": "mcp__codex_apps__vercel_create_deployment",
+  "arguments": {
+    "teamId": "team_bBv8ZcHWkcP0IyMv0bjHTzpd",
+    "requestBody": {
+      "name": "novoferma-team-preview",
+      "project": "prj_DKIlXEO9k29YgKwPB0xi0RlXyF5a",
+      "target": "production",
+      "gitSource": {
+        "type": "github",
+        "org": "hjj96",
+        "repo": "novoferma",
+        "ref": "codex/team-preview-2026-11-07",
+        "sha": "04c30083aa2401ffe6c151dc44f0482da127c169"
+      },
+      "projectSettings": {
+        "framework": null,
+        "buildCommand": "",
+        "installCommand": "",
+        "outputDirectory": ".",
+        "rootDirectory": null
+      }
+    }
+  }
+}

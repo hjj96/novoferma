@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-08",
+  "tool": "built-in image_gen.imagegen",
+  "source": "/Users/andrey/.codex/generated_images/01a1ab97-8dbf-7c80-b46f-e9b6e7853b89/exec-c2a22588-a7fd-490a-8b68-2fc1ba8d7452.png",
+  "output": "nuggets-hen-v3-master.png",
+  "prompt": "nuggets-hen-v3-prompt.txt",
+  "references": [
+    "popsy-hen-v3-master.png"
+  ],
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "bbox_alpha64": [
+    70,
+    18,
+    1167,
+    1232
+  ],
+  "story": "Snack break after skateboarding; one foot on board, other planted; no food or throwing pose.",
+  "inspection": "Actual alpha checked on cream; whole body, shoes, board and wheels visible; planted sole and wheels share baseline. No food, text or cinema props."
+}

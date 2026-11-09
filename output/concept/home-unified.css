@@ -3,7 +3,7 @@
  --home-content-max:1296px;
  --home-gutter:48px;
  --home-section-space:72px;
- --home-title-font:'Novoferma Protein','Novoferma Poster',Arial,sans-serif;
+ --home-title-font:var(--font-heading);
  --home-title-size:clamp(58px,5.8vw,84px);
  --home-orange-brand:#fa4b06;
  --home-orange-ink:#c94310;
@@ -26,7 +26,7 @@
 .page-index h2.home-editorial-title {
  font-family:var(--home-title-font);
  font-size:var(--home-title-size);
- font-weight:850;
+ font-weight:var(--font-heading-weight);
  line-height:.9;
  letter-spacing:-.012em;
  word-spacing:.045em;
@@ -86,7 +86,6 @@
  .page-index .protein-food {width:min(62.5%,480px)}
  .page-index .protein-hen {width:min(49.5%,380px)}
  .page-index .protein-poster-caption {font-size:clamp(28px,7.2cqw,48px)}
- .page-index .protein-caption-arrow {width:clamp(36px,10cqw,64px);height:clamp(60px,17cqw,100px)}
 }
 @media(min-width:700px) and (max-width:899px) {
  .page-index .home-products .section-heading {align-items:flex-start;flex-direction:column;gap:24px}

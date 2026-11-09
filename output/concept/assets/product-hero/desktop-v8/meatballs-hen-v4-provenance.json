@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-08",
+  "tool": "built-in image_gen.imagegen",
+  "source": "/Users/andrey/.codex/generated_images/01a1ab97-8dbf-7c80-b46f-e9b6e7853b89/exec-e80aff86-7333-44ff-a032-e529a7b6bb4f.png",
+  "output": "meatballs-hen-v4-master.png",
+  "prompt": "meatballs-hen-v4-prompt.txt",
+  "references": [
+    "meatballs-hen-v3-master.png"
+  ],
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "bbox_alpha64": [
+    36,
+    33,
+    1209,
+    1228
+  ],
+  "stand_bottom_alpha64": 1215,
+  "lowest_sneaker_bottom_alpha64": 1228,
+  "baseline_difference_native_px": 13,
+  "inspection": "Cream composite checked; pole extends coherently to relocated single weighted base. Athlete pose/face/clothing/color visually preserved. No food, ball, background or clipped parts. This is a native raster edit, not a pixel-identical patch."
+}

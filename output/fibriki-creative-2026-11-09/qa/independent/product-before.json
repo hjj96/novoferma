@@ -1,0 +1,14 @@
+{
+  "id": "fibriki",
+  "name": "Фибрики",
+  "meat": "Из курицы",
+  "meatKey": "chicken",
+  "weight": "",
+  "category": "Фрикадельки и ёжики",
+  "url": "product-fibriki.html",
+  "previewTone": 3,
+  "previewLean": "left",
+  "anchor": "novelties",
+  "novelty": true,
+  "description": "Куриные фрикадельки с пищевыми волокнами. К любимому гарниру, в суп или с соусом."
+}

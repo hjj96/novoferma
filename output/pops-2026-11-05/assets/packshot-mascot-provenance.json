@@ -1,0 +1,49 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "purpose": "new concept product packaging and mascot, not production photography",
+  "references": [
+    "output/concept/assets/novelty-packaging/fibriki-pack-v11.webp",
+    "output/concept/assets/catalogue-clean-v2/kurinyj-popkorn.webp"
+  ],
+  "outputs": [
+    {
+      "file": "pops-packshot-v1.png",
+      "prompt": "pops-packshot-prompt.txt",
+      "generated_source": "/Users/andrey/.codex/generated_images/01a1ac4b-2ce4-7041-95bc-42f590ba90aa/exec-e74635d9-cc35-4519-a805-8f6202c281b7.png",
+      "role": "original generation"
+    },
+    {
+      "file": "pops-packshot.png",
+      "prompt": "pops-packshot-cleanup-prompt.txt",
+      "generated_source": "/Users/andrey/.codex/generated_images/01a1ac4b-2ce4-7041-95bc-42f590ba90aa/exec-86f10851-84e9-4310-8d40-35afd21f4832.png",
+      "role": "final background cleanup edit",
+      "qa_note": "Main copy and package identity preserved. Few tiny alpha islands remain outside silhouette; inspect on actual cream composition."
+    },
+    {
+      "file": "pops-mascot.png",
+      "prompt": "pops-mascot-prompt.txt",
+      "generated_source": "/Users/andrey/.codex/generated_images/01a1ac4b-2ce4-7041-95bc-42f590ba90aa/exec-86710637-44c5-4a13-9e36-6057a573eecf.png",
+      "role": "standalone mascot generation from packshot reference"
+    }
+  ],
+  "all_outputs": {
+    "width_px": 1254,
+    "height_px": 1254,
+    "mode": "RGBA",
+    "transparent_background": true
+  },
+  "copy_verified": [
+    "NOVOferma",
+    "ПОПСЫ",
+    "МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ",
+    "В ХРУСТЯЩЕЙ ПАНИРОВКЕ"
+  ],
+  "not_invented": [
+    "weight",
+    "nutrition",
+    "ingredients",
+    "certification",
+    "barcode"
+  ],
+  "packaging_status": "visual concept; not manufacturing dieline or confirmed label"
+}

@@ -1,0 +1,1277 @@
+{
+  "scope": "accepted task: novelty order, 400 g each, Fibriki v12 without nutrient labels",
+  "checkedAt": "2026-11-09T12:22:13.035Z",
+  "expectedOrder": [
+    "fibriki",
+    "lenivchiki",
+    "lulia-mini",
+    "popsy",
+    "kotlety-kurinye",
+    "bitochki-kurinye-s-ovoshchami",
+    "ezhiki-iz-tsyplenka-s-risom",
+    "kurinyj-popkorn",
+    "naggetsy-kurinye",
+    "naggetsy-kurinye-s-syrom",
+    "naggetsy-dinozavry",
+    "naggetsy-ostrye",
+    "naggetsy-s-indeykoy-fitnes",
+    "stripsy",
+    "kotlety-po-domashnemu",
+    "kotlety-pikantnye",
+    "kotlety-po-italyanski",
+    "frikadelki-klassicheskie"
+  ],
+  "widths": [
+    {
+      "width": 1440,
+      "products": [
+        {
+          "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/product-fibriki.html",
+          "title": "Фибрики — Новоферма",
+          "viewportWidth": 1440,
+          "documentWidth": 1440,
+          "textOverflow": [],
+          "brokenImages": [],
+          "cards": [],
+          "facts": [],
+          "detailText": "Новинка\n\nФРИКАДЕЛЬКИ И ЁЖИКИ / ИЗ КУРИЦЫ / 400 Г\n\nФИБРИКИ\nВнешний вид упаковки\nКЛЕТЧАТКА —\nВ ПРИВЫЧНОМ БЛЮДЕ.\n\nКуриные фрикадельки с пищевыми волокнами. В суп, к любимому гарниру, на домашний ужин.\n\nГде купить\nДля партнёров\nСостав и приготовление\n\nПеред покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.\n\nЗапросить информацию",
+          "detailEyebrow": "ФРИКАДЕЛЬКИ И ЁЖИКИ / ИЗ КУРИЦЫ / 400 Г",
+          "packshot": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/fibriki-pack-v12-800-q94-0ea08f11.webp",
+          "nutritionBlockPresent": false,
+          "id": "fibriki",
+          "massPassed": true,
+          "revertPassed": true
+        },
+        {
+          "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/product-lenivchiki.html",
+          "title": "Ленивчики — Новоферма",
+          "viewportWidth": 1440,
+          "documentWidth": 1440,
+          "textOverflow": [],
+          "brokenImages": [],
+          "cards": [],
+          "facts": [],
+          "detailText": "Новинка\n\nБИТОЧКИ / ИЗ КУРИЦЫ / 400 Г\n\nЛЕНИВЧИКИ\nВнешний вид упаковки\nМЯСО, РИС\nИ ОВОЩИ — ВМЕСТЕ.\n\nНебольшие биточки из курицы с рисом, капустой и морковью. Ленивые голубцы в новом формате: разогрейте — и подавайте.\n\nГде купить\nДля партнёров\nСостав и приготовление\n\nПеред покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.\n\nЗапросить информацию",
+          "detailEyebrow": "БИТОЧКИ / ИЗ КУРИЦЫ / 400 Г",
+          "packshot": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/lenivchiki-pack-v1-800-q94-ff95cef5.webp",
+          "nutritionBlockPresent": false,
+          "id": "lenivchiki",
+          "massPassed": true
+        },
+        {
+          "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/product-lulia-mini.html",
+          "title": "Люля мини — Новоферма",
+          "viewportWidth": 1440,
+          "documentWidth": 1440,
+          "textOverflow": [],
+          "brokenImages": [],
+          "cards": [],
+          "facts": [],
+          "detailText": "Новинка\n\nЛЮЛЯ МИНИ / ИЗ КУРИЦЫ / 400 Г\n\nЛЮЛЯ МИНИ\nВнешний вид упаковки\n\nМини-колбаски из курицы с зеленью и овощами. Маленький формат для новых сочетаний и любимых гарниров.\n\nГде купить\nДля партнёров\nСостав и приготовление\n\nПеред покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.\n\nЗапросить информацию",
+          "detailEyebrow": "ЛЮЛЯ МИНИ / ИЗ КУРИЦЫ / 400 Г",
+          "packshot": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/lulia-mini-pack-v3-800-q94-5406742c.webp",
+          "nutritionBlockPresent": false,
+          "id": "lulia-mini",
+          "massPassed": true
+        },
+        {
+          "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/product-popsy.html",
+          "title": "Попсы — Новоферма",
+          "viewportWidth": 1440,
+          "documentWidth": 1440,
+          "textOverflow": [],
+          "brokenImages": [],
+          "cards": [],
+          "facts": [],
+          "detailText": "Новинка\n\nНАГГЕТСЫ / ИЗ КУРИЦЫ / 400 Г\n\nПОПСЫ\nВнешний вид упаковки\nМИНИ-НАГГЕТСЫ\nИЗ КУРИЦЫ.\n\nМаленькие неровные кусочки из куриного фарша в хрустящей панировке. К любимому соусу, для перекуса или на общий стол.\n\nГде купить\nДля партнёров\nСостав и приготовление\n\nПеред покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.\n\nЗапросить информацию",
+          "detailEyebrow": "НАГГЕТСЫ / ИЗ КУРИЦЫ / 400 Г",
+          "packshot": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-800-q94-36e1736c.webp",
+          "nutritionBlockPresent": false,
+          "id": "popsy",
+          "massPassed": true
+        }
+      ],
+      "catalogue": {
+        "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/catalogue.html",
+        "title": "Продукция — Новоферма",
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "textOverflow": [],
+        "brokenImages": [],
+        "cards": [
+          {
+            "id": "fibriki",
+            "name": "Фибрики",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/fibriki-pack-v12-400-q94-0ea08f11.webp",
+            "cardBox": {
+              "x": 72,
+              "y": 454,
+              "width": 304.5,
+              "height": 421.609375
+            },
+            "imageBox": {
+              "x": 75,
+              "y": 466,
+              "width": 298.5,
+              "height": 298.5
+            }
+          },
+          {
+            "id": "lenivchiki",
+            "name": "Ленивчики",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/lenivchiki-pack-v1-400-q94-ff95cef5.webp",
+            "cardBox": {
+              "x": 402.5,
+              "y": 454,
+              "width": 304.5,
+              "height": 421.609375
+            },
+            "imageBox": {
+              "x": 415.947509765625,
+              "y": 474.05950927734375,
+              "width": 277.60498046875,
+              "height": 277.60498046875
+            }
+          },
+          {
+            "id": "lulia-mini",
+            "name": "Люля мини",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/lulia-mini-pack-v3-400-q94-5406742c.webp",
+            "cardBox": {
+              "x": 733,
+              "y": 454,
+              "width": 304.5,
+              "height": 421.609375
+            },
+            "imageBox": {
+              "x": 736,
+              "y": 466,
+              "width": 298.5,
+              "height": 298.5
+            }
+          },
+          {
+            "id": "popsy",
+            "name": "Попсы",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp",
+            "cardBox": {
+              "x": 1063.5,
+              "y": 454,
+              "width": 304.5,
+              "height": 421.609375
+            },
+            "imageBox": {
+              "x": 1056.7987060546875,
+              "y": 449.73175048828125,
+              "width": 317.902587890625,
+              "height": 317.90252685546875
+            }
+          },
+          {
+            "id": "kotlety-kurinye",
+            "name": "Котлеты куриные",
+            "weight": "522 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/kotlety-kurinye-400-q94-a1ed2899.webp",
+            "cardBox": {
+              "x": 72,
+              "y": 913.609375,
+              "width": 304.5,
+              "height": 397.609375
+            },
+            "imageBox": {
+              "x": 75,
+              "y": 925.609375,
+              "width": 298.5,
+              "height": 298.5
+            }
+          },
+          {
+            "id": "bitochki-kurinye-s-ovoshchami",
+            "name": "Биточки куриные с овощами",
+            "weight": "450 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/bitochki-kurinye-s-ovoshchami-400-q94-5db59691.webp",
+            "cardBox": {
+              "x": 402.5,
+              "y": 913.609375,
+              "width": 304.5,
+              "height": 397.609375
+            },
+            "imageBox": {
+              "x": 405.5,
+              "y": 925.609375,
+              "width": 298.5,
+              "height": 298.5
+            }
+          },
+          {
+            "id": "ezhiki-iz-tsyplenka-s-risom",
+            "name": "Ёжики из цыпленка с рисом",
+            "weight": "480 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/ezhiki-iz-tsyplenka-s-risom-400-q94-1d1a2e59.webp",
+            "cardBox": {
+              "x": 733,
+              "y": 913.609375,
+              "width": 304.5,
+              "height": 397.609375
+            },
+            "imageBox": {
+              "x": 736,
+              "y": 925.609375,
+              "width": 298.5,
+              "height": 298.5
+            }
+          },
+          {
+            "id": "kurinyj-popkorn",
+            "name": "Куриный попкорн",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/kurinyj-popkorn-400-q94-d707c51a.webp",
+            "cardBox": {
+              "x": 1063.5,
+              "y": 913.609375,
+              "width": 304.5,
+              "height": 397.609375
+            },
+            "imageBox": {
+              "x": 1066.5,
+              "y": 925.609375,
+              "width": 298.5,
+              "height": 298.5
+            }
+          },
+          {
+            "id": "naggetsy-kurinye",
+            "name": "Наггетсы куриные",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-kurinye-400-q94-712fb649.webp",
+            "cardBox": {
+              "x": 72,
+              "y": 1349.21875,
+              "width": 304.5,
+              "height": 423.21875
+            },
+            "imageBox": {
+              "x": 75,
+              "y": 1361.21875,
+              "width": 298.5,
+              "height": 298.5
+            }
+          },
+          {
+            "id": "naggetsy-kurinye-s-syrom",
+            "name": "Наггетсы куриные с сыром",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-kurinye-s-syrom-400-q94-070a49d8.webp",
+            "cardBox": {
+              "x": 402.5,
+              "y": 1349.21875,
+              "width": 304.5,
+              "height": 423.21875
+            },
+            "imageBox": {
+              "x": 405.5,
+              "y": 1361.21875,
+              "width": 298.5,
+              "height": 298.5
+            }
+          },
+          {
+            "id": "naggetsy-dinozavry",
+            "name": "Наггетсы куриные «Динозавры»",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-dinozavry-400-q94-d8f755c7.webp",
+            "cardBox": {
+              "x": 733,
+              "y": 1349.21875,
+              "width": 304.5,
+              "height": 423.21875
+            },
+            "imageBox": {
+              "x": 736,
+              "y": 1361.21875,
+              "width": 298.5,
+              "height": 298.5
+            }
+          },
+          {
+            "id": "naggetsy-ostrye",
+            "name": "Наггетсы куриные острые",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-ostrye-400-q94-d5c86a9d.webp",
+            "cardBox": {
+              "x": 1063.5,
+              "y": 1349.21875,
+              "width": 304.5,
+              "height": 423.21875
+            },
+            "imageBox": {
+              "x": 1066.5,
+              "y": 1361.21875,
+              "width": 298.5,
+              "height": 298.5
+            }
+          },
+          {
+            "id": "naggetsy-s-indeykoy-fitnes",
+            "name": "Наггетсы с индейкой «Фитнес»",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-s-indeykoy-fitnes-400-q94-68b47a02.webp",
+            "cardBox": {
+              "x": 72,
+              "y": 1810.4375,
+              "width": 304.5,
+              "height": 423.21875
+            },
+            "imageBox": {
+              "x": 75,
+              "y": 1822.4375,
+              "width": 298.5,
+              "height": 298.5
+            }
+          },
+          {
+            "id": "stripsy",
+            "name": "Стрипсы",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/stripsy-400-q94-04f43af0.webp",
+            "cardBox": {
+              "x": 402.5,
+              "y": 1810.4375,
+              "width": 304.5,
+              "height": 423.21875
+            },
+            "imageBox": {
+              "x": 405.5,
+              "y": 1822.4375,
+              "width": 298.5,
+              "height": 298.5
+            }
+          },
+          {
+            "id": "kotlety-po-domashnemu",
+            "name": "Котлеты по-домашнему",
+            "weight": "480 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/kotlety-po-domashnemu-400-q94-4b30908e.webp",
+            "cardBox": {
+              "x": 733,
+              "y": 1810.4375,
+              "width": 304.5,
+              "height": 423.21875
+            },
+            "imageBox": {
+              "x": 736,
+              "y": 1822.4375,
+              "width": 298.5,
+              "height": 298.5
+            }
+          },
+          {
+            "id": "kotlety-pikantnye",
+            "name": "Котлеты пикантные",
+            "weight": "480 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/kotlety-pikantnye-400-q94-aed06aa1.webp",
+            "cardBox": {
+              "x": 1063.5,
+              "y": 1810.4375,
+              "width": 304.5,
+              "height": 423.21875
+            },
+            "imageBox": {
+              "x": 1066.5,
+              "y": 1822.4375,
+              "width": 298.5,
+              "height": 298.5
+            }
+          },
+          {
+            "id": "kotlety-po-italyanski",
+            "name": "Котлеты по-итальянски",
+            "weight": "480 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/kotlety-po-italyanski-400-q94-4e765a90.webp",
+            "cardBox": {
+              "x": 72,
+              "y": 2271.65625,
+              "width": 304.5,
+              "height": 423.21875
+            },
+            "imageBox": {
+              "x": 75,
+              "y": 2283.65625,
+              "width": 298.5,
+              "height": 298.5
+            }
+          },
+          {
+            "id": "frikadelki-klassicheskie",
+            "name": "Фрикадельки «Классические»",
+            "weight": "500 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/frikadelki-klassicheskie-400-q94-e0ef4bbb.webp",
+            "cardBox": {
+              "x": 402.5,
+              "y": 2271.65625,
+              "width": 304.5,
+              "height": 423.21875
+            },
+            "imageBox": {
+              "x": 405.5,
+              "y": 2283.65625,
+              "width": 298.5,
+              "height": 298.5
+            }
+          }
+        ],
+        "facts": [],
+        "nutritionBlockPresent": false
+      },
+      "orderPassed": true,
+      "catalogueWeightsPassed": true
+    },
+    {
+      "width": 390,
+      "products": [
+        {
+          "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/product-fibriki.html",
+          "title": "Фибрики — Новоферма",
+          "viewportWidth": 390,
+          "documentWidth": 390,
+          "textOverflow": [],
+          "brokenImages": [],
+          "cards": [],
+          "facts": [],
+          "detailText": "Новинка\n\nФРИКАДЕЛЬКИ И ЁЖИКИ / ИЗ КУРИЦЫ / 400 Г\n\nФИБРИКИ\nВнешний вид упаковки\nКЛЕТЧАТКА —\nВ ПРИВЫЧНОМ БЛЮДЕ.\n\nКуриные фрикадельки с пищевыми волокнами. В суп, к любимому гарниру, на домашний ужин.\n\nГде купить\nДля партнёров\nСостав и приготовление\n\nПеред покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.\n\nЗапросить информацию",
+          "detailEyebrow": "ФРИКАДЕЛЬКИ И ЁЖИКИ / ИЗ КУРИЦЫ / 400 Г",
+          "packshot": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/fibriki-pack-v12-400-q94-0ea08f11.webp",
+          "nutritionBlockPresent": false,
+          "id": "fibriki",
+          "massPassed": true,
+          "revertPassed": true
+        },
+        {
+          "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/product-lenivchiki.html",
+          "title": "Ленивчики — Новоферма",
+          "viewportWidth": 390,
+          "documentWidth": 390,
+          "textOverflow": [],
+          "brokenImages": [],
+          "cards": [],
+          "facts": [],
+          "detailText": "Новинка\n\nБИТОЧКИ / ИЗ КУРИЦЫ / 400 Г\n\nЛЕНИВЧИКИ\nВнешний вид упаковки\nМЯСО, РИС\nИ ОВОЩИ — ВМЕСТЕ.\n\nНебольшие биточки из курицы с рисом, капустой и морковью. Ленивые голубцы в новом формате: разогрейте — и подавайте.\n\nГде купить\nДля партнёров\nСостав и приготовление\n\nПеред покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.\n\nЗапросить информацию",
+          "detailEyebrow": "БИТОЧКИ / ИЗ КУРИЦЫ / 400 Г",
+          "packshot": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/lenivchiki-pack-v1-400-q94-ff95cef5.webp",
+          "nutritionBlockPresent": false,
+          "id": "lenivchiki",
+          "massPassed": true
+        },
+        {
+          "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/product-lulia-mini.html",
+          "title": "Люля мини — Новоферма",
+          "viewportWidth": 390,
+          "documentWidth": 390,
+          "textOverflow": [],
+          "brokenImages": [],
+          "cards": [],
+          "facts": [],
+          "detailText": "Новинка\n\nЛЮЛЯ МИНИ / ИЗ КУРИЦЫ / 400 Г\n\nЛЮЛЯ МИНИ\nВнешний вид упаковки\n\nМини-колбаски из курицы с зеленью и овощами. Маленький формат для новых сочетаний и любимых гарниров.\n\nГде купить\nДля партнёров\nСостав и приготовление\n\nПеред покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.\n\nЗапросить информацию",
+          "detailEyebrow": "ЛЮЛЯ МИНИ / ИЗ КУРИЦЫ / 400 Г",
+          "packshot": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/lulia-mini-pack-v3-400-q94-5406742c.webp",
+          "nutritionBlockPresent": false,
+          "id": "lulia-mini",
+          "massPassed": true
+        },
+        {
+          "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/product-popsy.html",
+          "title": "Попсы — Новоферма",
+          "viewportWidth": 390,
+          "documentWidth": 390,
+          "textOverflow": [],
+          "brokenImages": [],
+          "cards": [],
+          "facts": [],
+          "detailText": "Новинка\n\nНАГГЕТСЫ / ИЗ КУРИЦЫ / 400 Г\n\nПОПСЫ\nВнешний вид упаковки\nМИНИ-НАГГЕТСЫ\nИЗ КУРИЦЫ.\n\nМаленькие неровные кусочки из куриного фарша в хрустящей панировке. К любимому соусу, для перекуса или на общий стол.\n\nГде купить\nДля партнёров\nСостав и приготовление\n\nПеред покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.\n\nЗапросить информацию",
+          "detailEyebrow": "НАГГЕТСЫ / ИЗ КУРИЦЫ / 400 Г",
+          "packshot": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp",
+          "nutritionBlockPresent": false,
+          "id": "popsy",
+          "massPassed": true
+        }
+      ],
+      "catalogue": {
+        "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/catalogue.html",
+        "title": "Продукция — Новоферма",
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "textOverflow": [],
+        "brokenImages": [],
+        "cards": [
+          {
+            "id": "fibriki",
+            "name": "Фибрики",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/fibriki-pack-v12-400-q94-0ea08f11.webp",
+            "cardBox": {
+              "x": 20,
+              "y": 278.1875,
+              "width": 167,
+              "height": 267.953125
+            },
+            "imageBox": {
+              "x": 21,
+              "y": 286.1875,
+              "width": 165,
+              "height": 165
+            }
+          },
+          {
+            "id": "lenivchiki",
+            "name": "Ленивчики",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/lenivchiki-pack-v1-400-q94-ff95cef5.webp",
+            "cardBox": {
+              "x": 203,
+              "y": 278.1875,
+              "width": 167,
+              "height": 267.953125
+            },
+            "imageBox": {
+              "x": 209.77499389648438,
+              "y": 290.64251708984375,
+              "width": 153.45001220703125,
+              "height": 153.44998168945312
+            }
+          },
+          {
+            "id": "lulia-mini",
+            "name": "Люля мини",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/lulia-mini-pack-v3-400-q94-5406742c.webp",
+            "cardBox": {
+              "x": 20,
+              "y": 574.140625,
+              "width": 167,
+              "height": 267.953125
+            },
+            "imageBox": {
+              "x": 21,
+              "y": 582.140625,
+              "width": 165,
+              "height": 165
+            }
+          },
+          {
+            "id": "popsy",
+            "name": "Попсы",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp",
+            "cardBox": {
+              "x": 203,
+              "y": 574.140625,
+              "width": 167,
+              "height": 267.953125
+            },
+            "imageBox": {
+              "x": 198.6374969482422,
+              "y": 573.1481323242188,
+              "width": 175.72499084472656,
+              "height": 175.72503662109375
+            }
+          },
+          {
+            "id": "kotlety-kurinye",
+            "name": "Котлеты куриные",
+            "weight": "522 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/kotlety-kurinye-400-q94-a1ed2899.webp",
+            "cardBox": {
+              "x": 20,
+              "y": 870.09375,
+              "width": 167,
+              "height": 266.90625
+            },
+            "imageBox": {
+              "x": 21,
+              "y": 878.09375,
+              "width": 165,
+              "height": 165
+            }
+          },
+          {
+            "id": "bitochki-kurinye-s-ovoshchami",
+            "name": "Биточки куриные с овощами",
+            "weight": "450 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/bitochki-kurinye-s-ovoshchami-400-q94-5db59691.webp",
+            "cardBox": {
+              "x": 203,
+              "y": 870.09375,
+              "width": 167,
+              "height": 266.90625
+            },
+            "imageBox": {
+              "x": 204,
+              "y": 878.09375,
+              "width": 165,
+              "height": 165
+            }
+          },
+          {
+            "id": "ezhiki-iz-tsyplenka-s-risom",
+            "name": "Ёжики из цыпленка с рисом",
+            "weight": "480 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/ezhiki-iz-tsyplenka-s-risom-400-q94-1d1a2e59.webp",
+            "cardBox": {
+              "x": 20,
+              "y": 1165,
+              "width": 167,
+              "height": 266.90625
+            },
+            "imageBox": {
+              "x": 21,
+              "y": 1173,
+              "width": 165,
+              "height": 165
+            }
+          },
+          {
+            "id": "kurinyj-popkorn",
+            "name": "Куриный попкорн",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/kurinyj-popkorn-400-q94-d707c51a.webp",
+            "cardBox": {
+              "x": 203,
+              "y": 1165,
+              "width": 167,
+              "height": 266.90625
+            },
+            "imageBox": {
+              "x": 204,
+              "y": 1173,
+              "width": 165,
+              "height": 165
+            }
+          },
+          {
+            "id": "naggetsy-kurinye",
+            "name": "Наггетсы куриные",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-kurinye-400-q94-712fb649.webp",
+            "cardBox": {
+              "x": 20,
+              "y": 1459.90625,
+              "width": 167,
+              "height": 266.90625
+            },
+            "imageBox": {
+              "x": 21,
+              "y": 1467.90625,
+              "width": 165,
+              "height": 165
+            }
+          },
+          {
+            "id": "naggetsy-kurinye-s-syrom",
+            "name": "Наггетсы куриные с сыром",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-kurinye-s-syrom-400-q94-070a49d8.webp",
+            "cardBox": {
+              "x": 203,
+              "y": 1459.90625,
+              "width": 167,
+              "height": 266.90625
+            },
+            "imageBox": {
+              "x": 204,
+              "y": 1467.90625,
+              "width": 165,
+              "height": 165
+            }
+          },
+          {
+            "id": "naggetsy-dinozavry",
+            "name": "Наггетсы куриные «Динозавры»",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-dinozavry-400-q94-d8f755c7.webp",
+            "cardBox": {
+              "x": 20,
+              "y": 1754.8125,
+              "width": 167,
+              "height": 266.90625
+            },
+            "imageBox": {
+              "x": 21,
+              "y": 1762.8125,
+              "width": 165,
+              "height": 165
+            }
+          },
+          {
+            "id": "naggetsy-ostrye",
+            "name": "Наггетсы куриные острые",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-ostrye-400-q94-d5c86a9d.webp",
+            "cardBox": {
+              "x": 203,
+              "y": 1754.8125,
+              "width": 167,
+              "height": 266.90625
+            },
+            "imageBox": {
+              "x": 204,
+              "y": 1762.8125,
+              "width": 165,
+              "height": 165
+            }
+          },
+          {
+            "id": "naggetsy-s-indeykoy-fitnes",
+            "name": "Наггетсы с индейкой «Фитнес»",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-s-indeykoy-fitnes-400-q94-68b47a02.webp",
+            "cardBox": {
+              "x": 20,
+              "y": 2049.71875,
+              "width": 167,
+              "height": 288.859375
+            },
+            "imageBox": {
+              "x": 21,
+              "y": 2057.71875,
+              "width": 165,
+              "height": 165
+            }
+          },
+          {
+            "id": "stripsy",
+            "name": "Стрипсы",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/stripsy-400-q94-04f43af0.webp",
+            "cardBox": {
+              "x": 203,
+              "y": 2049.71875,
+              "width": 167,
+              "height": 288.859375
+            },
+            "imageBox": {
+              "x": 204,
+              "y": 2057.71875,
+              "width": 165,
+              "height": 165
+            }
+          },
+          {
+            "id": "kotlety-po-domashnemu",
+            "name": "Котлеты по-домашнему",
+            "weight": "480 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/kotlety-po-domashnemu-400-q94-4b30908e.webp",
+            "cardBox": {
+              "x": 20,
+              "y": 2366.578125,
+              "width": 167,
+              "height": 266.90625
+            },
+            "imageBox": {
+              "x": 21,
+              "y": 2374.578125,
+              "width": 165,
+              "height": 165
+            }
+          },
+          {
+            "id": "kotlety-pikantnye",
+            "name": "Котлеты пикантные",
+            "weight": "480 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/kotlety-pikantnye-400-q94-aed06aa1.webp",
+            "cardBox": {
+              "x": 203,
+              "y": 2366.578125,
+              "width": 167,
+              "height": 266.90625
+            },
+            "imageBox": {
+              "x": 204,
+              "y": 2374.578125,
+              "width": 165,
+              "height": 165
+            }
+          },
+          {
+            "id": "kotlety-po-italyanski",
+            "name": "Котлеты по-итальянски",
+            "weight": "480 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/kotlety-po-italyanski-400-q94-4e765a90.webp",
+            "cardBox": {
+              "x": 20,
+              "y": 2661.484375,
+              "width": 167,
+              "height": 266.90625
+            },
+            "imageBox": {
+              "x": 21,
+              "y": 2669.484375,
+              "width": 165,
+              "height": 165
+            }
+          },
+          {
+            "id": "frikadelki-klassicheskie",
+            "name": "Фрикадельки «Классические»",
+            "weight": "500 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/frikadelki-klassicheskie-400-q94-e0ef4bbb.webp",
+            "cardBox": {
+              "x": 203,
+              "y": 2661.484375,
+              "width": 167,
+              "height": 266.90625
+            },
+            "imageBox": {
+              "x": 204,
+              "y": 2669.484375,
+              "width": 165,
+              "height": 165
+            }
+          }
+        ],
+        "facts": [],
+        "nutritionBlockPresent": false
+      },
+      "orderPassed": true,
+      "catalogueWeightsPassed": true
+    },
+    {
+      "width": 320,
+      "products": [
+        {
+          "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/product-fibriki.html",
+          "title": "Фибрики — Новоферма",
+          "viewportWidth": 320,
+          "documentWidth": 320,
+          "textOverflow": [],
+          "brokenImages": [],
+          "cards": [],
+          "facts": [],
+          "detailText": "Новинка\n\nФРИКАДЕЛЬКИ И ЁЖИКИ / ИЗ КУРИЦЫ / 400 Г\n\nФИБРИКИ\nВнешний вид упаковки\nКЛЕТЧАТКА —\nВ ПРИВЫЧНОМ БЛЮДЕ.\n\nКуриные фрикадельки с пищевыми волокнами. В суп, к любимому гарниру, на домашний ужин.\n\nГде купить\nДля партнёров\nСостав и приготовление\n\nПеред покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.\n\nЗапросить информацию",
+          "detailEyebrow": "ФРИКАДЕЛЬКИ И ЁЖИКИ / ИЗ КУРИЦЫ / 400 Г",
+          "packshot": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/fibriki-pack-v12-400-q94-0ea08f11.webp",
+          "nutritionBlockPresent": false,
+          "id": "fibriki",
+          "massPassed": true,
+          "revertPassed": true
+        },
+        {
+          "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/product-lenivchiki.html",
+          "title": "Ленивчики — Новоферма",
+          "viewportWidth": 320,
+          "documentWidth": 320,
+          "textOverflow": [],
+          "brokenImages": [],
+          "cards": [],
+          "facts": [],
+          "detailText": "Новинка\n\nБИТОЧКИ / ИЗ КУРИЦЫ / 400 Г\n\nЛЕНИВЧИКИ\nВнешний вид упаковки\nМЯСО, РИС\nИ ОВОЩИ — ВМЕСТЕ.\n\nНебольшие биточки из курицы с рисом, капустой и морковью. Ленивые голубцы в новом формате: разогрейте — и подавайте.\n\nГде купить\nДля партнёров\nСостав и приготовление\n\nПеред покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.\n\nЗапросить информацию",
+          "detailEyebrow": "БИТОЧКИ / ИЗ КУРИЦЫ / 400 Г",
+          "packshot": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/lenivchiki-pack-v1-400-q94-ff95cef5.webp",
+          "nutritionBlockPresent": false,
+          "id": "lenivchiki",
+          "massPassed": true
+        },
+        {
+          "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/product-lulia-mini.html",
+          "title": "Люля мини — Новоферма",
+          "viewportWidth": 320,
+          "documentWidth": 320,
+          "textOverflow": [],
+          "brokenImages": [],
+          "cards": [],
+          "facts": [],
+          "detailText": "Новинка\n\nЛЮЛЯ МИНИ / ИЗ КУРИЦЫ / 400 Г\n\nЛЮЛЯ МИНИ\nВнешний вид упаковки\n\nМини-колбаски из курицы с зеленью и овощами. Маленький формат для новых сочетаний и любимых гарниров.\n\nГде купить\nДля партнёров\nСостав и приготовление\n\nПеред покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.\n\nЗапросить информацию",
+          "detailEyebrow": "ЛЮЛЯ МИНИ / ИЗ КУРИЦЫ / 400 Г",
+          "packshot": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/lulia-mini-pack-v3-400-q94-5406742c.webp",
+          "nutritionBlockPresent": false,
+          "id": "lulia-mini",
+          "massPassed": true
+        },
+        {
+          "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/product-popsy.html",
+          "title": "Попсы — Новоферма",
+          "viewportWidth": 320,
+          "documentWidth": 320,
+          "textOverflow": [],
+          "brokenImages": [],
+          "cards": [],
+          "facts": [],
+          "detailText": "Новинка\n\nНАГГЕТСЫ / ИЗ КУРИЦЫ / 400 Г\n\nПОПСЫ\nВнешний вид упаковки\nМИНИ-НАГГЕТСЫ\nИЗ КУРИЦЫ.\n\nМаленькие неровные кусочки из куриного фарша в хрустящей панировке. К любимому соусу, для перекуса или на общий стол.\n\nГде купить\nДля партнёров\nСостав и приготовление\n\nПеред покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.\n\nЗапросить информацию",
+          "detailEyebrow": "НАГГЕТСЫ / ИЗ КУРИЦЫ / 400 Г",
+          "packshot": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp",
+          "nutritionBlockPresent": false,
+          "id": "popsy",
+          "massPassed": true
+        }
+      ],
+      "catalogue": {
+        "url": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/catalogue.html",
+        "title": "Продукция — Новоферма",
+        "viewportWidth": 320,
+        "documentWidth": 320,
+        "textOverflow": [],
+        "brokenImages": [],
+        "cards": [
+          {
+            "id": "fibriki",
+            "name": "Фибрики",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/fibriki-pack-v12-400-q94-0ea08f11.webp",
+            "cardBox": {
+              "x": 16,
+              "y": 253.09375,
+              "width": 137.5,
+              "height": 236.015625
+            },
+            "imageBox": {
+              "x": 17,
+              "y": 261.09375,
+              "width": 135.5,
+              "height": 135.5
+            }
+          },
+          {
+            "id": "lenivchiki",
+            "name": "Ленивчики",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/lenivchiki-pack-v1-400-q94-ff95cef5.webp",
+            "cardBox": {
+              "x": 166.5,
+              "y": 253.09375,
+              "width": 137.5,
+              "height": 236.015625
+            },
+            "imageBox": {
+              "x": 172.24249267578125,
+              "y": 264.75225830078125,
+              "width": 126.0150146484375,
+              "height": 126.0150146484375
+            }
+          },
+          {
+            "id": "lulia-mini",
+            "name": "Люля мини",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/lulia-mini-pack-v3-400-q94-5406742c.webp",
+            "cardBox": {
+              "x": 16,
+              "y": 515.109375,
+              "width": 137.5,
+              "height": 236.015625
+            },
+            "imageBox": {
+              "x": 17,
+              "y": 523.109375,
+              "width": 135.5,
+              "height": 135.5
+            }
+          },
+          {
+            "id": "popsy",
+            "name": "Попсы",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp",
+            "cardBox": {
+              "x": 166.5,
+              "y": 515.109375,
+              "width": 137.5,
+              "height": 236.015625
+            },
+            "imageBox": {
+              "x": 163.09625244140625,
+              "y": 515.724609375,
+              "width": 144.3074951171875,
+              "height": 144.3074951171875
+            }
+          },
+          {
+            "id": "kotlety-kurinye",
+            "name": "Котлеты куриные",
+            "weight": "522 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/kotlety-kurinye-400-q94-a1ed2899.webp",
+            "cardBox": {
+              "x": 16,
+              "y": 777.125,
+              "width": 137.5,
+              "height": 232.53125
+            },
+            "imageBox": {
+              "x": 17,
+              "y": 785.125,
+              "width": 135.5,
+              "height": 135.5
+            }
+          },
+          {
+            "id": "bitochki-kurinye-s-ovoshchami",
+            "name": "Биточки куриные с овощами",
+            "weight": "450 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/bitochki-kurinye-s-ovoshchami-400-q94-5db59691.webp",
+            "cardBox": {
+              "x": 166.5,
+              "y": 777.125,
+              "width": 137.5,
+              "height": 232.53125
+            },
+            "imageBox": {
+              "x": 167.5,
+              "y": 785.125,
+              "width": 135.5,
+              "height": 135.5
+            }
+          },
+          {
+            "id": "ezhiki-iz-tsyplenka-s-risom",
+            "name": "Ёжики из цыпленка с рисом",
+            "weight": "480 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/ezhiki-iz-tsyplenka-s-risom-400-q94-1d1a2e59.webp",
+            "cardBox": {
+              "x": 16,
+              "y": 1035.65625,
+              "width": 137.5,
+              "height": 252.046875
+            },
+            "imageBox": {
+              "x": 17,
+              "y": 1043.65625,
+              "width": 135.5,
+              "height": 135.5
+            }
+          },
+          {
+            "id": "kurinyj-popkorn",
+            "name": "Куриный попкорн",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/kurinyj-popkorn-400-q94-d707c51a.webp",
+            "cardBox": {
+              "x": 166.5,
+              "y": 1035.65625,
+              "width": 137.5,
+              "height": 252.046875
+            },
+            "imageBox": {
+              "x": 167.5,
+              "y": 1043.65625,
+              "width": 135.5,
+              "height": 135.5
+            }
+          },
+          {
+            "id": "naggetsy-kurinye",
+            "name": "Наггетсы куриные",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-kurinye-400-q94-712fb649.webp",
+            "cardBox": {
+              "x": 16,
+              "y": 1313.703125,
+              "width": 137.5,
+              "height": 232.53125
+            },
+            "imageBox": {
+              "x": 17,
+              "y": 1321.703125,
+              "width": 135.5,
+              "height": 135.5
+            }
+          },
+          {
+            "id": "naggetsy-kurinye-s-syrom",
+            "name": "Наггетсы куриные с сыром",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-kurinye-s-syrom-400-q94-070a49d8.webp",
+            "cardBox": {
+              "x": 166.5,
+              "y": 1313.703125,
+              "width": 137.5,
+              "height": 232.53125
+            },
+            "imageBox": {
+              "x": 167.5,
+              "y": 1321.703125,
+              "width": 135.5,
+              "height": 135.5
+            }
+          },
+          {
+            "id": "naggetsy-dinozavry",
+            "name": "Наггетсы куриные «Динозавры»",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-dinozavry-400-q94-d8f755c7.webp",
+            "cardBox": {
+              "x": 16,
+              "y": 1572.234375,
+              "width": 137.5,
+              "height": 252.046875
+            },
+            "imageBox": {
+              "x": 17,
+              "y": 1580.234375,
+              "width": 135.5,
+              "height": 135.5
+            }
+          },
+          {
+            "id": "naggetsy-ostrye",
+            "name": "Наггетсы куриные острые",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-ostrye-400-q94-d5c86a9d.webp",
+            "cardBox": {
+              "x": 166.5,
+              "y": 1572.234375,
+              "width": 137.5,
+              "height": 252.046875
+            },
+            "imageBox": {
+              "x": 167.5,
+              "y": 1580.234375,
+              "width": 135.5,
+              "height": 135.5
+            }
+          },
+          {
+            "id": "naggetsy-s-indeykoy-fitnes",
+            "name": "Наггетсы с индейкой «Фитнес»",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-s-indeykoy-fitnes-400-q94-68b47a02.webp",
+            "cardBox": {
+              "x": 16,
+              "y": 1850.28125,
+              "width": 137.5,
+              "height": 252.046875
+            },
+            "imageBox": {
+              "x": 17,
+              "y": 1858.28125,
+              "width": 135.5,
+              "height": 135.5
+            }
+          },
+          {
+            "id": "stripsy",
+            "name": "Стрипсы",
+            "weight": "400 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/stripsy-400-q94-04f43af0.webp",
+            "cardBox": {
+              "x": 166.5,
+              "y": 1850.28125,
+              "width": 137.5,
+              "height": 252.046875
+            },
+            "imageBox": {
+              "x": 167.5,
+              "y": 1858.28125,
+              "width": 135.5,
+              "height": 135.5
+            }
+          },
+          {
+            "id": "kotlety-po-domashnemu",
+            "name": "Котлеты по-домашнему",
+            "weight": "480 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/kotlety-po-domashnemu-400-q94-4b30908e.webp",
+            "cardBox": {
+              "x": 16,
+              "y": 2128.328125,
+              "width": 137.5,
+              "height": 232.53125
+            },
+            "imageBox": {
+              "x": 17,
+              "y": 2136.328125,
+              "width": 135.5,
+              "height": 135.5
+            }
+          },
+          {
+            "id": "kotlety-pikantnye",
+            "name": "Котлеты пикантные",
+            "weight": "480 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/kotlety-pikantnye-400-q94-aed06aa1.webp",
+            "cardBox": {
+              "x": 166.5,
+              "y": 2128.328125,
+              "width": 137.5,
+              "height": 232.53125
+            },
+            "imageBox": {
+              "x": 167.5,
+              "y": 2136.328125,
+              "width": 135.5,
+              "height": 135.5
+            }
+          },
+          {
+            "id": "kotlety-po-italyanski",
+            "name": "Котлеты по-итальянски",
+            "weight": "480 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/kotlety-po-italyanski-400-q94-4e765a90.webp",
+            "cardBox": {
+              "x": 16,
+              "y": 2386.859375,
+              "width": 137.5,
+              "height": 232.53125
+            },
+            "imageBox": {
+              "x": 17,
+              "y": 2394.859375,
+              "width": 135.5,
+              "height": 135.5
+            }
+          },
+          {
+            "id": "frikadelki-klassicheskie",
+            "name": "Фрикадельки «Классические»",
+            "weight": "500 г",
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/frikadelki-klassicheskie-400-q94-e0ef4bbb.webp",
+            "cardBox": {
+              "x": 166.5,
+              "y": 2386.859375,
+              "width": 137.5,
+              "height": 232.53125
+            },
+            "imageBox": {
+              "x": 167.5,
+              "y": 2394.859375,
+              "width": 135.5,
+              "height": 135.5
+            }
+          }
+        ],
+        "facts": [],
+        "nutritionBlockPresent": false
+      },
+      "orderPassed": true,
+      "catalogueWeightsPassed": true
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "manifestNovelties": [
+    {
+      "id": "fibriki",
+      "weight": "400 г",
+      "image": "assets/novelty-packaging/fibriki-pack-v12.webp?v=0ea08f11f1"
+    },
+    {
+      "id": "lenivchiki",
+      "weight": "400 г",
+      "image": "assets/novelty-packaging/lenivchiki-pack-v1.webp?v=ff95cef537"
+    },
+    {
+      "id": "lulia-mini",
+      "weight": "400 г",
+      "image": "assets/novelty-packaging/lulia-mini-pack-v3.webp?v=5406742c35"
+    },
+    {
+      "id": "popsy",
+      "weight": "400 г",
+      "image": "assets/novelty-packaging/popsy-pack-v4.webp?v=36e1736c4d"
+    }
+  ],
+  "passed": true,
+  "testCorrection": "The mass matcher was made case-insensitive after inspecting captured DOM: CSS text-transform uppercases the visible unit to Г. All captured eyebrow strings contain 400 Г. No website change or browser rerun was required."
+}

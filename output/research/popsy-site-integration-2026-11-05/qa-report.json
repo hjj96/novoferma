@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-05",
+  "scope": "Утверждённые Попсы на главной и странице продукта, архив сайта.",
+  "static": {
+    "pages": 23,
+    "images": 400,
+    "localReferences": 1451,
+    "uniqueTitles": 23,
+    "uniqueDescriptions": 23,
+    "publicUrl": null,
+    "errors": [],
+    "result": "pass",
+    "scope": "Generated source only; visual and interactive browser checks are separate."
+  },
+  "browser": {
+    "result": "pass",
+    "checks": [
+      {
+        "page": "home",
+        "width": 1440,
+        "scroll": 1440,
+        "featured": [
+          "popsy",
+          "naggetsy-kurinye",
+          "stripsy",
+          "frikadelki-klassicheskie"
+        ],
+        "pops": [
+          {
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v3-400-q94-2bbda6ae.webp",
+            "loaded": true
+          }
+        ]
+      },
+      {
+        "page": "popsy",
+        "width": 1440,
+        "scroll": 1440,
+        "h1": "Попсы",
+        "rock": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/illustrations/popsy-rock-v3-800-q90-955f3f14.webp",
+        "lifestyle": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/illustrations/popsy-lifestyle-v3-800-q90-8073b7b6.webp",
+        "broken": [],
+        "buy": true
+      },
+      {
+        "page": "home",
+        "width": 390,
+        "scroll": 390,
+        "featured": [
+          "popsy",
+          "naggetsy-kurinye",
+          "stripsy",
+          "frikadelki-klassicheskie"
+        ],
+        "pops": [
+          {
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v3-400-q94-2bbda6ae.webp",
+            "loaded": true
+          }
+        ]
+      },
+      {
+        "page": "popsy",
+        "width": 390,
+        "scroll": 390,
+        "h1": "Попсы",
+        "rock": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/illustrations/popsy-rock-v3-400-q90-955f3f14.webp",
+        "lifestyle": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/illustrations/popsy-lifestyle-v3-400-q90-8073b7b6.webp",
+        "broken": [],
+        "buy": true
+      },
+      {
+        "page": "home",
+        "width": 320,
+        "scroll": 320,
+        "featured": [
+          "popsy",
+          "naggetsy-kurinye",
+          "stripsy",
+          "frikadelki-klassicheskie"
+        ],
+        "pops": [
+          {
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v3-400-q94-2bbda6ae.webp",
+            "loaded": true
+          }
+        ]
+      },
+      {
+        "page": "popsy",
+        "width": 320,
+        "scroll": 320,
+        "h1": "Попсы",
+        "rock": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/illustrations/popsy-rock-v3-400-q90-955f3f14.webp",
+        "lifestyle": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/illustrations/popsy-lifestyle-v3-400-q90-8073b7b6.webp",
+        "broken": [],
+        "buy": true
+      }
+    ],
+    "errors": []
+  },
+  "interactionTests": {
+    "pass": 22,
+    "fail": 0
+  },
+  "changedHtmlPages": [
+    "product-popsy.html",
+    "index.html"
+  ],
+  "archive": {
+    "path": "output/novoferma-site.zip",
+    "bytes": 19296233,
+    "rockAndLifestyleIncluded": true,
+    "approvedPack": "popsy-pack-v3",
+    "sha256": "0bb57098dd582b08a46466992e93fae8ccae18dab64229f37d665ecc41c7bfea"
+  }
+}

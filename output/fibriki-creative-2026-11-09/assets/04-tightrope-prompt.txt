@@ -1,0 +1,32 @@
+INITIAL GENERATION — built-in image_gen; ONLY original Fibriki v11 used as external reference/edit target
+
+Use case: precise-object-edit / product-mockup.
+The ONLY supplied image, fibriki-pack-v11.webp, is the EDIT TARGET. Create ONE complete physical FIBRIKI package by changing ONLY the illustrated standing hen on the lower-right part of its cream paper sleeve into the tightrope-walking scene below. The supplied original is the authority for every other part of the image.
+
+PRESERVE EXACTLY, WITHOUT REDRAWING OR REINTERPRETING:
+- The full physical packaging geometry, original silhouette, shallow transparent ribbed PET tray and curved cream paper sleeve.
+- Original front three-quarter camera angle, scale, perspective, cream paper color and texture, shadows, and original clear margins. Do not enlarge the package to fill the canvas.
+- The ORIGINAL PHOTOGRAPHIC FOOD HERO ON THE LEFT: one whole cooked browned round chicken Fibriki meatball and one cut half. Preserve their exact shapes, surface, homogeneous pale fine chicken-mince interior and tiny sparse green flecks, their position and scale. Do not redraw or change the left food photo.
+- The ORIGINAL CONTENTS INSIDE THE TRANSPARENT PHYSICAL TRAY: pale RAW-FROZEN chicken meatballs, fine homogeneous minced-chicken texture, sparse tiny green flecks, as in the source. Preserve them visually exactly. They are NOT cooked brown patties, NOT rice balls, and NOT breaded. No rice, cabbage, carrot, diced pieces, geometric grain patterns, cheese or extra ingredients anywhere.
+- Every original text and its position, typography, case and hierarchy: orange "NOVOferma"; large dark warm-brown Roman serif "ФИБРИКИ"; "ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ"; "С ПИЩЕВЫМИ ВОЛОКНАМИ"; "БЕЛОК + КЛЕТЧАТКА". No new words, badges, numbers, labels, claims or logos. All lettering remains completely readable and untouched.
+
+CHANGE ONLY THE RIGHT-HAND DRAWN HEN SCENE:
+04 TIGHTROPE / КАНАТОХОДЕЦ — THE SPOON BALANCE.
+Replace only the original calm illustrated standing hen sniffing a spoon with the recognizable Novoferma golden-orange hen as a charming tightrope walker. It balances on ONE thin brown bird foot on a fine gently curved TAUT LINEN LINE between TWO low simple wooden fork-shaped stands. The second bird leg is bent naturally behind, distinct from the supporting leg. The tail and feathered wings make a graceful clear balancing pose. One wing holds a horizontal long slim wooden SPOON as a balancing pole, with ONE SMALL COOKED FIBRIKI MEATBALL sitting in its bowl. Keep this spoon-bowl meatball small, matching the browned chicken meatball printed on the left. The other wing opens outward as a natural feather gesture, not a human hand. The small meatball must NOT touch the bird's feet. A tiny terracotta neck bow is the ONLY costume. No human clothing or trousers.
+The familiar face looks concentrated and amused: red comb and wattle, expressive black-and-white eyes, small pale beak, layered orange and gold feathers. Exactly two wings, exactly two thin brown bird legs with clawed feet. No human hands, muscular human arms, extra limbs or second character.
+Warm dark-brown outlined hand-painted ink-and-gouache illustration matching the source's brand style. Premium and humorous, one compact readable narrative on the unchanged clean cream paper. Just three simple props: the two low support stands and the wooden balancing spoon; the fine line connects the stands. Do not clutter the scene or overlap any printed text or the left food photo.
+No hat, clown nose, circus tent, confetti, flowers, extra food, scenery or background graphics. No poles through food, no fires, no smoke. The drawn scene must stay entirely printed on the sleeve.
+
+OUTPUT:
+ONE square complete packaging packshot on a genuinely TRANSPARENT alpha background. Retain the ORIGINAL normalized packaging size with comfortable clear margins all around. No clipping, studio surface, backdrop, white border, halo or colored islands outside the physical packaging. Do not modify any region except the illustrated hen area at the lower right.
+
+SINGLE TARGETED CORRECTION — generated draft plus original Fibriki v11 only; no Lenivchiki/Popsy references
+
+Use case: precise-object-edit. Make a single food-texture correction to the first supplied image (FIBRIKI tightrope-walker package). The second supplied image is the ORIGINAL APPROVED FIBRIKI PACK and the exclusive food appearance authority.
+
+ONLY CORRECTION:
+Restore the two food photographs on the left and all raw-frozen balls in the tray to the original photograph-like food shown in Image 2. In particular the cut half must be SMOOTH HOMOGENEOUS FINE CHICKEN MINCE with only sparse tiny green herb specks, like tender fine ground chicken. Remove the visible LARGE WHITE LOBULES and rice-like chunks from the cut face. The entire interior is one fine cohesive pale chicken mass, not a pile of rice grains or chopped pieces. Preserve its original small pores and moist photographic fine texture. Do not use geometric facets, crystalline diamond patterns, white angular grains, rice, cereal, diced ingredients or sculpted plastic texture. For the whole cooked hero ball, preserve the original natural lightly browned meat surface, not a tiled pattern. In the clear tray, restore pale smooth fine raw-frozen minced chicken meatballs exactly like Image 2, NOT the heavily segmented pebble-surface balls currently in Image 1. Sparse tiny green herbs and fine frost only. Do not change any ball's overall shape or arrangement.
+
+Everything else in Image 1 must stay unchanged: the exact complete physical cream sleeve and shallow clear ribbed tray, camera, silhouette, scale, paper color, original typography and all original words, the charming familiar hen walking on one foot on a fine line between two low wooden forked stands, the bent back leg, the balancing wooden spoon and its single small browned Fibriki, the neck bow and the wing pose. Do not change the story or create a second character. All original exact text remains NOVOferma / ФИБРИКИ / ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ / С ПИЩЕВЫМИ ВОЛОКНАМИ / БЕЛОК + КЛЕТЧАТКА. No new content or labels.
+Return only the same complete square physical product packshot on genuine transparent alpha, with all edges and margins intact. Do not add a backdrop or edit empty cream paper.
+

@@ -1,0 +1,27 @@
+Use case: precise-object-edit / product-mockup.
+Create ONE complete physical FIBRIKI package as a careful edit of Image 1. Output a single square PNG with a genuinely TRANSPARENT background.
+
+REFERENCE ROLES:
+Image 1 fibriki-pack-v11.webp is the EDIT TARGET and exact authority for the complete existing physical package: cream paper sleeve silhouette, shallow transparent ribbed PET tray, camera perspective, fine paper texture, typography, all exact readable copy, logo, and Fibriki food identity.
+Image 2 lenivchiki-pack-v1.webp is only a style reference for expressive hand-painted mascot storytelling and warm cream paper.
+Image 3 popsy-pack-v4.webp is only a reference for lively action, strong silhouette, and a funny memorable printed scene.
+Do NOT copy their names, ingredients, foods, hammock or drum.
+
+PRESERVE:
+Keep the complete existing Fibriki package geometry, shallow depth, front view with visible lower tray and sleeve, orange NOVOferma logo at top, large warm dark-brown Roman-serif product title, text positions/hierarchy, soft physical shadows and fine paper texture. All package fits inside the square image with generous breathing room, the SAME normalized object size and margins as Image 1: roughly 92% canvas width and 75% canvas height, centered. Never crop the package or enlarge it to touch image edges. No surface or background behind it, no white border, colored islands or halo outside physical package.
+
+REPLACE ONLY THE SMALL QUIET RIGHT-HAND HEN SCENE WITH DIRECTION 03 — CHEF-VIRTUOSO / PAN FLIP:
+The familiar golden-orange Novoferma hen is an energetic chef caught mid-turn. Cream chef cap sits behind its clearly visible red comb, a short terracotta neckerchief at the neck. Its recognizable expressive black-and-white eyes and pale beak show an excited, clever, mischievous expression. One feathered wing holds a dark-brown shallow frying pan by its handle. Exactly THREE small COOKED Fibriki meatballs are being tossed from the pan in a SHORT clean curved arc, clear and separated with subtle warm brown movement strokes. The other feathered wing opens to balance the action, not a human hand. The rounded feathered bird leans slightly forward with one thin brown clawed bird foot poised. Exactly two wings and two bird legs; orange layered tail. Large lively hand-painted ink-and-gouache commercial packaging artwork, warm dark-brown outlines. No stove, flames, oil splashes, kitchen scenery, extra vegetables, other characters or chef lettering. Give the hen a strong dynamic silhouette without crowding the text or food.
+
+FOOD IDENTITY IS LOCKED:
+The large realistic printed serving-food hero on the LEFT stays very close to Image 1: one WHOLE BROWNED ROUND UNBREADED Fibriki chicken meatball and one CUT HALF. Its homogeneous pale chicken-mince interior has ONLY tiny sparse parsley-like green flecks. NO rice, cabbage, carrot, cheese, breadcrumb crust, nugget texture, elongated patties, sausage shapes or new ingredients. The THREE small cooked airborne Fibriki share this same whole round browned appearance.
+INSIDE THE CLEAR PHYSICAL TRAY preserve Image 1's PALE RAW-FROZEN round chicken meatballs with sparse tiny green flecks. These actual tray contents are NOT browned, NOT cooked rice patties, NOT breaded. The difference between browned serving food PRINTED ON PAPER and pale raw-frozen food INSIDE THE PLASTIC TRAY is essential.
+
+EXACT COPY — keep all words, lettering and hierarchy unchanged:
+"NOVOferma"
+"ФИБРИКИ"
+"ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ"
+"С ПИЩЕВЫМИ ВОЛОКНАМИ"
+"БЕЛОК + КЛЕТЧАТКА"
+No other lettering, names, weight, nutrition number, time, certification, badges, watermark or claims.
+No human muscles, human hands/teeth, extra limbs or second bird. This is ONLY the chef pan-flip direction, one complete Fibriki package, not a collage or board.

@@ -1,0 +1,60 @@
+{
+  "direction": "02-cosmonaut",
+  "product": "Фибрики",
+  "date": "2026-11-09",
+  "status": "review_ready_with_minor_texture_difference",
+  "asset": "02-cosmonaut.png",
+  "generationMode": "built-in image_gen",
+  "generationCount": 2,
+  "targetedCorrectionCount": 1,
+  "correctionReason": "First image rendered minced chicken as overly coarse rice-like geometric grains. One targeted edit restored a finer cohesive chicken-mince appearance.",
+  "selectedSourceGeneratedPng": "/Users/andrey/.codex/generated_images/01a1bac8-e1e8-7580-9de6-39073b41c2a8/exec-20cfaedf-b91f-443e-aaea-7ee3d053a33c.png",
+  "initialGeneratedPng": "/Users/andrey/.codex/generated_images/01a1bac8-e1e8-7580-9de6-39073b41c2a8/exec-d214cc27-1a1a-485d-b4fc-156719cc744b.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "fullyTransparentPixels": 559231,
+  "totalPixels": 1572516,
+  "alphaAbove127BoundingBox": [
+    18,
+    113,
+    1239,
+    1101
+  ],
+  "cornersAlpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "checks": {
+    "completePhysicalPack": "Pass: cream curved paper sleeve over shallow clear ribbed PET tray",
+    "copy": "Pass: NOVOferma / ФИБРИКИ / ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ / С ПИЩЕВЫМИ ВОЛОКНАМИ / БЕЛОК + КЛЕТЧАТКА",
+    "cosmonautScene": "Pass: one familiar golden hen with red comb and wattle visible inside a transparent helmet; riding a wooden spoon diagonally upward",
+    "foodInSpoon": "Pass: one cooked Fibriki in the spoon bowl, two small cooked Fibriki behind",
+    "emptyCreamSleeve": "Pass: no starscape, black space, flames, smoke or extra background scenes",
+    "anatomy": "Pass: two wings, two bird feet, no human hands or extra character",
+    "servingFoodIdentity": "Pass at catalogue size: whole browned round meatball and cut half with pale cohesive chicken mince and tiny green flecks; no visible rice, carrot or cabbage ingredients",
+    "trayFoodIdentity": "Pass: pale raw-frozen chicken meatballs with sparse green flecks, not browned cooked patties or breaded nuggets",
+    "prohibitedClaims": "Pass: no new weight, nutrition, cooking time, certification or health claims",
+    "alpha": "Pass by alpha inspection: true RGBA transparency; corners zero; visible RGB flecks outside package are predominantly hidden under alpha zero",
+    "fullFit": "Pass: package uncropped; native pack is slightly wider relative to canvas than v11 and should be normalized by coordinator for catalogue comparison"
+  },
+  "remainingMinorIssues": [
+    "At high magnification, generated minced-chicken texture is still a little more geometric than the smooth original v11 texture. It is substantially finer than the rejected first generation.",
+    "Native opaque object width is about 97.4% of canvas; coordinate visible-size normalization with other catalogue packs."
+  ],
+  "remainingMaterialDefects": [],
+  "notes": [
+    "No image pixels edited with code; final PNG copied unchanged from image_gen output.",
+    "Only COMMON PROMPT and direction 02 were used from art-direction.txt.",
+    "No website files changed.",
+    "Browser composite review may be completed by coordinator; alpha verification was performed here."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-09",
+  "tool": "built-in image_gen.imagegen",
+  "use_case": "illustration-story / compositing / identity-preserve",
+  "source": "/Users/andrey/.codex/generated_images/01a1ab97-8dbf-7c80-b46f-e9b6e7853b89/exec-d874e3c4-cd18-4cb9-bfad-d5ec05d40c1d.png",
+  "master": "meatballs-master.png",
+  "prompt": "meatballs-prompt.txt",
+  "references": [
+    "../desktop-v8/popsy-hen-v3-master.png",
+    "../desktop-v8/meatballs-food-v2-master.png"
+  ],
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "bbox_alpha64": [
+    44,
+    74,
+    1223,
+    1204
+  ],
+  "bbox_size_alpha64": [
+    1179,
+    1130
+  ],
+  "food_count": 5,
+  "food_state": "All whole; one seated in skillet, one cradled by wooden spoon, three in toss arc. No cutaways.",
+  "interaction": "Illustrated wing grips skillet handle; second wing holds spoon directly supporting a real meatball; skillet front lip overlaps/supports lowest whole meatball. Latest user direction requires these intentional contacts.",
+  "inspection": "Actual cream composite inspected; true-alpha background, no exterior shadows or clipping; internal contact shading/food volume retained. Taller than requested approximate widebbox.",
+  "source_code_mobile_changes": false
+}

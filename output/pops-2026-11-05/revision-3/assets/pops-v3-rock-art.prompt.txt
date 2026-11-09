@@ -1,0 +1,14 @@
+Use case: precise-object-edit.
+Asset type: transparent standalone brand artwork for a Novoferma sleeve front and promotional campaign. Image 1 is the approved POPSY DRUMMER PACKAGE. Extract/re-create ONLY ITS PRINTED LOWER ILLUSTRATION as one complete horizontal group. Maintain the EXACT character, narrative, wing anatomy, expressions, clothes, colors, drawing technique and relative layout from this input. Do NOT invent another chicken or another pose.
+
+KEEP THIS EXACT SUBJECT GROUP FROM IMAGE 1:
+At LEFT, the three small irregular golden breaded chicken pops arranged as an appetizing little pile on the same baseline.
+In the CENTER, the rusty terracotta-orange bucket with its pale rim and curved metal handle, heaped with pops.
+At RIGHT, the exact animated orange-yellow rock hen from the label: red crest, narrow expressive eyes, beak open as in the source, sleeveless charcoal-black leather vest with a few small silver studs/snaps, dark thin bird legs with talons, spread stance, swept tail. Two feathered wings hold TWO wooden drumsticks and beat rhythm on the bucket. Keep the exact source's two separate stick directions and two separate wings, no extra wings or arms. Two or three pops bounce above the bucket, with the simple dark curved motion marks already in the label.
+The hen/vest/bucket are FLAT 2D OFFSET-PRINTED PEN-AND-INK + FLAT WATERCOLOR/GOUACHE COLOR, with dark crisp slightly irregular outlines. Preserve the feather strokes, matte muted ochre/orange/rust/charcoal palette and printed comic energy. Food may be slightly more photographic than the drawn hen, exactly as on the source. Do not change this into a 3D mascot, glossy painting or digital airbrush art.
+
+REMOVE ONLY:
+The physical tray and cardboard sleeve, the cream paper surface, the logo, title, all printed words, all letters, and every part of the physical packaging. Remove all background and the printed ground shadow. The remaining three-pops/bucket/drummer/motion group should float cleanly on genuine transparent alpha. This is extraction of an already approved design, not a redesign.
+
+FRAMING:
+Wide LANDSCAPE composition, approximately 1.8:1 width:height, target 1800x1000 native output or larger if available. Preserve all subject details uncropped: both feet and talons, tail, crest, all stick tips, handle and three loose pops completely inside frame. Add a little clean transparent margin around the entire group. No floor, no cream backdrop, no poster, no text, no watermark, no detached colored alpha noise, no glow or white halo. A single connected visual story suitable for placing on a plain light ivory label.

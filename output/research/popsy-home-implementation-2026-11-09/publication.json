@@ -1,0 +1,15 @@
+{
+  "url": "https://novoferma-team-preview.vercel.app",
+  "deploymentId": "dpl_5UN6BejL75JuPYpxyWkPFzz26BDk",
+  "state": "READY",
+  "sourceCommit": "bad6742639feb374802686999e4c078d5b1abfee",
+  "contentSha256": "0bdeb2da1701a394125795512c88718e0515ea16bb63f9c8b47470b8fd3491f2",
+  "permanentVersionCheck": "pass",
+  "noindexAndRobots": "pass",
+  "publishedDesktopScreenshot": "published-desktop.jpg",
+  "publishedMobileScreenshot": "published-mobile.jpg",
+  "interactionTests": {
+    "passed": 17,
+    "failed": 0
+  }
+}

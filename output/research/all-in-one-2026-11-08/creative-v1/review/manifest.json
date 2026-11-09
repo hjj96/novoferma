@@ -1,0 +1,54 @@
+[
+  {
+    "id": "01-kaprisy",
+    "index": 1,
+    "title": "Каприсы — курочка-фокусник",
+    "label": "Каприсы",
+    "src": "../01-kaprisy.png",
+    "href": "../01-kaprisy.png",
+    "output": "01-kaprisy.png",
+    "promptPath": "../01-kaprisy-prompt.txt",
+    "routeName": "Курочка-фокусник",
+    "caption": "Весь обед — внутри!",
+    "showCaptions": true
+  },
+  {
+    "id": "02-lenivchiki",
+    "index": 2,
+    "title": "Ленивчики — курочка в капустном гамаке",
+    "label": "Ленивчики",
+    "src": "../02-lenivchiki.png",
+    "href": "../02-lenivchiki.png",
+    "output": "02-lenivchiki.png",
+    "promptPath": "../02-lenivchiki-prompt.txt",
+    "routeName": "Курочка в капустном гамаке",
+    "caption": "Отдыхай. Обед уже собран.",
+    "showCaptions": true
+  },
+  {
+    "id": "03-obediki",
+    "index": 3,
+    "title": "Обедики — курочка-официант на роликах",
+    "label": "Обедики",
+    "src": "../03-obediki.png",
+    "href": "../03-obediki.png",
+    "output": "03-obediki.png",
+    "promptPath": "../03-obediki-prompt.txt",
+    "routeName": "Курочка-официант на роликах",
+    "caption": "Ваш обед подан!",
+    "showCaptions": true
+  },
+  {
+    "id": "04-sboriki",
+    "index": 4,
+    "title": "Сборики — курочка-дирижёр",
+    "label": "Сборики",
+    "src": "../04-sboriki.png",
+    "href": "../04-sboriki.png",
+    "output": "04-sboriki.png",
+    "promptPath": "../04-sboriki-prompt.txt",
+    "routeName": "Курочка-дирижёр",
+    "caption": "Всё вместе — вкуснее.",
+    "showCaptions": true
+  }
+]

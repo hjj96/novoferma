@@ -1,0 +1,19 @@
+{
+  "file": "/Users/andrey/Desktop/сайт нф/output/product-wallpapers-2026-11-07/01-cream-field.png",
+  "nativeDimensions": [
+    1672,
+    941
+  ],
+  "requestedDimensions": [
+    3840,
+    2160
+  ],
+  "mode": "built-in image_gen",
+  "generationAttempts": 2,
+  "qa": {
+    "visibleUniqueSKUs": 17,
+    "composition": "warm cream dense field, cropped repeat packages at edges, consistent oblique perspective and soft contact shadows",
+    "correction": "restored home-style subtitle, replaced top-right duplicate with Dinosaurs",
+    "limitations": "Native output is 1672x941 despite prompt requesting 3840x2160. Brand and 17 product names recognizable. Fine-print and small source art details are generative, not guaranteed pixel-exact. Home-style patty photograph is still stylized as grill-scored."
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "assets/responsive/packshots/bitochki-kurinye-s-ovoshchami-400-q94-5db59691.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      41,
+      384,
+      350
+    ]
+  },
+  "assets/responsive/packshots/bitochki-kurinye-s-ovoshchami-800-q94-5db59691.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      81,
+      768,
+      700
+    ]
+  },
+  "assets/responsive/packshots/ezhiki-iz-tsyplenka-s-risom-400-q94-1d1a2e59.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      42,
+      384,
+      348
+    ]
+  },
+  "assets/responsive/packshots/ezhiki-iz-tsyplenka-s-risom-800-q94-1d1a2e59.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      85,
+      768,
+      696
+    ]
+  },
+  "assets/responsive/packshots/frikadelki-klassicheskie-400-q94-e0ef4bbb.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      43,
+      384,
+      347
+    ]
+  },
+  "assets/responsive/packshots/frikadelki-klassicheskie-800-q94-e0ef4bbb.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      85,
+      768,
+      695
+    ]
+  },
+  "assets/responsive/packshots/kotlety-kurinye-400-q94-a1ed2899.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      42,
+      384,
+      348
+    ]
+  },
+  "assets/responsive/packshots/kotlety-kurinye-800-q94-a1ed2899.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      85,
+      768,
+      697
+    ]
+  },
+  "assets/responsive/packshots/kotlety-pikantnye-400-q94-aed06aa1.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      43,
+      384,
+      347
+    ]
+  },
+  "assets/responsive/packshots/kotlety-pikantnye-800-q94-aed06aa1.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      87,
+      768,
+      693
+    ]
+  },
+  "assets/responsive/packshots/kotlety-po-domashnemu-400-q94-4b30908e.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      42,
+      384,
+      348
+    ]
+  },
+  "assets/responsive/packshots/kotlety-po-domashnemu-800-q94-4b30908e.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      85,
+      767,
+      697
+    ]
+  },
+  "assets/responsive/packshots/kotlety-po-italyanski-400-q94-4e765a90.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      42,
+      384,
+      348
+    ]
+  },
+  "assets/responsive/packshots/kotlety-po-italyanski-800-q94-4e765a90.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      83,
+      768,
+      696
+    ]
+  },
+  "assets/responsive/packshots/kurinyj-popkorn-400-q94-d707c51a.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      41,
+      384,
+      349
+    ]
+  },
+  "assets/responsive/packshots/kurinyj-popkorn-800-q94-d707c51a.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      81,
+      768,
+      699
+    ]
+  },
+  "assets/responsive/packshots/naggetsy-dinozavry-400-q94-d8f755c7.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      41,
+      384,
+      349
+    ]
+  },
+  "assets/responsive/packshots/naggetsy-dinozavry-800-q94-d8f755c7.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      82,
+      768,
+      699
+    ]
+  },
+  "assets/responsive/packshots/naggetsy-kurinye-s-syrom-400-q94-070a49d8.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      39,
+      384,
+      351
+    ]
+  },
+  "assets/responsive/packshots/naggetsy-kurinye-s-syrom-800-q94-070a49d8.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      77,
+      768,
+      703
+    ]
+  },
+  "assets/responsive/packshots/naggetsy-kurinye-400-q94-712fb649.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      44,
+      384,
+      346
+    ]
+  },
+  "assets/responsive/packshots/naggetsy-kurinye-800-q94-712fb649.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      88,
+      768,
+      692
+    ]
+  },
+  "assets/responsive/packshots/naggetsy-ostrye-400-q94-d5c86a9d.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      41,
+      384,
+      349
+    ]
+  },
+  "assets/responsive/packshots/naggetsy-ostrye-800-q94-d5c86a9d.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      81,
+      768,
+      699
+    ]
+  },
+  "assets/responsive/packshots/naggetsy-s-indeykoy-fitnes-400-q94-68b47a02.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      42,
+      384,
+      348
+    ]
+  },
+  "assets/responsive/packshots/naggetsy-s-indeykoy-fitnes-800-q94-68b47a02.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      84,
+      767,
+      695
+    ]
+  },
+  "assets/responsive/packshots/stripsy-400-q94-04f43af0.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      41,
+      384,
+      349
+    ]
+  },
+  "assets/responsive/packshots/stripsy-800-q94-04f43af0.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      82,
+      768,
+      699
+    ]
+  },
+  "assets/responsive/packshots/lenivchiki-pack-v1-400-q94-ff95cef5.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      3,
+      34,
+      397,
+      363
+    ]
+  },
+  "assets/responsive/packshots/lenivchiki-pack-v1-800-q94-ff95cef5.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      6,
+      67,
+      795,
+      726
+    ]
+  },
+  "assets/responsive/packshots/fibriki-pack-v11-400-q94-1c8ec286.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      45,
+      384,
+      345
+    ]
+  },
+  "assets/responsive/packshots/fibriki-pack-v11-800-q94-1c8ec286.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      90,
+      768,
+      690
+    ]
+  },
+  "assets/responsive/packshots/lulia-mini-pack-v3-400-q94-5406742c.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      16,
+      44,
+      384,
+      346
+    ]
+  },
+  "assets/responsive/packshots/lulia-mini-pack-v3-800-q94-5406742c.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      32,
+      88,
+      768,
+      692
+    ]
+  },
+  "assets/responsive/packshots/popsy-pack-v3-400-q94-2bbda6ae.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      28,
+      62,
+      371,
+      345
+    ]
+  },
+  "assets/responsive/packshots/popsy-pack-v3-800-q94-2bbda6ae.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      57,
+      124,
+      743,
+      689
+    ]
+  },
+  "assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp": {
+    "width": 400,
+    "height": 400,
+    "bbox": [
+      26,
+      62,
+      374,
+      346
+    ]
+  },
+  "assets/responsive/packshots/popsy-pack-v4-800-q94-36e1736c.webp": {
+    "width": 800,
+    "height": 800,
+    "bbox": [
+      51,
+      124,
+      748,
+      691
+    ]
+  }
+}

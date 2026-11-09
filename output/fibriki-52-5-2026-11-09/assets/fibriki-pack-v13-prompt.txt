@@ -1,0 +1,31 @@
+Use case: precise-object-edit / product-mockup.
+Create ONE refined complete physical Novoferma Fibriki package, editing the provided Fibriki v12 pack. This is a refinement of the accepted strongwoman concept, not a new brand or package construction. Square image with genuine transparent background. The ONLY input image is the edit target and reference for product identity, warm cream sleeve, orange logo, serif title, clear ribbed plastic tray, perspective and prepared/raw food distinction.
+
+USER-CONFIRMED PRODUCT FACTS: 52 grams of protein and 5 grams of dietary fiber IN ONE WHOLE PACKAGE. These are NOT per 100 grams. Do not add a net weight, calories, daily value, serving amount, preparation time or any new nutrition numbers. Make these two provided values highly visible, exact and unambiguous.
+
+HIERARCHY AND LAYOUT
+Keep the orange NOVOferma logo at top. Below it retain the large rich dark-brown Roman serif ФИБРИКИ title. Retain a smaller clear descriptor ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ.
+Immediately below the name/descriptor, place a generous clean horizontal pair of prominent printed color panels: left warm vivid Novoferma orange, right deep muted leafy olive green. Both panels have equal height and restrained slightly rounded corners, looking like flat printed ink on the cream sleeve, NOT glossy stickers or certification badges.
+The left panel has very large cream text "52 г" and below it "БЕЛКА". The right panel has equally large cream text "5 г" and below it "КЛЕТЧАТКИ". A simple dark-brown plus sign between the panels connects them. The numbers must be clearly readable at small catalogue size, with strong contrast and comfortable spacing. Every number keeps its own Cyrillic "г" unit. Do not swap or change the values.
+Directly under BOTH panels, a single centered, clearly readable dark-brown line says "В ОДНОЙ УПАКОВКЕ". It unambiguously applies to both facts. It must not be tiny legal text. Remove the old curved generic "БЕЛОК + КЛЕТЧАТКА" line and the redundant "С ПИЩЕВЫМИ ВОЛОКНАМИ" subtitle to make room for the numeric facts. Avoid repeating the same benefit in multiple badges.
+
+FUNNIER HEN SCENE
+Below the fact pair, keep the large appetizing cooked Fibriki whole-and-cut serving pair at lower left and the recognizable Novoferma hen at lower right. The hen remains golden-orange with a red comb and wattle, expressive pale beak/eyes and layered feathers, in the accepted terracotta-and-cream striped retro sports singlet.
+Make it more mischievous and effortlessly proud: it lifts the slim wooden barbell with ONE wing above its head, with one small cooked Fibriki at each end, while the other wing curls into a playful feather "biceps" victory pose. It looks toward the viewer and WINKS, with one eyebrow raised and an amused grin in its bird beak. Use feathers rather than human muscular arms, keep exactly two wings, two bird legs and natural clawed feet. An energetic but stable slightly asymmetric stance and two small dark-brown motion strokes give the joke character. No human teeth, extra fingers/limbs, sweat, aggression, cape, medal, trophy or speech bubble. Keep the barbell, character, numbers and title clearly separate without overlap. Adjust the lower illustration composition to give the new large numeric panels enough breathing room.
+
+FOOD AND PHYSICAL PACKAGE
+Keep the same recognizable round unbreaded chicken Fibriki, pale finely minced interior with sparse tiny green flecks. Printed serving food is browned, one whole piece and one cut half. The clear physical tray contains pale raw-frozen chicken meatballs with sparse green flecks, just as in the input image. Do not turn them into rice patties, nuggets, sausages or breaded balls. No rice grains, carrot, cabbage, cheese or new ingredients. Keep the food texture natural and softly irregular, avoiding sharply faceted mosaic patterns or repetitive tiled cells.
+Preserve the actual clear shallow ribbed tray, cream wraparound sleeve, natural paper texture, printed-image character, camera angle, folds, plastic reflections, and the overall silhouette/padding proportions of the accepted v12 pack. Do not enlarge the physical package relative to the square canvas. Full package and tray visible; transparent margins on all sides, no clipping. No external tabletop, gradient backdrop, white halo, colored islands or fake checkerboard. Only modest natural contact shadows belonging to the package.
+
+EXACT VISIBLE COPY, NO OTHER TEXT:
+NOVOferma
+ФИБРИКИ
+ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ
+52 г
+БЕЛКА
++
+5 г
+КЛЕТЧАТКИ
+В ОДНОЙ УПАКОВКЕ
+
+Output one polished complete square packaging visual with true alpha. Preserve the classic Novoferma family and make the numeric pair the clear second reading after the product name.

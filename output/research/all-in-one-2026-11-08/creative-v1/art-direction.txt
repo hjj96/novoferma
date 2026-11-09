@@ -1,0 +1,32 @@
+NOVOFERMA — ALL-IN-ONE PRODUCT — FOUR ART DIRECTIONS
+Date: 2026-11-08. Creative proposals, not selected final branding.
+
+Product: small unbreaded fully cooked chicken patties containing rice, cabbage and carrot. A new ready-to-reheat version of lazy cabbage rolls. Every rendering shows this same product. Do not depict nuggets, smooth meatballs, raw meat or a breadcrumb crust. The name and exact copy will be placed separately using real text; the image must contain NO lettering.
+
+COMMON IMAGE PROMPT — use case: illustration-story / packaging artwork.
+Create ONE premium, playful packaging illustration for an existing Novoferma cream paper sleeve. Output only the clean scene artwork on a genuinely TRANSPARENT background, landscape composition, not a packaging mockup, not a presentation slide, not a collage. Preserve the recognizable golden-orange hen mascot from the references: red comb and wattle, expressive black-and-white eyes, small pale beak, feathered rounded body, orange wings and tail, brown clawed feet. Match the illustrated hand-painted ink-and-gouache commercial packaging style; warm dark-brown linework, warm golden feather colors. No human hands, no extra wings, no extra legs, no other characters.
+
+References: packaging images are style, hen identity and food-staging references only. Do NOT reproduce their text, brand logo, physical tray, wrapper, unrelated food or pre-existing scenes. The independent mascot image supplies facial identity. The product must be adapted to the new recipe.
+
+Composition: one clear silhouette and an immediately readable joke. Food hero at lower left, hen in a new action on the right, props across the lower middle. Leave breathing room around every outline; no cropping or touching canvas edges. Image only, no title area graphics. Food hero: two or three photorealistically appetizing small flattened oval golden-brown baked chicken patties, about 4–5 cm each, moist and unbreaded, light natural browned surface. One cut half shows pale chicken mince, distinct cooked white rice grains, fine pale cabbage pieces and tiny orange carrot cubes. No cheese pull, bread shell, whole stuffed cabbage leaf or pink raw meat. The food rendering is realistic like the photographed serving food printed on the reference sleeves, while hen and props remain illustrated. Modest soft contact shadows below the food; retain actual alpha elsewhere. Palette is cream-compatible golden yellow, orange, dark warm brown, muted leaf green and terracotta. No health badges, preparation times, weight, certification seals or invented claims.
+
+01 KAPRISY / КАПРИСЫ — kitchen magician.
+Hen on right in a short terracotta magician cape, mischievous confident expression. Its right wing lifts a simple silver serving cloche above the patties at center-left; the lid is tipped up and clearly separate from the food. A restrained curved trail of a few rice grains, cabbage curls and carrot cubes leads toward the revealed whole patty, visually suggesting the ingredients have become one dish. Other wing proudly gestures to the food. No wand, playing cards, top hats, magic stars, smoke hiding the food, empty bowls, duplicate hens or raw meat. The action is the surprising reveal of a whole dinner inside a patty.
+
+02 LENIVCHIKI / ЛЕНИВЧИКИ — dinner while you relax.
+Hen reclines happily in a small curved pale-green cabbage-leaf hammock supported by two short wooden stands, on the right. No human furniture, TV or microwave. Eyes half closed with a small satisfied smile; one wing tucked comfortably behind its head, the other resting over its soft round body. Two visible feet relaxed in a natural bird posture. On the left in the foreground, the appetizing product hero on a small plain cream plate, one cut half showing chicken, rice, cabbage and carrot; two gentle warm steam curls. Compact, charming, warm, not a cluttered landscape. The hammock is a graphic prop, not an extra food wrapper. No lettering or decorative badges.
+
+03 OBEDIKI / ОБЕДИКИ — your dinner has arrived.
+Hen is a confident cheerful waiter on two small classic terracotta quad roller skates, moving to the left. A tiny dark-brown bow tie and a small cream serving napkin are the only costume details. Its right wing balances a silver serving tray with two of the same small cooked patties, and the left wing opens in a proud welcome gesture. The main food hero remains large on the lower left outside the tray, including the cut half with visible rice and vegetables. A simple brown curved motion stroke behind the hen, no wheels touching the food, no skate ramp, no motorcycle, no human hands. Warm energetic service, a complete dinner brought to you.
+
+04 SBORIKI / СБОРИКИ — conductor of a complete dinner.
+Hen as an expressive orchestra conductor on the right, wearing a simple short terracotta tailcoat with no trousers; one wing holds a slim wooden conductor baton, the other gives an open curved conducting gesture. Across the middle, three short graceful visual arcs made of a few cooked rice grains, pale cabbage curls and tiny carrot cubes curve toward a single complete patty on a small serving plate. The same large food hero at lower left remains clear and appetizing. The ingredients and chicken patty represent a whole ensemble coming together. Avoid industrial assembly lines, conveyor belts, tools, music text, instruments, animated ingredient faces, piles of loose ingredients or musical notes that dominate. One coherent compact scene, subtly musical movement, no mess.
+
+TEXT FOR DETERMINISTIC PREVIEW (NOT FOR IMAGEGEN):
+Logo: NOVOferma (use the existing logo file if available)
+Product name, respective direction: КАПРИСЫ / ЛЕНИВЧИКИ / ОБЕДИКИ / СБОРИКИ
+Descriptor: БИТОЧКИ ИЗ КУРИЦЫ / С РИСОМ И ОВОЩАМИ
+Common proposition: ГАРНИР УЖЕ ВНУТРИ
+Scene captions in review: Капуста + рис. Немного магии. / Отдыхай. Обед уже собран. / Ваш обед подан! / Всё вместе — вкуснее.
+
+No final claim of trademark availability. Do not change website files or publish these exploratory concepts.

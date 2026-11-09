@@ -1,0 +1,38 @@
+[
+  {
+    "id": "01-playful-letters",
+    "index": 1,
+    "title": "Весёлые буквы",
+    "label": "Весёлые буквы",
+    "src": "../01-playful-letters.png",
+    "href": "../01-playful-letters.png",
+    "output": "01-playful-letters.png",
+    "promptPath": "../01-playful-letters-prompt.txt",
+    "routeName": "Разноцветное название и дружелюбная курочка",
+    "showCaptions": true
+  },
+  {
+    "id": "02-little-adventure",
+    "index": 2,
+    "title": "Маленькое приключение",
+    "label": "Маленькое приключение",
+    "src": "../02-little-adventure.png",
+    "href": "../02-little-adventure.png",
+    "output": "02-little-adventure.png",
+    "promptPath": "../02-little-adventure-prompt.txt",
+    "routeName": "Книжный сюжет с курочкой-исследователем",
+    "showCaptions": true
+  },
+  {
+    "id": "03-family-balance",
+    "index": 3,
+    "title": "Семейный формат",
+    "label": "Семейный формат",
+    "src": "../03-family-balance.png",
+    "href": "../03-family-balance.png",
+    "output": "03-family-balance.png",
+    "promptPath": "../03-family-balance-prompt.txt",
+    "routeName": "Спокойная палитра и заметный акцент на белке и клетчатке",
+    "showCaptions": true
+  }
+]

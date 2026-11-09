@@ -1,0 +1,16 @@
+{
+  "pages": 23,
+  "images": 417,
+  "localReferences": 1538,
+  "uniqueTitles": 23,
+  "uniqueDescriptions": 23,
+  "publicUrl": null,
+  "errors": [
+    "Five hero-scene-image images required",
+    "Inactive hero-scene-image must defer",
+    "Five named tabs required"
+  ],
+  "result": "fail",
+  "scope": "Generated source only; visual and interactive browser checks are separate."
+}
+Publication failed: Command failed: /Applications/Xcode.app/Contents/Developer/usr/bin/python3

@@ -1,0 +1,135 @@
+{
+  "verified_on": "2026-11-07",
+  "purpose": "Private factual support and compact copy options for Novoferma B2B presentation v8; no research links or footnotes on slides.",
+  "product_facts": [
+    {
+      "fact": "52 г белка в упаковке фрикаделек «Классические»",
+      "authority": "Explicit user statement in this conversation; owner supplied",
+      "scope": "Only Classic meatballs. Do not transfer 52 g to Fibriki, nuggets or other SKUs."
+    },
+    {
+      "fact": "Classic meatballs package net weight: 500 г",
+      "authority": "output/concept/products.json and original catalogue pack",
+      "scope": "Known quantity; no daily percentage or portion-size inference is needed."
+    },
+    {
+      "fact": "Фибрики — куриные фрикадельки с пищевыми волокнами; в суп, к гарниру, с соусом",
+      "authority": "scripts/build_site.py:195,232,247 and output/concept/product-fibriki.html",
+      "scope": "No published grams of fibre, fibre ingredient type, or exact nutrition panel was found."
+    }
+  ],
+  "public_copy": {
+    "protein": {
+      "title": "В основе — белок птицы",
+      "hero": "52 г",
+      "hero_caption": "белка в упаковке фрикаделек «Классические»",
+      "compact_explainer": "Белок нужен организму для построения и обновления клеток и тканей. В наших продуктах он естественно содержится в мясе птицы.",
+      "infographic_points": [
+        {
+          "heading": "Мясо птицы",
+          "body": "В основе ассортимента — курица и индейка с естественным белком.",
+          "evidence": [
+            "product website and owner materials",
+            "NIH/MedlinePlus protein food sources"
+          ]
+        },
+        {
+          "heading": "Для организма",
+          "body": "Белок нужен для построения и обновления клеток и тканей.",
+          "evidence": [
+            "EFSA 2022 section3.1.2.1",
+            "NIH/MedlinePlus Function"
+          ]
+        },
+        {
+          "heading": "Для привычного меню",
+          "body": "Наггетсы, котлеты и фрикадельки сочетаются с привычными гарнирами.",
+          "evidence": [
+            "assortment and serving suggestions; editorial product use, not a clinical claim"
+          ]
+        }
+      ],
+      "layout_recommendation": "Use hero52 g tied visually to the photographed Classic package. Below it place two short pairs of heading/body; choose either meat basis or organism role plus familiar-menu use. Do not fit all copy variants simultaneously."
+    },
+    "fibriki": {
+      "title": "Фибрики",
+      "eyebrow": "Наша новинка",
+      "intro": "Белок птицы и пищевые волокна — в привычных куриных фрикадельках.",
+      "fibre_explainer": "Клетчатка — пищевые волокна, которые не перевариваются в тонком кишечнике. Они важны для полноценного рациона.",
+      "infographic_nodes": [
+        {
+          "heading": "Белок птицы",
+          "body": "Курица остаётся мясной основой продукта."
+        },
+        {
+          "heading": "Пищевые волокна",
+          "body": "Добавляем клетчатку в состав фрикаделек."
+        },
+        {
+          "heading": "Привычное блюдо",
+          "body": "В суп, к гарниру или с любимым соусом."
+        }
+      ],
+      "infographic_relation": "Белок птицы + пищевые волокна → привычные фрикадельки",
+      "layout_recommendation": "Use a flat three-part equation or connected semantic diagram on the clear left side; keep the package inside the green lifestyle image on the right. A 1-2-line fibre definition gives new useful information without a medical lecture. No supplement jars, gut illustration, daily target or fibre grams.",
+      "optional_general_fibre_role": "Пищевые волокна в рационе помогают поддерживать нормальную работу кишечника.",
+      "optional_general_fibre_role_limit": "A general explanatory statement about dietary fibre in the diet, not a proven physiological effect of a Fibriki portion; prefer the composition equation if space is tight."
+    }
+  },
+  "evidence": [
+    {
+      "id": "EFSA2022",
+      "title": "EFSA scientific advice on nutrient profiling",
+      "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2022.7259",
+      "published": "2022-04-19",
+      "section": "3.1.2.1 Protein;3.1.2.3 Dietary fibre",
+      "supports_ru": "Пищевой белок нужен для роста и поддержания тканей; пищевые волокна — неперевариваемые углеводы.",
+      "interpretation_limit": "General nutrient biology. It does not verify Novoferma nutrition values or provide evidence of a superior product effect."
+    },
+    {
+      "id": "JRC2026fiber",
+      "title": "European Commission Knowledge4Policy: Dietary Fibre",
+      "url": "https://knowledge-for-policy.ec.europa.eu/dietary-fibre_en",
+      "updated": "2026-03-12",
+      "section": "Defining dietary fibre",
+      "supports_ru": "Волокна не перевариваются и не всасываются в тонком кишечнике. Добавленные волокна могут иметь разное происхождение и свойства.",
+      "interpretation_limit": "Do not call every fibre prebiotic, claim a specific microbiome effect or assume its exact botanical source."
+    },
+    {
+      "id": "NIHprotein",
+      "title": "MedlinePlus: Protein in diet",
+      "url": "https://medlineplus.gov/ency/article/002467.htm",
+      "reviewed": "2025-04-01",
+      "editorial_updated": "2026-03-24",
+      "section": "Function;Food Sources",
+      "supports_ru": "Пищевой белок помогает организму восстанавливать клетки и создавать новые; мясо птицы является белковой пищей.",
+      "interpretation_limit": "General dietary fact; does not imply all poultry convenience foods have the same protein density or a complete nutritional profile."
+    },
+    {
+      "id": "HealthCanadaFibre",
+      "title": "Health Canada: Fibre",
+      "url": "https://www.canada.ca/en/health-canada/services/nutrients/fibre.html",
+      "updated": "2025-07-11",
+      "section": "What is fibre?",
+      "supports_ru": "Клетчатка — неперевариваемые углеводы и важная часть здорового питания.",
+      "interpretation_limit": "Potential effects vary by fibre type and dose; no product-specific bowel, cholesterol or satiety claim recommended."
+    },
+    {
+      "id": "WHO2023",
+      "title": "WHO Carbohydrate intake for adults and children",
+      "url": "https://www.who.int/publications/i/item/9789240073593",
+      "published": "2023",
+      "section": "Recommendations",
+      "supports_ru": "В рекомендациях ВОЗ качество углеводов и пищевые волокна являются частью здорового рациона.",
+      "interpretation_limit": "Daily targets concern naturally occurring fibre in foods; do not equate these directly to a serving of Fibriki or restore a percentage of daily need."
+    }
+  ],
+  "excluded_claims": [
+    "Any exact fibre gram amount or percentage of daily need for Fibriki",
+    "High-protein/source-of-protein or high-fibre legal nutrition claims about an SKU without the relevant nutrition declaration",
+    "Keeps you full for X hours; weight loss; reduces cholesterol or blood sugar; prevents disease",
+    "Every fibre is a prebiotic; this product improves the microbiome",
+    "Everyone lacks protein; more protein is necessarily better",
+    "Market trend percentages or survey findings not requested for public slides"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-08",
+  "tool": "built-in image_gen.imagegen",
+  "source_generated": "/Users/andrey/.codex/generated_images/01a1ab97-8dbf-7c80-b46f-e9b6e7853b89/exec-e8cb4e49-3e44-48aa-947a-9e2f8e7a5647.png",
+  "input": "nuggets-master.png",
+  "input_sha256": "49f0f1d1593d8f0dd9f9134363540335aabf803f18d1bf20d06610ca3af2c3c6",
+  "output": "nuggets-no-shadow-master.png",
+  "prompt": "nuggets-no-shadow-prompt.txt",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "bbox_alpha64": [
+    28,
+    168,
+    1228,
+    1109
+  ],
+  "large_components_alpha64": [
+    {
+      "id": 0,
+      "area": 314637,
+      "bbox": [
+        603,
+        168,
+        1228,
+        1085
+      ]
+    },
+    {
+      "id": 1,
+      "area": 198443,
+      "bbox": [
+        28,
+        601,
+        616,
+        1109
+      ]
+    }
+  ],
+  "food_drawn_gap_alpha64_px": 31.113,
+  "closest_points": [
+    [
+      607,
+      951
+    ],
+    [
+      585,
+      929
+    ]
+  ],
+  "background_probe_alpha": {
+    "45,1000": 0,
+    "200,1120": 0,
+    "700,1095": 0,
+    "1100,1090": 0,
+    "600,1055": 0
+  },
+  "inspection": "Cream400px inspected. External cast/contact shadows removed; own shading, food occlusion and volumes preserved. This is a native raster edit; visual geometry retained, not pixel-identical to input. Input not overwritten."
+}

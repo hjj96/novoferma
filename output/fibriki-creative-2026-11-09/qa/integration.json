@@ -1,0 +1,13 @@
+{
+  "result": "pass",
+  "shadowDirectory": "/var/folders/b1/s0mpd68155bf8x94y3j6by3c0000gn/T/fibriki-v12-build-nlfv8wtz",
+  "htmlChanged": [
+    "catalogue.html",
+    "product-fibriki.html"
+  ],
+  "manifestUpdated": true,
+  "otherHtmlPreserved": true,
+  "productFieldsPreservedExceptImage": true,
+  "oldImage": "assets/novelty-packaging/fibriki-pack-v11.webp?v=1c8ec286fb",
+  "newImage": "assets/novelty-packaging/fibriki-pack-v12.webp?v=0ea08f11f1"
+}

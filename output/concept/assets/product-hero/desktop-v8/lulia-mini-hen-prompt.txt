@@ -1,0 +1,17 @@
+Built-in ImageGen; 2026-11-07.
+Character identity reference: assets/product-hero/mobile-v4/fibriki-v5-master.png
+Pose reference: assets/product-hero/mobile-v4/lulia-mini-master.png
+
+Use case: identity-preserve / illustration-story.
+Asset type: high-resolution HEN-ONLY transparent PNG layer for a desktop Novoferma product campaign.
+
+REFERENCE ROLES:
+Image 1 (Fibriki mobile-v4/fibriki-v5) is the EXACT MASTER CHARACTER IDENTITY. Match the same adult warm-hearted broad-bodied hen: same mature head-to-body proportions, same large nearer eye and tiny farther eye, cream pointed beak, five-lobed red-orange comb, red wattle, orange-yellow watercolor/pencil feather fill, expressive hand-drawn black contour and matching line weight, white apron with thin green check grid and white side bow. Preserve the original fine hand-drawn feather detailing, plump silhouette, short strong legs and brown feet. Do NOT make a new character, skinny chick, younger face, different head, enormous equal eyes, generic vector icon or photorealistic bird.
+Image 2 (approved mini-lulia mobile v4) is a POSE/CHARACTER TREATMENT reference, not a food or composition target. Use its friendly inviting serving gesture, but turn the hen toward the LEFT for this desktop layer.
+
+PRIMARY REQUEST:
+Create ONLY this recognizable hen, full body, no other objects. She looks UP AND LEFT with the familiar friendly open-beak expression, leans slightly into the action, opens the front wing toward the LEFT in a broad serving/inviting gesture, with the other wing behind/up and one leg cheerfully raised. Compact broad torso and large adult head as in image 1, not a long thin neck or tiny head. This single hen will later be placed at the lower right of a wide scene, looking at food to her left.
+Keep the entire comb, beak, both wings, tail, bow, apron and EVERY toe fully visible, never clipped. Large figure fills roughly 92–95% of the square's usable height, with narrow but safe transparent margins on all sides. Do not shrink the character or add excessive empty space.
+Output a SQUARE transparent PNG, intended 1254×1254 or larger native detail. Crisp clean hand-inked edges and rich fine watercolor detail appropriate to a premium desktop hero; no blurry upscaled look.
+BACKGROUND AND EXCLUSIONS: actual alpha transparency everywhere outside the hen and between feathers/legs. Keep apron and eye whites opaque. Absolutely NO FOOD, no meatballs or lulia from either reference, no orange motion strokes, no rays, no floor, no shadow field, no smoke/glow/halo, no solid white or cream panel, no text, no labels, no props or packaging. This is one clean, isolated HEN-ONLY asset.
+

@@ -1,0 +1,115 @@
+{
+  "sourceScreenshot": "/Users/andrey/Desktop/сайт нф/output/research/home-hero-concepts-2026-11-09/popsy-hero-refined-v2.png",
+  "nativeImagegenOutput": "/Users/andrey/.codex/generated_images/01a1bf3a-4eee-73c0-8121-0d18c225f110/exec-30e3b780-e6ef-4aa4-967e-94f2f0b79dd7.png",
+  "master": {
+    "path": "/Users/andrey/Desktop/сайт нф/output/research/popsy-home-fidelity-2026-11-09/food-master.png",
+    "size": [
+      1374,
+      1145
+    ],
+    "bytes": 2098862,
+    "mode": "RGBA",
+    "bbox": [
+      0,
+      17,
+      1366,
+      1145
+    ],
+    "bboxAlpha8": [
+      31,
+      33,
+      1337,
+      1085
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentPixels": 504538,
+    "mostlyOpaquePixelsAlpha250": 814341,
+    "partialShadowPixelsAlpha1to220": 225786
+  },
+  "exports": [
+    {
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/popsy-home/food-concept-v2.webp",
+      "size": [
+        1100,
+        917
+      ],
+      "bytes": 415792,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        15,
+        1094,
+        917
+      ],
+      "bboxAlpha8": [
+        25,
+        26,
+        1070,
+        869
+      ],
+      "sha256": "167ba27f37ecff8f98887074e100454879e2ec73b456aa46ebc4ffb0dfdc0999"
+    },
+    {
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/popsy-home/food-concept-v2-600.webp",
+      "size": [
+        600,
+        500
+      ],
+      "bytes": 138548,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        9,
+        596,
+        492
+      ],
+      "bboxAlpha8": [
+        13,
+        14,
+        583,
+        473
+      ],
+      "sha256": "22e86745efd0472b2553cdbc86adf56a301fa7adc2bcfb8d4f74f0a3bea5f32f"
+    },
+    {
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/popsy-home/food-concept-v2-420.webp",
+      "size": [
+        420,
+        350
+      ],
+      "bytes": 75250,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        8,
+        417,
+        344
+      ],
+      "bboxAlpha8": [
+        9,
+        10,
+        408,
+        331
+      ],
+      "sha256": "d295d6900384f1518621227d88e632b0b313d049fbcc4477830d72a49f41c81e"
+    }
+  ],
+  "visualQA": [
+    "Three whole nuggets behind two cut halves retained in original cluster structure.",
+    "Bright golden crumb surface, white broken chicken faces, sparse front-left crumbs, and soft semi-transparent contact shadows retained.",
+    "No package, UI, lettering, mascot, props, plate or opaque background.",
+    "No source pixel-exact guarantee: native ImageGen extraction is visually source-preserving rather than a deterministic mask."
+  ]
+}

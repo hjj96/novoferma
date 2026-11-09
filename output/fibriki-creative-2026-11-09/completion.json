@@ -1,0 +1,46 @@
+{
+  "result": "complete",
+  "publicUrl": "https://novoferma-team-preview.vercel.app/product-fibriki.html",
+  "catalogueUrl": "https://novoferma-team-preview.vercel.app/catalogue.html",
+  "deploymentId": "dpl_8iYJBnzT44tJB2G7Xk6N4stRAPvo",
+  "state": "READY",
+  "sourceCommit": "9cbd4f31b1d5fdfa0976b0514008635a94ea5c5b",
+  "httpChecks": [
+    {
+      "path": "catalogue.html",
+      "status": 200,
+      "matchesReviewedSource": true,
+      "bytes": 23018
+    },
+    {
+      "path": "product-fibriki.html",
+      "status": 200,
+      "matchesReviewedSource": true,
+      "bytes": 12690
+    },
+    {
+      "path": "assets/responsive/packshots/fibriki-pack-v12-400-q94-0ea08f11.webp",
+      "status": 200,
+      "matchesReviewedSource": true,
+      "bytes": 44940
+    },
+    {
+      "path": "assets/responsive/packshots/fibriki-pack-v12-800-q94-0ea08f11.webp",
+      "status": 200,
+      "matchesReviewedSource": true,
+      "bytes": 127608
+    }
+  ],
+  "staticPages": 24,
+  "interactionTestsPassed": 17,
+  "visualViewports": [
+    1440,
+    390,
+    320
+  ],
+  "selectedDirection": "strongwoman",
+  "nativeMaster": "assets/fibriki-pack-v12.png",
+  "promptSet": "art-direction.txt",
+  "review": "review/review-board.html",
+  "mainBranchPreserved": true
+}

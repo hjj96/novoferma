@@ -1,0 +1,368 @@
+{
+  "meatballs": {
+    "master": "meatballs-master.png",
+    "masterDimensions": [
+      1254,
+      1254
+    ],
+    "webp": "meatballs.webp",
+    "webpDimensions": [
+      960,
+      960
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBboxThreshold16": [
+      157,
+      106,
+      1158,
+      1188
+    ],
+    "webpBytes": 175076,
+    "reference": "../mobile-v2/meatballs-master.png",
+    "secondaryReference": "../meatballs-art-v4.webp",
+    "prompt": "meatballs-prompt.txt",
+    "method": "built-in ImageGen; dynamic mobile composition; desktop untouched",
+    "qaApproximation": "Quarter-resolution alpha components at threshold128; approximate dimensions/gaps ±4px; not semantic segmentation. Four largest components inspected visually.",
+    "mainComponents": [
+      {
+        "component": "mascot",
+        "areaApproxPx": 233344,
+        "bboxApproxPx": [
+          160,
+          528,
+          780,
+          1188
+        ],
+        "widthApproxPx": 620,
+        "heightApproxPx": 660
+      },
+      {
+        "component": "food1",
+        "areaApproxPx": 83632,
+        "bboxApproxPx": [
+          596,
+          108,
+          932,
+          436
+        ],
+        "widthApproxPx": 336,
+        "heightApproxPx": 328
+      },
+      {
+        "component": "food2",
+        "areaApproxPx": 52608,
+        "bboxApproxPx": [
+          892,
+          536,
+          1160,
+          792
+        ],
+        "widthApproxPx": 268,
+        "heightApproxPx": 256
+      },
+      {
+        "component": "food3",
+        "areaApproxPx": 23392,
+        "bboxApproxPx": [
+          236,
+          172,
+          408,
+          348
+        ],
+        "widthApproxPx": 172,
+        "heightApproxPx": 176
+      }
+    ],
+    "gaps": [
+      {
+        "components": [
+          "mascot",
+          "food1"
+        ],
+        "minGapApproxPx": 148.8
+      },
+      {
+        "components": [
+          "mascot",
+          "food2"
+        ],
+        "minGapApproxPx": 116.0
+      },
+      {
+        "components": [
+          "mascot",
+          "food3"
+        ],
+        "minGapApproxPx": 240.7
+      },
+      {
+        "components": [
+          "food1",
+          "food2"
+        ],
+        "minGapApproxPx": 186.5
+      },
+      {
+        "components": [
+          "food1",
+          "food3"
+        ],
+        "minGapApproxPx": 192.0
+      },
+      {
+        "components": [
+          "food2",
+          "food3"
+        ],
+        "minGapApproxPx": 601.7
+      }
+    ]
+  },
+  "nuggets": {
+    "master": "nuggets-master.png",
+    "masterDimensions": [
+      1254,
+      1254
+    ],
+    "webp": "nuggets.webp",
+    "webpDimensions": [
+      960,
+      960
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBboxThreshold16": [
+      123,
+      102,
+      1160,
+      1197
+    ],
+    "webpBytes": 163440,
+    "reference": "../mobile-v2/nuggets-master.png",
+    "secondaryReference": "../nuggets-art-v4.webp",
+    "prompt": "nuggets-prompt.txt",
+    "method": "built-in ImageGen; dynamic mobile composition; desktop untouched",
+    "qaApproximation": "Quarter-resolution alpha components at threshold128; approximate dimensions/gaps ±4px; not semantic segmentation. Four largest components inspected visually.",
+    "mainComponents": [
+      {
+        "component": "mascot",
+        "areaApproxPx": 207840,
+        "bboxApproxPx": [
+          164,
+          524,
+          732,
+          1200
+        ],
+        "widthApproxPx": 568,
+        "heightApproxPx": 676
+      },
+      {
+        "component": "food1",
+        "areaApproxPx": 86240,
+        "bboxApproxPx": [
+          600,
+          128,
+          996,
+          464
+        ],
+        "widthApproxPx": 396,
+        "heightApproxPx": 336
+      },
+      {
+        "component": "food2",
+        "areaApproxPx": 52688,
+        "bboxApproxPx": [
+          840,
+          568,
+          1160,
+          808
+        ],
+        "widthApproxPx": 320,
+        "heightApproxPx": 240
+      },
+      {
+        "component": "food3",
+        "areaApproxPx": 25472,
+        "bboxApproxPx": [
+          184,
+          164,
+          404,
+          332
+        ],
+        "widthApproxPx": 220,
+        "heightApproxPx": 168
+      }
+    ],
+    "gaps": [
+      {
+        "components": [
+          "mascot",
+          "food1"
+        ],
+        "minGapApproxPx": 150.9
+      },
+      {
+        "components": [
+          "mascot",
+          "food2"
+        ],
+        "minGapApproxPx": 126.3
+      },
+      {
+        "components": [
+          "mascot",
+          "food3"
+        ],
+        "minGapApproxPx": 196.0
+      },
+      {
+        "components": [
+          "food1",
+          "food2"
+        ],
+        "minGapApproxPx": 153.1
+      },
+      {
+        "components": [
+          "food1",
+          "food3"
+        ],
+        "minGapApproxPx": 200.6
+      },
+      {
+        "components": [
+          "food2",
+          "food3"
+        ],
+        "minGapApproxPx": 596.1
+      }
+    ]
+  },
+  "lulia-mini": {
+    "master": "lulia-mini-master.png",
+    "masterDimensions": [
+      1254,
+      1254
+    ],
+    "webp": "lulia-mini.webp",
+    "webpDimensions": [
+      960,
+      960
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBboxThreshold16": [
+      87,
+      69,
+      1205,
+      1201
+    ],
+    "webpBytes": 185960,
+    "reference": "../mobile-v2/lulia-mini-master.png",
+    "secondaryReference": "../lulia-mini-art-v4.webp",
+    "prompt": "lulia-mini-prompt.txt",
+    "method": "built-in ImageGen; dynamic mobile composition; desktop untouched",
+    "qaApproximation": "Quarter-resolution alpha components at threshold128; approximate dimensions/gaps ±4px; not semantic segmentation. Four largest components inspected visually.",
+    "mainComponents": [
+      {
+        "component": "mascot",
+        "areaApproxPx": 221456,
+        "bboxApproxPx": [
+          88,
+          484,
+          676,
+          1204
+        ],
+        "widthApproxPx": 588,
+        "heightApproxPx": 720
+      },
+      {
+        "component": "food1",
+        "areaApproxPx": 99520,
+        "bboxApproxPx": [
+          628,
+          72,
+          1064,
+          468
+        ],
+        "widthApproxPx": 436,
+        "heightApproxPx": 396
+      },
+      {
+        "component": "food2",
+        "areaApproxPx": 63936,
+        "bboxApproxPx": [
+          804,
+          428,
+          1204,
+          800
+        ],
+        "widthApproxPx": 400,
+        "heightApproxPx": 372
+      },
+      {
+        "component": "food3",
+        "areaApproxPx": 23824,
+        "bboxApproxPx": [
+          220,
+          168,
+          424,
+          348
+        ],
+        "widthApproxPx": 204,
+        "heightApproxPx": 180
+      }
+    ],
+    "gaps": [
+      {
+        "components": [
+          "mascot",
+          "food1"
+        ],
+        "minGapApproxPx": 139.7
+      },
+      {
+        "components": [
+          "mascot",
+          "food2"
+        ],
+        "minGapApproxPx": 139.7
+      },
+      {
+        "components": [
+          "mascot",
+          "food3"
+        ],
+        "minGapApproxPx": 140.0
+      },
+      {
+        "components": [
+          "food1",
+          "food2"
+        ],
+        "minGapApproxPx": 170.6
+      },
+      {
+        "components": [
+          "food1",
+          "food3"
+        ],
+        "minGapApproxPx": 219.0
+      },
+      {
+        "components": [
+          "food2",
+          "food3"
+        ],
+        "minGapApproxPx": 543.5
+      }
+    ]
+  }
+}

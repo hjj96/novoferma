@@ -1,0 +1,402 @@
+[
+  {
+    "button": {
+      "bottom": 2751.5078125,
+      "h": 54,
+      "right": 1019.25,
+      "w": 216.8359375,
+      "x": 802.4140625,
+      "y": 2697.5078125
+    },
+    "height": 960,
+    "image": {
+      "bottom": 2839.5078125,
+      "h": 345.375,
+      "right": 1416,
+      "w": 259.1953125,
+      "x": 1156.8046875,
+      "y": 2494.1328125
+    },
+    "loaded": true,
+    "overflow": false,
+    "paragraph": {
+      "bottom": 2669.5078125,
+      "h": 170.46875,
+      "right": 1128.796875,
+      "w": 326.3828125,
+      "x": 802.4140625,
+      "y": 2499.0390625
+    },
+    "section": {
+      "bottom": 2839.5078125,
+      "h": 420.46875,
+      "right": 1440,
+      "w": 1440,
+      "x": 0,
+      "y": 2419.0390625
+    },
+    "source": "http://127.0.0.1:8765/assets/responsive/illustrations/mascot-partnership-v2-400-q90-66fd6b8d.webp",
+    "title": "Будемпартнёрами?",
+    "width": 1440
+  },
+  {
+    "button": {
+      "bottom": 2809.5078125,
+      "h": 54,
+      "right": 1259.25,
+      "w": 216.8359375,
+      "x": 1042.4140625,
+      "y": 2755.5078125
+    },
+    "height": 1080,
+    "image": {
+      "bottom": 2897.5078125,
+      "h": 346.4453125,
+      "right": 1656,
+      "w": 260,
+      "x": 1396,
+      "y": 2551.0625
+    },
+    "loaded": true,
+    "overflow": false,
+    "paragraph": {
+      "bottom": 2727.5078125,
+      "h": 170.46875,
+      "right": 1367.9921875,
+      "w": 325.578125,
+      "x": 1042.4140625,
+      "y": 2557.0390625
+    },
+    "section": {
+      "bottom": 2897.5078125,
+      "h": 420.46875,
+      "right": 1920,
+      "w": 1920,
+      "x": 0,
+      "y": 2477.0390625
+    },
+    "source": "http://127.0.0.1:8765/assets/responsive/illustrations/mascot-partnership-v2-400-q90-66fd6b8d.webp",
+    "title": "Будемпартнёрами?",
+    "width": 1920
+  },
+  {
+    "button": {
+      "bottom": 3398.5625,
+      "h": 54,
+      "right": 780.921875,
+      "w": 216.8359375,
+      "x": 564.0859375,
+      "y": 3344.5625
+    },
+    "height": 900,
+    "image": {
+      "bottom": 3462.5625,
+      "h": 245.59375,
+      "right": 1024,
+      "w": 184.3125,
+      "x": 839.6875,
+      "y": 3216.96875
+    },
+    "loaded": true,
+    "overflow": false,
+    "paragraph": {
+      "bottom": 3316.5625,
+      "h": 139.4921875,
+      "right": 827.6796875,
+      "w": 263.59375,
+      "x": 564.0859375,
+      "y": 3177.0703125
+    },
+    "section": {
+      "bottom": 3462.5625,
+      "h": 349.4921875,
+      "right": 1024,
+      "w": 1024,
+      "x": 0,
+      "y": 3113.0703125
+    },
+    "source": "http://127.0.0.1:8765/assets/responsive/illustrations/mascot-partnership-v2-400-q90-66fd6b8d.webp",
+    "title": "Будемпартнёрами?",
+    "width": 1024
+  },
+  {
+    "button": {
+      "bottom": 3131.1015625,
+      "h": 54,
+      "right": 714.6015625,
+      "w": 216.8359375,
+      "x": 497.765625,
+      "y": 3077.1015625
+    },
+    "height": 900,
+    "image": {
+      "bottom": 3195.1015625,
+      "h": 215.859375,
+      "right": 900,
+      "w": 162,
+      "x": 738,
+      "y": 2979.2421875
+    },
+    "loaded": true,
+    "overflow": false,
+    "paragraph": {
+      "bottom": 3049.1015625,
+      "h": 167.390625,
+      "right": 725.9921875,
+      "w": 228.2265625,
+      "x": 497.765625,
+      "y": 2881.7109375
+    },
+    "section": {
+      "bottom": 3195.1015625,
+      "h": 377.390625,
+      "right": 900,
+      "w": 900,
+      "x": 0,
+      "y": 2817.7109375
+    },
+    "source": "http://127.0.0.1:8765/assets/responsive/illustrations/mascot-partnership-v2-400-q90-66fd6b8d.webp",
+    "title": "Будемпартнёрами?",
+    "width": 900
+  },
+  {
+    "button": {
+      "bottom": 3297.25,
+      "h": 54,
+      "right": 248.8359375,
+      "w": 216.8359375,
+      "x": 32,
+      "y": 3243.25
+    },
+    "height": 900,
+    "image": {
+      "bottom": 3361.25,
+      "h": 215.609375,
+      "right": 899,
+      "w": 161.8125,
+      "x": 737.1875,
+      "y": 3145.640625
+    },
+    "loaded": true,
+    "overflow": false,
+    "paragraph": {
+      "bottom": 3215.25,
+      "h": 83.6953125,
+      "right": 558.6796875,
+      "w": 526.6796875,
+      "x": 32,
+      "y": 3131.5546875
+    },
+    "section": {
+      "bottom": 3361.25,
+      "h": 465.9296875,
+      "right": 899,
+      "w": 899,
+      "x": 0,
+      "y": 2895.3203125
+    },
+    "source": "http://127.0.0.1:8765/assets/responsive/illustrations/mascot-partnership-v2-400-q90-66fd6b8d.webp",
+    "title": "Будемпартнёрами?",
+    "width": 899
+  },
+  {
+    "button": {
+      "bottom": 3039.328125,
+      "h": 54,
+      "right": 248.8359375,
+      "w": 216.8359375,
+      "x": 32,
+      "y": 2985.328125
+    },
+    "height": 1024,
+    "image": {
+      "bottom": 3103.328125,
+      "h": 213.1953125,
+      "right": 768,
+      "w": 160,
+      "x": 608,
+      "y": 2890.1328125
+    },
+    "loaded": true,
+    "overflow": false,
+    "paragraph": {
+      "bottom": 2957.328125,
+      "h": 83.6953125,
+      "right": 558.6796875,
+      "w": 526.6796875,
+      "x": 32,
+      "y": 2873.6328125
+    },
+    "section": {
+      "bottom": 3103.328125,
+      "h": 445.4921875,
+      "right": 768,
+      "w": 768,
+      "x": 0,
+      "y": 2657.8359375
+    },
+    "source": "http://127.0.0.1:8765/assets/responsive/illustrations/mascot-partnership-v2-400-q90-66fd6b8d.webp",
+    "title": "Будемпартнёрами?",
+    "width": 768
+  },
+  {
+    "button": {
+      "bottom": 2953.6484375,
+      "h": 54,
+      "right": 248.8359375,
+      "w": 216.8359375,
+      "x": 32,
+      "y": 2899.6484375
+    },
+    "height": 900,
+    "image": {
+      "bottom": 3017.6484375,
+      "h": 213.1953125,
+      "right": 700,
+      "w": 160,
+      "x": 540,
+      "y": 2804.453125
+    },
+    "loaded": true,
+    "overflow": false,
+    "paragraph": {
+      "bottom": 2871.6484375,
+      "h": 83.6953125,
+      "right": 528,
+      "w": 496,
+      "x": 32,
+      "y": 2787.953125
+    },
+    "section": {
+      "bottom": 3017.6484375,
+      "h": 442.1640625,
+      "right": 700,
+      "w": 700,
+      "x": 0,
+      "y": 2575.484375
+    },
+    "source": "http://127.0.0.1:8765/assets/responsive/illustrations/mascot-partnership-v2-400-q90-66fd6b8d.webp",
+    "title": "Будемпартнёрами?",
+    "width": 700
+  },
+  {
+    "button": {
+      "bottom": 3655.0078125,
+      "h": 50,
+      "right": 204.4140625,
+      "w": 184.4140625,
+      "x": 20,
+      "y": 3605.0078125
+    },
+    "height": 900,
+    "image": {
+      "bottom": 3754.0078125,
+      "h": 239.84375,
+      "right": 699,
+      "w": 180,
+      "x": 519,
+      "y": 3514.1640625
+    },
+    "loaded": true,
+    "overflow": false,
+    "paragraph": {
+      "bottom": 3490.0078125,
+      "h": 81.5859375,
+      "right": 517.4140625,
+      "w": 497.4140625,
+      "x": 20,
+      "y": 3408.421875
+    },
+    "section": {
+      "bottom": 3754.0078125,
+      "h": 579.6640625,
+      "right": 699,
+      "w": 699,
+      "x": 0,
+      "y": 3174.34375
+    },
+    "source": "http://127.0.0.1:8765/assets/responsive/illustrations/mascot-partnership-v2-400-q90-66fd6b8d.webp",
+    "title": "Будемпартнёрами?",
+    "width": 699
+  },
+  {
+    "button": {
+      "bottom": 2513.71875,
+      "h": 50,
+      "right": 204.4140625,
+      "w": 184.4140625,
+      "x": 20,
+      "y": 2463.71875
+    },
+    "height": 844,
+    "image": {
+      "bottom": 2586.3203125,
+      "h": 187.078125,
+      "right": 390,
+      "w": 140.3984375,
+      "x": 249.6015625,
+      "y": 2399.2421875
+    },
+    "loaded": true,
+    "overflow": false,
+    "paragraph": {
+      "bottom": 2375.125,
+      "h": 81.5859375,
+      "right": 370,
+      "w": 350,
+      "x": 20,
+      "y": 2293.5390625
+    },
+    "section": {
+      "bottom": 2586.3203125,
+      "h": 470.984375,
+      "right": 390,
+      "w": 390,
+      "x": 0,
+      "y": 2115.3359375
+    },
+    "source": "http://127.0.0.1:8765/assets/responsive/illustrations/mascot-partnership-v2-400-q90-66fd6b8d.webp",
+    "title": "Будемпартнёрами?",
+    "width": 390
+  },
+  {
+    "button": {
+      "bottom": 2268.203125,
+      "h": 65.6875,
+      "right": 164,
+      "w": 148,
+      "x": 16,
+      "y": 2202.515625
+    },
+    "height": 780,
+    "image": {
+      "bottom": 2319.359375,
+      "h": 159.8984375,
+      "right": 320,
+      "w": 120,
+      "x": 200,
+      "y": 2159.4609375
+    },
+    "loaded": true,
+    "overflow": false,
+    "paragraph": {
+      "bottom": 2135.359375,
+      "h": 102.375,
+      "right": 304,
+      "w": 288,
+      "x": 16,
+      "y": 2032.984375
+    },
+    "section": {
+      "bottom": 2319.359375,
+      "h": 443.484375,
+      "right": 320,
+      "w": 320,
+      "x": 0,
+      "y": 1875.875
+    },
+    "source": "http://127.0.0.1:8765/assets/responsive/illustrations/mascot-partnership-v2-400-q90-66fd6b8d.webp",
+    "title": "Будемпартнёрами?",
+    "width": 320
+  }
+]

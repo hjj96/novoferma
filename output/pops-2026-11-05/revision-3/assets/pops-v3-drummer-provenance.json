@@ -1,0 +1,55 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "output": "/Users/andrey/Desktop/сайт нф/output/pops-2026-11-05/revision-3/assets/pops-v3-drummer.png",
+  "source": "/Users/andrey/.codex/generated_images/01a1ac4b-2ce4-7041-95bc-42f590ba90aa/exec-36e03253-0e6f-4e69-b7cf-aededa35be46.png",
+  "initial_source": "/Users/andrey/.codex/generated_images/01a1ac4b-2ce4-7041-95bc-42f590ba90aa/exec-d0a128d3-2c19-4429-90af-03c9bc517048.png",
+  "reference_images": [
+    {
+      "path": "output/concept/assets/catalogue/stripsy.webp",
+      "role": "PRIMARY edit target, original physical packaging/typography/layout"
+    },
+    {
+      "path": "output/concept/assets/catalogue/naggetsy-ostrye.webp",
+      "role": "original flat ink outlined chicken character/printed scene style"
+    },
+    {
+      "path": "output/concept/assets/catalogue/kurinyj-popkorn.webp",
+      "role": "original food and vessel action scene relationship"
+    }
+  ],
+  "prompts": [
+    "pops-v3-drummer-prompt.txt",
+    "pops-v3-drummer-cleanup-prompt.txt"
+  ],
+  "steps": [
+    "generate edit of original product photograph",
+    "one permitted cleanup of external alpha islands"
+  ],
+  "concept": "original classic NOVOferma layout; cheeky flat ink chicken drummer wearing small black rock vest, two wooden sticks, terracotta bucket of pops, lively youth scene printed on cream label",
+  "exact_copy": [
+    "NOVOferma",
+    "ПОПСЫ",
+    "МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ",
+    "В ХРУСТЯЩЕЙ ПАНИРОВКЕ"
+  ],
+  "qa": {
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "target_resolution": "2048 requested; actual tool output 1254x1254",
+    "text": "all four lines visually verified",
+    "anatomy": "two wings, two sticks, two thin bird legs",
+    "tray": "pale matte frozen breaded small irregular rounded product",
+    "limitations": [
+      "some white exterior edge pixels remain after one cleanup",
+      "visual concept; not production dieline"
+    ]
+  },
+  "not_modified": [
+    "website",
+    "presentation",
+    "other assets"
+  ]
+}

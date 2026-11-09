@@ -1,0 +1,10 @@
+--- before/product-kurinyj-popkorn.html
++++ after/product-kurinyj-popkorn.html
+@@ -133,6 +133,7 @@
+ <h3 class="product-title">Попсы</h3>
+ <span class="product-meta">
+ <span class="product-meat">Из курицы</span>
++<span class="product-weight">400&nbsp;г</span>
+ <span class="product-status">Новинка</span>
+ </span>
+ </a>

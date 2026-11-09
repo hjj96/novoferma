@@ -1,0 +1,42 @@
+{
+  "pages": 23,
+  "images": 400,
+  "localReferences": 1451,
+  "uniqueTitles": 23,
+  "uniqueDescriptions": 23,
+  "publicUrl": null,
+  "errors": [],
+  "result": "pass",
+  "scope": "Generated source only; visual and interactive browser checks are separate."
+}
+✔ city: generated copy/manual controls retain their HTML contract (5.503542ms)
+✔ city: known product query preset; unknown values are ignored (2.097375ms)
+✔ city: whitespace fails native validity and does not navigate (0.534291ms)
+✔ city: submit prepares current city/product and edit clears stale retry (0.57375ms)
+✔ city: external product select change clears old retry despite form association (0.480125ms)
+✔ city: clipboard success never navigates or sends; uses current request (0.537875ms)
+✔ city: unavailable/rejected clipboard exposes selected manual draft (1.014958ms)
+✔ city: product edit while clipboard is pending suppresses stale success or failure (1.31275ms)
+✔ partners: valid copy contains current form data and never navigates (1.170375ms)
+✔ partners: blank or whitespace required fields prevent copy (0.690167ms)
+✔ partners: manual draft is selected, then field change clears draft and stale retry (0.6495ms)
+✔ partners: field/radio/format-link edit cancels pending clipboard success and failure (2.853334ms)
+✔ hero: generated panels/tabs are paired, first real art eager, inactive art deferred (1.094167ms)
+✔ hero: selection waits for artwork; responsive hints precede src (1.573958ms)
+✔ hero: portrait artwork stays deferred until selection, then installs before reveal (0.614584ms)
+✔ hero: rapid navigation commits only the latest scene (0.623666ms)
+✔ hero: rejected decode does not trap navigation or aria-busy (0.62575ms)
+✔ hero: End key focuses without scrolling and commits the last scene (0.835959ms)
+✔ hero: focus inside the old panel is moved out before it becomes inert (0.622917ms)
+✔ hero: idle warm starts after load, one scene at a time, without autoplay (0.672958ms)
+✔ hero: saveData/slow connection skips speculative warm but keeps explicit selection (2.155166ms)
+✔ hero: hidden document defers warm; visibility resumes; timeout fallback remains delayed (1.1195ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 32.21125
+Site source, JavaScript syntax and available interaction checks passed.

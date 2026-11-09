@@ -1,0 +1,23 @@
+{
+  "product": "lenivchiki",
+  "status": "complete",
+  "publicUrl": "https://novoferma-team-preview.vercel.app/product-lenivchiki.html",
+  "catalogueUrl": "https://novoferma-team-preview.vercel.app/catalogue.html",
+  "deploymentId": "dpl_2sNmNA8wCByXAXQXdGrw9Z62crbu",
+  "sourceCommit": "4f4b0b00dd8cd5b3d51da9411ceedfafbaa85b05",
+  "state": "READY",
+  "publicationVerification": "pass",
+  "localBrowserViewports": [
+    1440,
+    390,
+    320
+  ],
+  "staticPages": 24,
+  "products": 18,
+  "interactionTestsPassed": 25,
+  "liveHttpCheck": "pass",
+  "packMaster": "assets/lenivchiki-pack-v1.png",
+  "sceneMaster": "assets/lenivchiki-scene-v1.png",
+  "mainBranch": "main",
+  "mainBranchPreserved": true
+}

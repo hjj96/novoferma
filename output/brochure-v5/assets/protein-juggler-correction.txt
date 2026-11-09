@@ -1,0 +1,7 @@
+Use case: precise-object-edit
+Edit target: Image1 is the transparent Novoferma juggling illustration to refine. Image2 is the official mascot identity reference only.
+Make exactly one compositional correction: SCALE DOWN and MOVE ONLY THE CHICKEN MASCOT (including its feet, wings, tail and tiny attached movement strokes) so its complete silhouette fits within approximately x61–86% of the full 16:9 canvas width and y46–90% of the height. Centre it near x73.5%, y68%. It must be significantly smaller than in Image1, with every foot fully inside y90%. Preserve the same recognisable face, apron, bird proportions, pose, hand-ink linework and colours. Do not redesign the character.
+KEEP THE THREE MEATBALLS unchanged in form, texture, count and existing positions: left one around x51%,y36%; upper-right one around x89%,y32%; small right one around x90%,y56%. Keep the associated tiny orange accent marks, but no noisy red glow or spray.
+Absolute safe zones: LEFT44% of entire canvas must be genuinely transparent, empty, zero-alpha. The numeric slot x61–82%, y10–34% must be genuinely transparent empty zero-alpha with no subjects, marks, feather, shadows, numerals, badges or lettering.
+Background remains true transparent RGBA, clean transparent pixels outside subjects. No background or checkerboard; no text/numerals/logos; no plates, table, wheat, packaging or extra objects.
+Do not move, rescale, add or remove any meatballs. Change only the mascot scale/position and remove faint stray opacity/noise outside the subjects.

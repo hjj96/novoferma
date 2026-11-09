@@ -1,0 +1,29 @@
+Use case: reference-based compositing and precise product-packaging repair.
+Create ONE corrected FIBRIKI packshot by combining the specified sources faithfully.
+
+INPUT ROLES:
+IMAGE 1 (classic NOVOferma meatballs) is the PHYSICAL PACKAGING MASTER: use its complete existing sleeve silhouette, paper color, cardboard texture, folds, opening, clear plastic container construction, proportions, perspective and photographic lighting.
+IMAGE 2 (current FIBRIKI) is ONLY the PRINTED LABEL CONTENT AND LAYOUT source: its exact logo, FIBRIKI lettering hierarchy and wording, curved benefit caption, and unique standing chicken holding a wooden spoon. Its pale pinkish paper, its fake grainy meat, and its distorted plastic must NOT be copied.
+IMAGE 3 (food photography of a whole meatball and a half) is the PHOTOGRAPHIC FOOD MASTER for the serving pair printed on the left side of the label.
+
+PHYSICAL PACKAGE / PAPER — critical:
+Use the warm, slightly darker beige-cream paper from Image 1 across the ENTIRE Fibriki sleeve, with that same subdued yellow-ochre warmth and natural softly mottled cardboard finish. Match its visual paper density precisely: typical midtone RGB about 240/226/199 rather than the pale pinkish 243/230/210 of Image 2. Preserve the master's local light and shadows. This is the same stock photographed in the same studio as Image 1. Do not brighten/whiten or pinken the paper. The cut paper edge is pale and natural, NOT outlined in brown.
+
+TRANSPARENT TRAY — critical:
+Copy the physically coherent container from Image 1. It is a single intact clear thermoformed rounded-rectangular food tub, symmetrical, undamaged, with a level front lip, continuous aligned rim, gently rounded corners, and flat level bottom. The front rim follows one consistent perspective with a few thin parallel molded edges and restrained reflections, as actually visible in Image 1. Do NOT reuse Image 2's many intersecting white curved bands. No crumpled cellophane, bowed or cracked walls, sharp kinks in the central front lip, detached transparent strips, overlapping ellipses or melted plastic. Keep all food visibly behind the unbroken transparent wall. The raw contents are cohesive finely minced chicken balls, pale natural chicken beige, irregularly fine-grained, with a FEW tiny embedded muted parsley flecks. No angular crystalline/mosaic/rice texture on the raw balls.
+
+PRINTED COOKED FOOD — critical:
+Replace the artificial food illustration in Image 2 with the actual photographic whole-plus-half pair from Image 3, scaled into the SAME LEFT LABEL AREA, whole ball rear-left, half front-right, cut face toward viewer. Transfer the photographic natural brown crust, gentle uneven caramelization, subtle moisture, soft shadows, irregular tiny pores and cohesive cooked mince. The cut half is real pale beige minced chicken with fine amorphous pores and soft irregular grain, NOT a pile of separate white pieces. No rice, diamond-shaped facets, repeated pointed grains, foam, waxy gloss, cartoon rendering, breading or shredded strands. Keep the meat photograph print quality natural and detailed even at catalogue size.
+Add only a few very small muted green parsley-like fragments naturally EMBEDDED in this food, including the cross-section: roughly 6–10 irregular pinpoints on the cut face, 3–5 on the whole meatball; sparse, soft, varied, not bright stickers. The little spoon meatball also has a natural browned surface and one or two tiny herb flecks.
+
+LABEL CONTENT:
+Preserve Image 2's unique standing chicken and wooden-spoon action, its expression, illustration style and position; do NOT borrow Image 1's flying chef chicken or its food arrangement. Keep the recognizable current FIBRIKI composition and spacing. All lettering must remain exact, with these words ONLY:
+NOVOferma
+ФИБРИКИ
+ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ
+С ПИЩЕВЫМИ ВОЛОКНАМИ
+БЕЛОК + КЛЕТЧАТКА
+Keep the same warm orange logo and medium warm brown lettering family as Image 1. No added claims, badges or copy.
+
+DELIVERY:
+A high-quality realistic front packshot matching the existing product family. ONE entire complete package on TRUE TRANSPARENT BACKGROUND, clean antialiased alpha, no canvas/background/shadow outside the object, no colored halo, no cropping. Keep full package and transparent margins. All revisions should look like a real studio photograph of the established brand, with the current unique Fibriki label artwork and correct natural food.

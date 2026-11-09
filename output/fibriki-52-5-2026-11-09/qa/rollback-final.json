@@ -1,0 +1,26 @@
+{
+  "tempSite": "/var/folders/b1/s0mpd68155bf8x94y3j6by3c0000gn/T/novoferma-fibriki-restored-v12-jaqkkymc",
+  "allDifferences": [
+    "catalogue.html",
+    "product-fibriki.html"
+  ],
+  "unexpected": [],
+  "promoted": [
+    "catalogue.html",
+    "product-fibriki.html"
+  ],
+  "otherHTMLPreserved": true,
+  "targetsMatchOriginalBaseline": {
+    "catalogue.html": true,
+    "product-fibriki.html": true,
+    "site-manifest.json": true
+  },
+  "image": "assets/novelty-packaging/fibriki-pack-v12.webp?v=0ea08f11f1",
+  "packNutritionRemoved": true,
+  "liveNutritionBlockRemoved": true,
+  "helperRemoved": true,
+  "v13SourceRemoved": true,
+  "cssRestoredExactly": true,
+  "v13ReferencesAbsentFromTargets": true,
+  "new52ClaimsAbsent": true
+}

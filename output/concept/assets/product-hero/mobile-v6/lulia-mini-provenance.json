@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-08",
+  "tool": "built-in image_gen.imagegen",
+  "source": "/Users/andrey/.codex/generated_images/01a1ab97-8dbf-7c80-b46f-e9b6e7853b89/exec-491b8d27-6ab3-4c77-a28f-46cb5f66c221.png",
+  "master": "lulia-mini-master.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alpha64_bbox": [
+    41,
+    72,
+    1244,
+    1187
+  ],
+  "components_alpha64_approx": [
+    {
+      "id": 0,
+      "bbox": [
+        371,
+        343,
+        1246,
+        1186
+      ],
+      "area": 399317
+    },
+    {
+      "id": 1,
+      "bbox": [
+        100,
+        124,
+        527,
+        555
+      ],
+      "area": 106955
+    },
+    {
+      "id": 2,
+      "bbox": [
+        40,
+        879,
+        495,
+        1162
+      ],
+      "area": 91213
+    },
+    {
+      "id": 3,
+      "bbox": [
+        615,
+        72,
+        1126,
+        312
+      ],
+      "area": 86524
+    }
+  ],
+  "gaps_alpha64_approx_px": [
+    [
+      0,
+      1,
+      45.5
+    ],
+    [
+      0,
+      2,
+      58.1
+    ],
+    [
+      0,
+      3,
+      36.2
+    ],
+    [
+      1,
+      2,
+      370.0
+    ],
+    [
+      1,
+      3,
+      158.2
+    ],
+    [
+      2,
+      3,
+      696.4
+    ]
+  ],
+  "measurement_note": "Quarter-resolution alpha>=64 component analysis; distances approximate within4 native px; actual cream composite inspected.",
+  "calls": [
+    {
+      "prompt": "Initial exact prompt retained by root; root will save it without reconstruction here.",
+      "output": "lulia-mini-initial-master.png",
+      "source": "/Users/andrey/.codex/generated_images/01a1ab8d-83f6-7f31-a891-a15b371e8271/exec-6555b6bb-a0e8-4dc5-9f21-6b71ab0c8024.png"
+    },
+    {
+      "prompt": "lulia-mini-edit-prompt.txt",
+      "output": "lulia-mini-master.png",
+      "references": [
+        "lulia-mini-initial-master.png",
+        "../desktop-v8/popsy-hen-v3-master.png"
+      ]
+    }
+  ]
+}

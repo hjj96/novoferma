@@ -1,0 +1,72 @@
+[
+  {
+    "controls": 0,
+    "description": "Продукты из курицы и индейки.\nДля вашего ассортимента.",
+    "descriptionFont": "20px",
+    "descriptionOverflow": false,
+    "firstTitleTop": 620.4140625,
+    "fullWidth": true,
+    "headerHeight": 161.9140625,
+    "headingOverflow": false,
+    "images": 0,
+    "overflow": false,
+    "visibleProducts": 16,
+    "width": 1440
+  },
+  {
+    "controls": 0,
+    "description": "Продукты из курицы и индейки.\nДля вашего ассортимента.",
+    "descriptionFont": "18px",
+    "descriptionOverflow": false,
+    "firstTitleTop": 575.109375,
+    "fullWidth": true,
+    "headerHeight": 129.109375,
+    "headingOverflow": false,
+    "images": 0,
+    "overflow": false,
+    "visibleProducts": 16,
+    "width": 1024
+  },
+  {
+    "controls": 0,
+    "description": "Продукты из курицы и индейки.\nДля вашего ассортимента.",
+    "descriptionFont": "18px",
+    "descriptionOverflow": false,
+    "firstTitleTop": 473.78125,
+    "fullWidth": true,
+    "headerHeight": 113.1171875,
+    "headingOverflow": false,
+    "images": 0,
+    "overflow": false,
+    "visibleProducts": 16,
+    "width": 768
+  },
+  {
+    "controls": 0,
+    "description": "Продукты из курицы и индейки.\nДля вашего ассортимента.",
+    "descriptionFont": "16px",
+    "descriptionOverflow": false,
+    "firstTitleTop": 460.6953125,
+    "fullWidth": true,
+    "headerHeight": 165.6953125,
+    "headingOverflow": false,
+    "images": 0,
+    "overflow": false,
+    "visibleProducts": 16,
+    "width": 390
+  },
+  {
+    "controls": 0,
+    "description": "Продукты из курицы и индейки.\nДля вашего ассортимента.",
+    "descriptionFont": "16px",
+    "descriptionOverflow": false,
+    "firstTitleTop": 422.453125,
+    "fullWidth": true,
+    "headerHeight": 160.953125,
+    "headingOverflow": false,
+    "images": 0,
+    "overflow": false,
+    "visibleProducts": 16,
+    "width": 320
+  }
+]

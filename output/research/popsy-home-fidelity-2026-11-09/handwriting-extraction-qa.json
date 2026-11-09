@@ -1,0 +1,57 @@
+{
+  "master": {
+    "path": "/Users/andrey/Desktop/сайт нф/output/research/popsy-home-fidelity-2026-11-09/handwriting-master.png",
+    "size": [
+      1560,
+      1008
+    ],
+    "bytes": 514665,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      25,
+      19,
+      1544,
+      1008
+    ],
+    "bboxAlpha8": [
+      105,
+      93,
+      1490,
+      959
+    ]
+  },
+  "runtime": {
+    "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/popsy-home/handwritten-concept-v2.webp",
+    "size": [
+      700,
+      452
+    ],
+    "bytes": 86142,
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      11,
+      32,
+      690,
+      433
+    ],
+    "bboxAlpha8": [
+      47,
+      42,
+      669,
+      430
+    ]
+  },
+  "visualQA": [
+    "Exact phrase Хрусти / в своём ритме remains legible with both ё dots.",
+    "Two rising calligraphic lines and the original curved tapered underline retained.",
+    "No visible extra strokes, doodles, letters, package or UI.",
+    "Native cutout with one targeted ink-color correction; not a deterministic pixel-exact mask."
+  ]
+}

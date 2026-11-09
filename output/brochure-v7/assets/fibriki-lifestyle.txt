@@ -1,0 +1,22 @@
+Use case: compositing / precise-object-edit.
+Asset type: a single premium lifestyle/editorial product photograph, 16:9 wide, for the Novoferma Fibriki brochure.
+
+EDIT TARGET: input image 1 is the established dark green Fibriki editorial food scene. SUPPORTING INSERT: input image 2 is the exact real/approved Fibriki product package, a transparent plastic tray with curved cream printed cardboard sleeve. Preserve and integrate this exact package, not a redesigned package.
+
+Primary change: Add the approved Fibriki package organically into the SAME PHYSICAL SCENE behind the three cooked meatball pieces on the RIGHT. It must be recognizable, substantial in scale, and naturally standing/resting behind the food, with the same perspective, upper-left studio daylight, warm reflections and convincing grounded soft contact shadows. It is a product still life, NOT a pasted sticker, NOT a tiny packshot thumbnail, NOT a separate graphic element at the bottom.
+Place the package broadly in the back right, approximately x61% to beyond the right edge, y3% to y74%. It may be subtly cropped by the right edge or top, but KEEP its Novoferma logo and the large name ФИБРИКИ clearly visible in the upper part. The food may overlap the lower part of the package naturally. Arrange a believable spatial depth: package at rear, the existing three meatball angles at front. The package must look like a transparent plastic food tray with its cream printed cardboard outer sleeve, NOT a pouch, NOT a stand-up bag, NOT a box redesign. Slight perspective angle allowed; keep frontal artwork readable.
+
+CRITICAL PACKAGE IDENTITY LOCK: preserve the native cream background, orange Novoferma logo, brown Cyrillic lettering, the original printed orange chicken holding a spoon, the food illustration and the proportions/structure of the original tray and sleeve. Do not invent new package artwork, badge, label, claims, colours or typography. The printed texts on the package must remain exactly:
+NOVOferma
+ФИБРИКИ
+ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ
+С ПИЩЕВЫМИ ВОЛОКНАМИ
+БЕЛОК + КЛЕТЧАТКА
+No other readable text is allowed anywhere outside the existing package print.
+
+KEEP from input 1: the quiet deep fresh forest/basil-green backdrop and textured matte tabletop, the authentic fine chicken-mince interior with sparse green herb flecks, gentle golden browning, all THREE grounded food objects and their distinct views: whole ball in 3/4 view, whole ball seen slightly from above, and halved piece with cut face toward camera. Preserve the realistic connected chicken texture; do NOT turn the foreground food into rice grains, pellet shapes or arancini from the package illustration. You may make modest positional adjustments within the right side to integrate the package and maintain an elegant asymmetric composition, but do not lose any of the three food angles. Existing low matte green plinth can remain. No floating balls.
+
+SAFE ZONE: the entire LEFT 43% of the image must remain clean empty dark green, uninterrupted from top to bottom, suitable for live cream title and one paragraph added later. No package, food, shadows, graphic marks or ingredients intrude into left43%.
+Overall finish: cohesive premium editorial advertising photography with natural shadows, tactile surfaces, subtle realistic reflections in the tray, restrained depth of field, and visually unified lighting. The package and food are photographed together, not a collage.
+
+DO NOT add slide headlines, captions, infographics, pills, panels, numerals, pseudo-diagrams, standalone chicken mascots, wheat, utensils, sauce drips, extra ingredients or decorative avalanches. Only preserve the printed chicken illustration on the package itself.

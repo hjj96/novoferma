@@ -1,0 +1,7 @@
+Refine the attached ONE desktop Novoferma website concept, preserving the entire food photograph, plate, nuggets, tabletop, linen, lighting, header, main headline and body text exactly. Keep1586×992 landscape.
+
+Make only these hierarchy corrections:
+1) Reduce the package in the background by25% in BOTH dimensions, preserving exact proportions, print, clear tray, angle and photographic identity. Move the resized package slightly right, so it occupies approximately x900–1300,y165–475. It must remain on the same table, behind the plate, with coherent contact shadow and light. The ПОПСЫ name and printed rooster must still be recognizable, entirely visible. Do not change the prepared food or add/remove objects.
+2) Make the handwritten «в своём ритме» much quieter: reduce to about65% of its present size (width210–220px), keep its exact words and burnt-orange color, use a restrained shorter underline. Position it directly beneath the description, around x96,y645. It should be a personal small annotation, not another big heading.
+3) Move the О Попсах pill button up about30px (to approximatelyy742), keeping its typography, width and arrow as before, to keep the left information block compact and intentional.
+Everything else remains visually unchanged. Especially keep natural, slightly irregular golden chicken mini-nuggets on the ceramic plate, non-symmetric moist minced-chicken break, real crumbs and soft unified light. ONE image only, no extra layouts/labels.

@@ -1,0 +1,85 @@
+{
+  "result": "pass",
+  "viewports": [
+    [
+      320,
+      740
+    ],
+    [
+      360,
+      800
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      480,
+      900
+    ],
+    [
+      699,
+      1000
+    ],
+    [
+      700,
+      800
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1099,
+      800
+    ],
+    [
+      1100,
+      800
+    ],
+    [
+      1280,
+      720
+    ],
+    [
+      1440,
+      900
+    ],
+    [
+      1920,
+      1080
+    ],
+    [
+      667,
+      375
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      932,
+      430
+    ]
+  ],
+  "productScenesPerViewport": 4,
+  "sceneViewportCombinations": 64,
+  "geometryErrors": [],
+  "sourceBehaviorTests": 22,
+  "browserInteractions": {
+    "primaryCta": "opened product-fibriki.html",
+    "swipe": "Fibriki to meatballs",
+    "keyboardEnd": "Lulia mini selected/focused",
+    "keyboardHome": "Fibriki selected/focused",
+    "mobileMenu": "open/close passed"
+  },
+  "limits": [
+    "One browser engine with simulated viewports; not physical devices",
+    "No screen-reader session or 200% text zoom audit",
+    "Food imagery is generated illustration and does not replace an approved product photograph"
+  ]
+}

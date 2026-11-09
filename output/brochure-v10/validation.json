@@ -1,0 +1,30 @@
+{
+  "pages": 8,
+  "changed_page": 6,
+  "updated": [
+    "Popsy newest approvedv4nativePNG",
+    "Ezhiki frontal cleanv2nativePNG;plastictrayvisiblebelow"
+  ],
+  "unchanged_pages_pixel_identical": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+  ],
+  "remaining_page6_outside_two_images": "pixel-identical",
+  "all_text": "unchanged",
+  "catalogue": [
+    5,
+    5,
+    5
+  ],
+  "source_images": [
+    "output/pops-2026-11-05/revision-4-color/assets/pops-pack-v4-color.png",
+    "output/research/catalogue-edge-cleanup/ezhiki-iz-tsyplenka-s-risom-clean-v2.png"
+  ],
+  "new_generation": false,
+  "bytes": 12351965
+}

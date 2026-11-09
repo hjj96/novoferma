@@ -1,0 +1,23 @@
+Use case: precise-object-edit / product-mockup.
+Create a revised final NOVOferma ПОПСЫ packaging packshot by editing IMAGE 4. This is a correction of brand mascot identity and physical photographic realism. The current friendly big-eyed 3D-looking mascot in image 4 is rejected; replace it completely.
+REFERENCE ROLES:
+IMAGE 1: real original NOVOferma chicken-popcorn product photo. Authority for PHYSICAL PACKAGING and honest catalog photography: broad shallow clear thin PET ribbed food tray, a slightly bent wide matte cream paperboard sleeve, soft actual plastic reflections, subtle folds and matte paper grain, grounded retail product proportions.
+IMAGE 2: Fibriki pack. Authority for BRANDED HEN CHARACTER identity.
+IMAGE 3: strips pack. Additional authority for SAME hen's proportions, expression, dark feather pen hatching, and traditional printed-illustration technique.
+IMAGE 4: POPS packaging edit target. Preserve product identity, cream sleeve, orange NOVOferma logo, dark brown ПОПСЫ, exact four text lines, minced-chicken bites, overall left food/right mascot content arrangement.
+
+Replace only the rejected character style with the SAME recognizable NOVOferma hen from images 2 and 3 in a new natural pose. It has a relatively small head, narrow knowing slightly sly eyes with a squint, a modest natural pointed beak, russet/orange wing feathers drawn with dark brown black pen hatching, yellow chest, red comb, thin dark brown legs and realistic bird toes. Fine pen-and-ink and traditional painted print illustration, visible dark outlines and hatching. Keep its animal silhouette, body proportions and facial character close to Fibriki/strips hen, not a new cartoon franchise character.
+New pose on right half of label: full-body hen stands on two thin dark bird legs and carries a small terracotta paper bucket of tiny golden pops between its two wings in front of its chest. The bucket is the center of the action. Natural feathered wings gripping/supporting the bucket, never human hands/fingers. Entire hen including feet fits on printed sleeve, no cropped body. Hen should occupy the lower right roughly 35% of label, same scale as Fibriki hen. Do not use huge round eyes, a round plush body, toy feet, an exaggerated giant smiling mouth, thick fluffy legs, glossy 3D, mascot costume, Disney/Pixar visual language, or smooth airbrushed feathers.
+
+Physical retail packaging: slightly wider and shallower than image 4, as the real image 1; normal thin PET, moderately subtle horizontal ribs, real wrinkles/reflections/refraction, not thick glass or glossy toy plastic. Broad cream matte printed sleeve with a gentle arch, realistic paper grain and folded sides; natural matte ink, restrained orange and brown. Soft professional catalog photography, gently diffuse studio lighting, slight photographic imperfections and neutral color rendition, not sterile CGI. Keep whole object uncut centered with at least 7% transparent margin all around.
+
+Food on sleeve left and inside tray: tiny 2–3cm irregular rounded nuggets of minced chicken, craggy small golden breadcrumb coating, mostly uneven round clumps and some softly angular pieces, not perfectly spherical meatballs, not flat large nuggets, no elongated strips. Left printed food cluster 4–5 pops, one clean cut half shows a pale homogeneous finely minced cooked chicken interior. Golden color natural, moderate saturation, no huge cornflake flakes. Do not add herbs or copy Fibriki product properties.
+
+Text printed correctly EXACTLY, no substitutions or added claims:
+"NOVOferma"
+"ПОПСЫ"
+"МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ"
+"В ХРУСТЯЩЕЙ ПАНИРОВКЕ"
+Top logo orange italic recognizable NOVOferma. ПОПСЫ largest dark warm brown high-contrast serif. Two descriptors smaller dark brown uppercase sans. Match brand family reference typography. All four lines unobscured. No weight, claims, ingredients, nutrition, barcode, certification or filler microtext. Do not copy text from reference product packs.
+
+Output one finished realistic catalog packshot at high resolution, target 2048x2048 or larger. Genuine TRANSPARENT alpha background with an immaculate antialiased package outline and NO stray colored/white/black pixels, isolated background islands, halo, checkerboard or white rectangle. No extra objects outside package. Preserve bucket idea while restoring exact original brand character style.

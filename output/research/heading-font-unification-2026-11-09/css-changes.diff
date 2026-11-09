@@ -1,0 +1,377 @@
+--- before/output/concept/about-refinement.css
++++ output/concept/about-refinement.css
+@@ -1,14 +1,10 @@
+ /* Company chapters and the catalogue preview shared with the homepage. */
+-@font-face {
+- font-family:'Novoferma About';src:url('assets/fonts/RobotoFlex-Protein.woff2') format('woff2');
+- font-weight:850;font-style:normal;font-display:swap;
+-}
+ .page-about,.page-index .about-products {--about-ink:#402312;--about-red:#b93822;--about-cream:#fff5e3;color:var(--about-ink)}
+ :is(.page-about,.page-index) .about-shell {width:min(1296px,calc(100% - 96px));margin-inline:auto}
+ .page-about .breadcrumb {padding-block:24px;margin-block:0}
+ :is(.page-about,.page-index) .about-title {
+- margin:0;min-width:0;max-width:100%;font-family:'Novoferma About',var(--font-display);
+- font-size:clamp(64px,7.5vw,106px);font-weight:850;line-height:1.04;
++ margin:0;min-width:0;max-width:100%;font-family:var(--font-heading);
++ font-size:clamp(64px,7.5vw,106px);font-weight:var(--font-heading-weight);line-height:1.04;
+  letter-spacing:-.015em;text-transform:uppercase;text-wrap:initial;color:inherit;
+ }
+ :is(.page-about,.page-index) .about-title>span {color:var(--about-red)}
+@@ -51,7 +47,7 @@
+ .page-about .cooperation-invite-inner {
+  grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:80px;padding-block:80px;
+ }
+-.page-about .cooperation-invite-about .about-title {font-family:'Novoferma About',var(--font-display);font-size:clamp(60px,7vw,100px);font-weight:850;line-height:1.04;letter-spacing:-.015em}
++.page-about .cooperation-invite-about .about-title {font-family:var(--font-heading);font-size:clamp(60px,7vw,100px);font-weight:var(--font-heading-weight);line-height:1.04;letter-spacing:-.015em}
+ .page-about .cooperation-invite-about .about-title>span {color:var(--about-cream)}
+ .page-about .cooperation-invite-response {gap:28px;align-items:flex-start;flex-direction:column}
+ .page-about .cooperation-invite-response>.about-copy {margin:0;max-width:34ch;font-size:clamp(18px,1.55vw,22px);line-height:1.55}
+--- before/output/concept/assets/fonts/font-face.css
++++ output/concept/assets/fonts/font-face.css
+@@ -1,4 +1,12 @@
+ /* Local typography shared by all Novoferma pages. */
++@font-face {
++  font-family: "Novoferma Protein";
++  src: url("RobotoFlex-Protein.woff2") format("woff2");
++  font-weight: 850;
++  font-style: normal;
++  font-display: swap;
++}
++
+ @font-face {
+   font-family: "Novoferma Sans";
+   src: url("Onest-wght.woff2") format("woff2");
+@@ -16,12 +24,15 @@
+ }
+ 
+ :root {
++  --font-heading: "Novoferma Protein", "Novoferma Sans", Arial, sans-serif;
++  --font-heading-weight: 850;
++  --font-heading-tracking: .035em;
+   --font-display: "Novoferma Sans", Arial, sans-serif;
+   --font-hand: "Novoferma Hand", "Segoe Print", cursive;
+ }
+ 
+ /* Suggested roles:
+-   h1/h2: font-family: var(--font-display); font-weight: 850;
++   large headings: font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+    body, labels, buttons: font-family: var(--font-display);
+    short editorial notes only: font-family: var(--font-hand); font-weight: 500;
+ */
+--- before/output/concept/brand-refinement.css
++++ output/concept/brand-refinement.css
+@@ -25,9 +25,9 @@
+ 
+ /* A single type family, generous leading, and no forced no-wrap lines. */
+ .page-index h2.home-editorial-title {
+- font-family:var(--font-display);font-weight:600;
++ font-family:var(--font-heading);font-weight:var(--font-heading-weight);
+  font-size:clamp(40px,4.25vw,64px);line-height:1.1;
+- letter-spacing:-.045em;word-spacing:normal;text-transform:none;
++ letter-spacing:var(--font-heading-tracking);word-spacing:normal;text-transform:none;
+  text-wrap:balance;
+ }
+ .page-index .home-editorial-title>span,
+@@ -50,8 +50,8 @@
+ .page-index .nf-business {background:#f0e2ca;padding-block:64px}
+ .page-index .nf-business-inner {display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:80px}
+ .page-index .nf-business h2 {
+- font-family:var(--font-display);font-size:clamp(34px,3.5vw,52px);
+- font-weight:550;line-height:1.12;letter-spacing:-.045em;text-transform:none;text-wrap:initial;
++ font-family:var(--font-heading);font-size:clamp(34px,3.5vw,52px);
++ font-weight:var(--font-heading-weight);line-height:1.12;letter-spacing:var(--font-heading-tracking);text-transform:none;text-wrap:initial;
+ }
+ .page-index .nf-business-copy>p {font-size:18px;line-height:1.6;max-width:40ch;color:var(--nf-muted)}
+ .nf-editorial-link {display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-height:48px;border-bottom:1px solid var(--nf-border);font-size:14px;font-weight:600;margin-top:22px}
+--- before/output/concept/catalogue.css
++++ output/concept/catalogue.css
+@@ -1,8 +1,4 @@
+ /* An About-style editorial band introduces the complete catalogue. */
+-@font-face {
+- font-family:'Novoferma Protein';src:url('assets/fonts/RobotoFlex-Protein.woff2') format('woff2');
+- font-weight:850;font-style:normal;font-display:swap;
+-}
+ .page-catalogue {--catalogue-red:#b93822;--catalogue-gold:#f6d580}
+ .page-catalogue .sr-only {
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+@@ -15,7 +11,7 @@
+ }
+ .page-catalogue .catalogue-heading {min-width:0;margin:0}
+ .page-catalogue .catalogue-heading h1 {
+- font-family:'Novoferma Protein',var(--font-display);font-size:clamp(60px,7vw,100px);font-weight:850;
++ font-family:var(--font-heading);font-size:clamp(60px,7vw,100px);font-weight:var(--font-heading-weight);
+  line-height:1.04;letter-spacing:.035em;text-transform:uppercase;color:var(--cream);text-wrap:initial;
+ }
+ .catalogue-heading h1>span,.catalogue-heading h1>em {display:block}
+--- before/output/concept/contacts.css
++++ output/concept/contacts.css
+@@ -7,7 +7,7 @@
+ .contact-content { position:relative;z-index:1;width:70%;max-width:850px;min-width:0; }
+ .contacts-poster .contact-heading { display:block;padding:0;margin:0 0 40px; }
+ .contacts-poster .contact-heading h1 {
+- font-size:clamp(68px,6.8vw,100px);line-height:.96;letter-spacing:-.04em;text-wrap:initial;
++ font-size:clamp(68px,6.8vw,100px);line-height:.96;letter-spacing:var(--font-heading-tracking);text-wrap:initial;
+ }
+ .contact-groups { display:grid;gap:32px; }
+ .contact-group {
+--- before/output/concept/fibriki.css
++++ output/concept/fibriki.css
+@@ -1,8 +1,8 @@
+ /* Fibriki uses the existing product layout, palette and poster lettering. */
+ .page-product-fibriki .fibriki-lead {
+  margin:0 0 20px;
+- font-family:var(--font-poster);font-size:clamp(30px,3.1vw,44px);
+- font-weight:900;line-height:1.08;letter-spacing:-.015em;
++ font-family:var(--font-heading);font-size:clamp(30px,3.1vw,44px);
++ font-weight:var(--font-heading-weight);line-height:1.08;letter-spacing:var(--font-heading-tracking);
+  word-spacing:.06em;text-transform:uppercase;text-wrap:initial;
+  color:var(--rust);
+ }
+@@ -13,8 +13,8 @@
+  gap:32px 64px;align-items:start;padding-block:72px;
+ }
+ .fibriki-story h2,.fibriki-serving h2 {
+- font-family:var(--font-poster);font-size:clamp(34px,4vw,56px);
+- font-weight:900;line-height:1.05;letter-spacing:-.015em;
++ font-family:var(--font-heading);font-size:clamp(34px,4vw,56px);
++ font-weight:var(--font-heading-weight);line-height:1.05;letter-spacing:var(--font-heading-tracking);
+  word-spacing:.06em;text-transform:uppercase;text-wrap:initial;
+ }
+ .fibriki-story h2 em,.fibriki-serving h2 em {color:var(--rust)}
+--- before/output/concept/home-sections.css
++++ output/concept/home-sections.css
+@@ -8,8 +8,8 @@
+ }
+ .page-index h2.home-section-title {
+  margin:0;min-width:0;max-width:100%;
+- font-family:'Novoferma About','Novoferma Protein',var(--font-display);
+- font-size:var(--home-section-title-size);font-weight:850;line-height:1.04;
++ font-family:var(--font-heading);
++ font-size:var(--home-section-title-size);font-weight:var(--font-heading-weight);line-height:1.04;
+  letter-spacing:-.015em;word-spacing:normal;text-transform:uppercase;
+  text-wrap:initial;color:inherit;
+ }
+--- before/output/concept/home-unified.css
++++ output/concept/home-unified.css
+@@ -3,7 +3,7 @@
+  --home-content-max:1296px;
+  --home-gutter:48px;
+  --home-section-space:72px;
+- --home-title-font:'Novoferma Protein','Novoferma Poster',Arial,sans-serif;
++ --home-title-font:var(--font-heading);
+  --home-title-size:clamp(58px,5.8vw,84px);
+  --home-orange-brand:#fa4b06;
+  --home-orange-ink:#c94310;
+@@ -26,7 +26,7 @@
+ .page-index h2.home-editorial-title {
+  font-family:var(--home-title-font);
+  font-size:var(--home-title-size);
+- font-weight:850;
++ font-weight:var(--font-heading-weight);
+  line-height:.9;
+  letter-spacing:-.012em;
+  word-spacing:.045em;
+--- before/output/concept/lenivchiki.css
++++ output/concept/lenivchiki.css
+@@ -5,8 +5,8 @@
+ }
+ .page-product-lenivchiki .lenivchiki-lead {
+  margin:0 0 20px;color:var(--rust);
+- font-family:var(--font-poster);font-size:clamp(28px,3vw,42px);
+- font-weight:900;line-height:1.08;letter-spacing:-.015em;
++ font-family:var(--font-heading);font-size:clamp(28px,3vw,42px);
++ font-weight:var(--font-heading-weight);line-height:1.08;letter-spacing:var(--font-heading-tracking);
+  word-spacing:.06em;text-transform:uppercase;text-wrap:initial;
+ }
+ .page-product-lenivchiki .detail-copy > .detail-intro {margin-bottom:20px}
+@@ -21,9 +21,9 @@
+ .lenivchiki-story-copy {min-width:0}
+ .lenivchiki-story-copy .eyebrow {margin-bottom:18px}
+ .lenivchiki-story h2 {
+- margin:0 0 28px;font-family:var(--font-poster);
+- font-size:clamp(36px,4.2vw,58px);font-weight:900;line-height:1.05;
+- letter-spacing:-.015em;word-spacing:.06em;text-transform:uppercase;text-wrap:initial;
++ margin:0 0 28px;font-family:var(--font-heading);
++ font-size:clamp(36px,4.2vw,58px);font-weight:var(--font-heading-weight);line-height:1.05;
++ letter-spacing:var(--font-heading-tracking);word-spacing:.06em;text-transform:uppercase;text-wrap:initial;
+ }
+ .lenivchiki-story h2 em {color:var(--rust)}
+ .lenivchiki-story-copy > p:not(.eyebrow) {max-width:44ch;font-size:18px;line-height:1.6}
+--- before/output/concept/partners-scenes.css
++++ output/concept/partners-scenes.css
+@@ -1,9 +1,8 @@
+ /* The partnership page shares the About page's type and warm editorial palette. */
+-@font-face{font-family:'Novoferma Protein';src:url('assets/fonts/RobotoFlex-Protein.woff2') format('woff2');font-weight:850;font-style:normal;font-display:swap}
+-.page-partners{--partner-orange:#b93822;--partner-orange-ink:#b93822;--partner-gold:#f6d580;--partner-title:'Novoferma Protein','Novoferma Poster',Arial,sans-serif;font-family:var(--font-display);font-weight:500}
++.page-partners{--partner-orange:#b93822;--partner-orange-ink:#b93822;--partner-gold:#f6d580;--partner-title:var(--font-heading);font-family:var(--font-display);font-weight:500}
+ .page-partners .to-top{display:none}
+ .page-partners .breadcrumb{padding-top:16px;padding-bottom:20px;font-size:11px}
+-.page-partners main h1,.page-partners main h2{font-family:var(--partner-title);font-weight:850;letter-spacing:.035em;line-height:1.04;text-transform:uppercase;text-wrap:initial}
++.page-partners main h1,.page-partners main h2{font-family:var(--partner-title);font-weight:var(--font-heading-weight);letter-spacing:.035em;line-height:1.04;text-transform:uppercase;text-wrap:initial}
+ .page-partners main .eyebrow{font-family:var(--font-display);font-size:11px;font-weight:700;letter-spacing:.1em;line-height:1.5}
+ .partners-business{background:var(--partner-orange);color:var(--cream)}
+ .partners-business-inner{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:48px;min-height:540px;padding-block:40px}
+--- before/output/concept/partnership.css
++++ output/concept/partnership.css
+@@ -6,8 +6,8 @@
+ }
+ .brand-character .eyebrow { margin-bottom:26px; }
+ .brand-character h2 {
+- font-family:var(--font-poster);font-size:clamp(32px,3.25vw,46px);font-weight:900;
+- text-transform:uppercase;line-height:1.04;letter-spacing:-.035em;text-wrap:initial;
++ font-family:var(--font-heading);font-size:clamp(32px,3.25vw,46px);font-weight:var(--font-heading-weight);
++ text-transform:uppercase;line-height:1.04;letter-spacing:var(--font-heading-tracking);text-wrap:initial;
+ }
+ .brand-character-copy { font-size:20px;line-height:1.6;max-width:30ch; }
+ .brand-character-art { width:100%;max-width:300px;height:auto;justify-self:center; }
+@@ -23,8 +23,8 @@
+  color:var(--ink);font-size:11px;line-height:1.5;letter-spacing:.1em;
+ }
+ .cooperation-invite h2 {
+- max-width:100%;font-family:var(--font-poster);font-size:clamp(40px,4.2vw,62px);
+- font-weight:900;letter-spacing:-.035em;line-height:1.03;text-transform:uppercase;text-wrap:initial;
++ max-width:100%;font-family:var(--font-heading);font-size:clamp(40px,4.2vw,62px);
++ font-weight:var(--font-heading-weight);letter-spacing:var(--font-heading-tracking);line-height:1.03;text-transform:uppercase;text-wrap:initial;
+ }
+ .cooperation-invite h2>span,.cooperation-invite h2>em { display:block; }
+ .cooperation-invite h2>em { color:var(--cream); }
+--- before/output/concept/polish.css
++++ output/concept/polish.css
+@@ -1,5 +1,5 @@
+ /* One editorial voice, grounded in the approved product posters. */
+-:root{--font-poster:'Novoferma Poster','Novoferma Sans',Arial,sans-serif;--orange:#ee4b12;--line:#d9c8ae}
++:root{--font-poster:var(--font-heading);--orange:#ee4b12;--line:#d9c8ae}
+ body{-webkit-font-smoothing:antialiased}
+ /* Keep navigation in the same place on every page. */
+ .site-header .header-inner{width:90.4%;max-width:none;height:88px;gap:64px}
+@@ -10,8 +10,8 @@
+ .page-heading h1,.about-hero h1,.page-intro h1,.partner-hero h1,.contact-heading h1,
+ .section-heading h2,.brand-inner h2,.where-preview h2,.partner-contact h2,
+ .about-editorial h2,.partner-band h2,.city-panel h2,.detail-copy h1{
+- font-family:var(--font-poster);font-weight:900;text-transform:uppercase;
+- letter-spacing:-.035em;line-height:.98;text-wrap:balance;
++ font-family:var(--font-heading);font-weight:var(--font-heading-weight);text-transform:uppercase;
++ letter-spacing:var(--font-heading-tracking);line-height:.98;text-wrap:balance;
+ }
+ .page-heading h1{font-size:clamp(64px,6.9vw,100px)}
+ .about-hero h1,.partner-hero h1{font-size:clamp(70px,6.8vw,98px)}
+@@ -302,8 +302,8 @@
+ }
+ .brand-partnership .partnership-formats > div { min-width:0; }
+ .brand-partnership .partnership-formats dt {
+- margin:0 0 10px;font-family:var(--font-poster);
+- font-size:clamp(24px,2vw,28px);font-weight:800;letter-spacing:-.035em;line-height:1.1;
++ margin:0 0 10px;font-family:var(--font-heading);
++ font-size:clamp(24px,2vw,28px);font-weight:var(--font-heading-weight);letter-spacing:var(--font-heading-tracking);line-height:1.1;
+ }
+ .brand-partnership .partnership-formats dd { margin:0;max-width:23ch;font-size:15px;line-height:1.5; }
+ .brand-partnership .partnership-actions { display:flex;align-items:center;gap:22px;flex-wrap:wrap; }
+--- before/output/concept/popsy-home.css
++++ output/concept/popsy-home.css
+@@ -3,7 +3,7 @@
+ .page-index .site-header,.popsy-home-hero {background-color:var(--popsy-paper);background-image:url('assets/popsy-home/paper-concept-v2.webp');background-size:cover}
+ .popsy-home-hero {position:relative;isolation:isolate;overflow:clip;color:var(--popsy-ink)}
+ .popsy-home-inner {position:relative;container-type:inline-size;width:min(100%,1585px);height:clamp(650px,calc(100svh - 88px),930px);margin-inline:auto}
+-.popsy-home-title {position:absolute;z-index:0;top:.2%;left:14.2%;margin:0;font-family:'Novoferma Protein','Novoferma Poster',sans-serif;font-size:20.5cqw;font-weight:850;line-height:.95;letter-spacing:-.01em;text-transform:uppercase;text-wrap:nowrap}
++.popsy-home-title {position:absolute;z-index:0;top:.2%;left:14.2%;margin:0;font-family:var(--font-heading);font-size:20.5cqw;font-weight:var(--font-heading-weight);line-height:.95;letter-spacing:-.01em;text-transform:uppercase;text-wrap:nowrap}
+ .popsy-home-note {position:absolute;z-index:3;top:3.5%;right:1.65%;width:23%;margin:0}
+ .popsy-home-lettering {width:100%;height:auto}
+ .popsy-home-hero .sr-only {position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;clip-path:inset(50%);overflow:hidden;white-space:nowrap}
+--- before/output/concept/popsy.css
++++ output/concept/popsy.css
+@@ -1,8 +1,8 @@
+ /* Popsy share the catalogue's paper, warm ink and poster lettering. */
+ .page-product-popsy .popsy-lead {
+  margin:0 0 20px;
+- font-family:var(--font-poster);font-size:clamp(30px,3.1vw,44px);
+- font-weight:900;line-height:1.08;letter-spacing:-.015em;
++ font-family:var(--font-heading);font-size:clamp(30px,3.1vw,44px);
++ font-weight:var(--font-heading-weight);line-height:1.08;letter-spacing:var(--font-heading-tracking);
+  word-spacing:.06em;text-transform:uppercase;text-wrap:initial;color:var(--rust);
+ }
+ .page-product-popsy .detail-copy > .detail-intro {margin-bottom:20px}
+@@ -15,8 +15,8 @@
+  gap:32px 64px;align-items:start;padding-block:72px;
+ }
+ .popsy-story h2,.popsy-serving h2 {
+- font-family:var(--font-poster);font-size:clamp(34px,4vw,56px);
+- font-weight:900;line-height:1.05;letter-spacing:-.015em;
++ font-family:var(--font-heading);font-size:clamp(34px,4vw,56px);
++ font-weight:var(--font-heading-weight);line-height:1.05;letter-spacing:var(--font-heading-tracking);
+  word-spacing:.06em;text-transform:uppercase;text-wrap:initial;
+ }
+ .popsy-story h2 em,.popsy-serving h2 em {color:var(--rust)}
+--- before/output/concept/product-detail.css
++++ output/concept/product-detail.css
+@@ -8,9 +8,9 @@
+ .product-detail > .detail-heading {grid-area:heading;min-width:0}
+ .detail-heading .eyebrow {margin-bottom:18px;font-size:12px;line-height:1.5}
+ .detail-heading h1 {
+- font-family:var(--font-poster);font-weight:900;text-transform:uppercase;
++ font-family:var(--font-heading);font-weight:var(--font-heading-weight);text-transform:uppercase;
+  font-size:clamp(36px,3.4vw,50px);line-height:1.06;
+- letter-spacing:-.02em;word-spacing:.08em;text-wrap:initial;overflow-wrap:break-word;
++ letter-spacing:var(--font-heading-tracking);word-spacing:.08em;text-wrap:initial;overflow-wrap:break-word;
+ }
+ .product-detail > .detail-visual {
+  grid-area:visual;position:static;top:auto;align-self:start;
+@@ -77,7 +77,7 @@
+   grid-template-rows:auto;gap:22px;padding-block:28px 48px;
+  }
+  .detail-heading .eyebrow {margin-bottom:14px}
+- .detail-heading h1 {font-size:clamp(31px,9vw,42px);line-height:1.08;letter-spacing:-.018em}
++ .detail-heading h1 {font-size:clamp(31px,9vw,42px);line-height:1.08;letter-spacing:var(--font-heading-tracking)}
+  .product-detail > .detail-visual {padding:12px 20px 16px}
+  .product-detail > .detail-visual img,.product-detail > .detail-visual .tilt-plane {height:240px}
+  .product-detail > .detail-visual figcaption {margin-top:6px}
+--- before/output/concept/product-hero.css
++++ output/concept/product-hero.css
+@@ -11,11 +11,11 @@
+ .product-scene.is-active {opacity:1;visibility:visible;pointer-events:auto;z-index:2}
+ .product-scene-content {position:relative;z-index:3;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:32px 0 58px max(32px,calc((100vw - 1296px)/2));padding-left:clamp(32px,4.8vw,100px);min-width:0}
+ .hero-text-stack {width:100%}
+-.product-scene-title {margin:0;font-family:'Novoferma Protein','Novoferma Poster',Arial,sans-serif;font-weight:850;font-size:clamp(80px,9.5vw,150px);line-height:.98;letter-spacing:-.014em;word-spacing:.04em;text-transform:uppercase;color:#432714;text-wrap:initial}
++.product-scene-title {margin:0;font-family:var(--font-heading);font-weight:var(--font-heading-weight);font-size:clamp(80px,9.5vw,150px);line-height:.98;letter-spacing:-.014em;word-spacing:.04em;text-transform:uppercase;color:#432714;text-wrap:initial}
+ .product-title-live {display:block;white-space:nowrap}
+ .product-scene-meatballs .product-scene-title {font-size:clamp(62px,6.4vw,112px)}
+ .product-scene-lulia-mini .product-scene-title {font-size:clamp(72px,7.9vw,136px)}
+-.product-scene-subtitle {margin:22px 0 0;font-family:var(--font-poster);font-weight:900;font-size:clamp(28px,3.5vw,54px);line-height:1.08;letter-spacing:-.02em;color:#bc4318;text-wrap:initial}
++.product-scene-subtitle {margin:22px 0 0;font-family:var(--font-heading);font-weight:var(--font-heading-weight);font-size:clamp(28px,3.5vw,54px);line-height:1.08;letter-spacing:-.02em;color:#bc4318;text-wrap:initial}
+ .product-scene-fibriki .product-scene-subtitle {display:inline-flex;align-items:center;justify-content:center;gap:.18em;white-space:nowrap;width:fit-content;margin:12px 0 0 -14px;padding:18px 28px 24px;background:url('assets/product-hero/benefit-brush-v11.webp') center/100% 100% no-repeat;font-family:var(--font-hand);font-weight:700;font-size:clamp(34px,3.7vw,58px);line-height:1.1;letter-spacing:-.025em;color:#432714;transform:rotate(-3deg)}
+ .hero-plus {font-weight:650}
+ .product-scene-description {max-width:34ch;margin:20px 0 0;font-size:clamp(15px,1.25vw,18px);line-height:1.5;letter-spacing:-.01em;color:#432714}
+--- before/output/concept/protein-story.css
++++ output/concept/protein-story.css
+@@ -1,12 +1,4 @@
+ /* All type stays live. The approved scene is assembled from independent layers. */
+-@font-face {
+- font-family:'Novoferma Protein';
+- src:url('assets/fonts/RobotoFlex-Protein.woff2') format('woff2');
+- font-weight:850;
+- font-stretch:normal;
+- font-style:normal;
+- font-display:swap;
+-}
+ .protein-poster {
+  background:#d8dca1;
+  background-image:radial-gradient(ellipse at 38% 45%,#e1e5b4 0,#d8dca1 70%,#d1d89b 100%);
+@@ -31,8 +23,8 @@
+  margin:0 0 1.1cqw;
+ }
+ .protein-poster-title {
+- font-family:'Novoferma Protein',var(--font-poster);
+- font-weight:850;
++ font-family:var(--font-heading);
++ font-weight:var(--font-heading-weight);
+  font-stretch:normal;
+  font-size:7.6cqw;
+  letter-spacing:-.012em;
+--- before/output/concept/where-to-buy.css
++++ output/concept/where-to-buy.css
+@@ -1,5 +1,5 @@
+ /* Purchase links first; an enquiry remains a clearly labelled fallback. */
+-.where-intro{padding-bottom:38px}.where-intro h1{font-family:var(--font-display);font-weight:700;font-size:clamp(44px,5.4vw,76px);letter-spacing:-.045em;line-height:1.05}.where-intro .lead{max-width:700px;margin-top:25px;font-size:18px}
++.where-intro{padding-bottom:38px}.where-intro h1{font-family:var(--font-heading);font-weight:var(--font-heading-weight);font-size:clamp(44px,5.4vw,76px);letter-spacing:var(--font-heading-tracking);line-height:1.05}.where-intro .lead{max-width:700px;margin-top:25px;font-size:18px}
+ .retailers{padding-bottom:72px}.retailer-selector{display:grid;grid-template-columns:1fr minmax(230px,420px);gap:10px 32px;align-items:end;margin-bottom:28px}.retailer-selector h2{grid-row:span 2;font-family:var(--font-display);font-size:36px;font-weight:650;letter-spacing:-.035em}.retailer-selector label{font-size:13px;font-weight:650}.retailer-selector select{width:100%;min-height:52px;padding:12px 36px 12px 16px;border:1px solid var(--line);border-radius:8px;background:var(--cream);color:var(--brown);font-size:15px}
+ .retailer-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.retailer-card{padding:27px;border:1px solid var(--line);border-radius:14px;display:flex;flex-direction:column;align-items:flex-start;gap:16px}.retailer-card .eyebrow{margin:0;color:var(--rust)}.retailer-card h3{font-family:var(--font-display);font-size:23px;line-height:1.2;letter-spacing:-.025em;font-weight:700;overflow-wrap:anywhere}.retailer-card p:not(.eyebrow){font-size:14px;color:var(--muted)}.retailer-weight{font-size:14px;font-weight:650;color:var(--brown);margin-top:-8px}.retailer-card .text-link{margin-top:auto;gap:12px}.retailer-checked{font-size:13px;color:var(--muted);margin-top:24px;max-width:760px}.retailer-empty{padding:25px;border:1px solid var(--line);border-radius:10px;line-height:1.6;max-width:760px}
+ .page-where-to-buy .where-layout{align-items:start}.city-panel h2{font-family:var(--font-display);font-size:clamp(36px,3.8vw,52px);font-weight:650;letter-spacing:-.035em;line-height:1.1}.city-intro{font-size:16px;margin:-8px 0 24px}.city-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:24px}.city-actions .button{margin:0}.city-copy{min-height:44px;padding:10px 0;background:transparent;border:0;text-decoration:underline;text-underline-offset:4px;font-size:14px;font-weight:600}.city-panel .form-hint{font-size:14px;line-height:1.6;margin-top:20px}.city-panel .form-feedback{margin-top:20px;font-size:15px;line-height:1.6}.city-panel .form-feedback a{text-decoration:underline;text-underline-offset:3px}.city-panel textarea{width:100%;min-height:190px;margin-top:16px;padding:14px;border:1px solid var(--brown);border-radius:6px;background:var(--cream);color:var(--brown);font-size:15px;line-height:1.5;resize:vertical}.city-panel textarea:focus-visible{outline:3px solid var(--brown);outline-offset:3px}

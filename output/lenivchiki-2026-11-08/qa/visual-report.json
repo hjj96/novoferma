@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "scope": "Независимая визуальная и браузерная проверка интеграции Ленивчиков",
+  "base": "http://127.0.0.1:8767",
+  "widths": [
+    1440,
+    390,
+    320
+  ],
+  "flow": [
+    {
+      "step": 1,
+      "name": "Карточка в каталоге",
+      "health": "PASS",
+      "notes": "Название Ленивчики, подпись Из курицы и отметка Новинка согласованы. Новая упаковка полностью видна; силуэт, масштаб и тёплая кремовая бумага согласованы с соседними Фибриками, Фрикадельками и Попсами. Масса для новинки не выдумана."
+    },
+    {
+      "step": 2,
+      "name": "Страница продукта",
+      "health": "PASS",
+      "notes": "Карточка открывает product-lenivchiki.html. Заголовки читаемы на всех трёх ширинах, упаковка целиком видна без обрезки. Текст ясно объясняет курицу, рис, капусту и морковь внутри биточка. Сценка с курочкой в капустном гамаке без тарелки; прозрачность корректно отображается на кремовом фоне."
+    },
+    {
+      "step": 3,
+      "name": "Где купить",
+      "health": "PASS",
+      "notes": "Кнопка страницы открывает where-to-buy.html?product=lenivchiki. В select выбран lenivchiki / Ленивчики при каждой ширине. Для новинки показано честное отсутствие подтверждённой ссылки и предложение уточнить наличие."
+    }
+  ],
+  "defects": [],
+  "technical": {
+    "jsErrors": [],
+    "consoleErrors": [],
+    "httpErrors": [],
+    "failedRequests": [],
+    "brokenImages": [],
+    "horizontalOverflow": false,
+    "textOverflow": false,
+    "unconfirmedMassNutritionOrHeatingTime": false
+  },
+  "visuallyInspectedScreenshots": [
+    "02-product-full-1440.png",
+    "01-catalogue-context-1440.png",
+    "02-product-hero-390.png",
+    "03-product-story-390.png",
+    "02-product-full-320.png",
+    "01-catalogue-context-390.png",
+    "01-catalogue-context-320.png",
+    "04-where-to-buy-full-1440.png",
+    "04-where-to-buy-choice-390.png",
+    "04-where-to-buy-choice-320.png",
+    "03-product-story-1440.png",
+    "03-product-story-320.png"
+  ],
+  "sourceSha256": {
+    "output/concept/product-lenivchiki.html": "20e3754db1b7a5b37eda042c455327151cc63654bde255a8ea79de5e6042d4cd",
+    "output/concept/catalogue.html": "44e4ed9eb8f24b8a0ab823eabd40483dff2b6f95a61fd073f17d1e92b8616770",
+    "output/concept/where-to-buy.html": "be7eb9ad5f37259f354065b484416427912478ddbc3658257c8670c6d4f66c67",
+    "output/concept/lenivchiki.css": "eb5b7231ebffa9f195c76bd6438b0dfc0a2946e01a7711a938ebceecf0741d56",
+    "output/concept/assets/novelty-packaging/lenivchiki-pack-v1.webp": "ff95cef5376a1086647c5265f93d726d164cb0d9361ca0ae321f895cdceb5ac7",
+    "output/concept/assets/lenivchiki/lenivchiki-scene-v1.webp": "f07b4b1897528bea90c206155574241486e55317ed0b3d1c221733b8af75e75c"
+  },
+  "limitations": [
+    "Проверено в локальном Chromium/Chrome, при DPR1 и включённом reduced motion. Другие браузеры, высокие плотности экранов и анимации не проверялись.",
+    "Проверка не подтверждает фактический состав, пищевую ценность, безопасность рецептуры или наличие в магазинах; задача проверяла согласованность утверждённых текстов и интерфейс.",
+    "Письма не отправлялись. Полная проверка доступности со скринридером не проводилась.",
+    "Публикация и состояние постоянного адреса не входят в этот локальный прогон."
+  ],
+  "conclusion": "Найденных дефектов, требующих исправления перед стандартными проверками и публикацией, нет."
+}

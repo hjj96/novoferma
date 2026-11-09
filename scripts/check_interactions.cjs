@@ -169,48 +169,66 @@ function partnerFixture({clipboard} = {}) {
   return {doc, form, fields, company, contact, radios, feedback, help, copy, draft, links, navigation, valid};
 }
 
-class ImageNode extends Node {
-  constructor(attributes, document) {
-    super('img', attributes, document); this.writes = []; this.gate = deferred(); this.decodeCalls = 0;
-    for (const key of ['src', 'srcset', 'sizes']) {
-      this[`_${key}`] = attributes[key] || '';
-      Object.defineProperty(this, key, {get:() => this[`_${key}`], set:value => { this.writes.push(key); this[`_${key}`] = value; }});
+function popsyHeroFixture({reducedMotion = false, pointerFine = true, boot = true, pendingImages = false} = {}) {
+  const html = read('index.html'); const doc = makeDocument(); doc.readyState = 'complete';
+  const match = html.match(/<section\b([^>]*\bdata-popsy-hero\b[^>]*)>([\s\S]*?)<\/section>/);
+  assert.ok(match, 'generated Popсы hero exists');
+  const hero = new Node('section', attrs(match[1]), doc); doc.body.append(hero);
+  const nodes = [hero], stack = [hero];
+  const voidTags = new Set(['area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr']);
+  // Build this section's actual nested markup; no synthetic carousel controls.
+  for (const token of match[2].match(/<[^>]+>|[^<]+/g) || []) {
+    const closing = token.match(/^<\/([\w:-]+)/);
+    if (closing) { if (stack.length > 1) stack.pop(); continue; }
+    const opening = token.match(/^<([a-z][\w:-]*)\b([^>]*)>/i);
+    if (opening) {
+      const node = new Node(opening[1], attrs(opening[2]), doc); stack.at(-1).append(node); nodes.push(node);
+      if (opening[1].toLowerCase() === 'img') {
+        node.complete = true; node.naturalWidth = Number(node.getAttribute('width')) || 800;
+        node.decode = () => pendingImages ? new Promise(() => {}) : Promise.resolve();
+      }
+      if (!voidTags.has(opening[1].toLowerCase()) && !token.endsWith('/>')) stack.push(node);
+    } else if (!token.startsWith('<')) {
+      for (const node of stack) node.textContent += entity(token);
     }
   }
-  decode() { this.decodeCalls++; return this.gate.promise; }
-}
-function heroFixture({saveData = false, effectiveType = '4g', hidden = false, idleApi = true} = {}) {
-  const html = read('index.html'); const doc = makeDocument(); doc.hidden = hidden;
-  const carouselTag = html.match(/<section\b([^>]*\bdata-product-carousel[^>]*)>/);
-  assert.ok(carouselTag, 'carousel markup exists');
-  const carousel = new Node('section', attrs(carouselTag[1]), doc); doc.body.append(carousel);
-  const stage = new Node('div', {class:'product-stage'}, doc); stage.clientWidth = 1200; carousel.append(stage);
-  const tablist = new Node('div', {role:'tablist'}, doc); carousel.append(tablist);
-  const scenes = [...html.matchAll(/<article\b([^>]*\bclass="product-scene\s[^>]*?)>([\s\S]*?)<\/article>/g)].map(match => {
-    const scene = new Node('article', attrs(match[1]), doc); stage.append(scene);
-    for (const img of match[2].matchAll(/<img\b([^>]*)>/g)) scene.append(new ImageNode(attrs(img[1]), doc));
-    scene.append(new Node('a', {class:'product-scene-cta'}, doc));
-    return scene;
-  });
-  const picks = [...html.matchAll(/<button\b([^>]*\bdata-product-index="\d+"[^>]*)>/g)].map(match => {
-    const pick = new Node('button', attrs(match[1]), doc); tablist.append(pick); return pick;
-  });
-  assert.ok(scenes.length > 1); assert.equal(scenes.length, picks.length);
-  const prev = new Node('button', {'data-product-prev':''}, doc); carousel.append(prev);
-  const next = new Node('button', {'data-product-next':''}, doc); carousel.append(next);
-  const announcement = new Node('p', {'data-product-announcement':''}, doc); carousel.append(announcement);
-  const window = new Node('window'); const idle = []; const timers = [];
-  if (idleApi) window.requestIdleCallback = fn => idle.push(fn);
-  window.setTimeout = (fn, ms) => timers.push({fn, ms});
-  execute('product-hero.js', doc, {window, navigator:{connection:{saveData,effectiveType}}});
-  const pending = index => scenes[index].querySelectorAll('img').filter(image => image.decodeCalls);
-  async function resolveScene(index, error = false) {
-    pending(index).forEach(image => error ? image.gate.reject(new Error('simulated decode failure')) : image.gate.resolve());
-    await settle();
+  const styles = new Map();
+  for (const node of nodes) {
+    const values = new Map(); styles.set(node, values);
+    node.style = new Proxy({
+      setProperty(name, value) { values.set(name, String(value)); },
+      getPropertyValue(name) { return values.get(name) || ''; },
+      removeProperty(name) { const previous = values.get(name) || ''; values.delete(name); return previous; },
+    }, {set(target, name, value) { values.set(name, String(value)); target[name] = value; return true; }});
+    node.getBoundingClientRect = () => ({left:0, top:0, right:1440, bottom:900, width:1440, height:900});
   }
-  const active = () => scenes.findIndex(scene => scene.classList.contains('is-active'));
-  const load = () => { doc.readyState = 'complete'; window.dispatch('load', {bubbles:false}); };
-  return {doc, carousel, stage, scenes, picks, prev, next, announcement, idle, timers, pending, resolveScene, active, load};
+  const window = new Node('window'), media = new Map(), frames = new Map(), timers = new Map(); let taskId = 0;
+  const matchMedia = query => {
+    if (!media.has(query)) {
+      const result = new Node('media'); result.media = query;
+      result.matches = /prefers-reduced-motion/.test(query) ? reducedMotion : /pointer|hover/.test(query) ? pointerFine : false;
+      result.addListener = callback => result.addEventListener('change', callback);
+      result.removeListener = callback => result.removeEventListener('change', callback);
+      media.set(query, result);
+    }
+    return media.get(query);
+  };
+  const requestAnimationFrame = callback => { const id = ++taskId; frames.set(id, callback); return id; };
+  const cancelAnimationFrame = id => frames.delete(id);
+  const setTimeout = callback => { const id = ++taskId; timers.set(id, callback); return id; };
+  const clearTimeout = id => timers.delete(id);
+  Object.assign(window, {matchMedia, requestAnimationFrame, cancelAnimationFrame, setTimeout, clearTimeout});
+  doc.fonts = {ready:Promise.resolve()};
+  if (boot) execute('popsy-home.js', doc, {window, matchMedia, requestAnimationFrame, cancelAnimationFrame, setTimeout, clearTimeout, performance:{now:() => 0}});
+  const flushFrames = (count = 2) => {
+    for (let i = 0; i < count && frames.size; i++) {
+      const batch = [...frames];
+      for (const [id, callback] of batch) { frames.delete(id); callback((i + 1) * 16); }
+    }
+  };
+  const ready = () => hero.getAttribute('data-ready') !== null || hero.dataset.ready !== undefined;
+  const styleSnapshot = () => nodes.map(node => [...styles.get(node)].sort((a, b) => a[0].localeCompare(b[0])));
+  return {doc, window, hero, nodes, frames, timers, flushFrames, ready, styleSnapshot, cta:hero.querySelector('.popsy-home-cta')};
 }
 
 test('city: generated copy/manual controls retain their HTML contract', () => {
@@ -220,9 +238,11 @@ test('city: generated copy/manual controls retain their HTML contract', () => {
   assert.equal(c.feedback.getAttribute('role'), 'status');
 });
 test('city: known product query preset; unknown values are ignored', () => {
-  const example = cityFixture().wanted.options.find(option => option.value);
-  assert.ok(example);
-  assert.equal(cityFixture({query:`?product=${encodeURIComponent(example.value)}`}).wanted.value, example.value);
+  const products = cityFixture().wanted.options.filter(option => option.value);
+  assert.ok(products.length);
+  for (const product of products) {
+    assert.equal(cityFixture({query:`?product=${encodeURIComponent(product.value)}`}).wanted.value, product.value);
+  }
   assert.equal(cityFixture({query:'?product=not-an-approved-product'}).wanted.value, '');
 });
 test('city: whitespace fails native validity and does not navigate', () => {
@@ -294,61 +314,49 @@ test('partners: field/radio/format-link edit cancels pending clipboard success a
     assert.equal(p.feedback.hidden, true, edit); assert.equal(p.draft.hidden, true, edit);
   }
 });
-test('hero: generated panels/tabs are paired, first real art eager, inactive art deferred', () => {
-  const h = heroFixture();
-  h.scenes.forEach((scene, i) => {
-    assert.equal(h.picks[i].getAttribute('aria-controls'), scene.getAttribute('id'));
-    assert.equal(scene.getAttribute('aria-labelledby'), h.picks[i].getAttribute('id'));
-    const art = scene.querySelectorAll('img').find(image => /(?:data:image|product-hero\/.*-art-)/.test(image.src));
-    assert.ok(art); assert.equal(Boolean(art.dataset.src), i > 0);
-    if (i > 0) assert.ok(art.src.startsWith('data:image'));
-    assert.equal(scene.inert, i > 0); assert.equal(h.picks[i].tabIndex, i === 0 ? 0 : -1);
-  });
-  assert.equal(h.active(), 0); assert.equal(h.idle.length, 0);
-  assert.ok(h.scenes.flatMap(scene => scene.querySelectorAll('img')).every(image => !image.decodeCalls));
+test('popsy hero: title, artwork and product link are available before enhancement', () => {
+  const h = popsyHeroFixture({boot:false});
+  const title = h.hero.querySelector('#popsy-home-title');
+  assert.equal(title?.tagName, 'H1'); assert.equal(title.textContent.trim().toLocaleLowerCase('ru'), 'попсы');
+  for (const className of ['.popsy-home-pack', '.popsy-home-food']) {
+    const image = h.hero.querySelector(className);
+    assert.equal(image?.tagName, 'IMG'); assert.ok(image.getAttribute('src').startsWith('assets/popsy-home/'));
+    assert.ok(!image.getAttribute('data-src')); assert.notEqual(image.getAttribute('loading'), 'lazy');
+  }
+  assert.ok(h.cta); assert.equal(h.cta.getAttribute('href'), 'product-popsy.html');
+  assert.equal(h.cta.dispatch('click').defaultPrevented, false);
+  assert.ok(!h.hero.hidden && !h.hero.inert && !title.hidden && !title.inert && !h.cta.hidden && !h.cta.inert);
 });
-test('hero: selection waits for artwork; responsive hints precede src', async () => {
-  const h = heroFixture(); const art = h.scenes[1].querySelectorAll('img').find(image => image.dataset.src);
-  art.dataset.srcset = 'fixture-400.webp 400w, fixture-800.webp 800w'; art.dataset.sizes = '50vw';
-  h.next.dispatch('click'); assert.equal(h.active(), 0); assert.equal(h.stage.getAttribute('aria-busy'), 'true');
-  assert.deepEqual(art.writes, ['sizes','srcset','src']);
-  await h.resolveScene(1); assert.equal(h.active(), 1); assert.equal(h.stage.getAttribute('aria-busy'), 'false');
-  assert.equal(h.picks[1].getAttribute('aria-selected'), 'true'); assert.equal(h.scenes[0].inert, true);
-});
-test('hero: rapid navigation commits only the latest scene', async () => {
-  const h = heroFixture(); h.next.dispatch('click'); h.next.dispatch('click');
-  await h.resolveScene(2); assert.equal(h.active(), 2);
-  await h.resolveScene(1); assert.equal(h.active(), 2);
-});
-test('hero: rejected decode does not trap navigation or aria-busy', async () => {
-  const h = heroFixture(); h.next.dispatch('click'); await h.resolveScene(1, true);
-  assert.equal(h.active(), 1); assert.equal(h.stage.getAttribute('aria-busy'), 'false');
-});
-test('hero: End key focuses without scrolling and commits the last scene', async () => {
-  const h = heroFixture(); const event = h.picks[0].dispatch('keydown', {key:'End'});
-  assert.equal(event.defaultPrevented, true); assert.equal(h.doc.activeElement, h.picks.at(-1));
-  assert.equal(h.picks.at(-1).focusCalls.at(-1).preventScroll, true);
-  await h.resolveScene(h.scenes.length - 1); assert.equal(h.active(), h.scenes.length - 1);
-});
-test('hero: focus inside the old panel is moved out before it becomes inert', async () => {
-  const h = heroFixture(); h.doc.activeElement = h.scenes[0].querySelector('a'); h.next.dispatch('click');
-  await h.resolveScene(1); assert.equal(h.doc.activeElement, h.picks[1]); assert.equal(h.picks[1].focusCalls.at(-1).preventScroll, true);
-});
-test('hero: idle warm starts after load, one scene at a time, without autoplay', async () => {
-  const h = heroFixture(); h.load(); assert.equal(h.idle.length, 1); h.idle.shift()();
-  assert.ok(h.pending(1).length); assert.equal(h.pending(2).length, 0); assert.equal(h.idle.length, 0);
-  await h.resolveScene(1); assert.equal(h.idle.length, 1); assert.equal(h.active(), 0);
-  h.idle.shift()(); assert.ok(h.pending(2).length); assert.equal(h.active(), 0);
-});
-test('hero: saveData/slow connection skips speculative warm but keeps explicit selection', async () => {
-  for (const settings of [{saveData:true},{effectiveType:'2g'},{effectiveType:'slow-2g'}]) {
-    const h = heroFixture(settings); h.load(); assert.equal(h.idle.length, 0);
-    h.next.dispatch('click'); await h.resolveScene(1); assert.equal(h.active(), 1);
+test('popsy hero: enhancement starts safely across pointer and motion preferences', async () => {
+  for (const reducedMotion of [false, true]) for (const pointerFine of [false, true]) {
+    const h = popsyHeroFixture({reducedMotion, pointerFine});
+    await settle(); h.flushFrames(); await settle(); h.flushFrames();
+    assert.ok(h.ready(), `hero enhancement initializes (reduced motion: ${reducedMotion}, fine pointer: ${pointerFine})`);
+    assert.equal(h.cta.getAttribute('href'), 'product-popsy.html');
+    assert.equal(h.cta.dispatch('click').defaultPrevented, false, 'the product link retains native navigation');
   }
 });
-test('hero: hidden document defers warm; visibility resumes; timeout fallback remains delayed', () => {
-  const h = heroFixture({hidden:true}); h.load(); assert.equal(h.idle.length, 0);
-  h.doc.hidden = false; h.doc.dispatch('visibilitychange', {bubbles:false}); assert.equal(h.idle.length, 1);
-  const fallback = heroFixture({idleApi:false}); fallback.load();
-  assert.equal(fallback.timers.length, 1); assert.ok(fallback.timers[0].ms >= 1000); assert.equal(fallback.pending(1).length, 0);
+test('popsy hero: reduced motion keeps pointer movement still and the CTA usable', async () => {
+  const h = popsyHeroFixture({reducedMotion:true, pointerFine:true});
+  await settle(); h.flushFrames(); await settle(); h.flushFrames();
+  const before = h.styleSnapshot();
+  h.hero.dispatch('pointerenter', {clientX:1200, clientY:500, pointerType:'mouse'});
+  h.hero.dispatch('pointermove', {clientX:1200, clientY:500, pointerType:'mouse'});
+  h.flushFrames();
+  assert.deepEqual(h.styleSnapshot(), before, 'reduced-motion users receive no pointer parallax');
+  h.cta.focus(); assert.equal(h.doc.activeElement, h.cta);
+  assert.equal(h.cta.dispatch('click').defaultPrevented, false);
+});
+test('popsy hero: a stalled image decode cannot leave the entrance waiting indefinitely', async () => {
+  const h = popsyHeroFixture({pendingImages:true});
+  await settle(); h.flushFrames();
+  assert.ok(h.timers.size, 'entrance has a bounded fallback when image decoding stalls');
+  for (const callback of [...h.timers.values()]) callback();
+  h.flushFrames();
+  assert.ok(h.ready(), 'hero is revealed even if artwork decoding never resolves');
+  assert.equal(h.cta.getAttribute('href'), 'product-popsy.html');
+});
+test('popsy hero: shared enhancement script is harmless on pages without the hero', () => {
+  const doc = makeDocument();
+  assert.doesNotThrow(() => execute('popsy-home.js', doc));
 });

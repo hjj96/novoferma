@@ -1,0 +1,24 @@
+--- before/where-to-buy.html
++++ after/where-to-buy.html
+@@ -84,6 +84,10 @@
+ <label for="wanted-product">Что хотите найти?</label>
+ <select id="wanted-product" name="product" form="city-form">
+ <option value="">Весь ассортимент</option>
++<option value="fibriki">Фибрики — 400 г</option>
++<option value="lenivchiki">Ленивчики — 400 г</option>
++<option value="lulia-mini">Люля мини — 400 г</option>
++<option value="popsy">Попсы — 400 г</option>
+ <option value="kotlety-kurinye">Котлеты куриные — 522 г</option>
+ <option value="bitochki-kurinye-s-ovoshchami">Биточки куриные с овощами — 450 г</option>
+ <option value="ezhiki-iz-tsyplenka-s-risom">Ёжики из цыпленка с рисом — 480 г</option>
+@@ -98,10 +102,6 @@
+ <option value="kotlety-pikantnye">Котлеты пикантные — 480 г</option>
+ <option value="kotlety-po-italyanski">Котлеты по-итальянски — 480 г</option>
+ <option value="frikadelki-klassicheskie">Фрикадельки «Классические» — 500 г</option>
+-<option value="fibriki">Фибрики</option>
+-<option value="lenivchiki">Ленивчики</option>
+-<option value="lulia-mini">Люля мини</option>
+-<option value="popsy">Попсы</option>
+ </select>
+ </div>
+ <div class="retailer-grid">

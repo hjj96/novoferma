@@ -1,0 +1,28 @@
+{
+  "pages": 8,
+  "format": "16:9, 960×540 pt",
+  "changed_pages": [
+    1,
+    2,
+    3
+  ],
+  "unchanged_pages_pixel_identical": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "lifestyle_and_packaging_right_side_pixel_identical": [
+    2,
+    3
+  ],
+  "exact_catalogue_image_placements_preserved": 15,
+  "handwritten_cover_line": "removed",
+  "protein_value": "52 g per Classic package; no package weight on protein slide",
+  "nutrition_copy": "grounded in owner-provided product facts and output/brochure-v8/nutrition-evidence.json",
+  "new_image_generation": false,
+  "contact_links": 3,
+  "text_bounds": "passed",
+  "bytes": 15647089
+}

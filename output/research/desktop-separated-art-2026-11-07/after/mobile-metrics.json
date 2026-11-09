@@ -1,0 +1,2915 @@
+[
+  {
+    "action": {
+      "bottom": 677.6484375,
+      "height": 92,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 585.6484375
+    },
+    "broken": [],
+    "frame": {
+      "bottom": 577.6484375,
+      "height": 292,
+      "right": 306,
+      "width": 292,
+      "x": 14,
+      "y": 285.6484375
+    },
+    "header": {
+      "bottom": 72,
+      "height": 72,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "bottom": 0,
+        "class": "hero-cutout hero-hen-cutout",
+        "flip": true,
+        "height": 0,
+        "right": 0,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "bottom": 0,
+        "class": "hero-cutout hero-food-cutout",
+        "flip": false,
+        "height": 0,
+        "right": 0,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "bottom": 0,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": 0,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "bottom": 0,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": 0,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "mobileSource": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v6/fibriki.webp?v=d0c77d13d0",
+    "overflow": false,
+    "pick": {
+      "bottom": 737.6484375,
+      "height": 60,
+      "right": 80,
+      "width": 64,
+      "x": 16,
+      "y": 677.6484375
+    },
+    "portrait": true,
+    "rail": {
+      "bottom": 737.6484375,
+      "height": 60,
+      "right": 304,
+      "scrollLeft": 0,
+      "scrollWidth": 352,
+      "width": 288,
+      "x": 16,
+      "y": 677.6484375
+    },
+    "scene": "scene-fibriki",
+    "scrollY": 0,
+    "stage": {
+      "bottom": 677.6484375,
+      "height": 605.6484375,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 72
+    },
+    "textRects": [
+      {
+        "bottom": 148.5,
+        "height": 60.5,
+        "right": 231.46875,
+        "text": "Фибрики",
+        "width": 211.46875,
+        "x": 20,
+        "y": 88
+      },
+      {
+        "bottom": 201.96202087402344,
+        "height": 39.267120361328125,
+        "right": 81.69216918945312,
+        "text": "Белок + клетчатка",
+        "width": 55.66461944580078,
+        "x": 26.027549743652344,
+        "y": 162.6949005126953
+      },
+      {
+        "bottom": 196.7730712890625,
+        "height": 32.49378967285156,
+        "right": 98.98798370361328,
+        "text": "Белок + клетчатка",
+        "width": 13.863639831542969,
+        "x": 85.12434387207031,
+        "y": 164.27928161621094
+      },
+      {
+        "bottom": 198.8717498779297,
+        "height": 37.08905029296875,
+        "right": 99.09796905517578,
+        "text": "Белок + клетчатка",
+        "width": 14.104469299316406,
+        "x": 84.99349975585938,
+        "y": 161.78269958496094
+      },
+      {
+        "bottom": 197.9595489501953,
+        "height": 41.91416931152344,
+        "right": 208.57272338867188,
+        "text": "Белок + клетчатка",
+        "width": 106.17341613769533,
+        "x": 102.39930725097656,
+        "y": 156.04537963867188
+      },
+      {
+        "bottom": 245.1484375,
+        "height": 16.5,
+        "right": 236.21875,
+        "text": "Куриные фрикадельки с пищевыми волокнами. К любимому гарниру, в суп или с соусом.",
+        "width": 216.21875,
+        "x": 20,
+        "y": 228.6484375
+      },
+      {
+        "bottom": 264.6484375,
+        "height": 16.5,
+        "right": 285.6875,
+        "text": "Куриные фрикадельки с пищевыми волокнами. К любимому гарниру, в суп или с соусом.",
+        "width": 265.6875,
+        "x": 20,
+        "y": 248.1484375
+      },
+      {
+        "bottom": 284.1484375,
+        "height": 16.5,
+        "right": 78.90625,
+        "text": "Куриные фрикадельки с пищевыми волокнами. К любимому гарниру, в суп или с соусом.",
+        "width": 58.90625,
+        "x": 20,
+        "y": 267.6484375
+      },
+      {
+        "bottom": 630.8515625,
+        "height": 15,
+        "right": 198.7734375,
+        "text": "Знакомьтесь с Фибриками",
+        "width": 158.7734375,
+        "x": 40,
+        "y": 615.8515625
+      },
+      {
+        "bottom": 633.1484375,
+        "height": 19,
+        "right": 280,
+        "text": "Знакомьтесь с Фибриками",
+        "width": 19,
+        "x": 261,
+        "y": 614.1484375
+      }
+    ],
+    "textStack": {
+      "bottom": 285.6484375,
+      "height": 213.6484375,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 72
+    },
+    "viewport": {
+      "height": 740,
+      "width": 320
+    }
+  },
+  {
+    "action": {
+      "bottom": 677.6484375,
+      "height": 92,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 585.6484375
+    },
+    "broken": [],
+    "frame": {
+      "bottom": 577.6484377492187,
+      "height": 292,
+      "right": 305.9999995547632,
+      "width": 292,
+      "x": 13.999999554763184,
+      "y": 285.6484377492188
+    },
+    "header": {
+      "bottom": 72,
+      "height": 72,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "bottom": -0.0016477,
+        "class": "hero-cutout hero-hen-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.00329539,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.00329539,
+        "y": -0.0016477
+      },
+      {
+        "bottom": -0.0016477,
+        "class": "hero-cutout hero-food-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.00329539,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.00329539,
+        "y": -0.0016477
+      },
+      {
+        "bottom": -0.0016477,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.00329539,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.00329539,
+        "y": -0.0016477
+      },
+      {
+        "bottom": -0.0016477,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.00329539,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.00329539,
+        "y": -0.0016477
+      }
+    ],
+    "mobileSource": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v6/meatballs.webp?v=7010faecdb",
+    "overflow": false,
+    "pick": {
+      "bottom": 737.6484375,
+      "height": 60,
+      "right": 152,
+      "width": 64,
+      "x": 88,
+      "y": 677.6484375
+    },
+    "portrait": true,
+    "rail": {
+      "bottom": 737.6484375,
+      "height": 60,
+      "right": 304,
+      "scrollLeft": 0,
+      "scrollWidth": 352,
+      "width": 288,
+      "x": 16,
+      "y": 677.6484375
+    },
+    "scene": "scene-meatballs",
+    "scrollY": 0,
+    "stage": {
+      "bottom": 677.6484375,
+      "height": 605.6484375,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 72
+    },
+    "textRects": [
+      {
+        "bottom": 132.5,
+        "height": 43,
+        "right": 249.7265625,
+        "text": "Фрикадельки",
+        "width": 229.7265625,
+        "x": 20,
+        "y": 89.5
+      },
+      {
+        "bottom": 172.953125,
+        "height": 31,
+        "right": 207.4609375,
+        "text": "Есть вкусныйповод собраться.",
+        "width": 187.4609375,
+        "x": 20,
+        "y": 141.953125
+      },
+      {
+        "bottom": 172.953125,
+        "height": 31,
+        "right": 207.4609375,
+        "text": "Есть вкусныйповод собраться.",
+        "width": 0,
+        "x": 207.4609375,
+        "y": 141.953125
+      },
+      {
+        "bottom": 199.9921875,
+        "height": 31,
+        "right": 257.28125,
+        "text": "Есть вкусныйповод собраться.",
+        "width": 237.28125,
+        "x": 20,
+        "y": 168.9921875
+      },
+      {
+        "bottom": 230.03125,
+        "height": 16.5,
+        "right": 261.21875,
+        "text": "Классические куриные фрикадельки. В домашний суп, к любимому гарниру — и всех за стол.",
+        "width": 241.21875,
+        "x": 20,
+        "y": 213.53125
+      },
+      {
+        "bottom": 249.53125,
+        "height": 16.5,
+        "right": 298.21875,
+        "text": "Классические куриные фрикадельки. В домашний суп, к любимому гарниру — и всех за стол.",
+        "width": 278.21875,
+        "x": 20,
+        "y": 233.03125
+      },
+      {
+        "bottom": 269.03125,
+        "height": 16.5,
+        "right": 67.859375,
+        "text": "Классические куриные фрикадельки. В домашний суп, к любимому гарниру — и всех за стол.",
+        "width": 47.859375,
+        "x": 20,
+        "y": 252.53125
+      },
+      {
+        "bottom": 630.8515625,
+        "height": 15,
+        "right": 137.578125,
+        "text": "О фрикадельках",
+        "width": 97.578125,
+        "x": 40,
+        "y": 615.8515625
+      },
+      {
+        "bottom": 633.1484375,
+        "height": 19,
+        "right": 280,
+        "text": "О фрикадельках",
+        "width": 19,
+        "x": 261,
+        "y": 614.1484375
+      }
+    ],
+    "textStack": {
+      "bottom": 270.53125,
+      "height": 198.53125,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 72
+    },
+    "viewport": {
+      "height": 740,
+      "width": 320
+    }
+  },
+  {
+    "action": {
+      "bottom": 677.6484375,
+      "height": 92,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 585.6484375
+    },
+    "broken": [],
+    "frame": {
+      "bottom": 577.6483942109375,
+      "height": 291.9999694824219,
+      "right": 305.9999992525635,
+      "width": 292,
+      "x": 13.999999252563477,
+      "y": 285.64842472851564
+    },
+    "header": {
+      "bottom": 72,
+      "height": 72,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "bottom": -0.211347,
+        "class": "hero-cutout hero-hen-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.422694,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.422694,
+        "y": -0.211347
+      },
+      {
+        "bottom": -0.211347,
+        "class": "hero-cutout hero-food-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.422694,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.422694,
+        "y": -0.211347
+      },
+      {
+        "bottom": -0.211347,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.422694,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.422694,
+        "y": -0.211347
+      },
+      {
+        "bottom": -0.211347,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.422694,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.422694,
+        "y": -0.211347
+      }
+    ],
+    "mobileSource": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v6/nuggets.webp?v=915a7debac",
+    "overflow": false,
+    "pick": {
+      "bottom": 737.6484375,
+      "height": 60,
+      "right": 224,
+      "width": 64,
+      "x": 160,
+      "y": 677.6484375
+    },
+    "portrait": true,
+    "rail": {
+      "bottom": 737.6484375,
+      "height": 60,
+      "right": 304,
+      "scrollLeft": 0,
+      "scrollWidth": 352,
+      "width": 288,
+      "x": 16,
+      "y": 677.6484375
+    },
+    "scene": "scene-nuggets",
+    "scrollY": 0,
+    "stage": {
+      "bottom": 677.6484375,
+      "height": 605.6484375,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 72
+    },
+    "textRects": [
+      {
+        "bottom": 148.5,
+        "height": 60.5,
+        "right": 237.78125,
+        "text": "Наггетсы",
+        "width": 217.78125,
+        "x": 20,
+        "y": 88
+      },
+      {
+        "bottom": 187.25,
+        "height": 31,
+        "right": 172.8828125,
+        "text": "Хрустящийперерыв.",
+        "width": 152.8828125,
+        "x": 20,
+        "y": 156.25
+      },
+      {
+        "bottom": 187.25,
+        "height": 31,
+        "right": 172.8828125,
+        "text": "Хрустящийперерыв.",
+        "width": 0,
+        "x": 172.8828125,
+        "y": 156.25
+      },
+      {
+        "bottom": 214.2890625,
+        "height": 31,
+        "right": 148.6484375,
+        "text": "Хрустящийперерыв.",
+        "width": 128.6484375,
+        "x": 20,
+        "y": 183.2890625
+      },
+      {
+        "bottom": 244.328125,
+        "height": 16.5,
+        "right": 290.9609375,
+        "text": "Золотистая корочка, нежная курица внутри. Для перекуса с любимым соусом.",
+        "width": 270.9609375,
+        "x": 20,
+        "y": 227.828125
+      },
+      {
+        "bottom": 263.828125,
+        "height": 16.5,
+        "right": 228.6640625,
+        "text": "Золотистая корочка, нежная курица внутри. Для перекуса с любимым соусом.",
+        "width": 208.6640625,
+        "x": 20,
+        "y": 247.328125
+      },
+      {
+        "bottom": 630.8515625,
+        "height": 15,
+        "right": 110.0625,
+        "text": "О наггетсах",
+        "width": 70.0625,
+        "x": 40,
+        "y": 615.8515625
+      },
+      {
+        "bottom": 633.1484375,
+        "height": 19,
+        "right": 280,
+        "text": "О наггетсах",
+        "width": 19,
+        "x": 261,
+        "y": 614.1484375
+      }
+    ],
+    "textStack": {
+      "bottom": 265.328125,
+      "height": 193.328125,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 72
+    },
+    "viewport": {
+      "height": 740,
+      "width": 320
+    }
+  },
+  {
+    "action": {
+      "bottom": 677.6484375,
+      "height": 92,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 585.6484375
+    },
+    "broken": [],
+    "frame": {
+      "bottom": 577.648430546875,
+      "height": 292,
+      "right": 306.0000003525391,
+      "width": 292,
+      "x": 14.000000352539065,
+      "y": 285.648430546875
+    },
+    "header": {
+      "bottom": 72,
+      "height": 72,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "bottom": -0.15113,
+        "class": "hero-cutout hero-hen-cutout",
+        "flip": true,
+        "height": 0,
+        "right": -0.302261,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.302261,
+        "y": -0.15113
+      },
+      {
+        "bottom": -0.15113,
+        "class": "hero-cutout hero-food-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.302261,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.302261,
+        "y": -0.15113
+      },
+      {
+        "bottom": -0.15113,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.302261,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.302261,
+        "y": -0.15113
+      },
+      {
+        "bottom": -0.15113,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.302261,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.302261,
+        "y": -0.15113
+      }
+    ],
+    "mobileSource": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v6/lulia-mini.webp?v=37db119044",
+    "overflow": false,
+    "pick": {
+      "bottom": 737.6484375,
+      "height": 60,
+      "right": 296,
+      "width": 64,
+      "x": 232,
+      "y": 677.6484375
+    },
+    "portrait": true,
+    "rail": {
+      "bottom": 737.6484375,
+      "height": 60,
+      "right": 304,
+      "scrollLeft": 0,
+      "scrollWidth": 352,
+      "width": 288,
+      "x": 16,
+      "y": 677.6484375
+    },
+    "scene": "scene-lulia-mini",
+    "scrollY": 0,
+    "stage": {
+      "bottom": 677.6484375,
+      "height": 605.6484375,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 72
+    },
+    "textRects": [
+      {
+        "bottom": 148.5,
+        "height": 60.5,
+        "right": 289.125,
+        "text": "Люля мини",
+        "width": 269.125,
+        "x": 20,
+        "y": 88
+      },
+      {
+        "bottom": 187.25,
+        "height": 31,
+        "right": 288.6640625,
+        "text": "Маленький формат.Большой аппетит.",
+        "width": 268.6640625,
+        "x": 20,
+        "y": 156.25
+      },
+      {
+        "bottom": 187.25,
+        "height": 31,
+        "right": 288.6640625,
+        "text": "Маленький формат.Большой аппетит.",
+        "width": 0,
+        "x": 288.6640625,
+        "y": 156.25
+      },
+      {
+        "bottom": 214.2890625,
+        "height": 31,
+        "right": 262.3515625,
+        "text": "Маленький формат.Большой аппетит.",
+        "width": 242.3515625,
+        "x": 20,
+        "y": 183.2890625
+      },
+      {
+        "bottom": 244.328125,
+        "height": 16.5,
+        "right": 299.6171875,
+        "text": "Куриные колбаски с зеленью и овощами. Для новых сочетаний и тёплых встреч за столом.",
+        "width": 279.6171875,
+        "x": 20,
+        "y": 227.828125
+      },
+      {
+        "bottom": 263.828125,
+        "height": 16.5,
+        "right": 294.890625,
+        "text": "Куриные колбаски с зеленью и овощами. Для новых сочетаний и тёплых встреч за столом.",
+        "width": 274.890625,
+        "x": 20,
+        "y": 247.328125
+      },
+      {
+        "bottom": 630.8515625,
+        "height": 15,
+        "right": 118.03125,
+        "text": "О Люля мини",
+        "width": 78.03125,
+        "x": 40,
+        "y": 615.8515625
+      },
+      {
+        "bottom": 633.1484375,
+        "height": 19,
+        "right": 280,
+        "text": "О Люля мини",
+        "width": 19,
+        "x": 261,
+        "y": 614.1484375
+      }
+    ],
+    "textStack": {
+      "bottom": 265.328125,
+      "height": 193.328125,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 72
+    },
+    "viewport": {
+      "height": 740,
+      "width": 320
+    }
+  },
+  {
+    "action": {
+      "bottom": 677.6484375,
+      "height": 92,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 585.6484375
+    },
+    "broken": [],
+    "frame": {
+      "bottom": 577.6484399101563,
+      "height": 292,
+      "right": 306.0000000519409,
+      "width": 292,
+      "x": 14.000000051940916,
+      "y": 285.64843991015624
+    },
+    "header": {
+      "bottom": 72,
+      "height": 72,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "bottom": -0.130918,
+        "class": "hero-cutout hero-hen-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.261836,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.261836,
+        "y": -0.130918
+      },
+      {
+        "bottom": -0.130918,
+        "class": "hero-cutout hero-food-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.261836,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.261836,
+        "y": -0.130918
+      },
+      {
+        "bottom": -0.130918,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.261836,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.261836,
+        "y": -0.130918
+      },
+      {
+        "bottom": -0.130918,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.261836,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.261836,
+        "y": -0.130918
+      }
+    ],
+    "mobileSource": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v6/popsy.webp?v=056e446756",
+    "overflow": false,
+    "pick": {
+      "bottom": 737.6484375,
+      "height": 60,
+      "right": 304,
+      "width": 64,
+      "x": 240,
+      "y": 677.6484375
+    },
+    "portrait": true,
+    "rail": {
+      "bottom": 737.6484375,
+      "height": 60,
+      "right": 304,
+      "scrollLeft": 64,
+      "scrollWidth": 352,
+      "width": 288,
+      "x": 16,
+      "y": 677.6484375
+    },
+    "scene": "scene-popsy",
+    "scrollY": 0,
+    "stage": {
+      "bottom": 677.6484375,
+      "height": 605.6484375,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 72
+    },
+    "textRects": [
+      {
+        "bottom": 148.5,
+        "height": 60.5,
+        "right": 173.640625,
+        "text": "Попсы",
+        "width": 153.640625,
+        "x": 20,
+        "y": 88
+      },
+      {
+        "bottom": 187.25,
+        "height": 31,
+        "right": 236.8671875,
+        "text": "Мини-наггетсы.В своём ритме.",
+        "width": 216.8671875,
+        "x": 20,
+        "y": 156.25
+      },
+      {
+        "bottom": 187.25,
+        "height": 31,
+        "right": 236.8671875,
+        "text": "Мини-наггетсы.В своём ритме.",
+        "width": 0,
+        "x": 236.8671875,
+        "y": 156.25
+      },
+      {
+        "bottom": 214.2890625,
+        "height": 31,
+        "right": 220.59375,
+        "text": "Мини-наггетсы.В своём ритме.",
+        "width": 200.59375,
+        "x": 20,
+        "y": 183.2890625
+      },
+      {
+        "bottom": 244.328125,
+        "height": 16.5,
+        "right": 269.25,
+        "text": "Маленькие кусочки курицы в хрустящей панировке. К кино, встрече или паузе между делами.",
+        "width": 249.25,
+        "x": 20,
+        "y": 227.828125
+      },
+      {
+        "bottom": 263.828125,
+        "height": 16.5,
+        "right": 295.484375,
+        "text": "Маленькие кусочки курицы в хрустящей панировке. К кино, встрече или паузе между делами.",
+        "width": 275.484375,
+        "x": 20,
+        "y": 247.328125
+      },
+      {
+        "bottom": 283.328125,
+        "height": 16.5,
+        "right": 68.8203125,
+        "text": "Маленькие кусочки курицы в хрустящей панировке. К кино, встрече или паузе между делами.",
+        "width": 48.8203125,
+        "x": 20,
+        "y": 266.828125
+      },
+      {
+        "bottom": 630.8515625,
+        "height": 15,
+        "right": 95.8046875,
+        "text": "О Попсах",
+        "width": 55.8046875,
+        "x": 40,
+        "y": 615.8515625
+      },
+      {
+        "bottom": 633.1484375,
+        "height": 19,
+        "right": 280,
+        "text": "О Попсах",
+        "width": 19,
+        "x": 261,
+        "y": 614.1484375
+      }
+    ],
+    "textStack": {
+      "bottom": 284.828125,
+      "height": 212.828125,
+      "right": 320,
+      "width": 320,
+      "x": 0,
+      "y": 72
+    },
+    "viewport": {
+      "height": 740,
+      "width": 320
+    }
+  },
+  {
+    "action": {
+      "bottom": 733.7421875,
+      "height": 92,
+      "right": 392.1875,
+      "width": 392.1875,
+      "x": 0,
+      "y": 641.7421875
+    },
+    "broken": [],
+    "frame": {
+      "bottom": 633.742181140625,
+      "height": 322,
+      "right": 357.0937497253418,
+      "width": 322,
+      "x": 35.093749725341794,
+      "y": 311.742181140625
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "right": 390,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "bottom": -0.148688,
+        "class": "hero-cutout hero-hen-cutout",
+        "flip": true,
+        "height": 0,
+        "right": -0.297375,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297375,
+        "y": -0.148688
+      },
+      {
+        "bottom": -0.148688,
+        "class": "hero-cutout hero-food-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.297375,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297375,
+        "y": -0.148688
+      },
+      {
+        "bottom": -0.148688,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.297375,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297375,
+        "y": -0.148688
+      },
+      {
+        "bottom": -0.148688,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.297375,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297375,
+        "y": -0.148688
+      }
+    ],
+    "mobileSource": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v6/fibriki.webp?v=d0c77d13d0",
+    "overflow": false,
+    "pick": {
+      "bottom": 793.7421875,
+      "height": 60,
+      "right": 84,
+      "width": 64,
+      "x": 20,
+      "y": 733.7421875
+    },
+    "portrait": true,
+    "rail": {
+      "bottom": 793.7421875,
+      "height": 60,
+      "right": 370,
+      "scrollLeft": 0,
+      "scrollWidth": 352,
+      "width": 350,
+      "x": 20,
+      "y": 733.7421875
+    },
+    "scene": "scene-fibriki",
+    "scrollY": 0,
+    "stage": {
+      "bottom": 733.7421875,
+      "height": 657.7421875,
+      "right": 390,
+      "width": 390,
+      "x": 0,
+      "y": 76
+    },
+    "textRects": [
+      {
+        "bottom": 168,
+        "height": 77.5,
+        "right": 294.4609375,
+        "text": "Фибрики",
+        "width": 270.4609375,
+        "x": 24,
+        "y": 90.5
+      },
+      {
+        "bottom": 224.2355804443359,
+        "height": 43.58915710449219,
+        "right": 95.06824493408205,
+        "text": "Белок + клетчатка",
+        "width": 62.123199462890625,
+        "x": 32.945045471191406,
+        "y": 180.64642333984375
+      },
+      {
+        "bottom": 218.3911590576172,
+        "height": 36.26625061035156,
+        "right": 114.3691864013672,
+        "text": "Белок + клетчатка",
+        "width": 15.477371215820312,
+        "x": 98.89181518554688,
+        "y": 182.1249084472656
+      },
+      {
+        "bottom": 220.78631591796875,
+        "height": 41.157989501953125,
+        "right": 114.49471282958984,
+        "text": "Белок + клетчатка",
+        "width": 15.733741760253906,
+        "x": 98.76097106933594,
+        "y": 179.62832641601562
+      },
+      {
+        "bottom": 219.76821899414065,
+        "height": 46.54368591308594,
+        "right": 236.6864013671875,
+        "text": "Белок + клетчатка",
+        "width": 118.49896240234376,
+        "x": 118.18743896484376,
+        "y": 173.2245330810547
+      },
+      {
+        "bottom": 266.578125,
+        "height": 16.5,
+        "right": 313.1875,
+        "text": "Куриные фрикадельки с пищевыми волокнами. К любимому гарниру, в суп или с соусом.",
+        "width": 289.1875,
+        "x": 24,
+        "y": 250.078125
+      },
+      {
+        "bottom": 286.078125,
+        "height": 16.5,
+        "right": 279,
+        "text": "Куриные фрикадельки с пищевыми волокнами. К любимому гарниру, в суп или с соусом.",
+        "width": 255,
+        "x": 24,
+        "y": 269.578125
+      },
+      {
+        "bottom": 687.7890625,
+        "height": 16.5,
+        "right": 216,
+        "text": "Знакомьтесь с Фибриками",
+        "width": 172,
+        "x": 44,
+        "y": 671.2890625
+      },
+      {
+        "bottom": 689.2421875,
+        "height": 19,
+        "right": 348.1875,
+        "text": "Знакомьтесь с Фибриками",
+        "width": 19,
+        "x": 329.1875,
+        "y": 670.2421875
+      }
+    ],
+    "textStack": {
+      "bottom": 287.578125,
+      "height": 211.578125,
+      "right": 392.1875,
+      "width": 392.1875,
+      "x": 0,
+      "y": 76
+    },
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  {
+    "action": {
+      "bottom": 733.7421875,
+      "height": 92,
+      "right": 392.1875,
+      "width": 392.1875,
+      "x": 0,
+      "y": 641.7421875
+    },
+    "broken": [],
+    "frame": {
+      "bottom": 633.7421741914062,
+      "height": 322,
+      "right": 357.0937500856934,
+      "width": 322,
+      "x": 35.09375008569336,
+      "y": 311.74217419140626
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "right": 390,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "bottom": -0.147047,
+        "class": "hero-cutout hero-hen-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.294094,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.294094,
+        "y": -0.147047
+      },
+      {
+        "bottom": -0.147047,
+        "class": "hero-cutout hero-food-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.294094,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.294094,
+        "y": -0.147047
+      },
+      {
+        "bottom": -0.147047,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.294094,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.294094,
+        "y": -0.147047
+      },
+      {
+        "bottom": -0.147047,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.294094,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.294094,
+        "y": -0.147047
+      }
+    ],
+    "mobileSource": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v6/meatballs.webp?v=7010faecdb",
+    "overflow": false,
+    "pick": {
+      "bottom": 793.7421875,
+      "height": 60,
+      "right": 156,
+      "width": 64,
+      "x": 92,
+      "y": 733.7421875
+    },
+    "portrait": true,
+    "rail": {
+      "bottom": 793.7421875,
+      "height": 60,
+      "right": 370,
+      "scrollLeft": 0,
+      "scrollWidth": 352,
+      "width": 350,
+      "x": 20,
+      "y": 733.7421875
+    },
+    "scene": "scene-meatballs",
+    "scrollY": 0,
+    "stage": {
+      "bottom": 733.7421875,
+      "height": 657.7421875,
+      "right": 390,
+      "width": 390,
+      "x": 0,
+      "y": 76
+    },
+    "textRects": [
+      {
+        "bottom": 146.5,
+        "height": 53.5,
+        "right": 311.28125,
+        "text": "Фрикадельки",
+        "width": 287.28125,
+        "x": 24,
+        "y": 93
+      },
+      {
+        "bottom": 190.21875,
+        "height": 36,
+        "right": 243.3359375,
+        "text": "Есть вкусныйповод собраться.",
+        "width": 219.3359375,
+        "x": 24,
+        "y": 154.21875
+      },
+      {
+        "bottom": 190.21875,
+        "height": 36,
+        "right": 243.3359375,
+        "text": "Есть вкусныйповод собраться.",
+        "width": 0,
+        "x": 243.3359375,
+        "y": 154.21875
+      },
+      {
+        "bottom": 221.8515625,
+        "height": 36,
+        "right": 301.6171875,
+        "text": "Есть вкусныйповод собраться.",
+        "width": 277.6171875,
+        "x": 24,
+        "y": 185.8515625
+      },
+      {
+        "bottom": 251.984375,
+        "height": 16.5,
+        "right": 332.4140625,
+        "text": "Классические куриные фрикадельки. В домашний суп, к любимому гарниру — и всех за стол.",
+        "width": 308.4140625,
+        "x": 24,
+        "y": 235.484375
+      },
+      {
+        "bottom": 271.484375,
+        "height": 16.5,
+        "right": 286.25,
+        "text": "Классические куриные фрикадельки. В домашний суп, к любимому гарниру — и всех за стол.",
+        "width": 262.25,
+        "x": 24,
+        "y": 254.984375
+      },
+      {
+        "bottom": 687.7890625,
+        "height": 16.5,
+        "right": 149.703125,
+        "text": "О фрикадельках",
+        "width": 105.703125,
+        "x": 44,
+        "y": 671.2890625
+      },
+      {
+        "bottom": 689.2421875,
+        "height": 19,
+        "right": 348.1875,
+        "text": "О фрикадельках",
+        "width": 19,
+        "x": 329.1875,
+        "y": 670.2421875
+      }
+    ],
+    "textStack": {
+      "bottom": 272.984375,
+      "height": 196.984375,
+      "right": 392.1875,
+      "width": 392.1875,
+      "x": 0,
+      "y": 76
+    },
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  {
+    "action": {
+      "bottom": 733.7421875,
+      "height": 92,
+      "right": 392.1875,
+      "width": 392.1875,
+      "x": 0,
+      "y": 641.7421875
+    },
+    "broken": [],
+    "frame": {
+      "bottom": 633.7421875,
+      "height": 322,
+      "right": 357.09375,
+      "width": 322,
+      "x": 35.09375,
+      "y": 311.7421875
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "right": 390,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "bottom": 0,
+        "class": "hero-cutout hero-hen-cutout",
+        "flip": false,
+        "height": 0,
+        "right": 0,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "bottom": 0,
+        "class": "hero-cutout hero-food-cutout",
+        "flip": false,
+        "height": 0,
+        "right": 0,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "bottom": 0,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": 0,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "bottom": 0,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": 0,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "mobileSource": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v6/nuggets.webp?v=915a7debac",
+    "overflow": false,
+    "pick": {
+      "bottom": 793.7421875,
+      "height": 60,
+      "right": 228,
+      "width": 64,
+      "x": 164,
+      "y": 733.7421875
+    },
+    "portrait": true,
+    "rail": {
+      "bottom": 793.7421875,
+      "height": 60,
+      "right": 370,
+      "scrollLeft": 0,
+      "scrollWidth": 352,
+      "width": 350,
+      "x": 20,
+      "y": 733.7421875
+    },
+    "scene": "scene-nuggets",
+    "scrollY": 0,
+    "stage": {
+      "bottom": 733.7421875,
+      "height": 657.7421875,
+      "right": 390,
+      "width": 390,
+      "x": 0,
+      "y": 76
+    },
+    "textRects": [
+      {
+        "bottom": 168,
+        "height": 77.5,
+        "right": 302.53125,
+        "text": "Наггетсы",
+        "width": 278.53125,
+        "x": 24,
+        "y": 90.5
+      },
+      {
+        "bottom": 209.4765625,
+        "height": 36,
+        "right": 202.875,
+        "text": "Хрустящийперерыв.",
+        "width": 178.875,
+        "x": 24,
+        "y": 173.4765625
+      },
+      {
+        "bottom": 209.4765625,
+        "height": 36,
+        "right": 202.875,
+        "text": "Хрустящийперерыв.",
+        "width": 0,
+        "x": 202.875,
+        "y": 173.4765625
+      },
+      {
+        "bottom": 241.109375,
+        "height": 36,
+        "right": 174.5234375,
+        "text": "Хрустящийперерыв.",
+        "width": 150.5234375,
+        "x": 24,
+        "y": 205.109375
+      },
+      {
+        "bottom": 271.2421875,
+        "height": 16.5,
+        "right": 321.6484375,
+        "text": "Золотистая корочка, нежная курица внутри. Для перекуса с любимым соусом.",
+        "width": 297.6484375,
+        "x": 24,
+        "y": 254.7421875
+      },
+      {
+        "bottom": 290.7421875,
+        "height": 16.5,
+        "right": 205.9765625,
+        "text": "Золотистая корочка, нежная курица внутри. Для перекуса с любимым соусом.",
+        "width": 181.9765625,
+        "x": 24,
+        "y": 274.2421875
+      },
+      {
+        "bottom": 687.7890625,
+        "height": 16.5,
+        "right": 119.90625,
+        "text": "О наггетсах",
+        "width": 75.90625,
+        "x": 44,
+        "y": 671.2890625
+      },
+      {
+        "bottom": 689.2421875,
+        "height": 19,
+        "right": 348.1875,
+        "text": "О наггетсах",
+        "width": 19,
+        "x": 329.1875,
+        "y": 670.2421875
+      }
+    ],
+    "textStack": {
+      "bottom": 292.2421875,
+      "height": 216.2421875,
+      "right": 392.1875,
+      "width": 392.1875,
+      "x": 0,
+      "y": 76
+    },
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  {
+    "action": {
+      "bottom": 733.7421875,
+      "height": 92,
+      "right": 392.1875,
+      "width": 392.1875,
+      "x": 0,
+      "y": 641.7421875
+    },
+    "broken": [],
+    "frame": {
+      "bottom": 633.742153453125,
+      "height": 321.9999694824219,
+      "right": 357.0937505708008,
+      "width": 322,
+      "x": 35.09375057080078,
+      "y": 311.74218397070314
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "right": 390,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "bottom": -0.114536,
+        "class": "hero-cutout hero-hen-cutout",
+        "flip": true,
+        "height": 0,
+        "right": -0.229072,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.229072,
+        "y": -0.114536
+      },
+      {
+        "bottom": -0.114536,
+        "class": "hero-cutout hero-food-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.229072,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.229072,
+        "y": -0.114536
+      },
+      {
+        "bottom": -0.114536,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.229072,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.229072,
+        "y": -0.114536
+      },
+      {
+        "bottom": -0.114536,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.229072,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.229072,
+        "y": -0.114536
+      }
+    ],
+    "mobileSource": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v6/lulia-mini.webp?v=37db119044",
+    "overflow": false,
+    "pick": {
+      "bottom": 793.7421875,
+      "height": 60,
+      "right": 300,
+      "width": 64,
+      "x": 236,
+      "y": 733.7421875
+    },
+    "portrait": true,
+    "rail": {
+      "bottom": 793.7421875,
+      "height": 60,
+      "right": 370,
+      "scrollLeft": 0,
+      "scrollWidth": 352,
+      "width": 350,
+      "x": 20,
+      "y": 733.7421875
+    },
+    "scene": "scene-lulia-mini",
+    "scrollY": 0,
+    "stage": {
+      "bottom": 733.7421875,
+      "height": 657.7421875,
+      "right": 390,
+      "width": 390,
+      "x": 0,
+      "y": 76
+    },
+    "textRects": [
+      {
+        "bottom": 168,
+        "height": 77.5,
+        "right": 368.1875,
+        "text": "Люля мини",
+        "width": 344.1875,
+        "x": 24,
+        "y": 90.5
+      },
+      {
+        "bottom": 209.4765625,
+        "height": 36,
+        "right": 338.3359375,
+        "text": "Маленький формат.Большой аппетит.",
+        "width": 314.3359375,
+        "x": 24,
+        "y": 173.4765625
+      },
+      {
+        "bottom": 209.4765625,
+        "height": 36,
+        "right": 338.3359375,
+        "text": "Маленький формат.Большой аппетит.",
+        "width": 0,
+        "x": 338.3359375,
+        "y": 173.4765625
+      },
+      {
+        "bottom": 241.109375,
+        "height": 36,
+        "right": 307.546875,
+        "text": "Маленький формат.Большой аппетит.",
+        "width": 283.546875,
+        "x": 24,
+        "y": 205.109375
+      },
+      {
+        "bottom": 271.2421875,
+        "height": 16.5,
+        "right": 303.6171875,
+        "text": "Куриные колбаски с зеленью и овощами. Для новых сочетаний и тёплых встреч за столом.",
+        "width": 279.6171875,
+        "x": 24,
+        "y": 254.7421875
+      },
+      {
+        "bottom": 290.7421875,
+        "height": 16.5,
+        "right": 298.890625,
+        "text": "Куриные колбаски с зеленью и овощами. Для новых сочетаний и тёплых встреч за столом.",
+        "width": 274.890625,
+        "x": 24,
+        "y": 274.2421875
+      },
+      {
+        "bottom": 687.7890625,
+        "height": 16.5,
+        "right": 128.5390625,
+        "text": "О Люля мини",
+        "width": 84.5390625,
+        "x": 44,
+        "y": 671.2890625
+      },
+      {
+        "bottom": 689.2421875,
+        "height": 19,
+        "right": 348.1875,
+        "text": "О Люля мини",
+        "width": 19,
+        "x": 329.1875,
+        "y": 670.2421875
+      }
+    ],
+    "textStack": {
+      "bottom": 292.2421875,
+      "height": 216.2421875,
+      "right": 392.1875,
+      "width": 392.1875,
+      "x": 0,
+      "y": 76
+    },
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  {
+    "action": {
+      "bottom": 733.7421875,
+      "height": 92,
+      "right": 392.1875,
+      "width": 392.1875,
+      "x": 0,
+      "y": 641.7421875
+    },
+    "broken": [],
+    "frame": {
+      "bottom": 633.7421832109375,
+      "height": 322,
+      "right": 357.0937490512695,
+      "width": 322,
+      "x": 35.09374905126953,
+      "y": 311.7421832109375
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "right": 390,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "bottom": -0.148808,
+        "class": "hero-cutout hero-hen-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.297616,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297616,
+        "y": -0.148808
+      },
+      {
+        "bottom": -0.148808,
+        "class": "hero-cutout hero-food-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.297616,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297616,
+        "y": -0.148808
+      },
+      {
+        "bottom": -0.148808,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.297616,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297616,
+        "y": -0.148808
+      },
+      {
+        "bottom": -0.148808,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.297616,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297616,
+        "y": -0.148808
+      }
+    ],
+    "mobileSource": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v6/popsy.webp?v=056e446756",
+    "overflow": false,
+    "pick": {
+      "bottom": 793.7421875,
+      "height": 60,
+      "right": 370,
+      "width": 64,
+      "x": 306,
+      "y": 733.7421875
+    },
+    "portrait": true,
+    "rail": {
+      "bottom": 793.7421875,
+      "height": 60,
+      "right": 370,
+      "scrollLeft": 2,
+      "scrollWidth": 352,
+      "width": 350,
+      "x": 20,
+      "y": 733.7421875
+    },
+    "scene": "scene-popsy",
+    "scrollY": 0,
+    "stage": {
+      "bottom": 733.7421875,
+      "height": 657.7421875,
+      "right": 390,
+      "width": 390,
+      "x": 0,
+      "y": 76
+    },
+    "textRects": [
+      {
+        "bottom": 168,
+        "height": 77.5,
+        "right": 220.5,
+        "text": "Попсы",
+        "width": 196.5,
+        "x": 24,
+        "y": 90.5
+      },
+      {
+        "bottom": 209.4765625,
+        "height": 36,
+        "right": 277.734375,
+        "text": "Мини-наггетсы.В своём ритме.",
+        "width": 253.734375,
+        "x": 24,
+        "y": 173.4765625
+      },
+      {
+        "bottom": 209.4765625,
+        "height": 36,
+        "right": 277.734375,
+        "text": "Мини-наггетсы.В своём ритме.",
+        "width": 0,
+        "x": 277.734375,
+        "y": 173.4765625
+      },
+      {
+        "bottom": 241.109375,
+        "height": 36,
+        "right": 258.6953125,
+        "text": "Мини-наггетсы.В своём ритме.",
+        "width": 234.6953125,
+        "x": 24,
+        "y": 205.109375
+      },
+      {
+        "bottom": 271.2421875,
+        "height": 16.5,
+        "right": 273.25,
+        "text": "Маленькие кусочки курицы в хрустящей панировке. К кино, встрече или паузе между делами.",
+        "width": 249.25,
+        "x": 24,
+        "y": 254.7421875
+      },
+      {
+        "bottom": 290.7421875,
+        "height": 16.5,
+        "right": 299.484375,
+        "text": "Маленькие кусочки курицы в хрустящей панировке. К кино, встрече или паузе между делами.",
+        "width": 275.484375,
+        "x": 24,
+        "y": 274.2421875
+      },
+      {
+        "bottom": 310.2421875,
+        "height": 16.5,
+        "right": 72.8203125,
+        "text": "Маленькие кусочки курицы в хрустящей панировке. К кино, встрече или паузе между делами.",
+        "width": 48.8203125,
+        "x": 24,
+        "y": 293.7421875
+      },
+      {
+        "bottom": 687.7890625,
+        "height": 16.5,
+        "right": 104.453125,
+        "text": "О Попсах",
+        "width": 60.453125,
+        "x": 44,
+        "y": 671.2890625
+      },
+      {
+        "bottom": 689.2421875,
+        "height": 19,
+        "right": 348.1875,
+        "text": "О Попсах",
+        "width": 19,
+        "x": 329.1875,
+        "y": 670.2421875
+      }
+    ],
+    "textStack": {
+      "bottom": 311.7421875,
+      "height": 235.7421875,
+      "right": 392.1875,
+      "width": 392.1875,
+      "x": 0,
+      "y": 76
+    },
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  {
+    "action": {
+      "bottom": 843.8828125,
+      "height": 92,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 751.8828125
+    },
+    "broken": [],
+    "frame": {
+      "bottom": 743.8827922109375,
+      "height": 381.9999694824219,
+      "right": 540.5000051982422,
+      "width": 382,
+      "x": 158.50000519824218,
+      "y": 361.8828227285156
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "bottom": -0.148824,
+        "class": "hero-cutout hero-hen-cutout",
+        "flip": true,
+        "height": 0,
+        "right": -0.297648,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297648,
+        "y": -0.148824
+      },
+      {
+        "bottom": -0.148824,
+        "class": "hero-cutout hero-food-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.297648,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297648,
+        "y": -0.148824
+      },
+      {
+        "bottom": -0.148824,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.297648,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297648,
+        "y": -0.148824
+      },
+      {
+        "bottom": -0.148824,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.297648,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297648,
+        "y": -0.148824
+      }
+    ],
+    "mobileSource": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v6/fibriki.webp?v=d0c77d13d0",
+    "overflow": false,
+    "pick": {
+      "bottom": 903.8828125,
+      "height": 60,
+      "right": 84,
+      "width": 64,
+      "x": 20,
+      "y": 843.8828125
+    },
+    "portrait": true,
+    "rail": {
+      "bottom": 903.8828125,
+      "height": 60,
+      "right": 679,
+      "scrollLeft": 0,
+      "scrollWidth": 659,
+      "width": 659,
+      "x": 20,
+      "y": 843.8828125
+    },
+    "scene": "scene-fibriki",
+    "scrollY": 0,
+    "stage": {
+      "bottom": 843.8828125,
+      "height": 767.8828125,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 76
+    },
+    "textRects": [
+      {
+        "bottom": 216.5,
+        "height": 124.5,
+        "right": 464.40625,
+        "text": "Фибрики",
+        "width": 432.40625,
+        "x": 32,
+        "y": 92
+      },
+      {
+        "bottom": 290.154052734375,
+        "height": 66.17543029785156,
+        "right": 134.49815368652344,
+        "text": "Белок + клетчатка",
+        "width": 94.03933715820312,
+        "x": 40.45881652832031,
+        "y": 223.97862243652344
+      },
+      {
+        "bottom": 281.33648681640625,
+        "height": 54.904388427734375,
+        "right": 163.71461486816406,
+        "text": "Белок + клетчатка",
+        "width": 23.42535400390625,
+        "x": 140.2892608642578,
+        "y": 226.43209838867188
+      },
+      {
+        "bottom": 284.9331359863281,
+        "height": 62.49555969238281,
+        "right": 163.90310668945312,
+        "text": "Белок + клетчатка",
+        "width": 23.82318115234375,
+        "x": 140.07992553710938,
+        "y": 222.4375762939453
+      },
+      {
+        "bottom": 283.39208984375,
+        "height": 70.64811706542969,
+        "right": 348.8680114746094,
+        "text": "Белок + клетчатка",
+        "width": 179.3831329345703,
+        "x": 169.48487854003906,
+        "y": 212.7439727783203
+      },
+      {
+        "bottom": 331.09375,
+        "height": 19,
+        "right": 365.6796875,
+        "text": "Куриные фрикадельки с пищевыми волокнами. К любимому гарниру, в суп или с соусом.",
+        "width": 333.6796875,
+        "x": 32,
+        "y": 312.09375
+      },
+      {
+        "bottom": 353.59375,
+        "height": 19,
+        "right": 326.2265625,
+        "text": "Куриные фрикадельки с пищевыми волокнами. К любимому гарниру, в суп или с соусом.",
+        "width": 294.2265625,
+        "x": 32,
+        "y": 334.59375
+      },
+      {
+        "bottom": 798.78125,
+        "height": 18,
+        "right": 374.734375,
+        "text": "Знакомьтесь с Фибриками",
+        "width": 185.234375,
+        "x": 189.5,
+        "y": 780.78125
+      },
+      {
+        "bottom": 799.3828125,
+        "height": 19,
+        "right": 509.5,
+        "text": "Знакомьтесь с Фибриками",
+        "width": 19,
+        "x": 490.5,
+        "y": 780.3828125
+      }
+    ],
+    "textStack": {
+      "bottom": 355.59375,
+      "height": 279.59375,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 76
+    },
+    "viewport": {
+      "height": 1000,
+      "width": 699
+    }
+  },
+  {
+    "action": {
+      "bottom": 843.8828125,
+      "height": 92,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 751.8828125
+    },
+    "broken": [],
+    "frame": {
+      "bottom": 743.8828348671875,
+      "height": 382.0000305175781,
+      "right": 540.4999989580078,
+      "width": 382,
+      "x": 158.4999989580078,
+      "y": 361.8828043496094
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "bottom": -0.233254,
+        "class": "hero-cutout hero-hen-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.466508,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.466508,
+        "y": -0.233254
+      },
+      {
+        "bottom": -0.233254,
+        "class": "hero-cutout hero-food-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.466508,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.466508,
+        "y": -0.233254
+      },
+      {
+        "bottom": -0.233254,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.466508,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.466508,
+        "y": -0.233254
+      },
+      {
+        "bottom": -0.233254,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.466508,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.466508,
+        "y": -0.233254
+      }
+    ],
+    "mobileSource": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v6/meatballs.webp?v=7010faecdb",
+    "overflow": false,
+    "pick": {
+      "bottom": 903.8828125,
+      "height": 60,
+      "right": 240.59375,
+      "width": 74.453125,
+      "x": 166.140625,
+      "y": 843.8828125
+    },
+    "portrait": true,
+    "rail": {
+      "bottom": 903.8828125,
+      "height": 60,
+      "right": 679,
+      "scrollLeft": 0,
+      "scrollWidth": 659,
+      "width": 659,
+      "x": 20,
+      "y": 843.8828125
+    },
+    "scene": "scene-meatballs",
+    "scrollY": 0,
+    "stage": {
+      "bottom": 843.8828125,
+      "height": 767.8828125,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 76
+    },
+    "textRects": [
+      {
+        "bottom": 188,
+        "height": 93,
+        "right": 525.1640625,
+        "text": "Фрикадельки",
+        "width": 493.1640625,
+        "x": 32,
+        "y": 95
+      },
+      {
+        "bottom": 238.546875,
+        "height": 47.5,
+        "right": 320.40625,
+        "text": "Есть вкусныйповод собраться.",
+        "width": 288.40625,
+        "x": 32,
+        "y": 191.046875
+      },
+      {
+        "bottom": 238.546875,
+        "height": 47.5,
+        "right": 320.40625,
+        "text": "Есть вкусныйповод собраться.",
+        "width": 0,
+        "x": 320.40625,
+        "y": 191.046875
+      },
+      {
+        "bottom": 280.140625,
+        "height": 47.5,
+        "right": 397.046875,
+        "text": "Есть вкусныйповод собраться.",
+        "width": 365.046875,
+        "x": 32,
+        "y": 232.640625
+      },
+      {
+        "bottom": 311.734375,
+        "height": 19,
+        "right": 419.7265625,
+        "text": "Классические куриные фрикадельки. В домашний суп, к любимому гарниру — и всех за стол.",
+        "width": 387.7265625,
+        "x": 32,
+        "y": 292.734375
+      },
+      {
+        "bottom": 334.234375,
+        "height": 19,
+        "right": 302.7421875,
+        "text": "Классические куриные фрикадельки. В домашний суп, к любимому гарниру — и всех за стол.",
+        "width": 270.7421875,
+        "x": 32,
+        "y": 315.234375
+      },
+      {
+        "bottom": 798.78125,
+        "height": 18,
+        "right": 303.3359375,
+        "text": "О фрикадельках",
+        "width": 113.8359375,
+        "x": 189.5,
+        "y": 780.78125
+      },
+      {
+        "bottom": 799.3828125,
+        "height": 19,
+        "right": 509.5,
+        "text": "О фрикадельках",
+        "width": 19,
+        "x": 490.5,
+        "y": 780.3828125
+      }
+    ],
+    "textStack": {
+      "bottom": 336.234375,
+      "height": 260.234375,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 76
+    },
+    "viewport": {
+      "height": 1000,
+      "width": 699
+    }
+  },
+  {
+    "action": {
+      "bottom": 843.8828125,
+      "height": 92,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 751.8828125
+    },
+    "broken": [],
+    "frame": {
+      "bottom": 743.8828125,
+      "height": 382,
+      "right": 540.5,
+      "width": 382,
+      "x": 158.5,
+      "y": 361.8828125
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "bottom": 0,
+        "class": "hero-cutout hero-hen-cutout",
+        "flip": false,
+        "height": 0,
+        "right": 0,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "bottom": 0,
+        "class": "hero-cutout hero-food-cutout",
+        "flip": false,
+        "height": 0,
+        "right": 0,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "bottom": 0,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": 0,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "bottom": 0,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": 0,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "mobileSource": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v6/nuggets.webp?v=915a7debac",
+    "overflow": false,
+    "pick": {
+      "bottom": 903.8828125,
+      "height": 60,
+      "right": 386.7265625,
+      "width": 64,
+      "x": 322.7265625,
+      "y": 843.8828125
+    },
+    "portrait": true,
+    "rail": {
+      "bottom": 903.8828125,
+      "height": 60,
+      "right": 679,
+      "scrollLeft": 0,
+      "scrollWidth": 659,
+      "width": 659,
+      "x": 20,
+      "y": 843.8828125
+    },
+    "scene": "scene-nuggets",
+    "scrollY": 0,
+    "stage": {
+      "bottom": 843.8828125,
+      "height": 767.8828125,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 76
+    },
+    "textRects": [
+      {
+        "bottom": 216.5,
+        "height": 124.5,
+        "right": 477.3125,
+        "text": "Наггетсы",
+        "width": 445.3125,
+        "x": 32,
+        "y": 92
+      },
+      {
+        "bottom": 264.1953125,
+        "height": 47.5,
+        "right": 267.203125,
+        "text": "Хрустящийперерыв.",
+        "width": 235.203125,
+        "x": 32,
+        "y": 216.6953125
+      },
+      {
+        "bottom": 264.1953125,
+        "height": 47.5,
+        "right": 267.203125,
+        "text": "Хрустящийперерыв.",
+        "width": 0,
+        "x": 267.203125,
+        "y": 216.6953125
+      },
+      {
+        "bottom": 305.7890625,
+        "height": 47.5,
+        "right": 229.921875,
+        "text": "Хрустящийперерыв.",
+        "width": 197.921875,
+        "x": 32,
+        "y": 258.2890625
+      },
+      {
+        "bottom": 337.3828125,
+        "height": 19,
+        "right": 375.4453125,
+        "text": "Золотистая корочка, нежная курица внутри. Для перекуса с любимым соусом.",
+        "width": 343.4453125,
+        "x": 32,
+        "y": 318.3828125
+      },
+      {
+        "bottom": 359.8828125,
+        "height": 19,
+        "right": 241.9765625,
+        "text": "Золотистая корочка, нежная курица внутри. Для перекуса с любимым соусом.",
+        "width": 209.9765625,
+        "x": 32,
+        "y": 340.8828125
+      },
+      {
+        "bottom": 798.78125,
+        "height": 18,
+        "right": 271.2421875,
+        "text": "О наггетсах",
+        "width": 81.7421875,
+        "x": 189.5,
+        "y": 780.78125
+      },
+      {
+        "bottom": 799.3828125,
+        "height": 19,
+        "right": 509.5,
+        "text": "О наггетсах",
+        "width": 19,
+        "x": 490.5,
+        "y": 780.3828125
+      }
+    ],
+    "textStack": {
+      "bottom": 361.8828125,
+      "height": 285.8828125,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 76
+    },
+    "viewport": {
+      "height": 1000,
+      "width": 699
+    }
+  },
+  {
+    "action": {
+      "bottom": 843.8828125,
+      "height": 92,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 751.8828125
+    },
+    "broken": [],
+    "frame": {
+      "bottom": 743.8827971953125,
+      "height": 381.9999694824219,
+      "right": 540.499969390625,
+      "width": 381.9999694824219,
+      "x": 158.49999990820314,
+      "y": 361.8828277128906
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "bottom": -0.041153,
+        "class": "hero-cutout hero-hen-cutout",
+        "flip": true,
+        "height": 0,
+        "right": -0.082306,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.082306,
+        "y": -0.041153
+      },
+      {
+        "bottom": -0.041153,
+        "class": "hero-cutout hero-food-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.082306,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.082306,
+        "y": -0.041153
+      },
+      {
+        "bottom": -0.041153,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.082306,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.082306,
+        "y": -0.041153
+      },
+      {
+        "bottom": -0.041153,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.082306,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.082306,
+        "y": -0.041153
+      }
+    ],
+    "mobileSource": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v6/lulia-mini.webp?v=37db119044",
+    "overflow": false,
+    "pick": {
+      "bottom": 903.8828125,
+      "height": 60,
+      "right": 532.8671875,
+      "width": 64,
+      "x": 468.8671875,
+      "y": 843.8828125
+    },
+    "portrait": true,
+    "rail": {
+      "bottom": 903.8828125,
+      "height": 60,
+      "right": 679,
+      "scrollLeft": 0,
+      "scrollWidth": 659,
+      "width": 659,
+      "x": 20,
+      "y": 843.8828125
+    },
+    "scene": "scene-lulia-mini",
+    "scrollY": 0,
+    "stage": {
+      "bottom": 843.8828125,
+      "height": 767.8828125,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 76
+    },
+    "textRects": [
+      {
+        "bottom": 216.5,
+        "height": 124.5,
+        "right": 582.2890625,
+        "text": "Люля мини",
+        "width": 550.2890625,
+        "x": 32,
+        "y": 92
+      },
+      {
+        "bottom": 264.1953125,
+        "height": 47.5,
+        "right": 445.3203125,
+        "text": "Маленький формат.Большой аппетит.",
+        "width": 413.3203125,
+        "x": 32,
+        "y": 216.6953125
+      },
+      {
+        "bottom": 264.1953125,
+        "height": 47.5,
+        "right": 445.3203125,
+        "text": "Маленький формат.Большой аппетит.",
+        "width": 0,
+        "x": 445.3203125,
+        "y": 216.6953125
+      },
+      {
+        "bottom": 305.7890625,
+        "height": 47.5,
+        "right": 404.84375,
+        "text": "Маленький формат.Большой аппетит.",
+        "width": 372.84375,
+        "x": 32,
+        "y": 258.2890625
+      },
+      {
+        "bottom": 337.3828125,
+        "height": 19,
+        "right": 401.3515625,
+        "text": "Куриные колбаски с зеленью и овощами. Для новых сочетаний и тёплых встреч за столом.",
+        "width": 369.3515625,
+        "x": 32,
+        "y": 318.3828125
+      },
+      {
+        "bottom": 359.8828125,
+        "height": 19,
+        "right": 302.46875,
+        "text": "Куриные колбаски с зеленью и овощами. Для новых сочетаний и тёплых встреч за столом.",
+        "width": 270.46875,
+        "x": 32,
+        "y": 340.8828125
+      },
+      {
+        "bottom": 798.78125,
+        "height": 18,
+        "right": 280.5390625,
+        "text": "О Люля мини",
+        "width": 91.0390625,
+        "x": 189.5,
+        "y": 780.78125
+      },
+      {
+        "bottom": 799.3828125,
+        "height": 19,
+        "right": 509.5,
+        "text": "О Люля мини",
+        "width": 19,
+        "x": 490.5,
+        "y": 780.3828125
+      }
+    ],
+    "textStack": {
+      "bottom": 361.8828125,
+      "height": 285.8828125,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 76
+    },
+    "viewport": {
+      "height": 1000,
+      "width": 699
+    }
+  },
+  {
+    "action": {
+      "bottom": 843.8828125,
+      "height": 92,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 751.8828125
+    },
+    "broken": [],
+    "frame": {
+      "bottom": 743.8828121757813,
+      "height": 382,
+      "right": 540.4999983515625,
+      "width": 382,
+      "x": 158.4999983515625,
+      "y": 361.8828121757812
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "bottom": -0.148743,
+        "class": "hero-cutout hero-hen-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.297487,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297487,
+        "y": -0.148743
+      },
+      {
+        "bottom": -0.148743,
+        "class": "hero-cutout hero-food-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.297487,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297487,
+        "y": -0.148743
+      },
+      {
+        "bottom": -0.148743,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.297487,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297487,
+        "y": -0.148743
+      },
+      {
+        "bottom": -0.148743,
+        "class": "hero-cutout hero-accent-cutout",
+        "flip": false,
+        "height": 0,
+        "right": -0.297487,
+        "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/desktop-v8/empty.svg?v=fb5d4b07a0",
+        "width": 0,
+        "x": -0.297487,
+        "y": -0.148743
+      }
+    ],
+    "mobileSource": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v6/popsy.webp?v=056e446756",
+    "overflow": false,
+    "pick": {
+      "bottom": 903.8828125,
+      "height": 60,
+      "right": 679,
+      "width": 64,
+      "x": 615,
+      "y": 843.8828125
+    },
+    "portrait": true,
+    "rail": {
+      "bottom": 903.8828125,
+      "height": 60,
+      "right": 679,
+      "scrollLeft": 0,
+      "scrollWidth": 659,
+      "width": 659,
+      "x": 20,
+      "y": 843.8828125
+    },
+    "scene": "scene-popsy",
+    "scrollY": 0,
+    "stage": {
+      "bottom": 843.8828125,
+      "height": 767.8828125,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 76
+    },
+    "textRects": [
+      {
+        "bottom": 216.5,
+        "height": 124.5,
+        "right": 346.15625,
+        "text": "Попсы",
+        "width": 314.15625,
+        "x": 32,
+        "y": 92
+      },
+      {
+        "bottom": 264.1953125,
+        "height": 47.5,
+        "right": 365.640625,
+        "text": "Мини-наггетсы.В своём ритме.",
+        "width": 333.640625,
+        "x": 32,
+        "y": 216.6953125
+      },
+      {
+        "bottom": 264.1953125,
+        "height": 47.5,
+        "right": 365.640625,
+        "text": "Мини-наггетсы.В своём ритме.",
+        "width": 0,
+        "x": 365.640625,
+        "y": 216.6953125
+      },
+      {
+        "bottom": 305.7890625,
+        "height": 47.5,
+        "right": 340.6015625,
+        "text": "Мини-наггетсы.В своём ритме.",
+        "width": 308.6015625,
+        "x": 32,
+        "y": 258.2890625
+      },
+      {
+        "bottom": 337.3828125,
+        "height": 19,
+        "right": 402.0703125,
+        "text": "Маленькие кусочки курицы в хрустящей панировке. К кино, встрече или паузе между делами.",
+        "width": 370.0703125,
+        "x": 32,
+        "y": 318.3828125
+      },
+      {
+        "bottom": 359.8828125,
+        "height": 19,
+        "right": 327.625,
+        "text": "Маленькие кусочки курицы в хрустящей панировке. К кино, встрече или паузе между делами.",
+        "width": 295.625,
+        "x": 32,
+        "y": 340.8828125
+      },
+      {
+        "bottom": 798.78125,
+        "height": 18,
+        "right": 254.6015625,
+        "text": "О Попсах",
+        "width": 65.1015625,
+        "x": 189.5,
+        "y": 780.78125
+      },
+      {
+        "bottom": 799.3828125,
+        "height": 19,
+        "right": 509.5,
+        "text": "О Попсах",
+        "width": 19,
+        "x": 490.5,
+        "y": 780.3828125
+      }
+    ],
+    "textStack": {
+      "bottom": 361.8828125,
+      "height": 285.8828125,
+      "right": 699,
+      "width": 699,
+      "x": 0,
+      "y": 76
+    },
+    "viewport": {
+      "height": 1000,
+      "width": 699
+    }
+  }
+]

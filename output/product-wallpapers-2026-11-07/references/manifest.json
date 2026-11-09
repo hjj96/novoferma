@@ -1,0 +1,266 @@
+{
+  "source": "Current local catalogue; canonical build_site.py sources; original RGBA art only, neutral sheet background and external labels.",
+  "products": [
+    {
+      "index": 1,
+      "id": "kotlety-kurinye",
+      "name": "Котлеты куриные",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue-clean-v2/kotlety-kurinye.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        28,
+        80,
+        771,
+        701
+      ]
+    },
+    {
+      "index": 2,
+      "id": "bitochki-kurinye-s-ovoshchami",
+      "name": "Биточки куриные с овощами",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue-clean-v2/bitochki-kurinye-s-ovoshchami.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        28,
+        77,
+        772,
+        704
+      ]
+    },
+    {
+      "index": 3,
+      "id": "ezhiki-iz-tsyplenka-s-risom",
+      "name": "Ёжики из цыпленка с рисом",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue-clean-v2/ezhiki-iz-tsyplenka-s-risom.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        28,
+        81,
+        772,
+        700
+      ]
+    },
+    {
+      "index": 4,
+      "id": "kurinyj-popkorn",
+      "name": "Куриный попкорн",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue-clean-v2/kurinyj-popkorn.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        28,
+        78,
+        771,
+        703
+      ]
+    },
+    {
+      "index": 5,
+      "id": "naggetsy-kurinye",
+      "name": "Наггетсы куриные",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue-clean-v2/naggetsy-kurinye.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        29,
+        85,
+        772,
+        696
+      ]
+    },
+    {
+      "index": 6,
+      "id": "naggetsy-kurinye-s-syrom",
+      "name": "Наггетсы куриные с сыром",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue-clean-v2/naggetsy-kurinye-s-syrom.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        28,
+        74,
+        771,
+        707
+      ]
+    },
+    {
+      "index": 7,
+      "id": "naggetsy-dinozavry",
+      "name": "Наггетсы куриные «Динозавры»",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue-clean-v2/naggetsy-dinozavry.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        29,
+        78,
+        771,
+        703
+      ]
+    },
+    {
+      "index": 8,
+      "id": "naggetsy-ostrye",
+      "name": "Наггетсы куриные острые",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue-clean-v2/naggetsy-ostrye.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        29,
+        77,
+        770,
+        703
+      ]
+    },
+    {
+      "index": 9,
+      "id": "naggetsy-s-indeykoy-fitnes",
+      "name": "Наггетсы с индейкой «Фитнес»",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue-clean-v2/naggetsy-s-indeykoy-fitnes.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        30,
+        80,
+        771,
+        700
+      ]
+    },
+    {
+      "index": 10,
+      "id": "stripsy",
+      "name": "Стрипсы",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue-clean-v2/stripsy.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        29,
+        78,
+        771,
+        703
+      ]
+    },
+    {
+      "index": 11,
+      "id": "kotlety-po-domashnemu",
+      "name": "Котлеты по-домашнему",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue-clean-v2/kotlety-po-domashnemu.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        28,
+        80,
+        770,
+        701
+      ]
+    },
+    {
+      "index": 12,
+      "id": "kotlety-pikantnye",
+      "name": "Котлеты пикантные",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue-clean-v2/kotlety-pikantnye.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        28,
+        83,
+        771,
+        697
+      ]
+    },
+    {
+      "index": 13,
+      "id": "kotlety-po-italyanski",
+      "name": "Котлеты по-итальянски",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue-clean-v2/kotlety-po-italyanski.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        28,
+        80,
+        772,
+        700
+      ]
+    },
+    {
+      "index": 14,
+      "id": "frikadelki-klassicheskie",
+      "name": "Фрикадельки «Классические»",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue-clean-v2/frikadelki-klassicheskie.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        29,
+        82,
+        771,
+        699
+      ]
+    },
+    {
+      "index": 15,
+      "id": "fibriki",
+      "name": "Фибрики",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/novelty-packaging/fibriki-pack-v11.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        28,
+        87,
+        772,
+        694
+      ]
+    },
+    {
+      "index": 16,
+      "id": "lulia-mini",
+      "name": "Люля мини",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/novelty-packaging/lulia-mini-pack-v3.webp",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        28,
+        84,
+        772,
+        696
+      ]
+    },
+    {
+      "index": 17,
+      "id": "popsy",
+      "name": "Попсы",
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/novelty-packaging/popsy-pack-v3.webp",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        9,
+        1253,
+        1254
+      ]
+    }
+  ],
+  "reference_sheets": [
+    "/Users/andrey/Desktop/сайт нф/output/product-wallpapers-2026-11-07/references/all-17-products.png",
+    "/Users/andrey/Desktop/сайт нф/output/product-wallpapers-2026-11-07/references/regular-01-07.png",
+    "/Users/andrey/Desktop/сайт нф/output/product-wallpapers-2026-11-07/references/regular-08-14.png",
+    "/Users/andrey/Desktop/сайт нф/output/product-wallpapers-2026-11-07/references/novelties.png"
+  ]
+}

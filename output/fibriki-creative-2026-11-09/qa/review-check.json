@@ -1,0 +1,61 @@
+{
+  "result": "pass",
+  "results": [
+    {
+      "viewport": 1440,
+      "scroll": 1440,
+      "images": [
+        {
+          "loaded": true,
+          "src": "../assets/fibriki-pack-v12.png"
+        },
+        {
+          "loaded": true,
+          "src": "../assets/02-cosmonaut.png"
+        },
+        {
+          "loaded": true,
+          "src": "../assets/03-chef.png"
+        },
+        {
+          "loaded": true,
+          "src": "../assets/04-tightrope.png"
+        }
+      ],
+      "captions": [
+        "01. Силачка — основное направление",
+        "02. Космонавт — приключение на ложке",
+        "03. Шеф-виртуоз — Фибрики в движении",
+        "04. Канатоходец — лёгкий баланс"
+      ]
+    },
+    {
+      "viewport": 390,
+      "scroll": 390,
+      "images": [
+        {
+          "loaded": true,
+          "src": "../assets/fibriki-pack-v12.png"
+        },
+        {
+          "loaded": true,
+          "src": "../assets/02-cosmonaut.png"
+        },
+        {
+          "loaded": true,
+          "src": "../assets/03-chef.png"
+        },
+        {
+          "loaded": true,
+          "src": "../assets/04-tightrope.png"
+        }
+      ],
+      "captions": [
+        "01. Силачка — основное направление",
+        "02. Космонавт — приключение на ложке",
+        "03. Шеф-виртуоз — Фибрики в движении",
+        "04. Канатоходец — лёгкий баланс"
+      ]
+    }
+  ]
+}

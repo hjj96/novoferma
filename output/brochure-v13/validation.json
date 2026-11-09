@@ -1,0 +1,32 @@
+{
+  "pages": 8,
+  "format": "16:9, 960×540 pt",
+  "changed_pages": [
+    2,
+    3
+  ],
+  "unchanged_pages_pixel_identical": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "lifestyle_and_packaging_right_side_pixel_identical": [
+    2,
+    3
+  ],
+  "exact_catalogue_image_placements_preserved": 15,
+  "protein_proof": "52g perClassicpack; headline158pt; no500g",
+  "generic_nutrition_paragraphs": "removed",
+  "fibriki_proof": "poultry protein + added fibre; no unverified amounts or health effects",
+  "slide_word_counts": {
+    "2": 15,
+    "3": 18
+  },
+  "new_image_generation": false,
+  "contact_links": 3,
+  "text_bounds": "passed",
+  "bytes": 15645708
+}

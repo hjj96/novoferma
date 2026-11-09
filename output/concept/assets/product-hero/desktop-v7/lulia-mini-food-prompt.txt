@@ -1,0 +1,22 @@
+Built-in ImageGen; 2026-11-07.
+Food texture reference: assets/product-hero/mobile-v4/lulia-mini-master.png
+The initial output is retained as lulia-mini-food-original-master.png. Main food-master also includes the geometry refinement documented separately.
+
+Use case: product-mockup / ads-marketing.
+Asset type: FOOD-ONLY transparent PNG layer, LANDSCAPE 3:2 canvas intended1536×1024, for a premium Novoferma mini-lulia desktop hero.
+Input image 1 (approved mobile mini-lulia) is ONLY a visual FOOD TEXTURE reference. Ignore its chicken, scene layout, drawing style, marks and background. Generate only the foods requested below.
+
+SUBJECTS:
+Exactly FOUR different WHOLE cooked mini chicken lulia sausages, each a handmade plump little oval cylinder with rounded imperfect blunt ends. Natural appetizing golden-brown grilled surface, nuanced fine minced chicken texture, very small sparse RED AND GREEN ingredient flecks distributed through the food itself. Keep the flecks TINY, not big vegetable cubes or leafy garnish. Subtle moist food sheen, never shiny plastic. Four DISTINCT individual pieces: different handmade silhouette/curvature, individual browning pattern, different visible face, different rotation and depth. No two are a cloned/resized copy. No cutaway, no bite, no exposed interior, no breading, no casing, no skewer. Sophisticated realistic studio food photography with soft upper-left lighting, crisp edible detail and gentle local form shading.
+
+EXACT PLACEMENT guide on 1536×1024 landscape canvas, keeping transparent space:
+1. Upper LEFT: center(15% width,18% height), length about300px, diagonal long axis about45degrees. First unique shape and seared face.
+2. High upper MIDDLE: center(46%,12%), length about300px, nearly horizontal long axis -15degrees. Different flatter imperfect shape and browning.
+3. Upper RIGHT: center(78%,16%), a SHORTER plump piece around260–285px long, almost vertical long axis75degrees. Distinct curve, ends and browning, NOT a rotated copy.
+4. Lower LEFT: center(17%,62%), length around300–320px, nearly horizontal +15degrees, a fourth distinct face/shape.
+Keep ALL FOUR products separated by generous true transparent gaps, never touching or overlapping. All whole silhouettes stay entirely within the canvas. Use the requested natural food scale: main pieces about300px long on a1536px-wide canvas, not gigantic pieces filling the frame.
+
+RESERVED EMPTY AREA:
+The ENTIRE lower middle/right area x>35% of canvas AND y>34% must be completely EMPTY alpha transparency. No food, shadows or decorations there: a separately generated hen will later be placed in that reserved area. Do not center all the foods or fill the empty lower right. Preserve this asymmetric top arc plus lower-left placement.
+Actual transparent alpha background everywhere outside the four foods, including the gaps and empty reserved area. Absolutely NO CHICKEN/MASCOT, no illustration, no parsley, no leaves, no tomato, no vegetables outside food, no plates/bowls, no utensils, no text, no labels/logos, no packaging, no red-orange marks, no motion lines, no floor/table, no cast ground shadow, no white/cream/gray haze or glow. Four isolated realistic whole mini-lulia foods ONLY.
+

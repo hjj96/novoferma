@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-11-05T12:00:35.645069+00:00",
+  "environment": "Local browser + same-origin HTTP server + private persistent SQLite; synthetic QA contacts only, no email/CRM transmission.",
+  "checks": [
+    {
+      "name": "product-to-specification-prefill",
+      "result": "pass",
+      "product": "frikadelki-klassicheskie",
+      "intent": "specification"
+    },
+    {
+      "name": "desktop-browser-to-committed-receipt-to-operator-readback",
+      "result": "pass",
+      "requestId": "d8a7a0d3-426f-4297-939c-e3667cbb7cca"
+    },
+    {
+      "name": "repeat-click-same-receipt-no-second-record",
+      "result": "pass"
+    },
+    {
+      "name": "static-host-unavailable-api-keeps-fields-no-false-receipt",
+      "result": "pass"
+    },
+    {
+      "name": "explicit-copy-contains-product-and-format",
+      "result": "pass"
+    },
+    {
+      "name": "segment-switch-preserves-product-intent-and-entered-fields",
+      "result": "pass"
+    },
+    {
+      "name": "mobile-menu-escape-returns-focus",
+      "result": "pass"
+    },
+    {
+      "name": "stm-page-to-mobile-prefilled-form-to-committed-receipt",
+      "result": "pass",
+      "requestId": "b0a0d2ed-f6b8-44a4-9a94-4f3860919ad8"
+    },
+    {
+      "name": "supplier-catalogue-opens-from-visible-button",
+      "result": "pass",
+      "rows": 14
+    }
+  ],
+  "operatorReadback": [
+    {
+      "requestId": "d8a7a0d3-426f-4297-939c-e3667cbb7cca",
+      "status": "received",
+      "consentVersion": "partner-intake-2026-11-05-v1",
+      "product": "frikadelki-klassicheskie",
+      "format": "retail",
+      "intent": "specification"
+    },
+    {
+      "requestId": "b0a0d2ed-f6b8-44a4-9a94-4f3860919ad8",
+      "status": "received",
+      "consentVersion": "partner-intake-2026-11-05-v1",
+      "product": "",
+      "format": "stm",
+      "intent": "stm"
+    }
+  ],
+  "committedRequests": 2,
+  "screenshots": [
+    "screenshots/index-1280.png",
+    "screenshots/partners-1440.png",
+    "screenshots/partners-320.png",
+    "screenshots/partners-390.png",
+    "screenshots/private-label-1440.png",
+    "screenshots/private-label-390.png",
+    "screenshots/product-frikadelki-klassicheskie-390.png",
+    "screenshots/receipt-1440.png",
+    "screenshots/receipt-stm-390.png",
+    "screenshots/supplier-catalogue-1440.png",
+    "screenshots/unavailable-intake-1440.png"
+  ],
+  "limitations": [
+    "Automatic download event in the embedded browser could not be confirmed; primary action now opens the standalone catalogue in a new tab, verified through the visible UI.",
+    "Print CSS reviewed; native print pagination/save-PDF dialog not verified.",
+    "No Docker executable, public deployment, TLS or hosting account verification.",
+    "No live user traffic, conversion-rate or revenue claim."
+  ]
+}

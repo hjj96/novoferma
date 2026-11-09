@@ -1,0 +1,7 @@
+{
+  "preset": "selector-board",
+  "title": "Фибрики — три концепции упаковки",
+  "minTileWidth": 300,
+  "showCaptions": true,
+  "showControls": false
+}

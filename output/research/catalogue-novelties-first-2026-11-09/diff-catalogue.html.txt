@@ -1,0 +1,116 @@
+--- before/catalogue.html
++++ after/catalogue.html
+@@ -80,6 +80,58 @@
+ <section class="wrap catalogue-page" aria-labelledby="catalogue-products-heading">
+ <h2 class="sr-only" id="catalogue-products-heading">Выберите свой продукт</h2>
+ <div class="product-grid catalogue-grid">
++<article class="product-card packshot-preview" id="novelties" data-product-id="fibriki" data-meat="chicken" data-category="Фрикадельки и ёжики" data-name="фибрики">
++<a class="product-image product-card-link" href="product-fibriki.html">
++<span class="packshot-stage" data-tilt>
++<img class="tilt-plane" src="assets/responsive/packshots/fibriki-pack-v12-800-q94-0ea08f11.webp" srcset="assets/responsive/packshots/fibriki-pack-v12-400-q94-0ea08f11.webp 400w, assets/responsive/packshots/fibriki-pack-v12-800-q94-0ea08f11.webp 800w" sizes="(max-width: 699px) calc((100vw - 56px) / 2), (max-width: 1099px) 30vw, 320px" width="800" height="800" loading="lazy" decoding="async" alt="">
++</span>
++<h3 class="product-title">Фибрики</h3>
++<span class="product-meta">
++<span class="product-meat">Из курицы</span>
++<span class="product-weight">400&nbsp;г</span>
++<span class="product-status">Новинка</span>
++</span>
++</a>
++</article>
++<article class="product-card packshot-preview" data-product-id="lenivchiki" data-meat="chicken" data-category="Биточки" data-name="ленивчики">
++<a class="product-image product-card-link" href="product-lenivchiki.html">
++<span class="packshot-stage" data-tilt>
++<img class="tilt-plane" src="assets/responsive/packshots/lenivchiki-pack-v1-800-q94-ff95cef5.webp" srcset="assets/responsive/packshots/lenivchiki-pack-v1-400-q94-ff95cef5.webp 400w, assets/responsive/packshots/lenivchiki-pack-v1-800-q94-ff95cef5.webp 800w" sizes="(max-width: 699px) calc((100vw - 56px) / 2), (max-width: 1099px) 30vw, 320px" width="800" height="800" loading="lazy" decoding="async" alt="">
++</span>
++<h3 class="product-title">Ленивчики</h3>
++<span class="product-meta">
++<span class="product-meat">Из курицы</span>
++<span class="product-weight">400&nbsp;г</span>
++<span class="product-status">Новинка</span>
++</span>
++</a>
++</article>
++<article class="product-card packshot-preview" data-product-id="lulia-mini" data-meat="chicken" data-category="Люля мини" data-name="люля мини">
++<a class="product-image product-card-link" href="product-lulia-mini.html">
++<span class="packshot-stage" data-tilt>
++<img class="tilt-plane" src="assets/responsive/packshots/lulia-mini-pack-v3-800-q94-5406742c.webp" srcset="assets/responsive/packshots/lulia-mini-pack-v3-400-q94-5406742c.webp 400w, assets/responsive/packshots/lulia-mini-pack-v3-800-q94-5406742c.webp 800w" sizes="(max-width: 699px) calc((100vw - 56px) / 2), (max-width: 1099px) 30vw, 320px" width="800" height="800" loading="lazy" decoding="async" alt="">
++</span>
++<h3 class="product-title">Люля мини</h3>
++<span class="product-meta">
++<span class="product-meat">Из курицы</span>
++<span class="product-weight">400&nbsp;г</span>
++<span class="product-status">Новинка</span>
++</span>
++</a>
++</article>
++<article class="product-card packshot-preview" data-product-id="popsy" data-meat="chicken" data-category="Наггетсы" data-name="попсы">
++<a class="product-image product-card-link" href="product-popsy.html">
++<span class="packshot-stage" data-tilt>
++<img class="tilt-plane" src="assets/responsive/packshots/popsy-pack-v4-800-q94-36e1736c.webp" srcset="assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp 400w, assets/responsive/packshots/popsy-pack-v4-800-q94-36e1736c.webp 800w" sizes="(max-width: 699px) calc((100vw - 56px) / 2), (max-width: 1099px) 30vw, 320px" width="800" height="800" loading="lazy" decoding="async" alt="">
++</span>
++<h3 class="product-title">Попсы</h3>
++<span class="product-meta">
++<span class="product-meat">Из курицы</span>
++<span class="product-weight">400&nbsp;г</span>
++<span class="product-status">Новинка</span>
++</span>
++</a>
++</article>
+ <article class="product-card packshot-preview" data-product-id="kotlety-kurinye" data-meat="chicken" data-category="Котлеты и биточки" data-name="котлеты куриные">
+ <a class="product-image product-card-link" href="product-kotlety-kurinye.html">
+ <span class="packshot-stage" data-tilt>
+@@ -245,54 +297,6 @@
+ <span class="product-meta">
+ <span class="product-meat">Из курицы</span>
+ <span class="product-weight">500&nbsp;г</span>
+-</span>
+-</a>
+-</article>
+-<article class="product-card packshot-preview" id="novelties" data-product-id="fibriki" data-meat="chicken" data-category="Фрикадельки и ёжики" data-name="фибрики">
+-<a class="product-image product-card-link" href="product-fibriki.html">
+-<span class="packshot-stage" data-tilt>
+-<img class="tilt-plane" src="assets/responsive/packshots/fibriki-pack-v12-800-q94-0ea08f11.webp" srcset="assets/responsive/packshots/fibriki-pack-v12-400-q94-0ea08f11.webp 400w, assets/responsive/packshots/fibriki-pack-v12-800-q94-0ea08f11.webp 800w" sizes="(max-width: 699px) calc((100vw - 56px) / 2), (max-width: 1099px) 30vw, 320px" width="800" height="800" loading="lazy" decoding="async" alt="">
+-</span>
+-<h3 class="product-title">Фибрики</h3>
+-<span class="product-meta">
+-<span class="product-meat">Из курицы</span>
+-<span class="product-status">Новинка</span>
+-</span>
+-</a>
+-</article>
+-<article class="product-card packshot-preview" data-product-id="lenivchiki" data-meat="chicken" data-category="Биточки" data-name="ленивчики">
+-<a class="product-image product-card-link" href="product-lenivchiki.html">
+-<span class="packshot-stage" data-tilt>
+-<img class="tilt-plane" src="assets/responsive/packshots/lenivchiki-pack-v1-800-q94-ff95cef5.webp" srcset="assets/responsive/packshots/lenivchiki-pack-v1-400-q94-ff95cef5.webp 400w, assets/responsive/packshots/lenivchiki-pack-v1-800-q94-ff95cef5.webp 800w" sizes="(max-width: 699px) calc((100vw - 56px) / 2), (max-width: 1099px) 30vw, 320px" width="800" height="800" loading="lazy" decoding="async" alt="">
+-</span>
+-<h3 class="product-title">Ленивчики</h3>
+-<span class="product-meta">
+-<span class="product-meat">Из курицы</span>
+-<span class="product-status">Новинка</span>
+-</span>
+-</a>
+-</article>
+-<article class="product-card packshot-preview" data-product-id="lulia-mini" data-meat="chicken" data-category="Люля мини" data-name="люля мини">
+-<a class="product-image product-card-link" href="product-lulia-mini.html">
+-<span class="packshot-stage" data-tilt>
+-<img class="tilt-plane" src="assets/responsive/packshots/lulia-mini-pack-v3-800-q94-5406742c.webp" srcset="assets/responsive/packshots/lulia-mini-pack-v3-400-q94-5406742c.webp 400w, assets/responsive/packshots/lulia-mini-pack-v3-800-q94-5406742c.webp 800w" sizes="(max-width: 699px) calc((100vw - 56px) / 2), (max-width: 1099px) 30vw, 320px" width="800" height="800" loading="lazy" decoding="async" alt="">
+-</span>
+-<h3 class="product-title">Люля мини</h3>
+-<span class="product-meta">
+-<span class="product-meat">Из курицы</span>
+-<span class="product-status">Новинка</span>
+-</span>
+-</a>
+-</article>
+-<article class="product-card packshot-preview" data-product-id="popsy" data-meat="chicken" data-category="Наггетсы" data-name="попсы">
+-<a class="product-image product-card-link" href="product-popsy.html">
+-<span class="packshot-stage" data-tilt>
+-<img class="tilt-plane" src="assets/responsive/packshots/popsy-pack-v4-800-q94-36e1736c.webp" srcset="assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp 400w, assets/responsive/packshots/popsy-pack-v4-800-q94-36e1736c.webp 800w" sizes="(max-width: 699px) calc((100vw - 56px) / 2), (max-width: 1099px) 30vw, 320px" width="800" height="800" loading="lazy" decoding="async" alt="">
+-</span>
+-<h3 class="product-title">Попсы</h3>
+-<span class="product-meta">
+-<span class="product-meat">Из курицы</span>
+-<span class="product-status">Новинка</span>
+ </span>
+ </a>
+ </article>

@@ -1,0 +1,35 @@
+Use case: product-mockup / reference-based packaging design.
+Create ONE refined children's front-packaging concept for the existing Novoferma Fibriki range. Concept B: "Little Adventure" — gentle illustrated storybook exploration, never a toy-like neon redesign.
+
+INPUT ROLES:
+Image 1 (Fibriki v12) is the physical packaging, product photography and food master. Preserve its full sleeve geometry, warm beige paper texture, brown inner cardboard surfaces, realistic transparent tray, continuous smooth clear-plastic rim, actual camera/perspective, and natural whole-and-half chicken meatball photography.
+Image 2 (classic meatballs) is the exact brand-family reference for the warm beige/ochre paper grade, orange logo, printed character illustration style, photographic material finish and silhouette. Its cream background is only a viewing background; output must be transparent.
+Use the same warm beige family paper as Image 2, not pale pink, white, cool ivory or grey. Do not create a brown perimeter stroke around the paper. Keep the physical container straight and symmetric with unbroken smooth parallel plastic rim curves, not broken shards or wavy white highlights.
+
+FRONT LABEL DESIGN:
+- Keep the original orange NOVOferma logo centered near the top, using the exact recognizable logo lettering from the references.
+- Directly below it: large, friendly, softly rounded hand-drawn Cyrillic "ФИБРИКИ" in ONE warm olive-green ink color. Lively children's-book lettering with gentle irregularity and full readability, not rainbow lettering and not chunky bubble gum text. This is the main title.
+- Smaller warm brown subtitle below the name: "Фрикадельки из курицы".
+- Give "БЕЛОК + КЛЕТЧАТКА" its own clearly readable short printed ribbon, warm muted orange with light cream lettering, nestled below the subtitle without covering the food or character.
+- Add a small elegant rounded cream/golden information plaque near the upper-right of the illustration area. It says exactly "52 г БЕЛКА НА УПАКОВКУ", typeset on 3 compact lines with "52 г" largest. This factual quantity has been confirmed. The plaque is secondary to the main title and benefit ribbon.
+- Keep a beautiful uncluttered balance of paper space, true food photography on the left, and the character illustration on the right. Preserve the established brand hierarchy.
+
+CHARACTER AND STORY:
+The orange-and-golden Novoferma hen becomes a kind little explorer in the visual language of a traditional illustrated children's book: expressive ink lines, tactile hand-painted ochre/orange feathers, warm brown detail, printed on paper. Retain the characteristic brand chicken proportions and illustration language from the references. Friendly curious expression, normal-sized expressive eyes, no aggressive or stern look. The chicken wears only a small moss-green backpack with believable straps, holds a wooden spoon with one Fibrik as a precious little discovery, and gently examines it. Keep anatomically coherent two wings and two legs, natural bird feet; no extra limbs. No hat is needed.
+Add only two or three tiny delicate route dashes and ONE small hand-drawn star beside the chicken, suggesting a small adventure. No map background, landscape, crowd, ornaments, scattered confetti or clutter. Do NOT print the concept name "Little Adventure" on the packaging.
+
+FOOD AND PHYSICAL QUALITY:
+Keep the natural photographic whole browned chicken meatball and cut half on the LEFT from Image 1. The cut section is fine, moist, homogeneous minced chicken with very sparse embedded tiny parsley-like green flecks. The whole piece has a natural irregular browned crust. No rice grains, white elongated shreds, plastic-looking chunks, tiled polygon texture or artificial gloss. The small ball on the spoon and the raw round balls seen through the tray also have just a few subtle embedded herb flecks. Nothing is garnished with full parsley leaves. Preserve real clear-plastic reflections and legible contents beneath the sleeve; do not redraw the tray as melted or warped plastic.
+
+EXACT AND ONLY PACKAGING TEXT:
+NOVOferma
+ФИБРИКИ
+Фрикадельки из курицы
+БЕЛОК + КЛЕТЧАТКА
+52 г БЕЛКА НА УПАКОВКУ
+
+Do not retain the old extra "С ПИЩЕВЫМИ ВОЛОКНАМИ" line, add other copy, invent weights, ingredients, barcodes, certifications, ages or any promises about growth, development, strength or superpowers.
+No 3D cartoon, no kawaii, no anime, no giant eyes, no neon, no rainbow palette, no glossy toy rendering, no full-page scene background. The pack should feel wholesome, warm, premium, child-friendly and fully part of the existing Novoferma shelf family.
+
+OUTPUT:
+One complete isolated frontal packshot, TRUE transparent background, generous clean transparent margins on all sides, entire tray visible, no cropped corners. Photographed physical packaging with printed artwork, not a flat label. No cast shadow outside the package, no halo, no drawn brown outer sleeve border.

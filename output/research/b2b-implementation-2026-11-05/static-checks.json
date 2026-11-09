@@ -1,0 +1,11 @@
+{
+  "pages": 23,
+  "images": 427,
+  "localReferences": 1515,
+  "uniqueTitles": 23,
+  "uniqueDescriptions": 23,
+  "publicUrl": null,
+  "errors": [],
+  "result": "pass",
+  "scope": "Generated source only; visual and interactive browser checks are separate."
+}

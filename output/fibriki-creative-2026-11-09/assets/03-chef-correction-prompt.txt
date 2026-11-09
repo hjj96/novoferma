@@ -1,0 +1,19 @@
+Use case: precise-object-edit. Targeted correction of Image 1 ONLY.
+Image 1 is the generated chef Fibriki package and the only EDIT TARGET. Image 2 is the ORIGINAL APPROVED FIBRIKI package and the ABSOLUTE AUTHORITY for food identity, meat texture, raw-frozen tray contents and normalized package margins. There are NO Lenivchiki references in this correction.
+
+Keep Image 1's exact chef scene: the same energetic golden Novoferma hen, expressive face, cream chef cap, red comb, short terracotta neckerchief, two feathered wings, two thin clawed bird legs, shallow dark-brown frying pan, exactly THREE round cooked Fibriki in the same short curved flight arc, same outlines, palette and pose. Keep all type, exact words, hierarchy, layout, cream paper, orange logo, shallow clear ribbed PET tray, perspective and printing style unchanged. No new characters or objects.
+
+Correct the FOOD TEXTURE to match Image 2:
+1. PRINTED LEFT FOOD HERO: a WHOLE round unbreaded browned chicken meatball and a CUT HALF. Replace the rice-like/lumpy granular texture with SMOOTH HOMOGENEOUS FINELY GROUND COOKED CHICKEN MINCE, dense and tender, as in Image 2. Cross-section is pale off-white chicken with only tiny sparse green herb flecks. The whole ball has the same smooth gently browned cooked chicken surface as Image 2.
+2. ACTUAL RAW-FROZEN CONTENTS IN THE TRANSPARENT TRAY: make the round meatballs the same pale smooth raw-frozen finely minced chicken texture as Image 2, with tiny sparse green flecks. Absolutely no rice grains, agglomerated rice, chunky grains, rice-shaped lumps, carrot, cabbage, visible vegetable pieces, breading or browned cooked food inside the tray.
+3. Three airborne cooked meatballs keep their round shape, gently browned outside, no rice or new ingredients.
+
+Correct the normalized object framing slightly to match Image 2: the complete physical package occupies approximately 92% of the square canvas width and 75% of canvas height, centered with transparent breathing room. Nothing touches an image edge. Keep every physical part of the packaging together in the same proportions. Do not crop the label, tray, text or chef scene. Remove isolated opaque colored pixels, white halo and exterior colored islands; preserve true transparent alpha everywhere outside the physical package.
+
+COPY EXACTLY UNCHANGED:
+"NOVOferma"
+"ФИБРИКИ"
+"ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ"
+"С ПИЩЕВЫМИ ВОЛОКНАМИ"
+"БЕЛОК + КЛЕТЧАТКА"
+No added numbers, words, badges, claims, ingredients or food. This is one focused correction, NOT a redesigned scene. Transparent background, single complete square PNG.

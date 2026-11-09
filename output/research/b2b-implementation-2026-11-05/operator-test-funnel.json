@@ -1,0 +1,67 @@
+{
+  "currentStatus": {
+    "received": 2,
+    "qualified": 0,
+    "quote": 0,
+    "order": 0,
+    "closed": 0
+  },
+  "everRecordedAtStage": {
+    "received": 2,
+    "qualified": 0,
+    "quote": 0,
+    "order": 0,
+    "closed": 0
+  },
+  "bySegment": {
+    "format": {
+      "retail": {
+        "committed": 1,
+        "qualified": 0,
+        "quote": 0,
+        "order": 0,
+        "closed": 0
+      },
+      "stm": {
+        "committed": 1,
+        "qualified": 0,
+        "quote": 0,
+        "order": 0,
+        "closed": 0
+      }
+    },
+    "product": {
+      "frikadelki-klassicheskie": {
+        "committed": 1,
+        "qualified": 0,
+        "quote": 0,
+        "order": 0,
+        "closed": 0
+      },
+      "(unspecified)": {
+        "committed": 1,
+        "qualified": 0,
+        "quote": 0,
+        "order": 0,
+        "closed": 0
+      }
+    },
+    "intent": {
+      "specification": {
+        "committed": 1,
+        "qualified": 0,
+        "quote": 0,
+        "order": 0,
+        "closed": 0
+      },
+      "stm": {
+        "committed": 1,
+        "qualified": 0,
+        "quote": 0,
+        "order": 0,
+        "closed": 0
+      }
+    }
+  },
+  "scope": "Operator-recorded stages, not website visitors, delivered emails or verified revenue."
+}

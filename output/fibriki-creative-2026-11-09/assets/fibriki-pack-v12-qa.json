@@ -1,0 +1,42 @@
+{
+  "status": "FAIL_FOR_FINAL_MASTER",
+  "candidateFile": "/Users/andrey/Desktop/сайт нф/output/fibriki-creative-2026-11-09/assets/fibriki-pack-v12.png",
+  "tool": "built-in image_gen",
+  "attempts": 2,
+  "source": "/Users/andrey/.codex/generated_images/01a1bac9-022c-72b2-a216-f15efc619b1b/exec-37bf6353-793c-482c-b59b-7457d7f3c64d.png",
+  "firstAttemptSource": "/Users/andrey/.codex/generated_images/01a1bac9-022c-72b2-a216-f15efc619b1b/exec-6cac65eb-d5e5-4c51-a309-b01a5f516ec8.png",
+  "originalTarget": "/Users/andrey/Desktop/сайт нф/output/concept/assets/novelty-packaging/fibriki-pack-v11.webp",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alpha128Bbox": [
+    48,
+    139,
+    1206,
+    1083
+  ],
+  "alpha128WidthFraction": 0.9234,
+  "alpha128HeightFraction": 0.7528,
+  "fullyTransparentFraction": 0.4127,
+  "mainFailure": "Both attempts re-rendered the full package despite instructions to replace only the hen. Exact untouched source food and tray pixels were NOT preserved. The candidate cut face and tray mince retain a repeated geometric/granular texture; the original itself contains fine mince granularity, so the comparison is a degree-of-texture difference, not proof of a newly added ingredient. The strict no-rerender acceptance criterion is unmet.",
+  "otherFindings": [
+    "Strongwoman scene transferred; two wings, two bird legs, striped singlet, wooden barbell and two browned round balls.",
+    "All five original text blocks appear correct. No new weight, numeric nutrition, cooking time or claim.",
+    "Full shallow PET tray and sleeve fit inside square image. Actual tray contents remain pale/raw-frozen, not browned or breaded.",
+    "Output is 1254 square, not the requested original 800 square, and preservation outside the character area is visual only."
+  ],
+  "limits": "Two permitted attempts exhausted. No further generations, code-based image edits, website changes or publication performed. Candidate retained for transparent review, not approved for integration.",
+  "foodComparison": {
+    "preview": "/Users/andrey/Desktop/сайт нф/output/fibriki-creative-2026-11-09/qa/fibriki-pack-v12-food-comparison.png",
+    "inspected": true,
+    "largeScale": "Left prepared food has similar shape and identity to v11 but the small texture units are more geometric and regular. Source v11 also has fine granular mince texture.",
+    "catalogue300px": "Difference is small at 300px; the hen scene reads clearly and the product remains visually Fibriki. No browned or breaded tray contents.",
+    "alphaBrowser": "No visible backdrop, halo or colored islands over cream."
+  }
+}

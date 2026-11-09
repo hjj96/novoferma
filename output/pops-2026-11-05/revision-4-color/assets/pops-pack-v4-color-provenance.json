@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-07",
+  "tool": "built-in image_gen.imagegen",
+  "mode": "targeted colour edit; transparent_background=true",
+  "native_source": "/Users/andrey/.codex/generated_images/01a1ac4b-2ce4-7041-95bc-42f590ba90aa/exec-5133f77e-b571-4ab0-9789-0ed52bf5b949.png",
+  "output": "/Users/andrey/Desktop/сайт нф/output/pops-2026-11-05/revision-4-color/assets/pops-pack-v4-color.png",
+  "sha256": "af68573aad6d0df846b3b19b57f3ddb352831a6bd042f2c5121dbebde7c00540",
+  "prompt": "pops-pack-v4-color-prompt.txt",
+  "references_in_order": [
+    {
+      "path": "output/pops-2026-11-05/revision-3/assets/pops-v3-drummer.png",
+      "role": "approved edit target; preserve geometry, artwork, text, framing"
+    },
+    {
+      "path": "output/concept/assets/catalogue-clean-v2/kurinyj-popkorn.webp",
+      "role": "actual website neighbour; primary warm cream paper, dark ink and orange logo colour authority"
+    },
+    {
+      "path": "output/concept/assets/catalogue-clean-v2/naggetsy-kurinye.webp",
+      "role": "actual website neighbour; secondary warm paper and pale golden tray contents colour authority"
+    }
+  ],
+  "intent": "Remove dull pink-grey paper cast, match lighter yellow-vanilla cream, deepen title and descriptor ink, match vivid orange logo, modestly warm matte frozen breaded tray contents. Not a new packaging concept.",
+  "preserved_visual_subjects": [
+    "drummer hen",
+    "two drumsticks",
+    "black vest",
+    "bucket",
+    "jumping pops",
+    "same physical packaging and label arrangement"
+  ],
+  "exact_copy_visually_checked": [
+    "NOVOferma",
+    "ПОПСЫ",
+    "МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ",
+    "В ХРУСТЯЩЕЙ ПАНИРОВКЕ"
+  ],
+  "actual_dimensions": [
+    1254,
+    1254
+  ],
+  "mode_actual": "RGBA",
+  "generation_count": 1,
+  "correction_count": 0,
+  "limitations": [
+    "Generative colour correction is not a pixel-identical deterministic transform; final family-colour comparison pending coordinator QA.",
+    "A few detached exterior alpha pixels remain; no additional cleanup performed in this colour-only pass."
+  ],
+  "modified_website_deck_archive": false
+}

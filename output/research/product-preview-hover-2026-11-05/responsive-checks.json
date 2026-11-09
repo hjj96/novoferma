@@ -1,0 +1,746 @@
+[
+  {
+    "arrows": 0,
+    "cards": [
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты куриные",
+        "weight": "522 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Биточки куриные с овощами",
+        "weight": "450 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Ёжики из цыпленка с рисом",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Куриный попкорн",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные с сыром",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные «Динозавры»",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные острые",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы с индейкой «Фитнес»",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Стрипсы",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты по-домашнему",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты пикантные",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты по-итальянски",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Фрикадельки «Классические»",
+        "weight": "500 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Фибрики",
+        "weight": null,
+        "weightColor": null
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Люля мини",
+        "weight": null,
+        "weightColor": null
+      }
+    ],
+    "clip": {
+      "height": 1842,
+      "width": 1440,
+      "x": 0,
+      "y": 635
+    },
+    "count": 16,
+    "overflow": false,
+    "width": 1440,
+    "page": "catalogue"
+  },
+  {
+    "arrows": 0,
+    "cards": [
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты куриные",
+        "weight": "522 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Биточки куриные с овощами",
+        "weight": "450 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Ёжики из цыпленка с рисом",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Куриный попкорн",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные с сыром",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные «Динозавры»",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные острые",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы с индейкой «Фитнес»",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Стрипсы",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты по-домашнему",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты пикантные",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты по-итальянски",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Фрикадельки «Классические»",
+        "weight": "500 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Фибрики",
+        "weight": null,
+        "weightColor": null
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Люля мини",
+        "weight": null,
+        "weightColor": null
+      }
+    ],
+    "clip": {
+      "height": 2253,
+      "width": 768,
+      "x": 0,
+      "y": 576
+    },
+    "count": 16,
+    "overflow": false,
+    "width": 768,
+    "page": "catalogue"
+  },
+  {
+    "arrows": 0,
+    "cards": [
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты куриные",
+        "weight": "522 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Биточки куриные с овощами",
+        "weight": "450 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Ёжики из цыпленка с рисом",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Куриный попкорн",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные с сыром",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные «Динозавры»",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные острые",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы с индейкой «Фитнес»",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Стрипсы",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты по-домашнему",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты пикантные",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты по-итальянски",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Фрикадельки «Классические»",
+        "weight": "500 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Фибрики",
+        "weight": null,
+        "weightColor": null
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Люля мини",
+        "weight": null,
+        "weightColor": null
+      }
+    ],
+    "clip": {
+      "height": 2415,
+      "width": 390,
+      "x": 0,
+      "y": 631
+    },
+    "count": 16,
+    "overflow": false,
+    "width": 390,
+    "page": "catalogue"
+  },
+  {
+    "arrows": 0,
+    "cards": [
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты куриные",
+        "weight": "522 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Биточки куриные с овощами",
+        "weight": "450 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Ёжики из цыпленка с рисом",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Куриный попкорн",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные с сыром",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные «Динозавры»",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные острые",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы с индейкой «Фитнес»",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Стрипсы",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты по-домашнему",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты пикантные",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты по-итальянски",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Фрикадельки «Классические»",
+        "weight": "500 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Фибрики",
+        "weight": null,
+        "weightColor": null
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Люля мини",
+        "weight": null,
+        "weightColor": null
+      }
+    ],
+    "clip": {
+      "height": 2165,
+      "width": 320,
+      "x": 0,
+      "y": 669
+    },
+    "count": 16,
+    "overflow": false,
+    "width": 320,
+    "page": "catalogue"
+  },
+  {
+    "arrows": 0,
+    "cards": [
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Куриный попкорн",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Стрипсы",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Фрикадельки «Классические»",
+        "weight": "500 г",
+        "weightColor": "rgb(64, 33, 17)"
+      }
+    ],
+    "clip": {
+      "height": 482,
+      "width": 1440,
+      "x": 0,
+      "y": 1159
+    },
+    "count": 4,
+    "overflow": false,
+    "width": 1440,
+    "page": "index"
+  },
+  {
+    "arrows": 0,
+    "cards": [
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Наггетсы куриные",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Куриный попкорн",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Стрипсы",
+        "weight": "400 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Фрикадельки «Классические»",
+        "weight": "500 г",
+        "weightColor": "rgb(64, 33, 17)"
+      }
+    ],
+    "clip": {
+      "height": 598,
+      "width": 390,
+      "x": 0,
+      "y": 1018
+    },
+    "count": 4,
+    "overflow": false,
+    "width": 390,
+    "page": "index"
+  },
+  {
+    "arrows": 0,
+    "cards": [
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Биточки куриные с овощами",
+        "weight": "450 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты по-домашнему",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты пикантные",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      }
+    ],
+    "clip": {
+      "height": 562,
+      "width": 1440,
+      "x": 0,
+      "y": 1022
+    },
+    "count": 3,
+    "overflow": false,
+    "width": 1440,
+    "page": "product-kotlety-kurinye"
+  },
+  {
+    "arrows": 0,
+    "cards": [
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Биточки куриные с овощами",
+        "weight": "450 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты по-домашнему",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      },
+      {
+        "headingOverflow": false,
+        "links": 1,
+        "metaOverflow": false,
+        "name": "Котлеты пикантные",
+        "weight": "480 г",
+        "weightColor": "rgb(64, 33, 17)"
+      }
+    ],
+    "clip": {
+      "height": 620,
+      "width": 390,
+      "x": 0,
+      "y": 1278
+    },
+    "count": 3,
+    "overflow": false,
+    "width": 390,
+    "page": "product-kotlety-kurinye"
+  }
+]

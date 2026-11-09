@@ -1,0 +1,21 @@
+{
+  "method": "built-in ImageGen edit + alpha cleanup",
+  "reference": "../mobile-v2/fibriki-master.png",
+  "masterSize": [
+    1254,
+    1254
+  ],
+  "exportSize": [
+    960,
+    960
+  ],
+  "alpha": [
+    0,
+    255
+  ],
+  "quality": 92,
+  "prompts": [
+    "fibriki-prompt.txt",
+    "fibriki-alpha-cleanup-prompt.txt"
+  ]
+}

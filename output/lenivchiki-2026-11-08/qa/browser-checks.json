@@ -1,0 +1,485 @@
+{
+  "base": "http://127.0.0.1:8767",
+  "checkedAt": "2026-11-08T12:00:47.399Z",
+  "widths": [
+    {
+      "width": 1440,
+      "catalogue": {
+        "url": "http://127.0.0.1:8767/catalogue.html",
+        "title": "Продукция — Новоферма",
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "h1": "КАТАЛОГ\nПРОДУКЦИИ",
+        "textOverflow": [],
+        "packshot": null,
+        "heading": null,
+        "detailCopy": null,
+        "storyCopy": null,
+        "storyVisual": null,
+        "productCopy": "",
+        "brokenImages": [],
+        "productImages": [],
+        "mailLinks": [
+          {
+            "text": "info@novoferma.ru",
+            "href": "mailto:info@novoferma.ru"
+          }
+        ],
+        "cardText": "Ленивчики\nИз курицы\nНовинка",
+        "cardHref": "product-lenivchiki.html"
+      },
+      "product": {
+        "url": "http://127.0.0.1:8767/product-lenivchiki.html",
+        "title": "Ленивчики — Новоферма",
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "h1": "ЛЕНИВЧИКИ",
+        "textOverflow": [],
+        "packshot": {
+          "x": 760.96875,
+          "y": 230,
+          "width": 583.03125,
+          "height": 460,
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "objectFit": "contain",
+          "overflow": "clip"
+        },
+        "heading": {
+          "x": 72,
+          "y": 206,
+          "width": 600.96875,
+          "height": 119.875,
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "objectFit": "fill",
+          "overflow": "visible"
+        },
+        "detailCopy": {
+          "x": 72,
+          "y": 351.875,
+          "width": 600.96875,
+          "height": 493.78125,
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "objectFit": "fill",
+          "overflow": "visible"
+        },
+        "storyCopy": {
+          "x": 72,
+          "y": 993.734375,
+          "width": 570.359375,
+          "height": 432.65625,
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "objectFit": "fill",
+          "overflow": "visible"
+        },
+        "storyVisual": {
+          "x": 706.359375,
+          "y": 989.65625,
+          "width": 661.640625,
+          "height": 440.8125,
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "objectFit": "fill",
+          "overflow": "visible"
+        },
+        "productCopy": "Новинка\n\nБИТОЧКИ / ИЗ КУРИЦЫ\n\nЛЕНИВЧИКИ\nВнешний вид упаковки\nМЯСО, РИС\nИ ОВОЩИ — ВМЕСТЕ.\n\nНебольшие биточки из курицы с рисом, капустой и морковью. Ленивые голубцы в новом формате: разогрейте — и подавайте.\n\nГде купить\nДля партнёров\nСостав и приготовление\n\nПеред покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.\n\nЗапросить информацию\nВСЁ В ОДНОМ\n\nГАРНИР\nУЖЕ ВНУТРИ.\n\nКурица, рис, капуста и морковь — всё собрано в каждом биточке. Знакомое сочетание ленивых голубцов в небольшом удобном формате.\n\nРазогрейте — и подавайте.\n\nЛенивчики готовы к разогреву. Подавайте их как самостоятельное блюдо или дополните любимым соусом. Для обеда дома и спокойного ужина после дел.",
+        "brokenImages": [],
+        "productImages": [
+          {
+            "src": "http://127.0.0.1:8767/assets/responsive/packshots/lenivchiki-pack-v1-800-q94-ff95cef5.webp",
+            "naturalWidth": 550,
+            "naturalHeight": 550,
+            "box": {
+              "x": 760.96875,
+              "y": 230,
+              "width": 583.03125,
+              "height": 460,
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "objectFit": "contain",
+              "overflow": "clip"
+            }
+          },
+          {
+            "src": "http://127.0.0.1:8767/assets/responsive/illustrations/lenivchiki-scene-v1-800-q90-f07b4b18.webp",
+            "naturalWidth": 600,
+            "naturalHeight": 399,
+            "box": {
+              "x": 706.359375,
+              "y": 989.65625,
+              "width": 661.640625,
+              "height": 440.8125,
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "objectFit": "contain",
+              "overflow": "clip"
+            }
+          }
+        ],
+        "mailLinks": [
+          {
+            "text": "Запросить информацию",
+            "href": "mailto:info@novoferma.ru?subject=%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B5%3A%20%D0%9B%D0%B5%D0%BD%D0%B8%D0%B2%D1%87%D0%B8%D0%BA%D0%B8&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%9F%D1%80%D0%B8%D1%88%D0%BB%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%B0%D0%BA%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%2C%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8E%20%D0%BE%D0%B1%20%D0%B0%D0%BB%D0%BB%D0%B5%D1%80%D0%B3%D0%B5%D0%BD%D0%B0%D1%85%2C%20%D0%BF%D0%B8%D1%89%D0%B5%D0%B2%D1%83%D1%8E%20%D1%86%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%20%D0%BF%D1%80%D0%B8%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B0%3A%20%D0%9B%D0%B5%D0%BD%D0%B8%D0%B2%D1%87%D0%B8%D0%BA%D0%B8.%20%D0%A1%D0%BF%D0%B0%D1%81%D0%B8%D0%B1%D0%BE%21"
+          },
+          {
+            "text": "info@novoferma.ru",
+            "href": "mailto:info@novoferma.ru"
+          }
+        ]
+      },
+      "whereToBuy": {
+        "url": "http://127.0.0.1:8767/where-to-buy.html?product=lenivchiki",
+        "title": "Где купить — Новоферма",
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "h1": "НАЙДИТЕ СВОЙ\nПРОДУКТ.",
+        "textOverflow": [],
+        "packshot": null,
+        "heading": null,
+        "detailCopy": null,
+        "storyCopy": null,
+        "storyVisual": null,
+        "productCopy": "",
+        "brokenImages": [],
+        "productImages": [],
+        "wantedProduct": "lenivchiki",
+        "wantedLabel": "Ленивчики",
+        "mailLinks": [
+          {
+            "text": "info@novoferma.ru",
+            "href": "mailto:info@novoferma.ru"
+          },
+          {
+            "text": "info@novoferma.ru",
+            "href": "mailto:info@novoferma.ru"
+          }
+        ]
+      },
+      "flowPassed": true
+    },
+    {
+      "width": 390,
+      "catalogue": {
+        "url": "http://127.0.0.1:8767/catalogue.html",
+        "title": "Продукция — Новоферма",
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "h1": "КАТАЛОГ\nПРОДУКЦИИ",
+        "textOverflow": [],
+        "packshot": null,
+        "heading": null,
+        "detailCopy": null,
+        "storyCopy": null,
+        "storyVisual": null,
+        "productCopy": "",
+        "brokenImages": [],
+        "productImages": [],
+        "mailLinks": [
+          {
+            "text": "info@novoferma.ru",
+            "href": "mailto:info@novoferma.ru"
+          }
+        ],
+        "cardText": "Ленивчики\nИз курицы\nНовинка",
+        "cardHref": "product-lenivchiki.html"
+      },
+      "product": {
+        "url": "http://127.0.0.1:8767/product-lenivchiki.html",
+        "title": "Ленивчики — Новоферма",
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "h1": "ЛЕНИВЧИКИ",
+        "textOverflow": [],
+        "packshot": {
+          "x": 40,
+          "y": 283.890625,
+          "width": 310,
+          "height": 240,
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "objectFit": "contain",
+          "overflow": "clip"
+        },
+        "heading": {
+          "x": 20,
+          "y": 148,
+          "width": 350,
+          "height": 101.890625,
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "objectFit": "fill",
+          "overflow": "visible"
+        },
+        "detailCopy": {
+          "x": 20,
+          "y": 585.890625,
+          "width": 350,
+          "height": 488.34375,
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "objectFit": "fill",
+          "overflow": "visible"
+        },
+        "storyCopy": {
+          "x": 20,
+          "y": 1166.234375,
+          "width": 350,
+          "height": 402.125,
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "objectFit": "fill",
+          "overflow": "visible"
+        },
+        "storyVisual": {
+          "x": 20,
+          "y": 1596.359375,
+          "width": 350,
+          "height": 233.625,
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "objectFit": "fill",
+          "overflow": "visible"
+        },
+        "productCopy": "Новинка\n\nБИТОЧКИ / ИЗ КУРИЦЫ\n\nЛЕНИВЧИКИ\nВнешний вид упаковки\nМЯСО, РИС\nИ ОВОЩИ — ВМЕСТЕ.\n\nНебольшие биточки из курицы с рисом, капустой и морковью. Ленивые голубцы в новом формате: разогрейте — и подавайте.\n\nГде купить\nДля партнёров\nСостав и приготовление\n\nПеред покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.\n\nЗапросить информацию\nВСЁ В ОДНОМ\n\nГАРНИР\nУЖЕ ВНУТРИ.\n\nКурица, рис, капуста и морковь — всё собрано в каждом биточке. Знакомое сочетание ленивых голубцов в небольшом удобном формате.\n\nРазогрейте — и подавайте.\n\nЛенивчики готовы к разогреву. Подавайте их как самостоятельное блюдо или дополните любимым соусом. Для обеда дома и спокойного ужина после дел.",
+        "brokenImages": [],
+        "productImages": [
+          {
+            "src": "http://127.0.0.1:8767/assets/responsive/packshots/lenivchiki-pack-v1-400-q94-ff95cef5.webp",
+            "naturalWidth": 280,
+            "naturalHeight": 280,
+            "box": {
+              "x": 40,
+              "y": 283.890625,
+              "width": 310,
+              "height": 240,
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "objectFit": "contain",
+              "overflow": "clip"
+            }
+          },
+          {
+            "src": "http://127.0.0.1:8767/assets/responsive/illustrations/lenivchiki-scene-v1-400-q90-f07b4b18.webp",
+            "naturalWidth": 349,
+            "naturalHeight": 233,
+            "box": {
+              "x": 20,
+              "y": 1596.359375,
+              "width": 350,
+              "height": 233.625,
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "objectFit": "contain",
+              "overflow": "clip"
+            }
+          }
+        ],
+        "mailLinks": [
+          {
+            "text": "Запросить информацию",
+            "href": "mailto:info@novoferma.ru?subject=%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B5%3A%20%D0%9B%D0%B5%D0%BD%D0%B8%D0%B2%D1%87%D0%B8%D0%BA%D0%B8&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%9F%D1%80%D0%B8%D1%88%D0%BB%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%B0%D0%BA%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%2C%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8E%20%D0%BE%D0%B1%20%D0%B0%D0%BB%D0%BB%D0%B5%D1%80%D0%B3%D0%B5%D0%BD%D0%B0%D1%85%2C%20%D0%BF%D0%B8%D1%89%D0%B5%D0%B2%D1%83%D1%8E%20%D1%86%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%20%D0%BF%D1%80%D0%B8%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B0%3A%20%D0%9B%D0%B5%D0%BD%D0%B8%D0%B2%D1%87%D0%B8%D0%BA%D0%B8.%20%D0%A1%D0%BF%D0%B0%D1%81%D0%B8%D0%B1%D0%BE%21"
+          },
+          {
+            "text": "info@novoferma.ru",
+            "href": "mailto:info@novoferma.ru"
+          }
+        ]
+      },
+      "whereToBuy": {
+        "url": "http://127.0.0.1:8767/where-to-buy.html?product=lenivchiki",
+        "title": "Где купить — Новоферма",
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "h1": "НАЙДИТЕ СВОЙ\nПРОДУКТ.",
+        "textOverflow": [],
+        "packshot": null,
+        "heading": null,
+        "detailCopy": null,
+        "storyCopy": null,
+        "storyVisual": null,
+        "productCopy": "",
+        "brokenImages": [],
+        "productImages": [],
+        "wantedProduct": "lenivchiki",
+        "wantedLabel": "Ленивчики",
+        "mailLinks": [
+          {
+            "text": "info@novoferma.ru",
+            "href": "mailto:info@novoferma.ru"
+          },
+          {
+            "text": "info@novoferma.ru",
+            "href": "mailto:info@novoferma.ru"
+          }
+        ]
+      },
+      "flowPassed": true
+    },
+    {
+      "width": 320,
+      "catalogue": {
+        "url": "http://127.0.0.1:8767/catalogue.html",
+        "title": "Продукция — Новоферма",
+        "viewportWidth": 320,
+        "documentWidth": 320,
+        "h1": "КАТАЛОГ\nПРОДУКЦИИ",
+        "textOverflow": [],
+        "packshot": null,
+        "heading": null,
+        "detailCopy": null,
+        "storyCopy": null,
+        "storyVisual": null,
+        "productCopy": "",
+        "brokenImages": [],
+        "productImages": [],
+        "mailLinks": [
+          {
+            "text": "info@novoferma.ru",
+            "href": "mailto:info@novoferma.ru"
+          }
+        ],
+        "cardText": "Ленивчики\nИз курицы\nНовинка",
+        "cardHref": "product-lenivchiki.html"
+      },
+      "product": {
+        "url": "http://127.0.0.1:8767/product-lenivchiki.html",
+        "title": "Ленивчики — Новоферма",
+        "viewportWidth": 320,
+        "documentWidth": 320,
+        "h1": "ЛЕНИВЧИКИ",
+        "textOverflow": [],
+        "packshot": {
+          "x": 36,
+          "y": 274.390625,
+          "width": 248,
+          "height": 220,
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "objectFit": "contain",
+          "overflow": "clip"
+        },
+        "heading": {
+          "x": 16,
+          "y": 144,
+          "width": 288,
+          "height": 96.390625,
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "objectFit": "fill",
+          "overflow": "visible"
+        },
+        "detailCopy": {
+          "x": 16,
+          "y": 556.390625,
+          "width": 288,
+          "height": 617.3125,
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "objectFit": "fill",
+          "overflow": "visible"
+        },
+        "storyCopy": {
+          "x": 16,
+          "y": 1265.703125,
+          "width": 288,
+          "height": 448.90625,
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "objectFit": "fill",
+          "overflow": "visible"
+        },
+        "storyVisual": {
+          "x": 16,
+          "y": 1742.609375,
+          "width": 288,
+          "height": 192.234375,
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "objectFit": "fill",
+          "overflow": "visible"
+        },
+        "productCopy": "Новинка\n\nБИТОЧКИ / ИЗ КУРИЦЫ\n\nЛЕНИВЧИКИ\nВнешний вид упаковки\nМЯСО, РИС\nИ ОВОЩИ — ВМЕСТЕ.\n\nНебольшие биточки из курицы с рисом, капустой и морковью. Ленивые голубцы в новом формате: разогрейте — и подавайте.\n\nГде купить\nДля партнёров\nСостав и приготовление\n\nПеред покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.\n\nЗапросить информацию\nВСЁ В ОДНОМ\n\nГАРНИР\nУЖЕ ВНУТРИ.\n\nКурица, рис, капуста и морковь — всё собрано в каждом биточке. Знакомое сочетание ленивых голубцов в небольшом удобном формате.\n\nРазогрейте — и подавайте.\n\nЛенивчики готовы к разогреву. Подавайте их как самостоятельное блюдо или дополните любимым соусом. Для обеда дома и спокойного ужина после дел.",
+        "brokenImages": [],
+        "productImages": [
+          {
+            "src": "http://127.0.0.1:8767/assets/responsive/packshots/lenivchiki-pack-v1-400-q94-ff95cef5.webp",
+            "naturalWidth": 280,
+            "naturalHeight": 280,
+            "box": {
+              "x": 36,
+              "y": 274.390625,
+              "width": 248,
+              "height": 220,
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "objectFit": "contain",
+              "overflow": "clip"
+            }
+          },
+          {
+            "src": "http://127.0.0.1:8767/assets/responsive/illustrations/lenivchiki-scene-v1-400-q90-f07b4b18.webp",
+            "naturalWidth": 280,
+            "naturalHeight": 186,
+            "box": {
+              "x": 16,
+              "y": 1742.609375,
+              "width": 288,
+              "height": 192.234375,
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "objectFit": "contain",
+              "overflow": "clip"
+            }
+          }
+        ],
+        "mailLinks": [
+          {
+            "text": "Запросить информацию",
+            "href": "mailto:info@novoferma.ru?subject=%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B5%3A%20%D0%9B%D0%B5%D0%BD%D0%B8%D0%B2%D1%87%D0%B8%D0%BA%D0%B8&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%9F%D1%80%D0%B8%D1%88%D0%BB%D0%B8%D1%82%D0%B5%2C%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0%2C%20%D0%B0%D0%BA%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%2C%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8E%20%D0%BE%D0%B1%20%D0%B0%D0%BB%D0%BB%D0%B5%D1%80%D0%B3%D0%B5%D0%BD%D0%B0%D1%85%2C%20%D0%BF%D0%B8%D1%89%D0%B5%D0%B2%D1%83%D1%8E%20%D1%86%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%20%D0%BF%D1%80%D0%B8%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B0%3A%20%D0%9B%D0%B5%D0%BD%D0%B8%D0%B2%D1%87%D0%B8%D0%BA%D0%B8.%20%D0%A1%D0%BF%D0%B0%D1%81%D0%B8%D0%B1%D0%BE%21"
+          },
+          {
+            "text": "info@novoferma.ru",
+            "href": "mailto:info@novoferma.ru"
+          }
+        ]
+      },
+      "whereToBuy": {
+        "url": "http://127.0.0.1:8767/where-to-buy.html?product=lenivchiki",
+        "title": "Где купить — Новоферма",
+        "viewportWidth": 320,
+        "documentWidth": 320,
+        "h1": "НАЙДИТЕ СВОЙ\nПРОДУКТ.",
+        "textOverflow": [],
+        "packshot": null,
+        "heading": null,
+        "detailCopy": null,
+        "storyCopy": null,
+        "storyVisual": null,
+        "productCopy": "",
+        "brokenImages": [],
+        "productImages": [],
+        "wantedProduct": "lenivchiki",
+        "wantedLabel": "Ленивчики",
+        "mailLinks": [
+          {
+            "text": "info@novoferma.ru",
+            "href": "mailto:info@novoferma.ru"
+          },
+          {
+            "text": "info@novoferma.ru",
+            "href": "mailto:info@novoferma.ru"
+          }
+        ]
+      },
+      "flowPassed": true
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "passed": true
+}

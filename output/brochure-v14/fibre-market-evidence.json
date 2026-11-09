@@ -1,0 +1,38 @@
+{
+  "verified_on": "2026-11-08",
+  "selected_statistic": {
+    "value": 73,
+    "unit": "percent of all respondents",
+    "meaning": "would like more dietary fibre in their actual diet",
+    "slide_ru": "73% опрошенных россиян хотели бы добавить клетчатку в свой рацион",
+    "source": "Аналитический центр ВЦИОМ, «Еда по правилам и без»",
+    "url": "https://wciom.ru/analytical-reviews/analiticheskii-obzor/eda-po-pravilam-i-bez",
+    "publication_date": "2026-06-04",
+    "fieldwork": "2026-05-08 to 2026-05-10",
+    "sample": 3200,
+    "population": "Residents of Russia aged18+",
+    "method": "Probability-based VCIOM Online panel, weighted by sociodemographic characteristics",
+    "stated_sampling_error": "no more than2.5percentagepoints at95percent",
+    "original_question": "Учитывая Ваш реальный рацион питания, каких элементов Вы бы хотели употреблять с пищей скорее больше, а каких, наоборот, меньше?",
+    "row": "Клетчатка (овощи, зелень, орехи)",
+    "response": "Хотели бы больше",
+    "limit": "Consumer desire, not measured intake or deficiency prevalence; does not show how many people have a fibre shortfall. No implication that one serving of Fibriki covers a daily target."
+  },
+  "considered_not_used": [
+    {
+      "value": "67–76%",
+      "reason": "User tentative range could not be verified as a current population-wide Russia fibre shortfall statistic."
+    },
+    {
+      "value": "96%",
+      "source": "UK National Diet and Nutrition Survey2019–2023",
+      "reason": "Official UK data, not Russian; would require UK geography onslide. Stronger audience fit from VCIOM demand."
+    },
+    {
+      "value": "68%men and75%women",
+      "source": "German NVSII2005–2007",
+      "reason": "Old data and different geography; not appropriate to describe current Russian shortfall."
+    }
+  ],
+  "presentation_policy": "No visible research footnotes or links, following owner request; verified source supplied in chat and preserved here."
+}

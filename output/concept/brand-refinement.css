@@ -1,0 +1,132 @@
+/* Shared editorial rhythm. Product scenes keep their own campaign artwork. */
+:root {--nf-border:#dfcfb8;--nf-muted:#77604d;--nf-orange:#cb4619}
+
+/* An underline makes the product selection read as navigation. */
+.page-index .product-controls {
+ width:min(1296px,calc(100% - 96px));min-height:78px;
+ padding:0;gap:32px;background:transparent;
+}
+.page-index .product-pickers {align-self:stretch;gap:32px;flex:initial}
+.page-index .product-picker {
+ position:relative;flex:initial;flex-direction:row;gap:8px;
+ min-height:64px;padding:18px 0;border:0;border-radius:0;
+ border-bottom:2px solid transparent;background:transparent;
+ color:var(--nf-muted);transition:color .2s,border-color .2s;
+}
+.page-index .product-picker-mark {display:none}
+.page-index .product-picker-label {font-size:14px;font-weight:550;letter-spacing:-.02em;line-height:1.4}
+.page-index .product-picker[aria-selected=true],
+.page-index .product-picker[aria-selected=true]:hover {
+ background:transparent;color:var(--brown);border-bottom-color:var(--nf-orange);
+}
+.page-index .product-picker:hover {background:transparent;color:var(--nf-orange)}
+.page-index .product-playback {margin-left:auto;gap:8px}
+.page-index .product-arrow {width:38px;height:38px;background:transparent;border-color:var(--nf-border)}
+
+/* A single type family, generous leading, and no forced no-wrap lines. */
+.page-index h2.home-editorial-title {
+ font-family:var(--font-heading);font-weight:var(--font-heading-weight);
+ font-size:clamp(40px,4.25vw,64px);line-height:1.1;
+ letter-spacing:var(--font-heading-tracking);word-spacing:normal;text-transform:none;
+ text-wrap:balance;
+}
+.page-index .home-editorial-title>span,
+.page-index .home-editorial-title>em {white-space:normal}
+.page-index .home-kicker {font-size:11px;font-weight:600;letter-spacing:.12em;margin-bottom:22px}
+.page-index .home-products {padding-block:80px}
+.page-index .home-products .section-heading {align-items:center;margin-bottom:36px}
+.page-index .home-products .heading-aside .button {
+ background:transparent;color:var(--brown);border:0;border-bottom:1px solid var(--nf-border);
+ border-radius:0;padding:12px 0;min-height:44px;gap:32px;box-shadow:none;
+}
+.page-index .home-products .heading-aside .button:hover {color:var(--nf-orange);translate:none}
+.page-index .home-products .heading-aside .button .ui-icon {filter:none}
+.page-index .protein-poster {background:#e2e5bb;background-image:none}
+.page-index .protein-poster-copy {padding-top:64px}
+.page-index h2.protein-poster-title {font-size:clamp(40px,4.25vw,64px);line-height:1.1}
+.page-index .protein-poster-description {font-size:18px;line-height:1.55;max-width:30ch;margin-top:24px}
+.page-index .protein-poster-caption {display:none}
+
+.page-index .nf-business {background:#f0e2ca;padding-block:64px}
+.page-index .nf-business-inner {display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:80px}
+.page-index .nf-business h2 {
+ font-family:var(--font-heading);font-size:clamp(34px,3.5vw,52px);
+ font-weight:var(--font-heading-weight);line-height:1.12;letter-spacing:var(--font-heading-tracking);text-transform:none;text-wrap:initial;
+}
+.page-index .nf-business-copy>p {font-size:18px;line-height:1.6;max-width:40ch;color:var(--nf-muted)}
+.nf-editorial-link {display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-height:48px;border-bottom:1px solid var(--nf-border);font-size:14px;font-weight:600;margin-top:22px}
+.nf-editorial-link:hover {color:var(--nf-orange)}
+.page-index .where-preview {padding-block:72px;gap:80px}
+.page-index .where-preview>div>p:not(.eyebrow) {color:var(--nf-muted);font-size:17px;line-height:1.6;max-width:33ch}
+.page-index .editorial-links a {padding-block:24px}
+.page-index .editorial-links h3 {font-family:var(--font-display);font-weight:550;font-size:24px;line-height:1.25;letter-spacing:-.03em}
+.page-index .editorial-links p {font-size:14px;line-height:1.5}
+
+/* The footer keeps contact details together in a compact, predictable grid. */
+.site-footer.nf-footer {padding:0;background:#f8eddb;border-top:1px solid var(--nf-border);color:var(--brown)}
+.nf-footer-inner {width:min(1296px,calc(100% - 96px));margin:auto}
+.nf-footer-top {display:flex;justify-content:space-between;align-items:center;gap:40px;padding-block:44px}
+.nf-footer-brand .brand,.nf-footer-brand .brand img {width:162px}
+.nf-footer-brand>p {font-size:14px;color:var(--nf-muted);line-height:1.5;margin-top:12px}
+.nf-footer-contacts {display:flex;flex-direction:column;align-items:flex-start;gap:2px}
+.nf-footer-contacts>a {display:flex;align-items:center;gap:28px;font-size:18px;line-height:1.5;min-height:36px;letter-spacing:-.02em}
+.nf-footer-contacts>a+a {font-size:14px;color:var(--nf-muted)}
+.nf-footer-contacts .ui-icon {width:18px;height:18px;flex:0 0 18px}
+.nf-footer-bottom {border-top:1px solid var(--nf-border);display:flex;align-items:center;gap:32px;padding-block:20px;color:var(--nf-muted);font-size:12px;line-height:1.5}
+.nf-footer-bottom nav {display:flex;align-items:center;gap:24px;margin-left:auto}
+.nf-footer-bottom a {display:inline-flex;align-items:center;min-height:32px}
+.nf-footer-bottom>span {margin-left:auto}
+.nf-footer a:hover {color:var(--nf-orange)}
+.to-top {width:40px;height:40px;right:16px;bottom:16px}
+
+@media(max-width:1099px) {
+ .page-index .nf-business-inner,.page-index .where-preview {gap:40px}
+ .nf-footer-bottom {flex-wrap:wrap;gap:12px 28px}
+ .nf-footer-bottom>span {display:none}
+}
+@media(max-width:899px) {
+ .page-index .product-controls {width:calc(100% - 48px);gap:20px}
+ .page-index .product-pickers {gap:24px}
+ .page-index .product-picker-label {font-size:13px}
+ .page-index .protein-poster-copy {padding-top:48px}
+ .page-index .protein-poster-description {max-width:36ch}
+}
+@media(max-width:699px) {
+ .page-index .product-controls {width:calc(100% - 40px);min-height:60px;display:block;padding:0}
+ .page-index .product-pickers {display:flex;justify-content:space-between;gap:8px}
+ .page-index .product-picker {min-height:60px;padding:16px 0;gap:0}
+ .page-index .product-picker-label {font-size:12px;font-weight:550;letter-spacing:-.035em}
+ .page-index .product-playback {display:none}
+ .page-index h2.home-editorial-title,.page-index h2.protein-poster-title {font-size:clamp(34px,9.2vw,46px);line-height:1.13;letter-spacing:-.04em}
+ .page-index .home-products {padding-block:48px}
+ .page-index .home-products .section-heading {margin-bottom:24px}
+ .page-index .home-products .heading-aside {margin-top:14px}
+ .page-index .home-kicker {font-size:10px;margin-bottom:16px}
+ .page-index .protein-poster-copy {padding-top:44px}
+ .page-index .protein-poster-description {font-size:16px;line-height:1.6;margin-top:20px;max-width:33ch}
+ .page-index .protein-poster-scene {margin-top:28px}
+ .page-index .nf-business {padding-block:44px}
+ .page-index .nf-business-inner {grid-template-columns:1fr;gap:24px}
+ .page-index .nf-business h2 {font-size:clamp(30px,8.3vw,40px)}
+ .page-index .nf-business-copy>p {font-size:16px;max-width:35ch}
+ .nf-editorial-link {font-size:13px;margin-top:18px;gap:28px}
+ .page-index .where-preview {padding-block:48px;gap:24px}
+ .page-index .where-preview>div>p:not(.eyebrow) {font-size:16px;margin-top:20px}
+ .page-index .editorial-links a {padding-block:20px}
+ .page-index .editorial-links h3 {font-size:22px}
+ .page-index .editorial-links p {font-size:13px}
+ .nf-footer-inner {width:calc(100% - 40px)}
+ .nf-footer-top {align-items:flex-start;flex-direction:column;gap:24px;padding-block:32px}
+ .nf-footer-brand .brand,.nf-footer-brand .brand img {width:146px}
+ .nf-footer-brand>p {font-size:13px;margin-top:8px}
+ .nf-footer-contacts>a {font-size:18px;min-height:36px;gap:36px}
+ .nf-footer-contacts>a+a {font-size:14px}
+ .nf-footer-bottom {flex-direction:column;align-items:flex-start;gap:12px;padding-block:20px 28px;font-size:11px}
+ .nf-footer-bottom nav {margin:0;order:-1;gap:20px;flex-wrap:wrap}
+ .nf-footer-bottom a {min-height:36px;font-size:12px}
+}
+@media(max-width:359px) {
+ .page-index .product-controls,.nf-footer-inner {width:calc(100% - 32px)}
+ .page-index .product-picker-label {font-size:11px}
+ .nf-footer-bottom nav {gap:16px}
+}

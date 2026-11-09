@@ -1,0 +1,20 @@
+{
+  "status": "accepted",
+  "edit": "remove plate only",
+  "input": "/Users/andrey/Desktop/сайт нф/output/research/all-in-one-2026-11-08/creative-v1/02-lenivchiki.png",
+  "source": "/Users/andrey/.codex/generated_images/01a1bac9-022c-72b2-a216-f15efc619b1b/exec-aec51380-1f78-4372-ac07-40a42d08a040.png",
+  "file": "/Users/andrey/Desktop/сайт нф/output/lenivchiki-2026-11-08/assets/lenivchiki-scene-v1.png",
+  "tool": "built-in image_gen",
+  "size": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "fully_transparent_fraction": 0.5523,
+  "inspection": "Cream plate is completely removed. Two whole cooked patties and one cut half remain with chicken, rice, cabbage and carrot visible. Hen, cabbage hammock, two wooden supports, reclining pose, scale and hand-painted identity are visually retained. No text, packaging or new objects. Real alpha retained.",
+  "limitations": "Generative edit is visually faithful but does not guarantee pixel-identical contours outside plate area. No further generation needed."
+}

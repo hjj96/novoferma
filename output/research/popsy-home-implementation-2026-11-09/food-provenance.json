@@ -1,0 +1,93 @@
+{
+  "purpose": "Approved Popсы homepage ready-cooked food group production asset",
+  "mode": "native built-in image_gen",
+  "transparent_background": true,
+  "sourceReference": "output/research/home-hero-concepts-2026-11-09/popsy-hero-refined-v2.png",
+  "nativeOutput": "/Users/andrey/.codex/generated_images/01a1bf37-0f55-76b3-8f84-aa37406de825/exec-254017b7-f3db-479f-940b-c686b4dc24a4.png",
+  "master": {
+    "path": "output/research/popsy-home-implementation-2026-11-09/food-master.png",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "bytes": 1898216,
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      0,
+      17,
+      1430,
+      1086
+    ],
+    "visibleBBoxAlphaAbove2": [
+      65,
+      26,
+      1375,
+      1019
+    ],
+    "sha256": "4dafe2e7a04e024b2f147cad356d49bcae7d332ab3ec7ffbd140ec46303bbaa9"
+  },
+  "conversion": "Full canvas resize only using Pillow LANCZOS; WebP quality95 method6 exact alpha. No food crop, color modification or background compositing.",
+  "visualQA": "3 whole nuggets behind,2 cut halves front; no characters, packaging, text or props; actual transparent alpha, no checkerboard; visible food safe inside frame. Native alpha1-2 dust reaches some frame edges but visible alpha>2 has safe margins.",
+  "outputs": [
+    {
+      "path": "output/concept/assets/popsy-home/food.webp",
+      "dimensions": [
+        1100,
+        825
+      ],
+      "bytes": 335430,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBBoxAlphaAbove2": [
+        49,
+        19,
+        1045,
+        775
+      ],
+      "sha256": "930cfc137793332fa41372f1ba95eef2179bcce55b9f4ce15793ab592956ee98"
+    },
+    {
+      "path": "output/concept/assets/popsy-home/food-600.webp",
+      "dimensions": [
+        600,
+        450
+      ],
+      "bytes": 111490,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBBoxAlphaAbove2": [
+        26,
+        9,
+        571,
+        423
+      ],
+      "sha256": "d696f3e22ea4b5e54713ef8bfded793ded6ac88716ce76ccb84e03ff87728fca"
+    },
+    {
+      "path": "output/concept/assets/popsy-home/food-420.webp",
+      "dimensions": [
+        420,
+        315
+      ],
+      "bytes": 59474,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBBoxAlphaAbove2": [
+        18,
+        6,
+        400,
+        297
+      ],
+      "sha256": "1698745714875c8588420b681b01dd51c52d058b118d8c448f2c5626c7b4a983"
+    }
+  ]
+}

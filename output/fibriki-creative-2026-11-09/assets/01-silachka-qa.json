@@ -1,0 +1,53 @@
+{
+  "status": "concept_candidate_with_food_texture_caveat",
+  "direction": "01 Силачка",
+  "file": "/Users/andrey/Desktop/сайт нф/output/fibriki-creative-2026-11-09/assets/01-silachka.png",
+  "source": "/Users/andrey/.codex/generated_images/01a1bac9-022c-72b2-a216-f15efc619b1b/exec-9d5e3751-7883-43e2-93a9-5100d9ad95ce.png",
+  "first_attempt_source": "/Users/andrey/.codex/generated_images/01a1bac9-022c-72b2-a216-f15efc619b1b/exec-7f101fd1-0042-46be-b4a2-9df035434748.png",
+  "tool": "built-in image_gen",
+  "attempts": 2,
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "fully_transparent_fraction": 0.3773,
+  "alpha128_bbox": [
+    23,
+    144,
+    1226,
+    1116
+  ],
+  "normalized_silhouette": {
+    "width": 0.9593,
+    "height": 0.7751
+  },
+  "inspection": {
+    "scene": "Single orange hen in terracotta-and-cream striped singlet lifts wooden barbell with exactly one cooked round Fibriki on each end. Two wings and two bird legs; no human muscular arms, metal weights or extra characters.",
+    "copy": [
+      "NOVOferma",
+      "ФИБРИКИ",
+      "ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ",
+      "С ПИЩЕВЫМИ ВОЛОКНАМИ",
+      "БЕЛОК + КЛЕТЧАТКА"
+    ],
+    "food": "Unbreaded whole and cut prepared meatballs printed on paper; actual tray contains pale raw-frozen balls with tiny green flecks, no browned tray contents.",
+    "claims": "No new numeric claims, weight, preparation time, certifications or badges.",
+    "geometry": "Complete shallow transparent ribbed PET tray and cream sleeve; no clipping. Silhouette slightly larger than v11 and should be normalized if selected."
+  },
+  "limitations": [
+    "First attempt showed excessive rice-like texture; second targeted correction made the cut face more uniform but a fine polygonal/granular texture remains. No distinct rice/vegetable ingredients are depicted; further food-image polish is recommended before production artwork.",
+    "Some stylized wing tips curl around the handle like cartoon grip fingers; no separate human arms.",
+    "This is an exploratory complete packaging image, not a print-ready dieline or approved product label."
+  ],
+  "alpha_browser_check": {
+    "status": "PASS",
+    "preview": "/Users/andrey/Desktop/сайт нф/output/fibriki-creative-2026-11-09/qa/01-silachka-alpha-preview.png",
+    "background": "#fff5e3",
+    "notes": "Inspected native browser composite. No visible backdrop, colored islands, halo or clipping outside physical package. Transparent RGB artifacts in raw tool preview are not visible."
+  }
+}

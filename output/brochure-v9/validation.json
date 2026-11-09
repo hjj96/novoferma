@@ -1,0 +1,31 @@
+{
+  "pages": 8,
+  "changed": [
+    1,
+    2,
+    3
+  ],
+  "pixel_identical_to_v8": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "unchanged_lifestyle_scenes": [
+    "/Users/andrey/Desktop/сайт нф/output/brochure-v7/assets/protein-lifestyle.png",
+    "/Users/andrey/Desktop/сайт нф/output/brochure-v7/assets/fibriki-lifestyle.png"
+  ],
+  "headline_protein_g": 52,
+  "protein_pack_weight_removed_from_slide2": true,
+  "claims_scope": "Classic meatballs only; explicit owner copy and original label",
+  "catalogue_counts": [
+    5,
+    5,
+    5
+  ],
+  "no_public_research_footnotes": true,
+  "generated_art": "Two PNGs with alpha, built-in ImageGen",
+  "text_bounds": "passed",
+  "bytes": 12716051
+}

@@ -1,0 +1,27 @@
+{
+  "mode": "built-in image_gen edit",
+  "useCase": "background-extraction",
+  "transparentBackground": true,
+  "source": "output/concept/assets/product-hero/desktop-v8/popsy-food-v2-master.png",
+  "sourceSha256": "456b0fd33ec2bed62fd1ea6a8c98db2d290c1d27e81fd6cf89e3790b95ab30d2",
+  "generatedOriginal": "/Users/andrey/.codex/generated_images/01a1bad9-e29a-7671-bf80-e64cd1577f25/exec-b190cd42-5d63-4f77-b8c9-3e35cf010145.png",
+  "output": "output/concept/assets/product-hero/desktop-v8/popsy-food-v3-master.png",
+  "outputSha256": "4cefae9d1d84eeafe5e4d6416676c90e4ede3032bf00a950ab438645ad5a2948",
+  "exactPromptFile": "output/concept/assets/product-hero/desktop-v8/popsy-food-v3-prompt.txt",
+  "exactPrompt": "Use case: background-extraction\nAsset type: final transparent photorealistic product-food layer for the Novoferma homepage.\nInput images: Image 1 is the sole EDIT TARGET, the existing popsy-food-v2-master.png. This is a precise subtractive edit of this exact image, NOT a new generation or re-creation.\n\nPrimary request: Remove ONLY the external brown fuzzy cast/contact shadow mats underneath the lowest food pieces and loose crumbs, making those exterior shadow pixels genuinely transparent (alpha 0). Every area outside the real food and crumb silhouettes must be transparent, with only clean natural antialiased edges. There must be NO ground shadow, NO drop shadow, NO contact shadow onto any imaginary background surface, NO grey or brown halo, and NO newly painted background.\n\nInvariants: Keep the exact existing square 1254 x 1254 pixel canvas and crop. Keep the exact same ten main food pieces: eight whole mini nuggets and the two cut halves at the bottom. Preserve every piece and crumb, their exact positions, sizes, angles, spacing, layering, silhouettes, irregular breading detail, color and appearance. Preserve the original opaque white chicken meat in the two cut faces. Preserve ALL lighting and shading ON the food itself, and preserve occlusion where actual food pieces overlap each other. Do not flatten the food's volume or change its internal dark crevices. Do not remove crumbs.\n\nComposition/framing: absolutely unchanged; no shift, rotation, zoom, resizing, rearrangement, addition, deletion, new gaps, new objects, new scene or recropping. Only subtract the brown exterior shadow veil below and between the lowest silhouettes where it is background. Maintain the original crisp cutout edges without neon fringes. Transparent PNG output with actual RGBA transparency, never a checkerboard image.",
+  "editIntent": "Remove only exterior food/crumb cast and contact shadows; keep the 8 whole nuggets, 2 cut halves, crumbs, composition and food self-shading.",
+  "verification": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visual": "Exterior brown shadow mats removed. Ten main food pieces and crumb group retained. Own food shading, white interiors and approximate source layout retained."
+  },
+  "sourceOrExportChanges": false
+}

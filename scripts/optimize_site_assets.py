@@ -16,18 +16,34 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / 'output/concept'
 BACKUP = ROOT / 'output/research/implementation-2026-10-24/before/concept'
 APPROVED_BACKUPS = {
+    'assets/novelty-packaging/lenivchiki-pack-v1.webp': ROOT / 'output/lenivchiki-2026-11-08/assets/lenivchiki-pack-v1.webp',
+    'assets/lenivchiki/lenivchiki-scene-v1.webp': ROOT / 'output/lenivchiki-2026-11-08/assets/lenivchiki-scene-v1.webp',
     'assets/novelty-packaging/fibriki-pack-v11.webp': ROOT / 'output/research/fibriki-herbs-v11/fibriki-pack-v11.webp',
+    'assets/novelty-packaging/fibriki-pack-v12.webp': ROOT / 'output/fibriki-creative-2026-11-09/assets/fibriki-pack-v12.webp',
+    'assets/catalogue-family-v1/family-table-v1.webp': ROOT / 'output/research/catalogue-family-2026-11-05/family-table-v1.webp',
+    'assets/novelty-packaging/popsy-pack-v1.webp': ROOT / 'output/pops-2026-11-05/assets/popsy-pack-v1.webp',
+    'assets/novelty-packaging/popsy-pack-v2.webp': ROOT / 'output/pops-2026-11-05/revision-2/assets/popsy-pack-v2.webp',
+    'assets/novelty-packaging/popsy-pack-v3.webp': ROOT / 'output/pops-2026-11-05/revision-3/assets/popsy-pack-v3.webp',
+    'assets/novelty-packaging/popsy-pack-v4.webp': ROOT / 'output/pops-2026-11-05/revision-4-color/assets/popsy-pack-v4.webp',
+    'assets/popsy/popsy-food.webp': ROOT / 'output/pops-2026-11-05/assets/popsy-food.webp',
+    'assets/popsy/popsy-serving.webp': ROOT / 'output/pops-2026-11-05/assets/popsy-serving.webp',
+    'assets/popsy/popsy-rock-v3.webp': ROOT / 'output/pops-2026-11-05/revision-3/assets/popsy-rock-v3.webp',
+    'assets/popsy/popsy-lifestyle-v3.webp': ROOT / 'output/pops-2026-11-05/revision-3/assets/popsy-lifestyle-v3.webp',
+    'assets/popsy/popsy-lifestyle-v4.webp': ROOT / 'output/pops-2026-11-05/revision-4-color/assets/popsy-lifestyle-v4.webp',
 }
 DEST = SITE / 'assets/responsive'
 PACK_QUALITY = 94
 ILLUSTRATION_QUALITY = 90
 ILLUSTRATIONS = [
+    'assets/lenivchiki/lenivchiki-scene-v1.webp',
+    'assets/catalogue-family-v1/family-table-v1.webp',
     'assets/mascot-contact-restored-v2.webp',
     'assets/mascot-partnership-v2.webp',
     'assets/product-hero/running-mascot-v2.webp',
     'assets/protein-story/hen-layer-v2.webp',
     'assets/protein-story/nuggets-layer-v2.webp',
 ]
+ILLUSTRATIONS += [source for source in ('assets/popsy/popsy-food.webp', 'assets/popsy/popsy-serving.webp', 'assets/popsy/popsy-rock-v3.webp', 'assets/popsy/popsy-lifestyle-v3.webp', 'assets/popsy/popsy-lifestyle-v4.webp') if (SITE / source).is_file()]
 
 
 def digest(data: bytes) -> str:
@@ -80,8 +96,11 @@ def build() -> dict:
     if len(packshots) != 14:
         raise SystemExit(f'Expected 14 approved catalogue master paths, found {len(packshots)}.')
     packs = [str(p.relative_to(SITE)) for p in packshots] + [
-        'assets/novelty-packaging/fibriki-pack-v11.webp',
+        'assets/novelty-packaging/lenivchiki-pack-v1.webp',
+        'assets/novelty-packaging/fibriki-pack-v12.webp',
         'assets/novelty-packaging/lulia-mini-pack-v3.webp',
+        'assets/novelty-packaging/popsy-pack-v3.webp',
+        'assets/novelty-packaging/popsy-pack-v4.webp',
     ]
     prior_path = SITE / 'asset-variants.json'
     prior_assets = json.loads(prior_path.read_text()).get('assets', {}) if prior_path.exists() else {}

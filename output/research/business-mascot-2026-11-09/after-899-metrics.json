@@ -1,0 +1,40 @@
+{
+  "button": {
+    "bottom": 3297.25,
+    "h": 54,
+    "right": 248.8359375,
+    "w": 216.8359375,
+    "x": 32,
+    "y": 3243.25
+  },
+  "height": 900,
+  "image": {
+    "bottom": 3361.25,
+    "h": 215.609375,
+    "right": 899,
+    "w": 161.8125,
+    "x": 737.1875,
+    "y": 3145.640625
+  },
+  "loaded": true,
+  "overflow": false,
+  "paragraph": {
+    "bottom": 3215.25,
+    "h": 83.6953125,
+    "right": 558.6796875,
+    "w": 526.6796875,
+    "x": 32,
+    "y": 3131.5546875
+  },
+  "section": {
+    "bottom": 3361.25,
+    "h": 465.9296875,
+    "right": 899,
+    "w": 899,
+    "x": 0,
+    "y": 2895.3203125
+  },
+  "source": "http://127.0.0.1:8765/assets/responsive/illustrations/mascot-partnership-v2-400-q90-66fd6b8d.webp",
+  "title": "Будемпартнёрами?",
+  "width": 899
+}

@@ -1,0 +1,74 @@
+{
+  "checkedAt": "2026-11-05T11:59:15.430519+00:00",
+  "results": [
+    {
+      "name": "supplier-build",
+      "command": [
+        "python3",
+        "scripts/build_supplier_materials.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"output\": \"output/concept/downloads/novoferma-supplier-catalogue.html\", \"contentVersion\": \"2026-11-05.1\", \"products\": 14, \"sha256\": \"938d2317f15f363be715d46e934fa683f46107ae9dceeed618668aeb0a1e300a\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "site-build",
+      "command": [
+        "python3",
+        "scripts/build_site.py"
+      ],
+      "returncode": 0,
+      "stdout": "Generated 23 pages, 14 catalogue products and 2 concepts\n",
+      "stderr": ""
+    },
+    {
+      "name": "source-js-interactions",
+      "command": [
+        "/Users/andrey/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "scripts/check_concept.cjs"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"pages\": 23,\n  \"images\": 427,\n  \"localReferences\": 1515,\n  \"uniqueTitles\": 23,\n  \"uniqueDescriptions\": 23,\n  \"publicUrl\": null,\n  \"errors\": [],\n  \"result\": \"pass\",\n  \"scope\": \"Generated source only; visual and interactive browser checks are separate.\"\n}\n✔ city: generated copy/manual controls retain their HTML contract (4.535041ms)\n✔ city: known product query preset; unknown values are ignored (1.400791ms)\n✔ city: whitespace fails native validity and does not navigate (0.522375ms)\n✔ city: submit prepares current city/product and edit clears stale retry (0.584917ms)\n✔ city: external product select change clears old retry despite form association (0.457833ms)\n✔ city: clipboard success never navigates or sends; uses current request (0.618917ms)\n✔ city: unavailable/rejected clipboard exposes selected manual draft (1.534875ms)\n✔ city: product edit while clipboard is pending suppresses stale success or failure (0.951709ms)\n✔ partners: valid copy contains current form data and never navigates (2.062666ms)\n✔ partners: blank or whitespace required fields prevent copy (0.919083ms)\n✔ partners: manual draft is selected, then field change clears draft and stale retry (2.42675ms)\n✔ partners: field/radio/format-link edit cancels pending clipboard success and failure (10.818042ms)\n✔ partners: generated controls expose consent, taxonomy and bounded fields (0.650584ms)\n✔ partners: query prefill accepts only existing taxonomy; never personal data or consent (2.501417ms)\n✔ partners: whitespace, missing consent and over-limit fields never POST (4.862334ms)\n✔ partners: format links update locally without reloading or clearing product, intent or personal fields (0.769667ms)\n✔ partners: explicit link intent is allowlisted, while unspecified or unknown intent is preserved (0.60625ms)\n✔ partners: pending locks controls, blocks duplicate submit and fallbacks, then preserves data on failure (1.282125ms)\n✔ partners: success waits for a parsed durable receipt, retains values and does not resend identical data (1.77025ms)\n✔ partners: malformed or uncommitted success never claims delivery (4.826458ms)\n✔ partners: retry after uncertain network failure reuses UUID and accepts duplicate committed receipt (1.210583ms)\n✔ partners: changed payload has a new identity; returning to an uncertain snapshot keeps its retry identity (1.126ms)\n✔ partners: HTTP validation/rate/storage/conflict failures are not success and keep fallback actions usable (4.305042ms)\n✔ partners: timeout aborts the request, unlocks form and retains safe retry identity (1.642125ms)\n✔ partners: a stale network result cannot overwrite edits or attach old field errors (5.578583ms)\n✔ partners: submit invalidates pending clipboard completion (3.466084ms)\n✔ partners: explicit email fallback contains current selected taxonomy and does not POST (0.734291ms)\n✔ partners: cryptographic UUID fallback works when randomUUID is unavailable (1.095ms)\n✔ hero: generated panels/tabs are paired, first real art eager, inactive art deferred (1.075666ms)\n✔ hero: selection waits for artwork; responsive hints precede src (1.220209ms)\n✔ hero: rapid navigation commits only the latest scene (0.689459ms)\n✔ hero: rejected decode does not trap navigation or aria-busy (0.677542ms)\n✔ hero: End key focuses without scrolling and commits the last scene (0.612042ms)\n✔ hero: focus inside the old panel is moved out before it becomes inert (0.537625ms)\n✔ hero: idle warm starts after load, one scene at a time, without autoplay (0.642ms)\n✔ hero: saveData/slow connection skips speculative warm but keeps explicit selection (1.506375ms)\n✔ hero: hidden document defers warm; visibility resumes; timeout fallback remains delayed (0.900792ms)\nℹ tests 37\nℹ suites 0\nℹ pass 37\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 76.7915\nSite source, JavaScript syntax and available interaction checks passed.\n",
+      "stderr": ""
+    },
+    {
+      "name": "http-sqlite",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts",
+        "-p",
+        "test_serve_site.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_concurrent_duplicate_and_conflicting_payload (test_serve_site.IntakeTests) ... ok\ntest_configuration_rejects_public_db_or_directory (test_serve_site.IntakeTests) ... ok\ntest_configured_proxy_origin_and_host_must_both_match (test_serve_site.IntakeTests) ... ok\ntest_database_failure_returns_no_receipt_and_retry_can_succeed (test_serve_site.IntakeTests) ... ok\ntest_invalid_fields_never_commit (test_serve_site.IntakeTests) ... ok\ntest_malformed_json_duplicate_keys_and_utf8 (test_serve_site.IntakeTests) ... ok\ntest_normalized_exact_retry_has_same_receipt (test_serve_site.IntakeTests) ... ok\ntest_online_backup_private_no_overwrite_and_restore (test_serve_site.IntakeTests) ... ok\ntest_operator_list_show_update_and_segment_funnel (test_serve_site.IntakeTests) ... ok\ntest_origin_host_media_and_body_guards (test_serve_site.IntakeTests) ... ok\ntest_private_paths_symlinks_hardlinks_api_reads_and_logs (test_serve_site.IntakeTests) ... ok\ntest_rate_limit_is_bounded_and_http_retry_after (test_serve_site.IntakeTests) ... ok\ntest_real_sqlite_write_failure_rolls_back (test_serve_site.IntakeTests) ... ok\ntest_receipt_follows_commit_and_survives_restart (test_serve_site.IntakeTests) ... ok\ntest_valid_contact_and_concept_empty_product (test_serve_site.IntakeTests) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 8.846s\n\nOK\n"
+    },
+    {
+      "name": "static-package",
+      "command": [
+        "python3",
+        "scripts/package_site.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"archive\": \"output/novoferma-site.zip\",\n  \"bytes\": 17517145,\n  \"megabytes\": 17.517,\n  \"fileCount\": 167,\n  \"pageCount\": 23,\n  \"localReferencesChecked\": 1632,\n  \"extensions\": {\n    \".txt\": 5,\n    \".md\": 2,\n    \".json\": 2,\n    \".html\": 24,\n    \".svg\": 7,\n    \".webp\": 99,\n    \".css\": 18,\n    \".js\": 6,\n    \".woff2\": 4\n  },\n  \"sha256\": \"3aa55830af922fac9c3531416846e01097ae5fb0fdfd7f6d7bf82fc8b667a1e5\",\n  \"zipIntegrity\": \"pass\",\n  \"localLinks\": \"pass\",\n  \"fragmentLinks\": \"pass\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "whitespace",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "result": "pass"
+}

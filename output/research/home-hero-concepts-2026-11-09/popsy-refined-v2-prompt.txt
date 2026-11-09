@@ -1,0 +1,22 @@
+Use case: precise-object-edit / ui-mockup.
+Edit the attached existing Novoferma desktop homepage hero concept (1586 x 992). Create ONE refined version of that exact selected direction, not a new layout family. Preserve the original aspect ratio and professional polished UI.
+
+USER CHANGE: The standalone rooster at the right duplicates the illustration on the package. Remove ONLY the separate rooster, its drum, drumsticks and drawn motion marks completely. Keep the illustrated rooster printed on the package intact. Make the hero about TWO real physical subjects: the recognizable Popсы package and ready-to-eat cooked Popсы beside it. No standalone mascot anywhere outside the printed pack.
+
+RECOMPOSE THE CENTRAL PRODUCTS:
+- Keep the exact existing cream clear-tray Popсы packaging design, wordmark, label and printed illustration. Same slight perspective, recognizable natural proportions, no redesign.
+- Shift this main package slightly to the left of center, so it occupies the middle-left of the lower hero (roughly x280–910, y325–855), at the same large scale as the source.
+- Move the prepared crispy mini-nuggets from the far left to the right beside the package (roughly x960–1480, y500–850), into the area freed by removing the rooster.
+- Show 4–5 appetizing golden cooked mini chicken nuggets as one calm generous photorealistic group. One nugget cut into two in front, showing moist real finely minced white chicken interior. Keep the original product's small rounded irregular shape and golden craggy crumb coating. Make the crumb more natural golden, less saturated fluorescent orange. Food should be large enough to read immediately alongside the packaging.
+- Package and ready product are the two complementary focal points, visually balanced. Do not scatter nuggets through the air. No extra plate, bowl, sauce, ingredients, props or characters.
+- Keep quiet warm cream negative space around this pair, no heavy shadows or orange floor. This remains in the Novoferma website style, not a generic ecommerce advertisement.
+
+TYPE / UI INVARIANTS:
+- Preserve the source header intact: orange NOVOferma wordmark top left; links «Продукция», «О нас», «Партнёрам», «Контакты»; dark chocolate pill «Где купить» with arrow at top right. Same placements, sizes, spacing and colors.
+- Preserve the enormous chocolate condensed uppercase «ПОПСЫ» behind/above the package in the upper hero and its poster-like impact. Do not obscure word beyond the source's existing overlap.
+- Keep an orange handwritten personal accent at the upper right, replacing the existing handwritten phrase with «Хрусти» on first line and «в своём ритме» on second line. Natural confident marker lettering, a modest underline, legible Russian, about the same hierarchy as the original accent. It must fit without colliding with ПОПСЫ or the header.
+- Keep exact lower-left text «Мини-наггетсы из курицы в хрустящей панировке.».
+- Keep the existing dark chocolate lower-right CTA pill «О Попсах» with right arrow, same size/position.
+- Keep the original warm cream background #F9EFDC, dark chocolate #432714, burnt orange handwritten accent #cb4619. Source overall typography and brand styling must stay recognizable.
+- No additional UI, captions, badges, prices, claims, decorative abstract geometry, browser chrome or device frame.
+- Output just the revised complete first-screen mockup, one image only.

@@ -1,0 +1,1093 @@
+{
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "pages": [
+    {
+      "page": "catalogue.html",
+      "headings": [
+        {
+          "class": "",
+          "font": "\"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "catalogue-heading",
+          "size": "89.6px",
+          "spacing": "3.136px",
+          "tag": "H1",
+          "text": "Каталог продукции",
+          "weight": "850"
+        },
+        {
+          "class": "sr-only",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "catalogue-products-heading",
+          "size": "66.56px",
+          "spacing": "-2.9952px",
+          "tag": "H2",
+          "text": "Выберите свой продукт",
+          "weight": "850"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Котлеты куриные",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Биточки куриные с овощами",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Ёжики из цыпленка с рисом",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Куриный попкорн",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Наггетсы куриные",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Наггетсы куриные с сыром",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Наггетсы куриные «Динозавры»",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Наггетсы куриные острые",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Наггетсы с индейкой «Фитнес»",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Стрипсы",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Котлеты по-домашнему",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Котлеты пикантные",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Котлеты по-итальянски",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Фрикадельки «Классические»",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Фибрики",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Ленивчики",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Люля мини",
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Попсы",
+          "weight": "700"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "invite-catalogue-heading",
+          "size": "53.76px",
+          "spacing": "-1.8816px",
+          "tag": "H2",
+          "text": "Для вашей полки.Для вашего меню.",
+          "weight": "900"
+        }
+      ]
+    },
+    {
+      "page": "index.html",
+      "screenshot": "03-home.png",
+      "headings": [
+        {
+          "class": "popsy-home-title",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", sans-serif",
+          "id": "popsy-home-title",
+          "lineHeight": "231.04px",
+          "size": "243.2px",
+          "spacing": "-2.432px",
+          "tag": "H1",
+          "text": "Попсы",
+          "visible": true,
+          "weight": "850"
+        },
+        {
+          "class": "about-title",
+          "font": "\"Novoferma About\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "home-products-heading",
+          "lineHeight": "99.84px",
+          "size": "96px",
+          "spacing": "-1.44px",
+          "tag": "H2",
+          "text": "У каждого днясвой вкус.",
+          "visible": true,
+          "weight": "850"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Попсы",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Наггетсы куриные",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Стрипсы",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Фрикадельки «Классические»",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "protein-poster-title home-section-title",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "protein-poster-heading",
+          "lineHeight": "99.84px",
+          "size": "96px",
+          "spacing": "-1.44px",
+          "tag": "H2",
+          "text": "В основе — птица.",
+          "visible": true,
+          "weight": "850"
+        },
+        {
+          "class": "home-section-title",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "cooperation-heading",
+          "lineHeight": "99.84px",
+          "size": "96px",
+          "spacing": "-1.44px",
+          "tag": "H2",
+          "text": "Будемпартнёрами?",
+          "visible": true,
+          "weight": "850"
+        },
+        {
+          "class": "home-section-title",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "where-preview-heading",
+          "lineHeight": "99.84px",
+          "size": "96px",
+          "spacing": "-1.44px",
+          "tag": "H2",
+          "text": "Где наснайти.",
+          "visible": true,
+          "weight": "850"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "36px",
+          "size": "30px",
+          "spacing": "-0.75px",
+          "tag": "H3",
+          "text": "Где купить",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "36px",
+          "size": "30px",
+          "spacing": "-0.75px",
+          "tag": "H3",
+          "text": "Задать вопрос",
+          "visible": true,
+          "weight": "700"
+        }
+      ]
+    },
+    {
+      "page": "about.html",
+      "screenshot": "04-about.png",
+      "headings": [
+        {
+          "class": "about-title",
+          "font": "\"Novoferma About\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "about-story-heading",
+          "lineHeight": "93.184px",
+          "size": "89.6px",
+          "spacing": "-1.344px",
+          "tag": "H1",
+          "text": "Когдасвои рядом.",
+          "visible": true,
+          "weight": "850"
+        },
+        {
+          "class": "about-title",
+          "font": "\"Novoferma About\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "about-products-heading",
+          "lineHeight": "99.84px",
+          "size": "96px",
+          "spacing": "-1.44px",
+          "tag": "H2",
+          "text": "У каждого днясвой вкус.",
+          "visible": true,
+          "weight": "850"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Попсы",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Наггетсы куриные",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Стрипсы",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Фрикадельки «Классические»",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "about-title",
+          "font": "\"Novoferma About\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "invite-about-heading",
+          "lineHeight": "93.184px",
+          "size": "89.6px",
+          "spacing": "-1.344px",
+          "tag": "H2",
+          "text": "Будемпартнёрами?",
+          "visible": true,
+          "weight": "850"
+        }
+      ]
+    },
+    {
+      "page": "partners.html",
+      "screenshot": "05-partners.png",
+      "headings": [
+        {
+          "class": "",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+          "id": "partners-heading",
+          "lineHeight": "112.772px",
+          "size": "108.434px",
+          "spacing": "3.7952px",
+          "tag": "H1",
+          "text": "Дело со вкусом.",
+          "visible": true,
+          "weight": "850"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+          "id": "retail-heading",
+          "lineHeight": "55.6288px",
+          "size": "52.48px",
+          "spacing": "1.8368px",
+          "tag": "H2",
+          "text": "Для полки.Для меню.",
+          "visible": true,
+          "weight": "850"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+          "id": "stm-heading",
+          "lineHeight": "55.6288px",
+          "size": "52.48px",
+          "spacing": "1.8368px",
+          "tag": "H2",
+          "text": "Ваш бренд.Наш продукт.",
+          "visible": true,
+          "weight": "850"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+          "id": "partner-contact-heading",
+          "lineHeight": "69.1968px",
+          "size": "65.28px",
+          "spacing": "2.2848px",
+          "tag": "H2",
+          "text": "Давайтеобсудим.",
+          "visible": true,
+          "weight": "850"
+        }
+      ]
+    },
+    {
+      "page": "contacts.html",
+      "screenshot": "06-contacts.png",
+      "headings": [
+        {
+          "class": "",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "contacts-heading",
+          "lineHeight": "83.5584px",
+          "size": "87.04px",
+          "spacing": "-3.4816px",
+          "tag": "H1",
+          "text": "Мына связи.",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "contact-buyers",
+          "lineHeight": "32.4px",
+          "size": "27px",
+          "spacing": "-0.81px",
+          "tag": "H2",
+          "text": "Покупателям",
+          "visible": true,
+          "weight": "750"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "contact-partners",
+          "lineHeight": "32.4px",
+          "size": "27px",
+          "spacing": "-0.81px",
+          "tag": "H2",
+          "text": "Партнёрам",
+          "visible": true,
+          "weight": "750"
+        }
+      ]
+    },
+    {
+      "page": "where-to-buy.html",
+      "screenshot": "07-where-to-buy.png",
+      "headings": [
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "72.576px",
+          "size": "69.12px",
+          "spacing": "-3.1104px",
+          "tag": "H1",
+          "text": "Найдите свойпродукт.",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "retailers-heading",
+          "lineHeight": "37.44px",
+          "size": "36px",
+          "spacing": "-1.26px",
+          "tag": "H2",
+          "text": "В магазинах",
+          "visible": true,
+          "weight": "650"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "27.6px",
+          "size": "23px",
+          "spacing": "-0.575px",
+          "tag": "H3",
+          "text": "Наггетсы куриные «Динозавры»",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "27.6px",
+          "size": "23px",
+          "spacing": "-0.575px",
+          "tag": "H3",
+          "text": "Наггетсы куриные острые",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "27.6px",
+          "size": "23px",
+          "spacing": "-0.575px",
+          "tag": "H3",
+          "text": "Котлеты куриные",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "27.6px",
+          "size": "23px",
+          "spacing": "-0.575px",
+          "tag": "H3",
+          "text": "Котлеты по-домашнему",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "27.6px",
+          "size": "23px",
+          "spacing": "-0.575px",
+          "tag": "H3",
+          "text": "Фрикадельки «Классические»",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "53.504px",
+          "size": "48.64px",
+          "spacing": "-1.7024px",
+          "tag": "H2",
+          "text": "Уточнимдля вас.",
+          "visible": true,
+          "weight": "650"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "33.28px",
+          "size": "32px",
+          "spacing": "-1.44px",
+          "tag": "H3",
+          "text": "Свяжитесь напрямую",
+          "visible": true,
+          "weight": "650"
+        }
+      ]
+    },
+    {
+      "page": "product-kotlety-kurinye.html",
+      "screenshot": "08-product.png",
+      "headings": [
+        {
+          "class": "",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "46.1312px",
+          "size": "43.52px",
+          "spacing": "-0.8704px",
+          "tag": "H1",
+          "text": "Котлеты куриные",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "27.5px",
+          "size": "22px",
+          "spacing": "-0.44px",
+          "tag": "H2",
+          "text": "Состав и приготовление",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "62.72px",
+          "size": "64px",
+          "spacing": "-2.24px",
+          "tag": "H2",
+          "text": "А ещё к столу…",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Биточки куриные с овощами",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Котлеты по-домашнему",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Котлеты пикантные",
+          "visible": true,
+          "weight": "700"
+        }
+      ]
+    },
+    {
+      "page": "product-popsy.html",
+      "screenshot": "09-popsy-product.png",
+      "headings": [
+        {
+          "class": "",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "46.1312px",
+          "size": "43.52px",
+          "spacing": "-0.8704px",
+          "tag": "H1",
+          "text": "Попсы",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "popsy-lead",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "42.8544px",
+          "size": "39.68px",
+          "spacing": "-0.5952px",
+          "tag": "H2",
+          "text": "Мини-наггетсыиз курицы.",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "27.5px",
+          "size": "22px",
+          "spacing": "-0.44px",
+          "tag": "H2",
+          "text": "Состав и приготовление",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "popsy-story-heading",
+          "lineHeight": "53.76px",
+          "size": "51.2px",
+          "spacing": "-0.768px",
+          "tag": "H2",
+          "text": "Хрустив своём ритме.",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "27.6px",
+          "size": "23px",
+          "spacing": "-0.575px",
+          "tag": "H3",
+          "text": "Чем отличаются от попкорна?",
+          "visible": true,
+          "weight": "850"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "popsy-serving-heading",
+          "lineHeight": "53.76px",
+          "size": "51.2px",
+          "spacing": "-0.768px",
+          "tag": "H2",
+          "text": "К музыке.К своей компании.",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "62.72px",
+          "size": "64px",
+          "spacing": "-2.24px",
+          "tag": "H2",
+          "text": "А ещё к столу…",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Куриный попкорн",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Наггетсы куриные",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Стрипсы",
+          "visible": true,
+          "weight": "700"
+        }
+      ]
+    },
+    {
+      "page": "product-fibriki.html",
+      "screenshot": "10-fibriki-product.png",
+      "headings": [
+        {
+          "class": "",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "46.1312px",
+          "size": "43.52px",
+          "spacing": "-0.8704px",
+          "tag": "H1",
+          "text": "Фибрики",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "fibriki-lead",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "42.8544px",
+          "size": "39.68px",
+          "spacing": "-0.5952px",
+          "tag": "H2",
+          "text": "Клетчатка —в привычном блюде.",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "27.5px",
+          "size": "22px",
+          "spacing": "-0.44px",
+          "tag": "H2",
+          "text": "Состав и приготовление",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "fibriki-story-heading",
+          "lineHeight": "53.76px",
+          "size": "51.2px",
+          "spacing": "-0.768px",
+          "tag": "H2",
+          "text": "Знакомимсяс Фибриками.",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "fibriki-serving-heading",
+          "lineHeight": "53.76px",
+          "size": "51.2px",
+          "spacing": "-0.768px",
+          "tag": "H2",
+          "text": "Сегодня —с любимым гарниром.",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "62.72px",
+          "size": "64px",
+          "spacing": "-2.24px",
+          "tag": "H2",
+          "text": "А ещё к столу…",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Ёжики из цыпленка с рисом",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Фрикадельки «Классические»",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Котлеты куриные",
+          "visible": true,
+          "weight": "700"
+        }
+      ]
+    },
+    {
+      "page": "product-lenivchiki.html",
+      "screenshot": "11-lenivchiki-product.png",
+      "headings": [
+        {
+          "class": "",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "46.1312px",
+          "size": "43.52px",
+          "spacing": "-0.8704px",
+          "tag": "H1",
+          "text": "Ленивчики",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "lenivchiki-lead",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "41.472px",
+          "size": "38.4px",
+          "spacing": "-0.576px",
+          "tag": "H2",
+          "text": "Мясо, риси овощи — вместе.",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "27.5px",
+          "size": "22px",
+          "spacing": "-0.44px",
+          "tag": "H2",
+          "text": "Состав и приготовление",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "lenivchiki-story-heading",
+          "lineHeight": "56.448px",
+          "size": "53.76px",
+          "spacing": "-0.8064px",
+          "tag": "H2",
+          "text": "Гарнируже внутри.",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "27.6px",
+          "size": "23px",
+          "spacing": "-0.575px",
+          "tag": "H3",
+          "text": "Разогрейте — и подавайте.",
+          "visible": true,
+          "weight": "850"
+        },
+        {
+          "class": "",
+          "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "62.72px",
+          "size": "64px",
+          "spacing": "-2.24px",
+          "tag": "H2",
+          "text": "А ещё к столу…",
+          "visible": true,
+          "weight": "900"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Ёжики из цыпленка с рисом",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Биточки куриные с овощами",
+          "visible": true,
+          "weight": "700"
+        },
+        {
+          "class": "product-title",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "id": "",
+          "lineHeight": "25.62px",
+          "size": "21px",
+          "spacing": "-0.315px",
+          "tag": "H3",
+          "text": "Котлеты куриные",
+          "visible": true,
+          "weight": "700"
+        }
+      ]
+    }
+  ]
+}

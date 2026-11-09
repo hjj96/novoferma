@@ -1,0 +1,33 @@
+{
+  "result": "pass",
+  "desktopCssAndArtworkUnchanged": {
+    "product-hero.css": true,
+    "assets/product-hero/fibriki-art-v6.webp": true,
+    "assets/product-hero/meatballs-art-v5.webp": true,
+    "assets/product-hero/nuggets-art-v5.webp": true,
+    "assets/product-hero/lulia-mini-art-v5.webp": true
+  },
+  "desktopHeroMarkupUnchangedExceptPortraitSources": true,
+  "independentReview": "All four 390px screenshots pass: no food-food or food-mascot contact, clean cream alpha",
+  "viewportsVisuallyInspected": [
+    [
+      320,
+      740
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "sourceBehaviorTests": 22,
+  "activeMobileVersion": "mobile-v2",
+  "intrinsicMobileSize": [
+    960,
+    960
+  ],
+  "scope": "Only portrait mobile art changed. Layout, desktop images, copy, CTA and gestures retain prior behavior."
+}

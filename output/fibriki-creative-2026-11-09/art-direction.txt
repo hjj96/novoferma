@@ -1,0 +1,37 @@
+FIBRIKI — MORE EXPRESSIVE PACKAGING SCENES — 2026-11-09
+
+USER REQUEST
+Redesign the Fibriki packaging illustration to be much more inventive and memorable, at the creative level of the existing Lenivchiki hammock and Popsy rock drummer. Keep the classic Novoferma physical packaging and brand family.
+
+COMMON PROMPT FOR EACH INDEPENDENT OUTPUT
+Use case: precise-object-edit / product-mockup.
+Create ONE complete physical FIBRIKI package, never a collage or a presentation board. Image 1 (fibriki-pack-v11.webp) is the edit target and the authority for package geometry, cream paper sleeve, shallow transparent ribbed PET tray, perspective, typography and food identity. Image 2 (lenivchiki-pack-v1.webp) is a reference ONLY for the expressive hand-painted mascot scene and warm cream paper. Image 3 (popsy-pack-v4.webp) is a reference ONLY for the lively action, strong silhouette and funny memorable narrative. Do not copy their names, ingredients, food, hammock, drum or physical characters' poses.
+
+Preserve the existing complete Fibriki package: actual tray and cream sleeve silhouette, shallow package depth, camera angle, fine paper texture, orange NOVOferma logo at top, large dark warm-brown Roman serif product name, category and ingredient copy, soft physical shadows. All visible package must fit inside the square canvas with comfortable margins; no clipping. Aim to keep the SAME normalized packaging size and margins as the Fibriki edit target, not an oversized pack that fills every edge. Genuinely TRANSPARENT background, no studio surface, no cast backdrop, no white border, no halo or colored islands outside the physical packaging.
+
+CHANGE: replace the small calm standing hen sniffing a spoon on the right with a large lively illustrated scene specified below. Keep a good balance between the new hen and the photorealistic prepared serving food on the left. The hen is the recognizable Novoferma orange/golden bird with a red comb and wattle, expressive black-and-white eyes, pale beak, layered orange feathers and tail, two wings, two thin brown bird legs with clawed feet. Hand-painted ink-and-gouache illustration, warm dark-brown outlines, humorous and premium. No human hands, giant human muscles, human teeth, extra limbs or second character.
+
+FOOD IDENTITY IS LOCKED
+Fibriki are small unbreaded round chicken meatballs, with a homogeneous pale chicken-mince interior and just tiny sparse parsley-like green flecks. Printed prepared food hero on the left: one whole browned round meatball and one cut half, very close to the approved target, realistic appetizing photography. No rice, cabbage, carrot, cheese, breadcrumb crust, nuggets, sausage shape or new ingredients. Inside the clear physical tray: the same pale raw-frozen chicken meatballs with sparse tiny green flecks, as in the Fibriki edit target. The tray contents are NOT browned cooked rice patties and NOT breaded. Preserve this distinction between serving food printed on paper and actual frozen contents behind clear plastic.
+
+COPY MUST REMAIN EXACT — NO NEW WORDS OR BADGES
+NOVOferma
+ФИБРИКИ
+ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ
+С ПИЩЕВЫМИ ВОЛОКНАМИ
+БЕЛОК + КЛЕТЧАТКА
+Preserve the original title hierarchy and readable spacing. Do not add a weight, nutrition number, time, certification or claim. No text should touch the new scene.
+
+01 SILACHKA / СИЛАЧКА — A FUN VINTAGE STRONGMAN
+Replace the right-hand scene with the Novoferma hen as a cheeky vintage circus strongwoman. It stands in a confident athletic wide stance and lifts a short kitchen-inspired barbell above its head: a simple slim wooden handle with ONE cooked Fibriki meatball at each end, no metal weights, no sharp spikes through food. The two cooked balls share the approved whole Fibriki appearance. Hen has a small terracotta-and-cream striped sports singlet and tiny plain wristbands, no lettering. Feathers form the wings and body; do NOT invent muscular human arms. Its expression is pleased, mischievous and confident, not angry. A couple of restrained dark-brown motion strokes convey the effort. Clean readable silhouette at small packaging size, no stage curtains, spotlight, gym machines, dumbbell logos or extra characters. This is the primary candidate: the two rounded ends visually echo the existing protein + fiber pairing without adding any health promise.
+
+02 COSMONAUT / КОСМОНАВТ — THE SPOON ROCKET
+Replace the right-hand scene with the same golden hen as a cheerful little cosmonaut, sitting on the handle of a diagonally rising wooden serving spoon like a rocket. A small simple transparent round helmet reveals the familiar red comb, eyes and beak; the feathered body remains recognizable. The bowl of the spoon carries ONE cooked Fibriki meatball. Two additional small cooked Fibriki float along a restrained curved orbit behind the spoon, separated from the large left-hand serving hero. Just two elegant dark-brown speed strokes; no starscape, black space, smoke, flames, sci-fi controls, flags, planets with faces or new labels. The entire scene is printed on the unchanged cream sleeve. Playful adventurous composition, food remains readable.
+
+03 CHEF / ШЕФ-ВИРТУОЗ — PAN FLIP
+Replace the right-hand scene with the same Novoferma hen as an energetic chef caught mid-turn. It wears a simple cream chef cap behind the visible red comb and a short terracotta neckerchief. One wing holds the handle of a dark-brown shallow frying pan, sending THREE small cooked Fibriki meatballs into a short clean curved arc. The other wing balances the action with an open feather gesture, not a human hand. The bird leans slightly forward with one foot poised, an excited clever expression, no angry shouting. The prepared whole and cut Fibriki hero remains large on the left. No stove, flames, oil splashes, kitchen scenery, extra vegetables or chef lettering. One sharp coherent cooking action, appetizing and warm.
+
+04 TIGHTROPE / КАНАТОХОДЕЦ — THE SPOON BALANCE
+Replace the right-hand scene with the same Novoferma hen as a charming circus tightrope walker. It balances on one bird foot on a thin gently curved taut linen line between two low simple wooden fork-shaped stands. The second leg is bent naturally behind, tail and wings make an elegant balancing pose. One wing holds a horizontal long slim wooden spoon with a small cooked Fibriki in its bowl as a balancing pole; the other wing opens outward. A tiny terracotta bow at the neck is the only costume. Familiar face looks concentrated and amused. No hat, clown nose, circus tent, confetti, flowers, human arms or food touching the hen's feet. A compact, clear, airy scene; do not let its props overwhelm the food or title.
+
+All four outputs are separate complete square PNG packaging visuals with true alpha. Save native copies, individual exact prompts and concise QA. Do not edit images with code. Do not modify website files during generation. The coordinator will review, select and integrate one direction, with visible size normalized across the catalogue.

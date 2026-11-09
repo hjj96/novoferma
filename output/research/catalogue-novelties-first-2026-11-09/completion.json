@@ -1,0 +1,29 @@
+{
+  "completed": true,
+  "catalogueOrder": [
+    "fibriki",
+    "lenivchiki",
+    "lulia-mini",
+    "popsy",
+    "original 14 products in previous order"
+  ],
+  "noveltyNetWeightGrams": 400,
+  "fibrikiArtwork": "v12; added 52/5 labels and page block removed",
+  "checks": {
+    "staticPages": 24,
+    "sourceInteractionTestsPassed": 17,
+    "packagedInteractionTestsPassed": 17,
+    "rootVisualReview": [
+      "catalogue 390px",
+      "first four novelties 390px",
+      "Fibriki detail 1440px"
+    ],
+    "permanentUrlVersion": "pass",
+    "noindex": "pass",
+    "liveFilesMatchLocal": true
+  },
+  "deploymentId": "dpl_HMDTiDj4hhxa3kLZTVC16d2qtdZz",
+  "sourceCommit": "b8ae5cc72b68192fb522af9e49c1b62dc8026eb7",
+  "publicUrl": "https://novoferma-team-preview.vercel.app/catalogue.html",
+  "publication": "Continued the existing shared deployment for the identical prepared snapshot; no duplicate deployment created."
+}

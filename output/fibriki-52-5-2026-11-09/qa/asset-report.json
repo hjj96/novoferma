@@ -1,0 +1,18 @@
+{
+  "canvas": [
+    1254,
+    1254
+  ],
+  "alphaBbox128": [
+    45,
+    137,
+    1208,
+    1082
+  ],
+  "normalizedWidth": 0.9274322169059012,
+  "normalizedHeight": 0.7535885167464115,
+  "alphaMaxDifference": 0,
+  "pngSha256": "4edb7a0c013c01668c98936c0ba3cd93e913d0feca3c915d98129681bdd83bb7",
+  "webpSha256": "cdc583c6759b61bde6379f84e9ed7abd1b72e0a89f35b036422588bdc7fa5389",
+  "webpBytes": 267244
+}

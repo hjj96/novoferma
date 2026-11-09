@@ -1,0 +1,3 @@
+const {chromium}=require('/Users/andrey/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const path=require('path');
+(async()=>{const b=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',args:['--allow-file-access-from-files']});const p=await b.newPage({viewport:{width:1440,height:920},deviceScaleFactor:1});await p.goto('file://'+path.resolve(__dirname,'../concept/product-popsy.html'),{waitUntil:'networkidle'});await p.evaluate(()=>document.fonts.ready);await p.screenshot({path:path.join(__dirname,'assets/pops-website-preview.png')});await b.close()})();

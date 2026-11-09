@@ -1,0 +1,30 @@
+Built-in ImageGen; 2026-11-07.
+Reference 1 (canonical character): assets/product-hero/mobile-v3/fibriki-master.png
+Reference 2 (food only): assets/product-hero/mobile-v3/meatballs-master.png
+
+Use case: identity-preserve / illustration-story / compositing.
+Asset type: transparent SQUARE mobile website hero for Novoferma classic chicken meatballs.
+
+REFERENCE ROLES AND PRIORITY:
+Image 1 (Fibriki mobile v3) is the SOLE CANONICAL CHICKEN CHARACTER IDENTITY AND DRAWING STYLE. Use ONLY this image to define the mascot. It is the same adult good-natured farm chicken, NOT a new chicken design. Match its broad compact body, large mature head-to-body proportion, cheerful adult face, exactly the same large nearer eye and very small farther eye, the same five-lobed red comb, orange-yellow watercolour feathers, controlled dark hand-drawn ink contour, white apron with green checks and same neck bow. Match detailing density, line weight, feather construction, warm palette, facial ratios and feet. Do NOT make the eyes larger or equally large; do NOT shrink the head, elongate the torso, make the bird juvenile, more babyish, slimmer, simplified or a different cartoon style.
+Image 2 (meatballs mobile v3) is ONLY a reference for the FOOD TEXTURE. Completely IGNORE its chicken design. Do not mix its mascot face or proportions with image 1.
+
+PRIMARY REQUEST:
+Create a NEW, EXPRESSIVE composition that belongs to the exact same visual family as image 1 but has a DIFFERENT pose and visual story. Put the full chicken at the BOTTOM RIGHT, turned LEFT, looking up-left toward the meatballs. Its broad body is compact and animated; one wing sweeps to the side and the other wing is raised. Show the full tail and both feet. The chicken should occupy about 55–60% of the square height, densely filling the lower-right region, NOT a tiny mascot. Preserve the mature friendly character of image 1 in the new pose.
+
+Place EXACTLY THREE WHOLE appetizing classic chicken meatballs in a lively arc to the LEFT and ABOVE the bird, with natural different sizes, subtle rotations and cooking marks. The food is realistic advertising food photography, exactly as appetizing and naturally browned as image 2. Every piece must be whole, with no cut, bite, open interior, rice-like string, plate, sauce or parsley. Do NOT use cloned duplicate balls. This layout MUST be different from the old small-left / large-upper-right / medium-right template.
+
+Useful compositional guide for a 1254 by 1254 square (approximate, adjust to preserve breathing room):
+- Chicken mainly in x430..1175, y445..1170, facing left. Full body and feet stay inside the frame.
+- Largest meatball, about 320–345px diameter, at upper LEFT around x280,y250.
+- Medium meatball, about 270–290px diameter, high near the upper middle around x760,y205.
+- Third meatball, about 235–255px diameter, further down at LEFT around x225,y650.
+They form an open left-hand throwing arc, not a horizontal row and not the previous repeated composition.
+- Keep at least 50–65px of truly EMPTY TRANSPARENT SPACE between ANY food and ANY part of the chicken (comb, beak, eye, raised wings, tail, feet), and between the three foods. Move the left food slightly if the side wing needs room; never let a ball touch a wing.
+- Keep the scene dense and the food LARGE. Do not solve gaps by reducing all the foods.
+- At most ONE or TWO SMALL PAIRS of short red-orange accent marks total (2–4 short strokes) beside the foods; no continuous long lines, spirals, giant motion clouds, rays, hearts or extra doodles.
+- All objects fully inside square, with about 5–6% clear outside margins.
+
+BACKGROUND: actual alpha transparency throughout, including all gaps. NO filled background, no white or gray halo, glow, haze or paper rectangle. The apron stays opaque white as part of the bird. NO ground or floor, no cast ground shadows, no scenery, text, letters, logos, packaging, utensils, plates or other props.
+Output a polished transparent PNG square. The main quality criterion is that this is visibly the SAME CHICKEN from image 1 in a fresh left-facing pose, not a stylistic cousin.
+

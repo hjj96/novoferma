@@ -1,0 +1,22 @@
+Use case: identity-preserve / compositing / illustration-story.
+Asset type: ONE new transparent square MOBILE FIBRIKI campaign scene, native1254×1254, for the same new story-driven character family as the desktop.
+
+REFERENCE ROLES:
+Image1 (desktop Fibriki hen-v2) is the EXACT character identity, illustration quality and PERSONALITY to preserve: a big warm adult home cook holding a small OPEN RECIPE BOOK and an EMPTY WOODEN SPOON, curious raised eyebrow and kind pleased smile, cream beak, large nearer eye and tiny farther eye, red-orange five-lobed comb/wattle, plump yellow/orange watercolor feathers, rich sharp black ink contour, opaque white apron with fine green grid and side bow. Same mature facial ratios, broad body, fine drawing detail, warm saturation and clean outline. Do not substitute a young chick, new face, flatter vector style or glossy3D bird. The character is an actual cook reading/thinking, NOT the old generic jumping/tossing pose.
+Image2 (desktop Fibriki food) is the SOLE actual FOOD IDENTITY reference: natural whole golden chicken meatballs with finely minced meat texture, subtle small red/green ingredient flecks and individual appetizing searing. Do NOT turn texture into rice grains, beads, long strands or breading.
+Image3 (previous mobile Fibriki) is ONLY a reference for energetic mobile food/character size balance. Do NOT reuse its jumping pose, different food texture, leaves or exact layout.
+
+NEW MOBILE STORY AND COMPOSITION:
+A substantial warm illustrated cook with recipebook/spoon occupies LOWER RIGHT, about55% of1254px canvas height, full body and props entirely visible. Face turns kindly toward the LEFT at the appetizing food, retaining the exact personality in image1. The book and spoon are modest secondary props, drawn in same ink/watercolor, clearly EMPTY, no food on/in them. The stance can be a jaunty half-step with both complete feet, not airborne jumping. Let the photo foods be primary while this big cook is a strong readable second subject at320–390px phone width.
+Exactly THREE WHOLE photoreal Fibriki, large and appetizing, in a dynamic triangular grouping:
+- A LARGE foreground whole meatball at LOWER/MIDDLE LEFT, around430–450px diameter, approximately center(245,760).
+- A medium whole meatball higher at upper LEFT, around310–330px diameter, near center(310,235).
+- Another differently rotated medium whole meatball at upper middle/right, around330–350px diameter, near center(875,220).
+Each piece must be a distinct naturally browned individual from the food family, not a copied/resized clone. No cross-sections, cuts, bites or interior. Not an equal-size row. Main foreground food is visibly dominant.
+The cook's overall bounds can be roughly x550..1210,y490..1205 (including both illustrated props), so the whole scene fills the square confidently while retaining safe outer margins of at least20–35px. Adjust coordinates naturally if needed, without making the foods small.
+CRITICAL SEPARATION: leave a visible35–60px OR LARGER completely empty transparent gap between EVERY food and EVERY drawn pixel of hen, comb, beak, spoon, recipe book, apron, wings, feet or bow. No real-food/drawing contact anywhere. In particular no food perched on spoon or book and no food touching the raised spoon or comb. Retain transparent gaps between the three foods as well. Keep all three complete silhouettes inside the frame, no clipped edges.
+Only TWO MINIMAL PAIRS of crisp short red-orange emphasis ticks beside the foods (4 small strokes total), no long curves, swooshes, hearts, text or clouds of accents.
+
+OUTPUT / EXCLUSIONS:
+Native transparent RGBA SQUARE1254×1254 with actual alpha0 in ALL background and all gaps, not a cream/white/gray halo, matte, vignette or haze. Apron, book pages and eye whites remain opaque.
+NO text, typography, labels, packaging, background, floor, ground-shadow field, plate, kitchen/room, utensils beyond the specified drawn spoon, extra ingredient props, external parsley/leaves or food other than the EXACT THREE whole Fibriki. Photoreal food and flat warm inked cook stay visually distinct, with sharp high-quality native edges. One polished complete mobile scene, not separate panels.

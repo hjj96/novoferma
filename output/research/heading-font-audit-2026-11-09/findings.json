@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-09",
+  "siteChanged": false,
+  "recommendedHeadingFont": "RobotoFlex-Protein.woff2",
+  "recommendedHeadingWeight": 850,
+  "fontDifferences": [
+    {
+      "location": "Каталог продукции",
+      "font": "Roboto Flex Protein",
+      "weight": "850",
+      "tracking": "+.035em",
+      "source": "catalogue.css:17–19"
+    },
+    {
+      "location": "Попсы на главной",
+      "font": "Roboto Flex Protein",
+      "weight": "850",
+      "tracking": "−.01em",
+      "source": "popsy-home.css:6"
+    },
+    {
+      "location": "Крупные заголовки главной и О нас",
+      "font": "Roboto Flex Protein (имя Novoferma About)",
+      "weight": "850",
+      "tracking": "−.015em",
+      "source": "about-refinement.css:2–12; home-sections.css:9–14"
+    },
+    {
+      "location": "Партнёрам",
+      "font": "Roboto Flex Protein",
+      "weight": "850",
+      "tracking": "+.035em",
+      "source": "partners-scenes.css:2–6"
+    },
+    {
+      "location": "Для вашей полки / Для вашего меню",
+      "font": "Rubik (Novoferma Poster)",
+      "weight": "900",
+      "tracking": "−.035em",
+      "source": "partnership.css:25–27"
+    },
+    {
+      "location": "Мы на связи — контакты",
+      "font": "Rubik (Novoferma Poster)",
+      "weight": "900",
+      "tracking": "−.04em",
+      "source": "polish.css:10–14; contacts.css:9–10"
+    },
+    {
+      "location": "Найдите свой продукт — где купить",
+      "font": "Onest (Novoferma Sans)",
+      "weight": "700",
+      "tracking": "−.045em",
+      "source": "where-to-buy.css:2"
+    },
+    {
+      "location": "Главные заголовки всех 18 страниц продуктов",
+      "font": "Rubik (Novoferma Poster)",
+      "weight": "900",
+      "tracking": "−.02em",
+      "source": "product-detail.css:10–13"
+    },
+    {
+      "location": "А ещё к столу…",
+      "font": "Rubik (Novoferma Poster)",
+      "weight": "900",
+      "tracking": "−.035em",
+      "source": "polish.css:10–14"
+    },
+    {
+      "location": "Промозаголовки Попсов, Фибриков, Ленивчиков",
+      "font": "Rubik (Novoferma Poster)",
+      "weight": "900",
+      "tracking": "−.015em",
+      "source": "popsy.css:2–6,17–20; fibriki.css:2–7,35–38; lenivchiki.css:6–10,23–26"
+    }
+  ]
+}

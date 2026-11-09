@@ -1,0 +1,117 @@
+[
+  {
+    "documentWidth": 320,
+    "h1": "Когдасвои рядом.",
+    "overflow": [],
+    "paragraphs": [
+      {
+        "color": "rgb(255, 245, 227)",
+        "font": "\"Novoferma Sans\", Arial, sans-serif",
+        "lineHeight": "24.8px",
+        "size": "16px",
+        "weight": "450"
+      },
+      {
+        "color": "rgb(255, 245, 227)",
+        "font": "\"Novoferma Sans\", Arial, sans-serif",
+        "lineHeight": "24.8px",
+        "size": "16px",
+        "weight": "450"
+      }
+    ],
+    "sections": 3,
+    "width": 320
+  },
+  {
+    "documentWidth": 390,
+    "h1": "Когдасвои рядом.",
+    "overflow": [],
+    "paragraphs": [
+      {
+        "color": "rgb(255, 245, 227)",
+        "font": "\"Novoferma Sans\", Arial, sans-serif",
+        "lineHeight": "26.35px",
+        "size": "17px",
+        "weight": "450"
+      },
+      {
+        "color": "rgb(255, 245, 227)",
+        "font": "\"Novoferma Sans\", Arial, sans-serif",
+        "lineHeight": "26.35px",
+        "size": "17px",
+        "weight": "450"
+      }
+    ],
+    "sections": 3,
+    "width": 390
+  },
+  {
+    "documentWidth": 768,
+    "h1": "Когдасвои рядом.",
+    "overflow": [],
+    "paragraphs": [
+      {
+        "color": "rgb(255, 245, 227)",
+        "font": "\"Novoferma Sans\", Arial, sans-serif",
+        "lineHeight": "27.9px",
+        "size": "18px",
+        "weight": "450"
+      },
+      {
+        "color": "rgb(255, 245, 227)",
+        "font": "\"Novoferma Sans\", Arial, sans-serif",
+        "lineHeight": "27.9px",
+        "size": "18px",
+        "weight": "450"
+      }
+    ],
+    "sections": 3,
+    "width": 768
+  },
+  {
+    "documentWidth": 1024,
+    "h1": "Когдасвои рядом.",
+    "overflow": [],
+    "paragraphs": [
+      {
+        "color": "rgb(255, 245, 227)",
+        "font": "\"Novoferma Sans\", Arial, sans-serif",
+        "lineHeight": "27.9px",
+        "size": "18px",
+        "weight": "450"
+      },
+      {
+        "color": "rgb(255, 245, 227)",
+        "font": "\"Novoferma Sans\", Arial, sans-serif",
+        "lineHeight": "27.9px",
+        "size": "18px",
+        "weight": "450"
+      }
+    ],
+    "sections": 3,
+    "width": 1024
+  },
+  {
+    "documentWidth": 1440,
+    "h1": "Когдасвои рядом.",
+    "overflow": [],
+    "paragraphs": [
+      {
+        "color": "rgb(255, 245, 227)",
+        "font": "\"Novoferma Sans\", Arial, sans-serif",
+        "lineHeight": "34.1px",
+        "size": "22px",
+        "weight": "450"
+      },
+      {
+        "color": "rgb(255, 245, 227)",
+        "font": "\"Novoferma Sans\", Arial, sans-serif",
+        "lineHeight": "34.1px",
+        "size": "22px",
+        "weight": "450"
+      }
+    ],
+    "sections": 3,
+    "width": 1440
+  }
+]

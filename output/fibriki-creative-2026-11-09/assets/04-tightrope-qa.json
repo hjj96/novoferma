@@ -1,0 +1,59 @@
+{
+  "direction": "04-tightrope",
+  "product": "Фибрики",
+  "date": "2026-11-09",
+  "status": "review_ready_with_food_texture_mismatch",
+  "asset": "04-tightrope.png",
+  "generationMode": "built-in image_gen",
+  "generationCount": 2,
+  "targetedCorrectionCount": 1,
+  "externalReferencePolicy": "Only original fibriki-pack-v11.webp. Lenivchiki and Popsy were not supplied for either generation.",
+  "selectedSourceGeneratedPng": "/Users/andrey/.codex/generated_images/01a1bac8-e1e8-7580-9de6-39073b41c2a8/exec-45352199-f4a3-41fc-b3d5-69179c6868b0.png",
+  "initialGeneratedPng": "/Users/andrey/.codex/generated_images/01a1bac8-e1e8-7580-9de6-39073b41c2a8/exec-4fde329f-a943-44be-a906-45dd733ab972.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "fullyTransparentPixels": 661214,
+  "totalPixels": 1572516,
+  "alphaAbove127BoundingBox": [
+    49,
+    138,
+    1205,
+    1082
+  ],
+  "visibleWidthFraction": 0.9218500797448166,
+  "cornersAlpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "checks": {
+    "completePhysicalPack": "Pass: shallow clear ribbed tray and cream curved cardboard sleeve",
+    "geometryAndMargins": "Pass: uncropped object, visible alpha-above127 width 92.2% of canvas, close to original Fibriki v11",
+    "copy": "Pass: NOVOferma / ФИБРИКИ / ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ / С ПИЩЕВЫМИ ВОЛОКНАМИ / БЕЛОК + КЛЕТЧАТКА",
+    "mascotIdentity": "Pass: golden-orange hen with red comb and wattle, layered feathers, familiar face",
+    "scene": "Pass: hen balances on one foot on a fine linen line between two low wooden forked supports; second leg bent behind; wooden spoon holds one small browned Fibriki",
+    "props": "Pass: two supports and spoon; plain terracotta neck bow; no scenery or extra characters",
+    "anatomy": "Pass: two feathered wings and two thin clawed bird legs",
+    "foodCategory": "Pass: round chicken meatballs with sparse green flecks; cooked food printed on paper, pale raw-frozen food inside tray; no visible carrot/cabbage/new recipe",
+    "foodExactPreservation": "Not achieved: model regenerated left food photo and tray contents; texture remains coarser/more geometric than original v11 despite the single targeted correction",
+    "alpha": "Pass by alpha inspection: true RGBA; corners and all five sampled empty exterior points alpha zero",
+    "prohibitedClaims": "Pass: no new weight, BJU, nutrition number, preparation time, badges or facts"
+  },
+  "remainingMaterialDefects": [
+    "Strict requirement to preserve the original v11 food photograph/texture without reinterpretation was not achieved. Do not describe this output as a pixel-preserving illustration-only edit."
+  ],
+  "notes": [
+    "Single targeted correction attempted food-texture restoration; no further generations will be made per coordinator instruction.",
+    "Final PNG is a byte-identical copy of native image_gen output; no programmatic pixel edits.",
+    "No website files changed.",
+    "The coordinator should assess this as one creative narrative option with a food-preservation limitation."
+  ]
+}

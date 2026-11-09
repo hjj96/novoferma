@@ -1,0 +1,6 @@
+Use case: precise-object-edit / background-extraction.
+The supplied image is a retail chicken product package cutout. Change ONLY the framing and transparency edge cleanliness. Preserve the complete physical package and all label artwork exactly unchanged: terracotta printed bucket, golden food, small crafty ink-drawn chicken, exact NOVOferma logo and Cyrillic text, paper and thin PET materials, existing composition and color.
+1. Put the entire existing package inside a larger genuinely transparent square canvas. It must occupy only 82% of canvas width and height, with at least 8–9% completely empty transparent margins on every side. Do not crop any paper sleeve corners or the PET tray edge.
+2. Clean away every stray isolated white, yellow, red and gray pixel or speckle outside the actual silhouette. Outside the real package all pixels must be fully transparent. Keep smooth anti-aliased alpha edges, no white fringe, no red/yellow halo. Do not add drop shadow, surface, background, opaque white, black, or checkerboard.
+3. Output maximum available resolution, ideally 2048x2048 or larger. Real detail. Do not change or repaint subject or add any text.
+The image must remain a clean complete photographed rectangular PET retail package with a paper sleeve; do not turn the printed terracotta bucket into the physical retail container.

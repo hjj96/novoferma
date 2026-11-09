@@ -1,0 +1,410 @@
+{
+  "canvas": [
+    1100,
+    850
+  ],
+  "products": {
+    "fibriki": {
+      "hen": {
+        "path": "assets/product-hero/desktop-v8/fibriki-hen-v2.webp",
+        "sourceWidth": 1254,
+        "sourceHeight": 1254,
+        "bbox": [
+          77,
+          18,
+          1213,
+          1245
+        ],
+        "x": 665,
+        "y": 355.15404929577466,
+        "width": 435,
+        "height": 469.84595070422534,
+        "flip": true
+      },
+      "food": {
+        "path": "assets/product-hero/desktop-v8/fibriki-food-v2.webp",
+        "sourceWidth": 1254,
+        "sourceHeight": 1254,
+        "bbox": [
+          56,
+          13,
+          1180,
+          1182
+        ],
+        "pieces": [
+          {
+            "path": "assets/product-hero/desktop-v8/fibriki-food-v2.webp",
+            "sourceWidth": 1254,
+            "sourceHeight": 1254,
+            "bbox": [
+              56,
+              13,
+              1180,
+              1182
+            ],
+            "x": 0,
+            "y": 169.77758007117438,
+            "width": 630,
+            "height": 655.2224199288256
+          }
+        ]
+      },
+      "accents": [
+        {
+          "path": "assets/product-hero/desktop-v8/accent.webp",
+          "sourceWidth": 1254,
+          "sourceHeight": 1254,
+          "bbox": [
+            262,
+            247,
+            901,
+            998
+          ],
+          "x": 100,
+          "y": 35,
+          "width": 65,
+          "height": 76.39280125195619,
+          "rotation": -15
+        },
+        {
+          "path": "assets/product-hero/desktop-v8/accent.webp",
+          "sourceWidth": 1254,
+          "sourceHeight": 1254,
+          "bbox": [
+            262,
+            247,
+            901,
+            998
+          ],
+          "x": 880,
+          "y": 205,
+          "width": 65,
+          "height": 76.39280125195619,
+          "rotation": 18
+        }
+      ],
+      "shadows": []
+    },
+    "meatballs": {
+      "hen": {
+        "path": "assets/product-hero/desktop-v8/meatballs-hen-v4.webp",
+        "sourceWidth": 1254,
+        "sourceHeight": 1254,
+        "bbox": [
+          30,
+          28,
+          1215,
+          1234
+        ],
+        "x": 660,
+        "y": 377.2025316455696,
+        "width": 440,
+        "height": 447.7974683544304
+      },
+      "food": {
+        "path": "assets/product-hero/desktop-v8/meatballs-food-v2.webp",
+        "sourceWidth": 1254,
+        "sourceHeight": 1254,
+        "bbox": [
+          96,
+          19,
+          1133,
+          1162
+        ],
+        "pieces": [
+          {
+            "path": "assets/product-hero/desktop-v8/meatballs-food-v2.webp",
+            "sourceWidth": 1254,
+            "sourceHeight": 1254,
+            "bbox": [
+              96,
+              19,
+              1133,
+              1162
+            ],
+            "x": 0,
+            "y": 130.60270009643205,
+            "width": 630,
+            "height": 694.397299903568
+          }
+        ]
+      },
+      "accents": [
+        {
+          "path": "assets/product-hero/desktop-v8/accent.webp",
+          "sourceWidth": 1254,
+          "sourceHeight": 1254,
+          "bbox": [
+            262,
+            247,
+            901,
+            998
+          ],
+          "x": 100,
+          "y": 35,
+          "width": 65,
+          "height": 76.39280125195619,
+          "rotation": -18
+        },
+        {
+          "path": "assets/product-hero/desktop-v8/accent.webp",
+          "sourceWidth": 1254,
+          "sourceHeight": 1254,
+          "bbox": [
+            262,
+            247,
+            901,
+            998
+          ],
+          "x": 900,
+          "y": 220,
+          "width": 65,
+          "height": 76.39280125195619,
+          "rotation": 20
+        }
+      ],
+      "shadows": []
+    },
+    "nuggets": {
+      "hen": {
+        "path": "assets/product-hero/desktop-v8/nuggets-hen-v3.webp",
+        "sourceWidth": 1254,
+        "sourceHeight": 1254,
+        "bbox": [
+          63,
+          13,
+          1172,
+          1238
+        ],
+        "x": 650,
+        "y": 327.9305680793508,
+        "width": 450,
+        "height": 497.0694319206492
+      },
+      "food": {
+        "path": "assets/product-hero/desktop-v8/nuggets-food-v3.webp",
+        "sourceWidth": 1254,
+        "sourceHeight": 1254,
+        "bbox": [
+          37,
+          209,
+          1206,
+          1027
+        ],
+        "pieces": [
+          {
+            "path": "assets/product-hero/desktop-v8/nuggets-food-v3.webp",
+            "sourceWidth": 1254,
+            "sourceHeight": 1254,
+            "bbox": [
+              37,
+              209,
+              1206,
+              1027
+            ],
+            "x": -80,
+            "y": 335.1796407185629,
+            "width": 700,
+            "height": 489.8203592814371
+          }
+        ]
+      },
+      "accents": [
+        {
+          "path": "assets/product-hero/desktop-v8/accent.webp",
+          "sourceWidth": 1254,
+          "sourceHeight": 1254,
+          "bbox": [
+            262,
+            247,
+            901,
+            998
+          ],
+          "x": 100,
+          "y": 35,
+          "width": 70,
+          "height": 82.26917057902973,
+          "rotation": -15
+        },
+        {
+          "path": "assets/product-hero/desktop-v8/accent.webp",
+          "sourceWidth": 1254,
+          "sourceHeight": 1254,
+          "bbox": [
+            262,
+            247,
+            901,
+            998
+          ],
+          "x": 915,
+          "y": 190,
+          "width": 65,
+          "height": 76.39280125195619,
+          "rotation": 20
+        }
+      ],
+      "shadows": []
+    },
+    "lulia-mini": {
+      "hen": {
+        "path": "assets/product-hero/desktop-v8/lulia-mini-hen-v2.webp",
+        "sourceWidth": 1254,
+        "sourceHeight": 1254,
+        "bbox": [
+          3,
+          7,
+          1244,
+          1246
+        ],
+        "x": 665,
+        "y": 390.7010475423046,
+        "width": 435,
+        "height": 434.2989524576954,
+        "flip": true
+      },
+      "food": {
+        "path": "assets/product-hero/desktop-v8/lulia-mini-food-v2.webp",
+        "sourceWidth": 1254,
+        "sourceHeight": 1254,
+        "bbox": [
+          80,
+          15,
+          1160,
+          1186
+        ],
+        "pieces": [
+          {
+            "path": "assets/product-hero/desktop-v8/lulia-mini-food-v2.webp",
+            "sourceWidth": 1254,
+            "sourceHeight": 1254,
+            "bbox": [
+              80,
+              15,
+              1160,
+              1186
+            ],
+            "x": 0,
+            "y": 141.91666666666663,
+            "width": 630,
+            "height": 683.0833333333334
+          }
+        ]
+      },
+      "accents": [
+        {
+          "path": "assets/product-hero/desktop-v8/accent.webp",
+          "sourceWidth": 1254,
+          "sourceHeight": 1254,
+          "bbox": [
+            262,
+            247,
+            901,
+            998
+          ],
+          "x": 100,
+          "y": 35,
+          "width": 65,
+          "height": 76.39280125195619,
+          "rotation": -18
+        },
+        {
+          "path": "assets/product-hero/desktop-v8/accent.webp",
+          "sourceWidth": 1254,
+          "sourceHeight": 1254,
+          "bbox": [
+            262,
+            247,
+            901,
+            998
+          ],
+          "x": 915,
+          "y": 220,
+          "width": 65,
+          "height": 76.39280125195619,
+          "rotation": 18
+        }
+      ],
+      "shadows": []
+    },
+    "popsy": {
+      "hen": {
+        "path": "assets/product-hero/desktop-v8/popsy-hen-v3.webp",
+        "sourceWidth": 1254,
+        "sourceHeight": 1254,
+        "bbox": [
+          154,
+          22,
+          1143,
+          1226
+        ],
+        "x": 580,
+        "y": 191.95652173913038,
+        "width": 520,
+        "height": 633.0434782608696
+      },
+      "food": {
+        "path": "assets/product-hero/desktop-v8/popsy-food-v3.webp",
+        "sourceWidth": 1254,
+        "sourceHeight": 1254,
+        "bbox": [
+          21,
+          25,
+          1207,
+          1200
+        ],
+        "pieces": [
+          {
+            "path": "assets/product-hero/desktop-v8/popsy-food-v3.webp",
+            "sourceWidth": 1254,
+            "sourceHeight": 1254,
+            "bbox": [
+              21,
+              25,
+              1207,
+              1200
+            ],
+            "x": -180,
+            "y": 52.23440134907253,
+            "width": 780,
+            "height": 772.7655986509275
+          }
+        ]
+      },
+      "accents": [
+        {
+          "path": "assets/product-hero/desktop-v8/accent.webp",
+          "sourceWidth": 1254,
+          "sourceHeight": 1254,
+          "bbox": [
+            262,
+            247,
+            901,
+            998
+          ],
+          "x": -50,
+          "y": 90,
+          "width": 65,
+          "height": 76.39280125195619,
+          "rotation": -15
+        },
+        {
+          "path": "assets/product-hero/desktop-v8/accent.webp",
+          "sourceWidth": 1254,
+          "sourceHeight": 1254,
+          "bbox": [
+            262,
+            247,
+            901,
+            998
+          ],
+          "x": 950,
+          "y": 45,
+          "width": 65,
+          "height": 76.39280125195619,
+          "rotation": 18
+        }
+      ],
+      "shadows": []
+    }
+  }
+}

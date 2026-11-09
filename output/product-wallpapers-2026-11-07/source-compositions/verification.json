@@ -1,0 +1,35 @@
+[
+  {
+    "file": "01-cream-original-art.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "unique_source_products": 17,
+    "core_products": 17,
+    "embedded_source_bytes_unchanged": true,
+    "visual_check": "All distinguishing product names visible; original label and artwork content retained."
+  },
+  {
+    "file": "02-orange-original-art.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "unique_source_products": 17,
+    "core_products": 17,
+    "embedded_source_bytes_unchanged": true,
+    "visual_check": "All distinguishing product names visible; original label and artwork content retained."
+  },
+  {
+    "file": "03-chocolate-original-art.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "unique_source_products": 17,
+    "core_products": 17,
+    "embedded_source_bytes_unchanged": true,
+    "visual_check": "All distinguishing product names visible; original label and artwork content retained."
+  }
+]

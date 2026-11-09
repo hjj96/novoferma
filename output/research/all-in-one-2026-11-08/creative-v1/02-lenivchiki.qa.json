@@ -1,0 +1,18 @@
+{
+  "status": "accepted",
+  "source": "/Users/andrey/.codex/generated_images/01a1bac9-022c-72b2-a216-f15efc619b1b/exec-1a91307f-4ed5-40bd-877a-e26cf55fe5e3.png",
+  "file": "/Users/andrey/Desktop/сайт нф/output/research/all-in-one-2026-11-08/creative-v1/02-lenivchiki.png",
+  "tool": "built-in image_gen",
+  "size": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "fully_transparent_fraction": 0.5259,
+  "inspection": "Recognizable hen reclines in pale cabbage-leaf hammock. Two whole unbreaded browned chicken-rice-vegetable patties plus a cut half on cream plate; visible white rice, carrot, cabbage. No text, logo or packaging. Complete scene, no edge cropping.",
+  "limitations": "Two feet partly overlap; no material anatomy defect. Image has real alpha and soft semi-transparent contact shadows."
+}

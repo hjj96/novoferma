@@ -1,0 +1,32 @@
+REJECTED generation: user rejected drift in text/art; stop received after call completed. No second generation attempted.
+Mode: built-in image_gen
+References: references/regular-01-07.png; references/regular-08-14.png; references/novelties.png
+
+Use case: product-mockup.
+Asset type: ONE finished portrait photographic wallpaper/poster, aspect ratio 3:4, requested 2160 x 2880 px.
+Primary request: an abundant, living cream pinwheel of the REAL Novoferma food packages across an ivory matte seamless studio floor. Make a highly polished magazine still life photographed as wallpaper. This is a loose kinetic scatter of physical packages, not a catalogue page.
+Reference images: Image 1 has original approved sleeves for products 01–07. Image 2 has original approved sleeves for 08–14. Image 3 has original approved sleeves for 15–17. The numbers/names BELOW packages are reference annotations only and must never appear in the output. Extract each actual package identity from these sheets. The reference SHEET LAYOUT is irrelevant.
+CRITICAL composition: portrait 3:4. Approximately 24–28 LOW WIDE transparent food trays with cream cardboard sleeves, lying flat face-up and covering the ENTIRE portrait in an irregular organic pinwheel / flowing diagonal scatter. Give individual packages STRONGLY DIFFERENT IN-PLANE ROTATIONS across -65 to +65 degrees, plus a few cropped edge packages at +110 and -110 degrees. At least several central packages must be oriented conspicuously diagonally left and several diagonally right. No common upright orientation. No rectangular grid, rows, catalogue pattern, or evenly aligned columns. No central blank circle, no empty headline area. Natural small overlaps of corners, but names and illustrations on the seventeen main packages remain visible. Some repeated packages are cut off at all four frame edges, suggesting endless continuation. Similar actual size across the range.
+Camera: near overhead at 75 degrees above the floor, subtle perspective and visible low tray depth. Photographic realism, NOT flat graphic cutouts. Long soft contact shadows cast towards lower left from warm afternoon sun at upper right. Cream tactile label stock, clear ridged plastic, restrained specular highlights, sharp print and a refined warm editorial finish.
+All SEVENTEEN unique source designs MUST be included at least once, with correct original title-to-mascot pairing:
+01 КОТЛЕТЫ КУРИНЫЕ — chef chicken, stack of breaded cutlets.
+02 БИТОЧКИ КУРИНЫЕ С ОВОЩАМИ — vegetables and orange chicken.
+03 ЁЖИКИ ИЗ ЦЫПЛЕНКА С РИСОМ — chicken and little hedgehogs.
+04 КУРИНЫЙ ПОПКОРН — chicken with popcorn-filled bowl.
+05 НАГГЕТСЫ КУРИНЫЕ — athletic chicken and nugget on a plate.
+06 НАГГЕТСЫ КУРИНЫЕ С СЫРОМ — cheese-pulling chicken, cheese cubes.
+07 «ДИНОЗАВРЫ» НАГГЕТСЫ КУРИНЫЕ — two yellow chick/dinosaur mascots and dinosaur nugget shapes.
+08 НАГГЕТСЫ КУРИНЫЕ ОСТРЫЕ — flame-breathing chicken and red chili.
+09 ФИТНЕС НАГГЕТСЫ С ИНДЕЙКОЙ — green ФИТНЕС title and sporty turkey lifting nuggets.
+10 СТРИПСЫ — chicken pulling a cart of strips.
+11 КОТЛЕТЫ ПО-ДОМАШНЕМУ — home-chef chicken in checked apron and a light unbreaded patty. Never label this Italian.
+12 КОТЛЕТЫ ПИКАНТНЫЕ — chicken with vegetables and pan of cutlets.
+13 КОТЛЕТЫ ПО-ИТАЛЬЯНСКИ — standing chicken with raised wings and stack of grilled patties on right.
+14 ФРИКАДЕЛЬКИ КЛАССИЧЕСКИЕ — flying chef chicken and meatballs.
+15 ФИБРИКИ — chicken holding spoon and sliced meatball, small herb flecks in tray.
+16 ЛЮЛЯ МИНИ — home-chef chicken, oval small chicken sausages with herb and vegetable flecks.
+17 ПОПСЫ — rocker chicken with sticks and orange bucket of mini nuggets.
+The three newest products ФИБРИКИ, ЛЮЛЯ МИНИ, ПОПСЫ should be clearly visible with prominent full packages distributed along the central diagonal, not grouped into a row. The fourteen regular products form the abundant living field around them.
+Invariants: the exact low near-square clear tray and cream wraparound cardboard sleeve construction from source photos; entire original sleeve artwork and layout including orange NOVOferma logo, Cyrillic names, original mascots, food photos, material, colours and correct pairing for every SKU. Use existing packaging print as source textures. Reposition, rotate and relight only. The overall scene should feel fresh, varied, rich and realistic.
+Avoid: tall cartons, bags, thick shipping boxes, generic invented product families, mixed-up titles or mascots, foreign brands, uniform orientation, catalogue grid, source backdrops, source annotations, a central empty disc, separate headline, external copy, watermark, frame, loose food, herbs, props, hands, utensils, illustrated poster style, digital flat collage look, motion blur. ONE clean finished portrait image only.
+

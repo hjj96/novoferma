@@ -1,0 +1,16 @@
+Use case: product-mockup.
+Create a single polished product packaging packshot for a new Russian NOVOferma product named «ПОПСЫ».
+Input image 1 is style/reference packaging for Fibriki, input image 2 is style/reference packaging for chicken popcorn. Match the recognizable brand family, camera perspective, physical packaging format, orange NOVOferma logo identity, cream paper sleeve and richly illustrated orange chicken mascot. These are references, not food to copy.
+
+Main subject: one transparent ribbed rectangular plastic food tray with a broad arched matte cream printed paper sleeve around it. Front three-quarter view from slightly above, almost straight-on like reference images. Whole package centered and fully visible with generous transparent margins. Genuine transparent background, no white rectangle or checkerboard, no extra objects outside packaging. Very high resolution, approximately 1536x1536 or larger if available.
+
+Exact readable printed wording only:
+top orange italic brand: "NOVOferma"
+very large dark warm brown elegant high-contrast serif product name: "ПОПСЫ"
+smaller dark brown spaced sans-serif line: "МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ"
+smaller line below: "В ХРУСТЯЩЕЙ ПАНИРОВКЕ"
+Correct Cyrillic exact spelling, not Latin substitutions, visually clear and centered. The main title is the largest element. Preserve restrained creamy typography-led aesthetic from the references. No invented claims, no mass or net weight, no nutrition, no ingredients, no barcode, no small unreadable copy, no certification.
+
+Food: pops are tiny irregular rounded chicken mince nuggets, roughly 2–3 cm each, with uneven craggy but fine golden breadcrumb crust. They are small, bumpy irregular spheres or little round clumps, NOT flat large nuggets, NOT long strips, NOT perfect smooth meatballs, NOT whole-muscle popcorn with big flaky cornflake coating. On printed sleeve left show 4–5 appetizing prepared golden pops, one clean cut half showing a uniform pale white finely minced chicken interior, no fibrous whole chicken. Under clear ribbed tray reveal many matching small golden breaded irregular round pops.
+
+On sleeve right a large hand-painted illustrated friendly yellow-orange chicken mascot closely related to the references, with red comb, russet feather edges and lively eyes; new pose holding a little rust-orange paper cup of these golden pops. Keep chicken anatomy coherent and clearly chicken; no humans, no extra limbs. A restrained terracotta accent may appear on cup. The sleeve retains a cream background. Lighting: soft professional food studio lighting, convincing paper/plastic materials, realistic refraction/ribs, crisp label illustration and appetizing food texture. Professional final catalog image, not a collage or concept sheet.

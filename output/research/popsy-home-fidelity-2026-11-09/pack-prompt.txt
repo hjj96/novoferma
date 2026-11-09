@@ -1,0 +1,17 @@
+Use case: background-extraction / precise-object-edit.
+Asset type: production website packshot cutout with real transparent alpha.
+
+EDIT the attached approved Novoferma Popсы hero screenshot. Isolate ONLY the exact pictured physical Popсы package from the left middle of this screenshot, preserving its original photography, perspective, diagonal tilt, shape, printed art, color, tray and original soft contact shadow. This is extraction, not a packaging redesign and not a new generic packshot. Source region approximately x265..908 and y300..880 of the 1585x992 screenshot. Use ONLY this attached screenshot as source of truth; do not substitute a frontal/symmetrical stock package.
+
+TARGET: a square 1150 x 1150 transparent PNG-like canvas with the extracted package large and centered, full package and its soft shadow inside a small safe transparent margin.
+CRITICAL source preservation:
+- Keep the photographed sleeve brighter warm cream exactly as source.
+- Keep the exact curved trapezoid silhouette and original oblique/diagonal presentation: package leans toward upper left, its left upright edge slopes slightly right as it descends, top sleeve is bowed, lower front opening and tray angle remain as photographed. DO NOT straighten, level, square up, rotate to frontal or change camera angle.
+- Preserve exact orange NOVOferma logo on sleeve, large brown serif ПОПСЫ lettering, small Russian product descriptor, the printed drummer rooster with leather vest and orange bucket, small printed food images, their relative positions and sizes.
+- Keep rooster ONLY as the art PRINTED on sleeve.
+- Preserve clear plastic tray rounded corners, horizontal ridges, translucent highlights and the visible pale uncooked mini nuggets within, exactly like source.
+- Retain the actual realistic SOFT low-contrast contact shadow underneath the tray and sleeve, using semi-transparent alpha fading naturally into full transparency. The shadow grounds the package. No solid cream floor rectangle, no colored backdrop, no baked checkerboard. Light shadow only, not a huge dramatic cast shadow or detached drop shadow.
+- Do not remove shading integral to package photo. Do not darken the cream sleeve.
+
+Remove all other screenshot elements entirely: page header, wordmark outside package, navigation, huge background ПОПСЫ title, orange handwritten slogan, body text, all buttons, all separate cooked nuggets/crumbs on the right, and original cream background. DO NOT invent new outside food, mascot, props or labels. No text outside package.
+Preserve source pixels and geometry as much as possible. Full package not cropped. It must look like the exact approved package has been lifted out of the approved screen onto transparent alpha, ready to place back at its exact photographed tilt.

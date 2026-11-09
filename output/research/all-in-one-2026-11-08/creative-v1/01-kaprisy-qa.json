@@ -1,0 +1,34 @@
+{
+  "direction": "01-kaprisy",
+  "date": "2026-11-08",
+  "status": "accepted",
+  "asset": "01-kaprisy.png",
+  "width": 1536,
+  "height": 1024,
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "fullyTransparentPixels": 664072,
+  "totalPixels": 1572864,
+  "generationMode": "built-in image_gen",
+  "targetedCorrectionCount": 1,
+  "sourceGeneratedPng": "/Users/andrey/.codex/generated_images/01a1bac8-e1e8-7580-9de6-39073b41c2a8/exec-26c20d90-8073-47fa-a4fc-24064253ffd3.png",
+  "visualChecks": {
+    "henIdentity": "Pass: golden-orange feathered hen, red comb and wattle, pale beak, expressive eyes",
+    "anatomy": "Pass: two wings, two feet, no duplicate characters",
+    "scene": "Pass: magician cape, separate lifted silver cloche, revealed patties and restrained rice/cabbage/carrot ingredients",
+    "food": "Pass: unbreaded browned flattened patties; cut half shows rice, cabbage and carrot",
+    "textLogosPackaging": "Pass: none",
+    "alpha": "Pass: alpha confirmed in file; coordinator verified clean transparency over cream background using Playwright",
+    "cropping": "Pass: no clipped subject"
+  },
+  "remainingDefects": [],
+  "notes": [
+    "view_image displays hidden RGB under alpha-zero regions; its apparent amber background is not visible in the browser composite.",
+    "No programmatic pixel edits; PNG was copied byte-for-byte from built-in image_gen output.",
+    "No website files changed or deployed."
+  ]
+}
+

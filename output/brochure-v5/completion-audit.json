@@ -1,0 +1,56 @@
+{
+  "pages": 8,
+  "catalogue_split": [
+    5,
+    5,
+    4
+  ],
+  "original_package_photos": 14,
+  "all_names_and_masses_match_source": true,
+  "source_JPEGs_unchanged": true,
+  "protein_slide": {
+    "juggler": true,
+    "native_flying_value": "52 г белка",
+    "small_pack": "Classic500g",
+    "daily_percent": 69,
+    "reference_g_per_day": 75,
+    "explanation_footnote": true
+  },
+  "fibriki_slide": {
+    "merged_fibre_story": true,
+    "current_site_juggler": "fibriki-art-v6",
+    "small_package": true,
+    "natural_protein_and_fibre_trend": true,
+    "status": "Новинка"
+  },
+  "partnership_slide": {
+    "two_equal_columns": true,
+    "own_brand_left": true,
+    "STM_right": true,
+    "exact_site_headings": true,
+    "mascots": 0
+  },
+  "closing": {
+    "only_requested_text_removed": true,
+    "pixel_difference_bbox": [
+      483,
+      819,
+      841,
+      839
+    ],
+    "allowed_removal_roi": [
+      473,
+      810,
+      850,
+      846
+    ]
+  },
+  "welcome": {
+    "company_intro": true,
+    "manufacturer": true,
+    "Saint_Petersburg": true
+  },
+  "visual_audit": "All8slides individually inspected by coordinator and independent reviewer; no must-fix findings.",
+  "external_study_links": 0,
+  "file_size_mb": 11.92
+}

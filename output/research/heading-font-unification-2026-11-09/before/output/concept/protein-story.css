@@ -1,0 +1,88 @@
+/* All type stays live. The approved scene is assembled from independent layers. */
+@font-face {
+ font-family:'Novoferma Protein';
+ src:url('assets/fonts/RobotoFlex-Protein.woff2') format('woff2');
+ font-weight:850;
+ font-stretch:normal;
+ font-style:normal;
+ font-display:swap;
+}
+.protein-poster {
+ background:#d8dca1;
+ background-image:radial-gradient(ellipse at 38% 45%,#e1e5b4 0,#d8dca1 70%,#d1d89b 100%);
+ color:#402111;
+}
+.protein-poster-inner {
+ position:relative;
+ container-type:inline-size;
+ width:100%;
+ max-width:1920px;
+ margin-inline:auto;
+ aspect-ratio:1909 / 824;
+ isolation:isolate;
+}
+.protein-poster-copy {position:relative;z-index:2;width:45%;padding:5.8% 0 0 4.1%}
+.protein-poster-eyebrow {
+ font-size:clamp(11px,1.1cqw,21px);
+ font-weight:700;
+ letter-spacing:.18em;
+ line-height:1.5;
+ text-transform:uppercase;
+ margin:0 0 1.1cqw;
+}
+.protein-poster-title {
+ font-family:'Novoferma Protein',var(--font-poster);
+ font-weight:850;
+ font-stretch:normal;
+ font-size:7.6cqw;
+ letter-spacing:-.012em;
+ line-height:.94;
+ text-transform:uppercase;
+ text-wrap:initial;
+ margin:0;
+}
+.protein-poster-title span,.protein-poster-title em {display:block;white-space:nowrap}
+.protein-poster-title span {width:auto;transform:none}
+.protein-poster-title em {width:auto;transform:none;color:#c94310;font-style:normal;font-size:1em}
+.protein-poster-description {
+ max-width:29.2cqw;
+ margin:1.1cqw 0 0;
+ font-size:clamp(17px,1.6cqw,31px);
+ line-height:1.35;
+ font-weight:450;
+ letter-spacing:-.02em;
+}
+.protein-poster-scene,.protein-poster-art {position:absolute;inset:0;pointer-events:none}
+.protein-poster-scene {pointer-events:auto}
+.protein-poster-art {z-index:1}
+.protein-food,.protein-hen {position:absolute}
+/* Normalize transparent canvas margins in CSS; bitmap proportions stay unchanged. */
+.protein-food {left:34%;bottom:9.9%;width:42.6%;aspect-ratio:988 / 688}
+.protein-food img {position:absolute;display:block;width:146.5587%;max-width:none;height:auto;left:-22.4696%;top:-28.0523%}
+.protein-hen {right:.4%;bottom:11.2%;width:31.5%}
+.protein-hen img {display:block;width:100%;height:auto;max-width:none}
+.protein-poster-caption {
+ position:absolute;
+ z-index:3;
+ left:61.5%;
+ top:8%;
+ color:#cc430d;
+ font-family:var(--font-hand);
+ font-weight:700;
+ font-size:3.2cqw;
+ line-height:.9;
+ text-align:center;
+ transform:rotate(-12deg);
+ margin:0;
+}
+@media(max-width:899px) {
+ .protein-poster-inner {aspect-ratio:auto;padding-bottom:14%}
+ .protein-poster-copy {width:100%;padding:10.7% 7.7% 0}
+ .protein-poster-eyebrow {font-size:clamp(10px,2.7cqw,19px);letter-spacing:.16em;margin-bottom:5cqw}
+ .protein-poster-title {font-size:17.5cqw;letter-spacing:-.012em;line-height:.94}
+ .protein-poster-description {font-size:clamp(16px,4.65cqw,34px);line-height:1.35;max-width:none;margin-top:5cqw}
+ .protein-poster-scene {position:relative;inset:auto;height:61cqw;margin-top:5.3cqw}
+ .protein-food {width:62.5%;left:2.5%;bottom:0}
+ .protein-hen {width:49.5%;right:.2%;bottom:1%}
+ .protein-poster-caption {left:43%;top:0;font-size:7.2cqw;line-height:.9}
+}

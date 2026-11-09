@@ -1,0 +1,127 @@
+{
+  "sections": 3,
+  "firstSection": "Red company introduction; left title, right equal paragraphs",
+  "oldHeroRemoved": true,
+  "staticChecks": "pass: 23 pages",
+  "interactionChecks": "pass: 24/24",
+  "responsive": [
+    {
+      "documentWidth": 320,
+      "h1": "Когдасвои рядом.",
+      "overflow": [],
+      "paragraphs": [
+        {
+          "color": "rgb(255, 245, 227)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "24.8px",
+          "size": "16px",
+          "weight": "450"
+        },
+        {
+          "color": "rgb(255, 245, 227)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "24.8px",
+          "size": "16px",
+          "weight": "450"
+        }
+      ],
+      "sections": 3,
+      "width": 320
+    },
+    {
+      "documentWidth": 390,
+      "h1": "Когдасвои рядом.",
+      "overflow": [],
+      "paragraphs": [
+        {
+          "color": "rgb(255, 245, 227)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "26.35px",
+          "size": "17px",
+          "weight": "450"
+        },
+        {
+          "color": "rgb(255, 245, 227)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "26.35px",
+          "size": "17px",
+          "weight": "450"
+        }
+      ],
+      "sections": 3,
+      "width": 390
+    },
+    {
+      "documentWidth": 768,
+      "h1": "Когдасвои рядом.",
+      "overflow": [],
+      "paragraphs": [
+        {
+          "color": "rgb(255, 245, 227)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "27.9px",
+          "size": "18px",
+          "weight": "450"
+        },
+        {
+          "color": "rgb(255, 245, 227)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "27.9px",
+          "size": "18px",
+          "weight": "450"
+        }
+      ],
+      "sections": 3,
+      "width": 768
+    },
+    {
+      "documentWidth": 1024,
+      "h1": "Когдасвои рядом.",
+      "overflow": [],
+      "paragraphs": [
+        {
+          "color": "rgb(255, 245, 227)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "27.9px",
+          "size": "18px",
+          "weight": "450"
+        },
+        {
+          "color": "rgb(255, 245, 227)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "27.9px",
+          "size": "18px",
+          "weight": "450"
+        }
+      ],
+      "sections": 3,
+      "width": 1024
+    },
+    {
+      "documentWidth": 1440,
+      "h1": "Когдасвои рядом.",
+      "overflow": [],
+      "paragraphs": [
+        {
+          "color": "rgb(255, 245, 227)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "34.1px",
+          "size": "22px",
+          "weight": "450"
+        },
+        {
+          "color": "rgb(255, 245, 227)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "34.1px",
+          "size": "22px",
+          "weight": "450"
+        }
+      ],
+      "sections": 3,
+      "width": 1440
+    }
+  ],
+  "publication": "Prepared and validated only; parallel homepage work is still in progress. Permanent URL remains previous version.",
+  "preparedPackage": "prepared-site.zip",
+  "preparedPackageSha256": "74fd51fb15bca05141930ba03334082feb21c71ba38ad659131d5c613d9236d7"
+}

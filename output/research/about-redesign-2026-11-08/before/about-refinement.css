@@ -1,0 +1,253 @@
+/* About: a quiet editorial grid with a clear boundary between copy and imagery. */
+.page-about {
+ --nf-about-ink:#402111;
+ --nf-about-muted:#795e4c;
+ --nf-about-accent:#c54215;
+ --nf-about-line:#d8c7aa;
+}
+.page-about .nf-about-container {
+ width:min(1296px,calc(100% - 96px));
+ margin-inline:auto;
+}
+.page-about .nf-about-kicker {
+ margin:0 0 24px;
+ font-family:var(--font-display);
+ font-size:11px;
+ line-height:1.5;
+ letter-spacing:.12em;
+ text-transform:uppercase;
+ font-weight:650;
+ color:var(--nf-about-muted);
+}
+.page-about .nf-about-hero {
+ display:grid;
+ grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+ gap:clamp(40px,5vw,80px);
+ align-items:center;
+ padding-block:48px 88px;
+}
+.page-about .nf-about-intro {min-width:0;padding-bottom:12px}
+.page-about .nf-about-intro h1 {
+ max-width:16ch;
+ margin:0 0 32px;
+ font-family:var(--font-display);
+ font-size:clamp(48px,4.75vw,76px);
+ font-weight:560;
+ line-height:1.06;
+ letter-spacing:-.05em;
+ text-transform:none;
+ text-wrap:initial;
+ color:var(--nf-about-ink);
+}
+.page-about .nf-about-intro h1 > span {display:block}
+.page-about .nf-about-intro h1 em {font-style:normal;color:var(--nf-about-accent)}
+.page-about .nf-about-lead {
+ max-width:38ch;
+ margin:0;
+ font-size:clamp(18px,1.55vw,22px);
+ line-height:1.5;
+ font-weight:450;
+ color:var(--nf-about-ink);
+}
+.page-about .nf-about-body {
+ max-width:44ch;
+ margin:18px 0 0;
+ font-size:16px;
+ line-height:1.6;
+ color:var(--nf-about-muted);
+}
+.page-about .nf-about-link {
+ display:inline-flex;
+ align-items:center;
+ justify-content:space-between;
+ gap:32px;
+ min-height:48px;
+ margin-top:24px;
+ padding-block:8px;
+ border-bottom:1px solid var(--nf-about-ink);
+ font-size:14px;
+ font-weight:650;
+ transition:color .2s,border-color .2s;
+}
+.page-about .nf-about-link .ui-icon {width:20px;height:20px;flex:none}
+.page-about .nf-about-link:hover {color:var(--nf-about-accent);border-color:var(--nf-about-accent)}
+.page-about .nf-about-meal,
+.page-about .nf-about-pack {min-width:0;margin:0;transform:none;rotate:none}
+.page-about .nf-about-meal > img {
+ display:block;
+ width:100%;
+ height:auto;
+ aspect-ratio:1;
+ object-fit:cover;
+ border-radius:3px;
+}
+.page-about .nf-about-meal > figcaption,
+.page-about .nf-about-pack > figcaption {
+ position:static;
+ display:block;
+ width:auto;
+ margin:0;
+ padding:14px 0 0;
+ transform:none;
+ rotate:none;
+ background:none;
+ box-shadow:none;
+ color:var(--nf-about-muted);
+ font-family:var(--font-display);
+ font-size:12px;
+ font-weight:400;
+ line-height:1.5;
+ letter-spacing:0;
+}
+.page-about .nf-about-packaging {
+ display:grid;
+ grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+ gap:clamp(40px,5vw,80px);
+ align-items:center;
+ padding-block:0 80px;
+}
+.page-about .nf-about-pack-stage {
+ display:grid;
+ place-items:center;
+ width:100%;
+ aspect-ratio:1.1;
+ padding:28px;
+ background:#f1e4ce;
+ border-radius:3px;
+}
+.page-about .nf-about-pack-stage > img {
+ display:block;
+ width:100%;
+ height:100%;
+ min-width:0;
+ min-height:0;
+ max-height:100%;
+ object-fit:contain;
+ transform:none;
+ filter:none;
+}
+.page-about .nf-about-pack-copy {max-width:490px;padding-bottom:20px}
+.page-about .nf-about-pack-copy h2 {
+ margin:0 0 24px;
+ font-family:var(--font-display);
+ font-size:clamp(36px,3.5vw,52px);
+ font-weight:550;
+ line-height:1.08;
+ letter-spacing:-.045em;
+ text-transform:none;
+ color:var(--nf-about-ink);
+}
+.page-about .nf-about-facts {
+ display:grid;
+ grid-template-columns:repeat(3,minmax(0,1fr));
+ column-gap:48px;
+ padding-block:0 80px;
+}
+.page-about .nf-about-fact {min-width:0;border-top:1px solid var(--nf-about-line);padding-top:24px}
+.page-about .nf-about-number {
+ margin:0 0 20px;
+ font-size:12px;
+ font-weight:500;
+ color:var(--nf-about-accent);
+ font-variant-numeric:tabular-nums;
+}
+.page-about .nf-about-fact h2 {
+ margin:0 0 12px;
+ font-family:var(--font-display);
+ font-size:22px;
+ line-height:1.25;
+ font-weight:550;
+ letter-spacing:-.025em;
+ text-transform:none;
+ text-wrap:initial;
+}
+.page-about .nf-about-fact > p:last-child {margin:0;max-width:33ch;font-size:15px;line-height:1.6;color:var(--nf-about-muted)}
+.page-about .nf-about-character {background:#f0e1c7;margin:0;padding:0}
+.page-about .nf-about-character-inner {
+ display:flex;
+ gap:44px;
+ align-items:center;
+ justify-content:flex-start;
+ padding-block:36px;
+}
+.page-about .nf-about-character-inner > img {
+ width:140px;
+ height:140px;
+ flex:0 0 140px;
+ object-fit:contain;
+ transform:none;
+}
+.page-about .nf-about-character-inner > div {min-width:0;max-width:620px}
+.page-about .nf-about-character .nf-about-kicker {margin-bottom:10px;font-size:10px}
+.page-about .nf-about-character h2 {
+ margin:0 0 12px;
+ font-family:var(--font-display);
+ font-size:34px;
+ font-weight:550;
+ line-height:1.15;
+ letter-spacing:-.035em;
+ text-transform:none;
+ text-wrap:initial;
+}
+.page-about .nf-about-character p:not(.nf-about-kicker) {margin:0;font-size:16px;line-height:1.55;color:var(--nf-about-muted)}
+
+@media(min-width:960px) and (max-width:1199px) {
+ .page-about .nf-about-hero {gap:40px}
+ .page-about .nf-about-intro h1 {font-size:clamp(46px,4.9vw,58px)}
+ .page-about .nf-about-lead {font-size:18px}
+ .page-about .nf-about-body {font-size:15px}
+ .page-about .nf-about-facts {column-gap:32px}
+ .page-about .nf-about-fact h2 {font-size:20px}
+}
+@media(max-width:959px) {
+ .page-about .nf-about-hero {grid-template-columns:1fr;gap:36px;padding-block:36px 64px}
+ .page-about .nf-about-intro {padding-bottom:0}
+ .page-about .nf-about-intro h1 {max-width:19ch;font-size:clamp(44px,6.8vw,60px);margin-bottom:26px}
+ .page-about .nf-about-lead {max-width:50ch;font-size:20px}
+ .page-about .nf-about-body {max-width:57ch}
+ .page-about .nf-about-meal {max-width:none}
+ .page-about .nf-about-packaging {gap:32px;padding-bottom:64px}
+ .page-about .nf-about-pack-stage {padding:18px;aspect-ratio:1}
+ .page-about .nf-about-pack-copy {padding-bottom:0}
+ .page-about .nf-about-pack-copy h2 {font-size:36px}
+ .page-about .nf-about-pack-copy .nf-about-lead {font-size:18px}
+ .page-about .nf-about-pack-copy .nf-about-body {font-size:15px}
+ .page-about .nf-about-facts {column-gap:24px;padding-bottom:64px}
+ .page-about .nf-about-fact h2 {font-size:19px}
+ .page-about .nf-about-fact > p:last-child {font-size:14px}
+}
+@media(max-width:699px) {
+ .page-about .nf-about-container {width:calc(100% - 40px)}
+ .page-about .nf-about-hero {gap:28px;padding-block:30px 48px}
+ .page-about .nf-about-kicker {margin-bottom:18px;font-size:10px}
+ .page-about .nf-about-intro h1 {font-size:clamp(34px,9vw,40px);line-height:1.09;letter-spacing:-.045em;max-width:19ch;margin-bottom:24px}
+ .page-about .nf-about-lead {font-size:18px;line-height:1.5}
+ .page-about .nf-about-body {font-size:15px;line-height:1.6;margin-top:16px}
+ .page-about .nf-about-link {margin-top:18px;font-size:14px;gap:28px}
+ .page-about .nf-about-meal > figcaption,
+ .page-about .nf-about-pack > figcaption {font-size:11px;padding-top:11px}
+ .page-about .nf-about-packaging {grid-template-columns:1fr;gap:24px;padding-bottom:48px}
+ .page-about .nf-about-pack {order:2}
+ .page-about .nf-about-pack-stage {aspect-ratio:1.12;padding:22px}
+ .page-about .nf-about-pack-copy h2 {font-size:34px;margin-bottom:20px;line-height:1.1}
+ .page-about .nf-about-pack-copy .nf-about-lead {font-size:18px}
+ .page-about .nf-about-pack-copy .nf-about-body {font-size:15px}
+ .page-about .nf-about-facts {grid-template-columns:1fr;gap:26px;padding-bottom:48px}
+ .page-about .nf-about-fact {display:grid;grid-template-columns:30px minmax(0,1fr);gap:0 14px;padding-top:20px}
+ .page-about .nf-about-number {grid-column:1;grid-row:1 / 3;margin:3px 0 0;font-size:11px}
+ .page-about .nf-about-fact h2 {grid-column:2;font-size:20px;margin-bottom:8px}
+ .page-about .nf-about-fact > p:last-child {grid-column:2;font-size:15px;max-width:33ch}
+ .page-about .nf-about-character-inner {gap:20px;padding-block:28px;align-items:center}
+ .page-about .nf-about-character-inner > img {width:88px;height:110px;flex-basis:88px}
+ .page-about .nf-about-character .nf-about-kicker {font-size:9px;letter-spacing:.08em;margin-bottom:9px}
+ .page-about .nf-about-character h2 {font-size:26px;line-height:1.15;margin-bottom:10px}
+ .page-about .nf-about-character p:not(.nf-about-kicker) {font-size:14px;line-height:1.5}
+}
+@media(max-width:359px) {
+ .page-about .nf-about-container {width:calc(100% - 32px)}
+ .page-about .nf-about-intro h1 {font-size:34px}
+ .page-about .nf-about-pack-stage {padding:16px}
+ .page-about .nf-about-character-inner {gap:14px}
+ .page-about .nf-about-character-inner > img {width:70px;height:100px;flex-basis:70px}
+ .page-about .nf-about-character h2 {font-size:24px}
+}

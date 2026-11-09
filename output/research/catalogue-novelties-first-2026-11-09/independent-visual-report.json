@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "widths": [
+    1440,
+    390,
+    320
+  ],
+  "order": "fibriki, lenivchiki, lulia-mini, popsy; followed by all original 14 IDs in unchanged order",
+  "weight": "All 4 catalogue cards and all 4 product-page eyebrows show 400 г, confirmed in captured DOM at all 3 widths. Manifest weights all 400 г.",
+  "fibriki": "v12 used at all widths; no 52/5 labels or live nutrition block.",
+  "visual": "Inspected first-four catalogue screenshots at 1440/390 and Fibriki hero at 1440/390. Complete packaging silhouettes, comparable scale and cream color, readable headings, mass and novelty status; no material collisions or horizontal overflow.",
+  "errors": {
+    "pageErrors": [],
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  "screenshotsInspected": [
+    "independent-first-four-1440.png",
+    "independent-first-four-390.png",
+    "independent-fibriki-hero-1440.png",
+    "independent-fibriki-hero-390.png"
+  ],
+  "limitations": [
+    "Local Chrome file preview with file access enabled, DPR1, reduced motion.",
+    "320px checked through DOM/overflow and quick catalogue screenshot; no extensive screenshot audit at 320px.",
+    "The capture helper temporarily sets image loading to eager in its isolated browser document to avoid waiting indefinitely on hidden lazy images. Site files were not altered.",
+    "Live publication, version and noindex verification are performed by root; not claimed by this local QA."
+  ],
+  "testCorrection": "The mass matcher was made case-insensitive after inspecting captured DOM: CSS text-transform uppercases the visible unit to Г. All captured eyebrow strings contain 400 Г. No website change or browser rerun was required."
+}

@@ -3,6 +3,9 @@ from pathlib import Path
 import json,html,hashlib,re,argparse
 from urllib.parse import quote, urlparse
 from site_sections import where_section
+from brand_layout import render_footer, render_business
+from brand_about import render_about, render_catalogue_preview
+from popsy_home import render_popsy_home
 ROOT=Path(__file__).resolve().parent.parent
 SITE=ROOT/'output/concept'
 parser=argparse.ArgumentParser(description='Build the Novoferma static site from verified content.')
@@ -14,7 +17,7 @@ asset_manifest=SITE/'asset-variants.json'
 image_variants=json.loads(asset_manifest.read_text()).get('assets',{}) if asset_manifest.exists() else {}
 PAGE_META={
  'index.html':'Продукты Новофермы из курицы и индейки: наггетсы, котлеты, фрикадельки и стрипсы. Выберите продукт и узнайте, как уточнить наличие в вашем городе.',
- 'catalogue.html':'Каталог Новофермы: продукты из курицы и индейки, названия и масса упаковок. Выбор по категории и виду мяса, отдельные страницы продуктов и новинок.',
+ 'catalogue.html':'Каталог Новофермы: котлеты, наггетсы, фрикадельки и другие продукты из курицы и индейки. Названия, масса упаковок и отдельные страницы продуктов и новинок.',
  'about.html':'О Новоферме: компания из Санкт-Петербурга, продукты из охлаждённого мяса птицы, прозрачная упаковка и фирменные персонажи.',
  'where-to-buy.html':'Где искать Новоферму: карточки товаров в интернет-магазинах, проверка наличия по адресу и запрос по выбранному продукту в вашем городе.',
  'partners.html':'Новоферма для магазинов, HoReCa и СТМ: ассортимент, форматы упаковки и запрос условий поставки в ваш город.',
@@ -27,10 +30,12 @@ def responsive_markup(markup):
   entry=image_variants.get(html.unescape(found.group(1)).split('?')[0])
   if not entry:return tag
   sizes='(max-width: 699px) calc((100vw - 56px) / 2), (max-width: 1099px) 30vw, 320px' if 'tilt-plane' in tag else '(max-width: 699px) 70vw, 600px'
-  if 'catalogue-mascot' in tag:sizes='(max-width: 699px) 86px, (max-width: 1099px) 170px, 210px'
-  elif 'contacts-mascot' in tag:sizes='(max-width: 699px) 84px, (max-width: 959px) 27vw, (max-width: 1199px) 25vw, (max-width: 1499px) 24vw, 360px'
+  if 'contacts-mascot' in tag:sizes='(max-width: 699px) 84px, (max-width: 959px) 27vw, (max-width: 1199px) 25vw, (max-width: 1499px) 24vw, 360px'
   elif 'brand-character-art' in tag:sizes='(max-width: 699px) min(74vw, 280px), (max-width: 1099px) 270px, 300px'
   elif 'story-mascot' in tag:sizes='240px'
+  elif 'nf-business-mascot' in tag:sizes='(max-width: 699px) clamp(120px, 36vw, 180px), (max-width: 1099px) clamp(160px, 18vw, 200px), clamp(180px, 18vw, 260px)'
+  elif 'popsy-rock-art' in tag or 'popsy-lifestyle' in tag:sizes='(max-width: 699px) calc(100vw - 40px), (max-width: 1099px) calc((100vw - 96px) / 2), 600px'
+  elif 'lenivchiki-scene' in tag:sizes='(max-width: 699px) calc(100vw - 40px), (max-width: 1099px) calc((100vw - 96px) / 2), 600px'
   elif 'nuggets-layer-v2' in found.group(1):sizes='(max-width: 899px) 92vw, (max-width: 1392px) 63vw, 875px'
   elif 'hen-layer-v2' in found.group(1):sizes='(max-width: 899px) 50vw, (max-width: 1392px) 32vw, 445px'
   tag=tag.replace(found.group(0),f'src="{entry["src"]}" srcset="{entry["srcset"]}" sizes="{sizes}"')
@@ -57,21 +62,23 @@ nav=[('catalogue.html','Продукция'),('about.html','О нас'),('partne
 def header(active,current):
  links=''.join(f'<a href="{url}"'+(' class="is-section-active"' if active==url else '')+(' aria-current="page"' if current==url else '')+f'>{name}</a>' for url,name in nav)
  return f'''<a class="skip-link" href="#main">Перейти к содержанию</a><header class="site-header"><div class="wrap header-inner"><a class="brand" href="index.html" aria-label="Новоферма — главная"><img src="assets/logo-reference.webp" width="342" height="64" alt="NOVOferma"></a><nav class="desktop-nav" aria-label="Основная навигация">{links}</nav><div class="header-actions">{btn('Где купить','where-to-buy.html')}<button class="menu-toggle" aria-label="Открыть меню" aria-controls="site-menu" aria-expanded="false">{icon('menu-2')}</button></div></div></header><dialog id="site-menu" class="menu-dialog" aria-label="Меню сайта"><div class="menu-top"><a class="brand" href="index.html"><img src="assets/logo-reference.webp" width="342" height="64" alt="NOVOferma"></a><button class="menu-close icon-button" aria-label="Закрыть меню">{icon("x")}</button></div><nav aria-label="Мобильная навигация">{links}<a href="where-to-buy.html">Где купить</a></nav></dialog>'''
-def footer():return f'''<footer class="site-footer"><div class="wrap"><div class="footer-top"><a class="brand" href="index.html"><img src="assets/logo-reference.webp" width="342" height="64" alt="NOVOferma"></a>{hand('Для ужина. Для кино. Для своих.')}<a class="footer-mail" href="mailto:info@novoferma.ru">info@novoferma.ru {arrow()}</a></div><div class="footer-bottom"><p>© 2026 ООО «НОВОФЕРМА»</p><nav aria-label="Навигация в подвале"><a href="catalogue.html">Продукция</a><a href="partners.html">Партнёрам</a><a href="contacts.html">Контакты</a></nav><a href="tel:+78129155454">+7 (812) 915-54-54</a></div></div></footer>'''
+def footer():return render_footer(arrow)
 def page(filename,title,content,active='',desc=''):
  desc=desc or PAGE_META.get(filename,f'{title}. Продукция Новофермы из курицы и индейки: информация о продукте и контакты для уточнения наличия.')
- extra = f'<link rel="stylesheet" href="{asset_url("product-hero.css")}"><script src="{asset_url("product-hero.js")}" defer></script>' if filename == 'index.html' else ''
+ extra = ''
  story_style = f'<link rel="stylesheet" href="{asset_url("protein-story.css")}">' if filename == 'index.html' else ''
  contact_style = f'<link rel="stylesheet" href="{asset_url("contacts.css")}">' if filename == 'contacts.html' else ''
  catalogue_style = f'<link rel="stylesheet" href="{asset_url("catalogue.css")}">' if filename == 'catalogue.html' else ''
  partner_style = f'<link rel="stylesheet" href="{asset_url("partnership.css")}">' if filename in ('about.html','catalogue.html') else ''
  partner_scenes = f'<link rel="stylesheet" href="{asset_url("partners-scenes.css")}"><script src="{asset_url("partners-scenes.js")}" defer></script>' if filename == 'partners.html' else ''
  s=f'''<!doctype html><html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#fff5e3"><meta name="description" content="{esc(desc)}"><title>{esc(title)} — Новоферма</title><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><meta property="og:type" content="website"><meta property="og:locale" content="ru_RU"><meta property="og:site_name" content="Новоферма"><meta property="og:title" content="{esc(title)} — Новоферма"><meta property="og:description" content="{esc(desc)}"><link rel="stylesheet" href="{asset_url('assets/fonts/font-face.css')}"><link rel="stylesheet" href="{asset_url('style.css')}"><link rel="stylesheet" href="{asset_url('depth.css')}"><link rel="stylesheet" href="{asset_url('design-system.css')}"><link rel="stylesheet" href="{asset_url('polish.css')}"><link rel="stylesheet" href="{asset_url('motion.css')}"><script src="{asset_url('script.js')}" defer></script><script src="{asset_url('depth.js')}" defer></script></head><body class="page-{filename.removesuffix(".html")}">{header(active,filename)}<main id="main">{content}</main>{footer()}<button class="to-top icon-button" aria-label="Наверх">{icon("arrow-up")}</button></body></html>'''
- preview_style = f'<link rel="stylesheet" href="{asset_url("product-cards.css")}">' if filename in ('index.html','catalogue.html') or filename.startswith('product-') else ''
+ preview_style = f'<link rel="stylesheet" href="{asset_url("product-cards.css")}">' if filename in ('index.html','catalogue.html','about.html') or filename.startswith('product-') else ''
  home_style = f'<link rel="stylesheet" href="{asset_url("home-unified.css")}">' if filename == 'index.html' else ''
  detail_style=f'<link rel="stylesheet" href="{asset_url("product-detail.css")}">' if filename.startswith('product-') else ''
+ fibriki_style=f'<link rel="stylesheet" href="{asset_url("fibriki.css")}">' if filename == 'product-fibriki.html' else ''
+ popsy_style=f'<link rel="stylesheet" href="{asset_url("popsy.css")}">' if filename == 'product-popsy.html' else ''
+ lenivchiki_style=f'<link rel="stylesheet" href="{asset_url("lenivchiki.css")}">' if filename == 'product-lenivchiki.html' else ''
  where_assets=f'<link rel="stylesheet" href="{asset_url("where-to-buy.css")}"><script src="{asset_url("where-to-buy.js")}" defer></script>' if filename=='where-to-buy.html' else ''
- catalogue_script=f'<script src="{asset_url("catalogue.js")}" defer></script>' if filename=='catalogue.html' else ''
  metadata=''
  if PUBLIC_URL:
   canonical=PUBLIC_URL+'/'+filename
@@ -81,17 +88,19 @@ def page(filename,title,content,active='',desc=''):
   if filename!='index.html':crumbs.append({'@type':'ListItem','position':len(crumbs)+1,'name':title,'item':canonical})
   data={'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':crumbs}
   metadata+='<script type="application/ld+json">'+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>'
- s=s.replace('</head>',extra+f'<link rel="stylesheet" href="{asset_url("mobile.css")}">'+story_style+contact_style+partner_style+catalogue_style+partner_scenes+preview_style+home_style+detail_style+catalogue_script+where_assets+metadata+'</head>')
+ s=s.replace('</head>',extra+f'<link rel="stylesheet" href="{asset_url("mobile.css")}">'+story_style+contact_style+partner_style+catalogue_style+partner_scenes+preview_style+home_style+detail_style+fibriki_style+popsy_style+where_assets+f'<link rel="stylesheet" href="{asset_url("brand-refinement.css")}">'+lenivchiki_style+(f'<link rel="stylesheet" href="{asset_url("about-refinement.css")}">' if filename in ('about.html','index.html') else '')+(f'<link rel="stylesheet" href="{asset_url("home-sections.css")}">' if filename=='index.html' else '')+(f'<link rel="stylesheet" href="{asset_url("popsy-home.css")}"><script src="{asset_url("popsy-home.js")}" defer></script>' if filename=='index.html' else '')+metadata+'</head>')
  (SITE/filename).write_text(responsive_markup(s))
 
 def crumb(name): return f'<nav class="breadcrumb wrap" aria-label="Хлебные крошки"><a href="index.html">Главная</a><span aria-hidden="true">/</span><span>{name}</span></nav>'
 def contactband(context):
  invites={
-  'catalogue':('Для вашей полки.','Для вашего меню.','Обсудим интересующие продукты, объём и поставку в ваш город.'),
+  'catalogue':('Для вашей полки.','Для вашего меню.',''),
   'about':('Познакомимся','как партнёры?','Расскажите о вашем магазине или заведении — обсудим сотрудничество.')
  }
  title,accent,copy=invites[context]
- return f'''<section class="cooperation-invite cooperation-invite-{context}" aria-labelledby="invite-{context}-heading"><div class="wrap cooperation-invite-inner"><div class="cooperation-invite-heading"><p class="eyebrow">Магазинам, кафе и ресторанам</p><h2 id="invite-{context}-heading"><span>{title}</span><em>{accent}</em></h2></div><div class="cooperation-invite-response"><p>{copy}</p><a class="cooperation-invite-cta" href="partners.html#partner-contact"><span>Обсудить поставки</span><span class="cooperation-invite-arrow" aria-hidden="true">{arrow()}</span></a></div></div></section>'''
+ eyebrow='<p class="eyebrow">Магазинам, кафе и ресторанам</p>' if context!='catalogue' else ''
+ description=f'<p>{copy}</p>' if copy else ''
+ return f'''<section class="cooperation-invite cooperation-invite-{context}" aria-labelledby="invite-{context}-heading"><div class="wrap cooperation-invite-inner"><div class="cooperation-invite-heading">{eyebrow}<h2 id="invite-{context}-heading"><span>{title}</span><em>{accent}</em></h2></div><div class="cooperation-invite-response">{description}<a class="cooperation-invite-cta" href="partners.html#partner-contact"><span>Обсудить поставки</span><span class="cooperation-invite-arrow" aria-hidden="true">{arrow()}</span></a></div></div></section>'''
 
 # Source data is replaced by the verified inventory when available.
 fallback=[
@@ -140,59 +149,52 @@ for i,p in enumerate(products):
 def find(part):return next((p for p in products if part in p['name'].lower()),products[0])
 def card(p):
  turkey=p.get('meatKey','turkey' if 'индейк' in p['meat'].lower() else 'chicken')
- meta=' · '.join(str(value) for value in (p.get('meat'),p.get('weight')) if value)
+ meat=f'<span class="product-meat">{esc(p["meat"])}</span>' if p.get('meat') else ''
+ weight=f'<span class="product-weight">{esc(p["weight"]).replace(" ", "&nbsp;")}</span>' if p.get('weight') else ''
  anchor=f' id="{esc(p["anchor"])}"' if p.get('anchor') else ''
- status='<span class="product-status">Концепт новинки</span>' if p.get('concept') else ''
- return f'''<article class="product-card packshot-preview"{anchor} data-product-id="{p['id']}" data-meat="{turkey}" data-category="{esc(p['category'])}" data-name="{esc(p['name'].lower())}"><a class="product-image product-card-link" href="{p['url']}"><span class="packshot-stage" data-tilt><img class="tilt-plane" src="{p['image']}" width="800" height="800" loading="lazy" decoding="async" alt=""></span><span class="product-meta"><span>{esc(meta)}</span>{status}</span><h3 class="product-title">{esc(p['name'])}<span class="circle-arrow" aria-hidden="true">{arrow()}</span></h3></a></article>'''
+ status='<span class="product-status">Новинка</span>' if p.get('novelty') else ''
+ return f'''<article class="product-card packshot-preview"{anchor} data-product-id="{p['id']}" data-meat="{turkey}" data-category="{esc(p['category'])}" data-name="{esc(p['name'].lower())}"><a class="product-image product-card-link" href="{p['url']}"><span class="packshot-stage" data-tilt><img class="tilt-plane" src="{p['image']}" width="800" height="800" loading="lazy" decoding="async" alt=""></span><h3 class="product-title">{esc(p['name'])}</h3><span class="product-meta">{meat}{weight}{status}</span></a></article>'''
 def cards(items):return ''.join(card(p) for p in items)
 
-def product_hero():
- items=[
-  dict(id='meatballs',name='Фрикадельки',subtitle='Есть вкусный<br>повод собраться.',description='Классические куриные фрикадельки.<br>Для ужина. Для своих.'),
-  dict(id='nuggets',name='Наггетсы',subtitle='Классические куриные',description='Хрустящие куриные наггетсы.<br>Нежно внутри. Любимые с детства.'),
-  dict(id='fibriki',name='Фибрики',kicker='Фрикадельки из курицы',subtitle='Знакомимся с новым',description='Идея куриных фрикаделек<br>с пищевыми волокнами.',new=True),
-  dict(id='lulia-mini',name='Люля мини',subtitle='Куриные колбаски<br>с зеленью и овощами',description='Новый формат знакомого вкуса.<br>Познакомьтесь с концептом.',new=True)
- ]
- art_layout=json.loads((SITE/'assets/product-hero/art-layout-v4.json').read_text())
- panels='';controls=''
- for i,p in enumerate(items):
-  a=art_layout[p['id']];active=i==0
-  artAttrs='decoding="sync" fetchpriority="high"' if active else 'decoding="async"'
-  artSrc=asset_url('assets/product-hero/'+p['id']+'-art-v4.webp')
-  deferred=f'src="{artSrc}"' if active else f'src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E" data-src="{artSrc}"'
-  art=f'<div class="product-scene-art" aria-hidden="true"><span class="hero-art-frame" style="--art-ratio:{a["ratio"]};--art-size:{a["size"]}%;--art-left:{a["left"]}%;--art-top:{a["top"]}%"><img {deferred} width="1672" height="941" alt="" {artAttrs}></span></div>'
-  new='<p class="hero-new">Концепт новинки</p>' if p.get('new') else ''
-  kicker=f'<p class="product-scene-kicker">{p["kicker"]}</p>' if p.get('kicker') else ''
-  heading='h2'
-  title=f'<{heading} class="product-scene-title"><span class="product-title-live">{p["name"]}</span></{heading}>'
-  subtitle=f'<p class="product-scene-subtitle">{p["subtitle"]}</p>'
-  destination={'meatballs':'product-frikadelki-klassicheskie.html','nuggets':'product-naggetsy-kurinye.html','fibriki':'product-fibriki.html','lulia-mini':'product-lulia-mini.html'}[p['id']]
-  action='О новинке' if p.get('new') else 'О продукте'
-  panels+=f'<article class="product-scene product-scene-{p["id"]}{" is-active" if active else ""}" id="scene-{p["id"]}" role="tabpanel" aria-labelledby="pick-{p["id"]}" aria-hidden="{str(not active).lower()}"{"" if active else " inert"}>{art}<div class="product-scene-content">{new}<div class="hero-text-stack">{title}<div class="product-scene-copy"><div class="hero-subheading">{kicker}{subtitle}</div><p class="product-scene-description">{p["description"].replace("<br>","<br> ")}</p></div></div><a class="button product-scene-cta" href="{destination}">{action}{arrow()}</a></div></article>'
-  controls+=f'<button class="product-picker" id="pick-{p["id"]}" role="tab" aria-label="{p["name"]}" aria-selected="{str(active).lower()}" aria-controls="scene-{p["id"]}" tabindex="{0 if active else -1}" data-product-index="{i}" data-product-name="{p["name"]}"><span class="product-picker-mark" aria-hidden="true"></span><span class="product-picker-label">{p["name"]}</span></button>'
- return f'<section class="product-showcase" aria-label="Новоферма и наши продукты" aria-roledescription="карусель" data-product-carousel><h1 class="sr-only">Новоферма — продукты из курицы и индейки</h1><div class="product-controls"><div class="product-pickers" role="tablist" aria-label="Выбрать слайд">{controls}</div><div class="product-playback"><button class="product-arrow" data-product-prev aria-label="Предыдущий слайд">{icon("arrow-left",size=23)}</button><button class="product-arrow" data-product-next aria-label="Следующий слайд">{icon("arrow-right",size=23)}</button></div></div><div class="product-stage"><img class="product-stage-paper" src="{asset_url("assets/product-hero/background-v2.webp")}" width="1672" height="941" alt="" aria-hidden="true" fetchpriority="high"><img class="product-stage-background" src="{asset_url("assets/product-hero/shared-floor-v11.webp")}" width="1672" height="941" alt="" aria-hidden="true">{panels}</div><p class="sr-only" aria-live="polite" aria-atomic="true" data-product-announcement></p></section>'
+def hero_image_attrs(src,active):
+ return f'src="{src}" decoding="async" fetchpriority="high"' if active else f'src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E" data-src="{src}" decoding="async"'
 
-# Catalogue-only previews keep the two novelties out of the verified SKU inventory.
-catalogue_products=products+[
- dict(id='fibriki',name='Фибрики',meat='Из курицы',meatKey='chicken',weight='',category='Фрикадельки и ёжики',image=asset_url('assets/novelty-packaging/fibriki-pack-v11.webp'),url='product-fibriki.html',previewTone=3,previewLean='left',anchor='novelties',concept=True,description='Концепт куриных фрикаделек с пищевыми волокнами.'),
- dict(id='lulia-mini',name='Люля мини',meat='Из курицы',meatKey='chicken',weight='',category='Люля мини',image=asset_url('assets/novelty-packaging/lulia-mini-pack-v3.webp'),url='product-lulia-mini.html',previewTone=4,previewLean='right',concept=True,description='Концепт мини-колбасок из курицы с зеленью и овощами.')
+def desktop_hero_cutout(source,bounds,position,active,kind,canvas=(1100,850)):
+ x0,y0,x1,y1=bounds;w=x1-x0;h=y1-y0
+ style=f'left:{position["x"]/canvas[0]*100:.4f}%;top:{position["y"]/canvas[1]*100:.4f}%;width:{position["width"]/canvas[0]*100:.4f}%;aspect-ratio:{w}/{h};--crop-scale:{source["sourceWidth"]/w*100:.6f}%;--crop-left:{-x0/w*100:.6f}%;--crop-top:{-y0/h*100:.6f}%'
+ if position.get('rotation'):style+=f';transform:rotate({position["rotation"]}deg)'
+ if position.get('flip'):style+=';transform:scaleX(-1)'
+ # The transparent portrait source prevents fetching desktop-only pixels on phones.
+ blank=asset_url('assets/product-hero/desktop-v8/empty.svg')
+ return f'<span class="hero-cutout hero-{kind}-cutout" style="{style}"><picture><source media="(max-width: 699px) and (orientation: portrait)" srcset="{blank}"><img class="hero-layer-image" {hero_image_attrs(asset_url(source["path"]),active)} width="{source["sourceWidth"]}" height="{source["sourceHeight"]}" alt=""></picture></span>'
+
+def product_hero():
+ return render_popsy_home(asset_url,icon)
+
+# Keep novelties first without changing the verified original inventory.
+novelty_products=[
+ dict(id='fibriki',name='Фибрики',meat='Из курицы',meatKey='chicken',weight='400 г',category='Фрикадельки и ёжики',image=asset_url('assets/novelty-packaging/fibriki-pack-v12.webp'),url='product-fibriki.html',previewTone=3,previewLean='left',anchor='novelties',novelty=True,description='Куриные фрикадельки с пищевыми волокнами. К любимому гарниру, в суп или с соусом.'),
+ dict(id='lenivchiki',name='Ленивчики',meat='Из курицы',meatKey='chicken',weight='400 г',category='Биточки',image=asset_url('assets/novelty-packaging/lenivchiki-pack-v1.webp'),url='product-lenivchiki.html',previewTone=1,previewLean='right',novelty=True,description='Биточки из курицы с рисом, капустой и морковью. Ленивые голубцы в новом формате: мясо, гарнир и овощи вместе.'),
+ dict(id='lulia-mini',name='Люля мини',meat='Из курицы',meatKey='chicken',weight='400 г',category='Люля мини',image=asset_url('assets/novelty-packaging/lulia-mini-pack-v3.webp'),url='product-lulia-mini.html',previewTone=4,previewLean='right',novelty=True,description='Мини-колбаски из курицы с зеленью и овощами. Маленький формат для новых сочетаний и любимых гарниров.'),
+ dict(id='popsy',name='Попсы',meat='Из курицы',meatKey='chicken',weight='400 г',category='Наггетсы',image=asset_url('assets/novelty-packaging/popsy-pack-v4.webp'),url='product-popsy.html',previewTone=2,previewLean='left',novelty=True,description='Мини-наггетсы из курицы. Маленькие неровные кусочки из куриного фарша в хрустящей панировке.')
 ]
+catalogue_products=novelty_products+products
 
 def protein_poster():
- return f'''<section class="protein-poster" id="protein" aria-labelledby="protein-poster-heading"><div class="protein-poster-inner"><div class="protein-poster-copy"><p class="protein-poster-eyebrow home-kicker">02 / Заглянем внутрь</p><h2 id="protein-poster-heading" class="protein-poster-title home-editorial-title"><span>В основе —</span> <em>птица.</em></h2><p class="protein-poster-description">Курица и индейка — природные источники белка. Мы делаем из них то, что вы любите.</p></div><div class="protein-poster-scene"><p class="protein-poster-caption">Вот что<br>внутри!<span class="protein-caption-arrow" aria-hidden="true"></span></p><div class="protein-poster-art" aria-hidden="true"><div class="protein-food"><img src="{asset_url('assets/protein-story/nuggets-layer-v2.webp')}" width="1448" height="1086" loading="lazy" decoding="async" alt=""></div><div class="protein-hen"><img src="{asset_url('assets/protein-story/hen-layer-v2.webp')}" width="1254" height="1254" loading="lazy" decoding="async" alt=""></div></div></div></div></section>'''
+ return f'''<section class="protein-poster" id="protein" aria-labelledby="protein-poster-heading"><div class="protein-poster-inner"><div class="protein-poster-copy"><h2 id="protein-poster-heading" class="protein-poster-title home-section-title"><span>В основе —</span> <em>птица.</em></h2><p class="protein-poster-description">Курица и индейка — основа знакомых блюд. С хрустящей корочкой, нежной начинкой и вашим любимым гарниром.</p></div><div class="protein-poster-scene"><p class="protein-poster-caption">Вот что<br>внутри!</p><div class="protein-poster-art" aria-hidden="true"><div class="protein-food"><img src="{asset_url('assets/protein-story/nuggets-layer-v2.webp')}" width="1448" height="1086" loading="lazy" decoding="async" alt=""></div><div class="protein-hen"><img src="{asset_url('assets/protein-story/hen-layer-v2.webp')}" width="1254" height="1254" loading="lazy" decoding="async" alt=""></div></div></div></div></section>'''
 
 home=f'''{product_hero()}
-<section class="section wrap home-products" id="products"><div class="section-heading reveal"><div><p class="eyebrow home-kicker">01 / выбираем любимое</p><h2 class="home-editorial-title"><span>У каждого —</span> <span>свой вкус.</span></h2></div><div class="heading-aside">{btn('Весь каталог','catalogue.html')}</div></div><div class="product-grid featured">{cards([find('наггетсы куриные'),find('попкорн'),find('стрипсы'),find('фрикадельки')])}</div></section>
+{render_catalogue_preview(cards([next(p for p in catalogue_products if p['id']=='popsy'),find('наггетсы куриные'),find('стрипсы'),find('фрикадельки')]), arrow, heading_id='home-products-heading', section_id='products')}
 {protein_poster()}
-<section class="brand-story brand-partnership" id="cooperation" aria-labelledby="cooperation-heading"><div class="wrap brand-inner"><p class="eyebrow home-kicker partnership-eyebrow reveal">03 / для вашего бизнеса</p><h2 class="partnership-title home-editorial-title reveal" id="cooperation-heading"><span>Давайте</span> <span>работать</span> <em>вместе.</em></h2><div class="brand-copy reveal"><p class="partnership-lead">Производим замороженные продукты из курицы и индейки для вашего бизнеса.</p><dl class="partnership-formats"><div><dt>HoReCa</dt><dd>Для меню кафе, ресторанов и отелей.</dd></div><div><dt>СТМ</dt><dd>Продукция под вашей торговой маркой.</dd></div></dl><div class="partnership-actions">{btn('Обсудить сотрудничество','partners.html#partner-contact')}<a class="partnership-secondary" href="about.html">О производстве{arrow()}</a></div></div></div><img class="story-mascot" src="{asset_url('assets/mascot-partnership-v2.webp')}" width="1086" height="1448" loading="lazy" decoding="async" alt="" aria-hidden="true"></section>
-<section class="section wrap where-preview"><div class="reveal"><p class="eyebrow home-kicker">04 / осталось попробовать</p><h2 class="home-editorial-title"><span>Встретимся</span> <span>на полке.</span></h2><p>Поможем узнать, где искать<br>Новоферму в вашем городе.</p></div><div class="editorial-links reveal"><a href="where-to-buy.html"><h3>Где купить {arrow()}</h3><p>Уточните точки продаж в вашем городе</p></a><a href="contacts.html"><h3>Задать вопрос {arrow()}</h3><p>О продукте, приготовлении или сотрудничестве</p></a></div></section>'''
+{render_business(arrow)}
+<section class="where-preview" aria-labelledby="where-preview-heading"><div class="wrap home-section-inner where-preview-inner"><div class="where-preview-copy"><h2 class="home-section-title" id="where-preview-heading">Где нас<br><span>найти.</span></h2><p>Подскажем, где искать Новоферму в вашем городе.</p></div><div class="editorial-links"><a href="where-to-buy.html"><h3>Где купить {arrow()}</h3><p>Уточните точки продаж в вашем городе</p></a><a href="contacts.html"><h3>Задать вопрос {arrow()}</h3><p>О продукте, приготовлении или сотрудничестве</p></a></div></div></section>'''
 page('index.html','Есть повод собраться',home)
 
-catalogue=crumb('Продукция')+f'''<section class="wrap catalogue-page" aria-labelledby="catalogue-heading">
-<div class="page-heading catalogue-heading reveal"><div><p class="eyebrow">Продукция Новофермы</p><h1 id="catalogue-heading">Что сегодня?</h1><p class="catalogue-intro">Из курицы и индейки.<br>Для ужина и не только.</p></div><img class="catalogue-mascot" src="{asset_url('assets/product-hero/running-mascot-v2.webp')}" width="1280" height="1280" alt="" aria-hidden="true"></div>
-<div class="catalogue-tools" data-catalogue-tools hidden><fieldset class="catalogue-filter-fields"><legend>Подобрать продукт</legend><label>Категория<select id="catalogue-category"><option value="">Все категории</option>{''.join(f'<option value="{esc(category)}">{esc(category)}</option>' for category in dict.fromkeys(p['category'] for p in catalogue_products))}</select></label><label>Мясо птицы<select id="catalogue-meat"><option value="">Курица и индейка</option><option value="chicken">Из курицы</option><option value="turkey">С индейкой</option></select></label><button type="button" class="catalogue-reset">Сбросить</button></fieldset><p class="catalogue-count" role="status" aria-live="polite">Все продукты</p></div>
-<h2 class="sr-only">Выберите свой продукт</h2><div class="product-grid catalogue-grid">{cards(catalogue_products)}</div><div class="catalogue-empty" hidden><h2>Пока нет такого сочетания</h2><p>Попробуйте другую категорию или сбросьте фильтры.</p></div>
-<p class="catalogue-note">Продукция продаётся замороженной. Изображения приготовленных блюд — варианты сервировки.</p></section>{contactband('catalogue')}'''
+catalogue=f'''<section class="catalogue-header" aria-labelledby="catalogue-heading"><div class="wrap catalogue-header-inner">
+<div class="catalogue-heading"><h1 id="catalogue-heading"><span>Каталог</span> <em>продукции</em></h1></div>
+</div></section><section class="wrap catalogue-page" aria-labelledby="catalogue-products-heading">
+<h2 class="sr-only" id="catalogue-products-heading">Выберите свой продукт</h2><div class="product-grid catalogue-grid">{cards(catalogue_products)}</div>
+</section>{contactband('catalogue')}'''
 page('catalogue.html','Продукция',catalogue,'catalogue.html')
 
 def product_information(p):
@@ -204,24 +206,52 @@ def product_information(p):
   else:content=f'<p>{esc(value)}</p>'
   sections.append(f'<details><summary>{title}</summary>{content}</details>')
  if sections:return '<div class="product-information"><h2>О продукте</h2>'+''.join(sections)+'</div>'
- request=f'Здравствуйте! Пришлите, пожалуйста, актуальный состав, информацию об аллергенах, пищевую ценность, хранение и способ приготовления продукта: {p["name"]}, {p.get("weight","")}. Спасибо!'
+ requested_product=p['name']+(f', {p["weight"]}' if p.get('weight') else '')
+ request=f'Здравствуйте! Пришлите, пожалуйста, актуальный состав, информацию об аллергенах, пищевую ценность, хранение и способ приготовления продукта: {requested_product}. Спасибо!'
  return f'<div class="product-information"><h2>Состав и приготовление</h2><p>Перед покупкой проверьте состав и способ приготовления на актуальной этикетке. Если упаковки нет под рукой, запросите подробности у нашей команды.</p><a class="text-link" href="mailto:info@novoferma.ru?subject={quote("Информация о продукте: "+p["name"])}&amp;body={quote(request)}">Запросить информацию{arrow()}</a></div>'
+
+def fibriki_story():
+ return '''<section class="fibriki-story" aria-labelledby="fibriki-story-heading"><div class="wrap fibriki-story-inner"><h2 id="fibriki-story-heading">Знакомимся<br><em>с Фибриками.</em></h2><div class="fibriki-story-copy"><p>В основе Фибриков — курица и пищевые волокна. Мы соединяем их в блюде, которому легко найти место на домашнем столе.</p><details class="fibriki-fiber"><summary>Клетчатка и пищевые волокна — одно и то же?</summary><p>Да. Клетчатка — привычное название пищевых волокон.</p></details></div></div></section><section class="wrap fibriki-serving" aria-labelledby="fibriki-serving-heading"><h2 id="fibriki-serving-heading">Сегодня —<br><em>с любимым гарниром.</em></h2><p>Подавайте Фибрики с крупой и овощами, добавляйте в суп или сочетайте с любимым соусом.</p></section>'''
+
+def popsy_story():
+ rock=f'<img class="popsy-rock-art" src="{asset_url("assets/popsy/popsy-rock-v3.webp")}" width="1683" height="935" alt="Рок-курочка отбивает ритм на ведёрке с Попсами" loading="lazy" decoding="async">'
+ lifestyle=f'<figure class="popsy-serving-visual"><img class="popsy-lifestyle" src="{asset_url("assets/popsy/popsy-lifestyle-v4.webp")}" width="1536" height="1024" alt="Упаковка Попсов с рок-курочкой, стаканчик готовых Попсов и наушники — идея подачи" loading="lazy" decoding="async"></figure>'
+ return f'''<section class="popsy-story" aria-labelledby="popsy-story-heading"><div class="wrap popsy-story-inner"><div class="popsy-story-heading"><p class="eyebrow">Знакомимся с Попсами</p><h2 id="popsy-story-heading">Хрусти<br><em>в своём ритме.</em></h2>{rock}</div><div class="popsy-story-copy"><p>Попсы — мини-наггетсы из куриного фарша. Округлые, слегка неровные, с золотистой панировкой.</p><h3>Чем отличаются от попкорна?</h3><p>Куриный попкорн мы делаем из цельного кусочка мяса. Попсы — из фарша: внутри у них однородная текстура мини-наггетса.</p><a class="text-link" href="product-kurinyj-popkorn.html">Познакомиться с попкорном{arrow()}</a></div></div></section><section class="wrap popsy-serving" aria-labelledby="popsy-serving-heading"><div class="popsy-serving-copy"><h2 id="popsy-serving-heading">К музыке.<br><em>К своей компании.</em></h2><p>К любимому плейлисту и встречам с друзьями. Подавайте Попсы с любимым соусом — и зовите своих.</p></div>{lifestyle}</section>'''
+
+def lenivchiki_story():
+ scene=f'<img class="lenivchiki-scene" src="{asset_url("assets/lenivchiki/lenivchiki-scene-v1.webp")}" width="1536" height="1024" alt="Курочка отдыхает в гамаке из капустного листа рядом с Ленивчиками — биточками с рисом и овощами" loading="lazy" decoding="async">'
+ return f'''<section class="lenivchiki-story" aria-labelledby="lenivchiki-story-heading"><div class="wrap lenivchiki-story-inner"><div class="lenivchiki-story-copy"><p class="eyebrow">Всё в одном</p><h2 id="lenivchiki-story-heading">Гарнир<br><em>уже внутри.</em></h2><p>Курица, рис, капуста и морковь — всё собрано в каждом биточке. Знакомое сочетание ленивых голубцов в небольшом удобном формате.</p><h3>Разогрейте — и подавайте.</h3><p>Ленивчики готовы к разогреву. Подавайте их как самостоятельное блюдо или дополните любимым соусом. Для обеда дома и спокойного ужина после дел.</p></div><figure class="lenivchiki-story-visual">{scene}</figure></div></section>'''
 
 for p in catalogue_products:
  candidates=[q for q in products if q['id']!=p['id']]
  more=sorted(candidates,key=lambda q:q['category']!=p['category'])[:3]
- concept=p.get('concept',False)
- status='<p class="product-status">Концепт новинки</p>' if concept else ''
- facts=f'<p class="detail-intro">{esc(p["description"])}</p><p class="concept-note">Представлен концепт упаковки. Окончательный вид, характеристики и начало продаж уточняйте у команды Новофермы.</p>' if concept else f'<div class="product-facts"><div><span>Масса нетто</span><strong>{p["weight"]}</strong></div><div><span>Продукт</span><strong>Замороженный</strong></div><div><span>Упаковка</span><strong>{esc(p.get("packaging","контейнер")).capitalize()}</strong></div></div>'
- action='Уточнить о новинке' if concept else 'Где купить'
- info='' if concept else product_information(p)
- original='' if concept else f'<details class="label-reference"><summary>Фото из каталога производителя</summary><img src="{p["officialImage"]}" width="{p.get("imageWidth",900)}" height="{p.get("imageHeight",900)}" alt="{esc(p["name"])} — фото производителя" loading="lazy"><p>Внешний вид и сведения на упаковке могут обновляться. Перед покупкой сверяйте этикетку выбранного товара.</p></details>'
- caption='Визуальный концепт упаковки' if concept else 'Внешний вид упаковки'
- details=crumb(f'<a href="catalogue.html">Продукция</a> / <span aria-current="page">{esc(p["name"])}</span>')+f'''<section class="wrap product-detail"><div class="detail-heading">{status}<p class="eyebrow">{esc(p['category'])} / {esc(p['meat'])}</p><h1>{esc(p['name'])}</h1></div><figure class="detail-visual"><img class="detail-packshot" src="{p['image']}" width="800" height="800" alt="{esc(p['name'])}"><figcaption>{caption}</figcaption></figure><div class="detail-copy">{facts}<div class="detail-actions">{btn(action,'where-to-buy.html?product='+p['id'])}<a class="text-link" href="partners.html">Для партнёров {arrow()}</a></div>{info}{original}</div></section><section class="related-section"><div class="section wrap"><div class="section-heading"><h2>А ещё к столу…</h2>{btn('Весь каталог','catalogue.html')}</div><div class="product-grid featured">{cards(more)}</div></div></section>'''
- description=p['description']+' Информация о концепте и контакт для уточнения начала продаж.' if concept else f'{p["name"]}, {p["weight"]}. {p["meat"]}, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.'
+ if p['id']=='popsy':more=[find('попкорн'),find('наггетсы куриные'),find('стрипсы')]
+ elif p['id']=='kurinyj-popkorn':more=[next(q for q in catalogue_products if q['id']=='popsy')]+more[:2]
+ elif p['id']=='lenivchiki':more=[next(q for q in products if q['id']==slug) for slug in ('ezhiki-iz-tsyplenka-s-risom','bitochki-kurinye-s-ovoshchami','kotlety-kurinye')]
+ elif p['id'] in ('ezhiki-iz-tsyplenka-s-risom','bitochki-kurinye-s-ovoshchami'):more=[next(q for q in catalogue_products if q['id']=='lenivchiki')]+more[:2]
+ status='<p class="product-status">Новинка</p>' if p.get('novelty') else ''
+ facts=f'<p class="detail-intro">{esc(p["description"])}</p>' if p.get('novelty') or not p.get('weight') else f'<div class="product-facts"><div><span>Масса нетто</span><strong>{p["weight"]}</strong></div><div><span>Продукт</span><strong>Замороженный</strong></div><div><span>Упаковка</span><strong>{esc(p.get("packaging","контейнер")).capitalize()}</strong></div></div>'
+ if p['id']=='fibriki':
+  facts='<h2 class="fibriki-lead">Клетчатка —<br>в привычном блюде.</h2><p class="detail-intro">Куриные фрикадельки с пищевыми волокнами. В суп, к любимому гарниру, на домашний ужин.</p>'
+ elif p['id']=='popsy':
+  facts='<h2 class="popsy-lead">Мини-наггетсы<br>из курицы.</h2><p class="detail-intro">Маленькие неровные кусочки из куриного фарша в хрустящей панировке. К любимому соусу, для перекуса или на общий стол.</p>'
+ elif p['id']=='lenivchiki':
+  facts='<h2 class="lenivchiki-lead">Мясо, рис<br>и овощи — вместе.</h2><p class="detail-intro">Небольшие биточки из курицы с рисом, капустой и морковью. Ленивые голубцы в новом формате: разогрейте — и подавайте.</p>'
+ story=fibriki_story() if p['id']=='fibriki' else ''
+ if p['id']=='popsy':story=popsy_story()
+ if p['id']=='lenivchiki':story=lenivchiki_story()
+ action='Где купить'
+ info=product_information(p)
+ original='' if not p.get('officialImage') else f'<details class="label-reference"><summary>Фото из каталога производителя</summary><img src="{p["officialImage"]}" width="{p.get("imageWidth",900)}" height="{p.get("imageHeight",900)}" alt="{esc(p["name"])} — фото производителя" loading="lazy"><p>Внешний вид и сведения на упаковке могут обновляться. Перед покупкой сверяйте этикетку выбранного товара.</p></details>'
+ caption='Внешний вид упаковки'
+ packshot_alt='Упаковка Ленивчиков — биточки из курицы с рисом и овощами' if p['id']=='lenivchiki' else 'Упаковка Фибриков с курочкой-силачкой — куриные фрикадельки с пищевыми волокнами' if p['id']=='fibriki' else p['name']
+ detail_weight=f' / <span class="no-wrap">{esc(p["weight"]).replace(" ","&nbsp;")}</span>' if p.get('novelty') and p.get('weight') else ''
+ details=crumb(f'<a href="catalogue.html">Продукция</a> / <span aria-current="page">{esc(p["name"])}</span>')+f'''<section class="wrap product-detail"><div class="detail-heading">{status}<p class="eyebrow">{esc(p['category'])} / {esc(p['meat'])}{detail_weight}</p><h1>{esc(p['name'])}</h1></div><figure class="detail-visual"><img class="detail-packshot" src="{p['image']}" width="800" height="800" alt="{esc(packshot_alt)}"><figcaption>{caption}</figcaption></figure><div class="detail-copy">{facts}<div class="detail-actions">{btn(action,'where-to-buy.html?product='+p['id'])}<a class="text-link" href="partners.html">Для партнёров {arrow()}</a></div>{info}{original}</div></section>{story}<section class="related-section"><div class="section wrap"><div class="section-heading"><h2>А ещё к столу…</h2>{btn('Весь каталог','catalogue.html')}</div><div class="product-grid featured">{cards(more)}</div></div></section>'''
+ description=p['description']+(f' Масса упаковки — {p["weight"]}.' if p.get('weight') else '')+' Фото упаковки, идеи подачи и поиск покупки.' if p.get('novelty') or not p.get('weight') else f'{p["name"]}, {p["weight"]}. {p["meat"]}, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.'
+ if p['id']=='fibriki':description='Фибрики — куриные фрикадельки с клетчаткой от Новофермы. Белок и пищевые волокна в привычном блюде. Знакомство с продуктом и идеи подачи.'+(f' Масса упаковки — {p["weight"]}.' if p.get('weight') else '')
  page(p['url'],p['name'],details,'catalogue.html',desc=description)
 
-about=crumb('О Новоферме')+f'''<section class="about-hero"><div class="wrap split"><div class="reveal"><p class="eyebrow">Это Новоферма</p><h1>Вкусно,<br>когда<br><em>вместе.</em></h1></div><div class="about-intro reveal"><p>Новоферма — компания из Санкт-Петербурга. Мы производим замороженные полуфабрикаты из курицы и индейки.</p><p>Котлеты и биточки, фрикадельки, наггетсы, куриный попкорн и стрипсы — выбирайте свой вкус.</p></div></div></section><section class="wrap section about-editorial"><figure class="reveal editorial-photo"><img src="assets/catalogue/frikadelki-klassicheskie.webp" width="900" height="900" alt="Прозрачный контейнер фрикаделек Новофермы — фото из каталога производителя" loading="lazy"><figcaption>Фото из каталога производителя</figcaption></figure><div class="reveal"><p class="eyebrow">Прозрачная упаковка</p><h2>Продукт,<br>который видно.</h2><p>Упаковываем продукты в прозрачные контейнеры: содержимое видно до покупки.</p><p>По информации компании, в основе продукции — охлаждённое мясо птицы, а на производстве используется австрийское и итальянское оборудование.</p>{btn('Смотреть продукты','catalogue.html')}</div></section><section class="brand-character" aria-labelledby="character-heading"><div class="wrap brand-character-inner"><div class="brand-character-heading"><p class="eyebrow">Наши герои</p><h2 id="character-heading">С характером.<br>И аппетитом.</h2></div><p class="brand-character-copy">Наши курочки добавляют упаковке характер, а знакомым вкусам — немного домашнего тепла.</p><img class="brand-character-art" src="{asset_url('assets/product-hero/running-mascot-v2.webp')}" width="1254" height="1254" loading="lazy" decoding="async" alt="Фирменная курочка Новофермы в клетчатом фартуке расправляет крылья"></div></section>{contactband('about')}'''
+about=render_about(crumb, asset_url, btn, arrow, cards([next(p for p in catalogue_products if p['id']=='popsy'),find('наггетсы куриные'),find('стрипсы'),find('фрикадельки')]))
 page('about.html','О нас',about,'about.html')
 
 retailer_file=SITE/'retailers.json'
@@ -229,17 +259,12 @@ retailers=json.loads(retailer_file.read_text()) if retailer_file.exists() else [
 where=crumb('Где купить')+where_section(catalogue_products,retailers,arrow)
 page('where-to-buy.html','Где купить',where,'where-to-buy.html')
 
-# Partner offers use the same verified catalogue data as product pages.
-partner_weights={}
-for p in products:
- partner_weights.setdefault(p['category'],set()).add(p['weight'])
-partner_rows=''.join(f'<tr><th scope="row">{esc(category)}</th><td>{esc(", ".join(sorted(weights))).replace(" г", "&nbsp;г")}</td></tr>' for category,weights in partner_weights.items())
 partners=crumb('Партнёрам')+f'''<section class="partners-business" aria-labelledby="partners-heading"><div class="wrap partners-business-inner">
 <div class="partners-business-copy"><p class="eyebrow">Новоферма / Партнёрам</p><h1 id="partners-heading"><span>Дело</span> <span>со вкусом.</span></h1><p class="partners-business-description">Продукты из курицы и&nbsp;индейки <br>для вашего бизнеса.</p><a class="button partners-primary" href="#partner-contact">Стать партнёром{arrow()}</a></div>
 <figure class="partners-business-scene"><div class="partners-scene-disc" aria-hidden="true"></div><img class="partners-host" src="{asset_url('assets/partners-brand-v1/partner-host-v1.webp')}" width="1024" height="1536" alt="Фирменная курочка Новофермы в кремовом пиджаке приглашает к сотрудничеству" fetchpriority="high" decoding="sync"></figure>
 </div></section>
 <section class="partners-offers" aria-label="Форматы сотрудничества"><div class="wrap partners-offers-inner">
-<article class="partners-offer partners-offer-retail" id="partner-retail" aria-labelledby="retail-heading"><p class="eyebrow">Продукция Новофермы</p><h2 id="retail-heading">Для полки.<br><em>Для меню.</em></h2><p class="partners-offer-description">Готовый ассортимент для магазинов, <br>кафе и&nbsp;ресторанов.</p><a class="partners-offer-link" href="catalogue.html">Смотреть каталог{arrow()}</a><details class="partners-specs"><summary>Фасовки из каталога<span aria-hidden="true">+</span></summary><div class="partners-specs-content"><table><thead><tr><th>Продукты</th><th>Масса нетто</th></tr></thead><tbody>{partner_rows}</tbody></table><p>Актуальные фасовки, объём партии и&nbsp;условия поставки уточним при обсуждении заказа.</p></div></details></article>
+<article class="partners-offer partners-offer-retail" id="partner-retail" aria-labelledby="retail-heading"><p class="eyebrow">Продукция Новофермы</p><h2 id="retail-heading">Для полки.<br><em>Для меню.</em></h2><p class="partners-offer-description">Готовый ассортимент для магазинов, кафе и&nbsp;ресторанов.</p><a class="partners-offer-link" href="catalogue.html">Смотреть каталог{arrow()}</a></article>
 <article class="partners-offer partners-offer-stm" id="private-label" aria-labelledby="stm-heading"><p class="eyebrow">Собственная торговая марка</p><h2 id="stm-heading">Ваш бренд.<br><em>Наш продукт.</em></h2><p class="partners-offer-description">Выпускаем продукты <br>под вашей торговой маркой.</p><a class="partners-offer-link" href="#partner-contact" data-partner-format="stm">Обсудить СТМ{arrow()}</a></article>
 </div></section>
 <section class="partners-contact" id="partner-contact" aria-labelledby="partner-contact-heading"><div class="wrap partners-contact-inner"><div class="partners-contact-copy"><p class="eyebrow">Будем на связи</p><h2 id="partner-contact-heading">Давайте<br><em>обсудим.</em></h2><p class="partners-contact-description">Оставьте детали в&nbsp;письме <br>или свяжитесь с&nbsp;нами напрямую.</p><div class="partners-direct"><a class="partners-direct-email" href="mailto:zakaz@novoferma.ru">zakaz@novoferma.ru{arrow()}</a><a class="partners-direct-phone" href="tel:+79312135550">+7 (931) 213-55-50</a></div></div>
@@ -249,7 +274,7 @@ page('partners.html','Партнёрам',partners,'partners.html',desc='Сот�
 
 contacts=crumb('Контакты')+f'''<section class="contacts-main contacts-poster" aria-labelledby="contacts-heading"><div class="wrap contact-layout"><div class="contact-content"><div class="contact-heading reveal"><h1 id="contacts-heading">Мы<br><span class="no-wrap">на связи.</span></h1></div><div class="contact-groups"><section class="contact-group reveal" aria-labelledby="contact-buyers"><div class="contact-audience"><h2 id="contact-buyers">Покупателям</h2><p>О продуктах и точках продаж.</p></div><div class="contact-links"><a class="contact-email" href="mailto:info@novoferma.ru">info@novoferma.ru {arrow()}</a><a class="contact-phone" href="tel:+78129155454">+7 (812) 915-54-54</a></div></section><section class="contact-group reveal" aria-labelledby="contact-partners"><div class="contact-audience"><h2 id="contact-partners">Партнёрам</h2><p>Ассортимент и условия поставки.</p></div><div class="contact-links"><a class="contact-email" href="mailto:zakaz@novoferma.ru">zakaz@novoferma.ru {arrow()}</a><a class="contact-phone" href="tel:+79312135550">+7 (931) 213-55-50</a></div></section></div><a class="contact-map" href="https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202" target="_blank" rel="noopener"><span>Открыть адрес на карте</span>{arrow()}</a></div></div><img class="contacts-mascot" src="{asset_url('assets/mascot-contact-restored-v2.webp')}" width="980" height="1605" decoding="async" alt="" aria-hidden="true"></section><section class="wrap requisites"><p class="eyebrow">Реквизиты компании</p><div><strong>ООО «НОВОФЕРМА»</strong><p>ИНН 7807396385<br>ОГРН 1147847409148</p></div><div><strong>Адрес компании</strong><p>198323, Санкт-Петербург,<br>ул. Заречная (тер. Горелово), д. 2</p></div></section>'''
 page('contacts.html','Контакты',contacts,'contacts.html')
-(SITE/'site-manifest.json').write_text(json.dumps({'pages':['index.html','catalogue.html','about.html','where-to-buy.html','partners.html','contacts.html']+[p['url'] for p in catalogue_products],'products':products,'novelties':catalogue_products[len(products):],'publicUrl':PUBLIC_URL or None},ensure_ascii=False,indent=2))
+(SITE/'site-manifest.json').write_text(json.dumps({'pages':['index.html','catalogue.html','about.html','where-to-buy.html','partners.html','contacts.html']+[p['url'] for p in catalogue_products],'products':products,'novelties':novelty_products,'publicUrl':PUBLIC_URL or None},ensure_ascii=False,indent=2))
 routes=['index.html','catalogue.html','about.html','where-to-buy.html','partners.html','contacts.html']+[p['url'] for p in catalogue_products]
 if PUBLIC_URL:
  (SITE/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{esc(PUBLIC_URL+"/"+route)}</loc></url>' for route in routes)+'</urlset>')
@@ -257,4 +282,4 @@ if PUBLIC_URL:
 else:
  for generated in ['sitemap.xml','robots.txt']:
   (SITE/generated).unlink(missing_ok=True)
-print(f'Generated {len(routes)} pages, {len(products)} catalogue products and 2 concepts')
+print(f'Generated {len(routes)} pages, {len(catalogue_products)} products including {sum(bool(p.get("novelty")) for p in catalogue_products)} novelties')

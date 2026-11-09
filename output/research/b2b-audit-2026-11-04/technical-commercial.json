@@ -1,0 +1,1888 @@
+{
+  "title": "Технический и коммерческий B2B аудит Novoferma",
+  "researchDate": "2026-11-04",
+  "writtenOn": "2026-11-05",
+  "scope": "Текущие authoritative generator/data/generated 22 routes/connected JS локального прототипа HEAD3894d44. Аудит без runtime изменений, сборки, коммитов, push и отправки писем.",
+  "summary": "Техническая основа и честная логика подготовки обращения проходят существующие проверки. Основные приоритеты B2B — достоверный приём и измерение лида, сохранение SKU-контекста, проверяемые закупочные материалы по сегментам. Это приоритеты готовности и гипотезы воронки, не диагноз причин низких продаж.",
+  "methodology": {
+    "evidence": "Факты повторно прочитаны в текущих исходниках и сгенерированных страницах. Старые аудиты не служат доказательствами.",
+    "priority": "P0 — операционный/evidence gate до масштабирования или обещания, не обнаруженная аварийная уязвимость. P1 — коммерческий путь/контент. P2 — измеряемое улучшение и приемка.",
+    "productionScope": "Публичный https://novoferma.ru/ отличается от локального прототипа. Root сообщает о mc.yandex.ru в свежем web extraction и об общих маркетинговых заявлениях про охлаждённую птицу/пшеничное волокно. Отсутствие analytics подтверждено только для локальной сборки. Эти внешние наблюдения root не заменяют доступ к Метрике/CRM и доказательства по рецептуре конкретного SKU. Локальный прототип не объясняет исторически низкие продажи.",
+    "limits": [
+      "Нет трафика, CRM, выручки, маржи, входящей почты, звонков и данных повторных заказов.",
+      "Нельзя установить conversion rate, lost revenue или ожидаемый lift редизайна.",
+      "Нет нового screenreader/контраст/CWV/runtime clipboard теста в этом техническом блоке; визуальную часть ведёт root.",
+      "Изображения этикеток и концептов не используются для вывода рецептуры или nutrition.",
+      "ЕЭК PDF — первичный базовый текст; актуальная полная редакция и правовая применимость к сайту не установлены."
+    ]
+  },
+  "metrics": {
+    "routes": 22,
+    "serialSkus": 14,
+    "concepts": 2,
+    "images": 447,
+    "responsiveImageOccurrences": 90,
+    "localReferences": 1442,
+    "uniqueTitles": 22,
+    "uniqueDescriptions": 22,
+    "canonical": 0,
+    "jsonld": 0,
+    "pdfOrDownloadLinks": 0,
+    "publicUrl": null,
+    "connectedJsFiles": 6,
+    "retailLinks": 5,
+    "retailCoveredSerialSkus": 5,
+    "retailLinkVerifiedAtFromData": "2026-10-24",
+    "nonemptyProductFields": {
+      "weight": 14,
+      "packaging": 14,
+      "ingredients": 0,
+      "allergens": 0,
+      "nutrition": 0,
+      "storage": 0,
+      "preparation": 0,
+      "caseQuantity": 0,
+      "minimumOrder": 0,
+      "shelfLife": 0,
+      "gtin": 0,
+      "certificate": 0,
+      "specification": 0
+    },
+    "massGrams": {
+      "400": 7,
+      "450": 1,
+      "480": 4,
+      "500": 1,
+      "522": 1
+    },
+    "meat": {
+      "chicken": 13,
+      "turkey": 1
+    }
+  },
+  "tests": {
+    "interaction": "Existing scripts/check_interactions.cjs:21/21 passed 04.11.2026. Node VM; без браузера, сетевой отправки и реального mailto.",
+    "static": "Existing scripts/check_site.py validation body выполнен read-only до записи исторического report:22 pages/447 images/1442 local refs/0 errors. Исторический файл не перезаписан.",
+    "notRun": "Полный check_concept не запускался из-за записи старого отчёта; build/package не выполнялись."
+  },
+  "positiveFindings": [
+    "22 уникальных title/description, по одному h1, 0 ошибок в scope существующей статической проверки.",
+    "Обе формы корректно сбрасывают stale feedback/draft; pending clipboard защищён revision guard; external city select покрыт.",
+    "Нет ложного статуса «заявка отправлена»: интерфейс описывает подготовку и самостоятельную отправку.",
+    "Состав/БЖУ не выдуманы; генератор готов выводить подтверждённые поля. Два концепта помечены явно.",
+    "16 карточек каталога с фильтрами; оригинальные фото производителя доступны на14 серийных product pages.",
+    "Покупатели и партнёры имеют разные контакты; CTA СТМ реально выбирает нужный radio.",
+    "Локальные font-display:swap, живые заголовки, responsive packshots, deferred hero, reduced-motion hooks уже реализованы."
+  ],
+  "findings": [
+    {
+      "id": "TC01",
+      "priority": "P0",
+      "title": "Подготовка письма не подтверждает получение лида",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "B2B submit создаёт mailto и открывает почтовый клиент. Copy пишет текст в clipboard либо показывает readonly draft. Серверной регистрации, receipt ID и CRM-вызова в подключённом JS нет. Интерфейс честно сообщает о самостоятельной отправке.",
+      "evidence": [
+        {
+          "path": "output/concept/partners-scenes.js",
+          "line": 35
+        },
+        {
+          "path": "output/concept/partners-scenes.js",
+          "line": 43
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 246
+        }
+      ],
+      "commercialEffectHypothesis": "Пользователь может остановиться после подготовки письма; размер фактических потерь неизвестен.",
+      "recommendation": "Определить операционную модель приёма: серверная форма с записью либо формализованный учёт входящей почты. Подтверждать «получено» только по входящей записи. Сохранить email/телефон как запасные каналы.",
+      "acceptance": [
+        "Контрольный запрос даёт запись с ID, временем, сегментом и ответственным.",
+        "Отказ записи сохраняет введённое; повтор обрабатывается без необъяснимых дублей.",
+        "mailto_open и copy_request не считаются lead_received."
+      ],
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "id": "TC02",
+      "priority": "P0",
+      "title": "Воронка не измеряется до сделки",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "В шести подключённых JS нет fetch/XMLHttpRequest/sendBeacon, gtag, ym, dataLayer, webhook/CRM. Формы не сохраняют UTM/referrer и lead ID. Доступа к входящей почте и внешней CRM нет. Это относится только к локальному прототипу. По новой проверке публичного novoferma.ru, выполненной root, web extraction видит mc.yandex.ru; доступ к кабинету/событиям/CRM всё равно отсутствует.",
+      "evidence": [
+        {
+          "path": "scripts/build_site.py",
+          "line": 69
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 73
+        },
+        {
+          "path": "output/concept/partners-scenes.js",
+          "line": 20
+        }
+      ],
+      "commercialEffectHypothesis": "Нельзя отделить недостаток целевого трафика от потерь на квалификации, ответе, цене, логистике и повторном заказе.",
+      "recommendation": "Согласовать этапы и минимальный реестр: источник, сегмент, полученный запрос, квалификация, КП, заказ, повтор. В аналитические события не включать содержимое полей. Звонки и внешнюю почту учитывать отдельно.",
+      "acceptance": [
+        "Есть словарь событий и знаменателей.",
+        "Получение/квалификация/заказ поступают из операционного источника, не из клика.",
+        "Выборка сверяется с журналом; email, телефон и сообщение не попадают в публичные URL/аналитику."
+      ],
+      "sourceIds": []
+    },
+    {
+      "id": "TC03",
+      "priority": "P1",
+      "title": "Из товара в B2B теряется SKU",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "На 16 product pages ссылка «Для партнёров» ведёт на partners.html без product/anchor. B2B makeRequest не содержит выбранного SKU. Потребительский CTA передаёт product в where-to-buy.",
+      "evidence": [
+        {
+          "path": "scripts/build_site.py",
+          "line": 220
+        },
+        {
+          "path": "output/concept/partners-scenes.js",
+          "line": 20
+        },
+        {
+          "path": "output/concept/script.js",
+          "line": 80
+        }
+      ],
+      "commercialEffectHypothesis": "Закупщику нужно повторно назвать продукт, менеджеру недоступен контекст перехода. Эффект на конверсию не измерен.",
+      "recommendation": "Передавать валидированный SKU/фасовку/статус концепта в B2B форму, показывать выбор человеку и разрешить изменить его.",
+      "acceptance": [
+        "Все product→B2B переходы сохраняют точный SKU и массу.",
+        "Неизвестный query не вставляет произвольный HTML.",
+        "Концепт не превращается в серийный товар при передаче."
+      ],
+      "sourceIds": []
+    },
+    {
+      "id": "TC04",
+      "priority": "P1",
+      "title": "Три сегмента формы получают почти один оффер",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "Розница и HoReCa объединены в «Для полки. Для меню.» с переходом в общий каталог. СТМ имеет свой оффер и корректно выбирает radio через data-partner-format. Главный CTA приходит к retail по умолчанию. Отдельного HoReCa маршрута в manifest нет.",
+      "evidence": [
+        {
+          "path": "scripts/build_site.py",
+          "line": 238
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 242
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 243
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 246
+        },
+        {
+          "path": "output/concept/partners-scenes.js",
+          "line": 16
+        }
+      ],
+      "commercialEffectHypothesis": "Разные закупщики могут не получить ответы на собственные критерии. Это не доказательство необходимости трёх отдельных сайтов.",
+      "recommendation": "Развести сценарии и доказательства: розница — короб/полка/логистика; HoReCa — приготовление/выход/порция; СТМ — разработка/образец/упаковка/согласование.",
+      "acceptance": [
+        "Каждый сегмент узнаёт свой сценарий и получает правильный preselect.",
+        "Пять типовых вопросов сегмента имеют проверенный ответ или ясный следующий шаг.",
+        "Нет придуманных MOQ, сроков, маржи."
+      ],
+      "sourceIds": []
+    },
+    {
+      "id": "TC05",
+      "priority": "P1",
+      "title": "Недостаточно продуктовых паспортов",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "14/14 SKU имеют ingredients, nutrition, storage, preparation=null; allergens отсутствует. Масса, упаковка и птица заполнены. Генератор корректно не выдумывает поля и предлагает запросить сведения.",
+      "evidence": [
+        {
+          "path": "output/concept/products.json",
+          "line": 22
+        },
+        {
+          "path": "output/concept/products.json",
+          "line": 31
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 198
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 208
+        }
+      ],
+      "commercialEffectHypothesis": "Нельзя самостоятельно оценить аллергенный профиль, хранение, кухонный процесс и сопоставимость позиций.",
+      "recommendation": "Получить от технолога версионные паспорта 14 SKU: этикетка, состав, аллергены, БЖУ, температура/срок, приготовление, владелец и дата. Не переносить рецептуру между фасовками.",
+      "acceptance": [
+        "14/14 SKU имеют источник, владельца и статус обязательных полей.",
+        "Страница/документ соответствуют утверждённой этикетке и фасовке.",
+        "Unknown остаётся unknown; данные не извлекаются по догадке из packshot."
+      ],
+      "sourceIds": []
+    },
+    {
+      "id": "TC06",
+      "priority": "P1",
+      "title": "Таблица массы не заменяет B2B спецификацию",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "Таблица партнёрам агрегирует категории и потребительские массы 400–522 г. В данных нет короба, GTIN, паллетизации, MOQ, shelf life, lead time и версий документов. На 22 маршрутах 0 PDF/download ссылок.",
+      "evidence": [
+        {
+          "path": "scripts/build_site.py",
+          "line": 232
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 242
+        },
+        {
+          "path": "output/concept/products.json",
+          "line": 6
+        }
+      ],
+      "commercialEffectHypothesis": "Закупщик вынужден уточнять базовые параметры. Отсутствие публичной цены само по себе не дефект.",
+      "recommendation": "Создать закупочную карточку/выгрузку и путь запроса спецификации/образцов/условий. Публичный минимум отделить от конфиденциальных параметров. Не придумывать значения.",
+      "acceptance": [
+        "Каждый обязательный закупочный параметр заполнен либо имеет причину ограничения и владельца.",
+        "Актуальный документ передаётся без переписывания SKU.",
+        "Следующий шаг и ответственный понятны; SLA обещан только после согласования."
+      ],
+      "sourceIds": []
+    },
+    {
+      "id": "TC07",
+      "priority": "P1",
+      "title": "СТМ заявлена без маршрута проекта",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "Оффер СТМ содержит заголовок, одну фразу и кнопку. Нет стадий brief→образцы→утверждение→партия, границ операций, подтверждённых кейсов или downloadable brief.",
+      "evidence": [
+        {
+          "path": "scripts/build_site.py",
+          "line": 243
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 246
+        }
+      ],
+      "commercialEffectHypothesis": "Трудно оценить совместимость задачи и подготовить содержательный запрос. Отсутствие кейсов на сайте не доказывает отсутствия опыта.",
+      "recommendation": "Описать фактический процесс СТМ, ограничения, испытания, ответственность за рецептуру/маркировку/упаковку. Показать согласованный кейс либо обезличенный процесс.",
+      "acceptance": [
+        "Шаги имеют вход, результат, ответственного.",
+        "Brief собирает категорию, канал/упаковку, ориентир объёма и стадию задачи без чрезмерных обязательных полей.",
+        "Публикуемые кейсы и цифры подтверждены."
+      ],
+      "sourceIds": []
+    },
+    {
+      "id": "TC08",
+      "priority": "P1",
+      "title": "Protein/fiber требуют реестра доказательств",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "Главная говорит о птице как природном источнике белка. Fibriki названы концептом с пищевыми волокнами. Количество белка/волокон конкретного продукта в данных не подтверждено; серийные nutrition=null. Рисунок упаковки не заменяет рецептуру/измерения.",
+      "evidence": [
+        {
+          "path": "scripts/build_site.py",
+          "line": 153
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 177
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 182
+        },
+        {
+          "path": "output/concept/products.json",
+          "line": 23
+        }
+      ],
+      "commercialEffectHypothesis": "Категорийную фразу могут прочитать как обещание свойств полуфабриката. По коду нельзя установить законность либо нарушение маркировки.",
+      "recommendation": "Для каждого claim фиксировать точную фразу, SKU/рецептуру/фасовку, количественное основание и единицы, документ, согласование технологом и актуальную правовую проверку. Концепт оставить концептом.",
+      "acceptance": [
+        "Реестр охватывает сайт, изображения, презентации и будущую этикетку.",
+        "Численные заявления относятся к конкретной рецептуре и имеют подтверждение.",
+        "Перед печатью/запуском проверена актуальная редакция применимых норм; аудит не является сертификатом."
+      ],
+      "sourceIds": [
+        "S09"
+      ]
+    },
+    {
+      "id": "TC09",
+      "priority": "P1",
+      "title": "B2B и потребительские пути конкурируют за контекст",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "Главный header CTA — «Где купить». B2B доступен в nav и секции сотрудничества. Product page первично ведёт к потребительской покупке. Contacts уже правильно разделяет B2B и покупателей.",
+      "evidence": [
+        {
+          "path": "scripts/build_site.py",
+          "line": 56
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 59
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 187
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 220
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 250
+        }
+      ],
+      "commercialEffectHypothesis": "Если приоритет — новые B2B сделки, универсальная посадочная может не отвечать источнику захода. Реальная доля закупщиков неизвестна.",
+      "recommendation": "Вести B2B кампании на контекстный оффер; проверить вариант ясного входа «Поставки для бизнеса», сохраняя покупательский путь.",
+      "acceptance": [
+        "Релевантная кампания ведёт к своему сегменту.",
+        "Оценивается qualified lead received, не только CTR.",
+        "Потребительский поиск покупки остаётся понятным."
+      ],
+      "sourceIds": []
+    },
+    {
+      "id": "TC10",
+      "priority": "P2",
+      "title": "Контакт валидируется только на непустоту",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "company/contact required; JS отсекает пустые и пробельные строки. contact type=text без pattern принимает любую непустую строку. Смешанное «Телефон или почта» не объявляется нарушением autocomplete/SC1.3.5.",
+      "evidence": [
+        {
+          "path": "scripts/build_site.py",
+          "line": 246
+        },
+        {
+          "path": "output/concept/partners-scenes.js",
+          "line": 31
+        }
+      ],
+      "commercialEffectHypothesis": "Опечатка может сделать обращение непригодным, но чрезмерная маска тоже блокирует клиентов.",
+      "recommendation": "Уточнить предпочтительный канал, дать пример и мягкую проверку выбранного типа. При backend валидировать повторно на сервере. Не требовать два канала без необходимости.",
+      "acceptance": [
+        "Корректные международные номера и email не блокируются.",
+        "Ошибки имеют ясный текст и доступны с клавиатуры/диктором.",
+        "Отсутствие autocomplete у mixed-purpose input не названо доказанным WCAG fail."
+      ],
+      "sourceIds": [
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "id": "TC11",
+      "priority": "P1",
+      "title": "Обнаружимость этой сборки ещё не подтверждена",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "publicUrl=null; текущие 22 HTML имеют 0 canonical/JSON-LD, нет sitemap/robots. Генератор включает canonical/OG/Breadcrumb/discovery с --site-url. README сообщает об отсутствии публичного деплоя; публичный production этим блоком не исследован. Root отдельно установил, что публичный сайт отличается от прототипа. Нельзя связывать исторически низкие продажи с конверсией этой локальной версии.",
+      "evidence": [
+        {
+          "path": "scripts/build_site.py",
+          "line": 76
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 254
+        },
+        {
+          "path": "output/concept/site-manifest.json",
+          "line": 1
+        },
+        {
+          "path": "README.md",
+          "line": 6
+        }
+      ],
+      "commercialEffectHypothesis": "Нельзя переносить выводы preview на индексацию novoferma.ru. GitHub-публикация аудита не является коммерческим деплоем.",
+      "recommendation": "Определить production domain/URL, проверить HTTPS, robots/noindex, canonical, sitemap, редиректы и поисковые кабинеты. Product/Offer schema — только с подтверждёнными полями.",
+      "acceptance": [
+        "Production URL доступны и имеют согласованную политику индексации.",
+        "Старые URL сопоставлены с новыми до миграции.",
+        "Индексация/показы проверяются по данным инструментов; позиций не обещают."
+      ],
+      "sourceIds": [
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "id": "TC12",
+      "priority": "P2",
+      "title": "Поисковый B2B контент общий",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "Title партнёров — «Партнёрам — Новоферма», H1 — «Дело со вкусом». Description описывает каналы, но три сегмента объединены на одном URL. Все 22 title и description уникальны.",
+      "evidence": [
+        {
+          "path": "scripts/build_site.py",
+          "line": 238
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 248
+        },
+        {
+          "path": "output/concept/partners.html",
+          "line": 1
+        }
+      ],
+      "commercialEffectHypothesis": "Сниппет может слабо объяснять предложение. Потеря органического трафика без поисковых данных не доказана.",
+      "recommendation": "Семантика из реальных запросов/обращений: производство полуфабрикатов, СТМ, магазины/кухни. Уточнить title/lead; отдельные страницы создавать при самостоятельной полезной информации.",
+      "acceptance": [
+        "Сниппет и первый экран называют продукт/сегмент/действие.",
+        "Новые страницы отвечают самостоятельному intent, а не дублируют шаблон.",
+        "Проверяются релевантные показы и квалифицированные обращения."
+      ],
+      "sourceIds": [
+        "S05"
+      ]
+    },
+    {
+      "id": "TC13",
+      "priority": "P2",
+      "title": "B2B hero требует отдельного image budget",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "447 img occurrences имеют alt/width/height; 90 используют srcset. Partner-host — один 1024×1536 источник без srcset, high priority/sync decode. Уникальные прямые img src партнёрской страницы суммарно 368031 байт: это не сетевой вес страницы.",
+      "evidence": [
+        {
+          "path": "scripts/build_site.py",
+          "line": 239
+        },
+        {
+          "path": "output/concept/partners-scenes.css",
+          "line": 121
+        },
+        {
+          "path": "output/concept/partners-scenes.css",
+          "line": 123
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 22
+        }
+      ],
+      "commercialEffectHypothesis": "На mobile возможна лишняя загрузка декора. Не установлено, является ли маскот LCP или препятствует ли обращению.",
+      "recommendation": "Измерить currentSrc/network/LCP на целевых устройствах; по результату добавить небольшие варианты и точные sizes, сохранив рисунок/alpha.",
+      "acceptance": [
+        "Записаны viewport/DPR, cache/network profile, выбранный файл и bytes.",
+        "CWV и CLS шрифтов/изображений проверяются отдельно от VM.",
+        "Production p75 ориентиры сопровождаются мониторингом, не одиночным screenshot."
+      ],
+      "sourceIds": [
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "id": "TC14",
+      "priority": "P2",
+      "title": "Доступность: хорошая база, ограниченная приемка",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "Есть lang/skip-link/один h1/native dialog, label/fieldset/legend, role=status, readonly draft, tab/panel semantics. B2B поля min-height52px, radios44px, focus-visible. VM не проверяет произношение, контраст или zoom.",
+      "evidence": [
+        {
+          "path": "scripts/build_site.py",
+          "line": 59
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 246
+        },
+        {
+          "path": "output/concept/partners-scenes.css",
+          "line": 65
+        },
+        {
+          "path": "output/concept/partners-scenes.css",
+          "line": 74
+        },
+        {
+          "path": "output/concept/product-hero.js",
+          "line": 46
+        }
+      ],
+      "commercialEffectHypothesis": "Настоящее прохождение задачи с диктором не гарантируется наличием атрибутов.",
+      "recommendation": "Проверить клавиатуру, VoiceOver/NVDA, zoom200/400%, узкий viewport: сегмент, ошибка, copy/denied API, draft, mailto fallback, меню/панели.",
+      "acceptance": [
+        "Нет недоступного фокуса и скрытых интерактивных панелей.",
+        "Статусы/ошибки читаются, draft имеет имя.",
+        "Реальные пары контраста и clipping измерены; полного WCAG compliance claim пока нет."
+      ],
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "id": "TC15",
+      "priority": "P2",
+      "title": "Motion оценивается по задаче",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "Hero ручной, без autoplay; inactive art загружается по выбору/idle, saveData/2g/hidden ограничивают prefetch. Reveal сохраняет первый viewport и focusin. Depth ограничен >=900px/no-preference/fine pointer, paused hidden/menu. На partners product-hero.js не подключён.",
+      "evidence": [
+        {
+          "path": "output/concept/product-hero.js",
+          "line": 102
+        },
+        {
+          "path": "output/concept/script.js",
+          "line": 44
+        },
+        {
+          "path": "output/concept/script.js",
+          "line": 53
+        },
+        {
+          "path": "output/concept/depth.js",
+          "line": 5
+        },
+        {
+          "path": "output/concept/depth.js",
+          "line": 24
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 63
+        }
+      ],
+      "commercialEffectHypothesis": "Нет основания называть всю анимацию причиной продаж. Локальные задержки/отвлечение требуют наблюдения.",
+      "recommendation": "Проверять B2B задачу с motion/reduced-motion; менять эффект по понятности, latency и фокусу, а не по моде.",
+      "acceptance": [
+        "Задача доступна при reduced-motion и без декора.",
+        "Нет автосмены смысла и устаревшей сцены при быстрых кликах.",
+        "Нагрузочные утверждения основаны на профилировании."
+      ],
+      "sourceIds": []
+    },
+    {
+      "id": "TC16",
+      "priority": "P2",
+      "title": "Retail links отражают покрытие ссылок, не спрос",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "5 карточек для 5/14 SKU, два магазина; две отмечены недоступными в наблюдавшейся странице, три — order control без независимого подтверждения stock. verifiedAt24.10.2026; магазины в этом блоке сегодня не перепроверялись. У9SKU и2концептов retail-ссылок нет.",
+      "evidence": [
+        {
+          "path": "output/concept/retailers.json",
+          "line": 1
+        },
+        {
+          "path": "scripts/site_sections.py",
+          "line": 18
+        },
+        {
+          "path": "output/concept/where-to-buy.js",
+          "line": 7
+        }
+      ],
+      "commercialEffectHypothesis": "Это не доказательство фактической дистрибуции, дефицита или причины низких продаж.",
+      "recommendation": "Вести retailer evidence по городу/фасовке/дате, назначить перепроверку. Согласовать реальные каналы с продажами; не выдавать карточку за наличие.",
+      "acceptance": [
+        "Даты и owner актуализации назначены.",
+        "Наличие проверяется по выбранному городу.",
+        "Концепты не выдаются за товар в продаже."
+      ],
+      "sourceIds": []
+    },
+    {
+      "id": "TC17",
+      "priority": "P1",
+      "title": "Нет оформленного supplier evidence pack",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "About сообщает об оборудовании и охлаждённом мясе «по информации компании». Партнёрам не показаны проверяемые кейсы/версии документов/география и процесс поставки. Скачиваемого закупочного пакета на22 маршрутах нет.",
+      "evidence": [
+        {
+          "path": "scripts/build_site.py",
+          "line": 224
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 237
+        },
+        {
+          "path": "scripts/build_site.py",
+          "line": 245
+        }
+      ],
+      "commercialEffectHypothesis": "Закупщику трудно проверить обещание и представить поставщика коллегам. Иллюстрация не доказывает мощности; отсутствие документов на сайте не означает отсутствие их у компании.",
+      "recommendation": "Собрать компактный supplier pack: юридическое лицо, ответственный, фактические возможности, документы SKU, логистика, утверждённые фото/контроль качества, согласованный кейс.",
+      "acceptance": [
+        "Каждый factual claim имеет документ/owner.",
+        "Пакет можно переслать закупщику/технологу с версией и датой.",
+        "Концепты не смешаны с доказательствами реального производства."
+      ],
+      "sourceIds": []
+    },
+    {
+      "id": "TC18",
+      "priority": "P2",
+      "title": "GitHub публикация должна оставаться audit only",
+      "classification": "Подтверждённый факт; влияние на продажи является гипотезой",
+      "fact": "main/origin main и git ls-remote main подтверждают3894d447cbff0a6a2e9d7b637910ca71e736ae5d. Origin hjj96/novoferma. Tracked workflows .github отсутствуют. Исходный чужой untracked: output/research/fibriki-pack-repair-v12/.",
+      "evidence": [
+        {
+          "path": "README.md",
+          "line": 57
+        },
+        {
+          "path": ".gitignore",
+          "line": 1
+        }
+      ],
+      "commercialEffectHypothesis": "git add . может захватить несвязанный artwork. Commit/push отчёта не означает deployment сайта.",
+      "recommendation": "Root публикует только audit directory и согласованный индекс при необходимости. Проверить staged diff/stat, evidence/ссылки; обычный commit/push без изменения приватности.",
+      "acceptance": [
+        "В commit нет runtime/build scripts и fibriki-pack-repair-v12.",
+        "Evidence включены либо имеют честный внешний source.",
+        "В финале ссылка на GitHub commit/report; Pages/деплой/смена видимости не подразумеваются."
+      ],
+      "sourceIds": []
+    }
+  ],
+  "requiredChecklist": [
+    "TC01: до заявления «получено» — достоверная входящая запись/receipt и обработка отказа.",
+    "TC02: до платного масштабирования — словарь этапов, атрибуция без PII и сверка с реестром/CRM.",
+    "TC08: до усиления protein/fiber claims — evidence конкретного SKU и актуальная проверка маркировки.",
+    "TC05: до передачи закупщику — версионные паспорта14 SKU и правила неизвестных данных.",
+    "TC06: для розницы — короб/код/хранение/доставка/условия или понятный путь получения.",
+    "TC04/TC05: для HoReCa — проверенные приготовление/выход/порция/аллергены/оборудование.",
+    "TC07: для СТМ — brief/образцы/утверждение и реальные границы возможностей.",
+    "TC03: из каждого товара — сохранение SKU и статуса концепта в B2B запросе.",
+    "TC11: до поисковой миграции — production URL, redirects/canonical/robots/sitemap и HTTP-проверка.",
+    "TC14: до accessibility claim — клавиатура/диктор/zoom/status/error в реальном браузере.",
+    "TC13/TC15: до performance claim — currentSrc/network/CWV с записанной методикой.",
+    "TC18: до GitHub push — audit-only staged diff, evidence на месте, несвязанный runtime/artwork исключён."
+  ],
+  "funnel": [
+    {
+      "stage": "Релевантный визит",
+      "measure": "B2B visits by source/segment/landing/device",
+      "limit": "Общий pageview не определяет закупщика; повтор/бот не новый клиент."
+    },
+    {
+      "stage": "Понимание предложения",
+      "measure": "segment_select, spec_view, relevant_product_view + интервью",
+      "limit": "Скролл и время не доказывают понимания."
+    },
+    {
+      "stage": "Намерение обратиться",
+      "measure": "form_start, mailto_open, copy_request, phone_click раздельно",
+      "limit": "Ни одно событие не равно полученному лиду."
+    },
+    {
+      "stage": "Полученное обращение",
+      "measure": "Receipt ID из CRM/почты, источник/время/owner",
+      "limit": "Нужна дедупликация по обращению/компании."
+    },
+    {
+      "stage": "Квалификация",
+      "measure": "Сегмент, город, продукт, объём, совместимость, reason codes",
+      "limit": "Изменение охвата меняет долю qualified без изменения качества сайта."
+    },
+    {
+      "stage": "Ответ/образцы/КП",
+      "measure": "Time to first human response, sample_sent, quote_sent, lost_reason",
+      "limit": "Цена/логистика/наличие могут определять потери сильнее дизайна."
+    },
+    {
+      "stage": "Первый/повторный заказ",
+      "measure": "Подтверждённый заказ, net revenue, gross margin, repeat cohort",
+      "limit": "Выручка/прибыль не выводятся из frontend событий."
+    }
+  ],
+  "salesHypotheses": [
+    {
+      "hypothesis": "Потеря между составлением письма и получением",
+      "test": "Сверка входящих/реестра, интервью, контролируемый pilot receipt.",
+      "success": "Больше валидных received на релевантный визит при стабильной квалификации.",
+      "unknown": "Объём mail client failures и abandonment."
+    },
+    {
+      "hypothesis": "Недостаток закупочных данных",
+      "test": "Проверенный supplier/SKU pack и наблюдение5–8 закупщиков разных сегментов.",
+      "success": "Меньше уточнений, выше пригодность запросов, быстрее КП.",
+      "unknown": "Что реально запрашивают клиенты и какие закрытые материалы уже есть."
+    },
+    {
+      "hypothesis": "HoReCa/СТМ не узнают свой оффер",
+      "test": "Сегментные офферы с context; сравнение сопоставимых источников/сезона.",
+      "success": "Qualified lead received, не только CTR.",
+      "unknown": "Объём/намерение трафика каждого сегмента."
+    },
+    {
+      "hypothesis": "Мобильная нагрузка мешает контакту",
+      "test": "Field/lab по устройствам, оптимизация доказанного bottleneck.",
+      "success": "Меньше latency без потери смысла и лучшее прохождение задачи.",
+      "unknown": "Реальные CWV и device mix."
+    },
+    {
+      "hypothesis": "Низкие продажи определяются после сайта",
+      "test": "Разбор сделок по цене, MOQ, наличию, доставке, ответу и совместимости.",
+      "success": "Установлена стадия потери и проверяемая причина с owner.",
+      "unknown": "CRM, маржа, SLA, запасы, каналы, повторные продажи."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "IETF RFC 6068 — mailto URI Scheme",
+      "url": "https://www.rfc-editor.org/rfc/rfc6068",
+      "scope": "Открытие mailto не является подтверждением доставки обращения.",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "S02",
+      "title": "W3C Understanding SC 1.3.5 — Identify Input Purpose",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html",
+      "scope": "Для mixed-purpose поля допускается отсутствие autocomplete; это не автоматическое WCAG-нарушение.",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "S03",
+      "title": "W3C Understanding SC 4.1.3 — Status Messages",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html",
+      "scope": "Статусы должны быть программно определимыми и доступными вспомогательной технологии.",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "S04",
+      "title": "W3C Understanding SC 3.3.1 — Error Identification",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html",
+      "scope": "Обнаруженная ошибка идентифицируется и описывается текстом.",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "S05",
+      "title": "Google Search Essentials",
+      "url": "https://developers.google.com/search/docs/essentials",
+      "scope": "Полезное содержание, релевантные слова и доступные ссылки; выполнение рекомендаций не гарантирует индексации.",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "S06",
+      "title": "Google Search Central — canonical URLs",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "scope": "Canonical помогает консолидировать URL; его отсутствие в preview не доказывает проблему production.",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "S07",
+      "title": "web.dev — Web Vitals",
+      "url": "https://web.dev/articles/vitals",
+      "scope": "p75 ориентиры: LCP≤2,5с, INP≤200мс, CLS≤0,1, отдельно mobile/desktop. Размер файлов и VM-тесты не измеряют CWV.",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "S08",
+      "title": "web.dev — Serve responsive images",
+      "url": "https://web.dev/articles/serve-responsive-images",
+      "scope": "srcset/sizes дают варианты; реальный выбор проверяется currentSrc/network.",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "S09",
+      "title": "ЕЭК — базовый официальный ТР ТС 022/2011",
+      "url": "https://eec.eaeunion.org/upload/medialibrary/9db/TrTsPishevkaMarkirovka.pdf",
+      "scope": "Ст4.10 на PDF стр18: доказательства отличительных признаков маркировки; приложение5 начинается со стр26. Актуальность полной консолидированной редакции на04.11.2026 не установлена; численные пороги и юридический вердикт сайта не выводятся.",
+      "accessed": "2026-11-04"
+    }
+  ],
+  "git": {
+    "branch": "main",
+    "head": "3894d447cbff0a6a2e9d7b637910ca71e736ae5d",
+    "remote": "https://github.com/hjj96/novoferma.git",
+    "remoteMainVerifiedBy": "git ls-remote --heads origin main",
+    "remoteMain": "3894d447cbff0a6a2e9d7b637910ca71e736ae5d",
+    "commits": [
+      "3894d44 Include latest partner page refinements and verification materials",
+      "ba0922e Initial import of Novoferma website and project assets"
+    ],
+    "initialUntracked": [
+      "output/research/fibriki-pack-repair-v12/"
+    ],
+    "auditOnlyAllowedPath": "output/research/b2b-audit-2026-11-04/",
+    "trackedGithubWorkflows": 0,
+    "privacy": "README описывает закрытый репозиторий. Видимость/settings этим субагентом не проверялись; root ведёт публикацию без смены видимости.",
+    "actionsPerformed": "Только status/log/remote/branch/ls-remote. Без add/commit/push/fetch/checkout."
+  },
+  "pageInventory": {
+    "index.html": {
+      "sha256": "654d505887c143bd4aa798b594e66ff004342fc791f981e0c9802285cb5432d6",
+      "h1": 1,
+      "title": "Есть повод собраться — Новоферма",
+      "description": "Продукты Новофермы из курицы и индейки: наггетсы, котлеты, фрикадельки и стрипсы. Выберите продукт и узнайте, как уточнить наличие в вашем городе.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 36,
+      "srcset": 7,
+      "deferred": 3,
+      "directUniqueImageFileBytes": 1272730,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d",
+        "product-hero.js?v=005574cdda"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "product-hero.css?v=badd00c24f",
+        "mobile.css?v=5ec1868bf6",
+        "protein-story.css?v=8cfe26d81b",
+        "product-cards.css?v=5bfb1a80d1",
+        "home-unified.css?v=e1bc5da176"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Обсудить сотрудничество",
+          "href": "partners.html#partner-contact"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "catalogue.html": {
+      "sha256": "90df53a15836a9cb729807a4b42b8b33a55588b7584e8d8733032ab635896a02",
+      "h1": 1,
+      "title": "Продукция — Новоферма",
+      "description": "Каталог Новофермы: продукты из курицы и индейки, названия и масса упаковок. Выбор по категории и виду мяса, отдельные страницы продуктов и новинок.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 42,
+      "srcset": 17,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 2467585,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d",
+        "catalogue.js?v=11f0d1febe"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "partnership.css?v=64200d3d16",
+        "catalogue.css?v=2e2cea6344",
+        "product-cards.css?v=5bfb1a80d1"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Обсудить поставки",
+          "href": "partners.html#partner-contact"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "about.html": {
+      "sha256": "4ee88f3147cbd39e8c8c66ba2d317ce4f16c06a6e55b9fb8513a1986fbf9befb",
+      "h1": 1,
+      "title": "О нас — Новоферма",
+      "description": "О Новоферме: компания из Санкт-Петербурга, продукты из охлаждённого мяса птицы, прозрачная упаковка и фирменные персонажи.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 12,
+      "srcset": 1,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 203043,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "partnership.css?v=64200d3d16"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Обсудить поставки",
+          "href": "partners.html#partner-contact"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "where-to-buy.html": {
+      "sha256": "6b89a39cb553dc804eff5cf2eac915680cda14c15225b1ea91263bc0a840bdcf",
+      "h1": 1,
+      "title": "Где купить — Новоферма",
+      "description": "Где искать Новоферму: карточки товаров в интернет-магазинах, проверка наличия по адресу и запрос по выбранному продукту в вашем городе.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 15,
+      "srcset": 0,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 5851,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d",
+        "where-to-buy.js?v=e2d571b688"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "where-to-buy.css?v=447119b60f"
+      ],
+      "formActions": [
+        null
+      ],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "partners.html": {
+      "sha256": "6296581c92dfc87d1ee308998e4eaba7db156e48727145ea929621e3faf7e1a7",
+      "h1": 1,
+      "title": "Партнёрам — Новоферма",
+      "description": "Сотрудничество с Новофермой: продукты из курицы и индейки для магазинов, кафе и ресторанов, производство под вашей торговой маркой и контакты отдела заказов.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 14,
+      "srcset": 0,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 368031,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d",
+        "partners-scenes.js?v=4721eb6184"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "partners-scenes.css?v=4351fcc006"
+      ],
+      "formActions": [
+        "mailto:zakaz@novoferma.ru"
+      ],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Стать партнёром",
+          "href": "#partner-contact"
+        },
+        {
+          "text": "Обсудить СТМ",
+          "href": "#partner-contact"
+        },
+        {
+          "text": "zakaz@novoferma.ru",
+          "href": "mailto:zakaz@novoferma.ru"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "contacts.html": {
+      "sha256": "ab275b46212b7eb4ab30443b9a5cf2fa735bddd371cb1b9ab7421c20a7cf8258",
+      "h1": 1,
+      "title": "Контакты — Новоферма",
+      "description": "Контакты Новофермы: офис, отдел приёма заказов, телефоны и электронная почта. Адрес компании в Санкт-Петербурге и реквизиты.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 12,
+      "srcset": 1,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 301109,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "contacts.css?v=de711517b2"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "zakaz@novoferma.ru ",
+          "href": "mailto:zakaz@novoferma.ru"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-kotlety-kurinye.html": {
+      "sha256": "b9e2efa46f0fe00662ba6f6587250148b35bda9354edbecf5b7d99fe916e5235",
+      "h1": 1,
+      "title": "Котлеты куриные — Новоферма",
+      "description": "Котлеты куриные, 522 г. Из курицы, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 20,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 670387,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-bitochki-kurinye-s-ovoshchami.html": {
+      "sha256": "9b1583e92693285a943921b15165ce26c3b5d4839d81cb842b39870cf4581057",
+      "h1": 1,
+      "title": "Биточки куриные с овощами — Новоферма",
+      "description": "Биточки куриные с овощами, 450 г. Из курицы, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 20,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 676895,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-ezhiki-iz-tsyplenka-s-risom.html": {
+      "sha256": "796c1eaa519b6adb89056761ac6c918c66406db632dcd56b7a051b15c17c91d8",
+      "h1": 1,
+      "title": "Ёжики из цыпленка с рисом — Новоферма",
+      "description": "Ёжики из цыпленка с рисом, 480 г. Из курицы, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 20,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 709441,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-kurinyj-popkorn.html": {
+      "sha256": "fcb778fb1d8ade19e0692c07abfccbdd7d09a73c49e592bc2c889d5fffe96dca",
+      "h1": 1,
+      "title": "Куриный попкорн — Новоферма",
+      "description": "Куриный попкорн, 400 г. Из курицы, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 20,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 720099,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-naggetsy-kurinye.html": {
+      "sha256": "63b8086b88231979a93df98e334e4db57ee9c6ad1f7a442ce7338aba68554bc1",
+      "h1": 1,
+      "title": "Наггетсы куриные — Новоферма",
+      "description": "Наггетсы куриные, 400 г. Из курицы, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 20,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 721503,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-naggetsy-kurinye-s-syrom.html": {
+      "sha256": "791e1622ca6d53911ab214f3ae52a787790e44c679bd4010437b066bd219f300",
+      "h1": 1,
+      "title": "Наггетсы куриные с сыром — Новоферма",
+      "description": "Наггетсы куриные с сыром, 400 г. Из курицы, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 20,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 751965,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-naggetsy-dinozavry.html": {
+      "sha256": "8069f4765fe9f48ab6b75bdbb147f06726909c8f1ce207f1b20cafcb4a210183",
+      "h1": 1,
+      "title": "Наггетсы куриные «Динозавры» — Новоферма",
+      "description": "Наггетсы куриные «Динозавры», 400 г. Из курицы, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 20,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 734581,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-naggetsy-ostrye.html": {
+      "sha256": "0abbb30047ec56ac4bf3dc461f893cc38853c29d2637d352ed25b26bf9f0700d",
+      "h1": 1,
+      "title": "Наггетсы куриные острые — Новоферма",
+      "description": "Наггетсы куриные острые, 400 г. Из курицы, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 20,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 748477,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-naggetsy-s-indeykoy-fitnes.html": {
+      "sha256": "a3a2e2e710e9f95311a8545d451879a121e6be440f03f4cdbbcf82e3e7898b3a",
+      "h1": 1,
+      "title": "Наггетсы с индейкой «Фитнес» — Новоферма",
+      "description": "Наггетсы с индейкой «Фитнес», 400 г. С индейкой, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 20,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 711437,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-stripsy.html": {
+      "sha256": "97f7c9be957c085949de19e6c69bb5dea1f53ac996bbee674dba59bf8220e1a9",
+      "h1": 1,
+      "title": "Стрипсы — Новоферма",
+      "description": "Стрипсы, 400 г. Из курицы, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 20,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 686929,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-kotlety-po-domashnemu.html": {
+      "sha256": "8f1f1c11ed8891e57bcad374b3289e6d85ded32553d5ade9d2bfb10c7b51b388",
+      "h1": 1,
+      "title": "Котлеты по-домашнему — Новоферма",
+      "description": "Котлеты по-домашнему, 480 г. Из курицы, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 20,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 661905,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-kotlety-pikantnye.html": {
+      "sha256": "da2767fd5e434842e657857d2cfc1b9da772bc196e3e0e926bbfcca47978b92a",
+      "h1": 1,
+      "title": "Котлеты пикантные — Новоферма",
+      "description": "Котлеты пикантные, 480 г. Из курицы, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 20,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 659419,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-kotlety-po-italyanski.html": {
+      "sha256": "3513b685647b403fa9bcae686c10da83cb2bea3dd9cfe53f4c010fb18a680ad4",
+      "h1": 1,
+      "title": "Котлеты по-итальянски — Новоферма",
+      "description": "Котлеты по-итальянски, 480 г. Из курицы, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 20,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 677851,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-frikadelki-klassicheskie.html": {
+      "sha256": "6785bc3e1b73a75d7480b7ed596a9cc03a9aceb1d29affb1ddf2e45b8dfdd8a5",
+      "h1": 1,
+      "title": "Фрикадельки «Классические» — Новоферма",
+      "description": "Фрикадельки «Классические», 500 г. Из курицы, замороженный продукт в контейнере. Фото упаковки, информация о продукте и поиск покупки.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 20,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 689001,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-fibriki.html": {
+      "sha256": "e49bd3c411e03a0557e63568d0f0a28c54f471c9e53c24c9d093af5751678349",
+      "h1": 1,
+      "title": "Фибрики — Новоферма",
+      "description": "Концепт куриных фрикаделек с пищевыми волокнами. Информация о концепте и контакт для уточнения начала продаж.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 18,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 581791,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    },
+    "product-lulia-mini.html": {
+      "sha256": "20fc3281c52e927a88484292b98c7a19e8a863351017e0444490e98861ee0762",
+      "h1": 1,
+      "title": "Люля мини — Новоферма",
+      "description": "Концепт мини-колбасок из курицы с зеленью и овощами. Информация о концепте и контакт для уточнения начала продаж.",
+      "canonical": 0,
+      "jsonld": 0,
+      "images": 18,
+      "srcset": 4,
+      "deferred": 0,
+      "directUniqueImageFileBytes": 591683,
+      "scripts": [
+        "script.js?v=65160eba7f",
+        "depth.js?v=c2715d391d"
+      ],
+      "styles": [
+        "assets/fonts/font-face.css?v=fbc8e57b18",
+        "style.css?v=aeca8820c8",
+        "depth.css?v=e66316dafa",
+        "design-system.css?v=bf90b0034d",
+        "polish.css?v=0015d3dc42",
+        "motion.css?v=d1e04eec5d",
+        "mobile.css?v=5ec1868bf6",
+        "product-cards.css?v=5bfb1a80d1",
+        "product-detail.css?v=0ec2efffa3"
+      ],
+      "formActions": [],
+      "downloads": [],
+      "b2bLinks": [
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        },
+        {
+          "text": "Для партнёров ",
+          "href": "partners.html"
+        },
+        {
+          "text": "Партнёрам",
+          "href": "partners.html"
+        }
+      ]
+    }
+  },
+  "sourceHashes": {
+    "scripts/build_site.py": "8d515f54b6c1608ce787a3dc3c8cb12d28daee8894b42463dcd964d1a1841f59",
+    "scripts/site_sections.py": "ad9075fa0f4360a114a0427005594c1f77d7812929603f0ae4778c095c510459",
+    "output/concept/products.json": "c3755a31821446ce1107ed7965484af4566470d9320df291656b4f586696e5ef",
+    "output/concept/site-manifest.json": "a9c1391d640135a1f404acc69f4abaef4eca77385a01eb9232a02ca1decb931e",
+    "output/concept/asset-variants.json": "2e5c94a9f2291a97c83cf39336e15f00773cff9803975226720a88efa3ecdca9",
+    "output/concept/retailers.json": "d3e4bff0bc16be548523b79387bd54bf02882d4f6bee012a829254ce4140bc17",
+    "output/concept/partners-scenes.js": "4721eb618455d5ba2575f257773a0f9aa7f0bcd52320730edf4fa56edbd4c7e5",
+    "output/concept/script.js": "65160eba7f2e90d87863aed6341497c9717d900d51c273782e4a1d2adcb015d4",
+    "output/concept/product-hero.js": "005574cdda650466a426456625d3c9c205c5c5d67810584e28d162bdb3b5d8db",
+    "output/concept/depth.js": "c2715d391dd9dba66b2f448b8cdef70f3bbbdf48c564de66ee2ba6fc28737634",
+    "output/concept/catalogue.js": "11f0d1febe9acf523fa781a43ee20ab1c1fa1d82c621386be9169e39fb2b4b1b",
+    "output/concept/where-to-buy.js": "e2d571b68892c39f1604fb47ae7da29c20938f5112a443482458c8f9af5da11d",
+    "scripts/check_interactions.cjs": "53450d1e45e3d6f17fda9344b25d9c07d1d8774d6079b130d3ff46a24426d4b9"
+  }
+}

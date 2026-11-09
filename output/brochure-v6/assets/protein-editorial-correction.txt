@@ -1,0 +1,6 @@
+Use case: precise-object-edit
+Edit target: the attached premium cream food still-life photograph.
+Primary request: change ONLY the visible cut interior of the single halved chicken meatball at the right forefront. Make that interior genuinely finely minced cooked chicken: a fairly even pale cream chicken forcemeat cross-section with tiny irregular pores and short fine meat fibres. Remove all long white rice-like slivers, elongated grain-shaped pieces and big separate chunks. There must be no rice, grains, vegetables or herbs in the cut face. It should be convincingly real meatball mince as seen in a high-end food macro photo, neither a creamy sauce nor plastic or smooth 3D geometry.
+Invariants: keep the two whole meatballs exactly in their current positions with unchanged irregular shapes, browned texture, size and lighting. Keep the exact single half silhouette, exterior crust, position and camera angle. Keep the cream stone plinth, cream backdrop, orange linen, negative space, natural shadows, composition and colour grade unchanged. Exactly two whole meatballs and one single half, no additions.
+Composition: preserve the same wide 16:9 photograph and large empty left side. No text, numbers, packaging, cartoon or logo.
+This is a local food-texture correction only.

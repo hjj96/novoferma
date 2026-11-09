@@ -1,0 +1,30 @@
+{
+  "asset": "pops-v3-lifestyle.png",
+  "tool": "built-in image_gen.imagegen",
+  "native_dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGB",
+  "bytes": 2206777,
+  "sha256": "89c99828174475a604fbec596e3d5f20660ba0d21344f210f676437fb3971a47",
+  "references": [
+    {
+      "role": "Exact selected main physical package identity",
+      "path": "pops-v3-drummer.png"
+    },
+    {
+      "role": "Cooked food shape and fine golden coating",
+      "path": "../../assets/pops-food-cutout.png"
+    }
+  ],
+  "prompt": "pops-v3-lifestyle.prompt.txt",
+  "native_generated_output": "/Users/andrey/.codex/generated_images/01a1ac4b-7f62-7b00-abaa-dbd5bd833d6c/exec-c17bcab1-8102-4111-8330-b494adf79830.png",
+  "corrections": 0,
+  "qa": {
+    "package": "The exact drummer hen, black vest, drumsticks and terracotta drum bucket scene retained on the cream sleeve, with recognizable NOVOferma wordmark and exact Cyrillic title/descriptors. Shallow clear PET tray with pale matte bites is retained.",
+    "food": "Small irregular whole golden mince-chicken bites in plain unbranded terracotta serving cup with two pieces beside it.",
+    "scene": "Daylight cream table, headphones lower left, soft background guitar gig bag/denim context at far right, quiet empty upper-left space, no people/hands/new text.",
+    "servingNote": "Cup and prepared food are a serving suggestion and are not presented as included retail packaging."
+  }
+}

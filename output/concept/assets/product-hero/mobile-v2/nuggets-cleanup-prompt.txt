@@ -1,0 +1,6 @@
+Built-in ImageGen; 2026-11-05.
+The first spacing edit added an unwanted pale translucent background and was rejected.
+Final asset is a background-only cleanup preserving spaced subjects and their geometry.
+
+Use case: background-extraction. This input is the EXACT edit target. Remove ONLY the pale white / gray cloud, mist, haze, halo and all cast shadows floating behind and around the subjects. Every background pixel OUTSIDE the THREE nuggets, illustrated chicken and FOUR orange accent strokes must be actual alpha transparency, alpha=0. All empty spaces BETWEEN nuggets and between nuggets and chicken must be perfectly transparent, with no white translucent connecting shape, no glow, no shadow, no gray veil, no paper, no smoke. Keep the chicken's WHITE apron opaque and unchanged: it is part of the subject, not background. The orange chicken drawing, its face, pose, linework, all three nuggets, orange accent strokes and exact object positions and scale must remain UNCHANGED. Do NOT move or resize anything. Preserve the entire original square canvas and existing generous gaps exactly. No crop, no recenter, no added props, no floor, no text, no package. This is solely clean background removal with preserved subject pixels and geometry. Return an actual transparent PNG with clean antialiased subject edges and zero mist/halo, not a checkerboard picture.
+

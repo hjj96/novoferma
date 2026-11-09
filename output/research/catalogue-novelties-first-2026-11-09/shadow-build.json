@@ -1,0 +1,71 @@
+{
+  "tempSite": "/var/folders/b1/s0mpd68155bf8x94y3j6by3c0000gn/T/novoferma-novelties-first-rfm_rsvb",
+  "allDifferences": [
+    "about.html",
+    "catalogue.html",
+    "index.html",
+    "product-bitochki-kurinye-s-ovoshchami.html",
+    "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "product-fibriki.html",
+    "product-kurinyj-popkorn.html",
+    "product-lenivchiki.html",
+    "product-lulia-mini.html",
+    "product-popsy.html",
+    "site-manifest.json",
+    "where-to-buy.html"
+  ],
+  "unexpected": [],
+  "noveltyOrder": [
+    "fibriki",
+    "lenivchiki",
+    "lulia-mini",
+    "popsy"
+  ],
+  "noveltyDataChanges": {
+    "fibriki": {
+      "weight": {
+        "before": "",
+        "after": "400 г"
+      }
+    },
+    "lenivchiki": {
+      "weight": {
+        "before": "",
+        "after": "400 г"
+      }
+    },
+    "lulia-mini": {
+      "weight": {
+        "before": "",
+        "after": "400 г"
+      }
+    },
+    "popsy": {
+      "weight": {
+        "before": "",
+        "after": "400 г"
+      }
+    }
+  },
+  "original14ProductDataPreserved": true,
+  "homeAboutOnlyPopsyWeightAdded": {
+    "index.html": true,
+    "about.html": true
+  },
+  "fibrikiV12WithoutNutrition": true,
+  "promoted": [
+    "about.html",
+    "catalogue.html",
+    "index.html",
+    "product-bitochki-kurinye-s-ovoshchami.html",
+    "product-ezhiki-iz-tsyplenka-s-risom.html",
+    "product-fibriki.html",
+    "product-kurinyj-popkorn.html",
+    "product-lenivchiki.html",
+    "product-lulia-mini.html",
+    "product-popsy.html",
+    "site-manifest.json",
+    "where-to-buy.html"
+  ],
+  "unaffectedHTMLPreserved": true
+}

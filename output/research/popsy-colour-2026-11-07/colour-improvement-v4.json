@@ -1,0 +1,21 @@
+{
+  "scope": "One clean paper patch, not a physical label colour certification",
+  "candidate": "output/pops-2026-11-05/revision-4-color/assets/pops-pack-v4-color.png",
+  "comparisons": [
+    {
+      "reference": "output/concept/assets/catalogue-clean-v2/naggetsy-kurinye.webp",
+      "beforeDeltaE76": 6.9893,
+      "afterDeltaE76": 3.443
+    },
+    {
+      "reference": "output/concept/assets/catalogue-clean-v2/stripsy.webp",
+      "beforeDeltaE76": 4.7876,
+      "afterDeltaE76": 1.076
+    },
+    {
+      "reference": "output/concept/assets/catalogue-clean-v2/kurinyj-popkorn.webp",
+      "beforeDeltaE76": 5.1052,
+      "afterDeltaE76": 1.98
+    }
+  ]
+}

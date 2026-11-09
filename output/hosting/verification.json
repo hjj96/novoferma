@@ -1,0 +1,1127 @@
+{
+  "url": "https://novoferma-team-preview.vercel.app",
+  "method": "HTTP HEAD",
+  "filesChecked": 179,
+  "pagesChecked": 23,
+  "errors": [],
+  "result": "pass",
+  "browserSmoke": {
+    "navigation": "Home slider, catalogue, Popsy product",
+    "homeImages": 32,
+    "homeImagesLoaded": 32,
+    "homeImagesFailed": 0
+  },
+  "scope": "Availability and noindex headers checked with HTTP HEAD. Local package dependency integrity and browser smoke tests passed. Full remote byte comparison was not completed.",
+  "files": [
+    {
+      "path": "about.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue-clean-v2/bitochki-kurinye-s-ovoshchami.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue-clean-v2/ezhiki-iz-tsyplenka-s-risom.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue-clean-v2/frikadelki-klassicheskie.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue-clean-v2/kotlety-kurinye.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue-clean-v2/kotlety-pikantnye.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue-clean-v2/kotlety-po-domashnemu.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue-clean-v2/kotlety-po-italyanski.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue-clean-v2/kurinyj-popkorn.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue-clean-v2/naggetsy-dinozavry.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/catalogue-clean-v2/naggetsy-kurinye-s-syrom.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue-clean-v2/naggetsy-kurinye.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue-clean-v2/naggetsy-ostrye.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue-clean-v2/naggetsy-s-indeykoy-fitnes.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue-clean-v2/stripsy.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/bitochki-kurinye-s-ovoshchami-serving.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/bitochki-kurinye-s-ovoshchami.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/ezhiki-iz-tsyplenka-s-risom-serving.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/ezhiki-iz-tsyplenka-s-risom.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/catalogue/frikadelki-klassicheskie-serving.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/frikadelki-klassicheskie.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/catalogue/kotlety-kurinye-serving.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/kotlety-kurinye.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/kotlety-pikantnye-serving.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/kotlety-pikantnye.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/kotlety-po-domashnemu-serving.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 3
+    },
+    {
+      "path": "assets/catalogue/kotlety-po-domashnemu.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/kotlety-po-italyanski-serving.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/kotlety-po-italyanski.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/catalogue/kurinyj-popkorn-serving.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/kurinyj-popkorn.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/naggetsy-dinozavry-serving.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/naggetsy-dinozavry.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/naggetsy-kurinye-s-syrom-serving.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/catalogue/naggetsy-kurinye-s-syrom.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/naggetsy-kurinye-serving.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/naggetsy-kurinye.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/naggetsy-ostrye-serving.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/naggetsy-ostrye.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/naggetsy-s-indeykoy-fitnes-serving.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/naggetsy-s-indeykoy-fitnes.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/stripsy-serving.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/catalogue/stripsy.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/favicon.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "noindex": true
+    },
+    {
+      "path": "assets/fonts/Caveat-wght.woff2",
+      "status": 200,
+      "contentType": "font/woff2",
+      "noindex": true
+    },
+    {
+      "path": "assets/fonts/OFL-Caveat.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "assets/fonts/OFL-Onest.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "assets/fonts/OFL-RobotoFlex.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "assets/fonts/OFL-Rubik.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "assets/fonts/Onest-wght.woff2",
+      "status": 200,
+      "contentType": "font/woff2",
+      "noindex": true
+    },
+    {
+      "path": "assets/fonts/RobotoFlex-Protein.woff2",
+      "status": 200,
+      "contentType": "font/woff2",
+      "noindex": true
+    },
+    {
+      "path": "assets/fonts/Rubik-wght.woff2",
+      "status": 200,
+      "contentType": "font/woff2",
+      "noindex": true
+    },
+    {
+      "path": "assets/fonts/font-face.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/icons/LICENSE-Tabler.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/icons/arrow-left.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/icons/arrow-right.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "noindex": true
+    },
+    {
+      "path": "assets/icons/arrow-up-right.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/icons/arrow-up.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "noindex": true
+    },
+    {
+      "path": "assets/icons/menu-2.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "noindex": true
+    },
+    {
+      "path": "assets/icons/x.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "noindex": true
+    },
+    {
+      "path": "assets/logo-reference.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/novelty-packaging/fibriki-pack-v11.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/novelty-packaging/lulia-mini-pack-v3.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/novelty-packaging/popsy-pack-v3.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/partners-brand-v1/partner-host-v1.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/product-hero/background-v2.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/product-hero/benefit-brush-v11.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/product-hero/fibriki-art-v6.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/product-hero/lulia-mini-art-v5.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/product-hero/meatballs-art-v5.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/product-hero/mobile-v4/fibriki.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/product-hero/mobile-v4/lulia-mini.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/product-hero/mobile-v4/meatballs.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/product-hero/mobile-v4/nuggets.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/product-hero/nuggets-art-v5.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/product-hero/shared-floor-v11.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 2
+    },
+    {
+      "path": "assets/responsive/illustrations/hen-layer-v2-1254-q90-bd32bcef.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/illustrations/hen-layer-v2-400-q90-bd32bcef.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/responsive/illustrations/hen-layer-v2-800-q90-bd32bcef.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/illustrations/mascot-contact-restored-v2-400-q90-8fe205be.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/illustrations/mascot-contact-restored-v2-800-q90-8fe205be.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/responsive/illustrations/mascot-contact-restored-v2-980-q90-8fe205be.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/illustrations/mascot-partnership-v2-1086-q90-66fd6b8d.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/responsive/illustrations/mascot-partnership-v2-400-q90-66fd6b8d.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/illustrations/mascot-partnership-v2-800-q90-66fd6b8d.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/illustrations/nuggets-layer-v2-1448-q90-a648c271.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/illustrations/nuggets-layer-v2-400-q90-a648c271.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/illustrations/nuggets-layer-v2-800-q90-a648c271.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/illustrations/popsy-lifestyle-v3-1536-q90-8073b7b6.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/illustrations/popsy-lifestyle-v3-400-q90-8073b7b6.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/responsive/illustrations/popsy-lifestyle-v3-800-q90-8073b7b6.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/illustrations/popsy-rock-v3-1683-q90-955f3f14.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/responsive/illustrations/popsy-rock-v3-400-q90-955f3f14.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/illustrations/popsy-rock-v3-800-q90-955f3f14.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/illustrations/running-mascot-v2-1254-q90-f2dbaa26.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/illustrations/running-mascot-v2-400-q90-f2dbaa26.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/illustrations/running-mascot-v2-800-q90-f2dbaa26.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/responsive/packshots/bitochki-kurinye-s-ovoshchami-400-q94-5db59691.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/bitochki-kurinye-s-ovoshchami-800-q94-5db59691.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/responsive/packshots/ezhiki-iz-tsyplenka-s-risom-400-q94-1d1a2e59.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/ezhiki-iz-tsyplenka-s-risom-800-q94-1d1a2e59.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/fibriki-pack-v11-400-q94-1c8ec286.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/fibriki-pack-v11-800-q94-1c8ec286.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/frikadelki-klassicheskie-400-q94-e0ef4bbb.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/frikadelki-klassicheskie-800-q94-e0ef4bbb.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/kotlety-kurinye-400-q94-a1ed2899.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/kotlety-kurinye-800-q94-a1ed2899.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/kotlety-pikantnye-400-q94-aed06aa1.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/kotlety-pikantnye-800-q94-aed06aa1.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/kotlety-po-domashnemu-400-q94-4b30908e.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/kotlety-po-domashnemu-800-q94-4b30908e.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/kotlety-po-italyanski-400-q94-4e765a90.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/kotlety-po-italyanski-800-q94-4e765a90.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/responsive/packshots/kurinyj-popkorn-400-q94-d707c51a.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/kurinyj-popkorn-800-q94-d707c51a.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/responsive/packshots/lulia-mini-pack-v3-400-q94-5406742c.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/responsive/packshots/lulia-mini-pack-v3-800-q94-5406742c.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/naggetsy-dinozavry-400-q94-d8f755c7.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/naggetsy-dinozavry-800-q94-d8f755c7.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/responsive/packshots/naggetsy-kurinye-400-q94-712fb649.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/naggetsy-kurinye-800-q94-712fb649.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/naggetsy-kurinye-s-syrom-400-q94-070a49d8.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/responsive/packshots/naggetsy-kurinye-s-syrom-800-q94-070a49d8.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/naggetsy-ostrye-400-q94-d5c86a9d.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/naggetsy-ostrye-800-q94-d5c86a9d.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/naggetsy-s-indeykoy-fitnes-400-q94-68b47a02.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/naggetsy-s-indeykoy-fitnes-800-q94-68b47a02.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "assets/responsive/packshots/popsy-pack-v3-400-q94-2bbda6ae.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/popsy-pack-v3-800-q94-2bbda6ae.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/stripsy-400-q94-04f43af0.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/stripsy-800-q94-04f43af0.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "noindex": true
+    },
+    {
+      "path": "catalogue.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "catalogue.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "contacts.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "contacts.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "depth.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "depth.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "design-system.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "fibriki.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "home-unified.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "mobile.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "motion.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "partners-scenes.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "partners-scenes.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "partners.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "partnership.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "polish.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "popsy.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-bitochki-kurinye-s-ovoshchami.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-cards.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "product-detail.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-ezhiki-iz-tsyplenka-s-risom.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "product-fibriki.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-frikadelki-klassicheskie.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-hero.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-hero.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-kotlety-kurinye.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-kotlety-pikantnye.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-kotlety-po-domashnemu.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-kotlety-po-italyanski.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "product-kurinyj-popkorn.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-lulia-mini.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-naggetsy-dinozavry.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-naggetsy-kurinye-s-syrom.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-naggetsy-kurinye.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-naggetsy-ostrye.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "product-naggetsy-s-indeykoy-fitnes.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true,
+      "retry": 2
+    },
+    {
+      "path": "product-popsy.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "product-stripsy.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "products.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "protein-story.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "robots.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "script.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "site-manifest.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "noindex": true,
+      "retry": 1
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "where-to-buy.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "where-to-buy.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "path": "where-to-buy.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "noindex": true
+    }
+  ],
+  "initialNetworkTimeouts": 35
+}

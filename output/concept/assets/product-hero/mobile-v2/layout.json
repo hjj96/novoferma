@@ -1,0 +1,34 @@
+{
+  "fibriki": {
+    "width": 960,
+    "height": 960,
+    "ratio": 1.0,
+    "size": 100,
+    "left": 0,
+    "top": 0
+  },
+  "meatballs": {
+    "width": 960,
+    "height": 960,
+    "ratio": 1.0,
+    "size": 100,
+    "left": 0,
+    "top": 0
+  },
+  "nuggets": {
+    "width": 960,
+    "height": 960,
+    "ratio": 1.0,
+    "size": 100,
+    "left": 0,
+    "top": 0
+  },
+  "lulia-mini": {
+    "width": 960,
+    "height": 960,
+    "ratio": 1.0,
+    "size": 100,
+    "left": 0,
+    "top": 0
+  }
+}

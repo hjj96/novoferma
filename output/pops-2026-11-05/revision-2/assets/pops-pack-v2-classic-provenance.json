@@ -1,0 +1,51 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit with 4 reference images; transparent_background=true",
+  "source": "/Users/andrey/.codex/generated_images/01a1ac4b-2ce4-7041-95bc-42f590ba90aa/exec-4a39de8e-58c8-4e70-bd70-0bae34f5a364.png",
+  "output": "/Users/andrey/Desktop/сайт нф/output/pops-2026-11-05/revision-2/assets/pops-pack-v2-classic.png",
+  "prompt": "pops-pack-v2-classic-prompt.txt",
+  "references_in_order": [
+    {
+      "path": "output/concept/assets/catalogue/kurinyj-popkorn.webp",
+      "role": "original physical pack photography"
+    },
+    {
+      "path": "output/concept/assets/novelty-packaging/fibriki-pack-v11.webp",
+      "role": "approved traditional hen mascot identity"
+    },
+    {
+      "path": "output/concept/assets/catalogue-clean-v2/stripsy.webp",
+      "role": "hen proportions and dark ink hatching"
+    },
+    {
+      "path": "output/pops-2026-11-05/assets/pops-packshot.png",
+      "role": "edit target; old mascot style rejected"
+    }
+  ],
+  "changes": [
+    "traditional printed hen illustration with small squinting eyes and thin dark legs",
+    "small terracotta bucket kept",
+    "whole hen fits on sleeve",
+    "lower wider transparent PET tray",
+    "matte paper and more physical print texture"
+  ],
+  "unchanged_exact_copy": [
+    "NOVOferma",
+    "ПОПСЫ",
+    "МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ",
+    "В ХРУСТЯЩЕЙ ПАНИРОВКЕ"
+  ],
+  "qa": {
+    "mode": "RGBA",
+    "width_px": 1254,
+    "height_px": 1254,
+    "requested_resolution": "target 2048x2048, actual tool result 1254x1254",
+    "text": "exact visually verified",
+    "limitations": [
+      "a few tiny exterior alpha islands remain",
+      "visual concept, not production photography or confirmed manufacturing specification"
+    ]
+  },
+  "site_or_deck_modified": false,
+  "attempts": 1
+}

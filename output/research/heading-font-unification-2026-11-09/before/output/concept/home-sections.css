@@ -1,0 +1,126 @@
+/* Lower homepage chapters share the large type and palette of the About page. */
+.page-index {
+ --home-section-ink:#402312;
+ --home-section-red:#b93822;
+ --home-section-cream:#fff5e3;
+ --home-section-yellow:#f6d580;
+ --home-section-title-size:clamp(64px,7.5vw,106px);
+}
+.page-index h2.home-section-title {
+ margin:0;min-width:0;max-width:100%;
+ font-family:'Novoferma About','Novoferma Protein',var(--font-display);
+ font-size:var(--home-section-title-size);font-weight:850;line-height:1.04;
+ letter-spacing:-.015em;word-spacing:normal;text-transform:uppercase;
+ text-wrap:initial;color:inherit;
+}
+.page-index .home-section-title>span,
+.page-index .home-section-title>em {display:block;white-space:normal;font-style:normal}
+.page-index .home-section-title>em,
+.page-index .where-preview .home-section-title>span {color:var(--home-section-red)}
+.page-index .home-section-inner,
+.page-index .protein-poster-inner {
+ width:min(1296px,calc(100% - 96px));margin-inline:auto;
+}
+
+.page-index .protein-poster {background:var(--home-section-cream);color:var(--home-section-ink);overflow:clip}
+.page-index .protein-poster-inner {
+ display:block;width:min(1392px,100%);max-width:none;
+ aspect-ratio:1909 / 824;min-height:580px;padding:0;
+}
+.page-index .protein-poster-copy {width:45%;min-width:0;padding:80px 0 0 48px}
+.page-index .protein-poster-description {
+ max-width:29ch;margin-top:28px;font-size:clamp(18px,1.55vw,22px);
+ font-weight:450;line-height:1.55;letter-spacing:-.015em;
+}
+.page-index .protein-poster-scene {
+ position:absolute;inset:0;width:auto;height:auto;margin:0;pointer-events:none;
+}
+.page-index .protein-food {left:34%;bottom:9.9%;width:42.6%}
+.page-index .protein-hen {right:.4%;bottom:11.2%;width:31.5%}
+
+.page-index .nf-business {
+ background:var(--home-section-red);color:var(--home-section-cream);padding-block:80px 88px;
+}
+.page-index .nf-business-inner,
+.page-index .where-preview-inner {
+ display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);
+ gap:80px;align-items:center;
+}
+.page-index .nf-business .home-section-title>span {color:var(--home-section-yellow)}
+.page-index .nf-business-copy>p {
+ max-width:34ch;margin:0;color:var(--home-section-cream);
+ font-size:clamp(18px,1.55vw,22px);line-height:1.55;letter-spacing:-.015em;
+}
+.page-index .home-section-link {
+ display:inline-flex;align-items:center;justify-content:space-between;gap:28px;
+ min-height:54px;max-width:100%;margin-top:28px;padding:15px 24px;
+ border:1px solid transparent;border-radius:100px;
+ background:var(--home-section-cream);color:var(--home-section-ink);
+ font-family:var(--font-display);font-size:14px;font-weight:600;line-height:1.45;
+ transition:background .2s;
+}
+.page-index .home-section-link .ui-icon {width:21px;height:21px;flex:none;filter:none}
+.page-index .home-section-link:hover {background:var(--home-section-yellow)}
+.page-index .home-section-link:focus-visible {outline:3px solid var(--home-section-cream);outline-offset:6px}
+
+.page-index .where-preview {
+ display:block;padding-block:80px 88px;background:var(--home-section-yellow);color:var(--home-section-ink);
+}
+.page-index .where-preview-copy>p {
+ max-width:32ch;margin:28px 0 0;font-size:clamp(18px,1.55vw,22px);
+ line-height:1.55;letter-spacing:-.015em;color:var(--home-section-ink);
+}
+.page-index .where-preview .editorial-links {margin:0}
+.page-index .where-preview .editorial-links a {
+ display:block;padding-block:28px;border-color:#40231259;
+}
+.page-index .where-preview .editorial-links a:first-child {border-top:1px solid #40231259}
+.page-index .where-preview .editorial-links h3 {
+ display:flex;align-items:center;justify-content:space-between;gap:24px;margin:0;
+ font-family:var(--font-display);font-size:30px;font-weight:700;line-height:1.2;letter-spacing:-.025em;
+}
+.page-index .where-preview .editorial-links h3 .ui-icon {width:28px;height:28px;flex:none}
+.page-index .where-preview .editorial-links p {margin:12px 0 0;max-width:36ch;color:var(--home-section-ink);font-size:17px;line-height:1.55}
+.page-index .where-preview .editorial-links a:hover h3 {color:var(--home-section-red)}
+.page-index .where-preview .editorial-links a:focus-visible {outline:3px solid var(--home-section-ink);outline-offset:6px}
+
+@media(min-width:700px) and (max-width:1099px) {
+ .page-index {--home-gutter:32px;--home-section-title-size:clamp(56px,7.5vw,82px)}
+ .page-index .nf-business,.page-index .where-preview {padding-block:64px}
+ .page-index .nf-business-inner,.page-index .where-preview-inner {gap:40px}
+}
+@media(max-width:1099px) {
+ .page-index .protein-poster-inner {width:100%;min-height:0;aspect-ratio:auto;padding-bottom:64px}
+ .page-index .protein-poster-copy {width:100%;padding:64px 32px 0}
+ .page-index .protein-poster-description {max-width:40ch}
+ .page-index .protein-poster-scene {position:relative;inset:auto;width:100%;height:49cqw;margin:32px 0 0}
+ .page-index .protein-food {left:2.5%;bottom:0;width:62.5%}
+ .page-index .protein-hen {right:.2%;bottom:1%;width:49.5%}
+}
+@media(max-width:899px) {
+ .page-index .nf-business-inner,.page-index .where-preview-inner {grid-template-columns:minmax(0,1fr);gap:32px}
+ .page-index .nf-business-copy>p,.page-index .where-preview-copy>p {max-width:44ch}
+}
+@media(max-width:699px) {
+ .page-index {--home-section-title-size:clamp(42px,12.6vw,76px)}
+ .page-index .protein-poster-inner {width:100%;padding-bottom:56px}
+ .page-index .protein-poster-copy {padding:48px 20px 0}
+ .page-index .protein-poster-scene {margin-top:28px}
+ .page-index .nf-business,.page-index .where-preview {padding-block:48px 56px}
+ .page-index .protein-poster-description,.page-index .nf-business-copy>p,.page-index .where-preview-copy>p {
+  font-size:17px;line-height:1.6;
+ }
+ .page-index .protein-poster-description,.page-index .where-preview-copy>p {margin-top:24px}
+ .page-index .nf-business-inner,.page-index .where-preview-inner {gap:28px}
+ .page-index .home-section-link {min-height:50px;margin-top:24px;padding:13px 21px;font-size:13px;gap:24px}
+ .page-index .where-preview .editorial-links a {padding-block:24px}
+ .page-index .where-preview .editorial-links h3 {font-size:26px}
+ .page-index .where-preview .editorial-links p {font-size:16px;margin-top:10px}
+}
+@media(max-width:359px) {
+ .page-index {--home-section-title-size:39px}
+ .page-index .protein-poster-copy {padding-inline:16px}
+ .page-index .protein-poster-description,.page-index .nf-business-copy>p,.page-index .where-preview-copy>p {font-size:16px}
+ .page-index .where-preview .editorial-links h3 {font-size:24px}
+}
+@media(prefers-reduced-motion:reduce) {.page-index .home-section-link {transition:none}}

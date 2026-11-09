@@ -1,0 +1,9 @@
+Use case: background-extraction
+Asset type: final transparent photorealistic product-food layer for the Novoferma homepage.
+Input images: Image 1 is the sole EDIT TARGET, the existing popsy-food-v2-master.png. This is a precise subtractive edit of this exact image, NOT a new generation or re-creation.
+
+Primary request: Remove ONLY the external brown fuzzy cast/contact shadow mats underneath the lowest food pieces and loose crumbs, making those exterior shadow pixels genuinely transparent (alpha 0). Every area outside the real food and crumb silhouettes must be transparent, with only clean natural antialiased edges. There must be NO ground shadow, NO drop shadow, NO contact shadow onto any imaginary background surface, NO grey or brown halo, and NO newly painted background.
+
+Invariants: Keep the exact existing square 1254 x 1254 pixel canvas and crop. Keep the exact same ten main food pieces: eight whole mini nuggets and the two cut halves at the bottom. Preserve every piece and crumb, their exact positions, sizes, angles, spacing, layering, silhouettes, irregular breading detail, color and appearance. Preserve the original opaque white chicken meat in the two cut faces. Preserve ALL lighting and shading ON the food itself, and preserve occlusion where actual food pieces overlap each other. Do not flatten the food's volume or change its internal dark crevices. Do not remove crumbs.
+
+Composition/framing: absolutely unchanged; no shift, rotation, zoom, resizing, rearrangement, addition, deletion, new gaps, new objects, new scene or recropping. Only subtract the brown exterior shadow veil below and between the lowest silhouettes where it is background. Maintain the original crisp cutout edges without neon fringes. Transparent PNG output with actual RGBA transparency, never a checkerboard image.

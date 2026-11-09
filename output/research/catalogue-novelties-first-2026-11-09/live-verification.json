@@ -1,0 +1,44 @@
+{
+  "deploymentId": "dpl_HMDTiDj4hhxa3kLZTVC16d2qtdZz",
+  "sourceCommit": "b8ae5cc72b68192fb522af9e49c1b62dc8026eb7",
+  "permanentUrl": "https://novoferma-team-preview.vercel.app/",
+  "files": [
+    {
+      "path": "catalogue.html",
+      "matchesLocal": true,
+      "bytes": 23206,
+      "noindex": true
+    },
+    {
+      "path": "product-fibriki.html",
+      "matchesLocal": true,
+      "bytes": 12831,
+      "noindex": true
+    },
+    {
+      "path": "product-lenivchiki.html",
+      "matchesLocal": true,
+      "bytes": 13475,
+      "noindex": true
+    },
+    {
+      "path": "product-lulia-mini.html",
+      "matchesLocal": true,
+      "bytes": 11572,
+      "noindex": true
+    },
+    {
+      "path": "product-popsy.html",
+      "matchesLocal": true,
+      "bytes": 13997,
+      "noindex": true
+    },
+    {
+      "path": "assets/responsive/packshots/fibriki-pack-v12-800-q94-0ea08f11.webp",
+      "matchesLocal": true,
+      "bytes": 127608,
+      "noindex": true
+    }
+  ],
+  "passed": true
+}

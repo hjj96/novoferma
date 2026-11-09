@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-09",
+  "source": "Explicit user instructions in this chat",
+  "changes": {
+    "catalogueOrder": "all four existing novelties first, preserve original relative order",
+    "noveltyWeight": "400 g per package for each of the four novelties",
+    "fibrikiArtwork": "restore prior v12 without added 52/5 labels"
+  },
+  "noveltyIds": [
+    "fibriki",
+    "lenivchiki",
+    "lulia-mini",
+    "popsy"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-07",
+  "generator": "built-in ImageGen",
+  "reference_character": "../mobile-v3/fibriki-master.png",
+  "fibriki": "Current portrait uses fibriki-v5.webp; original v3 files remain for history. The three other mobile-v4 scenes are unchanged.",
+  "exports": "RGBA PNG 1254x1254 to WebP 960x960 quality92 method6; no programmatic object edits",
+  "scenes": {
+    "fibriki": {
+      "master": "fibriki-v5-master.png",
+      "runtime": "fibriki-v5.webp",
+      "prompt": "fibriki-v5-prompt.txt",
+      "additional_prompt": "fibriki-v5-spacing-prompt.txt",
+      "sha256": "c988304173f9a3532c26bdaf5be0e4803fb8324609996ee7859379944c8e0920",
+      "bytes": 239838,
+      "alpha_over_32_percent": 45.11,
+      "nearest_hen_gaps_px_alpha64": [
+        51.8,
+        55.0,
+        44.3
+      ]
+    },
+    "meatballs": {
+      "master": "meatballs-master.png",
+      "runtime": "meatballs.webp",
+      "prompt": "meatballs-prompt.txt",
+      "sha256": "06138b7c70642592470e81dd0b125b5426d2a7d5fee238aeadfb0e2024db7889",
+      "bytes": 228804,
+      "alpha_over_32_percent": 38.46
+    },
+    "nuggets": {
+      "master": "nuggets-master.png",
+      "runtime": "nuggets.webp",
+      "prompt": "nuggets-prompt.txt",
+      "sha256": "da09a7e7a593b5b2d69c15b5b9ba352104fa03cfc7f5e6749a5bd7593940e66f",
+      "bytes": 208298,
+      "alpha_over_32_percent": 36.93
+    },
+    "lulia-mini": {
+      "master": "lulia-mini-master.png",
+      "runtime": "lulia-mini.webp",
+      "prompt": "lulia-mini-prompt.txt",
+      "sha256": "f4ed56b8d8c815ed5033a36b6ae061e6ba22fa57644db5e44a6079826f450aa9",
+      "bytes": 223600,
+      "alpha_over_32_percent": 39.62,
+      "additional_prompt": "lulia-mini-spacing-prompt.txt"
+    }
+  },
+  "previous_fibriki_v3": {
+    "master": "fibriki-master.png",
+    "runtime": "fibriki.webp",
+    "prompt": "fibriki-prompt.txt",
+    "sha256": "459ad17a937b6c4f0cf84f9ca736211167344b2145603ffdfc620628ba622efc",
+    "bytes": 205924,
+    "alpha_over_32_percent": 32.08
+  }
+}

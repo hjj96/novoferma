@@ -1,0 +1,106 @@
+{
+  "size": [
+    1671,
+    941
+  ],
+  "mode": "RGBA",
+  "regions": {
+    "left44": {
+      "alpha_extrema": [
+        0,
+        1
+      ],
+      "alpha_over_1": 0
+    },
+    "number_slot": {
+      "alpha_extrema": [
+        0,
+        2
+      ],
+      "alpha_over_1": 9
+    }
+  },
+  "components": [
+    {
+      "pixels": 93642,
+      "bbox_percent": [
+        57.0,
+        45.2,
+        82.3,
+        88.8
+      ]
+    },
+    {
+      "pixels": 34327,
+      "bbox_percent": [
+        82.2,
+        20.7,
+        94.7,
+        43.1
+      ]
+    },
+    {
+      "pixels": 25159,
+      "bbox_percent": [
+        46.3,
+        27.5,
+        57.3,
+        46.1
+      ]
+    },
+    {
+      "pixels": 10657,
+      "bbox_percent": [
+        86.1,
+        50.3,
+        93.4,
+        62.3
+      ]
+    },
+    {
+      "pixels": 1119,
+      "bbox_percent": [
+        92.6,
+        16.9,
+        95.2,
+        22.6
+      ]
+    },
+    {
+      "pixels": 999,
+      "bbox_percent": [
+        56.3,
+        24.5,
+        58.8,
+        30.0
+      ]
+    },
+    {
+      "pixels": 959,
+      "bbox_percent": [
+        93.5,
+        20.0,
+        96.6,
+        23.8
+      ]
+    },
+    {
+      "pixels": 866,
+      "bbox_percent": [
+        57.3,
+        27.4,
+        60.3,
+        30.9
+      ]
+    },
+    {
+      "pixels": 627,
+      "bbox_percent": [
+        54.6,
+        75.0,
+        58.2,
+        81.1
+      ]
+    }
+  ]
+}

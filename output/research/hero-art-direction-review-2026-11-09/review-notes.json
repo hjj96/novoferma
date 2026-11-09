@@ -1,0 +1,41 @@
+{
+  "scope": "Visual art direction of current published hero, discussion only; no site changes.",
+  "steps": [
+    {
+      "number": 1,
+      "capture": "01-desktop.jpg",
+      "health": "Clear product recognition; competing typography and dominant packaging weaken hierarchy.",
+      "findings": [
+        "Oversized product name repeats prominent pack name.",
+        "Heavy headline, brush script, vintage pack lettering and cartoon compete.",
+        "Very even orange breading and symmetrical cut suggest staged/rendered food."
+      ]
+    },
+    {
+      "number": 2,
+      "capture": "02-mobile.jpg",
+      "health": "Readable and CTA visible; strong poster treatment crowds hierarchy.",
+      "findings": [
+        "The wordmark/name/script dominate the upper screen.",
+        "Package and prepared-food cutouts remain separate objects rather than one photographic scene.",
+        "Background pocket balances the diagonal, so adding decoration is unlikely to solve the core issue."
+      ]
+    },
+    {
+      "number": 3,
+      "capture": "03-next-section.jpg",
+      "health": "Brand palette and product catalogue are consistent; first product is repeated.",
+      "findings": [
+        "Large hero package is immediately repeated as first catalogue item.",
+        "The first screen adds little occasion or atmosphere beyond product identification."
+      ]
+    }
+  ],
+  "strengths": [
+    "Recognizable warm brand colors.",
+    "Package useful for retail recognition.",
+    "Prepared product and product action are clear."
+  ],
+  "recommendation": "Test one edit of the concept: prepared food as the main focal point, package35–40% smaller, calmer heading and small handwritten annotation. Use natural food photography with one light direction. Keep Novoferma character and warm palette.",
+  "limits": "Qualitative visual assessment from fresh browser captures, not conversion research or complete accessibility certification. CTA is visibly large; package print is too small to serve as required product information on mobile."
+}

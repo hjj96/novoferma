@@ -1,0 +1,15 @@
+{
+  "url": "https://novoferma-team-preview.vercel.app",
+  "deploymentId": "dpl_F6VkXVxzWJMfCSQxdQqrFFRsNbyq",
+  "deploymentUrl": "https://novoferma-team-preview-lq7hicnig-andreis-projects-3e7c2c72.vercel.app",
+  "sourceCommit": "6032c85ee6077922c1b192bbc74aa362ef7bb624",
+  "contentSha256": "0955676f703afaea013256b56fb11533bc2f4cd5af411991e2850d2d9b259c5b",
+  "state": "READY",
+  "versionAndNoindexVerification": "pass",
+  "staticPages": 24,
+  "interactionTests": {
+    "passed": 17,
+    "failed": 0
+  },
+  "independentDesignReview": "pass"
+}

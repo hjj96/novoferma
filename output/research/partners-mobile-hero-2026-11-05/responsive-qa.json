@@ -1,0 +1,480 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "buttonTextFits": true,
+      "cta": {
+        "bottom": 450.34375,
+        "height": 50,
+        "right": 182,
+        "width": 166,
+        "x": 16,
+        "y": 400.34375
+      },
+      "ctaHostOverlap": false,
+      "ctaTouchHeight": 50,
+      "documentWidth": 320,
+      "heading": {
+        "bottom": 278.34375,
+        "height": 91.84375,
+        "right": 304,
+        "width": 288,
+        "x": 16,
+        "y": 186.5
+      },
+      "headingHostOverlap": false,
+      "hero": {
+        "bottom": 474.34375,
+        "height": 346.34375,
+        "right": 320,
+        "width": 320,
+        "x": 0,
+        "y": 128
+      },
+      "host": {
+        "bottom": 450.34375,
+        "height": 156,
+        "right": 304,
+        "width": 112,
+        "x": 192,
+        "y": 294.34375
+      },
+      "hostFit": "contain",
+      "hostLoaded": true,
+      "overflow": [],
+      "text": {
+        "bottom": 363.9296875,
+        "height": 69.5859375,
+        "right": 182,
+        "width": 166,
+        "x": 16,
+        "y": 294.34375
+      },
+      "textHostOverlap": false,
+      "width": 320
+    },
+    {
+      "buttonTextFits": true,
+      "cta": {
+        "bottom": 465.828125,
+        "height": 50,
+        "right": 203.46875,
+        "width": 183.46875,
+        "x": 20,
+        "y": 415.828125
+      },
+      "ctaHostOverlap": false,
+      "ctaTouchHeight": 50,
+      "documentWidth": 360,
+      "heading": {
+        "bottom": 293.828125,
+        "height": 103.328125,
+        "right": 340,
+        "width": 320,
+        "x": 20,
+        "y": 190.5
+      },
+      "headingHostOverlap": false,
+      "hero": {
+        "bottom": 489.828125,
+        "height": 357.828125,
+        "right": 360,
+        "width": 360,
+        "x": 0,
+        "y": 132
+      },
+      "host": {
+        "bottom": 465.828125,
+        "height": 156,
+        "right": 340,
+        "width": 126.53125,
+        "x": 213.46875,
+        "y": 309.828125
+      },
+      "hostFit": "contain",
+      "hostLoaded": true,
+      "overflow": [],
+      "text": {
+        "bottom": 383.7734375,
+        "height": 73.9453125,
+        "right": 203.46875,
+        "width": 183.46875,
+        "x": 20,
+        "y": 309.828125
+      },
+      "textHostOverlap": false,
+      "width": 360
+    },
+    {
+      "buttonTextFits": true,
+      "cta": {
+        "bottom": 474.4375,
+        "height": 50,
+        "right": 221.21875,
+        "width": 201.21875,
+        "x": 20,
+        "y": 424.4375
+      },
+      "ctaHostOverlap": false,
+      "ctaTouchHeight": 50,
+      "documentWidth": 390,
+      "heading": {
+        "bottom": 302.4375,
+        "height": 111.9375,
+        "right": 370,
+        "width": 350,
+        "x": 20,
+        "y": 190.5
+      },
+      "headingHostOverlap": false,
+      "hero": {
+        "bottom": 498.4375,
+        "height": 366.4375,
+        "right": 390,
+        "width": 390,
+        "x": 0,
+        "y": 132
+      },
+      "host": {
+        "bottom": 474.4375,
+        "height": 156,
+        "right": 370,
+        "width": 138.78125,
+        "x": 231.21875,
+        "y": 318.4375
+      },
+      "hostFit": "contain",
+      "hostLoaded": true,
+      "overflow": [],
+      "text": {
+        "bottom": 392.3828125,
+        "height": 73.9453125,
+        "right": 221.21875,
+        "width": 201.21875,
+        "x": 20,
+        "y": 318.4375
+      },
+      "textHostOverlap": false,
+      "width": 390
+    },
+    {
+      "buttonTextFits": true,
+      "cta": {
+        "bottom": 501.921875,
+        "height": 50,
+        "right": 244.890625,
+        "width": 224.890625,
+        "x": 20,
+        "y": 451.921875
+      },
+      "ctaHostOverlap": false,
+      "ctaTouchHeight": 50,
+      "documentWidth": 430,
+      "heading": {
+        "bottom": 313.921875,
+        "height": 123.421875,
+        "right": 410,
+        "width": 390,
+        "x": 20,
+        "y": 190.5
+      },
+      "headingHostOverlap": false,
+      "hero": {
+        "bottom": 525.921875,
+        "height": 393.921875,
+        "right": 430,
+        "width": 430,
+        "x": 0,
+        "y": 132
+      },
+      "host": {
+        "bottom": 501.921875,
+        "height": 172,
+        "right": 410,
+        "width": 155.109375,
+        "x": 254.890625,
+        "y": 329.921875
+      },
+      "hostFit": "contain",
+      "hostLoaded": true,
+      "overflow": [],
+      "text": {
+        "bottom": 403.8671875,
+        "height": 73.9453125,
+        "right": 244.890625,
+        "width": 224.890625,
+        "x": 20,
+        "y": 329.921875
+      },
+      "textHostOverlap": false,
+      "width": 430
+    },
+    {
+      "buttonTextFits": true,
+      "cta": {
+        "bottom": 562.703125,
+        "height": 50,
+        "right": 250,
+        "width": 230,
+        "x": 20,
+        "y": 512.703125
+      },
+      "ctaHostOverlap": false,
+      "ctaTouchHeight": 50,
+      "documentWidth": 600,
+      "heading": {
+        "bottom": 362.703125,
+        "height": 172.203125,
+        "right": 580,
+        "width": 560,
+        "x": 20,
+        "y": 190.5
+      },
+      "headingHostOverlap": false,
+      "hero": {
+        "bottom": 586.703125,
+        "height": 454.703125,
+        "right": 600,
+        "width": 600,
+        "x": 0,
+        "y": 132
+      },
+      "host": {
+        "bottom": 562.703125,
+        "height": 184,
+        "right": 535.5078125,
+        "width": 180,
+        "x": 355.5078125,
+        "y": 378.703125
+      },
+      "hostFit": "contain",
+      "hostLoaded": true,
+      "overflow": [],
+      "text": {
+        "bottom": 452.6484375,
+        "height": 73.9453125,
+        "right": 279.0703125,
+        "width": 259.0703125,
+        "x": 20,
+        "y": 378.703125
+      },
+      "textHostOverlap": false,
+      "width": 600
+    },
+    {
+      "buttonTextFits": true,
+      "cta": {
+        "bottom": 573.53125,
+        "height": 50,
+        "right": 250,
+        "width": 230,
+        "x": 20,
+        "y": 523.53125
+      },
+      "ctaHostOverlap": false,
+      "ctaTouchHeight": 50,
+      "documentWidth": 699,
+      "heading": {
+        "bottom": 373.53125,
+        "height": 183.03125,
+        "right": 679,
+        "width": 659,
+        "x": 20,
+        "y": 190.5
+      },
+      "headingHostOverlap": false,
+      "hero": {
+        "bottom": 597.53125,
+        "height": 465.53125,
+        "right": 699,
+        "width": 699,
+        "x": 0,
+        "y": 132
+      },
+      "host": {
+        "bottom": 573.53125,
+        "height": 184,
+        "right": 594.1015625,
+        "width": 180,
+        "x": 414.1015625,
+        "y": 389.53125
+      },
+      "hostFit": "contain",
+      "hostLoaded": true,
+      "overflow": [],
+      "text": {
+        "bottom": 463.4765625,
+        "height": 73.9453125,
+        "right": 279.0703125,
+        "width": 259.0703125,
+        "x": 20,
+        "y": 389.53125
+      },
+      "textHostOverlap": false,
+      "width": 699
+    },
+    {
+      "buttonTextFits": true,
+      "cta": {
+        "bottom": 547.828125,
+        "height": 56,
+        "right": 240.6953125,
+        "width": 208.6953125,
+        "x": 32,
+        "y": 491.828125
+      },
+      "ctaHostOverlap": false,
+      "ctaTouchHeight": 56,
+      "documentWidth": 700,
+      "heading": {
+        "bottom": 389.828125,
+        "height": 121.15625,
+        "right": 365.8125,
+        "width": 333.8125,
+        "x": 32,
+        "y": 268.671875
+      },
+      "headingHostOverlap": false,
+      "hero": {
+        "bottom": 616,
+        "height": 460,
+        "right": 700,
+        "width": 700,
+        "x": 0,
+        "y": 156
+      },
+      "host": {
+        "bottom": 586,
+        "height": 400,
+        "right": 662.234375,
+        "width": 266.6640625,
+        "x": 395.5703125,
+        "y": 186
+      },
+      "hostFit": "contain",
+      "hostLoaded": true,
+      "overflow": [],
+      "text": {
+        "bottom": 467.828125,
+        "height": 54,
+        "right": 365.8125,
+        "width": 333.8125,
+        "x": 32,
+        "y": 413.828125
+      },
+      "textHostOverlap": false,
+      "width": 700
+    },
+    {
+      "buttonTextFits": true,
+      "cta": {
+        "bottom": 554.453125,
+        "height": 56,
+        "right": 240.6953125,
+        "width": 208.6953125,
+        "x": 32,
+        "y": 498.453125
+      },
+      "ctaHostOverlap": false,
+      "ctaTouchHeight": 56,
+      "documentWidth": 768,
+      "heading": {
+        "bottom": 396.453125,
+        "height": 134.40625,
+        "right": 402.90625,
+        "width": 370.90625,
+        "x": 32,
+        "y": 262.046875
+      },
+      "headingHostOverlap": false,
+      "hero": {
+        "bottom": 616,
+        "height": 460,
+        "right": 768,
+        "width": 768,
+        "x": 0,
+        "y": 156
+      },
+      "host": {
+        "bottom": 586,
+        "height": 400,
+        "right": 714.78125,
+        "width": 266.6640625,
+        "x": 448.1171875,
+        "y": 186
+      },
+      "hostFit": "contain",
+      "hostLoaded": true,
+      "overflow": [],
+      "text": {
+        "bottom": 474.453125,
+        "height": 54,
+        "right": 402.90625,
+        "width": 370.90625,
+        "x": 32,
+        "y": 420.453125
+      },
+      "textHostOverlap": false,
+      "width": 768
+    },
+    {
+      "buttonTextFits": true,
+      "cta": {
+        "bottom": 683.25,
+        "height": 56,
+        "right": 319.7265625,
+        "width": 247.7265625,
+        "x": 72,
+        "y": 627.25
+      },
+      "ctaHostOverlap": false,
+      "ctaTouchHeight": 56,
+      "documentWidth": 1440,
+      "heading": {
+        "bottom": 512.25,
+        "height": 245,
+        "right": 752.7265625,
+        "width": 680.7265625,
+        "x": 72,
+        "y": 267.25
+      },
+      "headingHostOverlap": false,
+      "hero": {
+        "bottom": 738,
+        "height": 570,
+        "right": 1440,
+        "width": 1440,
+        "x": 0,
+        "y": 168
+      },
+      "host": {
+        "bottom": 698,
+        "height": 490,
+        "right": 1247.6953125,
+        "width": 326.6640625,
+        "x": 921.03125,
+        "y": 208
+      },
+      "hostFit": "contain",
+      "hostLoaded": true,
+      "overflow": [],
+      "text": {
+        "bottom": 599.25,
+        "height": 63,
+        "right": 752.7265625,
+        "width": 680.7265625,
+        "x": 72,
+        "y": 536.25
+      },
+      "textHostOverlap": false,
+      "width": 1440
+    }
+  ],
+  "primaryCta": {
+    "hash": "#partner-contact",
+    "contactTop": 45.06,
+    "formTop": 427.58,
+    "pass": true
+  },
+  "desktopRulesUnchanged": true
+}

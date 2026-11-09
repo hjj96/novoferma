@@ -1,0 +1,27 @@
+{
+  "tempSite": "/var/folders/b1/s0mpd68155bf8x94y3j6by3c0000gn/T/novoferma-fibriki-52-5-final-00euuzwk",
+  "allDifferences": [
+    "catalogue.html",
+    "product-fibriki.html",
+    "site-manifest.json"
+  ],
+  "allowedFiles": [
+    "catalogue.html",
+    "product-fibriki.html",
+    "site-manifest.json"
+  ],
+  "unexpected": [],
+  "fibrikiChangedFields": [
+    "image",
+    "packNutrition"
+  ],
+  "otherProductDataPreserved": true,
+  "basis": "package",
+  "nutritionPer100gPopulated": false,
+  "promoted": [
+    "catalogue.html",
+    "product-fibriki.html",
+    "site-manifest.json"
+  ],
+  "otherHTMLPreserved": true
+}

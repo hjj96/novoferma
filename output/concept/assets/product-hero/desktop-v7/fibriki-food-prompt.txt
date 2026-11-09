@@ -1,0 +1,11 @@
+Use case: product-mockup.
+Asset type: independent transparent product layer for a desktop website hero, landscape 3:2, 1536 x 1024. No character or lettering.
+Reference image defines only the cooked Fibriki food texture, not layout and NOT the illustrated hen.
+Exactly FOUR separate whole round Fibriki chicken meatballs with browned golden surfaces and tiny green and red ingredient flecks, appetizing three-dimensional food realism, different surfaces, angles and sizes, NOT duplicated clones. No cutaways. No long rice spikes.
+Composition on full transparent landscape canvas, positions in percent of canvas dimensions:
+1 center x14%, y17%, diameter ~175px.
+2 center x43%, y12%, diameter ~220px.
+3 center x77%, y23%, dominant diameter ~275px.
+4 center x87%, y65%, diameter ~195px.
+These four create a loose asymmetric zigzag above and to the right of an intentionally EMPTY lower-left region. Leave the ENTIRE area x0-62%, y36-100% empty, reserved for an independently rendered hen. All food fully inside canvas with 4% margins. The four meatballs must NOT touch or overlap one another. At least60px of fully clear alpha between their contours. Crisp food texture and natural warm studio lighting, no excessive shiny syrup. Keep the food moderate in scale rather than giant.
+True alpha transparency around every individual object and in the large reserved lower-left region. NO HEN, NO chicken drawing, NO decorative red marks, NO garnish, NO parsley, NO plate, NO floor, NO glow, NO colored or white backdrop, NO text or watermark. Only FOUR whole distinct food pieces.

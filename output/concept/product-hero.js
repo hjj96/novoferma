@@ -8,6 +8,14 @@
  let index=0, requestedIndex=0, selectionVersion=0, pointerStart=null;
  const imageReadiness=new WeakMap();
  const preparedScenes=new WeakSet([scenes[0]]);
+ function revealSelectedPick(){
+  const pick=picks[index],rail=pick.parentElement;
+  if(!rail||rail.scrollWidth<=rail.clientWidth)return;
+  const item=pick.getBoundingClientRect(),visible=rail.getBoundingClientRect();
+  if(item.left<visible.left)rail.scrollLeft+=item.left-visible.left;
+  else if(item.right>visible.right)rail.scrollLeft+=item.right-visible.right;
+ }
+ window.addEventListener('resize',revealSelectedPick,{passive:true});
  function hydrateImage(img,urgent){
   if(imageReadiness.has(img)){
    if(urgent)img.setAttribute('fetchpriority','auto');
@@ -30,6 +38,11 @@
   imageReadiness.set(img,ready);return ready;
  }
  function hydrateScene(scene,urgent=false){
+  // Install the art-directed source before the fallback image is requested.
+  // The browser selects the portrait scene without downloading both versions.
+  scene.querySelectorAll('source').forEach(source=>{
+   if(source.dataset.srcset){source.srcset=source.dataset.srcset;delete source.dataset.srcset;}
+  });
   return Promise.all([...scene.querySelectorAll('img')].map(img=>hydrateImage(img,urgent)))
    .then(()=>preparedScenes.add(scene));
  }
@@ -52,6 +65,7 @@
     picks[i].tabIndex=active?0:-1;
    });
    stage.setAttribute('aria-busy','false');
+   revealSelectedPick();
    carousel.querySelector('[data-product-announcement]').textContent=`${picks[index].dataset.productName}. ${index+1} из ${scenes.length}`;
    if(focusInPanel)picks[index].focus({preventScroll:true});
   });

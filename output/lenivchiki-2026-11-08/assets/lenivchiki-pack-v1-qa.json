@@ -1,0 +1,60 @@
+{
+  "product": "Новоферма Ленивчики",
+  "date": "2026-11-08",
+  "asset": "lenivchiki-pack-v1.png",
+  "status": "passed",
+  "browserCompositeReview": "passed: catalogue at 1440px and product page at 1440/390px; cream background, complete package, readable copy, no plate",
+  "generationMode": "built-in image_gen",
+  "generationCount": 1,
+  "targetedCorrectionCount": 0,
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "fullyTransparentPixels": 486724,
+  "totalPixels": 1572516,
+  "sourceGeneratedPng": "/Users/andrey/.codex/generated_images/01a1bac8-e1e8-7580-9de6-39073b41c2a8/exec-1c7bea28-dcfa-4db5-9ce7-10307ec52844.png",
+  "referenceRoles": [
+    {
+      "path": "/Users/andrey/Desktop/сайт нф/output/lenivchiki-2026-11-08/assets/lenivchiki-scene-v1.png",
+      "role": "Primary approved scene authority: reclining hen, cabbage-leaf hammock, food without plate"
+    },
+    {
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/novelty-packaging/fibriki-pack-v11.webp",
+      "role": "Physical tray and sleeve geometry"
+    },
+    {
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/novelty-packaging/popsy-pack-v4.webp",
+      "role": "Approved warm cream paper color"
+    },
+    {
+      "path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/novelty-packaging/lulia-mini-pack-v3.webp",
+      "role": "Printed scene and food staging in existing packaging family"
+    }
+  ],
+  "checks": {
+    "completePhysicalPack": "Pass: clear ribbed plastic tray and cream wraparound cardboard sleeve",
+    "squareComposition": "Pass: square centered packshot with full product visible",
+    "logo": "Pass: NOVOferma printed at top",
+    "title": "Pass: ЛЕНИВЧИКИ, exact spelling",
+    "descriptors": "Pass: БИТОЧКИ ИЗ КУРИЦЫ / С РИСОМ И ОВОЩАМИ",
+    "proposition": "Pass: ГАРНИР УЖЕ ВНУТРИ",
+    "labelScene": "Pass: approved resting golden-orange hen in cabbage-leaf hammock on wooden stands",
+    "noPlate": "Pass: no plate, bowl or dish",
+    "printedFoodHero": "Pass: two whole cooked patties and one cut half showing chicken, rice, cabbage and carrot",
+    "physicalTrayFood": "Pass: flattened oval light golden-brown cooked patties with mild frost and visible carrot; no white/pink raw mince, no nuggets",
+    "prohibitedClaims": "Pass: no weight, nutrition, preparation minutes, health claims or badges",
+    "transparency": "Pass: RGBA with alpha-zero corners; coordinator browser composite review pending"
+  },
+  "remainingMaterialDefects": [],
+  "notes": [
+    "App image viewers can display hidden RGB in fully transparent regions; browser composite should be used to judge background and edge cleanliness.",
+    "PNG copied byte-for-byte from built-in image_gen output. No programmatic pixel edits.",
+    "No website files were edited."
+  ]
+}

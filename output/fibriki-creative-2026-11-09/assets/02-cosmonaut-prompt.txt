@@ -1,0 +1,36 @@
+INITIAL GENERATION — built-in image_gen
+
+Use case: precise-object-edit / product-mockup.
+Create ONE complete physical FIBRIKI package, never a collage or a presentation board. Image 1 (fibriki-pack-v11.webp) is the edit target and the authority for package geometry, cream paper sleeve, shallow transparent ribbed PET tray, perspective, typography and food identity. Image 2 (lenivchiki-pack-v1.webp) is a reference ONLY for the expressive hand-painted mascot scene and warm cream paper. Image 3 (popsy-pack-v4.webp) is a reference ONLY for the lively action, strong silhouette and funny memorable narrative. Do not copy their names, ingredients, food, hammock, drum or physical characters' poses.
+
+Preserve the existing complete Fibriki package: actual tray and cream sleeve silhouette, shallow package depth, camera angle, fine paper texture, orange NOVOferma logo at top, large dark warm-brown Roman serif product name, category and ingredient copy, soft physical shadows. All visible package must fit inside the square canvas with comfortable margins; no clipping. Aim to keep the SAME normalized packaging size and margins as the Fibriki edit target, not an oversized pack that fills every edge. Genuinely TRANSPARENT background, no studio surface, no cast backdrop, no white border, no halo or colored islands outside the physical packaging.
+
+CHANGE: replace the small calm standing hen sniffing a spoon on the right with a large lively illustrated scene specified below. Keep a good balance between the new hen and the photorealistic prepared serving food on the left. The hen is the recognizable Novoferma orange/golden bird with a red comb and wattle, expressive black-and-white eyes, pale beak, layered orange feathers and tail, two wings, two thin brown bird legs with clawed feet. Hand-painted ink-and-gouache illustration, warm dark-brown outlines, humorous and premium. No human hands, giant human muscles, human teeth, extra limbs or second character.
+
+FOOD IDENTITY IS LOCKED
+Fibriki are small unbreaded round chicken meatballs, with a homogeneous pale chicken-mince interior and just tiny sparse parsley-like green flecks. Printed prepared food hero on the left: one whole browned round meatball and one cut half, very close to the approved target, realistic appetizing photography. No rice, cabbage, carrot, cheese, breadcrumb crust, nuggets, sausage shape or new ingredients. Inside the clear physical tray: the same pale raw-frozen chicken meatballs with sparse tiny green flecks, as in the Fibriki edit target. The tray contents are NOT browned cooked rice patties and NOT breaded. Preserve this distinction between serving food printed on paper and actual frozen contents behind clear plastic.
+
+COPY MUST REMAIN EXACT — NO NEW WORDS OR BADGES
+NOVOferma
+ФИБРИКИ
+ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ
+С ПИЩЕВЫМИ ВОЛОКНАМИ
+БЕЛОК + КЛЕТЧАТКА
+Preserve the original title hierarchy and readable spacing. Do not add a weight, nutrition number, time, certification or claim. No text should touch the new scene.
+
+02 COSMONAUT / КОСМОНАВТ — THE SPOON ROCKET
+Replace the right-hand scene with the same golden hen as a cheerful little cosmonaut, sitting on the handle of a diagonally rising wooden serving spoon like a rocket. A small simple transparent round helmet reveals the familiar red comb, eyes and beak; the feathered body remains recognizable. The bowl of the spoon carries ONE cooked Fibriki meatball. Two additional small cooked Fibriki float along a restrained curved orbit behind the spoon, separated from the large left-hand serving hero. Just two elegant dark-brown speed strokes; no starscape, black space, smoke, flames, sci-fi controls, flags, planets with faces or new labels. The entire scene is printed on the unchanged cream sleeve. Playful adventurous composition, food remains readable.
+
+
+Output only ONE complete square PNG packaging visual with genuine transparent alpha. Keep the same normalized package size as Image 1 and clear margins all around. This is an edit of Image 1; only replace the right-hand mascot scene with the specified spoon-riding cosmonaut. Do not copy any words or food from Images 2 or 3.
+
+SINGLE TARGETED CORRECTION — food texture only
+
+Use case: precise-object-edit.
+Image 1 is the almost finished FIBRIKI spoon-cosmonaut packaging. Make ONE targeted correction: fix ONLY the texture of ALL Fibriki food to the approved chicken-meatball texture from Image 2 (original Фибрики pack).
+The cut half on the printed left food hero MUST have homogeneous finely ground pale cooked chicken mince with just tiny sparse green parsley flecks. It must be a cohesive dense tender chicken interior, not diced pieces, not rice grains, not a mosaic, not a geometric diamond pattern, not coarse groats.
+The whole browned meatball printed beside it and the three cooked meatballs in the cosmonaut spoon/orbit must have a natural fine browned unbreaded chicken exterior with tiny sparse green flecks, no grain pattern.
+Inside the physical clear tray, restore the smooth pale RAW-FROZEN chicken meatballs from Image 2: light pale ivory/pink minced chicken balls with only sparse tiny green flecks and slight frost. No rice, cabbage, carrot, grains, diced chunks, geometric surface pattern, breading or browning inside the tray.
+
+Keep EVERYTHING ELSE in Image 1 unchanged: same cheerful golden hen with transparent space helmet, sitting on the diagonally rising wooden spoon, same wings, feet, one cooked Fibriki in spoon bowl plus two behind on curved orbit, same dark-brown speed strokes, no new character. Preserve exact package silhouette, scale, shallow tray depth, cream paper color and perspective. Preserve all exact printed text and its original positions: NOVOferma / ФИБРИКИ / ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ / С ПИЩЕВЫМИ ВОЛОКНАМИ / БЕЛОК + КЛЕТЧАТКА. No additional copy. Retain genuine transparent alpha outside the complete square packshot. No changes to illustration style, no new scenery or claims.
+

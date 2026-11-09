@@ -1,0 +1,13 @@
+Create ONE faithful mobile adaptation of the attached APPROVED Novoferma desktop hero. Target780×1688 pixels, representing CSS390×844 at2x, exact tall portrait390:844 ratio. Output website content only, no device/browser frame. This is NOT a new aesthetic, it must preserve the approved concept's beauty: exact angled cream Popсы pack, bright golden cooked nuggets, tiny crumbs, realistic soft contact shadows, warm peach-cream #FCECD8, enormous condensed chocolate poster headline, orange handwritten marker phrase with real tapered underline. References: image1 approved entire desktop is visual truth; image2 source-preserving tilted package extraction is actual product asset; image3 source-preserving food extraction includes crumbs/shadows, preserve them. A prior mobile with images piled on each other was rejected; DO NOT let food touch or overlap package or cover label.
+
+Deliberate mobile design plan in CSSpx (double for780 output):
+header y0–76: existing orange NOVOferma logo x20w143; compact brown Где купить pill and menu onright.
+huge live-style condensed uppercase title «ПОПСЫ», x20 y92 w350 h84.
+Orange natural hand lettering exactly «Хрусти / в своём ритме», x108 y184w252h60, lively2lines andtaperedunderline.
+Tilted package main subject x22y258visiblewidth260h234, exact original perspective and readable printed illustration/text, contact shadow kept beneath.
+Cooked nuggets group x166y510visiblewidth204h164: 3whole and2cut halves, sparse crumbs and soft directional shadow, same surface andtone asconcept. Keep ATLEAST16px gap between actual package/shadow andfood/shadow. No overlap.
+This creates deliberate diagonal editorial composition: package upper-left, ready product lower-right, calmcreamnegative space balancesleft offood. No oversized emptygulf either.
+Small centered description x24y688w342h44: «Мини-наггетсы из курицы» line1 / «в хрустящей панировке.» line2, readable16pxOnest-like.
+Brown pill CTAx20y750w350h54 «О Попсах» with proper right arrow, fully fitsviewport, bottommargin40.
+No extracharactersoutsideprintedpackage. No badges, prices, differentfood, props, panels, cards, nutrition ormadeupclaims.
+All elements fit naturally; don't crop package,crumbs,shadoworCTA. Preserve approved packagingidentityandwarm studio lighting. Realistic production-quality mobilewebhero,clear hierarchy, precise text. One clean mock only.

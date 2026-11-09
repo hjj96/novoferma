@@ -1,0 +1,10 @@
+--- before/index.html
++++ after/index.html
+@@ -116,6 +116,7 @@
+ <h3 class="product-title">Попсы</h3>
+ <span class="product-meta">
+ <span class="product-meat">Из курицы</span>
++<span class="product-weight">400&nbsp;г</span>
+ <span class="product-status">Новинка</span>
+ </span>
+ </a>

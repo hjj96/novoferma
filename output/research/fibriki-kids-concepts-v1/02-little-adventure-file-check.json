@@ -1,0 +1,12 @@
+{
+  "width": 1292,
+  "height": 1218,
+  "channels": 4,
+  "alphaBounds": {
+    "x0": 0,
+    "y0": 62,
+    "x1": 1290,
+    "y1": 1127
+  },
+  "opaqueBorderPixels": 8
+}

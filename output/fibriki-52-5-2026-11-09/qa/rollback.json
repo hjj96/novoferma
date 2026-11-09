@@ -1,0 +1,24 @@
+{
+  "tempSite": "/var/folders/b1/s0mpd68155bf8x94y3j6by3c0000gn/T/novoferma-fibriki-52-5-rollback-0zovc8qr",
+  "allDifferences": [
+    "catalogue.html",
+    "product-fibriki.html",
+    "site-manifest.json"
+  ],
+  "unexpected": [],
+  "promoted": [
+    "catalogue.html",
+    "product-fibriki.html",
+    "site-manifest.json"
+  ],
+  "otherHTMLPreserved": true,
+  "targetsMatchOriginalBaseline": {
+    "catalogue.html": false,
+    "product-fibriki.html": false,
+    "site-manifest.json": true
+  },
+  "image": "assets/novelty-packaging/fibriki-pack-v12.webp?v=0ea08f11f1",
+  "packNutritionRemoved": true,
+  "liveNutritionBlockRemoved": true,
+  "cssRestoredExactly": true
+}

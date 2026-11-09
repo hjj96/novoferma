@@ -1,0 +1,130 @@
+/* Match the approved campaign: angled pack, crumbs, contact shadows and brush lettering. */
+.page-index {--popsy-paper:#fcebd5;--popsy-ink:#452610;--popsy-orange:#ce4b14}
+.page-index .site-header,.popsy-home-hero {background-color:var(--popsy-paper);background-image:url('assets/popsy-home/paper-concept-v2.webp');background-size:cover}
+.popsy-home-hero {position:relative;isolation:isolate;overflow:clip;color:var(--popsy-ink)}
+.popsy-home-inner {position:relative;container-type:inline-size;width:min(100%,1585px);height:clamp(650px,calc(100svh - 88px),930px);margin-inline:auto}
+.popsy-home-title {position:absolute;z-index:0;top:.2%;left:14.2%;margin:0;font-family:'Novoferma Protein','Novoferma Poster',sans-serif;font-size:20.5cqw;font-weight:850;line-height:.95;letter-spacing:-.01em;text-transform:uppercase;text-wrap:nowrap}
+.popsy-home-note {position:absolute;z-index:3;top:3.5%;right:1.65%;width:23%;margin:0}
+.popsy-home-lettering {width:100%;height:auto}
+.popsy-home-hero .sr-only {position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;clip-path:inset(50%);overflow:hidden;white-space:nowrap}
+.popsy-home-art {position:absolute;inset:0;pointer-events:none}
+.popsy-home-pack-layer,.popsy-home-food-layer {position:absolute;transform:translate3d(var(--popsy-x,0px),var(--popsy-y,0px),0);transition:transform 750ms cubic-bezier(.2,.7,.2,1)}
+/* Bounds describe visible subjects, including their native contact shadows. */
+.popsy-home-pack-layer {z-index:2;top:24.9%;left:17.2%;width:39.5%;aspect-ratio:1072 / 979}
+.popsy-home-food-layer {z-index:3;top:38%;left:57.5%;width:30.9%;aspect-ratio:1045 / 843}
+.popsy-home-pack,.popsy-home-food {position:absolute;height:auto;max-width:none;user-select:none;-webkit-user-drag:none}
+.popsy-home-pack {width:116.9776%;left:-8.4888%;top:-15.2196%;filter:saturate(1.08) brightness(1.015)}
+.popsy-home-food {width:105.2632%;left:-2.3923%;top:-3.0842%;filter:saturate(1.25)}
+.popsy-home-bottom {position:absolute;z-index:4;inset:auto 4.7% 4.3%;display:flex;align-items:center;justify-content:space-between;gap:32px}
+.popsy-home-description {font-size:clamp(18px,1.85cqw,30px);line-height:1.4;letter-spacing:-.02em;max-width:35em;text-wrap:balance}
+.popsy-home-mobile-break {display:none}
+.popsy-home-cta.button {flex:none;background:var(--popsy-ink);color:var(--popsy-paper);min-width:272px;min-height:66px;gap:40px;padding:17px 28px;font-size:26px;line-height:1.2;box-shadow:none}
+.popsy-home-cta.button span {font:inherit;transition:none}
+.popsy-home-cta.button .ui-icon {width:28px;height:28px;filter:brightness(0) invert(1)}
+.popsy-home-cta.button:hover {background:#633716;box-shadow:none}
+.popsy-home-cta.button:hover .ui-icon {translate:4px 0}
+.popsy-home-cta:focus-visible {outline-color:var(--popsy-orange);outline-offset:6px}
+@media(min-width:1100px) {
+ .page-index .header-inner {width:min(1440px,calc(100% - 144px));height:88px;gap:72px}
+ .page-index .site-header .brand,.page-index .site-header .brand img {width:230px}
+ .page-index .desktop-nav {gap:38px}
+ .page-index .desktop-nav a {font-size:15px}
+ .page-index .header-actions .button {min-width:212px;min-height:58px;padding:15px 26px;font-size:14px;gap:38px;background:var(--popsy-ink)}
+}
+@media(min-width:700px) and (max-width:1099px) {
+ .popsy-home-inner {height:clamp(520px,58vw,650px)}
+ .popsy-home-title {left:11%;font-size:21cqw}
+ .popsy-home-note {width:24%;right:2%;top:3%}
+ .popsy-home-bottom {inset-inline:5%;bottom:4%;gap:24px}
+ .popsy-home-description {font-size:17px;max-width:28em}
+ .popsy-home-cta.button {min-width:190px;min-height:56px;padding:14px 24px;font-size:18px;gap:24px}
+ .popsy-home-cta.button .ui-icon {width:24px;height:24px}
+}
+@media(min-width:1100px) and (max-width:1299px) {
+ .popsy-home-inner {height:clamp(650px,57vw,812px)}
+ .page-index .header-inner {gap:40px}
+ .page-index .site-header .brand,.page-index .site-header .brand img {width:195px}
+ .page-index .desktop-nav {gap:26px}
+ .page-index .desktop-nav a {font-size:13px}
+ .page-index .header-actions .button {min-width:185px;font-size:13px}
+}
+@media(min-width:1100px) and (max-height:800px) {
+ .popsy-home-inner {height:calc(100svh - 88px);min-height:560px}
+ .popsy-home-title {font-size:19cqw;left:14.2%;top:0}
+ .popsy-home-pack-layer {width:34%;top:21%;left:17.5%}
+ .popsy-home-food-layer {width:29%;top:32%;left:58%}
+ .popsy-home-note {width:23%;top:3%}
+ .popsy-home-description {font-size:clamp(18px,1.65cqw,26px)}
+ .popsy-home-cta.button {min-width:238px;min-height:60px;font-size:21px}
+}
+@media(min-width:700px) and (max-width:1099px) and (max-height:500px) {
+ .page-index .header-inner {height:64px}
+ .popsy-home-inner {height:430px}
+ .popsy-home-title {left:8%;font-size:19cqw;top:0}
+ .popsy-home-pack-layer {width:33%;top:24%;left:13%}
+ .popsy-home-food-layer {width:28%;top:38%;left:61%}
+ .popsy-home-note {width:24%;right:3%;top:1%}
+ .popsy-home-bottom {bottom:4%}
+ .popsy-home-description {font-size:15px;max-width:26em}
+ .popsy-home-cta.button {min-height:48px;font-size:15px;padding:12px 22px}
+}
+@media(max-width:699px) {
+ .page-index .header-inner {width:calc(100% - 40px);height:76px;gap:12px}
+ .page-index .site-header .brand,.page-index .site-header .brand img {width:143px}
+ .page-index .header-actions .button {min-width:0;min-height:44px;padding:11px 16px;font-size:11px;gap:14px;background:var(--popsy-ink)}
+ .popsy-home-inner {height:auto;min-height:0;aspect-ratio:390 / 650}
+ .popsy-home-title {top:1%;left:5%;width:90%;font-size:30cqw;line-height:.95;letter-spacing:-.01em;text-align:center}
+ .popsy-home-note {top:14.3%;right:4%;width:46%}
+ .popsy-home-pack-layer {left:6%;top:31.5%;width:57%}
+ .popsy-home-food-layer {left:45%;top:55%;width:49%}
+ .popsy-home-bottom {inset:auto 5.1% 3.6%;display:flex;flex-direction:column;align-items:stretch;gap:14px}
+ .popsy-home-description {font-size:16px;line-height:1.4;letter-spacing:-.02em;max-width:none;text-wrap:initial;text-align:center}
+ .popsy-home-mobile-break {display:block}
+ .popsy-home-cta.button {width:100%;min-width:0;min-height:54px;padding:15px 24px;font-size:17px;gap:20px}
+ .popsy-home-cta.button .ui-icon {width:24px;height:24px}
+}
+@media(max-width:359px) {
+ .page-index .header-inner {width:calc(100% - 32px);height:72px;gap:9px}
+ .page-index .site-header .brand,.page-index .site-header .brand img {width:120px}
+ .page-index .header-actions {gap:7px}
+ .page-index .header-actions .button {font-size:10px;padding-inline:12px;gap:8px}
+ .popsy-home-description {font-size:14px}
+ .popsy-home-cta.button {min-height:50px;font-size:15px}
+}
+@media(max-width:699px) and (max-height:700px) {
+ .popsy-home-inner {aspect-ratio:390 / 590}
+ .popsy-home-note {top:16%;right:4%;width:39%}
+ .popsy-home-pack-layer {top:33%;width:52%}
+ .popsy-home-food-layer {top:52%;left:60%;width:36%}
+ .popsy-home-bottom {gap:10px}
+}
+@media(min-width:500px) and (max-width:699px) and (orientation:landscape) {
+ .page-index .header-inner {height:64px}
+ .popsy-home-inner {height:390px;aspect-ratio:auto}
+ .popsy-home-title {left:6%;top:1%;width:auto;font-size:19cqw;text-align:left}
+ .popsy-home-note {width:25%;right:4%;top:2%}
+ .popsy-home-pack-layer {left:10%;top:27%;width:34%}
+ .popsy-home-food-layer {left:62%;top:38%;width:28%}
+ .popsy-home-bottom {inset:auto 5% 4%;flex-direction:row;align-items:center;gap:20px}
+ .popsy-home-description {font-size:13px;max-width:22em;text-align:left}
+ .popsy-home-mobile-break {display:none}
+ .popsy-home-cta.button {width:auto;min-width:150px;min-height:48px;padding:12px 18px;font-size:14px}
+}
+/* Bounded reveal; pointer movement preserves the artwork's built-in angle. */
+@media(prefers-reduced-motion:no-preference) {
+ .popsy-home-hero[data-enhanced=true]:not([data-ready=true]) :is(.popsy-home-title,.popsy-home-note,.popsy-home-pack,.popsy-home-food,.popsy-home-bottom) {opacity:0}
+ .popsy-home-hero[data-ready=true] .popsy-home-title {animation:popsy-title-in 950ms cubic-bezier(.16,.8,.2,1) both}
+ .popsy-home-hero[data-ready=true] .popsy-home-pack {animation:popsy-pack-in 1100ms cubic-bezier(.16,.8,.2,1) 80ms both}
+ .popsy-home-hero[data-ready=true] .popsy-home-food {animation:popsy-food-in 1050ms cubic-bezier(.16,.8,.2,1) 220ms both}
+ .popsy-home-hero[data-ready=true] .popsy-home-note {animation:popsy-note-in 850ms cubic-bezier(.16,.8,.2,1) 380ms both}
+ .popsy-home-hero[data-ready=true] .popsy-home-bottom {animation:popsy-copy-in 650ms ease 450ms both}
+}
+@keyframes popsy-title-in {from{opacity:0;translate:0 26px}to{opacity:1;translate:0 0}}
+@keyframes popsy-pack-in {from{opacity:0;transform:translate3d(-24px,30px,0) rotate(-2deg) scale(.98)}to{opacity:1;transform:none}}
+@keyframes popsy-food-in {from{opacity:0;transform:translate3d(24px,20px,0) rotate(2deg) scale(.97)}to{opacity:1;transform:none}}
+@keyframes popsy-note-in {from{opacity:0;transform:translateY(7px) scale(.98)}to{opacity:1;transform:none}}
+@keyframes popsy-copy-in {from{opacity:0;translate:0 8px}to{opacity:1;translate:0 0}}
+@media(prefers-reduced-motion:reduce) {
+ .popsy-home-pack-layer,.popsy-home-food-layer {transform:none!important;translate:none!important;transition:none!important;animation:none!important}
+ .popsy-home-hero :is(.popsy-home-title,.popsy-home-note,.popsy-home-pack,.popsy-home-food,.popsy-home-bottom) {opacity:1!important;animation:none!important}
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-07",
+  "scope": "Three mobile portrait scenes redrawn; Fibriki preserved as reference",
+  "preview": "http://127.0.0.1:8766/output/concept/",
+  "responsive": {
+    "viewportCount": 9,
+    "sceneCases": 36,
+    "geometryErrors": [],
+    "portraitSourceVersion": 4
+  },
+  "checks": {
+    "interactionTestsPassed": 22,
+    "staticPagesPassed": 23,
+    "desktopArtworkCssJsHashesUnchanged": true,
+    "markupChangedOnlyPortraitSources": true,
+    "fibrikiByteIdentical": true,
+    "realLuliaCtaOpenedProduct": true
+  },
+  "visualReview": {
+    "screenshots": [
+      "mobile-390-fibriki.png",
+      "mobile-390-meatballs.png",
+      "mobile-390-nuggets.png",
+      "mobile-390-lulia-mini.png",
+      "mobile-320-lulia-mini.png",
+      "desktop-1440-fibriki.png",
+      "landscape-844-lulia-mini.png"
+    ],
+    "independentReview": "One drawing family with varied poses; no visible food/hen contact. Minor generated detail variations remain."
+  },
+  "luliaGaps": {
+    "sourceWidth": 1254,
+    "alphaThreshold": 32,
+    "topPieceToComb": 52.89,
+    "lowerPieceToWing": 49.82
+  },
+  "package": {
+    "path": "output/novoferma-site.zip",
+    "integrity": "pass",
+    "localLinks": "pass",
+    "fragmentLinks": "pass",
+    "pages": 23
+  }
+}

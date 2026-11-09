@@ -1,0 +1,21 @@
+{
+  "result": "approved-for-web",
+  "master": "output/fibriki-creative-2026-11-09/assets/fibriki-pack-v12.png",
+  "size": [
+    1254,
+    1254
+  ],
+  "bbox128": [
+    48,
+    139,
+    1206,
+    1083
+  ],
+  "relativeWidth": 0.9234449760765551,
+  "relativeHeight": 0.7527910685805422,
+  "alphaMaxDifference": 0,
+  "sha256": "0ea08f11f186c486e4f0dd2ddc05f5cdc09c883d28e296eae99e2ac94c0a691a",
+  "creativeChoice": "strongwoman hen with wooden barbell and two cooked Fibriki",
+  "copy": "Original five lines preserved, no added product claims",
+  "foodReview": "Serving food and raw frozen tray contents remain recognizable as chicken meatballs with sparse green flecks. ImageGen rerendered the food; its texture is more regular than the original at high magnification. Approved for current website visualization at catalogue and detail size, not a pixel-identical preservation or print-ready dieline."
+}

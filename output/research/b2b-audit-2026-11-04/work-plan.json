@@ -1,0 +1,138 @@
+{
+  "objective": "Большой доказательный аудит Новофермы для B2B, эмоций, репрезентативности, белка/клетчатки, семейности и СТМ; исследовать рынок/конкурентов, объяснить пробелы и проверяемые гипотезы продаж, дать поэтапный план; опубликовать весь итоговый аудит на GitHub.",
+  "researchDate": "2026-11-04",
+  "compiledDate": "2026-11-05",
+  "previousGoalTurnClassification": "progress: prior implementation changed source, produced evidence and reusable checks; current audit uses fresh capture and current source rather than prior success claims.",
+  "requirements": [
+    {
+      "id": "R01",
+      "requirement": "Цель B2B и четыре роли покупателя",
+      "evidence": "strategy.md, разделы1–5",
+      "status": "complete"
+    },
+    {
+      "id": "R02",
+      "requirement": "Текущее состояние, версии и границы local/production",
+      "evidence": "source-snapshot.json; technical-commercial.json; strategy.md §2",
+      "status": "complete"
+    },
+    {
+      "id": "R03",
+      "requirement": "Российский рынок и релевантные конкуренты",
+      "evidence": "russia-research.json/.txt",
+      "status": "complete"
+    },
+    {
+      "id": "R04",
+      "requirement": "Международный рынок и тренды2026 с датами/границами",
+      "evidence": "global-research.json; audit.md §7/22",
+      "status": "complete"
+    },
+    {
+      "id": "R05",
+      "requirement": "Сравнение конкретных сайтов по процессам и визуальным приёмам",
+      "evidence": "screenshot-manifest.json, кадры18–24; research dossiers",
+      "status": "complete"
+    },
+    {
+      "id": "R06",
+      "requirement": "Белок, клетчатка, составы и семейность",
+      "evidence": "strategy.md §5–7; кадры8–9; technical-commercial.json",
+      "status": "complete"
+    },
+    {
+      "id": "R07",
+      "requirement": "Визуальные элементы: иерархия, шрифты, персонажи, упаковки, еда, цвета, анимация",
+      "evidence": "strategy.md §9; visual-b2b-second-pass.json",
+      "status": "complete"
+    },
+    {
+      "id": "R08",
+      "requirement": "Переходы, CTA, формы, mobile и доступность",
+      "evidence": "screenshot-manifest.json кадры1–17; technical-commercial.json",
+      "status": "complete"
+    },
+    {
+      "id": "R09",
+      "requirement": "Доверие, производство, документы и репрезентативность",
+      "evidence": "strategy.md §8–11; кадры10–11/20/24",
+      "status": "complete"
+    },
+    {
+      "id": "R10",
+      "requirement": "СТМ: предложение, процесс и запрос",
+      "evidence": "strategy.md §10/14; кадры3–5/16/18–19",
+      "status": "complete"
+    },
+    {
+      "id": "R11",
+      "requirement": "Низкие продажи: гипотезы и проверяемая воронка без выдуманного диагноза",
+      "evidence": "strategy.md §12–13; technical-commercial.json funnel/salesHypotheses",
+      "status": "complete"
+    },
+    {
+      "id": "R12",
+      "requirement": "Поэтапный план внедрения, приоритеты и критерии приёмки",
+      "evidence": "strategy.md §15–16; 38 карточек TC/VB",
+      "status": "complete"
+    },
+    {
+      "id": "R13",
+      "requirement": "Повторный независимый просмотр и доказательства",
+      "evidence": "visual-b2b-second-pass.json; screenshot-manifest.json",
+      "status": "complete"
+    },
+    {
+      "id": "R14",
+      "requirement": "Большой отчёт, таблицы, источники, читаемый GitHub и offline версия",
+      "evidence": "audit.md; audit.html; sources.json; README.md",
+      "status": "complete"
+    },
+    {
+      "id": "R15",
+      "requirement": "Публикация всего итогового аудита на GitHub и проверка remote",
+      "evidence": "publication.json; auditCommit 163b5393d4e83bf95786d481c5cc7271f269bed2; all49 files read back from remote",
+      "status": "complete"
+    }
+  ],
+  "stages": [
+    {
+      "id": 1,
+      "name": "Контекст и актуальная версия",
+      "evidence": "get_goal; git HEAD; source-snapshot; scoped files"
+    },
+    {
+      "id": 2,
+      "name": "Захват реального B2B пути",
+      "evidence": "24 accepted screenshots; production visual blocker recorded"
+    },
+    {
+      "id": 3,
+      "name": "Параллельное исследование РФ и мира",
+      "evidence": "russia-research/global-research sources"
+    },
+    {
+      "id": 4,
+      "name": "Независимые технический и визуальный проходы",
+      "evidence": "technical-commercial/visual-b2b-second-pass"
+    },
+    {
+      "id": 5,
+      "name": "Синтез, план и приёмка отчёта",
+      "evidence": "audit.md/html; report-validation.json"
+    },
+    {
+      "id": 6,
+      "name": "GitHub публикация и remote readback",
+      "evidence": "publication.json"
+    }
+  ],
+  "completionRule": "Полнота аудита и публикации отделена от исполнения всех будущих рекомендаций. Неизвестные бизнес-данные и пределы доказательств перечислены; это не подтверждение роста продаж, WCAG или сертификации.",
+  "completionAudit": {
+    "result": "pass",
+    "requirements": 15,
+    "reportIntegrity": "report-validation.json pass",
+    "publication": "all49 files verified in remote main",
+    "scopeLimits": "Unknown sales/food data and unavailable production visual inspection are explicitly recorded, not invented."
+  }
+}

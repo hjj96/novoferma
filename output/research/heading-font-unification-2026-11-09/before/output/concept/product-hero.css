@@ -1,0 +1,214 @@
+/* Refine the original playful poster: navigation, copy and art have their own space. */
+.page-index {--hero-paper:#F9EFDC}
+.page-index .site-header {position:relative;background:var(--hero-paper)}
+.product-showcase {position:relative;background:var(--hero-paper);overflow:clip}
+.product-stage {position:relative;isolation:isolate;width:100%;height:clamp(540px,calc(100svh - 168px),700px);overflow:hidden;touch-action:pan-y pinch-zoom}
+.product-stage-paper,.product-stage-background {position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.product-stage-paper {object-fit:cover;z-index:-3}
+/* Crop the transparent raster margins; the orange ground reaches both edges. */
+.product-stage-background {left:-20%;right:auto;top:0;bottom:auto;width:140%;max-width:none;height:calc(100% + 1px);object-fit:fill;z-index:-2}
+.product-scene {position:absolute;inset:0;display:grid;grid-template-columns:47% 53%;color:#432714;opacity:0;visibility:hidden;pointer-events:none;transition:opacity 320ms ease,visibility 320ms}
+.product-scene.is-active {opacity:1;visibility:visible;pointer-events:auto;z-index:2}
+.product-scene-content {position:relative;z-index:3;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:32px 0 58px max(32px,calc((100vw - 1296px)/2));padding-left:clamp(32px,4.8vw,100px);min-width:0}
+.hero-text-stack {width:100%}
+.product-scene-title {margin:0;font-family:'Novoferma Protein','Novoferma Poster',Arial,sans-serif;font-weight:850;font-size:clamp(80px,9.5vw,150px);line-height:.98;letter-spacing:-.014em;word-spacing:.04em;text-transform:uppercase;color:#432714;text-wrap:initial}
+.product-title-live {display:block;white-space:nowrap}
+.product-scene-meatballs .product-scene-title {font-size:clamp(62px,6.4vw,112px)}
+.product-scene-lulia-mini .product-scene-title {font-size:clamp(72px,7.9vw,136px)}
+.product-scene-subtitle {margin:22px 0 0;font-family:var(--font-poster);font-weight:900;font-size:clamp(28px,3.5vw,54px);line-height:1.08;letter-spacing:-.02em;color:#bc4318;text-wrap:initial}
+.product-scene-fibriki .product-scene-subtitle {display:inline-flex;align-items:center;justify-content:center;gap:.18em;white-space:nowrap;width:fit-content;margin:12px 0 0 -14px;padding:18px 28px 24px;background:url('assets/product-hero/benefit-brush-v11.webp') center/100% 100% no-repeat;font-family:var(--font-hand);font-weight:700;font-size:clamp(34px,3.7vw,58px);line-height:1.1;letter-spacing:-.025em;color:#432714;transform:rotate(-3deg)}
+.hero-plus {font-weight:650}
+.product-scene-description {max-width:34ch;margin:20px 0 0;font-size:clamp(15px,1.25vw,18px);line-height:1.5;letter-spacing:-.01em;color:#432714}
+.hero-actions {display:flex;align-items:center;margin-top:28px}
+.product-scene .product-scene-cta {display:inline-flex;align-items:center;justify-content:space-between;gap:30px;min-height:56px;padding:16px 24px;background:#432714;border:0;border-radius:100px;color:#fff9ed;font-size:14px;font-weight:650;line-height:1.3;box-shadow:none;white-space:nowrap;transition:background 180ms,transform 180ms}
+.product-scene .product-scene-cta:hover {background:#7e3619;transform:translateY(-2px)}
+.product-scene .product-scene-cta .ui-icon {width:21px;height:21px;flex:none;filter:brightness(0) invert(1);transition:transform 180ms}
+.product-scene .product-scene-cta:hover .ui-icon {transform:translateX(3px)}
+.product-scene-art {position:relative;z-index:1;align-self:stretch;min-width:0;display:flex;align-items:center;justify-content:center;pointer-events:none;padding:20px 24px 40px 0}
+.hero-art-frame {position:relative;display:block;width:min(100%,calc(570px * var(--art-ratio)));aspect-ratio:var(--art-ratio);overflow:hidden}
+.hero-layered-frame {width:min(100%,calc(max(360px,min(640px,calc(100svh - 228px))) * var(--art-ratio)))}
+.hero-art-frame img {position:absolute;display:block;width:var(--art-size);height:auto;max-width:none;left:var(--art-left);top:var(--art-top)}
+/* Fresh desktop cutouts keep food and illustration independently positioned. */
+.hero-mobile-art {display:none}
+.hero-desktop-art {position:absolute;inset:0;display:block}
+.hero-cutout {position:absolute;display:block;overflow:hidden}
+.hero-cutout picture {display:block;width:100%;height:100%}
+.hero-art-frame .hero-cutout img {width:var(--crop-scale);left:var(--crop-left);top:var(--crop-top);height:auto}
+.hero-hen-cutout img {filter:saturate(.8) hue-rotate(-6deg) contrast(1.025)}
+.product-scene-popsy .hero-hen-cutout img,.product-scene-meatballs .hero-hen-cutout img,.product-scene-nuggets .hero-hen-cutout img {filter:none}
+.hero-food-cutout img {filter:saturate(1.1) contrast(1.025)}
+.product-scene-popsy .hero-layered-frame,.product-scene-nuggets .hero-layered-frame {overflow:visible}
+@media(min-width:700px) {
+ .product-scene-popsy .product-scene-description {max-width:30ch}
+}
+@media(min-width:1100px) {
+ .product-scene-lulia-mini .product-scene-title {font-size:clamp(72px,7.4vw,128px)}
+ .product-scene-art {position:absolute;left:43%;right:0;top:0;bottom:0;padding:20px 24px 40px 0;justify-content:flex-end}
+ .hero-layered-frame {width:min(100%,calc(min(700px,calc(100svh - 180px)) * var(--art-ratio)))}
+}
+.product-controls {display:flex;align-items:center;gap:28px;width:min(1296px,calc(100% - 96px));max-width:1296px;margin:auto;padding:14px 0;min-height:80px;color:var(--brown)}
+.product-pickers {display:flex;flex:1;align-items:center;gap:8px;min-width:0}
+.product-picker {display:flex;align-items:center;justify-content:center;gap:12px;flex:1;min-width:0;min-height:48px;padding:12px 14px;border:0;border-radius:10px;background:transparent;color:var(--brown);transition:background 180ms,color 180ms}
+.product-picker-label {font-size:13px;font-weight:650;line-height:1.3;white-space:nowrap}
+.product-picker-mark {font-size:10px;font-weight:500;font-variant-numeric:tabular-nums;opacity:.55}
+.product-picker[aria-selected=true] {background:#f6e1ca;color:#432714}
+.product-picker:hover {background:#f1e9d9}
+.product-picker[aria-selected=true]:hover {background:#f0d4b8}
+.product-picker[aria-selected=true] .product-picker-mark {opacity:1;color:#b64622}
+.product-playback {display:flex;gap:8px;align-items:center;flex:none}
+.product-arrow {display:grid;place-items:center;width:46px;height:46px;background:#f1e9d9;border:0;border-radius:50%;color:var(--brown);transition:background 180ms,transform 180ms}
+.product-arrow:hover {background:#e6dac5;transform:translateY(-1px)}
+.product-showcase :is(a,button):focus-visible {outline:3px solid #344737;outline-offset:4px}
+.sr-only {position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.page-index .home-products {padding-top:64px}
+@media(min-width:1600px) {
+ .product-scene {grid-template-columns:46% 54%;max-width:1720px;margin-inline:auto}
+ .product-scene-content {padding-left:76px}
+ .product-scene-art {padding-right:40px}
+}
+@media(min-width:700px) and (max-width:1099px) {
+ .product-stage {height:520px}
+ .product-scene {grid-template-columns:47% 53%}
+ .product-scene-content {padding:24px 0 42px 32px}
+ .product-scene-title {font-size:9.4vw}
+ .product-scene-meatballs .product-scene-title {font-size:6.8vw}
+ .product-scene-lulia-mini .product-scene-title {font-size:8.1vw}
+ .product-scene-subtitle {font-size:3.7vw;margin-top:16px}
+ .product-scene-fibriki .product-scene-subtitle {font-size:4.2vw;padding:16px 22px 20px;margin-left:-12px}
+ .product-scene-description {font-size:14px;max-width:30ch;margin-top:16px;padding-right:12px}
+ .hero-actions {margin-top:24px}
+ .product-scene .product-scene-cta {min-height:52px;font-size:12px;padding:14px 18px;gap:16px}
+ .product-scene-art {padding:16px 20px 30px 0}
+ .product-controls {width:calc(100% - 48px);min-height:76px;gap:16px;padding:12px 0}
+ .product-picker {padding-inline:8px;gap:8px}
+ .product-picker-label {font-size:12px}
+}
+@media(max-width:699px) {
+ .product-stage {height:auto;display:grid}
+ .product-scene {position:relative;inset:auto;grid-area:1 / 1;grid-template-columns:1fr;grid-template-rows:auto 295px;align-content:start}
+ .product-scene-content {justify-content:flex-start;padding:22px 24px 0;min-height:322px}
+ .product-scene-title,.product-scene-lulia-mini .product-scene-title {font-size:clamp(57px,17vw,106px);line-height:.95}
+ .product-scene-meatballs .product-scene-title {font-size:clamp(41px,11.8vw,79px)}
+ .product-scene-subtitle {margin-top:15px;font-size:clamp(26px,7.8vw,40px);line-height:1.04;letter-spacing:-.02em}
+ .product-scene-fibriki .product-scene-subtitle {font-size:clamp(31px,8.3vw,49px);white-space:nowrap;padding:13px 20px 18px;margin:7px 0 0 -10px}
+ .product-scene-description {margin-top:14px;font-size:13px;line-height:1.5;max-width:37ch}
+ .hero-actions {margin-top:20px;width:100%}
+ .product-scene .product-scene-cta {font-size:12px;min-height:48px;padding:13px 20px;gap:24px}
+ .product-scene .product-scene-cta .ui-icon {width:19px;height:19px}
+ .product-scene-art {width:100%;height:295px;justify-self:center;align-items:center;padding:6px 16px 18px}
+ .hero-art-frame {width:min(100%,calc(270px * var(--art-ratio)))}
+ .product-controls {width:100%;display:grid;grid-template-columns:1fr;gap:8px;min-height:68px;padding:10px 16px}
+ .product-pickers {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2px}
+ .product-picker {flex-direction:column;gap:4px;min-height:48px;padding:6px 2px;border-radius:8px}
+ .product-picker-label {font-size:11px;letter-spacing:-.02em}
+ .product-picker-mark {font-size:8px;line-height:1}
+ .product-playback {display:none}
+ .page-index .home-products {padding-top:42px}
+}
+@media(min-width:480px) and (max-width:699px) {
+ .product-scene-content {padding:28px 32px 0;min-height:370px}
+ .product-scene-description {font-size:15px;max-width:40ch}
+ .product-scene .product-scene-cta {font-size:14px}
+ .product-scene-art {height:340px}
+ .hero-art-frame {width:min(100%,calc(315px * var(--art-ratio)))}
+ .product-scene {grid-template-rows:auto 340px}
+ .product-picker-label {font-size:12px}
+}
+@media(max-width:359px) {
+ .product-scene-content {padding-inline:20px;min-height:330px}
+ .product-scene-art {height:265px;padding-inline:12px}
+ .product-scene {grid-template-rows:auto 265px}
+ .hero-art-frame {width:min(100%,calc(240px * var(--art-ratio)))}
+ .product-scene-title,.product-scene-lulia-mini .product-scene-title {font-size:16.2vw}
+ .product-scene-meatballs .product-scene-title {font-size:11.5vw}
+ .product-scene-fibriki .product-scene-subtitle {font-size:29px;padding-inline:17px}
+ .product-scene .product-scene-cta {gap:15px;font-size:11px}
+ .product-picker-label {font-size:10px}
+}
+@media(prefers-reduced-motion:no-preference) {
+ .product-scene.is-active .hero-art-frame {animation:hero-scene-in 600ms cubic-bezier(.2,.65,.3,1) both}
+ @keyframes hero-scene-in {from {opacity:0;translate:16px 8px} to {opacity:1;translate:0 0}}
+}
+@media(prefers-reduced-motion:reduce) {
+ .product-showcase *, .product-showcase *::before, .product-showcase *::after {animation:none!important;transition:none!important}
+}
+
+/* Portrait phones receive their own illustration, composed for this square slot. */
+@media(max-width:699px) and (orientation:portrait) {
+ .hero-mobile-art {display:block}
+ .hero-desktop-art {display:none}
+ .product-pickers {display:flex;overflow-x:auto;scrollbar-width:none;justify-content:flex-start}
+ .product-pickers::-webkit-scrollbar {display:none}
+ .product-picker {flex:0 0 auto;min-width:64px}
+ .product-scene {grid-template-rows:auto 330px}
+ .product-scene-art {height:330px;padding:0 16px 8px}
+ .hero-art-frame {width:min(100%,322px);aspect-ratio:var(--mobile-art-ratio,1)}
+ .hero-art-frame img {width:var(--mobile-art-size,100%);left:var(--mobile-art-left,0%);top:var(--mobile-art-top,0%)}
+}
+@media(max-width:359px) and (orientation:portrait) {
+ .product-scene {grid-template-rows:auto 300px}
+ .product-scene-art {height:300px;padding-inline:8px}
+ .hero-art-frame {width:min(100%,292px)}
+}
+@media(min-width:480px) and (max-width:699px) and (orientation:portrait) {
+ .product-scene {grid-template-rows:auto 390px}
+ .product-scene-art {height:390px}
+ .hero-art-frame {width:382px}
+}
+
+/* Let the portrait story finish with one action below the complete illustration. */
+@media(max-width:699px) and (orientation:portrait) {
+ .product-scene {grid-template-rows:auto minmax(330px,1fr) auto}
+ .product-scene-content {display:contents}
+ .hero-text-stack {grid-row:1;padding:22px 24px 0}
+ .product-scene-art {grid-row:2;align-self:end}
+ .hero-actions {grid-row:3;margin:0;padding:12px 24px 28px;justify-content:center}
+ .product-scene .product-scene-cta {width:100%;max-width:360px;min-height:52px;font-size:13px}
+}
+@media(max-width:359px) and (orientation:portrait) {
+ .product-scene {grid-template-rows:auto minmax(300px,1fr) auto}
+ .hero-text-stack {padding-inline:20px}
+ .hero-actions {padding-inline:20px}
+ .product-scene .product-scene-cta {font-size:12px}
+}
+@media(min-width:480px) and (max-width:699px) and (orientation:portrait) {
+ .product-scene {grid-template-rows:auto minmax(390px,1fr) auto}
+ .hero-text-stack {padding:28px 32px 0}
+ .hero-actions {padding-inline:32px}
+ .product-scene .product-scene-cta {font-size:14px}
+}
+/* The headline is already large; strengthen the useful product explanation. */
+@media(min-width:1200px) {
+ .product-scene-description {font-size:20px;max-width:36ch;line-height:1.5}
+}
+
+/* A turned phone keeps a compact two-column poster instead of the tall portrait. */
+@media(orientation:landscape) and (min-width:568px) and (max-width:1024px) and (max-height:500px) {
+ .page-index .site-header .header-inner {height:64px;width:calc(100% - 48px)}
+ .page-index .site-header .brand,.page-index .site-header .brand img {width:145px}
+ .page-index .site-header .desktop-nav {display:none}
+ .page-index .site-header .menu-toggle {display:block;width:44px;height:44px}
+ .page-index .site-header .header-actions .button {min-height:44px;min-width:0;padding:10px 16px;font-size:12px;gap:14px}
+ .product-stage {display:grid;height:auto;min-height:340px}
+ .product-scene {position:relative;inset:auto;grid-area:1 / 1;grid-template-columns:49% 51%;grid-template-rows:1fr;align-content:stretch}
+ .product-scene-content {min-height:340px;justify-content:center;padding:20px 12px 24px 24px}
+ .product-scene-title {font-size:clamp(50px,7.8vw,72px);line-height:.98}
+ .product-scene-meatballs .product-scene-title {font-size:clamp(38px,5.8vw,56px)}
+ .product-scene-lulia-mini .product-scene-title {font-size:clamp(46px,7.1vw,68px)}
+ .product-scene-subtitle {margin-top:12px;font-size:clamp(22px,2.85vw,28px);line-height:1.08}
+ .product-scene-fibriki .product-scene-subtitle {margin:7px 0 0 -10px;padding:12px 18px 17px;font-size:clamp(29px,4.2vw,38px);line-height:1.1}
+ .product-scene-description {max-width:36ch;margin-top:12px;padding-right:0;font-size:12.5px;line-height:1.45}
+ .hero-actions {width:100%;margin-top:16px}
+ .product-scene .product-scene-cta {min-height:44px;padding:11px 18px;font-size:12px;gap:18px}
+ .product-scene .product-scene-cta .ui-icon {width:19px;height:19px}
+ .product-scene-art {width:auto;height:auto;min-height:0;justify-self:stretch;align-self:stretch;align-items:center;padding:10px 24px 18px 0}
+ .hero-art-frame {width:min(100%,calc(min(74svh,300px) * var(--art-ratio)));aspect-ratio:var(--art-ratio)}
+ .hero-art-frame img {width:var(--art-size);left:var(--art-left);top:var(--art-top)}
+ .product-controls {display:flex;width:calc(100% - 48px);min-height:64px;padding:8px 0;gap:16px}
+ .product-pickers {display:flex;gap:4px}
+ .product-picker {flex-direction:row;min-height:44px;padding:10px 8px;gap:8px}
+ .product-picker-label {font-size:11px}
+ .product-picker-mark {font-size:9px}
+ .product-playback {display:flex;gap:6px}
+ .product-arrow {width:44px;height:44px}
+}

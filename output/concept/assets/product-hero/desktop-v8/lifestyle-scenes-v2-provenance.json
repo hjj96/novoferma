@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-08",
+  "tool": "built-in ImageGen",
+  "masterCharacter": "../mobile-v4/fibriki-v5-master.png",
+  "integration": "None; PNG masters and exact prompts only; website/WebP/CSS unchanged",
+  "assets": {
+    "lulia-mini": {
+      "file": "lulia-mini-hen-v2-master.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "bytes": 2130501,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBBox64": [
+        8,
+        13,
+        1238,
+        1240
+      ],
+      "backgroundAlphaSamples": {
+        "(1251, 3)": 0,
+        "(3, 3)": 0,
+        "(627, 1251)": 0,
+        "(1251, 627)": 0
+      },
+      "inspection": "/Users/andrey/Desktop/сайт нф/tmp/lulia-mini-hen-v2-cream-inspection.png",
+      "prompt": "lulia-mini-hen-v2-prompt.txt",
+      "nativeGenerations": 1
+    },
+    "meatballs": {
+      "file": "meatballs-hen-v2-master.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "bytes": 1767812,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBBox64": [
+        45,
+        16,
+        1228,
+        1247
+      ],
+      "backgroundAlphaSamples": {
+        "(1251, 3)": 0,
+        "(3, 3)": 0,
+        "(627, 1251)": 0,
+        "(1251, 627)": 0
+      },
+      "inspection": "/Users/andrey/Desktop/сайт нф/tmp/meatballs-hen-v2-cream-inspection.png",
+      "prompt": "meatballs-hen-v2-prompt.txt",
+      "nativeGenerations": 1
+    }
+  }
+}

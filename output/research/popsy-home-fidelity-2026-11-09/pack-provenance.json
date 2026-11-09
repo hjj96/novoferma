@@ -1,0 +1,123 @@
+{
+  "purpose": "Approved Popсы hero exact-view package extraction; Native ImageGen editing original concept screenshot",
+  "mode": "native built-in image_gen",
+  "transparent_background": true,
+  "sourceReference": "output/research/home-hero-concepts-2026-11-09/popsy-hero-refined-v2.png",
+  "nativeOutput": "/Users/andrey/.codex/generated_images/01a1bf37-0f55-76b3-8f84-aa37406de825/exec-0d4f9590-d0a5-4696-9d50-e4689922fa91.png",
+  "master": {
+    "path": "output/research/popsy-home-fidelity-2026-11-09/pack-master.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 1580100,
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visibleBBoxAlphaAbove2": [
+      91,
+      149,
+      1163,
+      1128
+    ],
+    "sha256": "49b24da7d1c67b8b94cedb77755fa85c386b345de1970485e5c186d0532c54cd"
+  },
+  "conversion": "Full canvas resize only to720/420; main1254 preserved. WebP q95 method6 exact alpha. No manual crop, angle/color/shadow edits.",
+  "visualQA": "Retains concept oblique leftward angle with right-leaning descending left edge, bright warm cream sleeve, readable printed logo/title/descriptor, label-only drummer, clear tray and soft semi-transparent contact shadow. No outside food/UI/text. Minor model resynthesis differences possible; this is not claimed to be pixel-identical segmentation. Native alpha1-2 dust reaches some frame edges; visibly opaque package and shadow remain safely inside canvas.",
+  "outputs": [
+    {
+      "path": "output/concept/assets/popsy-home/pack-concept-v2.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 284572,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        0,
+        25,
+        1206,
+        1254
+      ],
+      "visibleBBoxAlphaAbove2": [
+        91,
+        149,
+        1163,
+        1128
+      ],
+      "solidBBoxAlphaAbove128": [
+        94,
+        152,
+        1160,
+        1095
+      ],
+      "sha256": "1ac627e48c30480210b8bb0c8c04267ef3c73cab242144715b2acd054668f9ff"
+    },
+    {
+      "path": "output/concept/assets/popsy-home/pack-concept-v2-720.webp",
+      "dimensions": [
+        720,
+        720
+      ],
+      "bytes": 123874,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        0,
+        14,
+        692,
+        720
+      ],
+      "visibleBBoxAlphaAbove2": [
+        52,
+        85,
+        668,
+        647
+      ],
+      "solidBBoxAlphaAbove128": [
+        54,
+        87,
+        666,
+        629
+      ],
+      "sha256": "fd443c9eb344b0e1cd7b300344c945e752843e7e18706692a45bf179aed3fb78"
+    },
+    {
+      "path": "output/concept/assets/popsy-home/pack-concept-v2-420.webp",
+      "dimensions": [
+        420,
+        420
+      ],
+      "bytes": 53770,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        29,
+        32,
+        391,
+        406
+      ],
+      "visibleBBoxAlphaAbove2": [
+        29,
+        49,
+        391,
+        377
+      ],
+      "solidBBoxAlphaAbove128": [
+        31,
+        51,
+        388,
+        367
+      ],
+      "sha256": "0c6d589e14d00146c8133a9298f4b1ae87b9ee7220e03a11c2dd8fd3cc9ee766"
+    }
+  ]
+}

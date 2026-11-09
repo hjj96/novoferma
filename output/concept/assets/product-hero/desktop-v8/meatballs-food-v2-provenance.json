@@ -1,0 +1,12 @@
+{
+  "mode": "builtin-imagegen",
+  "operation": "remove exterior shadows only; native generative edit, not a pixel-identical patch",
+  "source": "meatballs-food-master.png",
+  "master": "meatballs-food-v2-master.png",
+  "prompt": "meatballs-food-v2-prompt.txt",
+  "generatedFile": "exec-ea935db6-337a-47cf-afb7-dbaac1e5cc9b.png",
+  "pixels": [
+    1254,
+    1254
+  ]
+}

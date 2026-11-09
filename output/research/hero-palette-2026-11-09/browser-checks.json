@@ -1,0 +1,242 @@
+{
+  "results": [
+    {
+      "name": "partners",
+      "width": 320,
+      "documentWidth": 320,
+      "viewport": 320,
+      "background": "rgb(185, 56, 34)",
+      "heading": {
+        "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+        "size": "44.16px",
+        "weight": "850",
+        "tracking": "-0.6624px",
+        "color": "rgb(255, 245, 227)",
+        "accent": "rgb(246, 213, 128)"
+      },
+      "heroHeight": 346,
+      "outside": [],
+      "brokenImages": [],
+      "products": 0
+    },
+    {
+      "name": "catalogue",
+      "width": 320,
+      "documentWidth": 320,
+      "viewport": 320,
+      "background": "rgb(185, 56, 34)",
+      "heading": {
+        "font": "\"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+        "size": "39px",
+        "weight": "850",
+        "tracking": "-0.585px",
+        "color": "rgb(255, 245, 227)",
+        "accent": "rgb(246, 213, 128)"
+      },
+      "heroHeight": 267,
+      "outside": [],
+      "brokenImages": [],
+      "products": 18,
+      "allImagesCheckedAfterScroll": true
+    },
+    {
+      "name": "partners",
+      "width": 390,
+      "documentWidth": 390,
+      "viewport": 390,
+      "background": "rgb(185, 56, 34)",
+      "heading": {
+        "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+        "size": "53.82px",
+        "weight": "850",
+        "tracking": "-0.8073px",
+        "color": "rgb(255, 245, 227)",
+        "accent": "rgb(246, 213, 128)"
+      },
+      "heroHeight": 366,
+      "outside": [],
+      "brokenImages": [],
+      "products": 0
+    },
+    {
+      "name": "catalogue",
+      "width": 390,
+      "documentWidth": 390,
+      "viewport": 390,
+      "background": "rgb(185, 56, 34)",
+      "heading": {
+        "font": "\"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+        "size": "49.14px",
+        "weight": "850",
+        "tracking": "-0.7371px",
+        "color": "rgb(255, 245, 227)",
+        "accent": "rgb(246, 213, 128)"
+      },
+      "heroHeight": 263,
+      "outside": [],
+      "brokenImages": [],
+      "products": 18,
+      "allImagesCheckedAfterScroll": true
+    },
+    {
+      "name": "partners",
+      "width": 768,
+      "documentWidth": 768,
+      "viewport": 768,
+      "background": "rgb(185, 56, 34)",
+      "heading": {
+        "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+        "size": "64.9086px",
+        "weight": "850",
+        "tracking": "-0.973629px",
+        "color": "rgb(255, 245, 227)",
+        "accent": "rgb(246, 213, 128)"
+      },
+      "heroHeight": 460,
+      "outside": [],
+      "brokenImages": [],
+      "products": 0
+    },
+    {
+      "name": "catalogue",
+      "width": 768,
+      "documentWidth": 768,
+      "viewport": 768,
+      "background": "rgb(185, 56, 34)",
+      "heading": {
+        "font": "\"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+        "size": "54px",
+        "weight": "850",
+        "tracking": "-0.81px",
+        "color": "rgb(255, 245, 227)",
+        "accent": "rgb(246, 213, 128)"
+      },
+      "heroHeight": 208,
+      "outside": [],
+      "brokenImages": [],
+      "products": 18
+    },
+    {
+      "name": "partners",
+      "width": 1024,
+      "documentWidth": 1024,
+      "viewport": 1024,
+      "background": "rgb(185, 56, 34)",
+      "heading": {
+        "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+        "size": "89.343px",
+        "weight": "850",
+        "tracking": "-1.34014px",
+        "color": "rgb(255, 245, 227)",
+        "accent": "rgb(246, 213, 128)"
+      },
+      "heroHeight": 468,
+      "outside": [],
+      "brokenImages": [],
+      "products": 0
+    },
+    {
+      "name": "catalogue",
+      "width": 1024,
+      "documentWidth": 1024,
+      "viewport": 1024,
+      "background": "rgb(185, 56, 34)",
+      "heading": {
+        "font": "\"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+        "size": "67.584px",
+        "weight": "850",
+        "tracking": "-1.01376px",
+        "color": "rgb(255, 245, 227)",
+        "accent": "rgb(246, 213, 128)"
+      },
+      "heroHeight": 237,
+      "outside": [],
+      "brokenImages": [],
+      "products": 18
+    },
+    {
+      "name": "partners",
+      "width": 1440,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "background": "rgb(185, 56, 34)",
+      "heading": {
+        "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+        "size": "119.126px",
+        "weight": "850",
+        "tracking": "-1.78689px",
+        "color": "rgb(255, 245, 227)",
+        "accent": "rgb(246, 213, 128)"
+      },
+      "heroHeight": 570,
+      "outside": [],
+      "brokenImages": [],
+      "products": 0
+    },
+    {
+      "name": "catalogue",
+      "width": 1440,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "background": "rgb(185, 56, 34)",
+      "heading": {
+        "font": "\"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+        "size": "100px",
+        "weight": "850",
+        "tracking": "-1.5px",
+        "color": "rgb(255, 245, 227)",
+        "accent": "rgb(246, 213, 128)"
+      },
+      "heroHeight": 336,
+      "outside": [],
+      "brokenImages": [],
+      "products": 18
+    },
+    {
+      "name": "partners",
+      "width": 1920,
+      "documentWidth": 1920,
+      "viewport": 1920,
+      "background": "rgb(185, 56, 34)",
+      "heading": {
+        "font": "\"Novoferma Protein\", \"Novoferma Poster\", Arial, sans-serif",
+        "size": "119.126px",
+        "weight": "850",
+        "tracking": "-1.78689px",
+        "color": "rgb(255, 245, 227)",
+        "accent": "rgb(246, 213, 128)"
+      },
+      "heroHeight": 570,
+      "outside": [],
+      "brokenImages": [],
+      "products": 0
+    },
+    {
+      "name": "catalogue",
+      "width": 1920,
+      "documentWidth": 1920,
+      "viewport": 1920,
+      "background": "rgb(185, 56, 34)",
+      "heading": {
+        "font": "\"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+        "size": "100px",
+        "weight": "850",
+        "tracking": "-1.5px",
+        "color": "rgb(255, 245, 227)",
+        "accent": "rgb(246, 213, 128)"
+      },
+      "heroHeight": 336,
+      "outside": [],
+      "brokenImages": [],
+      "products": 18
+    },
+    {
+      "cta": "partner-contact",
+      "hash": "#partner-contact"
+    },
+    {
+      "productNavigation": "http://127.0.0.1:8765/output/concept/product-kotlety-kurinye.html"
+    }
+  ],
+  "errors": []
+}

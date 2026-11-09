@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-08",
+  "tool": "built-in image_gen.imagegen",
+  "master": "fibriki-master.png",
+  "source": "/Users/andrey/.codex/generated_images/01a1ab97-8dbf-7c80-b46f-e9b6e7853b89/exec-3660dfcf-0473-4d79-80de-e3f6c70a575a.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alpha64_bbox": [
+    28,
+    18,
+    1227,
+    1224
+  ],
+  "components_alpha64_approx": [
+    {
+      "id": 0,
+      "bbox": [
+        539,
+        403,
+        1226,
+        1226
+      ],
+      "area": 354325
+    },
+    {
+      "id": 1,
+      "bbox": [
+        28,
+        707,
+        535,
+        1218
+      ],
+      "area": 199922
+    },
+    {
+      "id": 2,
+      "bbox": [
+        615,
+        16,
+        994,
+        371
+      ],
+      "area": 105455
+    },
+    {
+      "id": 3,
+      "bbox": [
+        184,
+        112,
+        531,
+        451
+      ],
+      "area": 92218
+    }
+  ],
+  "gaps_alpha64_approx_px": [
+    [
+      0,
+      1,
+      53.6
+    ],
+    [
+      0,
+      2,
+      35.9
+    ],
+    [
+      0,
+      3,
+      153.4
+    ],
+    [
+      1,
+      2,
+      489.8
+    ],
+    [
+      1,
+      3,
+      259.6
+    ],
+    [
+      2,
+      3,
+      90.1
+    ]
+  ],
+  "measurement_note": "Quarter-resolution alpha>=64 component analysis; distances approximate within4nativepx. Component0hen,1foregroundfood,2upperrightfood,3upperleftfood. Real transparency checked oncream.",
+  "calls": [
+    {
+      "prompt": "fibriki-initial-prompt.txt",
+      "output": "fibriki-initial-master.png",
+      "references": [
+        "../desktop-v8/fibriki-hen-v2-master.png",
+        "../desktop-v8/fibriki-food-master.png",
+        "../mobile-v4/fibriki-v5-master.png"
+      ]
+    },
+    {
+      "prompt": "fibriki-spacing-prompt.txt",
+      "output": "fibriki-palette-master.png",
+      "references": [
+        "fibriki-initial-master.png",
+        "../desktop-v8/popsy-hen-v3-master.png"
+      ]
+    },
+    {
+      "prompt": "fibriki-grounding-prompt.txt",
+      "output": "fibriki-grounded-master.png",
+      "references": [
+        "fibriki-palette-master.png"
+      ]
+    },
+    {
+      "prompt": "fibriki-prompt.txt",
+      "output": "fibriki-master.png",
+      "references": [
+        "fibriki-grounded-master.png"
+      ]
+    }
+  ],
+  "exact_native_alpha64_measurement": {
+    "components": [
+      {
+        "id": 0,
+        "area": 351402,
+        "bbox": [
+          539,
+          402,
+          1227,
+          1224
+        ]
+      },
+      {
+        "id": 1,
+        "area": 198996,
+        "bbox": [
+          28,
+          706,
+          536,
+          1216
+        ]
+      },
+      {
+        "id": 2,
+        "area": 104789,
+        "bbox": [
+          614,
+          18,
+          994,
+          372
+        ]
+      },
+      {
+        "id": 3,
+        "area": 91558,
+        "bbox": [
+          185,
+          112,
+          532,
+          452
+        ]
+      }
+    ],
+    "hen_food_gaps_alpha64_px": [
+      {
+        "food_component": 1,
+        "gap": 52.0
+      },
+      {
+        "food_component": 2,
+        "gap": 33.96
+      },
+      {
+        "food_component": 3,
+        "gap": 153.4
+      }
+    ]
+  }
+}

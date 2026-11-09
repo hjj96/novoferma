@@ -1,0 +1,40 @@
+Built-in ImageGen; 2026-11-07. Full opaque desktop hero mockup; no site integration.
+Reference 1: output/concept/assets/product-hero/lulia-mini-reference.webp
+Reference 2: output/concept/assets/product-hero/mobile-v4/fibriki-v5-master.png
+Reference 3: output/research/desktop-separated-art-2026-11-07/after/desktop-1440-nuggets.png
+
+Use case: ui-mockup / ads-marketing.
+Create ONE finished premium DESKTOP HOMEPAGE HERO MOCKUP for Novoferma mini chicken lulia. FULL rectangular website screenshot, EXACT intended canvas1440×900 (16:10). This is the entire rendered visual proposal, including interface typography, not isolated assets or a collage of options. No device frame.
+
+REFERENCE ROLES:
+Image1 is the ORIGINAL LULIA CAMPAIGN: use its strong food appetite, warm cream paper, orange curved ground and lively character-and-food storytelling. DO NOT copy its long sausage proportions, busy swooshes, giant mascot or old text.
+Image2 is the STRICT CHICKEN IDENTITY reference: same adult good-natured broad-bodied orange-yellow watercolor hen, same mature head/face, large near eye and tiny farther eye, five-lobed red comb, cream beak, expressive SHARP black hand-inked contour, white apron with thin green checks and white neck bow. Do not turn it into a new young chick, simplify it into vector clipart or make it pale.
+Image3 is ONLY the CURRENT UI SKELETON: copy its logo/header/navigation and usable left/right structure. Its sparse widely floating nuggets and dominant central chicken are the FAILURES TO CORRECT, never reproduce that art composition.
+
+UI AND PALETTE:
+Full-bleed subtly textured warm cream #fff9ed, deep cocoa brown #432714 typography, rusty orange #bc4318 supporting text, rich vivid orange curved floor at the bottom. The orange arc gently rises into the scene near the lower right and fills the full bottom edge above tabs. Premium clean spacing, purposeful bold hierarchy, rich crisp image detail. Navigation has an absolutely clear protected top88px strip: no foods or drawing touches header.
+Top left at x64,y25 is the genuine-looking orange italic NOVOferma wordmark matching references. Header centered links exact Russian text: «Продукция», «О нас», «Партнёрам», «Контакты». Top right deep-brown rounded button «Где купить» with white diagonal arrow, approximately x1180..1370, y20..70.
+Left text occupies about47% width, with left margin64px and clear gap to all artwork. Large strong dark-brown all-caps headline «ЛЮЛЯ МИНИ», same very bold naturally condensed Novoferma Protein/Roboto Flex poster character as image3, roughly110–120px visual size. Do not create thin small generic heading. Title around y215–340. Rust-orange bold two-line subheading, exact words:
+«Маленький формат.
+Большой аппетит.»
+Size around45–50px. Body exact Russian text, around19–20px:
+«Куриные колбаски с зеленью и овощами.
+Для новых сочетаний и тёплых встреч за столом.»
+Maintain attractive wrapping within left column and ample line spacing, no artwork behind words.
+Below is one dark-brown pill CTA, exact «О Люля мини», white text and slim white right arrow, about56px high, x64,y610.
+NO tiny upper kickers, NO novelty labels, NO technical words, no nutritional claims, no extra tags or stickers.
+
+CRUCIAL RIGHT-HAND ART DIRECTION — DENSE, FOOD FIRST:
+Build a compact, lively, premium food advertising composition within right half, roughly x700..1390,y160..740. The scene must feel materially fuller and more appetizing than image3. The FOUR individual foods are the primary subject, with one large near-camera piece about240–290 SCREEN pixels long and three others about160–210px long. Give real depth and rhythm with distinct heights and angles. NOT four tiny equal objects floating far apart across empty cream.
+Exactly FOUR WHOLE SHORT THICK MINI-LULIA, not long sausages, baguettes or loaves. Each piece has LENGTH/THICKNESS ratio only1.7–2.1: plump compact handmade rounded oval chicken shape with irregular blunt ends. Every piece has a DIFFERENT silhouette, grilled crust, visible end and viewing angle; no copied/resized clone. Golden natural cooked minced MEAT texture, succulent warm searing with delicate small red/green flecks. No rice-like grain beads, no coarse pasta pattern, no breading. Soft natural studio light, crisp appetizing food photography, restrained realistic sheen rather than plastic gloss.
+Arrange the four foods as a CLOSE asymmetric dynamic cluster/short tossing arc. Keep approximately20–35px clear cream gaps so their complete contours remain visible and each individual food is distinct. Never merge into one food pile. Main foreground mini-lulia anchors the cluster near the orange ground; others rise above it in different angles. Small gentle cast shadows on the orange floor anchor the composition rather than leave everything suspended in empty space.
+The SAME cheerful warm-saturated orange/yellow illustrated hen from image2 is a SECONDARY supporting character, ONLY230–250px tall in the1440×900 mockup. Put her below/right of the food group, in an energetic offering/tossing gesture looking toward food. She is not the giant central object and not pale. Whole body, comb, tail and feet inside frame. Leave clearly visible20–35px cream air gaps between EVERY food and EVERY part of the hen, including beak, comb and wing tips. No food touching or overlapping the drawing.
+At most2 small loose herb leaves near the group, optional, separated from the foods and never growing out of a sausage. No big garnish or plate.
+At most TWO PAIRS of short crisp red-orange accent ticks locally placed by foods. Absolutely NO long sweeping shared arc lines, wispy curls or decorative storm.
+
+BOTTOM CONTROLS:
+At about y790–868, a clean cream strip containing four named tabs from left: «Фибрики», «Фрикадельки», «Наггетсы», «Люля мини». Mark Люля мини as selected with a small restrained rust indicator/rounded pale selection as in existing UI. Two circular left/right arrow buttons at far right. No other sections or footer in this screenshot; a subtle cream continuation below tabs is fine.
+
+QUALITY BAR:
+This is one coherent high-end Russian food-brand hero ready for composition review. Food dominance, compact density, unmistakably SHORT mini format, exact familiar hen identity, sharp raster detail, legible full UI and generous protected text/navigation matter more than empty minimalism. Deliver one final full1440×900 website visual, opaque background, no watermark, no option labels.
+
