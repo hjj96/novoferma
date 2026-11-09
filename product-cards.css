@@ -29,6 +29,9 @@
  transition:filter 180ms ease;
 }
 /* Equalize the visible package, compensating for transparent master padding. */
+.product-grid .product-card.packshot-preview[data-product-id="lenivchiki"] .packshot-stage .tilt-plane {
+ transform:translateY(-.8%) rotate(var(--pack-turn)) scale(.93);
+}
 .product-grid .product-card.packshot-preview[data-product-id="popsy"] .packshot-stage .tilt-plane {
  transform:translateY(-2.2%) rotate(var(--pack-turn)) scale(1.065);
 }
