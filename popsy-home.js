@@ -5,15 +5,12 @@
  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
  const fine = matchMedia('(hover: hover) and (pointer: fine)');
  const pack = hero.querySelector('.popsy-home-pack-layer');
- const food = hero.querySelector('.popsy-home-food-layer');
  let frame = 0, bounds = null, point = null, listening = false;
  const reset = () => {
   if (frame) cancelAnimationFrame(frame);
   frame = 0; point = null;
-  for (const layer of [pack, food]) {
-   layer.style.setProperty('--popsy-x', '0px');
-   layer.style.setProperty('--popsy-y', '0px');
-  }
+  pack.style.setProperty('--popsy-x', '0px');
+  pack.style.setProperty('--popsy-y', '0px');
  };
  function paint() {
   frame = 0;
@@ -22,8 +19,6 @@
   const y = Math.max(-1, Math.min(1, (point.y - bounds.top) / bounds.height * 2 - 1));
   pack.style.setProperty('--popsy-x', `${x * 5}px`);
   pack.style.setProperty('--popsy-y', `${y * 3}px`);
-  food.style.setProperty('--popsy-x', `${x * -8}px`);
-  food.style.setProperty('--popsy-y', `${y * -5}px`);
  }
  const enter = () => { bounds = hero.getBoundingClientRect(); };
  const move = event => {

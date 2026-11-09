@@ -1,12 +1,4 @@
 /* All type stays live. The approved scene is assembled from independent layers. */
-@font-face {
- font-family:'Novoferma Protein';
- src:url('assets/fonts/RobotoFlex-Protein.woff2') format('woff2');
- font-weight:850;
- font-stretch:normal;
- font-style:normal;
- font-display:swap;
-}
 .protein-poster {
  background:#d8dca1;
  background-image:radial-gradient(ellipse at 38% 45%,#e1e5b4 0,#d8dca1 70%,#d1d89b 100%);
@@ -31,8 +23,8 @@
  margin:0 0 1.1cqw;
 }
 .protein-poster-title {
- font-family:'Novoferma Protein',var(--font-poster);
- font-weight:850;
+ font-family:var(--font-heading);
+ font-weight:var(--font-heading-weight);
  font-stretch:normal;
  font-size:7.6cqw;
  letter-spacing:-.012em;

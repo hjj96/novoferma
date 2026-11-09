@@ -25,9 +25,9 @@
 
 /* A single type family, generous leading, and no forced no-wrap lines. */
 .page-index h2.home-editorial-title {
- font-family:var(--font-display);font-weight:600;
+ font-family:var(--font-heading);font-weight:var(--font-heading-weight);
  font-size:clamp(40px,4.25vw,64px);line-height:1.1;
- letter-spacing:-.045em;word-spacing:normal;text-transform:none;
+ letter-spacing:var(--font-heading-tracking);word-spacing:normal;text-transform:none;
  text-wrap:balance;
 }
 .page-index .home-editorial-title>span,
@@ -50,8 +50,8 @@
 .page-index .nf-business {background:#f0e2ca;padding-block:64px}
 .page-index .nf-business-inner {display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:80px}
 .page-index .nf-business h2 {
- font-family:var(--font-display);font-size:clamp(34px,3.5vw,52px);
- font-weight:550;line-height:1.12;letter-spacing:-.045em;text-transform:none;text-wrap:initial;
+ font-family:var(--font-heading);font-size:clamp(34px,3.5vw,52px);
+ font-weight:var(--font-heading-weight);line-height:1.12;letter-spacing:var(--font-heading-tracking);text-transform:none;text-wrap:initial;
 }
 .page-index .nf-business-copy>p {font-size:18px;line-height:1.6;max-width:40ch;color:var(--nf-muted)}
 .nf-editorial-link {display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-height:48px;border-bottom:1px solid var(--nf-border);font-size:14px;font-weight:600;margin-top:22px}

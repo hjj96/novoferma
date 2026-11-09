@@ -7,7 +7,7 @@
 .contact-content { position:relative;z-index:1;width:70%;max-width:850px;min-width:0; }
 .contacts-poster .contact-heading { display:block;padding:0;margin:0 0 40px; }
 .contacts-poster .contact-heading h1 {
- font-size:clamp(68px,6.8vw,100px);line-height:.96;letter-spacing:-.04em;text-wrap:initial;
+ font-size:clamp(68px,6.8vw,100px);line-height:.96;letter-spacing:var(--font-heading-tracking);text-wrap:initial;
 }
 .contact-groups { display:grid;gap:32px; }
 .contact-group {

@@ -8,8 +8,8 @@
 }
 .page-index h2.home-section-title {
  margin:0;min-width:0;max-width:100%;
- font-family:'Novoferma About','Novoferma Protein',var(--font-display);
- font-size:var(--home-section-title-size);font-weight:850;line-height:1.04;
+ font-family:var(--font-heading);
+ font-size:var(--home-section-title-size);font-weight:var(--font-heading-weight);line-height:1.04;
  letter-spacing:-.015em;word-spacing:normal;text-transform:uppercase;
  text-wrap:initial;color:inherit;
 }
@@ -39,8 +39,17 @@
 .page-index .protein-hen {right:.4%;bottom:11.2%;width:31.5%}
 
 .page-index .nf-business {
+ --business-mascot-width:clamp(180px,18vw,260px);
+ position:relative;isolation:isolate;overflow:clip;
  background:var(--home-section-red);color:var(--home-section-cream);padding-block:80px 88px;
 }
+.page-index .nf-business-inner {position:relative;z-index:1}
+.page-index .nf-business-copy {padding-right:calc(var(--business-mascot-width) - 20px)}
+.page-index .nf-business-art {
+ position:absolute;right:0;bottom:0;
+ width:var(--business-mascot-width);z-index:0;pointer-events:none;
+}
+.page-index .nf-business-mascot {display:block;width:100%;height:auto;max-width:none}
 .page-index .nf-business-inner,
 .page-index .where-preview-inner {
  display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);
@@ -88,6 +97,7 @@
  .page-index {--home-gutter:32px;--home-section-title-size:clamp(56px,7.5vw,82px)}
  .page-index .nf-business,.page-index .where-preview {padding-block:64px}
  .page-index .nf-business-inner,.page-index .where-preview-inner {gap:40px}
+ .page-index .nf-business {--business-mascot-width:clamp(160px,18vw,200px)}
 }
 @media(max-width:1099px) {
  .page-index .protein-poster-inner {width:100%;min-height:0;aspect-ratio:auto;padding-bottom:64px}
@@ -107,6 +117,13 @@
  .page-index .protein-poster-copy {padding:48px 20px 0}
  .page-index .protein-poster-scene {margin-top:28px}
  .page-index .nf-business,.page-index .where-preview {padding-block:48px 56px}
+ .page-index .nf-business {--business-mascot-width:clamp(120px,36vw,180px);padding-bottom:0}
+ .page-index .nf-business-copy {padding-right:0}
+ .page-index .nf-business-action {
+  display:flex;align-items:center;min-height:calc(var(--business-mascot-width) * 4 / 3);
+  margin-top:24px;padding:16px calc(var(--business-mascot-width) + 20px) 24px 0;
+ }
+ .page-index .nf-business-action .home-section-link {margin-top:0;padding-inline:18px;gap:16px}
  .page-index .protein-poster-description,.page-index .nf-business-copy>p,.page-index .where-preview-copy>p {
   font-size:17px;line-height:1.6;
  }

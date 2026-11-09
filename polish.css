@@ -1,5 +1,5 @@
 /* One editorial voice, grounded in the approved product posters. */
-:root{--font-poster:'Novoferma Poster','Novoferma Sans',Arial,sans-serif;--orange:#ee4b12;--line:#d9c8ae}
+:root{--font-poster:var(--font-heading);--orange:#ee4b12;--line:#d9c8ae}
 body{-webkit-font-smoothing:antialiased}
 /* Keep navigation in the same place on every page. */
 .site-header .header-inner{width:90.4%;max-width:none;height:88px;gap:64px}
@@ -10,8 +10,8 @@ body{-webkit-font-smoothing:antialiased}
 .page-heading h1,.about-hero h1,.page-intro h1,.partner-hero h1,.contact-heading h1,
 .section-heading h2,.brand-inner h2,.where-preview h2,.partner-contact h2,
 .about-editorial h2,.partner-band h2,.city-panel h2,.detail-copy h1{
- font-family:var(--font-poster);font-weight:900;text-transform:uppercase;
- letter-spacing:-.035em;line-height:.98;text-wrap:balance;
+ font-family:var(--font-heading);font-weight:var(--font-heading-weight);text-transform:uppercase;
+ letter-spacing:var(--font-heading-tracking);line-height:.98;text-wrap:balance;
 }
 .page-heading h1{font-size:clamp(64px,6.9vw,100px)}
 .about-hero h1,.partner-hero h1{font-size:clamp(70px,6.8vw,98px)}
@@ -302,8 +302,8 @@ body{-webkit-font-smoothing:antialiased}
 }
 .brand-partnership .partnership-formats > div { min-width:0; }
 .brand-partnership .partnership-formats dt {
- margin:0 0 10px;font-family:var(--font-poster);
- font-size:clamp(24px,2vw,28px);font-weight:800;letter-spacing:-.035em;line-height:1.1;
+ margin:0 0 10px;font-family:var(--font-heading);
+ font-size:clamp(24px,2vw,28px);font-weight:var(--font-heading-weight);letter-spacing:var(--font-heading-tracking);line-height:1.1;
 }
 .brand-partnership .partnership-formats dd { margin:0;max-width:23ch;font-size:15px;line-height:1.5; }
 .brand-partnership .partnership-actions { display:flex;align-items:center;gap:22px;flex-wrap:wrap; }

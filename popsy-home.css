@@ -3,12 +3,13 @@
 .page-index .site-header,.popsy-home-hero {background-color:var(--popsy-paper);background-image:url('assets/popsy-home/paper-concept-v2.webp');background-size:cover}
 .popsy-home-hero {position:relative;isolation:isolate;overflow:clip;color:var(--popsy-ink)}
 .popsy-home-inner {position:relative;container-type:inline-size;width:min(100%,1585px);height:clamp(650px,calc(100svh - 88px),930px);margin-inline:auto}
-.popsy-home-title {position:absolute;z-index:0;top:.2%;left:14.2%;margin:0;font-family:'Novoferma Protein','Novoferma Poster',sans-serif;font-size:20.5cqw;font-weight:850;line-height:.95;letter-spacing:-.01em;text-transform:uppercase;text-wrap:nowrap}
+.popsy-home-title {position:absolute;z-index:0;top:.2%;left:14.2%;margin:0;font-family:var(--font-heading);font-size:20.5cqw;font-weight:var(--font-heading-weight);line-height:.95;letter-spacing:-.01em;text-transform:uppercase;text-wrap:nowrap}
 .popsy-home-note {position:absolute;z-index:3;top:3.5%;right:1.65%;width:23%;margin:0}
 .popsy-home-lettering {width:100%;height:auto}
 .popsy-home-hero .sr-only {position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;clip-path:inset(50%);overflow:hidden;white-space:nowrap}
 .popsy-home-art {position:absolute;inset:0;pointer-events:none}
-.popsy-home-pack-layer,.popsy-home-food-layer {position:absolute;transform:translate3d(var(--popsy-x,0px),var(--popsy-y,0px),0);transition:transform 750ms cubic-bezier(.2,.7,.2,1)}
+.popsy-home-pack-layer,.popsy-home-food-layer {position:absolute}
+.popsy-home-pack-layer {transform:translate3d(var(--popsy-x,0px),var(--popsy-y,0px),0);transition:transform 750ms cubic-bezier(.2,.7,.2,1)}
 /* Bounds describe visible subjects, including their native contact shadows. */
 .popsy-home-pack-layer {z-index:2;top:24.9%;left:17.2%;width:39.5%;aspect-ratio:1072 / 979}
 .popsy-home-food-layer {z-index:3;top:38%;left:57.5%;width:30.9%;aspect-ratio:1045 / 843}
@@ -110,18 +111,16 @@
  .popsy-home-mobile-break {display:none}
  .popsy-home-cta.button {width:auto;min-width:150px;min-height:48px;padding:12px 18px;font-size:14px}
 }
-/* Bounded reveal; pointer movement preserves the artwork's built-in angle. */
+/* Bounded reveal and pointer movement for the pack; food stays anchored. */
 @media(prefers-reduced-motion:no-preference) {
- .popsy-home-hero[data-enhanced=true]:not([data-ready=true]) :is(.popsy-home-title,.popsy-home-note,.popsy-home-pack,.popsy-home-food,.popsy-home-bottom) {opacity:0}
+ .popsy-home-hero[data-enhanced=true]:not([data-ready=true]) :is(.popsy-home-title,.popsy-home-note,.popsy-home-pack,.popsy-home-bottom) {opacity:0}
  .popsy-home-hero[data-ready=true] .popsy-home-title {animation:popsy-title-in 950ms cubic-bezier(.16,.8,.2,1) both}
  .popsy-home-hero[data-ready=true] .popsy-home-pack {animation:popsy-pack-in 1100ms cubic-bezier(.16,.8,.2,1) 80ms both}
- .popsy-home-hero[data-ready=true] .popsy-home-food {animation:popsy-food-in 1050ms cubic-bezier(.16,.8,.2,1) 220ms both}
  .popsy-home-hero[data-ready=true] .popsy-home-note {animation:popsy-note-in 850ms cubic-bezier(.16,.8,.2,1) 380ms both}
  .popsy-home-hero[data-ready=true] .popsy-home-bottom {animation:popsy-copy-in 650ms ease 450ms both}
 }
 @keyframes popsy-title-in {from{opacity:0;translate:0 26px}to{opacity:1;translate:0 0}}
 @keyframes popsy-pack-in {from{opacity:0;transform:translate3d(-24px,30px,0) rotate(-2deg) scale(.98)}to{opacity:1;transform:none}}
-@keyframes popsy-food-in {from{opacity:0;transform:translate3d(24px,20px,0) rotate(2deg) scale(.97)}to{opacity:1;transform:none}}
 @keyframes popsy-note-in {from{opacity:0;transform:translateY(7px) scale(.98)}to{opacity:1;transform:none}}
 @keyframes popsy-copy-in {from{opacity:0;translate:0 8px}to{opacity:1;translate:0 0}}
 @media(prefers-reduced-motion:reduce) {

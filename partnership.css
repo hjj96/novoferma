@@ -6,8 +6,8 @@
 }
 .brand-character .eyebrow { margin-bottom:26px; }
 .brand-character h2 {
- font-family:var(--font-poster);font-size:clamp(32px,3.25vw,46px);font-weight:900;
- text-transform:uppercase;line-height:1.04;letter-spacing:-.035em;text-wrap:initial;
+ font-family:var(--font-heading);font-size:clamp(32px,3.25vw,46px);font-weight:var(--font-heading-weight);
+ text-transform:uppercase;line-height:1.04;letter-spacing:var(--font-heading-tracking);text-wrap:initial;
 }
 .brand-character-copy { font-size:20px;line-height:1.6;max-width:30ch; }
 .brand-character-art { width:100%;max-width:300px;height:auto;justify-self:center; }
@@ -23,8 +23,8 @@
  color:var(--ink);font-size:11px;line-height:1.5;letter-spacing:.1em;
 }
 .cooperation-invite h2 {
- max-width:100%;font-family:var(--font-poster);font-size:clamp(40px,4.2vw,62px);
- font-weight:900;letter-spacing:-.035em;line-height:1.03;text-transform:uppercase;text-wrap:initial;
+ max-width:100%;font-family:var(--font-heading);font-size:clamp(40px,4.2vw,62px);
+ font-weight:var(--font-heading-weight);letter-spacing:var(--font-heading-tracking);line-height:1.03;text-transform:uppercase;text-wrap:initial;
 }
 .cooperation-invite h2>span,.cooperation-invite h2>em { display:block; }
 .cooperation-invite h2>em { color:var(--cream); }

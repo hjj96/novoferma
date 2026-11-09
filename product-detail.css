@@ -8,9 +8,9 @@
 .product-detail > .detail-heading {grid-area:heading;min-width:0}
 .detail-heading .eyebrow {margin-bottom:18px;font-size:12px;line-height:1.5}
 .detail-heading h1 {
- font-family:var(--font-poster);font-weight:900;text-transform:uppercase;
+ font-family:var(--font-heading);font-weight:var(--font-heading-weight);text-transform:uppercase;
  font-size:clamp(36px,3.4vw,50px);line-height:1.06;
- letter-spacing:-.02em;word-spacing:.08em;text-wrap:initial;overflow-wrap:break-word;
+ letter-spacing:var(--font-heading-tracking);word-spacing:.08em;text-wrap:initial;overflow-wrap:break-word;
 }
 .product-detail > .detail-visual {
  grid-area:visual;position:static;top:auto;align-self:start;
@@ -77,7 +77,7 @@
   grid-template-rows:auto;gap:22px;padding-block:28px 48px;
  }
  .detail-heading .eyebrow {margin-bottom:14px}
- .detail-heading h1 {font-size:clamp(31px,9vw,42px);line-height:1.08;letter-spacing:-.018em}
+ .detail-heading h1 {font-size:clamp(31px,9vw,42px);line-height:1.08;letter-spacing:var(--font-heading-tracking)}
  .product-detail > .detail-visual {padding:12px 20px 16px}
  .product-detail > .detail-visual img,.product-detail > .detail-visual .tilt-plane {height:240px}
  .product-detail > .detail-visual figcaption {margin-top:6px}

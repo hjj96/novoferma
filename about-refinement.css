@@ -1,14 +1,10 @@
 /* Company chapters and the catalogue preview shared with the homepage. */
-@font-face {
- font-family:'Novoferma About';src:url('assets/fonts/RobotoFlex-Protein.woff2') format('woff2');
- font-weight:850;font-style:normal;font-display:swap;
-}
 .page-about,.page-index .about-products {--about-ink:#402312;--about-red:#b93822;--about-cream:#fff5e3;color:var(--about-ink)}
 :is(.page-about,.page-index) .about-shell {width:min(1296px,calc(100% - 96px));margin-inline:auto}
 .page-about .breadcrumb {padding-block:24px;margin-block:0}
 :is(.page-about,.page-index) .about-title {
- margin:0;min-width:0;max-width:100%;font-family:'Novoferma About',var(--font-display);
- font-size:clamp(64px,7.5vw,106px);font-weight:850;line-height:1.04;
+ margin:0;min-width:0;max-width:100%;font-family:var(--font-heading);
+ font-size:clamp(64px,7.5vw,106px);font-weight:var(--font-heading-weight);line-height:1.04;
  letter-spacing:-.015em;text-transform:uppercase;text-wrap:initial;color:inherit;
 }
 :is(.page-about,.page-index) .about-title>span {color:var(--about-red)}
@@ -51,7 +47,7 @@
 .page-about .cooperation-invite-inner {
  grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:80px;padding-block:80px;
 }
-.page-about .cooperation-invite-about .about-title {font-family:'Novoferma About',var(--font-display);font-size:clamp(60px,7vw,100px);font-weight:850;line-height:1.04;letter-spacing:-.015em}
+.page-about .cooperation-invite-about .about-title {font-family:var(--font-heading);font-size:clamp(60px,7vw,100px);font-weight:var(--font-heading-weight);line-height:1.04;letter-spacing:-.015em}
 .page-about .cooperation-invite-about .about-title>span {color:var(--about-cream)}
 .page-about .cooperation-invite-response {gap:28px;align-items:flex-start;flex-direction:column}
 .page-about .cooperation-invite-response>.about-copy {margin:0;max-width:34ch;font-size:clamp(18px,1.55vw,22px);line-height:1.55}
