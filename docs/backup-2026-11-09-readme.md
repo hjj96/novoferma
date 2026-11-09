@@ -1,6 +1,6 @@
 # Novoferma complete project backup - 9 November 2026
 
-This snapshot preserves 5760 local project files, including current HTML, every image and PNG master, fonts, JSON, scripts, research, PDFs and earlier versions. Unique source images and research under tmp/ are included too. Snapshot time: 2026-11-09T11:01:16+03:00.
+This snapshot preserves 5761 local project files, including current HTML, every image and PNG master, fonts, JSON, scripts, research, PDFs and earlier versions. Unique source images and research under tmp/ are included too. Snapshot time: 2026-11-09T11:01:16+03:00.
 
 Current site: output/concept/index.html. Files were copied without regeneration or content changes. The primary working branch and its uncommitted changes were preserved.
 
@@ -13,3 +13,5 @@ Excluded: Git internals, installed dependencies, caches, system files, credentia
 This backup is for storage and recovery. It does not change the published website or the dedicated team-hosting branch.
 
 Last source refresh: 2026-11-09T11:05:51+03:00.
+
+Last source refresh: 2026-11-09T11:10:25+03:00.

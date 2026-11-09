@@ -1185,10 +1185,10 @@
     },
     {
       "path": "output/concept/README.md",
-      "bytes": 18539,
-      "sha256": "a754e439a07a0df3a1af040915288ddeb72bf734e01da4ab8206311436c38397",
-      "gitBlobSha": "3819ce9c41be24b0db2c16090b27320a53f8d460",
-      "mtimeNs": 1794139506128449344
+      "bytes": 20193,
+      "sha256": "664dd68bcaeaa8397511a903516c4364576c4e8189fb148b2697543bd480a539",
+      "gitBlobSha": "3d337b6fb6d384c7103aebce8778e83713d44e42",
+      "mtimeNs": 1794211583499218164
     },
     {
       "path": "output/concept/about-refinement.css",
@@ -6576,16 +6576,9 @@
     {
       "path": "output/hosting/deployment.json",
       "bytes": 3411,
-      "sha256": "9e37e35458f1f7f644170873546bcd458e7c920bdd64c8f8957647973148a939",
-      "gitBlobSha": "3cdd80c317b09ee592994f8a2789abe1baf621cd",
-      "mtimeNs": 1794211446743551196
-    },
-    {
-      "path": "output/hosting/pending-publish.json",
-      "bytes": 1232,
-      "sha256": "aa1179237fde7ba78e4780d8cb86edae4c55d293b6c0c35041f2fd19bcad410d",
-      "gitBlobSha": "1a600d5e185fc68f80ab6ea244a08cff6c8dd161",
-      "mtimeNs": 1794211535698574318
+      "sha256": "8881fd8db86c5d63486422d165645cf315907ea2288230b32f2b087518203f89",
+      "gitBlobSha": "a7a8e4f7db42fd79a74dd03851473dba8feb590c",
+      "mtimeNs": 1794211668916633892
     },
     {
       "path": "output/hosting/verification.json",
@@ -26846,6 +26839,13 @@
       "mtimeNs": 1794209777057441997
     },
     {
+      "path": "output/research/popsy-home-implementation-2026-11-09/desktop-1585.jpg",
+      "bytes": 142375,
+      "sha256": "bdac7ba01169787cd6424f88671912b191b948a1fa4f88271e8db0d48e1c1e8c",
+      "gitBlobSha": "231f956458dfb64f8aa52b482c029d8fb462051a",
+      "mtimeNs": 1794211679868726280
+    },
+    {
       "path": "output/research/popsy-home-implementation-2026-11-09/desktop-before.jpg",
       "bytes": 140952,
       "sha256": "077c54a497131aa5e3a3e19ef9b0072bb1a8e9e2300fed7b53a9d3e03049a400",
@@ -26882,10 +26882,10 @@
     },
     {
       "path": "output/research/popsy-home-implementation-2026-11-09/mobile-390.jpg",
-      "bytes": 26851,
-      "sha256": "e91abfd82fd0463a2a9b728f0c7c2885d1c8d9a2e1368b5921bf5d914ab24575",
-      "gitBlobSha": "8bfb1a9bee116e0eece2f267de56509ef5930025",
-      "mtimeNs": 1794211548627563904
+      "bytes": 43545,
+      "sha256": "1d6753df4a1f194b0f25c5ac8704627c931e8b8445cb3dd66dc0c2acf7655ee1",
+      "gitBlobSha": "db9003130c584555eb7fb53c9efe311da8a828cd",
+      "mtimeNs": 1794211571185730992
     },
     {
       "path": "output/research/popsy-home-implementation-2026-11-09/mobile-before.jpg",
@@ -26900,6 +26900,13 @@
       "sha256": "bbe5cdcb2039d26171c6b763d73483a032fee8f8ee458a36474718884446f5f4",
       "gitBlobSha": "3473fc08e67919198f4b4ea25377539246e5b4f4",
       "mtimeNs": 1794210916094812291
+    },
+    {
+      "path": "output/research/popsy-home-implementation-2026-11-09/responsive-checks.json",
+      "bytes": 11671,
+      "sha256": "5aef62291e9cc5a201b4e99b36934d625c938bf30b27b77be27e2ead0c217311",
+      "gitBlobSha": "32383aea0f39019983d6218749e1bdbaa0ef8362",
+      "mtimeNs": 1794211679806675867
     },
     {
       "path": "output/research/popsy-site-integration-2026-11-05/before-html-hashes.json",
@@ -31901,10 +31908,10 @@
     },
     {
       "path": "scripts/package_site.py",
-      "bytes": 12278,
-      "sha256": "7ad896bf2fa0e4187bb84f737ed78162d9bf16fddc25c1f8fb97ed3a5802265b",
-      "gitBlobSha": "5dca9172c48d2c0b34ae0f9088783958fe37ae82",
-      "mtimeNs": 1794139506128691845
+      "bytes": 12419,
+      "sha256": "dd9f9261c0cc57531de3ff1c6989e5dfd5cadc52a045c995b1d23135d71510b4",
+      "gitBlobSha": "293928d6da6f1ead136c6b9eaee251e03da26575",
+      "mtimeNs": 1794211583470735813
     },
     {
       "path": "scripts/popsy_home.py",
@@ -40356,5 +40363,14 @@
       "sha256": "d304705ba09c67855ff46da8286bfda07c3794638e898f23aaf28735f6a9e741"
     }
   ],
-  "updatedAt": "2026-11-09T11:05:51+03:00"
+  "updatedAt": "2026-11-09T11:10:25+03:00",
+  "historicalLocalFilesRetained": [
+    {
+      "path": "output/hosting/pending-publish.json",
+      "bytes": 1232,
+      "sha256": "aa1179237fde7ba78e4780d8cb86edae4c55d293b6c0c35041f2fd19bcad410d",
+      "gitBlobSha": "1a600d5e185fc68f80ab6ea244a08cff6c8dd161",
+      "mtimeNs": 1794211535698574318
+    }
+  ]
 }
