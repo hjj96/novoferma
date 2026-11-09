@@ -1,0 +1,129 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "borderLeft": "0px",
+      "borderTop": "0px",
+      "documentWidth": 320,
+      "headings": [
+        {
+          "alignment": "left",
+          "blockCenterOffset": -0.00390625,
+          "firstLeft": 61.1171875,
+          "height": 79.90625,
+          "lineHeight": "39.96px",
+          "secondLeft": 61.1171875,
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ."
+        },
+        {
+          "alignment": "left",
+          "blockCenterOffset": -0.00390625,
+          "firstLeft": 36.234375,
+          "height": 79.90625,
+          "lineHeight": "39.96px",
+          "secondLeft": 36.234375,
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ."
+        }
+      ],
+      "section": {
+        "height": 628,
+        "y": 474
+      },
+      "specsRemoved": true,
+      "width": 320
+    },
+    {
+      "borderLeft": "0px",
+      "borderTop": "0px",
+      "documentWidth": 390,
+      "headings": [
+        {
+          "alignment": "left",
+          "blockCenterOffset": 0,
+          "firstLeft": 82.4375,
+          "height": 90.96875,
+          "lineHeight": "45.4896px",
+          "secondLeft": 82.4375,
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ."
+        },
+        {
+          "alignment": "left",
+          "blockCenterOffset": -0.00390625,
+          "firstLeft": 54.109375,
+          "height": 90.96875,
+          "lineHeight": "45.4896px",
+          "secondLeft": 54.109375,
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ."
+        }
+      ],
+      "section": {
+        "height": 650,
+        "y": 498
+      },
+      "specsRemoved": true,
+      "width": 390
+    },
+    {
+      "borderLeft": "0px",
+      "borderTop": "0px",
+      "documentWidth": 700,
+      "headings": [
+        {
+          "alignment": "left",
+          "blockCenterOffset": -0.00390625,
+          "firstLeft": 89.4453125,
+          "height": 80.546875,
+          "lineHeight": "40.28px",
+          "secondLeft": 89.4453125,
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ."
+        },
+        {
+          "alignment": "left",
+          "blockCenterOffset": -0.00390625,
+          "firstLeft": 381.890625,
+          "height": 80.546875,
+          "lineHeight": "40.28px",
+          "secondLeft": 381.890625,
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ."
+        }
+      ],
+      "section": {
+        "height": 348,
+        "y": 616
+      },
+      "specsRemoved": true,
+      "width": 700
+    },
+    {
+      "borderLeft": "0px",
+      "borderTop": "0px",
+      "documentWidth": 1440,
+      "headings": [
+        {
+          "alignment": "left",
+          "blockCenterOffset": 0,
+          "firstLeft": 238.328125,
+          "height": 125.078125,
+          "lineHeight": "62.54px",
+          "secondLeft": 238.328125,
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ."
+        },
+        {
+          "alignment": "left",
+          "blockCenterOffset": -0.00390625,
+          "firstLeft": 846.6484375,
+          "height": 125.078125,
+          "lineHeight": "62.54px",
+          "secondLeft": 846.6484375,
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ."
+        }
+      ],
+      "section": {
+        "height": 404,
+        "y": 738
+      },
+      "specsRemoved": true,
+      "width": 1440
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Use case: illustration-story / ads-marketing.
+Asset type: ONE compact premium painted brand lockup on a GENUINELY TRANSPARENT background, PNG with true alpha. Wide horizontal composition, approximately 2.3:1 aspect ratio, ideally 2304 x 1008. This asset will be placed over a dark forest-green brochure page; do NOT paint that dark green background.
+Reference image 1: use ONLY the beautiful irregular dry-brush edge and painterly swoosh texture as stylistic reference.
+Reference image 2: use ONLY the native cream/orange/brown palette and charming ink-drawn chicken / screenprint style as visual identity reference. Do NOT include packaging, text, food or the package layout.
+
+Create TWO neighbouring broad low painted medallions as one energetic coherent illustrative lockup. They must feel like expressive real brush strokes and ink illustrations, NOT UI cards, NOT buttons, NOT a flowchart, NOT neat geometric panels. Equal visual scale and similar height. Leave a small fully transparent gap between them, approximately 9% of the overall width, so a native plus sign can be added later by us. No plus sign rendered in the image.
+
+LEFT ELEMENT:
+A broad warm cream #FFF5E3 hand-painted brush stroke with refined rough dry-brush edges and a substantial dense centre. It should be wider than tall. In its UPPER HALF, a compact expressive dark-brown #402111 or very dark forest-green ink-drawn chicken head/profile with a short hint of wing or feather, clearly poultry. Familiar friendly chicken character language, graceful ink contour and a little screenprint hatching, but simplified into a strong editorial symbol. Do not draw a whole chicken body.
+The LOWER HALF of this cream brush remains dense, clean and mostly empty for a short live dark-green label to be placed there later. No lettering generated.
+
+RIGHT ELEMENT:
+A matching broad warm vivid orange #EC5812 painterly brush stroke with lively irregular dry-brush edges and a substantial dense centre. In its UPPER HALF, an expressive warm-cream hand-drawn LEAF silhouette with elegant fibrous vein lines, a generic symbol of dietary fibre. It is NOT wheat, oats or a specific crop, not food. Ink/screenprint line work should match the left bird. Its LOWER HALF is dense orange and mostly empty for a short live cream label added later. No lettering generated.
+
+Overall art direction:
+Compact, sophisticated, warm, tactile brush paint plus fine bold ink drawing, heritage food-brand character, energetic but controlled. Both strokes belong to the same hand-painted family, with subtle opposing angle or organic contour, balanced as a pair. Native cream / orange / dark-brown brand palette only; all marks, icons and paint are TWO-DIMENSIONAL, with no shadow, no 3D, no glossy effects and no fake paper rectangle underneath. No circular badge outlines or borders. No extra separate decorative objects.
+Keep safe transparent margins around the entire pair, all brush edges visible. Actual alpha transparency both around the outside AND in the gap between the two elements.
+
+ABSOLUTE EXCLUSIONS: NO letters, NO text, NO numerals, NO plus sign, NO arrows, NO infographic skeleton, NO UI cards, NO rounded buttons, NO packaging, NO meatballs, NO edible ingredients, NO photographic objects, NO shadows, NO surrounding solid-colour background, NO watermark.

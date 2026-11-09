@@ -1,0 +1,5 @@
+Use case: background-extraction
+Edit target: the supplied transparent chicken pops cutout.
+Primary request: Clean ONLY the alpha mask and tiny edge artifacts. Remove all stray isolated red and yellow speckles outside the actual golden chicken nugget contours. Remove saturated red/yellow fringing around the nugget edges. Make every pixel outside actual chicken pieces fully transparent.
+Invariants: Keep the actual photographed chicken pops exactly unchanged — same count, shape, position, size, framing, golden crispy crumb textures, highlights, pale minced chicken interior, and overall layout. Do not restyle, recompose, repaint, add, remove, or resize the chicken bites. This is solely careful professional cutout edge cleanup.
+Background: genuine alpha transparency, absolutely no solid black/white/checkerboard background. Clean smooth antialiased edges with no colored halo and no isolated pixels outside subjects.

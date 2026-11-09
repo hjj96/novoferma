@@ -1,0 +1,260 @@
+[
+  {
+    "art": {
+      "bottom": 584.3671875,
+      "height": 292,
+      "left": 14,
+      "right": 306,
+      "top": 292.3671875,
+      "width": 292
+    },
+    "brushMarkup": "<p class=\"product-scene-subtitle\">Белок <span class=\"hero-plus\">+</span> клетчатка</p>",
+    "cta": {
+      "bottom": 656.3671875,
+      "height": 52,
+      "left": 20,
+      "right": 300,
+      "top": 604.3671875,
+      "width": 280
+    },
+    "height": 740,
+    "image": {
+      "complete": true,
+      "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v4/fibriki-v5.webp?v=c988304173",
+      "width": 960
+    },
+    "overflow": false,
+    "stage": {
+      "bottom": 684.3671875,
+      "height": 612.3671875,
+      "left": 0,
+      "right": 320,
+      "top": 72,
+      "width": 320
+    },
+    "text": {
+      "bottom": 285.6484375,
+      "height": 213.6484375,
+      "left": 0,
+      "right": 320,
+      "top": 72,
+      "width": 320
+    },
+    "width": 320
+  },
+  {
+    "art": {
+      "bottom": 614.2421875,
+      "height": 322,
+      "left": 35.09375,
+      "right": 357.09375,
+      "top": 292.2421875,
+      "width": 322
+    },
+    "brushMarkup": "<p class=\"product-scene-subtitle\">Белок <span class=\"hero-plus\">+</span> клетчатка</p>",
+    "cta": {
+      "bottom": 686.2421875,
+      "height": 52,
+      "left": 24,
+      "right": 368.1875,
+      "top": 634.2421875,
+      "width": 344.1875
+    },
+    "height": 844,
+    "image": {
+      "complete": true,
+      "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v4/fibriki-v5.webp?v=c988304173",
+      "width": 960
+    },
+    "overflow": false,
+    "stage": {
+      "bottom": 714.2421875,
+      "height": 638.2421875,
+      "left": 0,
+      "right": 390,
+      "top": 76,
+      "width": 390
+    },
+    "text": {
+      "bottom": 287.578125,
+      "height": 211.578125,
+      "left": 0,
+      "right": 392.1875,
+      "top": 76,
+      "width": 392.1875
+    },
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 743.8828125,
+      "height": 382,
+      "left": 158.5,
+      "right": 540.5,
+      "top": 361.8828125,
+      "width": 382
+    },
+    "brushMarkup": "<p class=\"product-scene-subtitle\">Белок <span class=\"hero-plus\">+</span> клетчатка</p>",
+    "cta": {
+      "bottom": 815.8828125,
+      "height": 52,
+      "left": 169.5,
+      "right": 529.5,
+      "top": 763.8828125,
+      "width": 360
+    },
+    "height": 1000,
+    "image": {
+      "complete": true,
+      "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/mobile-v4/fibriki-v5.webp?v=c988304173",
+      "width": 960
+    },
+    "overflow": false,
+    "stage": {
+      "bottom": 843.8828125,
+      "height": 767.8828125,
+      "left": 0,
+      "right": 699,
+      "top": 76,
+      "width": 699
+    },
+    "text": {
+      "bottom": 355.59375,
+      "height": 279.59375,
+      "left": 0,
+      "right": 699,
+      "top": 76,
+      "width": 699
+    },
+    "width": 699
+  },
+  {
+    "art": {
+      "bottom": 480.765625,
+      "height": 303.5390625,
+      "left": 329,
+      "right": 680,
+      "top": 177.2265625,
+      "width": 351
+    },
+    "brushMarkup": "<p class=\"product-scene-subtitle\">Белок <span class=\"hero-plus\">+</span> клетчатка</p>",
+    "cta": {
+      "bottom": 476.90625,
+      "height": 52,
+      "left": 32,
+      "right": 263.7734375,
+      "top": 424.90625,
+      "width": 231.7734375
+    },
+    "height": 800,
+    "image": {
+      "complete": true,
+      "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67",
+      "width": 1672
+    },
+    "overflow": false,
+    "stage": {
+      "bottom": 596,
+      "height": 520,
+      "left": 0,
+      "right": 700,
+      "top": 76,
+      "width": 700
+    },
+    "text": {
+      "bottom": 400.90625,
+      "height": 223.8125,
+      "left": 32,
+      "right": 329,
+      "top": 177.09375,
+      "width": 297
+    },
+    "width": 700
+  },
+  {
+    "art": {
+      "bottom": 712.9921875,
+      "height": 569.9921875,
+      "left": 716.84375,
+      "right": 1375.9453125,
+      "top": 143,
+      "width": 659.1015625
+    },
+    "brushMarkup": "<p class=\"product-scene-subtitle\">Белок <span class=\"hero-plus\">+</span> клетчатка</p>",
+    "cta": {
+      "bottom": 630.328125,
+      "height": 56,
+      "left": 69.1171875,
+      "right": 353.3515625,
+      "top": 574.328125,
+      "width": 284.234375
+    },
+    "height": 900,
+    "image": {
+      "complete": true,
+      "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67",
+      "width": 1672
+    },
+    "overflow": false,
+    "stage": {
+      "bottom": 788,
+      "height": 700,
+      "left": 0,
+      "right": 1440,
+      "top": 88,
+      "width": 1440
+    },
+    "text": {
+      "bottom": 546.328125,
+      "height": 326.6640625,
+      "left": 69.1171875,
+      "right": 676.796875,
+      "top": 219.6640625,
+      "width": 607.6796875
+    },
+    "width": 1440
+  },
+  {
+    "art": {
+      "bottom": 374.296875,
+      "height": 288.59375,
+      "left": 449.9140625,
+      "right": 783.625,
+      "top": 85.703125,
+      "width": 333.7109375
+    },
+    "brushMarkup": "<p class=\"product-scene-subtitle\">Белок <span class=\"hero-plus\">+</span> клетчатка</p>",
+    "cta": {
+      "bottom": 355.8671875,
+      "height": 44,
+      "left": 24,
+      "right": 255.7734375,
+      "top": 311.8671875,
+      "width": 231.7734375
+    },
+    "height": 390,
+    "image": {
+      "complete": true,
+      "source": "http://127.0.0.1:8766/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67",
+      "width": 1672
+    },
+    "overflow": false,
+    "stage": {
+      "bottom": 404,
+      "height": 340,
+      "left": 0,
+      "right": 844,
+      "top": 64,
+      "width": 844
+    },
+    "text": {
+      "bottom": 295.8671875,
+      "height": 187.7421875,
+      "left": 24,
+      "right": 401.5546875,
+      "top": 108.125,
+      "width": 377.5546875
+    },
+    "width": 844
+  }
+]

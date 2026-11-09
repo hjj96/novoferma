@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Новоферма — проверка типографики</title>
+  <style>
+    @font-face{font-family:Onest;src:url('assets/fonts/Onest-wght.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap}
+    @font-face{font-family:'Golos Text';src:url('assets/fonts/GolosText-wght.woff2') format('woff2');font-weight:400 900;font-style:normal;font-display:swap}
+    @font-face{font-family:Caveat;src:url('assets/fonts/Caveat-wght.woff2') format('woff2');font-weight:400 700;font-style:normal;font-display:swap}
+    @font-face{font-family:'Marck Script';src:url('assets/fonts/MarckScript-Regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+    @font-face{font-family:'Bad Script';src:url('assets/fonts/BadScript-Regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+    :root{font-family:Onest,Arial,sans-serif;color:#402111;background:#fff5e3;font-synthesis:none}*{box-sizing:border-box}body{margin:0}main{max-width:1440px;margin:auto;padding:44px}h1,h2,h3,p{margin:0}h1{font-weight:800;font-size:32px;letter-spacing:-.045em;margin-bottom:14px}p{line-height:1.55}h2{font-size:15px;letter-spacing:.02em;font-weight:600;margin:32px 0 16px}.intro{max-width:840px;font-size:16px;color:#765441}.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.hero-sample{background:#ed580c;color:#fff5e3;padding:28px;min-width:0}.label{font:500 11px/1.4 Onest,sans-serif;text-transform:uppercase;letter-spacing:.14em;margin-bottom:22px;display:block}.headline{font-size:clamp(40px,5vw,78px);font-weight:900;letter-spacing:-.055em;line-height:.97}.golos{font-family:'Golos Text',sans-serif}.hand-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.hand-card{padding:28px;background:#f3e5cd;border:1px solid #d9c9ad;min-width:0}.hand{font-size:42px;line-height:1;letter-spacing:0;transform:rotate(-5deg);transform-origin:center;display:inline-block;padding-block:10px}.caveat{font-family:Caveat,cursive;font-weight:500}.marck{font-family:'Marck Script',cursive;font-weight:400}.bad{font-family:'Bad Script',cursive;font-weight:400;font-size:33px;line-height:1.22}.candidate-notes{font:13px/1.5 Onest,sans-serif;color:#765441;margin-top:25px}.system{margin-top:44px;border-top:1px solid #d7c5ad;padding-top:28px}.system h2{margin-top:0}.system-title{font-size:clamp(40px,6vw,78px);font-weight:900;line-height:1;letter-spacing:-.05em;max-width:900px}.system-line{display:flex;gap:32px;align-items:center;justify-content:space-between;margin-top:30px;border-bottom:1px solid #d7c5ad;padding-bottom:28px}.system-line strong{font-size:clamp(24px,3.3vw,48px);font-weight:900;letter-spacing:-.045em;line-height:1.06}.system-line .hand{font-size:38px;white-space:nowrap}.body-copy{max-width:690px;font-size:17px;line-height:1.6;margin-top:32px}.glyphs{font-size:20px;overflow-wrap:anywhere;line-height:1.6;margin-top:24px}.glyphs span{display:block;margin-top:14px}.glyphs .caveat{font-size:30px}.button{display:inline-flex;padding:16px 24px;background:#402111;color:#fff5e3;border-radius:50px;font-size:14px;font-weight:650;line-height:1.2;margin-top:24px}.note{font-size:12px;color:#765441;margin-top:25px}.mobile-example{display:none}@media(max-width:700px){main{padding:24px 20px}.pair,.hand-grid{grid-template-columns:1fr}.hero-sample,.hand-card{padding:24px}.headline{font-size:clamp(43px,10vw,66px)}h1{font-size:26px}.hand{font-size:40px}.bad{font-size:32px}.system-line{align-items:flex-start;flex-direction:column;gap:24px}.system-line .hand{font-size:35px}.system-title{font-size:43px}.glyphs{font-size:17px}.body-copy{font-size:16px}}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Новоферма. Шрифт — часть характера.</h1>
+  <p class="intro">Два гротеска и три рукописных кандидата с настоящей кириллицей. Проверка на фразах из исходного PDF: ширина букв, плотность заголовка, ритм и естественность рукописной строки.</p>
+  <h2>01 / Плотный заголовок на оранжевом</h2>
+  <div class="pair">
+    <section class="hero-sample"><span class="label">Onest · 900 · −0.055 em</span><p class="headline">Есть повод<br>собраться.</p></section>
+    <section class="hero-sample golos"><span class="label">Golos Text · 900 · −0.055 em</span><p class="headline">Есть повод<br>собраться.</p></section>
+  </div>
+  <h2>02 / Живая подпись из PDF</h2>
+  <div class="hand-grid">
+    <section class="hand-card"><span class="label">Caveat · 500 · 42 px</span><p class="hand caveat">Больше,<br>чем просто еда</p><p class="candidate-notes">Живой, чуть неровный ритм и короткие соединения. Основной кандидат для акцентов.</p></section>
+    <section class="hand-card"><span class="label">Marck Script · 400 · 42 px</span><p class="hand marck">Больше,<br>чем просто еда</p><p class="candidate-notes">Мягкая связная каллиграфия. Выглядит заметно декоративнее исходного PDF.</p></section>
+    <section class="hand-card"><span class="label">Bad Script · 400 · 33 px</span><p class="hand bad">Больше,<br>чем просто еда</p><p class="candidate-notes">Узкий высокий почерк. Чуть тоньше и школьнее, требует больше межстрочного пространства.</p></section>
+  </div>
+  <section class="system">
+    <h2>03 / Рекомендуемая система: Onest + Caveat</h2>
+    <p class="system-title">У каждого —<br>свой вкус.</p>
+    <div class="system-line"><strong>Для ужина. Для кино. Для своих.</strong><span class="hand caveat">Больше,<br>чем просто еда ♡</span></div>
+    <p class="body-copy">Замороженные полуфабрикаты из курицы и индейки. Фрикадельки, наггетсы и другие любимые блюда — для ваших повседневных историй. Перед подачей приготовьте продукт по инструкции на упаковке.</p>
+    <span class="button">Смотреть продукты →</span>
+    <div class="glyphs"><span>Съешь ещё этих мягких французских булок, да выпей чаю. 1234567890 · 400 г · 500 ₽</span><span class="caveat">Съешь ещё этих мягких французских булок, да выпей чаю.</span><span>АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ<br>абвгдеёжзийклмнопрстуфхцчшщъыьэюя «кавычки» — тире</span></div>
+    <p class="note">Локальные файлы. Лицензии SIL Open Font License 1.1 лежат рядом со шрифтами. Наклон создаётся только поворотом короткой подписи, без искусственного font-style: italic.</p>
+  </section>
+</main>
+</body>
+</html>

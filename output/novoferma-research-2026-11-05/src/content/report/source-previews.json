@@ -1,0 +1,44 @@
+{
+  "https://www.birdseye.co.uk/range/chicken/38-crispy-chicken-dippers": {
+    "title": "Birds Eye Crispy Chicken Dippers",
+    "summary": "Официальный состав указывает 50% куриной грудки и отдельный режим приготовления в аэрогриле. Фраза 100% chicken breast относится к виду мяса, а не к доле в готовом продукте.",
+    "source": "Birds Eye",
+    "date": "2026-11-05",
+    "approvedForReport": true
+  },
+  "https://justbare.com/product/lightly-breaded-chicken-breast-bites/": {
+    "title": "Just Bare Chicken Breast Bites",
+    "summary": "Полностью приготовленные замороженные кусочки грудки с тонкой панировкой. В составе указаны рисовый крахмал, мука, молоко и яичный белок. Процент курицы не раскрыт.",
+    "source": "Just Bare",
+    "date": "2026-11-05",
+    "approvedForReport": true
+  },
+  "https://www.tyson.com/products/unbreaded/00023700061768": {
+    "title": "Tyson High Protein Spicy Nuggets",
+    "summary": "Формованные полностью приготовленные наггетсы без панировки: курица, моцарелла и пармезан. На порцию 90 г указано 23 г белка и 18 г жира.",
+    "source": "Tyson",
+    "date": "2026-11-05",
+    "approvedForReport": true
+  },
+  "https://www.kappersfoods.com/en/product/karaage-pure-poultry/": {
+    "title": "Pure Poultry Karaage",
+    "summary": "Официальная карточка раскрывает 60% мяса ножки, японское покрытие с соевым соусом, имбирем и чесноком и фасовку 1 кг.",
+    "source": "KappersFoods",
+    "date": "2026-11-05",
+    "approvedForReport": true
+  },
+  "https://www.tysonfoods.com/news/news-releases/2025/9/tyson-foods-launches-tysonr-chicken-cups-convenient-and-portable-30g": {
+    "title": "Запуск Tyson Chicken Cups",
+    "summary": "Пресс-релиз от 22 сентября 2025 года подтверждает запуск порционных замороженных стаканов с минимум 30 г белка на порцию и разогревом в СВЧ за 90 секунд–2 минуты.",
+    "source": "Tyson Foods",
+    "date": "2025-09-22",
+    "approvedForReport": true
+  },
+  "https://www.tyson.com/products/bites-snacking/00023700060853": {
+    "title": "Tyson Korean BBQ Chicken Bites",
+    "summary": "Полностью приготовленные кусочки белого куриного мяса с соусом Korean BBQ. На порцию 84 г указано 16 г белка.",
+    "source": "Tyson",
+    "date": "2026-11-05",
+    "approvedForReport": true
+  }
+}

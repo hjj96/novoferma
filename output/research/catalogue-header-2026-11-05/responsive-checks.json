@@ -1,0 +1,191 @@
+[
+  {
+    "breadcrumb": false,
+    "cards": 16,
+    "controls": [
+      {
+        "height": 52,
+        "id": "catalogue-category",
+        "width": 285.3359375,
+        "withinViewport": true
+      },
+      {
+        "height": 52,
+        "id": "catalogue-meat",
+        "width": 285.3359375,
+        "withinViewport": true
+      }
+    ],
+    "count": "В каталоге: 16",
+    "firstTitleTop": 737.9140625,
+    "fullWidth": true,
+    "headerHeight": 241.9140625,
+    "heading": "КАТАЛОГ",
+    "headingOverflow": false,
+    "mascot": false,
+    "overflow": false,
+    "width": 1440
+  },
+  {
+    "breadcrumb": false,
+    "cards": 16,
+    "controls": [
+      {
+        "height": 52,
+        "id": "catalogue-category",
+        "width": 258.6640625,
+        "withinViewport": true
+      },
+      {
+        "height": 52,
+        "id": "catalogue-meat",
+        "width": 258.671875,
+        "withinViewport": true
+      }
+    ],
+    "count": "В каталоге: 16",
+    "firstTitleTop": 699.46875,
+    "fullWidth": true,
+    "headerHeight": 231.46875,
+    "heading": "КАТАЛОГ",
+    "headingOverflow": false,
+    "mascot": false,
+    "overflow": false,
+    "width": 1280
+  },
+  {
+    "breadcrumb": false,
+    "cards": 16,
+    "controls": [
+      {
+        "height": 52,
+        "id": "catalogue-category",
+        "width": 472,
+        "withinViewport": true
+      },
+      {
+        "height": 52,
+        "id": "catalogue-meat",
+        "width": 472,
+        "withinViewport": true
+      }
+    ],
+    "count": "В каталоге: 16",
+    "firstTitleTop": 819.1328125,
+    "fullWidth": true,
+    "headerHeight": 335.6328125,
+    "heading": "КАТАЛОГ",
+    "headingOverflow": false,
+    "mascot": false,
+    "overflow": false,
+    "width": 1024
+  },
+  {
+    "breadcrumb": false,
+    "cards": 16,
+    "controls": [
+      {
+        "height": 52,
+        "id": "catalogue-category",
+        "width": 410,
+        "withinViewport": true
+      },
+      {
+        "height": 52,
+        "id": "catalogue-meat",
+        "width": 410,
+        "withinViewport": true
+      }
+    ],
+    "count": "В каталоге: 16",
+    "firstTitleTop": 777.796875,
+    "fullWidth": true,
+    "headerHeight": 335.6328125,
+    "heading": "КАТАЛОГ",
+    "headingOverflow": false,
+    "mascot": false,
+    "overflow": false,
+    "width": 900
+  },
+  {
+    "breadcrumb": false,
+    "cards": 16,
+    "controls": [
+      {
+        "height": 52,
+        "id": "catalogue-category",
+        "width": 344,
+        "withinViewport": true
+      },
+      {
+        "height": 52,
+        "id": "catalogue-meat",
+        "width": 344,
+        "withinViewport": true
+      }
+    ],
+    "count": "В каталоге: 16",
+    "firstTitleTop": 733.796875,
+    "fullWidth": true,
+    "headerHeight": 335.6328125,
+    "heading": "КАТАЛОГ",
+    "headingOverflow": false,
+    "mascot": false,
+    "overflow": false,
+    "width": 768
+  },
+  {
+    "breadcrumb": false,
+    "cards": 16,
+    "controls": [
+      {
+        "height": 52,
+        "id": "catalogue-category",
+        "width": 350,
+        "withinViewport": true
+      },
+      {
+        "height": 52,
+        "id": "catalogue-meat",
+        "width": 350,
+        "withinViewport": true
+      }
+    ],
+    "count": "В каталоге: 16",
+    "firstTitleTop": 703.0859375,
+    "fullWidth": true,
+    "headerHeight": 376.0859375,
+    "heading": "КАТАЛОГ",
+    "headingOverflow": false,
+    "mascot": false,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "breadcrumb": false,
+    "cards": 16,
+    "controls": [
+      {
+        "height": 52,
+        "id": "catalogue-category",
+        "width": 288,
+        "withinViewport": true
+      },
+      {
+        "height": 52,
+        "id": "catalogue-meat",
+        "width": 288,
+        "withinViewport": true
+      }
+    ],
+    "count": "В каталоге: 16",
+    "firstTitleTop": 664.84375,
+    "fullWidth": true,
+    "headerHeight": 371.34375,
+    "heading": "КАТАЛОГ",
+    "headingOverflow": false,
+    "mascot": false,
+    "overflow": false,
+    "width": 320
+  }
+]

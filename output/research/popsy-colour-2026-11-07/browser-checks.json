@@ -1,0 +1,62 @@
+{
+  "result": "pass",
+  "checks": [
+    {
+      "page": "home",
+      "width": 1440,
+      "scroll": 1440,
+      "featured": [
+        "popsy",
+        "naggetsy-kurinye",
+        "stripsy",
+        "frikadelki-klassicheskie"
+      ],
+      "pops": [
+        {
+          "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "page": "popsy",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "Попсы",
+      "pack": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-800-q94-36e1736c.webp",
+      "rock": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/illustrations/popsy-rock-v3-800-q90-955f3f14.webp",
+      "lifestyle": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/illustrations/popsy-lifestyle-v4-800-q90-ea690375.webp",
+      "broken": [],
+      "buy": true
+    },
+    {
+      "page": "home",
+      "width": 390,
+      "scroll": 390,
+      "featured": [
+        "popsy",
+        "naggetsy-kurinye",
+        "stripsy",
+        "frikadelki-klassicheskie"
+      ],
+      "pops": [
+        {
+          "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "page": "popsy",
+      "width": 390,
+      "scroll": 390,
+      "h1": "Попсы",
+      "pack": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp",
+      "rock": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/illustrations/popsy-rock-v3-400-q90-955f3f14.webp",
+      "lifestyle": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/illustrations/popsy-lifestyle-v4-400-q90-ea690375.webp",
+      "broken": [],
+      "buy": true
+    }
+  ],
+  "errors": []
+}

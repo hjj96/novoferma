@@ -1,0 +1,84 @@
+{
+  "meatball-cluster": {
+    "stats": [
+      {
+        "label": "before",
+        "size": [
+          740,
+          610
+        ],
+        "transparent": 236864,
+        "opaque": 159397,
+        "translucent": 55139,
+        "bbox": [
+          26,
+          30,
+          714,
+          568
+        ],
+        "alpha_row_below_product": 135193
+      },
+      {
+        "label": "after",
+        "size": [
+          740,
+          610
+        ],
+        "transparent": 287988,
+        "opaque": 158361,
+        "translucent": 5051,
+        "bbox": [
+          66,
+          31,
+          556,
+          520
+        ],
+        "alpha_row_below_product": 0
+      }
+    ],
+    "bytes": 302810,
+    "interior_rgb_unchanged": true,
+    "interior_rgb_pixels": 158361
+  },
+  "meatball-float": {
+    "stats": [
+      {
+        "label": "before",
+        "size": [
+          360,
+          360
+        ],
+        "transparent": 71821,
+        "opaque": 54988,
+        "translucent": 2791,
+        "bbox": [
+          39,
+          42,
+          322,
+          306
+        ],
+        "alpha_row_below_product": null
+      },
+      {
+        "label": "after",
+        "size": [
+          360,
+          360
+        ],
+        "transparent": 72254,
+        "opaque": 54704,
+        "translucent": 2642,
+        "bbox": [
+          40,
+          42,
+          322,
+          306
+        ],
+        "alpha_row_below_product": null
+      }
+    ],
+    "bytes": 117144,
+    "interior_rgb_unchanged": true,
+    "interior_rgb_pixels": 54655
+  }
+}

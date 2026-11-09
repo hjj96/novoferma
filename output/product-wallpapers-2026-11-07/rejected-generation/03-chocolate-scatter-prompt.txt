@@ -1,0 +1,45 @@
+Built-in image_gen generation; no CLI/API fallback.
+
+Attempt 1 prompt:
+Use case: product-mockup. Asset type: premium Novoferma brand product wallpaper / poster, one clean finished photographic visual, landscape 16:9, 3840x2160 requested.
+
+Input images: all three supplied files are SOURCE PACKAGING REFERENCE SHEETS ONLY, not the intended composition. Image 1 contains 7 distinct source SKU designs, Image 2 another 7, Image 3 three novelty designs. Use the actual printed package artwork and tray geometry from these references as immutable textures. Ignore the neutral sheet background, labels, numbers and reference layout.
+
+Scene/backdrop: a seamless very dark rich CHOCOLATE BROWN matte studio floor, warm cocoa hue from the package lettering, no horizon or environment. All-over living canvas of original Novoferma packaged foods, art-directed as a premium editorial advertising photograph.
+
+Subject: 22 to 26 authentic LOW WIDE TRANSPARENT FOOD TRAYS wearing their cream printed cardboard sleeves. All seventeen distinct designs from the three references must appear at least once, with a few tasteful repeats partly cut at the canvas edges. These are low rectangular trays, about 1/5 as deep as wide, not tall cartons. The whole paper sleeve top and the clear tray at the front remain visible.
+
+Distinct source title checklist (preserve artwork, not retype new labels):
+КОТЛЕТЫ КУРИНЫЕ; БИТОЧКИ КУРИНЫЕ С ОВОЩАМИ; ЁЖИКИ ИЗ ЦЫПЛЕНКА С РИСОМ; ПОПКОРН; НАГГЕТСЫ КУРИНЫЕ; НАГГЕТСЫ КУРИНЫЕ С СЫРОМ; ДИНОЗАВРЫ; НАГГЕТСЫ КУРИНЫЕ ОСТРЫЕ; ФИТНЕС НАГГЕТСЫ С ИНДЕЙКОЙ; СТРИПСЫ; КОТЛЕТЫ ПО-ДОМАШНЕМУ; КОТЛЕТЫ ПИКАНТНЫЕ; КОТЛЕТЫ ПО-ИТАЛЬЯНСКИ; ФРИКАДЕЛЬКИ КЛАССИЧЕСКИЕ; ФИБРИКИ; ЛЮЛЯ МИНИ; ПОПСЫ.
+
+Composition/framing: dense but beautifully balanced irregular scatter, lively graceful diagonal rotations mostly +/-35 degrees, a few turned more strongly, subtle small overlaps while preserving the distinguishing title and chicken art on every unique SKU. High oblique camera around 65 degrees above the plane: label tops large and readable, convincing tray depth and grounded contact shadows. Spread the objects across the WHOLE frame with some naturally cut off at all four edges. No rigid rows, grid, tidy catalogue layout, empty headline space or single oversized hero. A 'field' of real product packages.
+
+Lighting/mood: large warm softbox from upper left, deep editorial still-life contrast without losing packaging detail, gentle amber-edged shadows, softly lit cream cardstock against rich brown. Real tactile matte paper fibers and authentic shiny clear plastic sealed tray edges, realistic food visible inside.
+
+Invariant source preservation: same cream sleeves, original orange NOVOferma logos, exact original Cyrillic titles and typography, individual illustrated chicken mascots, each food photograph, print placement and tray proportions. Do not redesign, relabel, merge designs, replace mascots or invent claims. Reuse source printed art as unchanged surface textures.
+
+Avoid: any food outside packages, loose herbs, crumbs, props, hands, people, floating objects, tall boxes, glossy background, extra text or headline, reference sheet labels or numbering, border, frame, collage cells, contact sheet, watermark. One clean beautiful final wallpaper only.
+
+Attempt 1 sources:
+references/regular-01-07.png
+references/regular-08-14.png
+references/novelties.png
+
+Attempt 2 (selected final) prompt:
+Use case: compositing. Make a second, more dynamic layout of the first image. Image 1 is the edit target (chocolate studio wallpaper). Images 2,3,4 are source packaging identity references.
+
+Keep the rich chocolate brown matte studio surface, convincing natural product photography, same warm lighting, cream cardstock and low wide transparent trays, orange logos and source packaging designs. Keep all seventeen unique source SKU designs represented. Preserve each sleeve's real Cyrillic lettering, chicken mascot, food art and layout from the source sheets, without redesigning them.
+
+CHANGE ONLY THE ART DIRECTION / ARRANGEMENT: the first image is too regular, like aligned catalogue rows. Break up those rows into a living casually scattered field. Make each tray rotate independently on the flat floor: -45, +20, +60, -10, +35, -65 degrees, many different orientations. Mix diagonal and near-horizontal pieces organically, slightly irregular spacing and offsets. Some packs touch or overlap at corners, some lie at other angles, several intentionally enter or leave all four image edges. No consistent rows, columns, or parallel diagonals. This should feel like a premium lively photographed 'field of packages', an effortless varied surface pattern. Cover most of frame with around 23 trays, all equally physically sized with modest perspective variations. Camera high oblique about 65 degrees above plane, complete labels visible on most packages and clear tray depth.
+
+A single clean LANDSCAPE 16:9 product wallpaper, highest possible resolution. No text outside the original package artwork, no props, no loose food, no empty headline region, no reference labels or sheet layout, no contact sheet.
+
+Attempt 2 sources:
+03-chocolate-scatter-v1.png
+references/regular-01-07.png
+references/regular-08-14.png
+references/novelties.png
+
+Final native output: 1672x941; no enlargement or other image editing.
+Source printed artwork is recognizable but generation is not a pixel-exact reproduction. Microtype and minor details may drift; this is a creative wallpaper, not a print-label master.
+

@@ -1,0 +1,28 @@
+{
+  "pages": 8,
+  "catalogue_counts": [
+    5,
+    5,
+    5
+  ],
+  "unique_products": 15,
+  "original_jpeg_embedded_byte_identical": 14,
+  "popsy": "approved v3 runtime artwork",
+  "lifestyle_scenes": "native packages integrated in scenes; no lower thumbnails",
+  "removed": [
+    "daily percentage",
+    "footnotes",
+    "references",
+    "extra footer lines",
+    "catalogue weight lines",
+    "small folios"
+  ],
+  "text_bounds": "passed",
+  "links": [
+    "mailto:zakaz@novoferma.ru",
+    "tel:+79312135550",
+    "https://novoferma.ru/"
+  ],
+  "rendered_preview": "output/brochure-v7/presentation-preview.jpg",
+  "bytes": 11486655
+}

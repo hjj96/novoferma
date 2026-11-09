@@ -1,0 +1,23 @@
+Use case: ui-mockup / compositing.
+Create ONE polished desktop homepage hero image for Russian food brand Novoferma. Target canvas 1586 x 992, same natural landscape aspect ratio as Image 1. No browser or device frame. This is one member of an already approved four-product hero family. Keep the approved system, do not create a different design concept.
+
+INPUT IMAGES AND ROLES:
+Image 1 is the approved POPСЫ hero UI TEMPLATE. Preserve its cream background, header, type styling, spacing, two-subject product presentation, footer description and CTA row. Replace only its product-specific name, package, ready food, handwritten phrase, description and CTA copy.
+Image 2 is the EXACT ФРИКАДЕЛЬКИ «КЛАССИЧЕСКИЕ» PACKAGE reference: preserve this pack design, shape, logo, printed chef chicken illustration, type, photographic surface and clear tray. Remove its white photo background within the new composition. Do not redraw as a different SKU or brand.
+Image 3 is the COOKED MEATBALL APPEARANCE reference. Use its golden naturally browned round chicken meatball surface; change the arc/floating arrangement into one grounded calm group beside the package.
+
+UI / COMPOSITION:
+- Identical header to Image 1: orange NOVOferma wordmark top left, navigation «Продукция», «О нас», «Партнёрам», «Контакты», top-right chocolate rounded pill «Где купить» and diagonal arrow. Match placement, scales, colors and spacing.
+- Warm cream base #F9EFDC; chocolate brown #432714 text; burnt orange #cb4619 handwritten accent.
+- Enormous tightly condensed heavy uppercase chocolate headline near the top, on ONE line, exact text «ФРИКАДЕЛЬКИ». This is longer than ПОПСЫ, so naturally reduce the headline size and use condensed glyphs to fit within generous side margins. Do not stretch or clip letters, and do not force two lines.
+- A recognizable large clear-tray CLASSIC MEATBALLS package from Image 2 in lower middle-left, around x240–880, y350–855. Keep same product object scale/hierarchy as the package in Image 1. Cream sleeve, orange NOVOferma logo, dark brown ФРИКАДЕЛЬКИ / КЛАССИЧЕСКИЕ typography, printed chef hen and meatballs exactly recognizable. Natural slight pack perspective, not a flat front label.
+- A ready-to-eat cooked meatball group in lower right around x965–1475, y505–845. Four small round browned chicken meatballs, one of them cut into two in front, showing natural finely minced pale cooked chicken interior. Realistic appetizing food photography, golden uneven lightly roasted surface, fine rare tiny herbs only as in Image 3. No breadcrumb shell, rice, cheese or long fibers. Natural proportions, not gigantic compared to pack. No floating pieces or props.
+- Orange handwritten personal phrase in open right space above food, around y340–455, exact two lines: «Есть повод» / «собраться». Natural confident marker handwriting, modest underline, similar to the handwritten text in Image 1. No collision with headline or food.
+- Bottom-left small sentence at same baseline as Image 1, exact «Классические куриные фрикадельки.».
+- Bottom-right chocolate pill CTA at same size/placement as Image 1, exact «О фрикадельках» followed by a right arrow.
+- Same clean premium brand feel, quiet empty space and focused hierarchy. The large headline anchors upper part, package plus cooked food anchor the lower part.
+
+MANDATORY CONSTRAINTS:
+Only TWO physical focal subjects: package and ready product. NO separate standalone hen/rooster anywhere outside the packaging. The printed chef chicken MUST remain on the package and not be duplicated elsewhere. No extra bowls, dishes, sauce, garnish, floating ingredients, decorative geometry, badges, metrics, prices, reviews, cooking-time or new nutrition claims. Preserve original printed package details without adding new claims. No new UI or sections.
+Use only very small soft contact shadows consistent with Image 1; no strong floor, orange floor, large drop shadows, or background texture. No clipping/overlaps, no distorted logo or glyphs. Body UI clean Onest-like sans serif, headline matches template compact poster type. All Russian text must be correctly spelled and readable.
+Output ONE complete hero mockup only.

@@ -1,0 +1,5410 @@
+[
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 72,
+      "left": 0,
+      "right": 320,
+      "top": -326.5,
+      "width": 320,
+      "x": 0,
+      "y": -326.5
+    },
+    "height": 740,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 368.64805603027344,
+          "height": 292,
+          "left": 16.296110153198242,
+          "right": 308.29611015319824,
+          "top": 76.64805603027344,
+          "width": 292,
+          "x": 16.296110153198242,
+          "y": 76.64805603027344
+        },
+        "cta": {
+          "bottom": 67.9453125,
+          "height": 48,
+          "left": 20,
+          "right": 239.5390625,
+          "top": 19.9453125,
+          "width": 219.5390625,
+          "x": 20,
+          "y": 19.9453125
+        },
+        "description": {
+          "bottom": -0.0546875,
+          "height": 58.5,
+          "left": 20,
+          "right": 300,
+          "top": -58.5546875,
+          "width": 280,
+          "x": 20,
+          "y": -58.5546875
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/fibriki.webp?v=2ed054a0da",
+        "subtitle": {
+          "bottom": -83.74110412597656,
+          "height": 45.91664123535156,
+          "left": 26.027549743652344,
+          "right": 208.57271575927737,
+          "top": -129.65774536132812,
+          "width": 182.545166015625,
+          "x": 26.027549743652344,
+          "y": -129.65774536132812
+        },
+        "title": {
+          "bottom": -137.203125,
+          "height": 60.5,
+          "left": 20,
+          "right": 231.46875,
+          "top": -197.703125,
+          "width": 211.46875,
+          "x": 20,
+          "y": -197.703125
+        }
+      },
+      {
+        "art": {
+          "bottom": 367.5,
+          "height": 292,
+          "left": 14,
+          "right": 306,
+          "top": 75.5,
+          "width": 292,
+          "x": 14,
+          "y": 75.5
+        },
+        "cta": {
+          "bottom": 52.03125,
+          "height": 48,
+          "left": 20,
+          "right": 183.4453125,
+          "top": 4.03125,
+          "width": 163.4453125,
+          "x": 20,
+          "y": 4.03125
+        },
+        "description": {
+          "bottom": -15.96875,
+          "height": 58.5,
+          "left": 20,
+          "right": 300,
+          "top": -74.46875,
+          "width": 280,
+          "x": 20,
+          "y": -74.46875
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/meatballs.webp?v=05c1f78081",
+        "subtitle": {
+          "bottom": -86.5078125,
+          "height": 58.0390625,
+          "left": 20,
+          "right": 257.28125,
+          "top": -144.546875,
+          "width": 237.28125,
+          "x": 20,
+          "y": -144.546875
+        },
+        "title": {
+          "bottom": -154,
+          "height": 43,
+          "left": 20,
+          "right": 249.7265625,
+          "top": -197,
+          "width": 229.7265625,
+          "x": 20,
+          "y": -197
+        }
+      },
+      {
+        "art": {
+          "bottom": 367.5,
+          "height": 292,
+          "left": 14,
+          "right": 306,
+          "top": 75.5,
+          "width": 292,
+          "x": 14,
+          "y": 75.5
+        },
+        "cta": {
+          "bottom": 73.8671875,
+          "height": 48,
+          "left": 20,
+          "right": 158.2265625,
+          "top": 25.8671875,
+          "width": 138.2265625,
+          "x": 20,
+          "y": 25.8671875
+        },
+        "description": {
+          "bottom": 5.8671875,
+          "height": 39,
+          "left": 20,
+          "right": 300,
+          "top": -33.1328125,
+          "width": 280,
+          "x": 20,
+          "y": -33.1328125
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/nuggets.webp?v=dd1e813f91",
+        "subtitle": {
+          "bottom": -45.171875,
+          "height": 85.078125,
+          "left": 20,
+          "right": 161.8046875,
+          "top": -130.25,
+          "width": 141.8046875,
+          "x": 20,
+          "y": -130.25
+        },
+        "title": {
+          "bottom": -138,
+          "height": 60.5,
+          "left": 20,
+          "right": 237.78125,
+          "top": -198.5,
+          "width": 217.78125,
+          "x": 20,
+          "y": -198.5
+        }
+      },
+      {
+        "art": {
+          "bottom": 367.5,
+          "height": 292,
+          "left": 14,
+          "right": 306,
+          "top": 75.5,
+          "width": 292,
+          "x": 14,
+          "y": 75.5
+        },
+        "cta": {
+          "bottom": 47.625,
+          "height": 48,
+          "left": 20,
+          "right": 165.53125,
+          "top": -0.375,
+          "width": 145.53125,
+          "x": 20,
+          "y": -0.375
+        },
+        "description": {
+          "bottom": -20.375,
+          "height": 39,
+          "left": 20,
+          "right": 300,
+          "top": -59.375,
+          "width": 280,
+          "x": 20,
+          "y": -59.375
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/lulia-mini.webp?v=a200754e70",
+        "subtitle": {
+          "bottom": -71.4140625,
+          "height": 58.0390625,
+          "left": 20,
+          "right": 288.6640625,
+          "top": -129.453125,
+          "width": 268.6640625,
+          "x": 20,
+          "y": -129.453125
+        },
+        "title": {
+          "bottom": -137.203125,
+          "height": 60.5,
+          "left": 20,
+          "right": 289.125,
+          "top": -197.703125,
+          "width": 269.125,
+          "x": 20,
+          "y": -197.703125
+        }
+      }
+    ],
+    "scrollY": 326.5,
+    "stage": {
+      "bottom": 375.5,
+      "height": 630,
+      "left": 0,
+      "right": 320,
+      "top": -254.5,
+      "width": 320,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 433.5,
+          "height": 48,
+          "left": 16,
+          "right": 86.5,
+          "top": 385.5,
+          "width": 70.5,
+          "x": 16,
+          "y": 385.5
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 421.5,
+          "height": 12.5,
+          "left": 29.59375,
+          "right": 72.90625,
+          "top": 409,
+          "width": 43.3125,
+          "x": 29.59375,
+          "y": 409
+        }
+      },
+      {
+        "box": {
+          "bottom": 433.5,
+          "height": 48,
+          "left": 88.5,
+          "right": 159,
+          "top": 385.5,
+          "width": 70.5,
+          "x": 88.5,
+          "y": 385.5
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 421.5,
+          "height": 12.5,
+          "left": 91.4375,
+          "right": 156.0546875,
+          "top": 409,
+          "width": 64.6171875,
+          "x": 91.4375,
+          "y": 409
+        }
+      },
+      {
+        "box": {
+          "bottom": 433.5,
+          "height": 48,
+          "left": 161,
+          "right": 231.5,
+          "top": 385.5,
+          "width": 70.5,
+          "x": 161,
+          "y": 385.5
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 421.5,
+          "height": 12.5,
+          "left": 174.2578125,
+          "right": 218.2421875,
+          "top": 409,
+          "width": 43.984375,
+          "x": 174.2578125,
+          "y": 409
+        }
+      },
+      {
+        "box": {
+          "bottom": 433.5,
+          "height": 48,
+          "left": 233.5,
+          "right": 304,
+          "top": 385.5,
+          "width": 70.5,
+          "x": 233.5,
+          "y": 385.5
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 421.5,
+          "height": 12.5,
+          "left": 242.390625,
+          "right": 295.109375,
+          "top": 409,
+          "width": 52.71875,
+          "x": 242.390625,
+          "y": 409
+        }
+      }
+    ],
+    "width": 320
+  },
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 76,
+      "left": 0,
+      "right": 360,
+      "top": -330.5,
+      "width": 360,
+      "x": 0,
+      "y": -330.5
+    },
+    "height": 800,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 389.8494338989258,
+          "height": 322,
+          "left": 19.69886779785156,
+          "right": 341.69886779785156,
+          "top": 67.84943389892578,
+          "width": 322,
+          "x": 19.69886779785156,
+          "y": 67.84943389892578
+        },
+        "cta": {
+          "bottom": 59.53125,
+          "height": 48,
+          "left": 24,
+          "right": 265.7734375,
+          "top": 11.53125,
+          "width": 241.7734375,
+          "x": 24,
+          "y": 11.53125
+        },
+        "description": {
+          "bottom": -8.46875,
+          "height": 39,
+          "left": 24,
+          "right": 336,
+          "top": -47.46875,
+          "width": 312,
+          "x": 24,
+          "y": -47.46875
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/fibriki.webp?v=2ed054a0da",
+        "subtitle": {
+          "bottom": -72.02611541748047,
+          "height": 49.56510162353515,
+          "left": 32.952476501464844,
+          "right": 228.10631561279297,
+          "top": -121.59121704101562,
+          "width": 195.15383911132812,
+          "x": 32.952476501464844,
+          "y": -121.59121704101562
+        },
+        "title": {
+          "bottom": -126.703125,
+          "height": 72,
+          "left": 24,
+          "right": 273.65625,
+          "top": -198.703125,
+          "width": 249.65625,
+          "x": 24,
+          "y": -198.703125
+        }
+      },
+      {
+        "art": {
+          "bottom": 389.5,
+          "height": 322,
+          "left": 19,
+          "right": 341,
+          "top": 67.5,
+          "width": 322,
+          "x": 19,
+          "y": 67.5
+        },
+        "cta": {
+          "bottom": 42.2421875,
+          "height": 48,
+          "left": 24,
+          "right": 204.578125,
+          "top": -5.7578125,
+          "width": 180.578125,
+          "x": 24,
+          "y": -5.7578125
+        },
+        "description": {
+          "bottom": -25.7578125,
+          "height": 39,
+          "left": 24,
+          "right": 336,
+          "top": -64.7578125,
+          "width": 312,
+          "x": 24,
+          "y": -64.7578125
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/meatballs.webp?v=05c1f78081",
+        "subtitle": {
+          "bottom": -76.953125,
+          "height": 62.6953125,
+          "left": 24,
+          "right": 280.265625,
+          "top": -139.6484375,
+          "width": 256.265625,
+          "x": 24,
+          "y": -139.6484375
+        },
+        "title": {
+          "bottom": -147.5,
+          "height": 50,
+          "left": 24,
+          "right": 289.1875,
+          "top": -197.5,
+          "width": 265.1875,
+          "x": 24,
+          "y": -197.5
+        }
+      },
+      {
+        "art": {
+          "bottom": 389.5,
+          "height": 322,
+          "left": 19,
+          "right": 341,
+          "top": 67.5,
+          "width": 322,
+          "x": 19,
+          "y": 67.5
+        },
+        "cta": {
+          "bottom": 60.03125,
+          "height": 48,
+          "left": 24,
+          "right": 177.0625,
+          "top": 12.03125,
+          "width": 153.0625,
+          "x": 24,
+          "y": 12.03125
+        },
+        "description": {
+          "bottom": -7.96875,
+          "height": 39,
+          "left": 24,
+          "right": 336,
+          "top": -46.96875,
+          "width": 312,
+          "x": 24,
+          "y": -46.96875
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/nuggets.webp?v=dd1e813f91",
+        "subtitle": {
+          "bottom": -59.1640625,
+          "height": 62.6953125,
+          "left": 24,
+          "right": 332.828125,
+          "top": -121.859375,
+          "width": 308.828125,
+          "x": 24,
+          "y": -121.859375
+        },
+        "title": {
+          "bottom": -127.5,
+          "height": 72,
+          "left": 24,
+          "right": 281.1015625,
+          "top": -199.5,
+          "width": 257.1015625,
+          "x": 24,
+          "y": -199.5
+        }
+      },
+      {
+        "art": {
+          "bottom": 389.5,
+          "height": 322,
+          "left": 19,
+          "right": 341,
+          "top": 67.5,
+          "width": 322,
+          "x": 19,
+          "y": 67.5
+        },
+        "cta": {
+          "bottom": 60.828125,
+          "height": 48,
+          "left": 24,
+          "right": 185.03125,
+          "top": 12.828125,
+          "width": 161.03125,
+          "x": 24,
+          "y": 12.828125
+        },
+        "description": {
+          "bottom": -7.171875,
+          "height": 39,
+          "left": 24,
+          "right": 336,
+          "top": -46.171875,
+          "width": 312,
+          "x": 24,
+          "y": -46.171875
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/lulia-mini.webp?v=a200754e70",
+        "subtitle": {
+          "bottom": -58.3671875,
+          "height": 62.6953125,
+          "left": 24,
+          "right": 314.15625,
+          "top": -121.0625,
+          "width": 290.15625,
+          "x": 24,
+          "y": -121.0625
+        },
+        "title": {
+          "bottom": -126.703125,
+          "height": 72,
+          "left": 24,
+          "right": 341.7109375,
+          "top": -198.703125,
+          "width": 317.7109375,
+          "x": 24,
+          "y": -198.703125
+        }
+      }
+    ],
+    "scrollY": 330.5,
+    "stage": {
+      "bottom": 397.5,
+      "height": 652,
+      "left": 0,
+      "right": 360,
+      "top": -254.5,
+      "width": 360,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 455.5,
+          "height": 48,
+          "left": 16,
+          "right": 96.5,
+          "top": 407.5,
+          "width": 80.5,
+          "x": 16,
+          "y": 407.5
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 444.3515625,
+          "height": 14,
+          "left": 32.421875,
+          "right": 80.0703125,
+          "top": 430.3515625,
+          "width": 47.6484375,
+          "x": 32.421875,
+          "y": 430.3515625
+        }
+      },
+      {
+        "box": {
+          "bottom": 455.5,
+          "height": 48,
+          "left": 98.5,
+          "right": 179,
+          "top": 407.5,
+          "width": 80.5,
+          "x": 98.5,
+          "y": 407.5
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 444.3515625,
+          "height": 14,
+          "left": 103.2109375,
+          "right": 174.2890625,
+          "top": 430.3515625,
+          "width": 71.078125,
+          "x": 103.2109375,
+          "y": 430.3515625
+        }
+      },
+      {
+        "box": {
+          "bottom": 455.5,
+          "height": 48,
+          "left": 181,
+          "right": 261.5,
+          "top": 407.5,
+          "width": 80.5,
+          "x": 181,
+          "y": 407.5
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 444.3515625,
+          "height": 14,
+          "left": 197.0546875,
+          "right": 245.4375,
+          "top": 430.3515625,
+          "width": 48.3828125,
+          "x": 197.0546875,
+          "y": 430.3515625
+        }
+      },
+      {
+        "box": {
+          "bottom": 455.5,
+          "height": 48,
+          "left": 263.5,
+          "right": 344,
+          "top": 407.5,
+          "width": 80.5,
+          "x": 263.5,
+          "y": 407.5
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 444.3515625,
+          "height": 14,
+          "left": 274.75,
+          "right": 332.7421875,
+          "top": 430.3515625,
+          "width": 57.9921875,
+          "x": 274.75,
+          "y": 430.3515625
+        }
+      }
+    ],
+    "width": 360
+  },
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 76,
+      "left": 0,
+      "right": 390,
+      "top": -330.5,
+      "width": 390,
+      "x": 0,
+      "y": -330.5
+    },
+    "height": 844,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 389.59883880615234,
+          "height": 322,
+          "left": 34.19767761230469,
+          "right": 356.1976776123047,
+          "top": 67.59883880615234,
+          "width": 322,
+          "x": 34.19767761230469,
+          "y": 67.59883880615234
+        },
+        "cta": {
+          "bottom": 65.875,
+          "height": 48,
+          "left": 24,
+          "right": 265.7734375,
+          "top": 17.875,
+          "width": 241.7734375,
+          "x": 24,
+          "y": 17.875
+        },
+        "description": {
+          "bottom": -2.125,
+          "height": 39,
+          "left": 24,
+          "right": 343.859375,
+          "top": -41.125,
+          "width": 319.859375,
+          "x": 24,
+          "y": -41.125
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/fibriki.webp?v=2ed054a0da",
+        "subtitle": {
+          "bottom": -65.46754455566406,
+          "height": 51.01104736328125,
+          "left": 32.945045471191406,
+          "right": 236.68640899658203,
+          "top": -116.47859191894533,
+          "width": 203.74136352539065,
+          "x": 32.945045471191406,
+          "y": -116.47859191894533
+        },
+        "title": {
+          "bottom": -121.703125,
+          "height": 77.5,
+          "left": 24,
+          "right": 294.4609375,
+          "top": -199.203125,
+          "width": 270.4609375,
+          "x": 24,
+          "y": -199.203125
+        }
+      },
+      {
+        "art": {
+          "bottom": 389.5,
+          "height": 322,
+          "left": 34,
+          "right": 356,
+          "top": 67.5,
+          "width": 322,
+          "x": 34,
+          "y": 67.5
+        },
+        "cta": {
+          "bottom": 50.484375,
+          "height": 48,
+          "left": 24,
+          "right": 204.578125,
+          "top": 2.484375,
+          "width": 180.578125,
+          "x": 24,
+          "y": 2.484375
+        },
+        "description": {
+          "bottom": -17.515625,
+          "height": 39,
+          "left": 24,
+          "right": 343.859375,
+          "top": -56.515625,
+          "width": 319.859375,
+          "x": 24,
+          "y": -56.515625
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/meatballs.webp?v=05c1f78081",
+        "subtitle": {
+          "bottom": -68.6484375,
+          "height": 67.6328125,
+          "left": 24,
+          "right": 301.6171875,
+          "top": -136.28125,
+          "width": 277.6171875,
+          "x": 24,
+          "y": -136.28125
+        },
+        "title": {
+          "bottom": -144,
+          "height": 53.5,
+          "left": 24,
+          "right": 311.28125,
+          "top": -197.5,
+          "width": 287.28125,
+          "x": 24,
+          "y": -197.5
+        }
+      },
+      {
+        "art": {
+          "bottom": 391.7421875,
+          "height": 322,
+          "left": 34,
+          "right": 356,
+          "top": 69.7421875,
+          "width": 322,
+          "x": 34,
+          "y": 69.7421875
+        },
+        "cta": {
+          "bottom": 69.7421875,
+          "height": 48,
+          "left": 24,
+          "right": 177.0625,
+          "top": 21.7421875,
+          "width": 153.0625,
+          "x": 24,
+          "y": 21.7421875
+        },
+        "description": {
+          "bottom": 1.7421875,
+          "height": 39,
+          "left": 24,
+          "right": 343.859375,
+          "top": -37.2578125,
+          "width": 319.859375,
+          "x": 24,
+          "y": -37.2578125
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/nuggets.webp?v=dd1e813f91",
+        "subtitle": {
+          "bottom": -49.390625,
+          "height": 67.6328125,
+          "left": 24,
+          "right": 358.5625,
+          "top": -117.0234375,
+          "width": 334.5625,
+          "x": 24,
+          "y": -117.0234375
+        },
+        "title": {
+          "bottom": -122.5,
+          "height": 77.5,
+          "left": 24,
+          "right": 302.53125,
+          "top": -200,
+          "width": 278.53125,
+          "x": 24,
+          "y": -200
+        }
+      },
+      {
+        "art": {
+          "bottom": 392.5390625,
+          "height": 322,
+          "left": 34,
+          "right": 356,
+          "top": 70.5390625,
+          "width": 322,
+          "x": 34,
+          "y": 70.5390625
+        },
+        "cta": {
+          "bottom": 70.5390625,
+          "height": 48,
+          "left": 24,
+          "right": 185.03125,
+          "top": 22.5390625,
+          "width": 161.03125,
+          "x": 24,
+          "y": 22.5390625
+        },
+        "description": {
+          "bottom": 2.5390625,
+          "height": 39,
+          "left": 24,
+          "right": 343.859375,
+          "top": -36.4609375,
+          "width": 319.859375,
+          "x": 24,
+          "y": -36.4609375
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/lulia-mini.webp?v=a200754e70",
+        "subtitle": {
+          "bottom": -48.59375,
+          "height": 67.6328125,
+          "left": 24,
+          "right": 338.3359375,
+          "top": -116.2265625,
+          "width": 314.3359375,
+          "x": 24,
+          "y": -116.2265625
+        },
+        "title": {
+          "bottom": -121.703125,
+          "height": 77.5,
+          "left": 24,
+          "right": 368.1875,
+          "top": -199.203125,
+          "width": 344.1875,
+          "x": 24,
+          "y": -199.203125
+        }
+      }
+    ],
+    "scrollY": 330.5,
+    "stage": {
+      "bottom": 400.5390625,
+      "height": 655.0390625,
+      "left": 0,
+      "right": 390,
+      "top": -254.5,
+      "width": 390,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 458.5390625,
+          "height": 48,
+          "left": 16,
+          "right": 104,
+          "top": 410.5390625,
+          "width": 88,
+          "x": 16,
+          "y": 410.5390625
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 447.390625,
+          "height": 14,
+          "left": 36.171875,
+          "right": 83.8203125,
+          "top": 433.390625,
+          "width": 47.6484375,
+          "x": 36.171875,
+          "y": 433.390625
+        }
+      },
+      {
+        "box": {
+          "bottom": 458.5390625,
+          "height": 48,
+          "left": 106,
+          "right": 194,
+          "top": 410.5390625,
+          "width": 88,
+          "x": 106,
+          "y": 410.5390625
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 447.390625,
+          "height": 14,
+          "left": 114.4609375,
+          "right": 185.5390625,
+          "top": 433.390625,
+          "width": 71.078125,
+          "x": 114.4609375,
+          "y": 433.390625
+        }
+      },
+      {
+        "box": {
+          "bottom": 458.5390625,
+          "height": 48,
+          "left": 196,
+          "right": 284,
+          "top": 410.5390625,
+          "width": 88,
+          "x": 196,
+          "y": 410.5390625
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 447.390625,
+          "height": 14,
+          "left": 215.8046875,
+          "right": 264.1875,
+          "top": 433.390625,
+          "width": 48.3828125,
+          "x": 215.8046875,
+          "y": 433.390625
+        }
+      },
+      {
+        "box": {
+          "bottom": 458.5390625,
+          "height": 48,
+          "left": 286,
+          "right": 374,
+          "top": 410.5390625,
+          "width": 88,
+          "x": 286,
+          "y": 410.5390625
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 447.390625,
+          "height": 14,
+          "left": 301,
+          "right": 358.9921875,
+          "top": 433.390625,
+          "width": 57.9921875,
+          "x": 301,
+          "y": 433.390625
+        }
+      }
+    ],
+    "width": 390
+  },
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 76,
+      "left": 0,
+      "right": 480,
+      "top": -330.5,
+      "width": 480,
+      "x": 0,
+      "y": -330.5
+    },
+    "height": 900,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 497.5014572143554,
+          "height": 382,
+          "left": 49.0029182434082,
+          "right": 431.0029182434082,
+          "top": 115.50145721435548,
+          "width": 382,
+          "x": 49.0029182434082,
+          "y": 115.50145721435548
+        },
+        "cta": {
+          "bottom": 100.640625,
+          "height": 48,
+          "left": 32,
+          "right": 300.234375,
+          "top": 52.640625,
+          "width": 268.234375,
+          "x": 32,
+          "y": 52.640625
+        },
+        "description": {
+          "bottom": 32.640625,
+          "height": 45,
+          "left": 32,
+          "right": 431,
+          "top": -12.359375,
+          "width": 399,
+          "x": 32,
+          "y": -12.359375
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/fibriki.webp?v=2ed054a0da",
+        "subtitle": {
+          "bottom": -35.21563720703125,
+          "height": 62.93573760986328,
+          "left": 40.709354400634766,
+          "right": 291.4621925354004,
+          "top": -98.15137481689452,
+          "width": 250.7528381347656,
+          "x": 40.709354400634766,
+          "y": -98.15137481689452
+        },
+        "title": {
+          "bottom": -99.203125,
+          "height": 95.5,
+          "left": 32,
+          "right": 364.8671875,
+          "top": -194.703125,
+          "width": 332.8671875,
+          "x": 32,
+          "y": -194.703125
+        }
+      },
+      {
+        "art": {
+          "bottom": 497.5,
+          "height": 382,
+          "left": 49,
+          "right": 431,
+          "top": 115.5,
+          "width": 382,
+          "x": 49,
+          "y": 115.5
+        },
+        "cta": {
+          "bottom": 87.1640625,
+          "height": 48,
+          "left": 32,
+          "right": 228.8359375,
+          "top": 39.1640625,
+          "width": 196.8359375,
+          "x": 32,
+          "y": 39.1640625
+        },
+        "description": {
+          "bottom": 19.1640625,
+          "height": 45,
+          "left": 32,
+          "right": 431,
+          "top": -25.8359375,
+          "width": 399,
+          "x": 32,
+          "y": -25.8359375
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/meatballs.webp?v=05c1f78081",
+        "subtitle": {
+          "bottom": -37.265625,
+          "height": 83.4296875,
+          "left": 32,
+          "right": 373.6328125,
+          "top": -120.6953125,
+          "width": 341.6328125,
+          "x": 32,
+          "y": -120.6953125
+        },
+        "title": {
+          "bottom": -126.5,
+          "height": 66.5,
+          "left": 32,
+          "right": 385.578125,
+          "top": -193,
+          "width": 353.578125,
+          "x": 32,
+          "y": -193
+        }
+      },
+      {
+        "art": {
+          "bottom": 497.5,
+          "height": 382,
+          "left": 49,
+          "right": 431,
+          "top": 115.5,
+          "width": 382,
+          "x": 49,
+          "y": 115.5
+        },
+        "cta": {
+          "bottom": 110.875,
+          "height": 48,
+          "left": 32,
+          "right": 196.7421875,
+          "top": 62.875,
+          "width": 164.7421875,
+          "x": 32,
+          "y": 62.875
+        },
+        "description": {
+          "bottom": 42.875,
+          "height": 45,
+          "left": 32,
+          "right": 431,
+          "top": -2.125,
+          "width": 399,
+          "x": 32,
+          "y": -2.125
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/nuggets.webp?v=dd1e813f91",
+        "subtitle": {
+          "bottom": -13.5546875,
+          "height": 83.4296875,
+          "left": 32,
+          "right": 443.7109375,
+          "top": -96.984375,
+          "width": 411.7109375,
+          "x": 32,
+          "y": -96.984375
+        },
+        "title": {
+          "bottom": -100,
+          "height": 95.5,
+          "left": 32,
+          "right": 374.8046875,
+          "top": -195.5,
+          "width": 342.8046875,
+          "x": 32,
+          "y": -195.5
+        }
+      },
+      {
+        "art": {
+          "bottom": 497.5,
+          "height": 382,
+          "left": 49,
+          "right": 431,
+          "top": 115.5,
+          "width": 382,
+          "x": 49,
+          "y": 115.5
+        },
+        "cta": {
+          "bottom": 111.671875,
+          "height": 48,
+          "left": 32,
+          "right": 206.0390625,
+          "top": 63.671875,
+          "width": 174.0390625,
+          "x": 32,
+          "y": 63.671875
+        },
+        "description": {
+          "bottom": 43.671875,
+          "height": 45,
+          "left": 32,
+          "right": 431,
+          "top": -1.328125,
+          "width": 399,
+          "x": 32,
+          "y": -1.328125
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/lulia-mini.webp?v=a200754e70",
+        "subtitle": {
+          "bottom": -12.7578125,
+          "height": 83.4296875,
+          "left": 32,
+          "right": 418.8203125,
+          "top": -96.1875,
+          "width": 386.8203125,
+          "x": 32,
+          "y": -96.1875
+        },
+        "title": {
+          "bottom": -99.203125,
+          "height": 95.5,
+          "left": 32,
+          "right": 455.6171875,
+          "top": -194.703125,
+          "width": 423.6171875,
+          "x": 32,
+          "y": -194.703125
+        }
+      }
+    ],
+    "scrollY": 330.5,
+    "stage": {
+      "bottom": 505.5,
+      "height": 760,
+      "left": 0,
+      "right": 480,
+      "top": -254.5,
+      "width": 480,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 563.5,
+          "height": 48,
+          "left": 16,
+          "right": 126.5,
+          "top": 515.5,
+          "width": 110.5,
+          "x": 16,
+          "y": 515.5
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 552.703125,
+          "height": 15,
+          "left": 45.2578125,
+          "right": 97.234375,
+          "top": 537.703125,
+          "width": 51.9765625,
+          "x": 45.2578125,
+          "y": 537.703125
+        }
+      },
+      {
+        "box": {
+          "bottom": 563.5,
+          "height": 48,
+          "left": 128.5,
+          "right": 239,
+          "top": 515.5,
+          "width": 110.5,
+          "x": 128.5,
+          "y": 515.5
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 552.703125,
+          "height": 15,
+          "left": 144.9765625,
+          "right": 222.515625,
+          "top": 537.703125,
+          "width": 77.5390625,
+          "x": 144.9765625,
+          "y": 537.703125
+        }
+      },
+      {
+        "box": {
+          "bottom": 563.5,
+          "height": 48,
+          "left": 241,
+          "right": 351.5,
+          "top": 515.5,
+          "width": 110.5,
+          "x": 241,
+          "y": 515.5
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 552.703125,
+          "height": 15,
+          "left": 269.859375,
+          "right": 322.640625,
+          "top": 537.703125,
+          "width": 52.78125,
+          "x": 269.859375,
+          "y": 537.703125
+        }
+      },
+      {
+        "box": {
+          "bottom": 563.5,
+          "height": 48,
+          "left": 353.5,
+          "right": 464,
+          "top": 515.5,
+          "width": 110.5,
+          "x": 353.5,
+          "y": 515.5
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 552.703125,
+          "height": 15,
+          "left": 377.1171875,
+          "right": 440.3828125,
+          "top": 537.703125,
+          "width": 63.265625,
+          "x": 377.1171875,
+          "y": 537.703125
+        }
+      }
+    ],
+    "width": 480
+  },
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 76,
+      "left": 0,
+      "right": 699,
+      "top": -330.5,
+      "width": 699,
+      "x": 0,
+      "y": -330.5
+    },
+    "height": 1000,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 515.890625,
+          "height": 382,
+          "left": 158.5,
+          "right": 540.5,
+          "top": 133.890625,
+          "width": 382,
+          "x": 158.5,
+          "y": 133.890625
+        },
+        "cta": {
+          "bottom": 133.890625,
+          "height": 48,
+          "left": 32,
+          "right": 300.234375,
+          "top": 85.890625,
+          "width": 268.234375,
+          "x": 32,
+          "y": 85.890625
+        },
+        "description": {
+          "bottom": 65.890625,
+          "height": 45,
+          "left": 32,
+          "right": 431,
+          "top": 20.890625,
+          "width": 399,
+          "x": 32,
+          "y": 20.890625
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/fibriki.webp?v=2ed054a0da",
+        "subtitle": {
+          "bottom": 0.450927734375,
+          "height": 77.41007995605469,
+          "left": 40.45881652832031,
+          "right": 348.86802673339844,
+          "top": -76.95915222167969,
+          "width": 308.4092102050781,
+          "x": 40.45881652832031,
+          "y": -76.95915222167969
+        },
+        "title": {
+          "bottom": -73.203125,
+          "height": 124.5,
+          "left": 32,
+          "right": 464.40625,
+          "top": -197.703125,
+          "width": 432.40625,
+          "x": 32,
+          "y": -197.703125
+        }
+      },
+      {
+        "art": {
+          "bottom": 497.5,
+          "height": 382,
+          "left": 158.5,
+          "right": 540.5,
+          "top": 115.5,
+          "width": 382,
+          "x": 158.5,
+          "y": 115.5
+        },
+        "cta": {
+          "bottom": 113.734375,
+          "height": 48,
+          "left": 32,
+          "right": 228.8359375,
+          "top": 65.734375,
+          "width": 196.8359375,
+          "x": 32,
+          "y": 65.734375
+        },
+        "description": {
+          "bottom": 45.734375,
+          "height": 45,
+          "left": 32,
+          "right": 431,
+          "top": 0.734375,
+          "width": 399,
+          "x": 32,
+          "y": 0.734375
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/meatballs.webp?v=05c1f78081",
+        "subtitle": {
+          "bottom": -10.359375,
+          "height": 89.09375,
+          "left": 32,
+          "right": 397.046875,
+          "top": -99.453125,
+          "width": 365.046875,
+          "x": 32,
+          "y": -99.453125
+        },
+        "title": {
+          "bottom": -102.5,
+          "height": 93,
+          "left": 32,
+          "right": 525.1640625,
+          "top": -195.5,
+          "width": 493.1640625,
+          "x": 32,
+          "y": -195.5
+        }
+      },
+      {
+        "art": {
+          "bottom": 521.3828125,
+          "height": 382,
+          "left": 158.5,
+          "right": 540.5,
+          "top": 139.3828125,
+          "width": 382,
+          "x": 158.5,
+          "y": 139.3828125
+        },
+        "cta": {
+          "bottom": 139.3828125,
+          "height": 48,
+          "left": 32,
+          "right": 196.7421875,
+          "top": 91.3828125,
+          "width": 164.7421875,
+          "x": 32,
+          "y": 91.3828125
+        },
+        "description": {
+          "bottom": 71.3828125,
+          "height": 45,
+          "left": 32,
+          "right": 431,
+          "top": 26.3828125,
+          "width": 399,
+          "x": 32,
+          "y": 26.3828125
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/nuggets.webp?v=dd1e813f91",
+        "subtitle": {
+          "bottom": 15.2890625,
+          "height": 89.09375,
+          "left": 32,
+          "right": 471.921875,
+          "top": -73.8046875,
+          "width": 439.921875,
+          "x": 32,
+          "y": -73.8046875
+        },
+        "title": {
+          "bottom": -74,
+          "height": 124.5,
+          "left": 32,
+          "right": 477.3125,
+          "top": -198.5,
+          "width": 445.3125,
+          "x": 32,
+          "y": -198.5
+        }
+      },
+      {
+        "art": {
+          "bottom": 522.1796875,
+          "height": 382,
+          "left": 158.5,
+          "right": 540.5,
+          "top": 140.1796875,
+          "width": 382,
+          "x": 158.5,
+          "y": 140.1796875
+        },
+        "cta": {
+          "bottom": 140.1796875,
+          "height": 48,
+          "left": 32,
+          "right": 206.0390625,
+          "top": 92.1796875,
+          "width": 174.0390625,
+          "x": 32,
+          "y": 92.1796875
+        },
+        "description": {
+          "bottom": 72.1796875,
+          "height": 45,
+          "left": 32,
+          "right": 431,
+          "top": 27.1796875,
+          "width": 399,
+          "x": 32,
+          "y": 27.1796875
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/mobile-v1/lulia-mini.webp?v=a200754e70",
+        "subtitle": {
+          "bottom": 16.0859375,
+          "height": 89.09375,
+          "left": 32,
+          "right": 445.3203125,
+          "top": -73.0078125,
+          "width": 413.3203125,
+          "x": 32,
+          "y": -73.0078125
+        },
+        "title": {
+          "bottom": -73.203125,
+          "height": 124.5,
+          "left": 32,
+          "right": 582.2890625,
+          "top": -197.703125,
+          "width": 550.2890625,
+          "x": 32,
+          "y": -197.703125
+        }
+      }
+    ],
+    "scrollY": 330.5,
+    "stage": {
+      "bottom": 530.1796875,
+      "height": 784.6796875,
+      "left": 0,
+      "right": 699,
+      "top": -254.5,
+      "width": 699,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 588.1796875,
+          "height": 48,
+          "left": 16,
+          "right": 181.25,
+          "top": 540.1796875,
+          "width": 165.25,
+          "x": 16,
+          "y": 540.1796875
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 577.3828125,
+          "height": 15,
+          "left": 72.6328125,
+          "right": 124.609375,
+          "top": 562.3828125,
+          "width": 51.9765625,
+          "x": 72.6328125,
+          "y": 562.3828125
+        }
+      },
+      {
+        "box": {
+          "bottom": 588.1796875,
+          "height": 48,
+          "left": 183.25,
+          "right": 348.5,
+          "top": 540.1796875,
+          "width": 165.25,
+          "x": 183.25,
+          "y": 540.1796875
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 577.3828125,
+          "height": 15,
+          "left": 227.1015625,
+          "right": 304.640625,
+          "top": 562.3828125,
+          "width": 77.5390625,
+          "x": 227.1015625,
+          "y": 562.3828125
+        }
+      },
+      {
+        "box": {
+          "bottom": 588.1796875,
+          "height": 48,
+          "left": 350.5,
+          "right": 515.75,
+          "top": 540.1796875,
+          "width": 165.25,
+          "x": 350.5,
+          "y": 540.1796875
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 577.3828125,
+          "height": 15,
+          "left": 406.734375,
+          "right": 459.515625,
+          "top": 562.3828125,
+          "width": 52.78125,
+          "x": 406.734375,
+          "y": 562.3828125
+        }
+      },
+      {
+        "box": {
+          "bottom": 588.1796875,
+          "height": 48,
+          "left": 517.75,
+          "right": 683,
+          "top": 540.1796875,
+          "width": 165.25,
+          "x": 517.75,
+          "y": 540.1796875
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 577.3828125,
+          "height": 15,
+          "left": 568.7421875,
+          "right": 632.0078125,
+          "top": 562.3828125,
+          "width": 63.265625,
+          "x": 568.7421875,
+          "y": 562.3828125
+        }
+      }
+    ],
+    "width": 699
+  },
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 76,
+      "left": 0,
+      "right": 700,
+      "top": -330.5,
+      "width": 700,
+      "x": 0,
+      "y": -330.5
+    },
+    "height": 800,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 150.265625,
+          "height": 303.5390625,
+          "left": 329,
+          "right": 680,
+          "top": -153.2734375,
+          "width": 351,
+          "x": 329,
+          "y": -153.2734375
+        },
+        "cta": {
+          "bottom": 169.90625,
+          "height": 52,
+          "left": 32,
+          "right": 263.7734375,
+          "top": 117.90625,
+          "width": 231.7734375,
+          "x": 32,
+          "y": 117.90625
+        },
+        "description": {
+          "bottom": 93.90625,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 30.90625,
+          "width": 279.296875,
+          "x": 32,
+          "y": 30.90625
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67",
+        "subtitle": {
+          "bottom": 1.8464813232421875,
+          "height": 46.54639434814453,
+          "left": 41.043975830078125,
+          "right": 226.1040954589844,
+          "top": -44.699913024902344,
+          "width": 185.06011962890625,
+          "x": 41.043975830078125,
+          "y": -44.699913024902344
+        },
+        "title": {
+          "bottom": -59.40625,
+          "height": 77,
+          "left": 32,
+          "right": 300.421875,
+          "top": -136.40625,
+          "width": 268.421875,
+          "x": 32,
+          "y": -136.40625
+        }
+      },
+      {
+        "art": {
+          "bottom": 130.890625,
+          "height": 264.7890625,
+          "left": 329,
+          "right": 680,
+          "top": -133.8984375,
+          "width": 351,
+          "x": 329,
+          "y": -133.8984375
+        },
+        "cta": {
+          "bottom": 156.7890625,
+          "height": 52,
+          "left": 32,
+          "right": 202.578125,
+          "top": 104.7890625,
+          "width": 170.578125,
+          "x": 32,
+          "y": 104.7890625
+        },
+        "description": {
+          "bottom": 80.7890625,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 17.7890625,
+          "width": 279.296875,
+          "x": 32,
+          "y": 17.7890625
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/meatballs-art-v5.webp?v=2ecf36ba54",
+        "subtitle": {
+          "bottom": 2.8203125,
+          "height": 58.46875,
+          "left": 32,
+          "right": 268.3671875,
+          "top": -55.6484375,
+          "width": 236.3671875,
+          "x": 32,
+          "y": -55.6484375
+        },
+        "title": {
+          "bottom": -65.796875,
+          "height": 55.5,
+          "left": 32,
+          "right": 329.1484375,
+          "top": -121.296875,
+          "width": 297.1484375,
+          "x": 32,
+          "y": -121.296875
+        }
+      },
+      {
+        "art": {
+          "bottom": 115.875,
+          "height": 234.7578125,
+          "left": 329,
+          "right": 680,
+          "top": -118.8828125,
+          "width": 351,
+          "x": 329,
+          "y": -118.8828125
+        },
+        "cta": {
+          "bottom": 165.703125,
+          "height": 52,
+          "left": 32,
+          "right": 175.0625,
+          "top": 113.703125,
+          "width": 143.0625,
+          "x": 32,
+          "y": 113.703125
+        },
+        "description": {
+          "bottom": 89.703125,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 26.703125,
+          "width": 279.296875,
+          "x": 32,
+          "y": 26.703125
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/nuggets-art-v5.webp?v=2a2730733f",
+        "subtitle": {
+          "bottom": 11.734375,
+          "height": 58.46875,
+          "left": 32,
+          "right": 316.8515625,
+          "top": -46.734375,
+          "width": 284.8515625,
+          "x": 32,
+          "y": -46.734375
+        },
+        "title": {
+          "bottom": -55.2109375,
+          "height": 77,
+          "left": 32,
+          "right": 308.4296875,
+          "top": -132.2109375,
+          "width": 276.4296875,
+          "x": 32,
+          "y": -132.2109375
+        }
+      },
+      {
+        "art": {
+          "bottom": 129.578125,
+          "height": 262.1640625,
+          "left": 329,
+          "right": 680,
+          "top": -132.5859375,
+          "width": 351,
+          "x": 329,
+          "y": -132.5859375
+        },
+        "cta": {
+          "bottom": 161.25,
+          "height": 52,
+          "left": 32,
+          "right": 183.03125,
+          "top": 109.25,
+          "width": 151.03125,
+          "x": 32,
+          "y": 109.25
+        },
+        "description": {
+          "bottom": 85.25,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 22.25,
+          "width": 279.296875,
+          "x": 32,
+          "y": 22.25
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/lulia-mini-art-v5.webp?v=c8ec6937e3",
+        "subtitle": {
+          "bottom": 7.28125,
+          "height": 58.46875,
+          "left": 32,
+          "right": 299.625,
+          "top": -51.1875,
+          "width": 267.625,
+          "x": 32,
+          "y": -51.1875
+        },
+        "title": {
+          "bottom": -60.25,
+          "height": 66.5,
+          "left": 32,
+          "right": 326.3515625,
+          "top": -126.75,
+          "width": 294.3515625,
+          "x": 32,
+          "y": -126.75
+        }
+      }
+    ],
+    "scrollY": 330.5,
+    "stage": {
+      "bottom": 265.5,
+      "height": 520,
+      "left": 0,
+      "right": 700,
+      "top": -254.5,
+      "width": 700,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 24,
+          "right": 152,
+          "top": 279.5,
+          "width": 128,
+          "x": 24,
+          "y": 279.5
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 71.8984375,
+          "right": 125.5546875,
+          "top": 295.703125,
+          "width": 53.65625,
+          "x": 71.8984375,
+          "y": 295.703125
+        }
+      },
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 160,
+          "right": 288,
+          "top": 279.5,
+          "width": 128,
+          "x": 160,
+          "y": 279.5
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 194.6328125,
+          "right": 274.8125,
+          "top": 295.703125,
+          "width": 80.1796875,
+          "x": 194.6328125,
+          "y": 295.703125
+        }
+      },
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 296,
+          "right": 424,
+          "top": 279.5,
+          "width": 128,
+          "x": 296,
+          "y": 279.5
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 343.375,
+          "right": 398.078125,
+          "top": 295.703125,
+          "width": 54.703125,
+          "x": 343.375,
+          "y": 295.703125
+        }
+      },
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 432,
+          "right": 560,
+          "top": 279.5,
+          "width": 128,
+          "x": 432,
+          "y": 279.5
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 474.015625,
+          "right": 539.4375,
+          "top": 295.703125,
+          "width": 65.421875,
+          "x": 474.015625,
+          "y": 295.703125
+        }
+      }
+    ],
+    "width": 700
+  },
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 76,
+      "left": 0,
+      "right": 768,
+      "top": -330.5,
+      "width": 768,
+      "x": 0,
+      "y": -330.5
+    },
+    "height": 1024,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 165.8515625,
+          "height": 334.7109375,
+          "left": 360.953125,
+          "right": 747.9921875,
+          "top": -168.859375,
+          "width": 387.0390625,
+          "x": 360.953125,
+          "y": -168.859375
+        },
+        "cta": {
+          "bottom": 174.609375,
+          "height": 52,
+          "left": 32,
+          "right": 263.7734375,
+          "top": 122.609375,
+          "width": 231.7734375,
+          "x": 32,
+          "y": 122.609375
+        },
+        "description": {
+          "bottom": 98.609375,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 35.609375,
+          "width": 279.296875,
+          "x": 32,
+          "y": 35.609375
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67",
+        "subtitle": {
+          "bottom": 6.873138427734375,
+          "height": 50.97383117675781,
+          "left": 40.94783020019531,
+          "right": 243.97921752929688,
+          "top": -44.10069274902344,
+          "width": 203.03138732910156,
+          "x": 40.94783020019531,
+          "y": -44.10069274902344
+        },
+        "title": {
+          "bottom": -57.1171875,
+          "height": 84.5,
+          "left": 32,
+          "right": 326.484375,
+          "top": -141.6171875,
+          "width": 294.484375,
+          "x": 32,
+          "y": -141.6171875
+        }
+      },
+      {
+        "art": {
+          "bottom": 144.484375,
+          "height": 291.9765625,
+          "left": 360.953125,
+          "right": 747.9921875,
+          "top": -147.4921875,
+          "width": 387.0390625,
+          "x": 360.953125,
+          "y": -147.4921875
+        },
+        "cta": {
+          "bottom": 161.765625,
+          "height": 52,
+          "left": 32,
+          "right": 202.578125,
+          "top": 109.765625,
+          "width": 170.578125,
+          "x": 32,
+          "y": 109.765625
+        },
+        "description": {
+          "bottom": 85.765625,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 22.765625,
+          "width": 279.296875,
+          "x": 32,
+          "y": 22.765625
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/meatballs-art-v5.webp?v=2ecf36ba54",
+        "subtitle": {
+          "bottom": 8.0859375,
+          "height": 64.1796875,
+          "left": 32,
+          "right": 291.3203125,
+          "top": -56.09375,
+          "width": 259.3203125,
+          "x": 32,
+          "y": -56.09375
+        },
+        "title": {
+          "bottom": -65.7734375,
+          "height": 61,
+          "left": 32,
+          "right": 357.984375,
+          "top": -126.7734375,
+          "width": 325.984375,
+          "x": 32,
+          "y": -126.7734375
+        }
+      },
+      {
+        "art": {
+          "bottom": 127.9296875,
+          "height": 258.859375,
+          "left": 360.953125,
+          "right": 747.9921875,
+          "top": -130.9296875,
+          "width": 387.0390625,
+          "x": 360.953125,
+          "y": -130.9296875
+        },
+        "cta": {
+          "bottom": 171.5546875,
+          "height": 52,
+          "left": 32,
+          "right": 175.0625,
+          "top": 119.5546875,
+          "width": 143.0625,
+          "x": 32,
+          "y": 119.5546875
+        },
+        "description": {
+          "bottom": 95.5546875,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 32.5546875,
+          "width": 279.296875,
+          "x": 32,
+          "y": 32.5546875
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/nuggets-art-v5.webp?v=2a2730733f",
+        "subtitle": {
+          "bottom": 17.875,
+          "height": 64.1796875,
+          "left": 32,
+          "right": 344.515625,
+          "top": -46.3046875,
+          "width": 312.515625,
+          "x": 32,
+          "y": -46.3046875
+        },
+        "title": {
+          "bottom": -54.0546875,
+          "height": 84.5,
+          "left": 32,
+          "right": 335.2734375,
+          "top": -138.5546875,
+          "width": 303.2734375,
+          "x": 32,
+          "y": -138.5546875
+        }
+      },
+      {
+        "art": {
+          "bottom": 143.0390625,
+          "height": 289.078125,
+          "left": 360.953125,
+          "right": 747.9921875,
+          "top": -146.0390625,
+          "width": 387.0390625,
+          "x": 360.953125,
+          "y": -146.0390625
+        },
+        "cta": {
+          "bottom": 166.65625,
+          "height": 52,
+          "left": 32,
+          "right": 183.03125,
+          "top": 114.65625,
+          "width": 151.03125,
+          "x": 32,
+          "y": 114.65625
+        },
+        "description": {
+          "bottom": 90.65625,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 27.65625,
+          "width": 279.296875,
+          "x": 32,
+          "y": 27.65625
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/lulia-mini-art-v5.webp?v=c8ec6937e3",
+        "subtitle": {
+          "bottom": 12.9765625,
+          "height": 64.1796875,
+          "left": 32,
+          "right": 325.6171875,
+          "top": -51.203125,
+          "width": 293.6171875,
+          "x": 32,
+          "y": -51.203125
+        },
+        "title": {
+          "bottom": -60.1640625,
+          "height": 72.5,
+          "left": 32,
+          "right": 354.9296875,
+          "top": -132.6640625,
+          "width": 322.9296875,
+          "x": 32,
+          "y": -132.6640625
+        }
+      }
+    ],
+    "scrollY": 330.5,
+    "stage": {
+      "bottom": 265.5,
+      "height": 520,
+      "left": 0,
+      "right": 768,
+      "top": -254.5,
+      "width": 768,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 24,
+          "right": 169,
+          "top": 279.5,
+          "width": 145,
+          "x": 24,
+          "y": 279.5
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 80.3984375,
+          "right": 134.0546875,
+          "top": 295.703125,
+          "width": 53.65625,
+          "x": 80.3984375,
+          "y": 295.703125
+        }
+      },
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 177,
+          "right": 322,
+          "top": 279.5,
+          "width": 145,
+          "x": 177,
+          "y": 279.5
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 220.1328125,
+          "right": 300.3125,
+          "top": 295.703125,
+          "width": 80.1796875,
+          "x": 220.1328125,
+          "y": 295.703125
+        }
+      },
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 330,
+          "right": 475,
+          "top": 279.5,
+          "width": 145,
+          "x": 330,
+          "y": 279.5
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 385.875,
+          "right": 440.578125,
+          "top": 295.703125,
+          "width": 54.703125,
+          "x": 385.875,
+          "y": 295.703125
+        }
+      },
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 483,
+          "right": 628,
+          "top": 279.5,
+          "width": 145,
+          "x": 483,
+          "y": 279.5
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 533.515625,
+          "right": 598.9375,
+          "top": 295.703125,
+          "width": 65.421875,
+          "x": 533.515625,
+          "y": 295.703125
+        }
+      }
+    ],
+    "width": 768
+  },
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 76,
+      "left": 0,
+      "right": 1024,
+      "top": -330.5,
+      "width": 1024,
+      "x": 0,
+      "y": -330.5
+    },
+    "height": 768,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 224.5234375,
+          "height": 452.046875,
+          "left": 481.2734375,
+          "right": 1003.9921875,
+          "top": -227.5234375,
+          "width": 522.71875,
+          "x": 481.2734375,
+          "y": -227.5234375
+        },
+        "cta": {
+          "bottom": 192.3125,
+          "height": 52,
+          "left": 32,
+          "right": 263.7734375,
+          "top": 140.3125,
+          "width": 231.7734375,
+          "x": 32,
+          "y": 140.3125
+        },
+        "description": {
+          "bottom": 116.3125,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 53.3125,
+          "width": 279.296875,
+          "x": 32,
+          "y": 53.3125
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67",
+        "subtitle": {
+          "bottom": 27.49250030517578,
+          "height": 68.4627914428711,
+          "left": 40.63190841674805,
+          "right": 311.33539962768555,
+          "top": -40.97029113769531,
+          "width": 270.7034912109375,
+          "x": 40.63190841674805,
+          "y": -40.97029113769531
+        },
+        "title": {
+          "bottom": -48.8203125,
+          "height": 113,
+          "left": 32,
+          "right": 424.6484375,
+          "top": -161.8203125,
+          "width": 392.6484375,
+          "x": 32,
+          "y": -161.8203125
+        }
+      },
+      {
+        "art": {
+          "bottom": 195.6640625,
+          "height": 394.328125,
+          "left": 481.2734375,
+          "right": 1003.9921875,
+          "top": -198.6640625,
+          "width": 522.71875,
+          "x": 481.2734375,
+          "y": -198.6640625
+        },
+        "cta": {
+          "bottom": 180.5390625,
+          "height": 52,
+          "left": 32,
+          "right": 202.578125,
+          "top": 128.5390625,
+          "width": 170.578125,
+          "x": 32,
+          "y": 128.5390625
+        },
+        "description": {
+          "bottom": 104.5390625,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 41.5390625,
+          "width": 279.296875,
+          "x": 32,
+          "y": 41.5390625
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/meatballs-art-v5.webp?v=2ecf36ba54",
+        "subtitle": {
+          "bottom": 27.1171875,
+          "height": 85.921875,
+          "left": 32,
+          "right": 377.7421875,
+          "top": -58.8046875,
+          "width": 345.7421875,
+          "x": 32,
+          "y": -58.8046875
+        },
+        "title": {
+          "bottom": -66.0390625,
+          "height": 81.5,
+          "left": 32,
+          "right": 466.6640625,
+          "top": -147.5390625,
+          "width": 434.6640625,
+          "x": 32,
+          "y": -147.5390625
+        }
+      },
+      {
+        "art": {
+          "bottom": 173.3046875,
+          "height": 349.609375,
+          "left": 481.2734375,
+          "right": 1003.9921875,
+          "top": -176.3046875,
+          "width": 522.71875,
+          "x": 481.2734375,
+          "y": -176.3046875
+        },
+        "cta": {
+          "bottom": 193.5859375,
+          "height": 52,
+          "left": 32,
+          "right": 175.0625,
+          "top": 141.5859375,
+          "width": 143.0625,
+          "x": 32,
+          "y": 141.5859375
+        },
+        "description": {
+          "bottom": 117.5859375,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 54.5859375,
+          "width": 279.296875,
+          "x": 32,
+          "y": 54.5859375
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/nuggets-art-v5.webp?v=2a2730733f",
+        "subtitle": {
+          "bottom": 40.1640625,
+          "height": 85.921875,
+          "left": 32,
+          "right": 448.6640625,
+          "top": -45.7578125,
+          "width": 416.6640625,
+          "x": 32,
+          "y": -45.7578125
+        },
+        "title": {
+          "bottom": -50.0859375,
+          "height": 113,
+          "left": 32,
+          "right": 436.3671875,
+          "top": -163.0859375,
+          "width": 404.3671875,
+          "x": 32,
+          "y": -163.0859375
+        }
+      },
+      {
+        "art": {
+          "bottom": 193.7109375,
+          "height": 390.421875,
+          "left": 481.2734375,
+          "right": 1003.9921875,
+          "top": -196.7109375,
+          "width": 522.71875,
+          "x": 481.2734375,
+          "y": -196.7109375
+        },
+        "cta": {
+          "bottom": 187.0625,
+          "height": 52,
+          "left": 32,
+          "right": 183.03125,
+          "top": 135.0625,
+          "width": 151.03125,
+          "x": 32,
+          "y": 135.0625
+        },
+        "description": {
+          "bottom": 111.0625,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 48.0625,
+          "width": 279.296875,
+          "x": 32,
+          "y": 48.0625
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/lulia-mini-art-v5.webp?v=c8ec6937e3",
+        "subtitle": {
+          "bottom": 33.640625,
+          "height": 85.921875,
+          "left": 32,
+          "right": 423.46875,
+          "top": -52.28125,
+          "width": 391.46875,
+          "x": 32,
+          "y": -52.28125
+        },
+        "title": {
+          "bottom": -58.0625,
+          "height": 97,
+          "left": 32,
+          "right": 462.5703125,
+          "top": -155.0625,
+          "width": 430.5703125,
+          "x": 32,
+          "y": -155.0625
+        }
+      }
+    ],
+    "scrollY": 330.5,
+    "stage": {
+      "bottom": 265.5,
+      "height": 520,
+      "left": 0,
+      "right": 1024,
+      "top": -254.5,
+      "width": 1024,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 24,
+          "right": 233,
+          "top": 279.5,
+          "width": 209,
+          "x": 24,
+          "y": 279.5
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 112.3984375,
+          "right": 166.0546875,
+          "top": 295.703125,
+          "width": 53.65625,
+          "x": 112.3984375,
+          "y": 295.703125
+        }
+      },
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 241,
+          "right": 450,
+          "top": 279.5,
+          "width": 209,
+          "x": 241,
+          "y": 279.5
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 316.1328125,
+          "right": 396.3125,
+          "top": 295.703125,
+          "width": 80.1796875,
+          "x": 316.1328125,
+          "y": 295.703125
+        }
+      },
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 458,
+          "right": 667,
+          "top": 279.5,
+          "width": 209,
+          "x": 458,
+          "y": 279.5
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 545.875,
+          "right": 600.578125,
+          "top": 295.703125,
+          "width": 54.703125,
+          "x": 545.875,
+          "y": 295.703125
+        }
+      },
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 675,
+          "right": 884,
+          "top": 279.5,
+          "width": 209,
+          "x": 675,
+          "y": 279.5
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 757.515625,
+          "right": 822.9375,
+          "top": 295.703125,
+          "width": 65.421875,
+          "x": 757.515625,
+          "y": 295.703125
+        }
+      }
+    ],
+    "width": 1024
+  },
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 76,
+      "left": 0,
+      "right": 1099,
+      "top": -330.5,
+      "width": 1099,
+      "x": 0,
+      "y": -330.5
+    },
+    "height": 800,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 247.921875,
+          "height": 486.421875,
+          "left": 516.5234375,
+          "right": 1078.9921875,
+          "top": -238.5,
+          "width": 562.46875,
+          "x": 516.5234375,
+          "y": -238.5
+        },
+        "cta": {
+          "bottom": 203.7109375,
+          "height": 52,
+          "left": 32,
+          "right": 263.7734375,
+          "top": 151.7109375,
+          "width": 231.7734375,
+          "x": 32,
+          "y": 151.7109375
+        },
+        "description": {
+          "bottom": 127.7109375,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 64.7109375,
+          "width": 279.296875,
+          "x": 32,
+          "y": 64.7109375
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67",
+        "subtitle": {
+          "bottom": 39.941253662109375,
+          "height": 73.48603820800781,
+          "left": 40.5548095703125,
+          "right": 331.0969543457031,
+          "top": -33.54478454589844,
+          "width": 290.5421447753906,
+          "x": 40.5548095703125,
+          "y": -33.54478454589844
+        },
+        "title": {
+          "bottom": -40.2890625,
+          "height": 121,
+          "left": 32,
+          "right": 453.4140625,
+          "top": -161.2890625,
+          "width": 421.4140625,
+          "x": 32,
+          "y": -161.2890625
+        }
+      },
+      {
+        "art": {
+          "bottom": 210.65625,
+          "height": 424.3125,
+          "left": 516.5234375,
+          "right": 1078.9921875,
+          "top": -213.65625,
+          "width": 562.46875,
+          "x": 516.5234375,
+          "y": -213.65625
+        },
+        "cta": {
+          "bottom": 186.03125,
+          "height": 52,
+          "left": 32,
+          "right": 202.578125,
+          "top": 134.03125,
+          "width": 170.578125,
+          "x": 32,
+          "y": 134.03125
+        },
+        "description": {
+          "bottom": 110.03125,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 47.03125,
+          "width": 279.296875,
+          "x": 32,
+          "y": 47.03125
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/meatballs-art-v5.webp?v=2ecf36ba54",
+        "subtitle": {
+          "bottom": 32.6171875,
+          "height": 91.9140625,
+          "left": 32,
+          "right": 403.0625,
+          "top": -59.296875,
+          "width": 371.0625,
+          "x": 32,
+          "y": -59.296875
+        },
+        "title": {
+          "bottom": -66.03125,
+          "height": 87.5,
+          "left": 32,
+          "right": 498.5078125,
+          "top": -153.53125,
+          "width": 466.5078125,
+          "x": 32,
+          "y": -153.53125
+        }
+      },
+      {
+        "art": {
+          "bottom": 186.59375,
+          "height": 376.1953125,
+          "left": 516.5234375,
+          "right": 1078.9921875,
+          "top": -189.6015625,
+          "width": 562.46875,
+          "x": 516.5234375,
+          "y": -189.6015625
+        },
+        "cta": {
+          "bottom": 200.03125,
+          "height": 52,
+          "left": 32,
+          "right": 175.0625,
+          "top": 148.03125,
+          "width": 143.0625,
+          "x": 32,
+          "y": 148.03125
+        },
+        "description": {
+          "bottom": 124.03125,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 61.03125,
+          "width": 279.296875,
+          "x": 32,
+          "y": 61.03125
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/nuggets-art-v5.webp?v=2a2730733f",
+        "subtitle": {
+          "bottom": 46.6171875,
+          "height": 91.9140625,
+          "left": 32,
+          "right": 479.1796875,
+          "top": -45.296875,
+          "width": 447.1796875,
+          "x": 32,
+          "y": -45.296875
+        },
+        "title": {
+          "bottom": -49.03125,
+          "height": 121,
+          "left": 32,
+          "right": 465.984375,
+          "top": -170.03125,
+          "width": 433.984375,
+          "x": 32,
+          "y": -170.03125
+        }
+      },
+      {
+        "art": {
+          "bottom": 208.5546875,
+          "height": 420.109375,
+          "left": 516.5234375,
+          "right": 1078.9921875,
+          "top": -211.5546875,
+          "width": 562.46875,
+          "x": 516.5234375,
+          "y": -211.5546875
+        },
+        "cta": {
+          "bottom": 193.03125,
+          "height": 52,
+          "left": 32,
+          "right": 183.03125,
+          "top": 141.03125,
+          "width": 151.03125,
+          "x": 32,
+          "y": 141.03125
+        },
+        "description": {
+          "bottom": 117.03125,
+          "height": 63,
+          "left": 32,
+          "right": 311.296875,
+          "top": 54.03125,
+          "width": 279.296875,
+          "x": 32,
+          "y": 54.03125
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/lulia-mini-art-v5.webp?v=c8ec6937e3",
+        "subtitle": {
+          "bottom": 39.6171875,
+          "height": 91.9140625,
+          "left": 32,
+          "right": 452.140625,
+          "top": -52.296875,
+          "width": 420.140625,
+          "x": 32,
+          "y": -52.296875
+        },
+        "title": {
+          "bottom": -57.53125,
+          "height": 104,
+          "left": 32,
+          "right": 494.109375,
+          "top": -161.53125,
+          "width": 462.109375,
+          "x": 32,
+          "y": -161.53125
+        }
+      }
+    ],
+    "scrollY": 330.5,
+    "stage": {
+      "bottom": 265.5,
+      "height": 520,
+      "left": 0,
+      "right": 1099,
+      "top": -254.5,
+      "width": 1099,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 24,
+          "right": 251.75,
+          "top": 279.5,
+          "width": 227.75,
+          "x": 24,
+          "y": 279.5
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 121.7734375,
+          "right": 175.4296875,
+          "top": 295.703125,
+          "width": 53.65625,
+          "x": 121.7734375,
+          "y": 295.703125
+        }
+      },
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 259.75,
+          "right": 487.5,
+          "top": 279.5,
+          "width": 227.75,
+          "x": 259.75,
+          "y": 279.5
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 344.2578125,
+          "right": 424.4375,
+          "top": 295.703125,
+          "width": 80.1796875,
+          "x": 344.2578125,
+          "y": 295.703125
+        }
+      },
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 495.5,
+          "right": 723.25,
+          "top": 279.5,
+          "width": 227.75,
+          "x": 495.5,
+          "y": 279.5
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 592.75,
+          "right": 647.453125,
+          "top": 295.703125,
+          "width": 54.703125,
+          "x": 592.75,
+          "y": 295.703125
+        }
+      },
+      {
+        "box": {
+          "bottom": 327.5,
+          "height": 48,
+          "left": 731.25,
+          "right": 959,
+          "top": 279.5,
+          "width": 227.75,
+          "x": 731.25,
+          "y": 279.5
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 310.703125,
+          "height": 15,
+          "left": 823.140625,
+          "right": 888.5625,
+          "top": 295.703125,
+          "width": 65.421875,
+          "x": 823.140625,
+          "y": 295.703125
+        }
+      }
+    ],
+    "width": 1099
+  },
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 88,
+      "left": 0,
+      "right": 1100,
+      "top": -342.5,
+      "width": 1100,
+      "x": 0,
+      "y": -342.5
+    },
+    "height": 800,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 293.2109375,
+          "height": 483.421875,
+          "left": 517,
+          "right": 1076,
+          "top": -190.2109375,
+          "width": 559,
+          "x": 517,
+          "y": -190.2109375
+        },
+        "cta": {
+          "bottom": 249.1875,
+          "height": 56,
+          "left": 52.796875,
+          "right": 337.03125,
+          "top": 193.1875,
+          "width": 284.234375,
+          "x": 52.796875,
+          "y": 193.1875
+        },
+        "description": {
+          "bottom": 165.1875,
+          "height": 45,
+          "left": 52.796875,
+          "right": 391.9453125,
+          "top": 120.1875,
+          "width": 339.1484375,
+          "x": 52.796875,
+          "y": 120.1875
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67",
+        "subtitle": {
+          "bottom": 85.52654457092285,
+          "height": 64.2156753540039,
+          "left": 65.4590072631836,
+          "right": 321.63179779052734,
+          "top": 21.310869216918945,
+          "width": 256.17279052734375,
+          "x": 65.4590072631836,
+          "y": 21.310869216918945
+        },
+        "title": {
+          "bottom": 11.0078125,
+          "height": 122.5,
+          "left": 52.796875,
+          "right": 479.078125,
+          "top": -111.4921875,
+          "width": 426.28125,
+          "x": 52.796875,
+          "y": -111.4921875
+        }
+      },
+      {
+        "art": {
+          "bottom": 262.34375,
+          "height": 421.6953125,
+          "left": 517,
+          "right": 1076,
+          "top": -159.3515625,
+          "width": 559,
+          "x": 517,
+          "y": -159.3515625
+        },
+        "cta": {
+          "bottom": 246.3203125,
+          "height": 56,
+          "left": 52.796875,
+          "right": 265.6328125,
+          "top": 190.3203125,
+          "width": 212.8359375,
+          "x": 52.796875,
+          "y": 190.3203125
+        },
+        "description": {
+          "bottom": 162.3203125,
+          "height": 67.5,
+          "left": 52.796875,
+          "right": 391.9453125,
+          "top": 94.8203125,
+          "width": 339.1484375,
+          "x": 52.796875,
+          "y": 94.8203125
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/meatballs-art-v5.webp?v=2ecf36ba54",
+        "subtitle": {
+          "bottom": 76.7421875,
+          "height": 87.078125,
+          "left": 52.796875,
+          "right": 404.1484375,
+          "top": -10.3359375,
+          "width": 351.3515625,
+          "x": 52.796875,
+          "y": -10.3359375
+        },
+        "title": {
+          "bottom": -23.8203125,
+          "height": 82.5,
+          "left": 52.796875,
+          "right": 492.2734375,
+          "top": -106.3203125,
+          "width": 439.4765625,
+          "x": 52.796875,
+          "y": -106.3203125
+        }
+      },
+      {
+        "art": {
+          "bottom": 238.4375,
+          "height": 373.875,
+          "left": 517,
+          "right": 1076,
+          "top": -135.4375,
+          "width": 559,
+          "x": 517,
+          "y": -135.4375
+        },
+        "cta": {
+          "bottom": 251.78125,
+          "height": 56,
+          "left": 52.796875,
+          "right": 233.5390625,
+          "top": 195.78125,
+          "width": 180.7421875,
+          "x": 52.796875,
+          "y": 195.78125
+        },
+        "description": {
+          "bottom": 167.78125,
+          "height": 45,
+          "left": 52.796875,
+          "right": 391.9453125,
+          "top": 122.78125,
+          "width": 339.1484375,
+          "x": 52.796875,
+          "y": 122.78125
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/nuggets-art-v5.webp?v=2a2730733f",
+        "subtitle": {
+          "bottom": 104.703125,
+          "height": 87.078125,
+          "left": 52.796875,
+          "right": 476.2265625,
+          "top": 17.625,
+          "width": 423.4296875,
+          "x": 52.796875,
+          "y": 17.625
+        },
+        "title": {
+          "bottom": 7.21875,
+          "height": 122.5,
+          "left": 52.796875,
+          "right": 491.8046875,
+          "top": -115.28125,
+          "width": 439.0078125,
+          "x": 52.796875,
+          "y": -115.28125
+        }
+      },
+      {
+        "art": {
+          "bottom": 260.2578125,
+          "height": 417.515625,
+          "left": 517,
+          "right": 1076,
+          "top": -157.2578125,
+          "width": 559,
+          "x": 517,
+          "y": -157.2578125
+        },
+        "cta": {
+          "bottom": 243.75,
+          "height": 56,
+          "left": 52.796875,
+          "right": 242.8359375,
+          "top": 187.75,
+          "width": 190.0390625,
+          "x": 52.796875,
+          "y": 187.75
+        },
+        "description": {
+          "bottom": 159.75,
+          "height": 45,
+          "left": 52.796875,
+          "right": 391.9453125,
+          "top": 114.75,
+          "width": 339.1484375,
+          "x": 52.796875,
+          "y": 114.75
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/lulia-mini-art-v5.webp?v=c8ec6937e3",
+        "subtitle": {
+          "bottom": 96.671875,
+          "height": 87.078125,
+          "left": 52.796875,
+          "right": 450.625,
+          "top": 9.59375,
+          "width": 397.828125,
+          "x": 52.796875,
+          "y": 9.59375
+        },
+        "title": {
+          "bottom": -2.5625,
+          "height": 101.5,
+          "left": 52.796875,
+          "right": 503.9296875,
+          "top": -104.0625,
+          "width": 451.1328125,
+          "x": 52.796875,
+          "y": -104.0625
+        }
+      }
+    ],
+    "scrollY": 342.5,
+    "stage": {
+      "bottom": 377.5,
+      "height": 632,
+      "left": 0,
+      "right": 1100,
+      "top": -254.5,
+      "width": 1100,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 441.5,
+          "height": 48,
+          "left": 48,
+          "right": 261,
+          "top": 393.5,
+          "width": 213,
+          "x": 48,
+          "y": 393.5
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 425.546875,
+          "height": 16.5,
+          "left": 138.1640625,
+          "right": 196.2890625,
+          "top": 409.046875,
+          "width": 58.125,
+          "x": 138.1640625,
+          "y": 409.046875
+        }
+      },
+      {
+        "box": {
+          "bottom": 441.5,
+          "height": 48,
+          "left": 269,
+          "right": 482,
+          "top": 393.5,
+          "width": 213,
+          "x": 269,
+          "y": 393.5
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 425.546875,
+          "height": 16.5,
+          "left": 344.796875,
+          "right": 431.65625,
+          "top": 409.046875,
+          "width": 86.859375,
+          "x": 344.796875,
+          "y": 409.046875
+        }
+      },
+      {
+        "box": {
+          "bottom": 441.5,
+          "height": 48,
+          "left": 490,
+          "right": 703,
+          "top": 393.5,
+          "width": 213,
+          "x": 490,
+          "y": 393.5
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 425.546875,
+          "height": 16.5,
+          "left": 579.59375,
+          "right": 638.8515625,
+          "top": 409.046875,
+          "width": 59.2578125,
+          "x": 579.59375,
+          "y": 409.046875
+        }
+      },
+      {
+        "box": {
+          "bottom": 441.5,
+          "height": 48,
+          "left": 711,
+          "right": 924,
+          "top": 393.5,
+          "width": 213,
+          "x": 711,
+          "y": 393.5
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 425.546875,
+          "height": 16.5,
+          "left": 794.7890625,
+          "right": 865.6640625,
+          "top": 409.046875,
+          "width": 70.875,
+          "x": 794.7890625,
+          "y": 409.046875
+        }
+      }
+    ],
+    "width": 1100
+  },
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 88,
+      "left": 0,
+      "right": 1280,
+      "top": -342.5,
+      "width": 1280,
+      "x": 0,
+      "y": -342.5
+    },
+    "height": 720,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 331.421875,
+          "height": 565.921875,
+          "left": 601.59375,
+          "right": 1255.9921875,
+          "top": -234.5,
+          "width": 654.3984375,
+          "x": 601.59375,
+          "y": -234.5
+        },
+        "cta": {
+          "bottom": 259.6875,
+          "height": 56,
+          "left": 61.4375,
+          "right": 345.671875,
+          "top": 203.6875,
+          "width": 284.234375,
+          "x": 61.4375,
+          "y": 203.6875
+        },
+        "description": {
+          "bottom": 175.6875,
+          "height": 48,
+          "left": 61.4375,
+          "right": 423.1953125,
+          "top": 127.6875,
+          "width": 361.7578125,
+          "x": 61.4375,
+          "y": 127.6875
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67",
+        "subtitle": {
+          "bottom": 94.78747749328612,
+          "height": 74.87841796875,
+          "left": 73.9103775024414,
+          "right": 372.01798248291016,
+          "top": 19.909059524536133,
+          "width": 298.10760498046875,
+          "x": 73.9103775024414,
+          "y": 19.909059524536133
+        },
+        "title": {
+          "bottom": 12.9296875,
+          "height": 142.5,
+          "left": 61.4375,
+          "right": 557.4765625,
+          "top": -129.5703125,
+          "width": 496.0390625,
+          "x": 61.4375,
+          "y": -129.5703125
+        }
+      },
+      {
+        "art": {
+          "bottom": 259.1640625,
+          "height": 493.6640625,
+          "left": 601.59375,
+          "right": 1255.9921875,
+          "top": -234.5,
+          "width": 654.3984375,
+          "x": 601.59375,
+          "y": -234.5
+        },
+        "cta": {
+          "bottom": 221.84375,
+          "height": 56,
+          "left": 61.4375,
+          "right": 274.2734375,
+          "top": 165.84375,
+          "width": 212.8359375,
+          "x": 61.4375,
+          "y": 165.84375
+        },
+        "description": {
+          "bottom": 137.84375,
+          "height": 72,
+          "left": 61.4375,
+          "right": 423.1953125,
+          "top": 65.84375,
+          "width": 361.7578125,
+          "x": 61.4375,
+          "y": 65.84375
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/meatballs-art-v5.webp?v=2ecf36ba54",
+        "subtitle": {
+          "bottom": 47.96875,
+          "height": 101.375,
+          "left": 61.4375,
+          "right": 470.2890625,
+          "top": -53.40625,
+          "width": 408.8515625,
+          "x": 61.4375,
+          "y": -53.40625
+        },
+        "title": {
+          "bottom": -65.1875,
+          "height": 96,
+          "left": 61.4375,
+          "right": 572.828125,
+          "top": -161.1875,
+          "width": 511.390625,
+          "x": 61.4375,
+          "y": -161.1875
+        }
+      },
+      {
+        "art": {
+          "bottom": 230.3359375,
+          "height": 437.6796875,
+          "left": 601.59375,
+          "right": 1255.9921875,
+          "top": -207.34375,
+          "width": 654.3984375,
+          "x": 601.59375,
+          "y": -207.34375
+        },
+        "cta": {
+          "bottom": 228.453125,
+          "height": 56,
+          "left": 61.4375,
+          "right": 242.1796875,
+          "top": 172.453125,
+          "width": 180.7421875,
+          "x": 61.4375,
+          "y": 172.453125
+        },
+        "description": {
+          "bottom": 144.453125,
+          "height": 48,
+          "left": 61.4375,
+          "right": 423.1953125,
+          "top": 96.453125,
+          "width": 361.7578125,
+          "x": 61.4375,
+          "y": 96.453125
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/nuggets-art-v5.webp?v=2a2730733f",
+        "subtitle": {
+          "bottom": 78.578125,
+          "height": 101.375,
+          "left": 61.4375,
+          "right": 554.1484375,
+          "top": -22.796875,
+          "width": 492.7109375,
+          "x": 61.4375,
+          "y": -22.796875
+        },
+        "title": {
+          "bottom": -30.9609375,
+          "height": 142.5,
+          "left": 61.4375,
+          "right": 572.28125,
+          "top": -173.4609375,
+          "width": 510.84375,
+          "x": 61.4375,
+          "y": -173.4609375
+        }
+      },
+      {
+        "art": {
+          "bottom": 255.8828125,
+          "height": 488.7734375,
+          "left": 601.59375,
+          "right": 1255.9921875,
+          "top": -232.890625,
+          "width": 654.3984375,
+          "x": 601.59375,
+          "y": -232.890625
+        },
+        "cta": {
+          "bottom": 219.015625,
+          "height": 56,
+          "left": 61.4375,
+          "right": 251.4765625,
+          "top": 163.015625,
+          "width": 190.0390625,
+          "x": 61.4375,
+          "y": 163.015625
+        },
+        "description": {
+          "bottom": 135.015625,
+          "height": 48,
+          "left": 61.4375,
+          "right": 423.1953125,
+          "top": 87.015625,
+          "width": 361.7578125,
+          "x": 61.4375,
+          "y": 87.015625
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/lulia-mini-art-v5.webp?v=c8ec6937e3",
+        "subtitle": {
+          "bottom": 69.140625,
+          "height": 101.375,
+          "left": 61.4375,
+          "right": 524.359375,
+          "top": -32.234375,
+          "width": 462.921875,
+          "x": 61.4375,
+          "y": -32.234375
+        },
+        "title": {
+          "bottom": -42.328125,
+          "height": 118.5,
+          "left": 61.4375,
+          "right": 586.390625,
+          "top": -160.828125,
+          "width": 524.953125,
+          "x": 61.4375,
+          "y": -160.828125
+        }
+      }
+    ],
+    "scrollY": 342.5,
+    "stage": {
+      "bottom": 297.5,
+      "height": 552,
+      "left": 0,
+      "right": 1280,
+      "top": -254.5,
+      "width": 1280,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 361.5,
+          "height": 48,
+          "left": 48,
+          "right": 306,
+          "top": 313.5,
+          "width": 258,
+          "x": 48,
+          "y": 313.5
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 345.546875,
+          "height": 16.5,
+          "left": 160.6640625,
+          "right": 218.7890625,
+          "top": 329.046875,
+          "width": 58.125,
+          "x": 160.6640625,
+          "y": 329.046875
+        }
+      },
+      {
+        "box": {
+          "bottom": 361.5,
+          "height": 48,
+          "left": 314,
+          "right": 572,
+          "top": 313.5,
+          "width": 258,
+          "x": 314,
+          "y": 313.5
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 345.546875,
+          "height": 16.5,
+          "left": 412.296875,
+          "right": 499.15625,
+          "top": 329.046875,
+          "width": 86.859375,
+          "x": 412.296875,
+          "y": 329.046875
+        }
+      },
+      {
+        "box": {
+          "bottom": 361.5,
+          "height": 48,
+          "left": 580,
+          "right": 838,
+          "top": 313.5,
+          "width": 258,
+          "x": 580,
+          "y": 313.5
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 345.546875,
+          "height": 16.5,
+          "left": 692.09375,
+          "right": 751.3515625,
+          "top": 329.046875,
+          "width": 59.2578125,
+          "x": 692.09375,
+          "y": 329.046875
+        }
+      },
+      {
+        "box": {
+          "bottom": 361.5,
+          "height": 48,
+          "left": 846,
+          "right": 1104,
+          "top": 313.5,
+          "width": 258,
+          "x": 846,
+          "y": 313.5
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 345.546875,
+          "height": 16.5,
+          "left": 952.2890625,
+          "right": 1023.1640625,
+          "top": 329.046875,
+          "width": 70.875,
+          "x": 952.2890625,
+          "y": 329.046875
+        }
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 88,
+      "left": 0,
+      "right": 1440,
+      "top": -342.5,
+      "width": 1440,
+      "x": 0,
+      "y": -342.5
+    },
+    "height": 900,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 370.4921875,
+          "height": 569.9921875,
+          "left": 716.84375,
+          "right": 1375.9453125,
+          "top": -199.5,
+          "width": 659.1015625,
+          "x": 716.84375,
+          "y": -199.5
+        },
+        "cta": {
+          "bottom": 310.4296875,
+          "height": 56,
+          "left": 69.1171875,
+          "right": 353.3515625,
+          "top": 254.4296875,
+          "width": 284.234375,
+          "x": 69.1171875,
+          "y": 254.4296875
+        },
+        "description": {
+          "bottom": 226.4296875,
+          "height": 54,
+          "left": 69.1171875,
+          "right": 476.09375,
+          "top": 172.4296875,
+          "width": 406.9765625,
+          "x": 69.1171875,
+          "y": 172.4296875
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67",
+        "subtitle": {
+          "bottom": 140.97488403320312,
+          "height": 84.30007934570312,
+          "left": 81.41869354248047,
+          "right": 416.7822799682617,
+          "top": 56.6748046875,
+          "width": 335.36358642578125,
+          "x": 81.41869354248047,
+          "y": 56.6748046875
+        },
+        "title": {
+          "bottom": 52.765625,
+          "height": 160.5,
+          "left": 69.1171875,
+          "right": 627.1640625,
+          "top": -107.734375,
+          "width": 558.046875,
+          "x": 69.1171875,
+          "y": -107.734375
+        }
+      },
+      {
+        "art": {
+          "bottom": 364.3125,
+          "height": 557.6328125,
+          "left": 676.796875,
+          "right": 1415.9921875,
+          "top": -193.3203125,
+          "width": 739.1953125,
+          "x": 676.796875,
+          "y": -193.3203125
+        },
+        "cta": {
+          "bottom": 310.5859375,
+          "height": 56,
+          "left": 69.1171875,
+          "right": 281.953125,
+          "top": 254.5859375,
+          "width": 212.8359375,
+          "x": 69.1171875,
+          "y": 254.5859375
+        },
+        "description": {
+          "bottom": 226.5859375,
+          "height": 81,
+          "left": 69.1171875,
+          "right": 476.09375,
+          "top": 145.5859375,
+          "width": 406.9765625,
+          "x": 69.1171875,
+          "y": 145.5859375
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/meatballs-art-v5.webp?v=2ecf36ba54",
+        "subtitle": {
+          "bottom": 127.65625,
+          "height": 113.9296875,
+          "left": 69.1171875,
+          "right": 529.0703125,
+          "top": 13.7265625,
+          "width": 459.953125,
+          "x": 69.1171875,
+          "y": 13.7265625
+        },
+        "title": {
+          "bottom": 3.4140625,
+          "height": 108,
+          "left": 69.1171875,
+          "right": 644.4296875,
+          "top": -104.5859375,
+          "width": 575.3125,
+          "x": 69.1171875,
+          "y": -104.5859375
+        }
+      },
+      {
+        "art": {
+          "bottom": 332.6953125,
+          "height": 494.390625,
+          "left": 676.796875,
+          "right": 1415.9921875,
+          "top": -161.6953125,
+          "width": 739.1953125,
+          "x": 676.796875,
+          "y": -161.6953125
+        },
+        "cta": {
+          "bottom": 318.953125,
+          "height": 56,
+          "left": 69.1171875,
+          "right": 249.859375,
+          "top": 262.953125,
+          "width": 180.7421875,
+          "x": 69.1171875,
+          "y": 262.953125
+        },
+        "description": {
+          "bottom": 234.953125,
+          "height": 54,
+          "left": 69.1171875,
+          "right": 476.09375,
+          "top": 180.953125,
+          "width": 406.9765625,
+          "x": 69.1171875,
+          "y": 180.953125
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/nuggets-art-v5.webp?v=2a2730733f",
+        "subtitle": {
+          "bottom": 163.0234375,
+          "height": 113.9296875,
+          "left": 69.1171875,
+          "right": 623.421875,
+          "top": 49.09375,
+          "width": 554.3046875,
+          "x": 69.1171875,
+          "y": 49.09375
+        },
+        "title": {
+          "bottom": 43.0390625,
+          "height": 160.5,
+          "left": 69.1171875,
+          "right": 643.8125,
+          "top": -117.4609375,
+          "width": 574.6953125,
+          "x": 69.1171875,
+          "y": -117.4609375
+        }
+      },
+      {
+        "art": {
+          "bottom": 361.5546875,
+          "height": 552.109375,
+          "left": 676.796875,
+          "right": 1415.9921875,
+          "top": -190.5546875,
+          "width": 739.1953125,
+          "x": 676.796875,
+          "y": -190.5546875
+        },
+        "cta": {
+          "bottom": 308.265625,
+          "height": 56,
+          "left": 69.1171875,
+          "right": 259.15625,
+          "top": 252.265625,
+          "width": 190.0390625,
+          "x": 69.1171875,
+          "y": 252.265625
+        },
+        "description": {
+          "bottom": 224.265625,
+          "height": 54,
+          "left": 69.1171875,
+          "right": 476.09375,
+          "top": 170.265625,
+          "width": 406.9765625,
+          "x": 69.1171875,
+          "y": 170.265625
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/lulia-mini-art-v5.webp?v=c8ec6937e3",
+        "subtitle": {
+          "bottom": 152.3359375,
+          "height": 113.9296875,
+          "left": 69.1171875,
+          "right": 589.90625,
+          "top": 38.40625,
+          "width": 520.7890625,
+          "x": 69.1171875,
+          "y": 38.40625
+        },
+        "title": {
+          "bottom": 29.9296875,
+          "height": 133.5,
+          "left": 69.1171875,
+          "right": 659.6875,
+          "top": -103.5703125,
+          "width": 590.5703125,
+          "x": 69.1171875,
+          "y": -103.5703125
+        }
+      }
+    ],
+    "scrollY": 342.5,
+    "stage": {
+      "bottom": 445.5,
+      "height": 700,
+      "left": 0,
+      "right": 1440,
+      "top": -254.5,
+      "width": 1440,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 509.5,
+          "height": 48,
+          "left": 72,
+          "right": 358,
+          "top": 461.5,
+          "width": 286,
+          "x": 72,
+          "y": 461.5
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 493.546875,
+          "height": 16.5,
+          "left": 198.6640625,
+          "right": 256.7890625,
+          "top": 477.046875,
+          "width": 58.125,
+          "x": 198.6640625,
+          "y": 477.046875
+        }
+      },
+      {
+        "box": {
+          "bottom": 509.5,
+          "height": 48,
+          "left": 366,
+          "right": 652,
+          "top": 461.5,
+          "width": 286,
+          "x": 366,
+          "y": 461.5
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 493.546875,
+          "height": 16.5,
+          "left": 478.296875,
+          "right": 565.15625,
+          "top": 477.046875,
+          "width": 86.859375,
+          "x": 478.296875,
+          "y": 477.046875
+        }
+      },
+      {
+        "box": {
+          "bottom": 509.5,
+          "height": 48,
+          "left": 660,
+          "right": 946,
+          "top": 461.5,
+          "width": 286,
+          "x": 660,
+          "y": 461.5
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 493.546875,
+          "height": 16.5,
+          "left": 786.09375,
+          "right": 845.3515625,
+          "top": 477.046875,
+          "width": 59.2578125,
+          "x": 786.09375,
+          "y": 477.046875
+        }
+      },
+      {
+        "box": {
+          "bottom": 509.5,
+          "height": 48,
+          "left": 954,
+          "right": 1240,
+          "top": 461.5,
+          "width": 286,
+          "x": 954,
+          "y": 461.5
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 493.546875,
+          "height": 16.5,
+          "left": 1074.2890625,
+          "right": 1145.1640625,
+          "top": 477.046875,
+          "width": 70.875,
+          "x": 1074.2890625,
+          "y": 477.046875
+        }
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 88,
+      "left": 0,
+      "right": 1920,
+      "top": -342.5,
+      "width": 1920,
+      "x": 0,
+      "y": -342.5
+    },
+    "height": 1080,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 370.4921875,
+          "height": 569.9921875,
+          "left": 1006.0390625,
+          "right": 1665.140625,
+          "top": -199.5,
+          "width": 659.1015625,
+          "x": 1006.0390625,
+          "y": -199.5
+        },
+        "cta": {
+          "bottom": 319.4921875,
+          "height": 56,
+          "left": 176,
+          "right": 460.234375,
+          "top": 263.4921875,
+          "width": 284.234375,
+          "x": 176,
+          "y": 263.4921875
+        },
+        "description": {
+          "bottom": 235.4921875,
+          "height": 54,
+          "left": 176,
+          "right": 582.9765625,
+          "top": 181.4921875,
+          "width": 406.9765625,
+          "x": 176,
+          "y": 181.4921875
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67",
+        "subtitle": {
+          "bottom": 151.1162147521973,
+          "height": 91.83248901367188,
+          "left": 188.1597595214844,
+          "right": 553.2344970703125,
+          "top": 59.28372573852539,
+          "width": 365.0747375488281,
+          "x": 188.1597595214844,
+          "y": 59.28372573852539
+        },
+        "title": {
+          "bottom": 57.6953125,
+          "height": 175.5,
+          "left": 176,
+          "right": 787.890625,
+          "top": -117.8046875,
+          "width": 611.890625,
+          "x": 176,
+          "y": -117.8046875
+        }
+      },
+      {
+        "art": {
+          "bottom": 370.4921875,
+          "height": 569.9921875,
+          "left": 957.8046875,
+          "right": 1713.3828125,
+          "top": -199.5,
+          "width": 755.578125,
+          "x": 957.8046875,
+          "y": -199.5
+        },
+        "cta": {
+          "bottom": 324.1875,
+          "height": 56,
+          "left": 176,
+          "right": 388.8359375,
+          "top": 268.1875,
+          "width": 212.8359375,
+          "x": 176,
+          "y": 268.1875
+        },
+        "description": {
+          "bottom": 240.1875,
+          "height": 81,
+          "left": 176,
+          "right": 582.9765625,
+          "top": 159.1875,
+          "width": 406.9765625,
+          "x": 176,
+          "y": 159.1875
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/meatballs-art-v5.webp?v=2ecf36ba54",
+        "subtitle": {
+          "bottom": 141.875,
+          "height": 122.3125,
+          "left": 176,
+          "right": 668.8046875,
+          "top": 19.5625,
+          "width": 492.8046875,
+          "x": 176,
+          "y": 19.5625
+        },
+        "title": {
+          "bottom": 11.3046875,
+          "height": 131.5,
+          "left": 176,
+          "right": 875.1640625,
+          "top": -120.1953125,
+          "width": 699.1640625,
+          "x": 176,
+          "y": -120.1953125
+        }
+      },
+      {
+        "art": {
+          "bottom": 370.4921875,
+          "height": 569.9921875,
+          "left": 909.4765625,
+          "right": 1761.703125,
+          "top": -199.5,
+          "width": 852.2265625,
+          "x": 909.4765625,
+          "y": -199.5
+        },
+        "cta": {
+          "bottom": 329.3125,
+          "height": 56,
+          "left": 176,
+          "right": 356.7421875,
+          "top": 273.3125,
+          "width": 180.7421875,
+          "x": 176,
+          "y": 273.3125
+        },
+        "description": {
+          "bottom": 245.3125,
+          "height": 54,
+          "left": 176,
+          "right": 582.9765625,
+          "top": 191.3125,
+          "width": 406.9765625,
+          "x": 176,
+          "y": 191.3125
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/nuggets-art-v5.webp?v=2a2730733f",
+        "subtitle": {
+          "bottom": 174,
+          "height": 122.3125,
+          "left": 176,
+          "right": 769.8984375,
+          "top": 51.6875,
+          "width": 593.8984375,
+          "x": 176,
+          "y": 51.6875
+        },
+        "title": {
+          "bottom": 46.6875,
+          "height": 175.5,
+          "left": 176,
+          "right": 806.1484375,
+          "top": -128.8125,
+          "width": 630.1484375,
+          "x": 176,
+          "y": -128.8125
+        }
+      },
+      {
+        "art": {
+          "bottom": 370.4921875,
+          "height": 569.9921875,
+          "left": 954.0234375,
+          "right": 1717.1640625,
+          "top": -199.5,
+          "width": 763.140625,
+          "x": 954.0234375,
+          "y": -199.5
+        },
+        "cta": {
+          "bottom": 323.046875,
+          "height": 56,
+          "left": 176,
+          "right": 366.0390625,
+          "top": 267.046875,
+          "width": 190.0390625,
+          "x": 176,
+          "y": 267.046875
+        },
+        "description": {
+          "bottom": 239.046875,
+          "height": 54,
+          "left": 176,
+          "right": 582.9765625,
+          "top": 185.046875,
+          "width": 406.9765625,
+          "x": 176,
+          "y": 185.046875
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/lulia-mini-art-v5.webp?v=c8ec6937e3",
+        "subtitle": {
+          "bottom": 167.734375,
+          "height": 122.3125,
+          "left": 176,
+          "right": 733.984375,
+          "top": 45.421875,
+          "width": 557.984375,
+          "x": 176,
+          "y": 45.421875
+        },
+        "title": {
+          "bottom": 39.1484375,
+          "height": 159,
+          "left": 176,
+          "right": 882.0234375,
+          "top": -119.8515625,
+          "width": 706.0234375,
+          "x": 176,
+          "y": -119.8515625
+        }
+      }
+    ],
+    "scrollY": 342.5,
+    "stage": {
+      "bottom": 445.5,
+      "height": 700,
+      "left": 0,
+      "right": 1920,
+      "top": -254.5,
+      "width": 1920,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 509.5,
+          "height": 48,
+          "left": 312,
+          "right": 598,
+          "top": 461.5,
+          "width": 286,
+          "x": 312,
+          "y": 461.5
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 493.546875,
+          "height": 16.5,
+          "left": 438.6640625,
+          "right": 496.7890625,
+          "top": 477.046875,
+          "width": 58.125,
+          "x": 438.6640625,
+          "y": 477.046875
+        }
+      },
+      {
+        "box": {
+          "bottom": 509.5,
+          "height": 48,
+          "left": 606,
+          "right": 892,
+          "top": 461.5,
+          "width": 286,
+          "x": 606,
+          "y": 461.5
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 493.546875,
+          "height": 16.5,
+          "left": 718.296875,
+          "right": 805.15625,
+          "top": 477.046875,
+          "width": 86.859375,
+          "x": 718.296875,
+          "y": 477.046875
+        }
+      },
+      {
+        "box": {
+          "bottom": 509.5,
+          "height": 48,
+          "left": 900,
+          "right": 1186,
+          "top": 461.5,
+          "width": 286,
+          "x": 900,
+          "y": 461.5
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 493.546875,
+          "height": 16.5,
+          "left": 1026.09375,
+          "right": 1085.3515625,
+          "top": 477.046875,
+          "width": 59.2578125,
+          "x": 1026.09375,
+          "y": 477.046875
+        }
+      },
+      {
+        "box": {
+          "bottom": 509.5,
+          "height": 48,
+          "left": 1194,
+          "right": 1480,
+          "top": 461.5,
+          "width": 286,
+          "x": 1194,
+          "y": 461.5
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 493.546875,
+          "height": 16.5,
+          "left": 1314.2890625,
+          "right": 1385.1640625,
+          "top": 477.046875,
+          "width": 70.875,
+          "x": 1314.2890625,
+          "y": 477.046875
+        }
+      }
+    ],
+    "width": 1920
+  },
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 64,
+      "left": 0,
+      "right": 667,
+      "top": -318.5,
+      "width": 667,
+      "x": 0,
+      "y": -318.5
+    },
+    "height": 375,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 48.203125,
+          "height": 273.4140625,
+          "left": 326.828125,
+          "right": 642.9921875,
+          "top": -225.2109375,
+          "width": 316.1640625,
+          "x": 326.828125,
+          "y": -225.2109375
+        },
+        "cta": {
+          "bottom": 45.4609375,
+          "height": 44,
+          "left": 24,
+          "right": 255.7734375,
+          "top": 1.4609375,
+          "width": 231.7734375,
+          "x": 24,
+          "y": 1.4609375
+        },
+        "description": {
+          "bottom": -14.5390625,
+          "height": 36.25,
+          "left": 24,
+          "right": 314.828125,
+          "top": -50.7890625,
+          "width": 290.828125,
+          "x": 24,
+          "y": -50.7890625
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67",
+        "subtitle": {
+          "bottom": -72.97547912597656,
+          "height": 45.916648864746094,
+          "left": 31.027549743652344,
+          "right": 213.57271575927737,
+          "top": -118.89212799072266,
+          "width": 182.545166015625,
+          "x": 31.027549743652344,
+          "y": -118.89212799072266
+        },
+        "title": {
+          "bottom": -126.1640625,
+          "height": 61,
+          "left": 24,
+          "right": 236.2265625,
+          "top": -187.1640625,
+          "width": 212.2265625,
+          "x": 24,
+          "y": -187.1640625
+        }
+      },
+      {
+        "art": {
+          "bottom": 30.75,
+          "height": 238.5078125,
+          "left": 326.828125,
+          "right": 642.9921875,
+          "top": -207.7578125,
+          "width": 316.1640625,
+          "x": 326.828125,
+          "y": -207.7578125
+        },
+        "cta": {
+          "bottom": 43.3984375,
+          "height": 44,
+          "left": 24,
+          "right": 194.578125,
+          "top": -0.6015625,
+          "width": 170.578125,
+          "x": 24,
+          "y": -0.6015625
+        },
+        "description": {
+          "bottom": -16.6015625,
+          "height": 54.375,
+          "left": 24,
+          "right": 314.828125,
+          "top": -70.9765625,
+          "width": 290.828125,
+          "x": 24,
+          "y": -70.9765625
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/meatballs-art-v5.webp?v=2ecf36ba54",
+        "subtitle": {
+          "bottom": -82.234375,
+          "height": 49.7578125,
+          "left": 24,
+          "right": 224.7734375,
+          "top": -131.9921875,
+          "width": 200.7734375,
+          "x": 24,
+          "y": -131.9921875
+        },
+        "title": {
+          "bottom": -138.8984375,
+          "height": 45.5,
+          "left": 24,
+          "right": 265.4921875,
+          "top": -184.3984375,
+          "width": 241.4921875,
+          "x": 24,
+          "y": -184.3984375
+        }
+      },
+      {
+        "art": {
+          "bottom": 17.2265625,
+          "height": 211.453125,
+          "left": 326.828125,
+          "right": 642.9921875,
+          "top": -194.2265625,
+          "width": 316.1640625,
+          "x": 326.828125,
+          "y": -194.2265625
+        },
+        "cta": {
+          "bottom": 40.8671875,
+          "height": 44,
+          "left": 24,
+          "right": 167.0625,
+          "top": -3.1328125,
+          "width": 143.0625,
+          "x": 24,
+          "y": -3.1328125
+        },
+        "description": {
+          "bottom": -19.1328125,
+          "height": 36.25,
+          "left": 24,
+          "right": 314.828125,
+          "top": -55.3828125,
+          "width": 290.828125,
+          "x": 24,
+          "y": -55.3828125
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/nuggets-art-v5.webp?v=2a2730733f",
+        "subtitle": {
+          "bottom": -66.640625,
+          "height": 49.7578125,
+          "left": 24,
+          "right": 265.9609375,
+          "top": -116.3984375,
+          "width": 241.9609375,
+          "x": 24,
+          "y": -116.3984375
+        },
+        "title": {
+          "bottom": -122.375,
+          "height": 61,
+          "left": 24,
+          "right": 242.5625,
+          "top": -183.375,
+          "width": 218.5625,
+          "x": 24,
+          "y": -183.375
+        }
+      },
+      {
+        "art": {
+          "bottom": 29.5703125,
+          "height": 236.140625,
+          "left": 326.828125,
+          "right": 642.9921875,
+          "top": -206.5703125,
+          "width": 316.1640625,
+          "x": 326.828125,
+          "y": -206.5703125
+        },
+        "cta": {
+          "bottom": 38.2734375,
+          "height": 44,
+          "left": 24,
+          "right": 175.03125,
+          "top": -5.7265625,
+          "width": 151.03125,
+          "x": 24,
+          "y": -5.7265625
+        },
+        "description": {
+          "bottom": -21.7265625,
+          "height": 36.25,
+          "left": 24,
+          "right": 314.828125,
+          "top": -57.9765625,
+          "width": 290.828125,
+          "x": 24,
+          "y": -57.9765625
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/lulia-mini-art-v5.webp?v=c8ec6937e3",
+        "subtitle": {
+          "bottom": -69.234375,
+          "height": 49.7578125,
+          "left": 24,
+          "right": 251.328125,
+          "top": -118.9921875,
+          "width": 227.328125,
+          "x": 24,
+          "y": -118.9921875
+        },
+        "title": {
+          "bottom": -124.4765625,
+          "height": 55.5,
+          "left": 24,
+          "right": 269.8359375,
+          "top": -179.9765625,
+          "width": 245.8359375,
+          "x": 24,
+          "y": -179.9765625
+        }
+      }
+    ],
+    "scrollY": 318.5,
+    "stage": {
+      "bottom": 85.5,
+      "height": 340,
+      "left": 0,
+      "right": 667,
+      "top": -254.5,
+      "width": 667,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 139.5,
+          "height": 44,
+          "left": 24,
+          "right": 148.25,
+          "top": 95.5,
+          "width": 124.25,
+          "x": 24,
+          "y": 95.5
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 124.3515625,
+          "height": 14,
+          "left": 72.3515625,
+          "right": 120,
+          "top": 110.3515625,
+          "width": 47.6484375,
+          "x": 72.3515625,
+          "y": 110.3515625
+        }
+      },
+      {
+        "box": {
+          "bottom": 139.5,
+          "height": 44,
+          "left": 152.25,
+          "right": 276.5,
+          "top": 95.5,
+          "width": 124.25,
+          "x": 152.25,
+          "y": 95.5
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 124.3515625,
+          "height": 14,
+          "left": 188.890625,
+          "right": 259.96875,
+          "top": 110.3515625,
+          "width": 71.078125,
+          "x": 188.890625,
+          "y": 110.3515625
+        }
+      },
+      {
+        "box": {
+          "bottom": 139.5,
+          "height": 44,
+          "left": 280.5,
+          "right": 404.75,
+          "top": 95.5,
+          "width": 124.25,
+          "x": 280.5,
+          "y": 95.5
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 124.3515625,
+          "height": 14,
+          "left": 328.484375,
+          "right": 376.8671875,
+          "top": 110.3515625,
+          "width": 48.3828125,
+          "x": 328.484375,
+          "y": 110.3515625
+        }
+      },
+      {
+        "box": {
+          "bottom": 139.5,
+          "height": 44,
+          "left": 408.75,
+          "right": 533,
+          "top": 95.5,
+          "width": 124.25,
+          "x": 408.75,
+          "y": 95.5
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 124.3515625,
+          "height": 14,
+          "left": 451.9296875,
+          "right": 509.921875,
+          "top": 110.3515625,
+          "width": 57.9921875,
+          "x": 451.9296875,
+          "y": 110.3515625
+        }
+      }
+    ],
+    "width": 667
+  },
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 64,
+      "left": 0,
+      "right": 844,
+      "top": -318.5,
+      "width": 844,
+      "x": 0,
+      "y": -318.5
+    },
+    "height": 390,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 55.796875,
+          "height": 288.59375,
+          "left": 449.9140625,
+          "right": 783.625,
+          "top": -232.796875,
+          "width": 333.7109375,
+          "x": 449.9140625,
+          "y": -232.796875
+        },
+        "cta": {
+          "bottom": 55.765625,
+          "height": 44,
+          "left": 24,
+          "right": 255.7734375,
+          "top": 11.765625,
+          "width": 231.7734375,
+          "x": 24,
+          "y": 11.765625
+        },
+        "description": {
+          "bottom": -4.234375,
+          "height": 36.25,
+          "left": 24,
+          "right": 323.25,
+          "top": -40.484375,
+          "width": 299.25,
+          "x": 24,
+          "y": -40.484375
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67",
+        "subtitle": {
+          "bottom": -61.21051788330078,
+          "height": 56.008941650390625,
+          "left": 30.843494415283203,
+          "right": 253.93979263305664,
+          "top": -117.2194595336914,
+          "width": 223.09629821777344,
+          "x": 30.843494415283203,
+          "y": -117.2194595336914
+        },
+        "title": {
+          "bottom": -121.4765625,
+          "height": 77,
+          "left": 24,
+          "right": 292.5390625,
+          "top": -198.4765625,
+          "width": 268.5390625,
+          "x": 24,
+          "y": -198.4765625
+        }
+      },
+      {
+        "art": {
+          "bottom": 55.796875,
+          "height": 288.59375,
+          "left": 425.4921875,
+          "right": 808.0546875,
+          "top": -232.796875,
+          "width": 382.5625,
+          "x": 425.4921875,
+          "y": -232.796875
+        },
+        "cta": {
+          "bottom": 41.5859375,
+          "height": 44,
+          "left": 24,
+          "right": 194.578125,
+          "top": -2.4140625,
+          "width": 170.578125,
+          "x": 24,
+          "y": -2.4140625
+        },
+        "description": {
+          "bottom": -18.4140625,
+          "height": 36.25,
+          "left": 24,
+          "right": 323.25,
+          "top": -54.6640625,
+          "width": 299.25,
+          "x": 24,
+          "y": -54.6640625
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/meatballs-art-v5.webp?v=2ecf36ba54",
+        "subtitle": {
+          "bottom": -65.640625,
+          "height": 54.4765625,
+          "left": 24,
+          "right": 243.484375,
+          "top": -120.1171875,
+          "width": 219.484375,
+          "x": 24,
+          "y": -120.1171875
+        },
+        "title": {
+          "bottom": -126.0859375,
+          "height": 57.5,
+          "left": 24,
+          "right": 329.5703125,
+          "top": -183.5859375,
+          "width": 305.5703125,
+          "x": 24,
+          "y": -183.5859375
+        }
+      },
+      {
+        "art": {
+          "bottom": 47.4140625,
+          "height": 271.8359375,
+          "left": 413.5546875,
+          "right": 819.9921875,
+          "top": -224.421875,
+          "width": 406.4375,
+          "x": 413.5546875,
+          "y": -224.421875
+        },
+        "cta": {
+          "bottom": 49.8515625,
+          "height": 44,
+          "left": 24,
+          "right": 167.0625,
+          "top": 5.8515625,
+          "width": 143.0625,
+          "x": 24,
+          "y": 5.8515625
+        },
+        "description": {
+          "bottom": -10.1484375,
+          "height": 36.25,
+          "left": 24,
+          "right": 323.25,
+          "top": -46.3984375,
+          "width": 299.25,
+          "x": 24,
+          "y": -46.3984375
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/nuggets-art-v5.webp?v=2a2730733f",
+        "subtitle": {
+          "bottom": -57.375,
+          "height": 54.4765625,
+          "left": 24,
+          "right": 288.5078125,
+          "top": -111.8515625,
+          "width": 264.5078125,
+          "x": 24,
+          "y": -111.8515625
+        },
+        "title": {
+          "bottom": -116.359375,
+          "height": 77,
+          "left": 24,
+          "right": 300.5546875,
+          "top": -193.359375,
+          "width": 276.5546875,
+          "x": 24,
+          "y": -193.359375
+        }
+      },
+      {
+        "art": {
+          "bottom": 55.796875,
+          "height": 288.59375,
+          "left": 423.578125,
+          "right": 809.96875,
+          "top": -232.796875,
+          "width": 386.390625,
+          "x": 423.578125,
+          "y": -232.796875
+        },
+        "cta": {
+          "bottom": 47.359375,
+          "height": 44,
+          "left": 24,
+          "right": 175.03125,
+          "top": 3.359375,
+          "width": 151.03125,
+          "x": 24,
+          "y": 3.359375
+        },
+        "description": {
+          "bottom": -12.640625,
+          "height": 36.25,
+          "left": 24,
+          "right": 323.25,
+          "top": -48.890625,
+          "width": 299.25,
+          "x": 24,
+          "y": -48.890625
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/lulia-mini-art-v5.webp?v=c8ec6937e3",
+        "subtitle": {
+          "bottom": -59.8671875,
+          "height": 54.4765625,
+          "left": 24,
+          "right": 272.5078125,
+          "top": -114.34375,
+          "width": 248.5078125,
+          "x": 24,
+          "y": -114.34375
+        },
+        "title": {
+          "bottom": -119.5625,
+          "height": 70,
+          "left": 24,
+          "right": 335.0703125,
+          "top": -189.5625,
+          "width": 311.0703125,
+          "x": 24,
+          "y": -189.5625
+        }
+      }
+    ],
+    "scrollY": 318.5,
+    "stage": {
+      "bottom": 85.5,
+      "height": 340,
+      "left": 0,
+      "right": 844,
+      "top": -254.5,
+      "width": 844,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 139.5,
+          "height": 44,
+          "left": 24,
+          "right": 192.5,
+          "top": 95.5,
+          "width": 168.5,
+          "x": 24,
+          "y": 95.5
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 124.3515625,
+          "height": 14,
+          "left": 93.7109375,
+          "right": 142.8984375,
+          "top": 110.3515625,
+          "width": 49.1875,
+          "x": 93.7109375,
+          "y": 110.3515625
+        }
+      },
+      {
+        "box": {
+          "bottom": 139.5,
+          "height": 44,
+          "left": 196.5,
+          "right": 365,
+          "top": 95.5,
+          "width": 168.5,
+          "x": 196.5,
+          "y": 95.5
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 124.3515625,
+          "height": 14,
+          "left": 254.0546875,
+          "right": 327.546875,
+          "top": 110.3515625,
+          "width": 73.4921875,
+          "x": 254.0546875,
+          "y": 110.3515625
+        }
+      },
+      {
+        "box": {
+          "bottom": 139.5,
+          "height": 44,
+          "left": 369,
+          "right": 537.5,
+          "top": 95.5,
+          "width": 168.5,
+          "x": 369,
+          "y": 95.5
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 124.3515625,
+          "height": 14,
+          "left": 438.234375,
+          "right": 488.375,
+          "top": 110.3515625,
+          "width": 50.140625,
+          "x": 438.234375,
+          "y": 110.3515625
+        }
+      },
+      {
+        "box": {
+          "bottom": 139.5,
+          "height": 44,
+          "left": 541.5,
+          "right": 710,
+          "top": 95.5,
+          "width": 168.5,
+          "x": 541.5,
+          "y": 95.5
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 124.3515625,
+          "height": 14,
+          "left": 605.8203125,
+          "right": 665.7890625,
+          "top": 110.3515625,
+          "width": 59.96875,
+          "x": 605.8203125,
+          "y": 110.3515625
+        }
+      }
+    ],
+    "width": 844
+  },
+  {
+    "header": {
+      "bottom": -254.5,
+      "height": 64,
+      "left": 0,
+      "right": 932,
+      "top": -318.5,
+      "width": 932,
+      "x": 0,
+      "y": -318.5
+    },
+    "height": 430,
+    "overflow": 0,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 61.4921875,
+          "height": 299.9921875,
+          "left": 508.8828125,
+          "right": 855.78125,
+          "top": -238.5,
+          "width": 346.8984375,
+          "x": 508.8828125,
+          "y": -238.5
+        },
+        "cta": {
+          "bottom": 60.1953125,
+          "height": 44,
+          "left": 24,
+          "right": 255.7734375,
+          "top": 16.1953125,
+          "width": 231.7734375,
+          "x": 24,
+          "y": 16.1953125
+        },
+        "description": {
+          "bottom": 0.1953125,
+          "height": 36.25,
+          "left": 24,
+          "right": 323.25,
+          "top": -36.0546875,
+          "width": 299.25,
+          "x": 24,
+          "y": -36.0546875
+        },
+        "id": "scene-fibriki",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/fibriki-art-v6.webp?v=a4d410fb67",
+        "subtitle": {
+          "bottom": -56.178466796875,
+          "height": 60.33824920654297,
+          "left": 30.754650115966797,
+          "right": 269.949764251709,
+          "top": -116.51671600341795,
+          "width": 239.1951141357422,
+          "x": 30.754650115966797,
+          "y": -116.51671600341795
+        },
+        "title": {
+          "bottom": -118.90625,
+          "height": 84.5,
+          "left": 24,
+          "right": 317.7109375,
+          "top": -203.40625,
+          "width": 293.7109375,
+          "x": 24,
+          "y": -203.40625
+        }
+      },
+      {
+        "art": {
+          "bottom": 61.4921875,
+          "height": 299.9921875,
+          "left": 483.5,
+          "right": 881.171875,
+          "top": -238.5,
+          "width": 397.671875,
+          "x": 483.5,
+          "y": -238.5
+        },
+        "cta": {
+          "bottom": 46.796875,
+          "height": 44,
+          "left": 24,
+          "right": 194.578125,
+          "top": 2.796875,
+          "width": 170.578125,
+          "x": 24,
+          "y": 2.796875
+        },
+        "description": {
+          "bottom": -13.203125,
+          "height": 36.25,
+          "left": 24,
+          "right": 323.25,
+          "top": -49.453125,
+          "width": 299.25,
+          "x": 24,
+          "y": -49.453125
+        },
+        "id": "scene-meatballs",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/meatballs-art-v5.webp?v=2ecf36ba54",
+        "subtitle": {
+          "bottom": -60.140625,
+          "height": 60.1875,
+          "left": 24,
+          "right": 266.390625,
+          "top": -120.328125,
+          "width": 242.390625,
+          "x": 24,
+          "y": -120.328125
+        },
+        "title": {
+          "bottom": -126.296875,
+          "height": 63,
+          "left": 24,
+          "right": 361.4375,
+          "top": -189.296875,
+          "width": 337.4375,
+          "x": 24,
+          "y": -189.296875
+        }
+      },
+      {
+        "art": {
+          "bottom": 61.4921875,
+          "height": 299.9921875,
+          "left": 458.0625,
+          "right": 906.6015625,
+          "top": -238.5,
+          "width": 448.5390625,
+          "x": 458.0625,
+          "y": -238.5
+        },
+        "cta": {
+          "bottom": 55.5859375,
+          "height": 44,
+          "left": 24,
+          "right": 167.0625,
+          "top": 11.5859375,
+          "width": 143.0625,
+          "x": 24,
+          "y": 11.5859375
+        },
+        "description": {
+          "bottom": -4.4140625,
+          "height": 36.25,
+          "left": 24,
+          "right": 323.25,
+          "top": -40.6640625,
+          "width": 299.25,
+          "x": 24,
+          "y": -40.6640625
+        },
+        "id": "scene-nuggets",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/nuggets-art-v5.webp?v=2a2730733f",
+        "subtitle": {
+          "bottom": -51.3515625,
+          "height": 60.1875,
+          "left": 24,
+          "right": 316.109375,
+          "top": -111.5390625,
+          "width": 292.109375,
+          "x": 24,
+          "y": -111.5390625
+        },
+        "title": {
+          "bottom": -115.09375,
+          "height": 84.5,
+          "left": 24,
+          "right": 326.4765625,
+          "top": -199.59375,
+          "width": 302.4765625,
+          "x": 24,
+          "y": -199.59375
+        }
+      },
+      {
+        "art": {
+          "bottom": 61.4921875,
+          "height": 299.9921875,
+          "left": 481.5078125,
+          "right": 883.15625,
+          "top": -238.5,
+          "width": 401.6484375,
+          "x": 481.5078125,
+          "y": -238.5
+        },
+        "cta": {
+          "bottom": 53.1328125,
+          "height": 44,
+          "left": 24,
+          "right": 175.03125,
+          "top": 9.1328125,
+          "width": 151.03125,
+          "x": 24,
+          "y": 9.1328125
+        },
+        "description": {
+          "bottom": -6.8671875,
+          "height": 36.25,
+          "left": 24,
+          "right": 323.25,
+          "top": -43.1171875,
+          "width": 299.25,
+          "x": 24,
+          "y": -43.1171875
+        },
+        "id": "scene-lulia-mini",
+        "src": "http://127.0.0.1:8765/output/concept/assets/product-hero/lulia-mini-art-v5.webp?v=c8ec6937e3",
+        "subtitle": {
+          "bottom": -53.8046875,
+          "height": 60.1875,
+          "left": 24,
+          "right": 298.4453125,
+          "top": -113.9921875,
+          "width": 274.4453125,
+          "x": 24,
+          "y": -113.9921875
+        },
+        "title": {
+          "bottom": -118.3359375,
+          "height": 77.5,
+          "left": 24,
+          "right": 367.515625,
+          "top": -195.8359375,
+          "width": 343.515625,
+          "x": 24,
+          "y": -195.8359375
+        }
+      }
+    ],
+    "scrollY": 318.5,
+    "stage": {
+      "bottom": 85.5,
+      "height": 340,
+      "left": 0,
+      "right": 932,
+      "top": -254.5,
+      "width": 932,
+      "x": 0,
+      "y": -254.5
+    },
+    "tabs": [
+      {
+        "box": {
+          "bottom": 139.5,
+          "height": 44,
+          "left": 24,
+          "right": 214.5,
+          "top": 95.5,
+          "width": 190.5,
+          "x": 24,
+          "y": 95.5
+        },
+        "label": "Фибрики",
+        "text": {
+          "bottom": 124.3515625,
+          "height": 14,
+          "left": 104.7109375,
+          "right": 153.8984375,
+          "top": 110.3515625,
+          "width": 49.1875,
+          "x": 104.7109375,
+          "y": 110.3515625
+        }
+      },
+      {
+        "box": {
+          "bottom": 139.5,
+          "height": 44,
+          "left": 218.5,
+          "right": 409,
+          "top": 95.5,
+          "width": 190.5,
+          "x": 218.5,
+          "y": 95.5
+        },
+        "label": "Фрикадельки",
+        "text": {
+          "bottom": 124.3515625,
+          "height": 14,
+          "left": 287.0546875,
+          "right": 360.546875,
+          "top": 110.3515625,
+          "width": 73.4921875,
+          "x": 287.0546875,
+          "y": 110.3515625
+        }
+      },
+      {
+        "box": {
+          "bottom": 139.5,
+          "height": 44,
+          "left": 413,
+          "right": 603.5,
+          "top": 95.5,
+          "width": 190.5,
+          "x": 413,
+          "y": 95.5
+        },
+        "label": "Наггетсы",
+        "text": {
+          "bottom": 124.3515625,
+          "height": 14,
+          "left": 493.234375,
+          "right": 543.375,
+          "top": 110.3515625,
+          "width": 50.140625,
+          "x": 493.234375,
+          "y": 110.3515625
+        }
+      },
+      {
+        "box": {
+          "bottom": 139.5,
+          "height": 44,
+          "left": 607.5,
+          "right": 798,
+          "top": 95.5,
+          "width": 190.5,
+          "x": 607.5,
+          "y": 95.5
+        },
+        "label": "Люля мини",
+        "text": {
+          "bottom": 124.3515625,
+          "height": 14,
+          "left": 682.8203125,
+          "right": 742.7890625,
+          "top": 110.3515625,
+          "width": 59.96875,
+          "x": 682.8203125,
+          "y": 110.3515625
+        }
+      }
+    ],
+    "width": 932
+  }
+]

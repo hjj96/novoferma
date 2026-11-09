@@ -1,0 +1,44 @@
+const {chromium}=require('/Users/andrey/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs');
+const path=require('path');
+(async()=>{
+ const out=path.resolve('output/pops-2026-11-05/revision-3');
+ const b=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});
+ const page=await b.newPage();
+ await page.emulateMedia({reducedMotion:'reduce'});
+ const failures=[]; const checks=[];
+ page.on('pageerror',e=>failures.push({kind:'pageerror',message:e.message}));
+ const base='http://127.0.0.1:8765/output/concept/';
+ for (const viewport of [{width:1440,height:920},{width:390,height:844}]) {
+  await page.setViewportSize(viewport);
+  const response=await page.goto(base+'product-popsy.html',{waitUntil:'networkidle'});
+  await page.evaluate(()=>document.fonts.ready);
+  await page.locator('.detail-packshot').waitFor();
+  await page.locator('.detail-packshot').evaluate(im=>im.decode());
+  await page.waitForTimeout(250);
+  const state=await page.evaluate(()=>({title:document.title,h1:document.querySelector('h1').textContent.trim(),viewport:innerWidth,documentWidth:document.documentElement.scrollWidth,pack:[...document.images].filter(i=>i.classList.contains('detail-packshot')).map(i=>({src:i.getAttribute('src'),currentSrc:i.currentSrc,complete:i.complete,naturalWidth:i.naturalWidth,srcset:i.getAttribute('srcset')})),links:[...document.querySelectorAll('.product-detail a[href],.product-info a[href]')].map(a=>({text:a.textContent.trim(),href:a.getAttribute('href')}))}));
+  checks.push({page:'product-popsy.html',viewport,status:response.status(),...state});
+  if(state.documentWidth>viewport.width)failures.push({kind:'horizontal-overflow',viewport});
+  if(!state.pack.length||state.pack.some(i=>!i.complete||!i.naturalWidth||!i.currentSrc.includes('popsy-pack-v3-')))failures.push({kind:'wrong-or-unloaded-packshot',viewport});
+  await page.screenshot({path:path.join(out,'assets',viewport.width===1440?'pops-website-v3.png':'pops-website-v3-mobile.png'),fullPage:false});
+ }
+ await page.setViewportSize({width:1440,height:920});
+ await page.goto(base+'catalogue.html',{waitUntil:'networkidle'});
+ const card=page.locator('a[href="product-popsy.html"]').filter({has:page.locator('img[src*="popsy-pack-v3"]')}).first();
+ await card.scrollIntoViewIfNeeded();
+ const cardImg=card.locator('img[src*="popsy-pack-v3"]').first();
+ await cardImg.evaluate(im=>im.decode());
+ checks.push({page:'catalogue.html',changedImage:await cardImg.evaluate(i=>({currentSrc:i.currentSrc,naturalWidth:i.naturalWidth})),href:await card.getAttribute('href')});
+ await card.click(); await page.waitForURL('**/product-popsy.html');
+ checks.push({kind:'catalogue-card-navigation',url:page.url(),pass:page.url().endsWith('/product-popsy.html')});
+ await page.goto(base+'product-kurinyj-popkorn.html',{waitUntil:'networkidle'});
+ const recommendation=page.locator('a[href="product-popsy.html"]').filter({has:page.locator('img[src*="popsy-pack-v3"]')}).first();
+ await recommendation.scrollIntoViewIfNeeded();
+ const recommendationImg=recommendation.locator('img[src*="popsy-pack-v3"]').first();
+ await recommendationImg.evaluate(im=>im.decode());
+ checks.push({page:'product-kurinyj-popkorn.html',changedImage:await recommendationImg.evaluate(i=>({currentSrc:i.currentSrc,naturalWidth:i.naturalWidth})),href:await recommendation.getAttribute('href')});
+ const report={scope:'Changed Pops v3 image on product page at desktop/mobile; changed catalogue/recommendation image and product link. No full suite.',result:failures.length?'fail':'pass',checks,failures};
+ fs.writeFileSync(path.join(out,'website-v3-checks.json'),JSON.stringify(report,null,2)+'\n');
+ console.log(JSON.stringify(report,null,2));
+ await b.close(); if(failures.length)process.exitCode=1;
+})().catch(e=>{console.error(e);process.exit(1)});

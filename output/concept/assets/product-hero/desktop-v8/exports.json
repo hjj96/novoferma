@@ -1,0 +1,114 @@
+{
+  "quality": 95,
+  "pixelResize": false,
+  "files": {
+    "accent.webp": {
+      "bytes": 149966,
+      "sha256": "1875fe015e7cb4c391b5d8c1e1cb8db57812bffd4c0d8ee5c26e4d877f5cbeee"
+    },
+    "fibriki-food-v2.webp": {
+      "bytes": 461610,
+      "sha256": "993aadedb9ce534a9ddb645473d0469db9f4ebc236db7e9cd9d8f89a8c05219d"
+    },
+    "fibriki-food.webp": {
+      "bytes": 565930,
+      "sha256": "ec3960d16f13c8cff8b8a027b286bfd1f2ca49926537f235594494fa91e30c03"
+    },
+    "fibriki-hen-v2.webp": {
+      "bytes": 418184,
+      "sha256": "47a42ff701c3675bf78dd14795aeba572d15b4144c4120b25c7ef244b4b59b49"
+    },
+    "fibriki-hen.webp": {
+      "bytes": 388022,
+      "sha256": "f8f37af7e2ba794b46f2bf78f85d6a9294e54c9379348ad80cb3f00296eb9468"
+    },
+    "ground-shadow.webp": {
+      "bytes": 89286,
+      "sha256": "f8f71546a90aaa3614c566f9f752dbb23251a1de8cf8ed90c720149fb30c13a9"
+    },
+    "lulia-mini-food-v2.webp": {
+      "bytes": 475558,
+      "sha256": "fa1aa8b046494b3a8475a90ebec57ad4d504550ba3fa02db1b5d36984c5739c1"
+    },
+    "lulia-mini-food.webp": {
+      "bytes": 606250,
+      "sha256": "7475153d29b2acff058b42bcde73ed5a0f0f0941800b4d6534833895aabc170b"
+    },
+    "lulia-mini-hen-v2.webp": {
+      "bytes": 571984,
+      "sha256": "7c2e639fdb808df43fce06e0b9e84bce2e93ee71198dac618c442beb649a1bb3"
+    },
+    "lulia-mini-hen.webp": {
+      "bytes": 368908,
+      "sha256": "82ab65d0fc4a17fadaa3c895ba201ce5c64dce7c979d2aa7d8713c7976c73760"
+    },
+    "meatballs-food-v2.webp": {
+      "bytes": 429006,
+      "sha256": "c3cfe280d112b60150d327b280fab2d97db2b8b597ad33b25135c9e60904b74a"
+    },
+    "meatballs-food.webp": {
+      "bytes": 568316,
+      "sha256": "377d4ee883fb6ce3dfa2da2aafe162c83eb2e7463bdf146cae18e717248716f0"
+    },
+    "meatballs-hen-v2.webp": {
+      "bytes": 435528,
+      "sha256": "1bc40a4037856586298add7ceddb68430ecf972f5300be995371b775d5f7bb57"
+    },
+    "meatballs-hen-v3.webp": {
+      "bytes": 413260,
+      "sha256": "c824e14aca93c38bb03a183b3b59cd5f3f58be3216ad72f3ca016300790219a6"
+    },
+    "meatballs-hen-v4.webp": {
+      "bytes": 385336,
+      "sha256": "40bcf0dc863f34e7930153e754e16b579451026ad2458adaf1ae1781efadd5f3"
+    },
+    "meatballs-hen.webp": {
+      "bytes": 356568,
+      "sha256": "ffbabe876e7ed7237fbaaa672e8a2b86f76c261c294e515c93eae7e825e95e03"
+    },
+    "nuggets-food-v2.webp": {
+      "bytes": 449344,
+      "sha256": "62ea4aad79f1278b1a39998b71845ad4334e81bcc06ec4023f8f7dac3dc2afe1"
+    },
+    "nuggets-food-v3.webp": {
+      "bytes": 358802,
+      "sha256": "d35106fcec1e9051562bead1e10b31271e0308ccfcb440f1e315aed91584f43d"
+    },
+    "nuggets-food.webp": {
+      "bytes": 636918,
+      "sha256": "86200ec5db931af674a4fa24c5dbc2e589be6153f4a638a58df5647773a546c2"
+    },
+    "nuggets-hen-v2.webp": {
+      "bytes": 469274,
+      "sha256": "59a6c6f26d2dbcdeae61230b37f2fc11346ae8535d5586230efa7dd1821c8ee2"
+    },
+    "nuggets-hen-v3.webp": {
+      "bytes": 415638,
+      "sha256": "3a2a0b2250e7f1dfb8f4a612aa4a974a8c5b2a545fecb633ebec7688193daec6"
+    },
+    "nuggets-hen.webp": {
+      "bytes": 370056,
+      "sha256": "0f2e8f0e87cb997e9bf6ae0c68f205153d291d62b37b10961de221bb72aa8142"
+    },
+    "popsy-food-v2.webp": {
+      "bytes": 563930,
+      "sha256": "fac35ec7c95d87bc6e3e5f5e345a51cfbd79fab300536b4c18eccdf14ac71e1b"
+    },
+    "popsy-food-v3.webp": {
+      "bytes": 468182,
+      "sha256": "8e98c5527635b19b2f8e93ed24055422f73692495ecda329adda7a8b13a08784"
+    },
+    "popsy-food.webp": {
+      "bytes": 544460,
+      "sha256": "719294ede705247db89f1b4d0fae0ec5c2d75f7cca30f68a4c37f7684a5a28b5"
+    },
+    "popsy-hen-v2.webp": {
+      "bytes": 493640,
+      "sha256": "630ee88064a5e6ea74642299ed7e0a349845a53f1a3be2daa21a544a2d07b66b"
+    },
+    "popsy-hen-v3.webp": {
+      "bytes": 400798,
+      "sha256": "cad095ee2e7add4b1751b10f46bffd92928f5588aa81213596a21cefe71214dc"
+    }
+  }
+}

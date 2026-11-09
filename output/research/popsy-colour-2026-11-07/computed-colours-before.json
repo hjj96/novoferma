@@ -1,0 +1,54 @@
+[
+  {
+    "product": "popsy",
+    "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v3-400-q94-2bbda6ae.webp",
+    "effects": [
+      {
+        "tag": "IMG",
+        "class": "tilt-plane",
+        "filter": "drop-shadow(rgba(64, 33, 17, 0.075) 0px 9px 8px)",
+        "opacity": "1",
+        "blend": "normal"
+      }
+    ]
+  },
+  {
+    "product": "naggetsy-kurinye",
+    "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/naggetsy-kurinye-400-q94-712fb649.webp",
+    "effects": [
+      {
+        "tag": "IMG",
+        "class": "tilt-plane",
+        "filter": "drop-shadow(rgba(64, 33, 17, 0.075) 0px 9px 8px)",
+        "opacity": "1",
+        "blend": "normal"
+      }
+    ]
+  },
+  {
+    "product": "stripsy",
+    "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/stripsy-400-q94-04f43af0.webp",
+    "effects": [
+      {
+        "tag": "IMG",
+        "class": "tilt-plane",
+        "filter": "drop-shadow(rgba(64, 33, 17, 0.075) 0px 9px 8px)",
+        "opacity": "1",
+        "blend": "normal"
+      }
+    ]
+  },
+  {
+    "product": "frikadelki-klassicheskie",
+    "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/frikadelki-klassicheskie-400-q94-e0ef4bbb.webp",
+    "effects": [
+      {
+        "tag": "IMG",
+        "class": "tilt-plane",
+        "filter": "drop-shadow(rgba(64, 33, 17, 0.075) 0px 9px 8px)",
+        "opacity": "1",
+        "blend": "normal"
+      }
+    ]
+  }
+]

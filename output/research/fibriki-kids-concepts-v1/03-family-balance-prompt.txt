@@ -1,0 +1,31 @@
+Use case: product-mockup / source-preserving packaging redesign.
+Create ONE polished new FIBRIKI packaging concept, direction C: “Family balance” — child-friendly warmth while staying closest to the existing NOVOferma product family.
+
+INPUT ROLES:
+Image 1 is the physical package, exact recognizable spoon-holding chicken, natural food photography and general composition master.
+Image 2 is the brand-family reference for the warm beige paper color and quiet photographic packaging finish.
+Use the true intact rounded-rectangular transparent tub, full sleeve silhouette and proportions from these sources. Rework only the printed graphic treatment as specified below.
+
+GRAPHIC DIRECTION:
+A calm, sophisticated family product that children find friendly and parents recognize as good food. Warm beige-ivory matte paper, warm brown display lettering, a muted leafy-green benefit ribbon and one compact warm-orange protein badge. Lots of uncluttered breathing room. No rainbow lettering, no adventure story, no toys, no bright primary-color confetti.
+
+HIERARCHY AND EXACT TEXT:
+1. Existing recognizable orange “NOVOferma” logo at top.
+2. Very large “ФИБРИКИ” in bespoke rounded warm-brown display capitals, softly lively and friendly but not childish bubble-gum lettering. It must be easily readable, all one brown ink color.
+3. A small clean line “Фрикадельки из курицы”.
+4. A broad softly curved muted leaf-green ribbon prominently reads “БЕЛОК + КЛЕТЧАТКА” in clear warm-ivory lettering. This is the second strongest graphic message after the product name. Keep the whole phrase fully legible.
+5. A separate compact warm-orange rounded badge clearly reads “52 г” on its largest line, “БЕЛКА” and “НА УПАКОВКУ” below. This number and wording are confirmed by the client. Place the badge in a balanced free area near the ribbon without obscuring other text, character or food.
+Use ONLY these exact words: NOVOferma; ФИБРИКИ; Фрикадельки из курицы; БЕЛОК + КЛЕТЧАТКА; 52 г БЕЛКА НА УПАКОВКУ.
+No new claims, ages, slogans, ingredients, weights, prices or symbols resembling certifications.
+
+ART AND FOOD:
+Keep the distinctive hand-drawn yellow-orange Novoferma standing chicken with its wooden spoon on the right, but give it a slightly more open, friendly welcoming expression. Preserve the brand's hand-inked illustrated feather detail, narrow natural eye proportions and believable anatomy. Not kawaii, not a 3D character, not a generic cartoon. No new characters, costumes or large props.
+On the left retain the highly realistic photographic serving pair from Image 1: one whole cooked chicken meatball behind one cut half. Natural gentle irregular golden-brown crust and moist tiny pores. The interior is cohesive fine minced chicken with irregular microscopic grain, NOT rice, geometric facets, white pellets or strands. A few tiny muted parsley-like flecks are embedded in the cooked food and the raw balls inside the clear tray; very restrained, not a green pattern.
+A tiny hand-drawn pair of green leaves can accent the benefit ribbon, but do not add scattered garnish or large leafy imagery.
+
+MATERIAL / PHYSICS:
+Match Image 2's warm slightly ochre cream paper, not pale pink or bright white. Keep natural subtle texture and subdued studio lighting. Paper edges are pale clean cuts without a brown perimeter outline.
+The clear plastic tub is undamaged and symmetrical, with coherent continuous slim front rims and modest reflections. No crossing white bands, cracks, kinks, melting or distorted bulges. Retain real food visibility behind the transparent wall.
+
+OUTPUT:
+ONE complete front-facing three-dimensional packshot in the same camera orientation as Image 1. True transparent background with generous empty alpha margin on ALL four sides. Entire package and tub visible, no cropped edges, no outline, halo, external shadow, outer backdrop, text outside the label, collage or comparison board. Refined professional packaging concept ready to compare to two other directions.

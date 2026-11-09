@@ -1,0 +1,42 @@
+/* A compact text band introduces the complete catalogue without extra controls. */
+.page-catalogue .sr-only {
+ position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+ clip:rect(0,0,0,0);white-space:nowrap;border:0;
+}
+.catalogue-header {background:#f4e5c7}
+.catalogue-header-inner {
+ display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);
+ align-items:center;gap:48px;padding-block:32px;
+}
+.page-catalogue .catalogue-heading {min-width:0;margin:0}
+.page-catalogue .catalogue-heading h1 {
+ font-family:var(--font-poster);font-size:clamp(48px,4.4vw,64px);font-weight:900;
+ line-height:1.03;letter-spacing:-.03em;text-transform:uppercase;color:var(--ink);
+}
+.catalogue-heading h1>span,.catalogue-heading h1>em {display:block}
+.catalogue-heading h1>em {color:var(--orange)}
+.catalogue-intro {
+ min-width:0;font-family:var(--font-display);color:var(--brown);
+}
+.catalogue-lead {font-size:22px;font-weight:600;line-height:1.4;letter-spacing:-.02em}
+.catalogue-description {max-width:36ch;margin-top:10px;font-size:18px;font-weight:450;line-height:1.5;color:var(--muted)}
+.page-catalogue .catalogue-page {padding-block:30px 64px}
+.page-catalogue .catalogue-grid {grid-template-columns:repeat(4,minmax(0,1fr));gap:38px 26px}
+@media(max-width:1099px) {
+ .catalogue-header-inner {gap:32px;padding-block:28px}
+ .page-catalogue .catalogue-heading h1 {font-size:clamp(42px,5vw,56px)}
+ .catalogue-lead {font-size:20px}
+ .catalogue-description {font-size:16px}
+ .page-catalogue .catalogue-grid {grid-template-columns:repeat(3,minmax(0,1fr));gap:34px 24px}
+}
+@media(max-width:699px) {
+ .catalogue-header-inner {grid-template-columns:1fr;gap:20px;padding-block:24px}
+ .page-catalogue .catalogue-heading h1 {font-size:clamp(36px,10.6vw,46px)}
+ .catalogue-lead {font-size:18px}
+ .catalogue-description {margin-top:8px;font-size:16px}
+ .page-catalogue .catalogue-page {padding-block:24px 42px}
+ .page-catalogue .catalogue-grid {grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 16px}
+}
+@media(max-width:359px) {
+ .page-catalogue .catalogue-grid {gap:26px 13px}
+}

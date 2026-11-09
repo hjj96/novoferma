@@ -1,0 +1,15 @@
+Precise transparent-background cleanup of THIS EXACT existing1254×1254 mobile Nuggets illustration. Change ONLY EXTERIOR CAST/CONTACT SHADOWS on otherwise empty background. Keep original native square crop, all object positions/sizes/silhouettes, exactly the same food and character geometry, colors, poses, textures and details.
+
+REMOVE COMPLETELY the brown/gray fuzzy flat shadow mats projected OUTSIDE objects: beneath/around the three food pieces and crumbs/cup, beneath the skateboard deck/wheels, and beneath the sneakers. Every such external background shadow must become TRUE ALPHA0 transparency. No gray/brown puddle, floor oval, soft glow, hazy fringe or shadow bridge between photofood and drawn skateboard. Do not paint a new background. The final transparent asset will be placed on uniform warm cream, with NO exterior shadows at all.
+
+PRESERVE EXACTLY:
+- The THREE photoreal food pieces at left: two whole golden breaded Nuggets and one foreground cut half with its intact breading edge and white chicken interior; same placement, natural texture, sizes and angles.
+- White sauce cup with red ketchup, crumbs and all opaque food details.
+- Natural shading ON the actual opaque food surfaces, inside breading texture and cut interior, and occlusion BETWEEN touching food pieces/cup. Keep their internal3D volume, browning and real appetizing food texture. Removing shadows must not flatten them into flat cutouts.
+- The entire same expressive muted-amber/ochre chicken skater in green varsity jacket/cream tee/rust shorts/high-top sneakers, same eyes, beak, comb, orange wings, chocolate ink, same pose/scale and fine hand-drawn texture.
+- Whole illustrated skateboard, trucks, all wheels, sneaker laces/soles, their original opaque outlines and own form shading. Keep drawn dark contours. Preserve object-to-object occlusion such as sneaker resting on deck and wheel under deck.
+- Existing two minimal red accent pairs and the clear physical gap from photofood/cup to drawn character/skateboard. No new food, objects or marks.
+
+Where there is EMPTY AIR or empty BACKGROUND outside these actual silhouettes, output alpha0, including immediately below the lowest breaded half, food crumbs, wheel bottoms and planted shoe sole. Preserve smooth clean antialiased natural object edges without an opaque matte/halo. All opaque cream/white material remains opaque, never erase cup, tee, eyes, soles or food interior.
+
+Return native1254square RGBA TRUE transparency. No background/floor, cast/contact shadows, text, logo, glow, vignette, added ball or extra props. This is ONLY exterior-shadow removal, not a new composition or style variation.

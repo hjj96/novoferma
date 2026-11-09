@@ -1,0 +1,314 @@
+{
+  "slides": [
+    {
+      "page": 1,
+      "subject": "Знакомство с компанией"
+    },
+    {
+      "page": 2,
+      "subject": "Белок"
+    },
+    {
+      "page": 3,
+      "subject": "Фибрики. Новинка"
+    },
+    {
+      "page": 4,
+      "subject": "Наша продукция / 1"
+    },
+    {
+      "page": 5,
+      "subject": "Наша продукция / 2"
+    },
+    {
+      "page": 6,
+      "subject": "Наша продукция / 3"
+    },
+    {
+      "page": 7,
+      "subject": "Продукция Новофермы и СТМ"
+    },
+    {
+      "page": 8,
+      "subject": "Контакты"
+    }
+  ],
+  "images": [
+    {
+      "page": 1,
+      "file": "/Users/andrey/Desktop/сайт нф/output/concept/assets/logo-reference.webp",
+      "x": 44.0,
+      "y": 27.0,
+      "w": 157.0,
+      "h": 31.649867374005304,
+      "multiply": false
+    },
+    {
+      "page": 1,
+      "file": "/Users/andrey/Desktop/сайт нф/output/concept/assets/mascot-contact-restored-v2.webp",
+      "x": 722.0,
+      "y": 156.10714285714286,
+      "w": 238.0,
+      "h": 389.7857142857143,
+      "multiply": false
+    },
+    {
+      "page": 2,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v7/assets/protein-lifestyle.png",
+      "x": 0.0,
+      "y": 0.1435406698564634,
+      "w": 960.0,
+      "h": 539.7129186602871,
+      "multiply": false
+    },
+    {
+      "page": 2,
+      "file": "/Users/andrey/Desktop/сайт нф/output/concept/assets/logo-reference.webp",
+      "x": 44.0,
+      "y": 27.0,
+      "w": 157.0,
+      "h": 31.649867374005304,
+      "multiply": false
+    },
+    {
+      "page": 2,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v9/assets/protein-paint-seal.png",
+      "x": 34.0,
+      "y": 220.03921806702283,
+      "w": 400.0,
+      "h": 148.42156386595434,
+      "multiply": false
+    },
+    {
+      "page": 3,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v7/assets/fibriki-lifestyle.png",
+      "x": 0.5419766206163672,
+      "y": 0.0,
+      "w": 958.9160467587673,
+      "h": 540.0,
+      "multiply": false
+    },
+    {
+      "page": 3,
+      "file": "/Users/andrey/Desktop/сайт нф/output/concept/assets/logo-reference.webp",
+      "x": 44.0,
+      "y": 27.0,
+      "w": 157.0,
+      "h": 31.649867374005304,
+      "multiply": false
+    },
+    {
+      "page": 3,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v9/assets/fibriki-paint-pair.png",
+      "x": 35.016626506024096,
+      "y": 378.0,
+      "w": 329.9667469879518,
+      "h": 144.6,
+      "multiply": false
+    },
+    {
+      "page": 4,
+      "file": "/Users/andrey/Desktop/сайт нф/output/concept/assets/logo-reference.webp",
+      "x": 44.0,
+      "y": 27.0,
+      "w": 157.0,
+      "h": 31.649867374005304,
+      "multiply": false
+    },
+    {
+      "page": 4,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/naggetsy-kurinye.webp",
+      "x": 82.57142857142858,
+      "y": 100.0,
+      "w": 182.85714285714283,
+      "h": 160.0,
+      "multiply": false
+    },
+    {
+      "page": 4,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/naggetsy-kurinye-s-syrom.webp",
+      "x": 388.57142857142856,
+      "y": 100.0,
+      "w": 182.85714285714283,
+      "h": 160.0,
+      "multiply": false
+    },
+    {
+      "page": 4,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/naggetsy-ostrye.webp",
+      "x": 694.5714285714286,
+      "y": 100.0,
+      "w": 182.85714285714283,
+      "h": 160.0,
+      "multiply": false
+    },
+    {
+      "page": 4,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/naggetsy-dinozavry.webp",
+      "x": 235.57142857142858,
+      "y": 318.0,
+      "w": 182.85714285714283,
+      "h": 160.0,
+      "multiply": false
+    },
+    {
+      "page": 4,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/naggetsy-s-indeykoy-fitnes.webp",
+      "x": 541.5714285714286,
+      "y": 318.0,
+      "w": 182.85714285714283,
+      "h": 160.0,
+      "multiply": false
+    },
+    {
+      "page": 5,
+      "file": "/Users/andrey/Desktop/сайт нф/output/concept/assets/logo-reference.webp",
+      "x": 44.0,
+      "y": 27.0,
+      "w": 157.0,
+      "h": 31.649867374005304,
+      "multiply": false
+    },
+    {
+      "page": 5,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/kotlety-kurinye.webp",
+      "x": 82.57142857142858,
+      "y": 100.0,
+      "w": 182.85714285714283,
+      "h": 160.0,
+      "multiply": false
+    },
+    {
+      "page": 5,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/kotlety-po-domashnemu.webp",
+      "x": 388.57142857142856,
+      "y": 100.0,
+      "w": 182.85714285714283,
+      "h": 160.0,
+      "multiply": false
+    },
+    {
+      "page": 5,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/kotlety-pikantnye.webp",
+      "x": 694.5714285714286,
+      "y": 100.0,
+      "w": 182.85714285714283,
+      "h": 160.0,
+      "multiply": false
+    },
+    {
+      "page": 5,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/kotlety-po-italyanski.webp",
+      "x": 235.57142857142858,
+      "y": 318.0,
+      "w": 182.85714285714283,
+      "h": 160.0,
+      "multiply": false
+    },
+    {
+      "page": 5,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/bitochki-kurinye-s-ovoshchami.webp",
+      "x": 541.5714285714286,
+      "y": 318.0,
+      "w": 182.85714285714283,
+      "h": 160.0,
+      "multiply": false
+    },
+    {
+      "page": 6,
+      "file": "/Users/andrey/Desktop/сайт нф/output/concept/assets/logo-reference.webp",
+      "x": 44.0,
+      "y": 27.0,
+      "w": 157.0,
+      "h": 31.649867374005304,
+      "multiply": false
+    },
+    {
+      "page": 6,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/frikadelki-klassicheskie.webp",
+      "x": 82.57142857142858,
+      "y": 100.0,
+      "w": 182.85714285714283,
+      "h": 160.0,
+      "multiply": false
+    },
+    {
+      "page": 6,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/ezhiki-iz-tsyplenka-s-risom.webp",
+      "x": 388.57142857142856,
+      "y": 100.0,
+      "w": 182.85714285714283,
+      "h": 160.0,
+      "multiply": false
+    },
+    {
+      "page": 6,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/stripsy.webp",
+      "x": 694.5714285714286,
+      "y": 100.0,
+      "w": 182.85714285714283,
+      "h": 160.0,
+      "multiply": false
+    },
+    {
+      "page": 6,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/kurinyj-popkorn.webp",
+      "x": 235.57142857142858,
+      "y": 318.0,
+      "w": 182.85714285714283,
+      "h": 160.0,
+      "multiply": false
+    },
+    {
+      "page": 6,
+      "file": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/popsy.webp",
+      "x": 532.3710691823899,
+      "y": 318.0,
+      "w": 201.25786163522014,
+      "h": 160.0,
+      "multiply": false
+    },
+    {
+      "page": 7,
+      "file": "/Users/andrey/Desktop/сайт нф/output/concept/assets/logo-reference.webp",
+      "x": 44.0,
+      "y": 27.0,
+      "w": 157.0,
+      "h": 31.649867374005304,
+      "multiply": false
+    },
+    {
+      "page": 8,
+      "file": "/Users/andrey/Desktop/сайт нф/output/concept/assets/logo-reference.webp",
+      "x": 44.0,
+      "y": 27.0,
+      "w": 157.0,
+      "h": 31.649867374005304,
+      "multiply": false
+    },
+    {
+      "page": 8,
+      "file": "/Users/andrey/Desktop/сайт нф/output/concept/assets/mascot-contact-restored-v2.webp",
+      "x": 722.0,
+      "y": 156.10714285714286,
+      "w": 238.0,
+      "h": 389.7857142857143,
+      "multiply": false
+    }
+  ],
+  "revision_requirements": {
+    "welcome": "Handwritten line removed; title and paragraph centered vertically in the left composition; approved mascot preserved",
+    "protein": "52g perClassicpack; rebalanced paintedseal; explanatory protein role and natural poultry source; ingredients and noadditives scoped toClassic",
+    "fibriki": "Prominent newproduct announcement; protein plus fibre product headline; fibre definition and familiar serving uses; approved lifestyle unchanged",
+    "catalogue": "All15exactcurrentHTML800wassets;nativeRGBandalphalossless;Normalblend;same5/5/5grid; no category subtitles; pixelidenticaltov11",
+    "offers": "Keepv11pixelidentical",
+    "closing": "Keepv11pixelidentical"
+  },
+  "evidence": {
+    "protein_52g": "Earlier explicit owner value, retained over casual50g wording",
+    "classic_no_additives": "Latest owner instruction plus originalClassicpack wording;nottransferredtoFibriki",
+    "source_research": "output/brochure-v8/company-evidence.json;output/brochure-v8/nutrition-evidence.json",
+    "generated_art": "Built-inImageGen;prompts saved alongsidePNGassets"
+  },
+  "scope": "14 series products plus Popsy; separate Fibriki innovation."
+}

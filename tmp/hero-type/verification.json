@@ -1,0 +1,448 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "width": 320,
+      "pass": true,
+      "errors": [],
+      "viewport": 320,
+      "scrollWidth": 320,
+      "lines": 2,
+      "lineBoxes": [
+        {
+          "left": 16,
+          "right": 294.828125,
+          "top": 97,
+          "bottom": 155
+        },
+        {
+          "left": 16,
+          "right": 294.640625,
+          "top": 144.765625,
+          "bottom": 202.765625
+        }
+      ],
+      "copy": {
+        "left": 16,
+        "right": 304
+      },
+      "headingBottom": 198.53125,
+      "paragraphTop": 220.53125,
+      "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+      "weight": "850",
+      "size": "49.248px",
+      "transform": "none",
+      "posterLoaded": true,
+      "childElements": [
+        "BR"
+      ]
+    },
+    {
+      "width": 375,
+      "pass": true,
+      "errors": [],
+      "viewport": 375,
+      "scrollWidth": 375,
+      "lines": 2,
+      "lineBoxes": [
+        {
+          "left": 20,
+          "right": 344.359375,
+          "top": 104,
+          "bottom": 172
+        },
+        {
+          "left": 20,
+          "right": 344.140625,
+          "top": 159.5625,
+          "bottom": 227.5625
+        }
+      ],
+      "copy": {
+        "left": 20,
+        "right": 355
+      },
+      "headingBottom": 222.125,
+      "paragraphTop": 248.125,
+      "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+      "weight": "850",
+      "size": "57.285px",
+      "transform": "none",
+      "posterLoaded": true,
+      "childElements": [
+        "BR"
+      ]
+    },
+    {
+      "width": 600,
+      "pass": true,
+      "errors": [],
+      "viewport": 600,
+      "scrollWidth": 600,
+      "lines": 2,
+      "lineBoxes": [
+        {
+          "left": 20,
+          "right": 562.25,
+          "top": 100,
+          "bottom": 214
+        },
+        {
+          "left": 20,
+          "right": 561.875,
+          "top": 192.890625,
+          "bottom": 306.890625
+        }
+      ],
+      "copy": {
+        "left": 20,
+        "right": 580
+      },
+      "headingBottom": 296.78125,
+      "paragraphTop": 322.78125,
+      "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+      "weight": "850",
+      "size": "95.76px",
+      "transform": "none",
+      "posterLoaded": true,
+      "childElements": [
+        "BR"
+      ]
+    },
+    {
+      "width": 699,
+      "pass": true,
+      "errors": [],
+      "viewport": 699,
+      "scrollWidth": 699,
+      "lines": 2,
+      "lineBoxes": [
+        {
+          "left": 20,
+          "right": 631.546875,
+          "top": 99,
+          "bottom": 227
+        },
+        {
+          "left": 20,
+          "right": 631.140625,
+          "top": 203.75,
+          "bottom": 331.75
+        }
+      ],
+      "copy": {
+        "left": 20,
+        "right": 679
+      },
+      "headingBottom": 320.5,
+      "paragraphTop": 346.5,
+      "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+      "weight": "850",
+      "size": "108px",
+      "transform": "none",
+      "posterLoaded": true,
+      "childElements": [
+        "BR"
+      ]
+    },
+    {
+      "width": 700,
+      "pass": true,
+      "errors": [],
+      "viewport": 700,
+      "scrollWidth": 700,
+      "lines": 2,
+      "lineBoxes": [
+        {
+          "left": 32,
+          "right": 339.875,
+          "top": 180.265625,
+          "bottom": 245.265625
+        },
+        {
+          "left": 32,
+          "right": 339.671875,
+          "top": 233,
+          "bottom": 298
+        }
+      ],
+      "copy": {
+        "left": 32,
+        "right": 350
+      },
+      "headingBottom": 292.734375,
+      "paragraphTop": 323.734375,
+      "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+      "weight": "850",
+      "size": "54.378px",
+      "transform": "none",
+      "posterLoaded": true,
+      "childElements": [
+        "BR"
+      ]
+    },
+    {
+      "width": 768,
+      "pass": true,
+      "errors": [],
+      "viewport": 768,
+      "scrollWidth": 768,
+      "lines": 2,
+      "lineBoxes": [
+        {
+          "left": 32,
+          "right": 372.828125,
+          "top": 174.625,
+          "bottom": 245.625
+        },
+        {
+          "left": 32,
+          "right": 372.609375,
+          "top": 233,
+          "bottom": 304
+        }
+      ],
+      "copy": {
+        "left": 32,
+        "right": 384
+      },
+      "headingBottom": 298.375,
+      "paragraphTop": 329.375,
+      "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+      "weight": "850",
+      "size": "60.192px",
+      "transform": "none",
+      "posterLoaded": true,
+      "childElements": [
+        "BR"
+      ]
+    },
+    {
+      "width": 959,
+      "pass": true,
+      "errors": [],
+      "viewport": 959,
+      "scrollWidth": 959,
+      "lines": 2,
+      "lineBoxes": [
+        {
+          "left": 32,
+          "right": 465.296875,
+          "top": 189.46875,
+          "bottom": 280.46875
+        },
+        {
+          "left": 32,
+          "right": 465,
+          "top": 263.6875,
+          "bottom": 354.6875
+        }
+      ],
+      "copy": {
+        "left": 32,
+        "right": 479.5
+      },
+      "headingBottom": 346.90625,
+      "paragraphTop": 377.90625,
+      "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+      "weight": "850",
+      "size": "76.5225px",
+      "transform": "none",
+      "posterLoaded": true,
+      "childElements": [
+        "BR"
+      ]
+    },
+    {
+      "width": 960,
+      "pass": true,
+      "errors": [],
+      "viewport": 960,
+      "scrollWidth": 960,
+      "lines": 2,
+      "lineBoxes": [
+        {
+          "left": 32,
+          "right": 445.078125,
+          "top": 197.75,
+          "bottom": 283.75
+        },
+        {
+          "left": 32,
+          "right": 444.8125,
+          "top": 268.5,
+          "bottom": 354.5
+        }
+      ],
+      "copy": {
+        "left": 32,
+        "right": 458.65625
+      },
+      "headingBottom": 347.25,
+      "paragraphTop": 378.25,
+      "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+      "weight": "850",
+      "size": "72.9582px",
+      "transform": "none",
+      "posterLoaded": true,
+      "childElements": [
+        "BR"
+      ]
+    },
+    {
+      "width": 1199,
+      "pass": true,
+      "errors": [],
+      "viewport": 1199,
+      "scrollWidth": 1199,
+      "lines": 2,
+      "lineBoxes": [
+        {
+          "left": 32,
+          "right": 555.328125,
+          "top": 219.046875,
+          "bottom": 328.046875
+        },
+        {
+          "left": 32,
+          "right": 554.984375,
+          "top": 308.6875,
+          "bottom": 417.6875
+        }
+      ],
+      "copy": {
+        "left": 32,
+        "right": 572.46875
+      },
+      "headingBottom": 408.328125,
+      "paragraphTop": 439.328125,
+      "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+      "weight": "850",
+      "size": "92.4202px",
+      "transform": "none",
+      "posterLoaded": true,
+      "childElements": [
+        "BR"
+      ]
+    },
+    {
+      "width": 1200,
+      "pass": true,
+      "errors": [],
+      "viewport": 1200,
+      "scrollWidth": 1200,
+      "lines": 2,
+      "lineBoxes": [
+        {
+          "left": 48,
+          "right": 557,
+          "top": 211.078125,
+          "bottom": 317.078125
+        },
+        {
+          "left": 48,
+          "right": 556.65625,
+          "top": 298.265625,
+          "bottom": 404.265625
+        }
+      ],
+      "copy": {
+        "left": 48,
+        "right": 573.703125
+      },
+      "headingBottom": 395.453125,
+      "paragraphTop": 426.453125,
+      "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+      "weight": "850",
+      "size": "89.8952px",
+      "transform": "none",
+      "posterLoaded": true,
+      "childElements": [
+        "BR"
+      ]
+    },
+    {
+      "width": 1440,
+      "pass": true,
+      "errors": [],
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "lines": 2,
+      "lineBoxes": [
+        {
+          "left": 72,
+          "right": 669.5625,
+          "top": 206.625,
+          "bottom": 331.625
+        },
+        {
+          "left": 72,
+          "right": 669.171875,
+          "top": 308.984375,
+          "bottom": 433.984375
+        }
+      ],
+      "copy": {
+        "left": 72,
+        "right": 689.140625
+      },
+      "headingBottom": 423.34375,
+      "paragraphTop": 454.34375,
+      "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+      "weight": "850",
+      "size": "105.531px",
+      "transform": "none",
+      "posterLoaded": true,
+      "childElements": [
+        "BR"
+      ]
+    },
+    {
+      "width": 1920,
+      "pass": true,
+      "errors": [],
+      "viewport": 1920,
+      "scrollWidth": 1920,
+      "lines": 2,
+      "lineBoxes": [
+        {
+          "left": 312,
+          "right": 909.5625,
+          "top": 206.625,
+          "bottom": 331.625
+        },
+        {
+          "left": 312,
+          "right": 909.171875,
+          "top": 308.984375,
+          "bottom": 433.984375
+        }
+      ],
+      "copy": {
+        "left": 312,
+        "right": 929.140625
+      },
+      "headingBottom": 423.34375,
+      "paragraphTop": 454.34375,
+      "font": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+      "weight": "850",
+      "size": "105.531px",
+      "transform": "none",
+      "posterLoaded": true,
+      "childElements": [
+        "BR"
+      ]
+    }
+  ],
+  "fileNoJS": {
+    "fontLoaded": true,
+    "heading": 1
+  },
+  "motion": {
+    "transform": "none",
+    "animation": "rise-in",
+    "children": [
+      "BR"
+    ]
+  }
+}

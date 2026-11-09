@@ -1,0 +1,17 @@
+const {chromium}=require('/Users/andrey/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs');
+(async()=>{const browser=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});const results=[];
+ for(const width of [320,375,600,699,700,768,959,960,1199,1200,1440,1920]){
+  const page=await browser.newPage({viewport:{width,height:950},reducedMotion:'reduce'});const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('requestfailed',r=>errors.push(r.url()));
+  await page.goto('http://127.0.0.1:8765/output/concept/index.html',{waitUntil:'networkidle'});await page.evaluate(()=>document.fonts.ready);
+  const layout=await page.locator('.hero h1').evaluate(h=>{const copy=h.parentElement.getBoundingClientRect(),heading=h.getBoundingClientRect();const rects=[...h.childNodes].filter(n=>n.nodeType===Node.TEXT_NODE).flatMap(n=>{const r=document.createRange();r.selectNode(n);return [...r.getClientRects()].map(b=>({left:b.left,right:b.right,top:b.top,bottom:b.bottom}))});const s=getComputedStyle(h);return {viewport:innerWidth,scrollWidth:document.documentElement.scrollWidth,lines:rects.length,lineBoxes:rects,copy:{left:copy.left,right:copy.right},headingBottom:heading.bottom,paragraphTop:h.nextElementSibling.getBoundingClientRect().top,font:s.fontFamily,weight:s.fontWeight,size:s.fontSize,transform:s.transform,posterLoaded:document.fonts.check('850 100px "Novoferma Poster"'),childElements:[...h.children].map(n=>n.tagName)}});
+  if([320,375,768,1440].includes(width))await page.screenshot({path:`tmp/hero-type/final-${width}.png`});
+  const heading=await page.getByRole('heading',{level:1,name:'Есть повод собраться.'}).count();
+  if(width===375||width===1440){await page.locator('.hero .button').click();await page.waitForURL('**/catalogue.html');}
+  const pass=errors.length===0&&heading===1&&layout.scrollWidth<=width&&layout.lines===2&&layout.lineBoxes.every(x=>x.left>=layout.copy.left-1&&x.right<=layout.copy.right+1)&&layout.headingBottom<layout.paragraphTop&&layout.transform==='none'&&layout.posterLoaded;
+  results.push({width,pass,errors,...layout});await page.close();
+ }
+ const local=await browser.newPage({viewport:{width:375,height:950},javaScriptEnabled:false,reducedMotion:'reduce'});await local.goto('file://'+process.cwd()+'/output/concept/index.html');await local.evaluate(()=>document.fonts.ready);const fileNoJS={fontLoaded:await local.evaluate(()=>document.fonts.check('850 100px "Novoferma Poster"')),heading:await local.getByRole('heading',{level:1,name:'Есть повод собраться.'}).count()};await local.close();
+ const p=await browser.newPage({viewport:{width:1440,height:950}});await p.goto('http://127.0.0.1:8765/output/concept/index.html',{waitUntil:'networkidle'});await p.waitForTimeout(1000);const motion=await p.locator('.hero h1').evaluate(h=>({transform:getComputedStyle(h).transform,animation:getComputedStyle(h).animationName,children:[...h.children].map(e=>e.tagName)}));await p.screenshot({path:'tmp/hero-type/final-motion-1440.png'});await browser.close();
+ const pass=results.every(r=>r.pass)&&fileNoJS.fontLoaded&&fileNoJS.heading===1;const report={pass,results,fileNoJS,motion};fs.writeFileSync('tmp/hero-type/verification.json',JSON.stringify(report,null,2));console.log(JSON.stringify({pass,results:results.map(({width,pass,size,errors,lines})=>({width,pass,size,lines,errors})),fileNoJS,motion},null,2));if(!pass)process.exit(1);
+})().catch(e=>{console.error(e);process.exit(1)});

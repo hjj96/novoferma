@@ -1,0 +1,28 @@
+Use case: precise-object-edit, realistic product-packaging photograph.
+
+PRIMARY EDIT TARGET IS IMAGE 1, the ORIGINAL photograph of NOVOferma СТРИПСЫ, not a generated packaging image. Keep its real physical package, perspective, shallow transparent PET tray, label silhouette, matte cream paper color, sleeve folds, camera angle, lighting, and overall proportions almost pixel-identical. Change the SKU's printed content and tray food to the new product ПОПСЫ. The result should look like the exact next SKU photographed in the same session, not a redesigned brand.
+
+Image 2 ORIGINAL НАГГЕТСЫ КУРИНЫЕ ОСТРЫЕ is the authority for flat ink-outlined funny chicken illustration printed directly on cream paper. Image 3 ORIGINAL ПОПКОРН is a supporting reference for combining photographic appetizing food with a printed chicken action scene. Do NOT copy any claims, ingredients or current product wording from any reference.
+
+Brand layout must stay extremely close to the originals:
+- Small orange NOVOferma wordmark at original top position and original scale.
+- Large but airy dark olive-brown "ПОПСЫ" in the SAME THIN HIGH-CONTRAST ROMAN SERIF as original СТРИПСЫ / НАГГЕТСЫ: fine hairline strokes, moderate main stems, elegant spaced letters, slight arch/perspective that follows the real sleeve. Do not use thick inflated bold lettering, not a luxury fashion redesign.
+- Two small descriptor lines below the name. Keep substantial cream negative space, as original classical retail packaging.
+- The action illustration and food are printed in the LOWER portion of the sleeve, not on top of the title and not as a giant full-bleed CGI mascot.
+
+Exact only text, preserve Cyrillic spelling:
+"NOVOferma"
+"ПОПСЫ"
+"МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ"
+"В ХРУСТЯЩЕЙ ПАНИРОВКЕ"
+No other readable text. Do not retain "100% натурально", current ingredient/claim copy, weights, composition, barcode, nutrition or certification from references.
+
+New lively youth/rock action scene printed on the lower sleeve:
+The familiar ORIGINAL NOVOferma chicken, drawn with thin dark ink contours and FLAT ochre/yellow/russet fills and sparse expressive feather strokes just like the original spicy nuggets illustration, becomes a cheeky little drummer. A terracotta bucket filled with tiny golden pops serves as an improvised drum. The chicken stands beside/behind the bucket in a lively rhythmic rock pose, slightly bent dark thin bird legs and bird feet, ruffled red comb, sly squint, small natural beak. It wears a modest open black denim/rock vest without words or emblems. Its two anatomically feathered wings hold exactly two thin wooden drumsticks and tap the side/rim of the bucket, not mash the food. The wing tips grip naturally, no human hands/fingers. Two or three little pops jump lightly above the bucket to suggest beat and movement. Scene should be funny and energetic yet appetizing and immediately readable. Bucket prominent in the action, chicken secondary to the product. A small cluster of 3 cooked pops can sit to the side if the original food layout needs balance.
+This must be a simple PRINTED ILLUSTRATION in the same visual language as original spicy chicken: flat ink line art, restrained fills, not highly painted feathers, not a glossy 3D bird, not plush, no huge cute eyes, no Disney/Pixar, no digital-rendered mascot, no human anatomy. The black vest is a small accent only. Preserve the CLASSIC CREAM PACKAGING. No neon, no graffiti, no black background, no rock band logo, no added slogan.
+
+Pops food is specifically small irregular rounded minced-chicken mini-nuggets, approx 2–3 cm, softly angular round clumps, fine golden breadcrumb crust, NO strips, NO flat large nuggets, NO large cornflakes. The bucket and printed serving show prepared appetizing warm golden pops. Inside the physical tray show matching much paler slightly matte frozen breaded semi-finished pops, as in the original product photo, naturally packed with light breading, not glossy deep-fried plated food. No green herbs, no assumptions about ingredients.
+
+Physical realism: keep low clear lightweight thin PET container, subdued photographic highlights/ribs, real thin film, honest soft studio light, matte label printing and minor paper wrinkles exactly like ORIGINAL IMAGE 1. Not a heavy glass container, no bulging overly sculpted sleeve, no exaggerated studio gloss or hyperreal CGI.
+
+Deliver a single full intact photographed package cutout centered on genuinely TRANSPARENT alpha background, with generous safe margins at least 8% each side. No outer speckles, no halos or white/colored pixel islands, no printed artwork outside the physical sleeve. Native high resolution, target 2048 square or larger if supported. No frame, no collage, no extra scene behind the package.

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff5e3">
+  <title>Фрикадельный дождь — загрузка Новофермы</title>
+  <link rel="stylesheet" href="assets/fonts/font-face.css">
+  <link rel="stylesheet" href="loading-concept.css">
+  <script src="loading-concept.js" defer></script>
+</head>
+<body>
+  <main class="presentation">
+    <header class="presentation-header">
+      <a href="index.html" aria-label="Новоферма — главная"><img src="assets/logo-reference.webp" width="188" height="38" alt="NOVOferma"></a>
+      <p>Движение бренда <span>/</span> 02</p>
+    </header>
+
+    <div class="intro"><h1>Фрикадельный дождь.</h1><span>Только движение</span></div>
+
+    <section class="screen" aria-label="Предпросмотр анимации загрузки">
+      <iframe class="site-preview" src="index.html" title="Главная страница Новофермы после загрузки" inert></iframe>
+      <div class="curtain">
+        <canvas class="meatballs" aria-hidden="true"></canvas>
+      </div>
+      <noscript><style>.curtain,.playback{display:none!important}</style><div class="no-script">Для просмотра анимации включите JavaScript. <a href="index.html">Открыть сайт ↗</a></div></noscript>
+    </section>
+
+    <div class="playback">
+      <button class="play" type="button"><span class="play-symbol" aria-hidden="true">↗</span><span class="play-label">Смотреть анимацию</span></button>
+      <button class="skip" type="button">К сайту <span aria-hidden="true">↗</span></button>
+      <label class="density"><input type="checkbox" id="more-meatballs"><span>Больше фрикаделек</span></label>
+      <p class="playback-state" role="status" aria-live="polite">Короткая сцена · 2,8 секунды</p>
+    </div>
+
+    <footer class="presentation-footer"><p>Фрикадельки падают, собираются в горку и открывают главную.</p><a href="loading-story.html">Сравнить с вариантом с курочкой ↗</a></footer>
+  </main>
+</body>
+</html>

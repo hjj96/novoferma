@@ -1,0 +1,27 @@
+{
+  "family": "Roboto",
+  "style": "Regular",
+  "axes": [
+    {
+      "tag": "wght",
+      "min": 100.0,
+      "default": 400.0,
+      "max": 900.0
+    },
+    {
+      "tag": "wdth",
+      "min": 75.0,
+      "default": 100.0,
+      "max": 100.0
+    }
+  ],
+  "sourceGlyphs": 927,
+  "subsetGlyphs": 809,
+  "bytes": 199652,
+  "russianMissing": [],
+  "latinMissing": [],
+  "punctuationMissing": [
+    "↗"
+  ],
+  "allSourceCyrillicRetained": true
+}

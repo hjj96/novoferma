@@ -1,0 +1,32 @@
+{
+  "result": "pass",
+  "checks": [
+    {
+      "page": "catalogue",
+      "width": 1440,
+      "scroll": 1440,
+      "imageWidth": 317.90252685546875,
+      "imageHeight": 317.90252685546875,
+      "transform": "matrix(1.065, 0, 0, 1.065, 0, -6.567)",
+      "filter": "drop-shadow(rgba(64, 33, 17, 0.075) 0px 9px 8px)",
+      "loaded": true
+    },
+    {
+      "page": "catalogue",
+      "width": 390,
+      "scroll": 390,
+      "imageWidth": 175.72500610351562,
+      "imageHeight": 175.72503662109375,
+      "transform": "matrix(1.065, 0, 0, 1.065, 0, -3.63)",
+      "filter": "drop-shadow(rgba(64, 33, 17, 0.075) 0px 9px 8px)",
+      "loaded": true
+    },
+    {
+      "page": "detail",
+      "transform": "matrix(1.065, 0, 0, 1.065, 0, -10.12)",
+      "width": 1440,
+      "scroll": 1440,
+      "loaded": true
+    }
+  ]
+}

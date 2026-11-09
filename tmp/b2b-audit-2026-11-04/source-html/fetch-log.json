@@ -1,0 +1,53 @@
+[
+  {
+    "id": "miratorg-horeca",
+    "url": "https://miratorg.ru/business/horeca/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "cherkizovo-foodservice",
+    "url": "https://foodservice.cherkizovo-group.com/",
+    "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+  },
+  {
+    "id": "miratorg-catalogue",
+    "url": "https://miratorg.ru/products/catalog/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "neo-frozen",
+    "url": "https://www.neoanalytics.ru/rossiiskii-rynok-zamorozhennyh-polufabrikatov-2025/",
+    "status": 200,
+    "bytes": 270180
+  },
+  {
+    "id": "morozko-cooperation",
+    "url": "https://morozko.ru/cooperation/",
+    "status": 200,
+    "bytes": 71696
+  },
+  {
+    "id": "kazand-stm",
+    "url": "https://kazandelikates.tatar/stm",
+    "status": 200,
+    "bytes": 150293
+  },
+  {
+    "id": "kazand-certs",
+    "url": "https://kazandelikates.tatar/certificates",
+    "status": 200,
+    "bytes": 141880
+  },
+  {
+    "id": "kazand-burger",
+    "url": "https://kazandelikates.tatar/kotlety-dlya-burgerov-halal",
+    "status": 200,
+    "bytes": 159586
+  },
+  {
+    "id": "kazand-horeca",
+    "url": "https://kazandelikates.tatar/horeca-produkty-pitaniya",
+    "status": 200,
+    "bytes": 263256
+  }
+]

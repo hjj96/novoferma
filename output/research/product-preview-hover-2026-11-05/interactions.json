@@ -1,0 +1,33 @@
+{
+  "keyboard": {
+    "focusVisible": true,
+    "href": "product-kotlety-kurinye.html",
+    "name": "Котлеты куриные",
+    "outline": "rgb(172, 58, 9) solid 3px",
+    "surface": "rgb(244, 217, 170)",
+    "titleColor": "rgb(115, 45, 13)"
+  },
+  "destination": {
+    "title": "КОТЛЕТЫ КУРИНЫЕ",
+    "url": "http://127.0.0.1:8765/output/concept/product-kotlety-kurinye.html"
+  },
+  "filter": {
+    "categories": [
+      "Наггетсы",
+      "Наггетсы",
+      "Наггетсы",
+      "Наггетсы",
+      "Наггетсы"
+    ],
+    "visible": 5
+  },
+  "reset": {
+    "visible": 16
+  },
+  "concept": {
+    "concept": true,
+    "title": "ФИБРИКИ",
+    "url": "http://127.0.0.1:8765/output/concept/product-fibriki.html"
+  },
+  "logs": []
+}

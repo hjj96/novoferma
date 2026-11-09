@@ -1,0 +1,1147 @@
+{
+  "title": "НОВОФЕРМА: как снизить себестоимость и сохранить вкус",
+  "generatedAt": "2026-11-05T11:34:30.647427+00:00",
+  "status": "reviewed-research",
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-05"
+  },
+  "queries": {
+    "research_basis": {
+      "rows": [
+        {
+          "id": "product-pdf",
+          "source": "Составы продуктов ООО НОВОФЕРМА",
+          "scope": "PDF пользователя: перечни ингредиентов без массовых долей и закупочных цен"
+        },
+        {
+          "id": "birdseye",
+          "source": "Birds Eye Crispy Chicken Dippers",
+          "scope": "Грудка 50%; состав и приготовление в аэрогриле",
+          "url": "https://www.birdseye.co.uk/range/chicken/38-crispy-chicken-dippers"
+        },
+        {
+          "id": "justbare",
+          "source": "Just Bare Chicken Breast Bites",
+          "scope": "Полностью приготовленные кусочки грудки; состав покрытия",
+          "url": "https://justbare.com/product/lightly-breaded-chicken-breast-bites/"
+        },
+        {
+          "id": "tyson-protein",
+          "source": "Tyson High Protein Spicy Nuggets",
+          "scope": "Формованные наггетсы без панировки; состав и пищевая ценность",
+          "url": "https://www.tyson.com/products/unbreaded/00023700061768"
+        },
+        {
+          "id": "karaage",
+          "source": "KappersFoods Karaage",
+          "scope": "Мясо ножки 60%; состав, фасовка и приготовление",
+          "url": "https://www.kappersfoods.com/en/product/karaage-pure-poultry/"
+        },
+        {
+          "id": "tyson-cups",
+          "source": "Tyson Chicken Cups, запуск 22.09.2025",
+          "scope": "Порционные замороженные продукты; удобство и белок",
+          "url": "https://www.tysonfoods.com/news/news-releases/2025/9/tyson-foods-launches-tysonr-chicken-cups-convenient-and-portable-30g"
+        }
+      ],
+      "source": {
+        "label": "PDF пользователя и открытые официальные продуктовые источники",
+        "files": [
+          "Составы пф НОВОФЕРМА.pdf"
+        ],
+        "links": [
+          {
+            "label": "Birds Eye Crispy Chicken Dippers",
+            "url": "https://www.birdseye.co.uk/range/chicken/38-crispy-chicken-dippers"
+          },
+          {
+            "label": "Just Bare Chicken Breast Bites",
+            "url": "https://justbare.com/product/lightly-breaded-chicken-breast-bites/"
+          },
+          {
+            "label": "Tyson High Protein Spicy Nuggets",
+            "url": "https://www.tyson.com/products/unbreaded/00023700061768"
+          },
+          {
+            "label": "KappersFoods Karaage",
+            "url": "https://www.kappersfoods.com/en/product/karaage-pure-poultry/"
+          },
+          {
+            "label": "Tyson Chicken Cups, запуск 22.09.2025",
+            "url": "https://www.tysonfoods.com/news/news-releases/2025/9/tyson-foods-launches-tysonr-chicken-cups-convenient-and-portable-30g"
+          }
+        ],
+        "filters": [
+          "Исследование доступных открытых источников на 5 ноября 2026 года; не перепись рынка"
+        ],
+        "caveats": [
+          "В PDF нет процентов рецептур, закупочных цен и выходов. Карточки продуктов не доказывают темпы роста рынка."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Исходный ассортимент",
+            "detail": "Текст извлечён из 13 страниц предоставленного PDF; массовые доли не восстановлены из порядка ингредиентов."
+          },
+          {
+            "title": "Открытые зарубежные карточки",
+            "detail": "Официальные продуктовые страницы прочитаны через web.run; факты отделены от выводов."
+          }
+        ]
+      }
+    },
+    "scenario_inputs": {
+      "rows": [],
+      "source": {
+        "label": "Сценарии для обсуждения, не фактическая себестоимость НОВОФЕРМЫ",
+        "filters": [
+          "Пустой набор до внесения явно подписанных допущений и расчётов"
+        ],
+        "caveats": [
+          "Нет собственных закупочных цен, норм расхода и фактических выходов."
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Сценарная экономия",
+            "definition": "Условный результат при явно названных ценах и долях замены. Не подтверждённая экономия предприятия."
+          }
+        ]
+      }
+    },
+    "table_baseline": {
+      "rows": [
+        {
+          "group": "Обычные, острые наггетсы и «Динозавры»",
+          "facts": "Грудка с кожей, вода, панировка, специи, молочный белок, каррагинан. У обычных — 15,7 г белка и 1,8 г жира на 100 г.",
+          "direction": "Спецификация сырья, общая база, стабильная панировка. Составы близки, но идентичность реальных технологий не установлена."
+        },
+        {
+          "group": "Сырные наггетсы и оладьи с сыром",
+          "facts": "Настоящий «Голландский» сыр; у оладий также сухое картофельное пюре и яичный порошок.",
+          "direction": "Сенсорная отдача сыра, распределение, утечки. Считать вклад фактической дозы, а не только цену килограмма сыра."
+        },
+        {
+          "group": "Куриные котлеты и классические фрикадельки",
+          "facts": "Грудка с кожей, соя, клетчатка; в ряде котлет сухари, лук и сухое молоко.",
+          "direction": "Уже используются компоненты для управления стоимостью и текстурой; степень оптимальности неизвестна. Измерить роль каждого связующего и возможность унификации баз."
+        },
+        {
+          "group": "Биточки с овощами/капустой, ёжики и ленивые голубцы",
+          "facts": "Овощи и/или рис уже входят в продуктовую идею. У овощных биточков есть фасоль и болгарский перец.",
+          "direction": "Отдельная доступная семейная линейка. Капуста и морковь — кандидаты на сравнение с более дорогими овощами; учитывать подготовку и влагу."
+        },
+        {
+          "group": "Наггетсы «Фитнес» и фрикадельки из индейки",
+          "facts": "Грудка индейки с добавлением куриной кожи. Белок наггетсов «Фитнес» — 18,59 г/100 г.",
+          "direction": "Проверить готовность платить за индейку и заявленную ценность. Частичная замена курицей изменит состав и обещание продукта."
+        },
+        {
+          "group": "Стрипсы, попкорн, два шницеля",
+          "facts": "В PDF прямо указано: из цельного куска филе грудки.",
+          "direction": "Сохранять структуру; использовать подходящие по размеру кусочки, управлять толщиной, обрезью и покрытием."
+        }
+      ],
+      "source": {
+        "label": "Что видно из ваших составов",
+        "classification": "reviewed-research",
+        "links": [
+          {
+            "label": "Каталог НОВОФЕРМЫ",
+            "url": "https://novoferma.ru/catalogue"
+          },
+          {
+            "label": "карточка наггетсов",
+            "url": "https://www.perekrestok.ru/cat/417/p/naggetsy-novoferma-kurinye-beskostnye-zamorozennye-400g-4341884"
+          }
+        ],
+        "caveats": [
+          "Факты, допущения и предложения различены в тексте раздела. Это исследовательская оценка, не подтверждённая калькуляция производства."
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Что видно из ваших составов",
+            "definition": "Строки из проверенного текста исследования. Область и ограничения приведены рядом с таблицей.",
+            "componentIds": [
+              "baseline"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Подготовка таблицы",
+            "detail": "Данные перенесены из проверенного содержания отчёта без дополнительных расчетов. Источники указаны в тексте раздела."
+          }
+        ]
+      }
+    },
+    "table_competitors": {
+      "rows": [
+        {
+          "product": "Мираторг «Классические», 250 г",
+          "verified": "Производитель называет готовым продуктом для разогрева. В карточке магазина: грудка, вода, панировка, масло, соевые компоненты, крахмалы и стабилизирующая система.",
+          "lesson": "Конкурирует удобством и вкусом. Нельзя переносить его экономику на сырой продукт без учёта тепловой обработки."
+        },
+        {
+          "product": "Мираторг, стрипсы сыр/розмарин, 340 г",
+          "verified": "Филе и покрытие с сыром и травами; в составе магазина также молочные и функциональные ингредиенты.",
+          "lesson": "Вкус в наружном слое — кандидат для теста. Это не доказательство, что можно без потерь убрать сыр из вашего фарша."
+        },
+        {
+          "product": "Горячая штучка «Нагетосы Сочная курочка», 250 г",
+          "verified": "Обещание сочности и хруста; у ритейлера — мясо/грудка, несколько крахмалов, клетчатка, соевый белок, молочные и яичные компоненты.",
+          "lesson": "Массовая категория конкурирует системой текстуры и вкуса. Сложный состав сам по себе не доказывает низкое качество."
+        },
+        {
+          "product": "Золотой петушок «Традиционные», 300 г",
+          "verified": "Официальный состав: грудка, вода, сухари, кожа, мука, масло, соевая мука, крахмал и приправы; срок 12 месяцев, приготовление заявлено за 5 минут.",
+          "lesson": "Фраза про «100% натуральное филе» не означает, что готовый продукт на 100% состоит из мяса. Доли по этикетке не восстановить."
+        },
+        {
+          "product": "Морозко, куриные котлеты, 330 г",
+          "verified": "Производитель указывает приготовление 15–20 минут и 180 суток хранения. В составе «Ленты» есть куриное мясо, шпик, соевая мука, сухарная крошка и лук.",
+          "lesson": "Более близкий сырой аналог. Свиной шпик меняет идею куриного продукта и круг покупателей; автоматическая замена не обоснована."
+        }
+      ],
+      "source": {
+        "label": "Российские конкуренты: пять конкретных ориентиров",
+        "classification": "reviewed-research",
+        "links": [
+          {
+            "label": "наггетсы",
+            "url": "https://miratorg.ru/products/catalog/naggetsy/naggetsy_kurinye_klassicheskie_/"
+          },
+          {
+            "label": "состав в магазине",
+            "url": "https://www.perekrestok.ru/cat/58/p/naggetsy-miratorg-klassiceskie-kurinye-250g-4410803"
+          },
+          {
+            "label": "стрипсы",
+            "url": "https://miratorg.ru/products/catalog/naggetsy_kurinye/stripsy_kurinye_s_syrom_i_rozmarinom/"
+          },
+          {
+            "label": "карточка «Чижика»",
+            "url": "https://chizhik.club/product/stripsy-kurinye-miratorg-s-syrom-i-rozmarinom-340g--3434308/"
+          },
+          {
+            "label": "официальный продукт",
+            "url": "https://abi.ru/brands/hot-stuff/nagetosy-sochnaya-kurochka/"
+          },
+          {
+            "label": "состав «Магнита»",
+            "url": "https://magnit.ru/product/8000044596-goryachaya_shtuchka_nagetosy_sochnaya_kurochka_250g_myasnaya_galereya"
+          },
+          {
+            "label": "Золотой петушок",
+            "url": "https://petushok.ru/fillet-products-1"
+          },
+          {
+            "label": "производитель",
+            "url": "https://morozko.ru/catalog/kotleti/kurinye_423e/"
+          },
+          {
+            "label": "состав «Ленты»",
+            "url": "https://lenta.com/product/kotlety-morozko-kurinye-rublenye-rossiya-330g-428973/"
+          }
+        ],
+        "caveats": [
+          "Факты, допущения и предложения различены в тексте раздела. Это исследовательская оценка, не подтверждённая калькуляция производства."
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Российские конкуренты: пять конкретных ориентиров",
+            "definition": "Строки из проверенного текста исследования. Область и ограничения приведены рядом с таблицей.",
+            "componentIds": [
+              "competitors"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Подготовка таблицы",
+            "detail": "Данные перенесены из проверенного содержания отчёта без дополнительных расчетов. Источники указаны в тексте раздела."
+          }
+        ]
+      }
+    },
+    "table_global": {
+      "rows": [
+        {
+          "product": "Birds Eye Crispy Chicken Dippers, Великобритания",
+          "fact": "Грудка 50% в составе; мука, крахмалы и масло в покрытии. Отдельный режим аэрогриля 10 минут.",
+          "use": "Различать тип используемого мяса и его долю в продукте. Разработать собственный режим аэрогриля."
+        },
+        {
+          "product": "Just Bare Lightly Breaded Bites, США",
+          "fact": "Полностью приготовленные кусочки грудки с тонкой панировкой, рисовым крахмалом; аэрогриль 8 минут.",
+          "use": "Ориентир для мясной текстуры стрипсов и попкорна. Тонкая, хорошо держащаяся панировка может быть самостоятельным преимуществом."
+        },
+        {
+          "product": "Tyson High Protein Unbreaded Spicy, США",
+          "fact": "Готовые формованные наггетсы без панировки, курица и сыр. На 90 г: белок 23 г, жир 18 г.",
+          "use": "Высокий белок и низкая жирность — разные обещания. Это направление ценности, а не очевидного удешевления."
+        },
+        {
+          "product": "Pure Poultry Karaage / KappersFoods, европейский B2B",
+          "fact": "Мясо ножки 60%, имбирь, чеснок, соевый соус; кусочки 30 г, упаковка 1 кг, короб 5 × 1 кг.",
+          "use": "Самостоятельный сочный азиатский продукт; отдельно проверять цену обваленного тёмного мяса."
+        },
+        {
+          "product": "Perdue Chicken Plus Dino, США",
+          "fact": "Курица, нут и цветная капуста; существующая концепция, описанная производителем ещё в 2020 году.",
+          "use": "У вас уже есть основа для курино-овощной линии. Российские капуста/морковь могут быть рациональнее импортируемого тренда."
+        }
+      ],
+      "source": {
+        "label": "Что делают в других странах",
+        "classification": "reviewed-research",
+        "links": [
+          {
+            "label": "Birds Eye",
+            "url": "https://www.birdseye.co.uk/range/chicken/38-crispy-chicken-dippers"
+          },
+          {
+            "label": "Just Bare",
+            "url": "https://justbare.com/product/lightly-breaded-chicken-breast-bites/"
+          },
+          {
+            "label": "Tyson High Protein",
+            "url": "https://www.tyson.com/products/unbreaded/00023700061768"
+          },
+          {
+            "label": "KappersFoods",
+            "url": "https://www.kappersfoods.com/en/product/karaage-pure-poultry/"
+          },
+          {
+            "label": "Perdue, отчёт 2020",
+            "url": "https://corporate.perduefarms.com/pdfs/perdue-farms-responsibility-report-2020-print.pdf"
+          },
+          {
+            "label": "актуальная карточка Perdue у ShopRite",
+            "url": "https://www.shoprite.com/sm/planning/rsid/113/product/perdue-chicken-plus-dino-chicken-%26-vegetable-nuggets-22-oz-id-00072745807008"
+          },
+          {
+            "label": "Tyson Korean BBQ",
+            "url": "https://www.tyson.com/products/bites-snacking/00023700060853"
+          },
+          {
+            "label": "Tyson Chicken Cups, запуск 22 сентября 2025 года",
+            "url": "https://www.tysonfoods.com/news/news-releases/2025/9/tyson-foods-launches-tysonr-chicken-cups-convenient-and-portable-30g"
+          }
+        ],
+        "caveats": [
+          "Факты, допущения и предложения различены в тексте раздела. Это исследовательская оценка, не подтверждённая калькуляция производства."
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Что делают в других странах",
+            "definition": "Строки из проверенного текста исследования. Область и ограничения приведены рядом с таблицей.",
+            "componentIds": [
+              "global"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Подготовка таблицы",
+            "detail": "Данные перенесены из проверенного содержания отчёта без дополнительных расчетов. Источники указаны в тексте раздела."
+          }
+        ]
+      }
+    },
+    "table_guidance": {
+      "rows": [
+        {
+          "priority": "1. Сырьё",
+          "change": "Если сейчас закупается товарное или калиброванное филе, для рубленых изделий проверить пригодный пищевой тримминг грудки. Сначала уточнить, не используется ли он уже. Собственную чистую обрезь после порционирования направлять в соответствующие продукты в контролируемом процессе.",
+          "effect": "Сохраняет мышечное мясо; тримминг не равен ММО. Экономия существует только при выгодной цене, сопоставимых свойствах и отсутствии роста брака."
+        },
+        {
+          "priority": "2. Выход и фасовка",
+          "change": "Взвесить потери на формовании, остатки, осыпание, лом, перевес упаковки; учитывать возвраты и списания.",
+          "effect": "Способно дать экономию без изменения вкуса. Цель — меньший разброс с соблюдением номинальной массы, не недовес."
+        },
+        {
+          "priority": "3. Панировка",
+          "change": "Измерить фактическое нанесение и осыпание; подобрать сцепление, вязкость кляра и фракцию сухарей.",
+          "effect": "Дешёвый сухарь может увеличить расход и дефекты. Избыточное покрытие может удешевить сырьевой кг, но ухудшить ощущение мяса и впитывание масла."
+        },
+        {
+          "priority": "4. Ассортимент",
+          "change": "Проверить единую базу обычных/острых/дино-наггетсов и родственных котлет, планировать серии и вкус ближе к финальной стадии.",
+          "effect": "Меньше переналадок и остатков при достаточных объёмах. Сначала выяснить, не объединены ли базы уже; учитывать разделение аллергенов и разные условия формования."
+        },
+        {
+          "priority": "5. Упаковка",
+          "change": "Для розницы сравнить существующий прозрачный лоток с пакетом/окном и альтернативной геометрией; для HoReCa — 1 кг и нынешние 4–5 кг.",
+          "effect": "Считать упаковку, короб, паллету, лом и место в морозильнике. Большой пакет сам по себе не новинка: он уже есть в PDF. Проверить порционность после заморозки."
+        },
+        {
+          "priority": "6. Рецептура",
+          "change": "Испытать овощной блок, распределение сыра и поочерёдную настройку связующих.",
+          "effect": "Возможна экономия с хорошим вкусом, но требует слепой дегустации, выхода и актуализации документов."
+        }
+      ],
+      "source": {
+        "label": "Где искать экономию в первую очередь",
+        "classification": "analytical-recommendation",
+        "links": [
+          {
+            "label": "порционирование и тримминг",
+            "url": "https://jbtmarel.com/en/news/6-questions-about-high-volume-chicken-fillet-portioning/"
+          },
+          {
+            "label": "стандартизация QSR",
+            "url": "https://jbtmarel.com/en/news/standardized-solutions-to-create-qsr-products/"
+          },
+          {
+            "label": "кейс покрытия",
+            "url": "https://www.ingredion.com/na/en-us/solving-a-challenge/resource-library/chicken-nugget-coatings"
+          },
+          {
+            "label": "ProCoater",
+            "url": "https://www.gea.com/it/news/trade-press/2026/new-gea-procoater-wet-coating/"
+          }
+        ],
+        "caveats": [
+          "Факты, допущения и предложения различены в тексте раздела. Это исследовательская оценка, не подтверждённая калькуляция производства."
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Где искать экономию в первую очередь",
+            "definition": "Строки из проверенного текста исследования. Область и ограничения приведены рядом с таблицей.",
+            "componentIds": [
+              "guidance"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Подготовка таблицы",
+            "detail": "Данные перенесены из проверенного содержания отчёта без дополнительных расчетов. Источники указаны в тексте раздела."
+          }
+        ]
+      }
+    },
+    "table_economics": {
+      "rows": [
+        {
+          "scenario": "Мясной компонент составляет 65% смеси; закупочная цена 450 → 400 ₽/кг",
+          "formula": "0,65 × (450 − 400)",
+          "saving": "32,50 ₽/кг смеси при неизменных свойствах и выходе"
+        },
+        {
+          "scenario": "В партии 100 кг заменить 5 кг мяса по 450 ₽ на 5 кг подготовленных овощей по 70 ₽",
+          "formula": "5 × (450 − 70) / 100",
+          "saving": "19,00 ₽/кг смеси до изменения обработки и выхода"
+        },
+        {
+          "scenario": "Затраты на входящий кг смеси 230 ₽; заводской выход годного 97% → 99%",
+          "formula": "230 / 0,97 − 230 / 0,99",
+          "saving": "4,79 ₽/кг годного продукта по этому блоку затрат"
+        },
+        {
+          "scenario": "Упаковка 12 → 10 ₽ за 400 г при той же массе нетто",
+          "formula": "(12 − 10) / 0,4",
+          "saving": "5,00 ₽/номинальный кг фасованного продукта"
+        }
+      ],
+      "source": {
+        "label": "Условные сценарии, не фактическая себестоимость",
+        "classification": "scenario",
+        "links": [],
+        "caveats": [
+          "Факты, допущения и предложения различены в тексте раздела. Это исследовательская оценка, не подтверждённая калькуляция производства."
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Порядок возможной экономии: четыре условных расчёта",
+            "definition": "Строки из проверенного текста исследования. Область и ограничения приведены рядом с таблицей.",
+            "componentIds": [
+              "economics"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Подготовка таблицы",
+            "detail": "Данные перенесены из проверенного содержания отчёта без дополнительных расчетов. Источники указаны в тексте раздела."
+          }
+        ]
+      }
+    },
+    "table_channels": {
+      "rows": [
+        {
+          "dimension": "Единица ценности",
+          "retail": "Цена понятной пачки, вкус, число порций, удобство приготовления. Сравнивать и ₽/пачку, и ₽/кг.",
+          "horeca": "Цена приготовленной порции, выход, время повара, стабильность веса и скорость отдачи."
+        },
+        {
+          "dimension": "Упаковка",
+          "retail": "Прозрачность — часть вашего текущего обещания. Проверить пакет с окном и защиту от лома; не терять вид продукта без теста.",
+          "horeca": "Порционные легко отделяемые изделия, 1 кг для небольших кухонь и 4–5 кг для оборота. Считать открытый остаток и списания."
+        },
+        {
+          "dimension": "Степень готовности",
+          "retail": "Собственный проверенный режим аэрогриля/духовки может повысить удобство.",
+          "horeca": "Сырые и готовые изделия сравнивать по всей кухонной калькуляции. Контрактная термообработка — вариант проверки до инвестиций."
+        },
+        {
+          "dimension": "Ассортимент",
+          "retail": "Сначала несколько понятных поводов: классика, сыр/травы, семейные овощные.",
+          "horeca": "Универсальная база под несколько блюд и соусов; ограниченный набор стабильных размеров."
+        },
+        {
+          "dimension": "Приоритет нового продукта",
+          "retail": "Курица с капустой/морковью; цельнокусковые стрипсы с хорошим покрытием.",
+          "horeca": "Кусочки для боулов/роллов, фрикадельки и котлеты с понятным выходом; карааге при выгодном сырье."
+        }
+      ],
+      "source": {
+        "label": "Розница и HoReCa: разные способы сделать продукт доступнее",
+        "classification": "analytical-recommendation",
+        "links": [],
+        "caveats": [
+          "Факты, допущения и предложения различены в тексте раздела. Это исследовательская оценка, не подтверждённая калькуляция производства."
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Розница и HoReCa: разные способы сделать продукт доступнее",
+            "definition": "Строки из проверенного текста исследования. Область и ограничения приведены рядом с таблицей.",
+            "componentIds": [
+              "channels"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Подготовка таблицы",
+            "detail": "Данные перенесены из проверенного содержания отчёта без дополнительных расчетов. Источники указаны в тексте раздела."
+          }
+        ]
+      }
+    },
+    "table_pilots": {
+      "rows": [
+        {
+          "pilot": "A. Сырьё для классических наггетсов/котлет",
+          "change": "Если сейчас используется товарное или калиброванное филе: та же рецептура, но часть грудки заменить пищевым триммингом грудки согласованной спецификации. Проверить, не закупается ли тримминг уже.",
+          "check": "Цена пригодного сырья, стабильность жира/влаги, формование, брак, вкус и включения. Для цельнокусковых изделий другой тест."
+        },
+        {
+          "pilot": "B. Семейные овощные биточки",
+          "change": "Контроль против увеличения подготовленного овощного блока на 5 п.п. за счёт мясного; отдельно сравнить овощные комбинации.",
+          "check": "Влаговыделение после заморозки, удержание формы, выход кухни, сочность, мясной вкус и белок. 5 п.п. — пробный шаг, не рекомендуемая норма."
+        },
+        {
+          "pilot": "C. Сырные наггетсы",
+          "change": "Одинаковая масса одного сыра, разные фракции/распределение. Следующая серия — небольшой шаг снижения дозы у лучшего варианта.",
+          "check": "Сырный вкус, вид разреза, утечки, повторяемость. Не считать уменьшение дозы успешным только по экономии."
+        },
+        {
+          "pilot": "D. Панировка стрипсов",
+          "change": "Одинаковая мясная основа, две системы покрытия с измеренным нанесением.",
+          "check": "Осыпание на линии и в пакете, хруст сразу и после выдержки/доставки, лом и масло при готовке."
+        },
+        {
+          "pilot": "E. Связующая система",
+          "change": "Поочерёдное изменение одного молочного/растительного/гелеобразующего компонента на фоне контроля.",
+          "check": "Стоимость годного кг, заморозка/хранение, отделение воды, текстура и вкус. Дешевле смесь не означает дешевле итог."
+        },
+        {
+          "pilot": "F. Вкус на общей базе",
+          "change": "Небольшая серия имбирь/чеснок/соевый соус и паприка/чеснок с учётом аллергенов.",
+          "check": "Интерес покупателя, стоимость приправ, труд и переналадки. Начать с дегустации, не запускать много новых позиций одновременно."
+        }
+      ],
+      "source": {
+        "label": "Что конкретно дать технологу на пробные партии",
+        "classification": "analytical-recommendation",
+        "links": [],
+        "caveats": [
+          "Факты, допущения и предложения различены в тексте раздела. Это исследовательская оценка, не подтверждённая калькуляция производства."
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Что конкретно дать технологу на пробные партии",
+            "definition": "Строки из проверенного текста исследования. Область и ограничения приведены рядом с таблицей.",
+            "componentIds": [
+              "pilots"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Подготовка таблицы",
+            "detail": "Данные перенесены из проверенного содержания отчёта без дополнительных расчетов. Источники указаны в тексте раздела."
+          }
+        ]
+      }
+    },
+    "research_overview": {
+      "rows": [
+        {
+          "label": "Составы пф НОВОФЕРМА.pdf",
+          "scope": "Предоставленный пользователем PDF, 13 страниц; массовые доли и закупочные цены отсутствуют"
+        }
+      ],
+      "source": {
+        "label": "Источники раздела: Главное",
+        "links": [],
+        "files": [
+          "Составы пф НОВОФЕРМА.pdf"
+        ],
+        "caveats": [
+          "Ссылки поддерживают приведённые факты. Рекомендации, допущения и расчётные сценарии отдельно обозначены в тексте."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Происхождение",
+            "detail": "Источники, относящиеся к этому разделу проверенного исследования; не результаты внутреннего производственного учета."
+          }
+        ]
+      }
+    },
+    "research_baseline": {
+      "rows": [
+        {
+          "label": "Составы пф НОВОФЕРМА.pdf",
+          "scope": "Предоставленный пользователем PDF, 13 страниц; массовые доли и закупочные цены отсутствуют"
+        },
+        {
+          "label": "Каталог НОВОФЕРМЫ",
+          "url": "https://novoferma.ru/catalogue"
+        },
+        {
+          "label": "карточка наггетсов",
+          "url": "https://www.perekrestok.ru/cat/417/p/naggetsy-novoferma-kurinye-beskostnye-zamorozennye-400g-4341884"
+        }
+      ],
+      "source": {
+        "label": "Источники раздела: Что видно из ваших составов",
+        "links": [
+          {
+            "label": "Каталог НОВОФЕРМЫ",
+            "url": "https://novoferma.ru/catalogue"
+          },
+          {
+            "label": "карточка наггетсов",
+            "url": "https://www.perekrestok.ru/cat/417/p/naggetsy-novoferma-kurinye-beskostnye-zamorozennye-400g-4341884"
+          }
+        ],
+        "files": [
+          "Составы пф НОВОФЕРМА.pdf"
+        ],
+        "caveats": [
+          "Ссылки поддерживают приведённые факты. Рекомендации, допущения и расчётные сценарии отдельно обозначены в тексте."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Происхождение",
+            "detail": "Источники, относящиеся к этому разделу проверенного исследования; не результаты внутреннего производственного учета."
+          }
+        ]
+      }
+    },
+    "research_competitors": {
+      "rows": [
+        {
+          "label": "наггетсы",
+          "url": "https://miratorg.ru/products/catalog/naggetsy/naggetsy_kurinye_klassicheskie_/"
+        },
+        {
+          "label": "состав в магазине",
+          "url": "https://www.perekrestok.ru/cat/58/p/naggetsy-miratorg-klassiceskie-kurinye-250g-4410803"
+        },
+        {
+          "label": "стрипсы",
+          "url": "https://miratorg.ru/products/catalog/naggetsy_kurinye/stripsy_kurinye_s_syrom_i_rozmarinom/"
+        },
+        {
+          "label": "карточка «Чижика»",
+          "url": "https://chizhik.club/product/stripsy-kurinye-miratorg-s-syrom-i-rozmarinom-340g--3434308/"
+        },
+        {
+          "label": "официальный продукт",
+          "url": "https://abi.ru/brands/hot-stuff/nagetosy-sochnaya-kurochka/"
+        },
+        {
+          "label": "состав «Магнита»",
+          "url": "https://magnit.ru/product/8000044596-goryachaya_shtuchka_nagetosy_sochnaya_kurochka_250g_myasnaya_galereya"
+        },
+        {
+          "label": "Золотой петушок",
+          "url": "https://petushok.ru/fillet-products-1"
+        },
+        {
+          "label": "производитель",
+          "url": "https://morozko.ru/catalog/kotleti/kurinye_423e/"
+        },
+        {
+          "label": "состав «Ленты»",
+          "url": "https://lenta.com/product/kotlety-morozko-kurinye-rublenye-rossiya-330g-428973/"
+        }
+      ],
+      "source": {
+        "label": "Источники раздела: Российские конкуренты: пять конкретных ориентиров",
+        "links": [
+          {
+            "label": "наггетсы",
+            "url": "https://miratorg.ru/products/catalog/naggetsy/naggetsy_kurinye_klassicheskie_/"
+          },
+          {
+            "label": "состав в магазине",
+            "url": "https://www.perekrestok.ru/cat/58/p/naggetsy-miratorg-klassiceskie-kurinye-250g-4410803"
+          },
+          {
+            "label": "стрипсы",
+            "url": "https://miratorg.ru/products/catalog/naggetsy_kurinye/stripsy_kurinye_s_syrom_i_rozmarinom/"
+          },
+          {
+            "label": "карточка «Чижика»",
+            "url": "https://chizhik.club/product/stripsy-kurinye-miratorg-s-syrom-i-rozmarinom-340g--3434308/"
+          },
+          {
+            "label": "официальный продукт",
+            "url": "https://abi.ru/brands/hot-stuff/nagetosy-sochnaya-kurochka/"
+          },
+          {
+            "label": "состав «Магнита»",
+            "url": "https://magnit.ru/product/8000044596-goryachaya_shtuchka_nagetosy_sochnaya_kurochka_250g_myasnaya_galereya"
+          },
+          {
+            "label": "Золотой петушок",
+            "url": "https://petushok.ru/fillet-products-1"
+          },
+          {
+            "label": "производитель",
+            "url": "https://morozko.ru/catalog/kotleti/kurinye_423e/"
+          },
+          {
+            "label": "состав «Ленты»",
+            "url": "https://lenta.com/product/kotlety-morozko-kurinye-rublenye-rossiya-330g-428973/"
+          }
+        ],
+        "caveats": [
+          "Ссылки поддерживают приведённые факты. Рекомендации, допущения и расчётные сценарии отдельно обозначены в тексте."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Происхождение",
+            "detail": "Источники, относящиеся к этому разделу проверенного исследования; не результаты внутреннего производственного учета."
+          }
+        ]
+      }
+    },
+    "research_prices": {
+      "rows": [
+        {
+          "label": "НОВОФЕРМА в «Азбуке вкуса»",
+          "url": "https://av.ru/i/549795"
+        },
+        {
+          "label": "Мираторг в «Перекрёстке»",
+          "url": "https://www.perekrestok.ru/cat/58/p/naggetsy-miratorg-klassiceskie-kurinye-250g-4410803"
+        },
+        {
+          "label": "Каталог поставщика",
+          "url": "https://www.ravur.ru/"
+        },
+        {
+          "label": "Публикация",
+          "url": "https://www.kommersant.ru/doc/9079478"
+        }
+      ],
+      "source": {
+        "label": "Источники раздела: Цены: ориентиры полки и сырья",
+        "links": [
+          {
+            "label": "НОВОФЕРМА в «Азбуке вкуса»",
+            "url": "https://av.ru/i/549795"
+          },
+          {
+            "label": "Мираторг в «Перекрёстке»",
+            "url": "https://www.perekrestok.ru/cat/58/p/naggetsy-miratorg-klassiceskie-kurinye-250g-4410803"
+          },
+          {
+            "label": "Каталог поставщика",
+            "url": "https://www.ravur.ru/"
+          },
+          {
+            "label": "Публикация",
+            "url": "https://www.kommersant.ru/doc/9079478"
+          }
+        ],
+        "caveats": [
+          "Ссылки поддерживают приведённые факты. Рекомендации, допущения и расчётные сценарии отдельно обозначены в тексте."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Происхождение",
+            "detail": "Источники, относящиеся к этому разделу проверенного исследования; не результаты внутреннего производственного учета."
+          }
+        ]
+      }
+    },
+    "research_global": {
+      "rows": [
+        {
+          "label": "Birds Eye",
+          "url": "https://www.birdseye.co.uk/range/chicken/38-crispy-chicken-dippers"
+        },
+        {
+          "label": "Just Bare",
+          "url": "https://justbare.com/product/lightly-breaded-chicken-breast-bites/"
+        },
+        {
+          "label": "Tyson High Protein",
+          "url": "https://www.tyson.com/products/unbreaded/00023700061768"
+        },
+        {
+          "label": "KappersFoods",
+          "url": "https://www.kappersfoods.com/en/product/karaage-pure-poultry/"
+        },
+        {
+          "label": "Perdue, отчёт 2020",
+          "url": "https://corporate.perduefarms.com/pdfs/perdue-farms-responsibility-report-2020-print.pdf"
+        },
+        {
+          "label": "актуальная карточка Perdue у ShopRite",
+          "url": "https://www.shoprite.com/sm/planning/rsid/113/product/perdue-chicken-plus-dino-chicken-%26-vegetable-nuggets-22-oz-id-00072745807008"
+        },
+        {
+          "label": "Tyson Korean BBQ",
+          "url": "https://www.tyson.com/products/bites-snacking/00023700060853"
+        },
+        {
+          "label": "Tyson Chicken Cups, запуск 22 сентября 2025 года",
+          "url": "https://www.tysonfoods.com/news/news-releases/2025/9/tyson-foods-launches-tysonr-chicken-cups-convenient-and-portable-30g"
+        }
+      ],
+      "source": {
+        "label": "Источники раздела: Что делают в других странах",
+        "links": [
+          {
+            "label": "Birds Eye",
+            "url": "https://www.birdseye.co.uk/range/chicken/38-crispy-chicken-dippers"
+          },
+          {
+            "label": "Just Bare",
+            "url": "https://justbare.com/product/lightly-breaded-chicken-breast-bites/"
+          },
+          {
+            "label": "Tyson High Protein",
+            "url": "https://www.tyson.com/products/unbreaded/00023700061768"
+          },
+          {
+            "label": "KappersFoods",
+            "url": "https://www.kappersfoods.com/en/product/karaage-pure-poultry/"
+          },
+          {
+            "label": "Perdue, отчёт 2020",
+            "url": "https://corporate.perduefarms.com/pdfs/perdue-farms-responsibility-report-2020-print.pdf"
+          },
+          {
+            "label": "актуальная карточка Perdue у ShopRite",
+            "url": "https://www.shoprite.com/sm/planning/rsid/113/product/perdue-chicken-plus-dino-chicken-%26-vegetable-nuggets-22-oz-id-00072745807008"
+          },
+          {
+            "label": "Tyson Korean BBQ",
+            "url": "https://www.tyson.com/products/bites-snacking/00023700060853"
+          },
+          {
+            "label": "Tyson Chicken Cups, запуск 22 сентября 2025 года",
+            "url": "https://www.tysonfoods.com/news/news-releases/2025/9/tyson-foods-launches-tysonr-chicken-cups-convenient-and-portable-30g"
+          }
+        ],
+        "caveats": [
+          "Ссылки поддерживают приведённые факты. Рекомендации, допущения и расчётные сценарии отдельно обозначены в тексте."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Происхождение",
+            "detail": "Источники, относящиеся к этому разделу проверенного исследования; не результаты внутреннего производственного учета."
+          }
+        ]
+      }
+    },
+    "research_guidance": {
+      "rows": [
+        {
+          "label": "порционирование и тримминг",
+          "url": "https://jbtmarel.com/en/news/6-questions-about-high-volume-chicken-fillet-portioning/"
+        },
+        {
+          "label": "стандартизация QSR",
+          "url": "https://jbtmarel.com/en/news/standardized-solutions-to-create-qsr-products/"
+        },
+        {
+          "label": "кейс покрытия",
+          "url": "https://www.ingredion.com/na/en-us/solving-a-challenge/resource-library/chicken-nugget-coatings"
+        },
+        {
+          "label": "ProCoater",
+          "url": "https://www.gea.com/it/news/trade-press/2026/new-gea-procoater-wet-coating/"
+        }
+      ],
+      "source": {
+        "label": "Источники раздела: Где искать экономию в первую очередь",
+        "links": [
+          {
+            "label": "порционирование и тримминг",
+            "url": "https://jbtmarel.com/en/news/6-questions-about-high-volume-chicken-fillet-portioning/"
+          },
+          {
+            "label": "стандартизация QSR",
+            "url": "https://jbtmarel.com/en/news/standardized-solutions-to-create-qsr-products/"
+          },
+          {
+            "label": "кейс покрытия",
+            "url": "https://www.ingredion.com/na/en-us/solving-a-challenge/resource-library/chicken-nugget-coatings"
+          },
+          {
+            "label": "ProCoater",
+            "url": "https://www.gea.com/it/news/trade-press/2026/new-gea-procoater-wet-coating/"
+          }
+        ],
+        "caveats": [
+          "Ссылки поддерживают приведённые факты. Рекомендации, допущения и расчётные сценарии отдельно обозначены в тексте."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Происхождение",
+            "detail": "Источники, относящиеся к этому разделу проверенного исследования; не результаты внутреннего производственного учета."
+          }
+        ]
+      }
+    },
+    "research_ingredients": {
+      "rows": [
+        {
+          "label": "Yeater и соавт., Poultry Science",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29053827/"
+        },
+        {
+          "label": "Исследование, 2015",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4682503/"
+        },
+        {
+          "label": "Barbut, Poultry Science",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0032579119448748"
+        },
+        {
+          "label": "Polizer и соавт.",
+          "url": "https://www.scielo.br/j/bjft/a/k4tJfNKMNfk5djVKdQcQCwg/?lang=en"
+        }
+      ],
+      "source": {
+        "label": "Источники раздела: Что менять осторожно: вкус зависит от системы ингредиентов",
+        "links": [
+          {
+            "label": "Yeater и соавт., Poultry Science",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29053827/"
+          },
+          {
+            "label": "Исследование, 2015",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4682503/"
+          },
+          {
+            "label": "Barbut, Poultry Science",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0032579119448748"
+          },
+          {
+            "label": "Polizer и соавт.",
+            "url": "https://www.scielo.br/j/bjft/a/k4tJfNKMNfk5djVKdQcQCwg/?lang=en"
+          }
+        ],
+        "caveats": [
+          "Ссылки поддерживают приведённые факты. Рекомендации, допущения и расчётные сценарии отдельно обозначены в тексте."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Происхождение",
+            "detail": "Источники, относящиеся к этому разделу проверенного исследования; не результаты внутреннего производственного учета."
+          }
+        ]
+      }
+    },
+    "research_economics": {
+      "rows": [],
+      "source": {
+        "label": "Источники раздела: Порядок возможной экономии: четыре условных расчёта",
+        "links": [],
+        "caveats": [
+          "Ссылки поддерживают приведённые факты. Рекомендации, допущения и расчётные сценарии отдельно обозначены в тексте."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Происхождение",
+            "detail": "Источники, относящиеся к этому разделу проверенного исследования; не результаты внутреннего производственного учета."
+          }
+        ]
+      }
+    },
+    "research_channels": {
+      "rows": [],
+      "source": {
+        "label": "Источники раздела: Розница и HoReCa: разные способы сделать продукт доступнее",
+        "links": [],
+        "caveats": [
+          "Ссылки поддерживают приведённые факты. Рекомендации, допущения и расчётные сценарии отдельно обозначены в тексте."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Происхождение",
+            "detail": "Источники, относящиеся к этому разделу проверенного исследования; не результаты внутреннего производственного учета."
+          }
+        ]
+      }
+    },
+    "research_pilots": {
+      "rows": [],
+      "source": {
+        "label": "Источники раздела: Что конкретно дать технологу на пробные партии",
+        "links": [],
+        "caveats": [
+          "Ссылки поддерживают приведённые факты. Рекомендации, допущения и расчётные сценарии отдельно обозначены в тексте."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Происхождение",
+            "detail": "Источники, относящиеся к этому разделу проверенного исследования; не результаты внутреннего производственного учета."
+          }
+        ]
+      }
+    },
+    "research_forums": {
+      "rows": [
+        {
+          "label": "Обсуждение панированных изделий",
+          "url": "https://meat-expert.ru/forums/topic/18897-izdeliya-kulinarnye-rublenye-panirovannye/"
+        },
+        {
+          "label": "Отзывы о Just Bare",
+          "url": "https://www.reddit.com/r/frozendinners/comments/1kpaxpu/just_bare_lightly_breaded_chicken_breast_bites/"
+        },
+        {
+          "label": "отзывы о Perdue",
+          "url": "https://www.reddit.com/r/frozendinners/comments/1n6zo56/perdue_chicken_plus_dino_nuggets_with_chicken_and/"
+        }
+      ],
+      "source": {
+        "label": "Источники раздела: Форумы: что полезно как гипотеза",
+        "links": [
+          {
+            "label": "Обсуждение панированных изделий",
+            "url": "https://meat-expert.ru/forums/topic/18897-izdeliya-kulinarnye-rublenye-panirovannye/"
+          },
+          {
+            "label": "Отзывы о Just Bare",
+            "url": "https://www.reddit.com/r/frozendinners/comments/1kpaxpu/just_bare_lightly_breaded_chicken_breast_bites/"
+          },
+          {
+            "label": "отзывы о Perdue",
+            "url": "https://www.reddit.com/r/frozendinners/comments/1n6zo56/perdue_chicken_plus_dino_nuggets_with_chicken_and/"
+          }
+        ],
+        "caveats": [
+          "Ссылки поддерживают приведённые факты. Рекомендации, допущения и расчётные сценарии отдельно обозначены в тексте."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Происхождение",
+            "detail": "Источники, относящиеся к этому разделу проверенного исследования; не результаты внутреннего производственного учета."
+          }
+        ]
+      }
+    },
+    "research_labels": {
+      "rows": [
+        {
+          "label": "Составы пф НОВОФЕРМА.pdf",
+          "scope": "Предоставленный пользователем PDF, 13 страниц; массовые доли и закупочные цены отсутствуют"
+        },
+        {
+          "label": "Официальный сайт",
+          "url": "https://novoferma.ru/"
+        },
+        {
+          "label": "ЕЭК: регламент и изменения",
+          "url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/TR_EAEU_051.php"
+        },
+        {
+          "label": "официальный текст, пункты 105–107",
+          "url": "https://docs.eaeunion.org/documents/386/6193/"
+        },
+        {
+          "label": "Официальный регламент маркировки, часть 4.4",
+          "url": "https://eec.eaeunion.org/upload/medialibrary/9db/TrTsPishevkaMarkirovka.pdf"
+        }
+      ],
+      "source": {
+        "label": "Источники раздела: Какие несогласованности проверить до изменения продукта",
+        "links": [
+          {
+            "label": "Официальный сайт",
+            "url": "https://novoferma.ru/"
+          },
+          {
+            "label": "ЕЭК: регламент и изменения",
+            "url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/TR_EAEU_051.php"
+          },
+          {
+            "label": "официальный текст, пункты 105–107",
+            "url": "https://docs.eaeunion.org/documents/386/6193/"
+          },
+          {
+            "label": "Официальный регламент маркировки, часть 4.4",
+            "url": "https://eec.eaeunion.org/upload/medialibrary/9db/TrTsPishevkaMarkirovka.pdf"
+          }
+        ],
+        "files": [
+          "Составы пф НОВОФЕРМА.pdf"
+        ],
+        "caveats": [
+          "Ссылки поддерживают приведённые факты. Рекомендации, допущения и расчётные сценарии отдельно обозначены в тексте."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Происхождение",
+            "detail": "Источники, относящиеся к этому разделу проверенного исследования; не результаты внутреннего производственного учета."
+          }
+        ]
+      }
+    },
+    "research_sources": {
+      "rows": [
+        {
+          "label": "Составы пф НОВОФЕРМА.pdf",
+          "scope": "Предоставленный пользователем PDF, 13 страниц; массовые доли и закупочные цены отсутствуют"
+        }
+      ],
+      "source": {
+        "label": "Источники раздела: Источники, уверенность и следующие данные",
+        "links": [],
+        "files": [
+          "Составы пф НОВОФЕРМА.pdf"
+        ],
+        "caveats": [
+          "Ссылки поддерживают приведённые факты. Рекомендации, допущения и расчётные сценарии отдельно обозначены в тексте."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Происхождение",
+            "detail": "Источники, относящиеся к этому разделу проверенного исследования; не результаты внутреннего производственного учета."
+          }
+        ]
+      }
+    }
+  },
+  "surface": "report",
+  "id": "report:1c7d1e18-b2e2-4e7c-8214-c688bb0a4358",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "result": "pass",
+  "viewports": [
+    [
+      320,
+      740
+    ],
+    [
+      360,
+      800
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      480,
+      900
+    ],
+    [
+      699,
+      1000
+    ],
+    [
+      700,
+      800
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1199,
+      800
+    ],
+    [
+      1200,
+      800
+    ],
+    [
+      1280,
+      720
+    ],
+    [
+      1440,
+      900
+    ],
+    [
+      1920,
+      1080
+    ],
+    [
+      667,
+      375
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      932,
+      430
+    ]
+  ],
+  "scenes": 4,
+  "combinations": 60,
+  "errors": [],
+  "sourceTests": 22,
+  "realBrowserCta": "Opens product-fibriki.html",
+  "independentReviews": [
+    "visual before/after: pass",
+    "CSS semantics/order: pass"
+  ]
+}

@@ -1,0 +1,18 @@
+Built-in ImageGen; 2026-11-07.
+Edit target: lulia-mini-food-original-master.png.
+Note: after real alpha compositing, the apparent glow in tool preview proved to be hidden RGB in fully transparent pixels. This call changed the four foods' scale/placement; the original clean-alpha output is preserved separately.
+
+Use case: background-extraction / precise-object-edit.
+Input image is the EXACT FOUR-LULIA FOOD LAYER to refine. Keep all FOUR different whole foods, their individual browned textures, red/green tiny flecks, imperfect shapes, viewing angles and rotations. No redraw into a different food style, no cloning or adding pieces.
+
+Fix ONLY the following:
+1. Remove COMPLETELY the entire amber/brown/cream glow, haze, all cast shadows, vignette and backdrop surrounding and between the foods. Background and EVERY gap must be genuine alpha=0 transparency, not a dark or pale transparent cloud. Preserve food bodies fully opaque alpha=255 with clean naturally antialiased edges. NO halo or shadow outside the food silhouettes.
+2. Correct scale/placement to the requested FOOD-ONLY layer geometry on the SAME1536×1024 3:2 canvas. Current foods are too large. Uniformly scale each food object to roughly65% of its present length, so principal pieces are about300px long, keeping shape and angle. Put their centers at:
+- First diagonal45deg food: (230,184).
+- Second near-horizontal-15deg food: (706,123).
+- Third shorter near-vertical75deg food: (1198,164).
+- Fourth lower-left+15deg food: (261,635).
+Their distinct long-axis angles remain as currently shown. Keep all four whole, comfortably separated and fully inside canvas. The lower middle/right region x>538 AND y>348 must contain NOTHING and be completely transparent. Do not move any food into this reserved hen area.
+
+Keep the LANDSCAPE1536×1024 frame, NO crop, no recentering. Exactly four food objects ONLY: no chicken, no parsley, no tomato, no garnish, no plate, no utensils, no red strokes, no words, no floor/table, no decorative dots. Output clean transparent RGBA PNG. Actual empty alpha, no white/gray/beige/amber haze anywhere, and four opaque delicious whole mini-lulia silhouettes.
+

@@ -1,11 +1,11 @@
 /* A composed mobile layout, with compact grids and shorter editorial pauses. */
 .header-actions .button{white-space:nowrap}
-@media(min-width:1100px){.home-products .product-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}.home-products .circle-arrow{width:36px;height:36px;min-width:36px}}
+@media(min-width:1100px){.home-products .product-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}.home-products .home-product .product-title h3{font-size:26px}.home-products .circle-arrow{width:36px;height:36px;min-width:36px}}
 @media(min-width:700px) and (max-width:1099px){.home-products .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}.home-products .product-image{max-height:310px}}
 @media(max-width:699px){
  .section{padding-block:44px}
- .breadcrumb{padding-top:8px;font-size:0.875rem;gap:8px}
- .breadcrumb a{min-height:44px}
+ .breadcrumb{padding-top:8px;font-size:11px;gap:8px}
+ .breadcrumb a{min-height:36px}
  .detail-visual{top:0}
  .related-section .product-grid.featured,.page-partners .product-grid.featured{
   display:grid;grid-auto-flow:row;grid-auto-columns:auto;grid-template-columns:repeat(2,minmax(0,1fr));
@@ -15,7 +15,7 @@
   display:flex;min-width:0;max-width:none;width:auto;scroll-snap-align:none;
  }
  .related-section .product-grid.featured .product-title h3,.page-partners .product-grid.featured .product-title h3{
-  font-size:1.25rem;line-height:1.2;
+  font-size:20px;line-height:1.2;
  }
  .related-section .product-grid.featured .product-image,.page-partners .product-grid.featured .product-image{
   aspect-ratio:1.06;width:100%;max-height:none;padding:4px 0 14px;
@@ -25,73 +25,114 @@
  }
  .page-index .home-products{padding-top:34px;padding-bottom:42px}
  .home-products .section-heading{gap:14px;margin-bottom:24px}
- .home-products .section-heading h2{font-size:clamp(1.9375rem,9.4vw,2.875rem)}
+ .home-products .section-heading h2{font-size:clamp(31px,9.4vw,46px)}
  .home-products .heading-aside{width:100%;justify-content:flex-end}
- .home-products .heading-aside .button{background:transparent;color:var(--brown);border:0;border-bottom:1px solid var(--line);border-radius:0;padding:0 0 4px;min-height:44px;font-size:0.875rem;gap:12px;box-shadow:none}
+ .home-products .heading-aside .button{background:transparent;color:var(--brown);border:0;border-bottom:1px solid var(--line);border-radius:0;padding:0 0 4px;min-height:36px;font-size:13px;gap:12px;box-shadow:none}
  .home-products .heading-aside .button .ui-icon{filter:none;width:20px;height:20px;flex-basis:20px}
  .home-products .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 16px}
  .home-products .product-card,.home-products .featured .product-card:last-child{display:flex}
  .home-products .product-image{aspect-ratio:1.06;max-height:none;padding:4px 0 14px}
+ .home-products .home-product .product-title{padding-top:12px;gap:6px;align-items:center;min-height:44px}
+ .home-products .home-product .product-title h3{font-size:clamp(17px,4.8vw,23px);font-weight:750;letter-spacing:-.025em;line-height:1.13}
  .home-products .circle-arrow{width:29px;height:29px;min-width:29px}
  .home-products .circle-arrow img{width:17px;height:17px}
+ .protein-inner{gap:30px;padding-top:38px;padding-bottom:128px}
+ .protein-copy>.eyebrow{margin-bottom:24px}
+ .protein-heading .protein-hand{font-size:44px;margin-top:21px}
+ .protein-story h3{font-size:32px;margin-bottom:18px}
+ .protein-story p{font-size:15px;line-height:1.55}
+ .protein-story p+p{margin-top:13px}
+ .protein-story .button{margin-top:22px}
+ .protein-bridge{width:210px;height:160px;bottom:-66px;right:22px}
+ .protein-bridge .bridge-cluster{width:192px}
+ .protein-bridge .bridge-single{width:82px;right:-9px;top:-10px}
+ .protein-section+.serving-section>.section{padding-top:92px}
+ .serving-tabs{margin-bottom:20px}
+ .serving-content{gap:26px}
+ .serving-content figure{aspect-ratio:1.2}
+ .serving-copy h3{font-size:34px;line-height:1.02;margin-bottom:18px}
+ .serving-copy>p:not(.eyebrow){font-size:15px;line-height:1.55}
+ .serving-content figcaption.hand{font-size:23px;padding:8px 14px;bottom:14px;left:12px}
  .brand-inner{padding-block:38px 60px}
  .brand-copy{padding-top:22px;padding-right:0;max-width:100%}
- .brand-copy>p:not(.hand){font-size:0.9375rem;line-height:1.6;max-width:34ch}
+ .brand-copy>p:not(.hand){font-size:15px;line-height:1.6;max-width:34ch}
  .brand-copy .button{margin-top:24px}
  .story-mascot,body.page-about .story-mascot{max-width:90px;max-height:135px;right:-16px}
  .page-about .brand-inner{padding-bottom:62px}
  .page-about .brand-copy>p:not(.hand){max-width:calc(100% - 80px)}
- .where-preview h2{font-size:clamp(1.9375rem,9.4vw,2.875rem)}
+ .where-preview h2{font-size:clamp(31px,9.4vw,46px)}
  .where-preview>div>p:not(.eyebrow){margin-top:20px}
  .editorial-links{margin-top:24px}
  .editorial-links a{padding-block:19px}
- .editorial-links h3{font-size:1.5rem;font-weight:750}
- .editorial-links p{font-size:0.875rem;line-height:1.6}
+ .editorial-links h3{font-size:24px;font-weight:750}
+ .editorial-links p{font-size:13px;line-height:1.5}
  .page-heading{margin-block:24px 24px}
  .page-heading .eyebrow{margin-bottom:16px}
  .catalogue-tools{display:flex;flex-direction:column;flex-wrap:nowrap;align-items:stretch;min-width:0;gap:13px;padding-bottom:15px}
  .catalogue-tools .search{order:-1;margin-top:0;margin-left:0;width:100%;max-width:none;min-height:46px}
  .search>span{display:flex;align-items:center;font-size:0;line-height:1}
  .search>span>.ui-icon{width:21px;height:21px}
- .search input{padding-block:10px;min-height:48px;font-size:1rem}
+ .search input{padding-block:10px;min-height:46px;font-size:15px}
+ .category-filters{padding-bottom:0;gap:6px}
+ .category-filters button{padding:10px 14px;min-height:42px}
  .filter-meta{margin-top:12px;margin-bottom:20px;gap:10px}
+ .meat-filters button{padding:9px 11px;font-size:11px;min-height:40px}
  .catalogue-grid .product-title{padding-top:10px;min-height:0}
  .catalogue-grid .product-card:not(.home-product) .product-title{gap:10px}
  .catalogue-grid .product-card .circle-arrow{width:30px;height:30px;min-width:30px}
  .catalogue-page{padding-bottom:42px}
- .catalogue-note{margin-top:28px;font-size:0.875rem;line-height:1.6}
+ .catalogue-note{margin-top:28px;font-size:12px;line-height:1.55}
  .catalogue-page+.partner-band{margin-bottom:22px}
  .partner-band-inner{padding-block:26px}
  .partner-band-inner>div:last-child{margin-top:19px}
  .site-footer{padding-top:30px;padding-bottom:24px}
- .footer-top .hand{font-size:1.375rem}
+ .footer-top .hand{font-size:22px}
  .footer-top{gap:18px 14px}
  .footer-bottom nav{gap:25px}
  .about-editorial{gap:32px;padding-top:18px;padding-bottom:44px}
  .about-editorial img{aspect-ratio:1.15}
  .about-hero{padding-block:28px 36px}
  .about-hero .split{gap:28px}
- .about-intro p{font-size:1.125rem}
- .about-intro p+p{font-size:0.9375rem}
+ .about-intro p{font-size:18px}
+ .about-intro p+p{font-size:15px}
  .page-intro{padding-top:26px;padding-bottom:28px}
- .page-intro .lead{font-size:1rem}
+ .page-intro .lead{font-size:16px}
  .city-panel{padding-top:25px;padding-bottom:28px}
  .city-panel .eyebrow{margin-bottom:18px}
  .where-layout{gap:30px;padding-bottom:42px}
- .where-explanation>p{font-size:0.9375rem}
- .partner-hero-copy>p{font-size:1.25rem;line-height:1.5}
- .partner-hero-copy>p+p{font-size:0.9375rem;line-height:1.6}
+ .where-explanation>p{font-size:15px}
+ .partner-hero{margin-top:20px;padding-top:36px;padding-bottom:64px}
+ .partner-hero .split{gap:28px}
+ .partner-hero-copy>p{font-size:20px;line-height:1.5}
+ .partner-hero-copy>p+p{font-size:15px;line-height:1.6}
+ .partner-hero+.section{padding-top:88px}
+ .partner-hero+.section .section-heading{display:flex;flex-wrap:wrap;gap:22px;margin-bottom:24px}
+ .partner-contact{margin-bottom:24px}
+ .partner-contact .split{gap:28px}
  .contacts-main{margin-top:24px}
  .contacts-main>.wrap{padding-top:40px}
  .contact-heading{margin-bottom:30px}
+ .contact-columns h2{font-size:26px}
+ .contact-columns p{font-size:14px;margin-bottom:15px}
+ .contacts-bottom{padding-block:20px}
  .requisites{padding-block:34px}
 }
 @media(max-width:359px){.brand,.brand img{width:114px}.header-actions .button{gap:8px;padding-inline:12px}}
 @media(max-width:359px){
  .related-section .product-grid.featured,.page-partners .product-grid.featured{gap:26px 13px}
- .related-section .product-grid.featured .product-title h3,.page-partners .product-grid.featured .product-title h3{font-size:1.125rem}
+ .related-section .product-grid.featured .product-title h3,.page-partners .product-grid.featured .product-title h3{font-size:18px}
  .home-products .product-grid{gap:24px 13px}
+ .home-products .home-product .product-title h3{font-size:16px}
  .home-products .circle-arrow{width:26px;height:26px;min-width:26px}
  .home-products .product-title{gap:4px}
- .filter-meta>p{font-size:0.6875rem}
+ .meat-filters{gap:5px}
+ .filter-meta>p{font-size:11px}
+ .meat-filters button{font-size:10px;padding-inline:10px}
+ .protein-story h3{font-size:29px}
+ .protein-bridge{right:18px}
 }
+
+/* The protein section now ends directly above the partnership section. */
+.page-index .protein-inner{padding-bottom:78px;min-height:0}
+@media(max-width:1099px){.page-index .protein-inner{padding-bottom:64px}}
+@media(max-width:699px){.page-index .protein-inner{padding-bottom:48px}}

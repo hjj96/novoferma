@@ -1,0 +1,24 @@
+Use case: precise-object-edit / product-mockup.
+Asset type: realistic retail packshot on genuine transparent background, 2048x2048 or higher preferred. Clean generous margins around complete package.
+
+INPUT ROLES, obey carefully:
+Image 1 is the EDIT TARGET, the first Pops packshot. Keep its cream NOVOferma packaging identity and exact product wording, but revise its label composition and its package material realism as below.
+Image 2 is AUTHORITY FOR PHYSICAL PACKAGE AND PHOTOGRAPHIC REALISM: an actual Novoferma popcorn product photograph. Match its very shallow, thin-wall flexible clear PET food tray, modest real food quantity, ordinary retail folded paperboard sleeve, small irregular folds, paper grain, slight printing imperfections, soft natural lighting and believable photographic shadows. Avoid CGI glass, thick heavy acrylic, luxurious rigid box or over-deep tray.
+Image 3 (Fibriki) and Image 4 (Strips) are AUTHORITY FOR THE BRAND HEN IDENTITY AND PRINTED ILLUSTRATION STYLE. Study their narrow, crafty half-lidded small eyes, small head relative to body, russet-orange/ochre feathers, strong fine dark-brown ink contours and delicate feather hatching, thin dark legs and toes, hand-drawn flat printed editorial character. This hen must look like their close brand sibling.
+
+REVISE THE PRINTED FRONT COMPOSITION:
+Make a large, appealing terracotta paper FOOD BUCKET the main central printed picture on the lower cream paper sleeve, centered slightly left of the label center. It is ONLY a printed serving image on the existing rectangular retail package, NOT a physical new bucket-shaped retail container.
+The printed terracotta bucket is visibly full of a generous mound of small uneven golden chicken pops — mini nuggets made of finely minced chicken, about 2–3cm, lumpy irregular rounded shapes, fine crispy crumb, not perfect smooth balls, no large cornflakes, no long strips, no cutaway. Two or three little pops have spilled beside its foot. Food and bucket in this printed scene can have photoreal appetizing food photography treatment like the original popcorn sleeve.
+A SMALL crafty orange/russet hen appears behind and to the right of the printed bucket, peeking around its side and gently pushing it toward us with one wing. The printed hen is distinctly secondary: bucket and food occupy about 70% of lower illustration emphasis; hen occupies about 30%, smaller than the bucket height, with thin legs and a knowing slightly skeptical half-smile. Character is in the flat inked/hatching Fibriki/Strips style, naturally printed on the paper sleeve.
+Absolutely replace the edit target's current huge delighted mascot. NO Disney, NO Pixar, NO 3D toy, NO large shiny sparkling eyes, NO giant smiling open mouth, NO cute plush proportions. Narrow small eyes and angular inked profile matter.
+
+EXACT TEXT, in the top half, no additions:
+NOVOferma [orange italic brand wordmark as reference]
+ПОПСЫ [large dark-brown Cyrillic serif headline, very readable]
+МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ
+В ХРУСТЯЩЕЙ ПАНИРОВКЕ
+Keep exact letters and spelling, no invented nutrition, slogans, grams, certifications, stamps, legal copy or barcode.
+
+PHYSICAL OBJECT:
+One whole closed shallow rectangular/oval transparent ribbed PET retail food tray with real paperboard sleeve wrapping over it as in Image 2. Transparent lower front window reveals actual small irregular breaded chicken pops in a shallow layer. It should look photographed, not rendered. Cream warm paper sleeve gently arches, natural real folds at sides, soft ambient lighting, thin glossy plastic, tactile matte card, believable print distortion across curved paper. Front three-quarter elevated camera view, almost straight-on like the original product photograph. Keep all edges within canvas with at least 7% transparent margin.
+Do not redesign the physical container into a paper tub. The bucket is an illustration printed ON THE SLEEVE. No separate physical objects beside the package, no background, no props, no floating text, no shadow plane, no watermark. Genuine clean alpha transparency with no colored speckles or edge fringe.

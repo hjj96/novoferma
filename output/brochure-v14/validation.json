@@ -1,0 +1,33 @@
+{
+  "pages": 8,
+  "format": "16:9, 960×540 pt",
+  "changed_pages": [
+    2,
+    3
+  ],
+  "unchanged_pages_pixel_identical": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "lifestyle_and_packaging_right_side_pixel_identical": [
+    2,
+    3
+  ],
+  "exact_catalogue_image_placements_preserved": 15,
+  "headline_font": "Rubik700, printed, not handwritten",
+  "protein_proof": "52g in full headline;58pt vs previous158pt; perClassicpack; no500g",
+  "fibre_market_statistic": "73percent of surveyed Russian adults desire more dietary fibre; VCIOMMay2026 n3200; not measured intake shortfall",
+  "fibre_serving_suggestions": "removed",
+  "slide_word_counts": {
+    "2": 29,
+    "3": 32
+  },
+  "new_image_generation": false,
+  "contact_links": 3,
+  "text_bounds": "passed",
+  "bytes": 14452039
+}

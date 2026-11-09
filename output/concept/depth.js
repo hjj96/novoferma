@@ -14,9 +14,7 @@
       .filter(target => target.closest('[data-depth-scene]') === element)
       .map(element => ({ element, travel: amount(element.dataset.depth), turn: amount(element.dataset.depthTurn) }))
   })).filter(scene => scene.targets.length);
-  // These product surfaces are intentionally static in the shared CSS.
-  const tilts = [...document.querySelectorAll('[data-tilt]')]
-    .filter(element => !element.closest('.product-card,.product-detail')).map(element => ({
+  const tilts = [...document.querySelectorAll('[data-tilt]')].map(element => ({
     element, active: false, dirty: false, x: 0, y: 0
   }));
 
@@ -24,7 +22,7 @@
 
   let frame = 0;
   const paused = () => document.hidden || Boolean(menu?.open);
-  const motionEnabled = () => motionMedia.matches && pointerMedia.matches;
+  const pointerEnabled = () => motionMedia.matches && pointerMedia.matches;
 
   // Avoid repeated inline-style mutations when the rounded value is unchanged.
   function setVariable(element, name, value) {
@@ -45,12 +43,12 @@
   }
 
   function schedule() {
-    if (!frame && motionEnabled() && !paused()) frame = requestAnimationFrame(render);
+    if (!frame && motionMedia.matches && !paused()) frame = requestAnimationFrame(render);
   }
 
   function render() {
     frame = 0;
-    if (!motionEnabled() || paused()) return;
+    if (!motionMedia.matches || paused()) return;
 
     const viewportHeight = document.documentElement.clientHeight || innerHeight;
     const changes = [];
@@ -79,7 +77,7 @@
       let x = 0;
       let y = 0;
       let lift = 0;
-      if (tilt.active && motionEnabled()) {
+      if (tilt.active && pointerEnabled()) {
         const rectangle = readRectangle(tilt.element);
         if (rectangle.width && rectangle.height) {
           x = -clamp((tilt.y - rectangle.top) / rectangle.height * 2 - 1) * 3;
@@ -100,7 +98,7 @@
 
   function updateAvailability() {
     stopFrame();
-    if (!motionEnabled() || paused()) {
+    if (!motionMedia.matches) {
       for (const scene of scenes) {
         for (const target of scene.targets) {
           setVariable(target.element, '--depth-y', '0px');
@@ -108,13 +106,13 @@
         }
       }
     }
-    if (!motionEnabled() || paused()) tilts.forEach(resetTilt);
+    if (!pointerEnabled() || paused()) tilts.forEach(resetTilt);
     schedule();
   }
 
   for (const tilt of tilts) {
     const move = event => {
-      if (!motionEnabled() || paused() || event.pointerType === 'touch') return;
+      if (!pointerEnabled() || paused() || event.pointerType === 'touch') return;
       tilt.active = true;
       tilt.dirty = true;
       tilt.x = event.clientX;

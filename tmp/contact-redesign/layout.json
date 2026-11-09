@@ -1,0 +1,1162 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "scroll": 320,
+      "sectionHeight": 891.15625,
+      "image": {
+        "x": 140.8125,
+        "y": 707.046875,
+        "w": 179.1875,
+        "h": 293.109375,
+        "right": 320,
+        "bottom": 1000.15625
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 16,
+          "y": 354.84375,
+          "w": 215.1875,
+          "h": 44,
+          "right": 231.1875,
+          "bottom": 398.84375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 16,
+          "y": 398.84375,
+          "w": 151.484375,
+          "h": 40,
+          "right": 167.484375,
+          "bottom": 438.84375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 16,
+          "y": 537.03125,
+          "w": 233.34375,
+          "h": 44,
+          "right": 249.34375,
+          "bottom": 581.03125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 16,
+          "y": 581.03125,
+          "w": 151.03125,
+          "h": 40,
+          "right": 167.03125,
+          "bottom": 621.03125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 16,
+          "y": 647.03125,
+          "w": 179.859375,
+          "h": 44,
+          "right": 195.859375,
+          "bottom": 691.03125,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    },
+    {
+      "width": 360,
+      "scroll": 360,
+      "sectionHeight": 939.34375,
+      "image": {
+        "x": 158.40625,
+        "y": 670.578125,
+        "w": 201.59375,
+        "h": 329.765625,
+        "right": 360,
+        "bottom": 1000.34375
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 20,
+          "y": 318.375,
+          "w": 234.640625,
+          "h": 44,
+          "right": 254.640625,
+          "bottom": 362.375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 20,
+          "y": 362.375,
+          "w": 159.890625,
+          "h": 40,
+          "right": 179.890625,
+          "bottom": 402.375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 20,
+          "y": 500.5625,
+          "w": 254.515625,
+          "h": 44,
+          "right": 274.515625,
+          "bottom": 544.5625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 20,
+          "y": 544.5625,
+          "w": 159.421875,
+          "h": 40,
+          "right": 179.421875,
+          "bottom": 584.5625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 20,
+          "y": 610.5625,
+          "w": 191.390625,
+          "h": 44,
+          "right": 211.390625,
+          "bottom": 654.5625,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "sectionHeight": 969.9375,
+      "image": {
+        "x": 171.609375,
+        "y": 642.703125,
+        "w": 218.390625,
+        "h": 357.234375,
+        "right": 390,
+        "bottom": 999.9375
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 20,
+          "y": 290.5,
+          "w": 234.640625,
+          "h": 44,
+          "right": 254.640625,
+          "bottom": 334.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 20,
+          "y": 334.5,
+          "w": 159.890625,
+          "h": 40,
+          "right": 179.890625,
+          "bottom": 374.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 20,
+          "y": 472.6875,
+          "w": 254.515625,
+          "h": 44,
+          "right": 274.515625,
+          "bottom": 516.6875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 20,
+          "y": 516.6875,
+          "w": 159.421875,
+          "h": 40,
+          "right": 179.421875,
+          "bottom": 556.6875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 20,
+          "y": 582.6875,
+          "w": 191.390625,
+          "h": 44,
+          "right": 211.390625,
+          "bottom": 626.6875,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    },
+    {
+      "width": 500,
+      "scroll": 500,
+      "sectionHeight": 1104.046875,
+      "image": {
+        "x": 220,
+        "y": 671.03125,
+        "w": 280,
+        "h": 458.015625,
+        "right": 500,
+        "bottom": 1129.046875
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 20,
+          "y": 318.84375,
+          "w": 234.640625,
+          "h": 44,
+          "right": 254.640625,
+          "bottom": 362.84375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 20,
+          "y": 362.84375,
+          "w": 159.890625,
+          "h": 40,
+          "right": 179.890625,
+          "bottom": 402.84375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 20,
+          "y": 501.03125,
+          "w": 254.515625,
+          "h": 44,
+          "right": 274.515625,
+          "bottom": 545.03125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 20,
+          "y": 545.03125,
+          "w": 159.421875,
+          "h": 40,
+          "right": 179.421875,
+          "bottom": 585.03125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 20,
+          "y": 611.03125,
+          "w": 191.390625,
+          "h": 44,
+          "right": 211.390625,
+          "bottom": 655.03125,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    },
+    {
+      "width": 699,
+      "scroll": 699,
+      "sectionHeight": 1209.828125,
+      "image": {
+        "x": 379,
+        "y": 711.375,
+        "w": 320,
+        "h": 523.453125,
+        "right": 699,
+        "bottom": 1234.828125
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 20,
+          "y": 359.1875,
+          "w": 234.640625,
+          "h": 44,
+          "right": 254.640625,
+          "bottom": 403.1875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 20,
+          "y": 403.1875,
+          "w": 159.890625,
+          "h": 40,
+          "right": 179.890625,
+          "bottom": 443.1875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 20,
+          "y": 541.375,
+          "w": 254.515625,
+          "h": 44,
+          "right": 274.515625,
+          "bottom": 585.375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 20,
+          "y": 585.375,
+          "w": 159.421875,
+          "h": 40,
+          "right": 179.421875,
+          "bottom": 625.375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 20,
+          "y": 651.375,
+          "w": 191.390625,
+          "h": 44,
+          "right": 211.390625,
+          "bottom": 695.375,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    },
+    {
+      "width": 700,
+      "scroll": 700,
+      "sectionHeight": 708.46875,
+      "image": {
+        "x": 399,
+        "y": 420,
+        "w": 301,
+        "h": 468.46875,
+        "right": 700,
+        "bottom": 888.46875
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 32,
+          "y": 508.78125,
+          "w": 254.078125,
+          "h": 40,
+          "right": 286.078125,
+          "bottom": 548.78125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 32,
+          "y": 550.78125,
+          "w": 168.3125,
+          "h": 40,
+          "right": 200.3125,
+          "bottom": 590.78125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 32,
+          "y": 694.46875,
+          "w": 275.6875,
+          "h": 40,
+          "right": 307.6875,
+          "bottom": 734.46875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 32,
+          "y": 736.46875,
+          "w": 167.8125,
+          "h": 40,
+          "right": 199.8125,
+          "bottom": 776.46875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 32,
+          "y": 804.46875,
+          "w": 197.390625,
+          "h": 44,
+          "right": 229.390625,
+          "bottom": 848.46875,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "sectionHeight": 708.46875,
+      "image": {
+        "x": 437.765625,
+        "y": 420,
+        "w": 330.234375,
+        "h": 468.46875,
+        "right": 768,
+        "bottom": 888.46875
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 32,
+          "y": 508.78125,
+          "w": 254.078125,
+          "h": 40,
+          "right": 286.078125,
+          "bottom": 548.78125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 32,
+          "y": 550.78125,
+          "w": 168.3125,
+          "h": 40,
+          "right": 200.3125,
+          "bottom": 590.78125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 32,
+          "y": 694.46875,
+          "w": 275.6875,
+          "h": 40,
+          "right": 307.6875,
+          "bottom": 734.46875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 32,
+          "y": 736.46875,
+          "w": 167.8125,
+          "h": 40,
+          "right": 199.8125,
+          "bottom": 776.46875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 32,
+          "y": 804.46875,
+          "w": 197.390625,
+          "h": 44,
+          "right": 229.390625,
+          "bottom": 848.46875,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    },
+    {
+      "width": 900,
+      "scroll": 900,
+      "sectionHeight": 733.4375,
+      "image": {
+        "x": 513,
+        "y": 420,
+        "w": 387,
+        "h": 493.4375,
+        "right": 900,
+        "bottom": 913.4375
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 32,
+          "y": 533.75,
+          "w": 254.078125,
+          "h": 40,
+          "right": 286.078125,
+          "bottom": 573.75,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 32,
+          "y": 575.75,
+          "w": 168.3125,
+          "h": 40,
+          "right": 200.3125,
+          "bottom": 615.75,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 32,
+          "y": 719.4375,
+          "w": 275.6875,
+          "h": 40,
+          "right": 307.6875,
+          "bottom": 759.4375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 32,
+          "y": 761.4375,
+          "w": 167.8125,
+          "h": 40,
+          "right": 199.8125,
+          "bottom": 801.4375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 32,
+          "y": 829.4375,
+          "w": 197.390625,
+          "h": 44,
+          "right": 229.390625,
+          "bottom": 873.4375,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    },
+    {
+      "width": 959,
+      "scroll": 959,
+      "sectionHeight": 744.96875,
+      "image": {
+        "x": 546.640625,
+        "y": 420,
+        "w": 412.359375,
+        "h": 504.96875,
+        "right": 959,
+        "bottom": 924.96875
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 32,
+          "y": 545.28125,
+          "w": 254.078125,
+          "h": 40,
+          "right": 286.078125,
+          "bottom": 585.28125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 32,
+          "y": 587.28125,
+          "w": 168.3125,
+          "h": 40,
+          "right": 200.3125,
+          "bottom": 627.28125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 32,
+          "y": 730.96875,
+          "w": 275.6875,
+          "h": 40,
+          "right": 307.6875,
+          "bottom": 770.96875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 32,
+          "y": 772.96875,
+          "w": 167.8125,
+          "h": 40,
+          "right": 199.8125,
+          "bottom": 812.96875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 32,
+          "y": 840.96875,
+          "w": 197.390625,
+          "h": 44,
+          "right": 229.390625,
+          "bottom": 884.96875,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    },
+    {
+      "width": 960,
+      "scroll": 960,
+      "sectionHeight": 597.53125,
+      "image": {
+        "x": 624,
+        "y": 235.90625,
+        "w": 336,
+        "h": 549.625,
+        "right": 960,
+        "bottom": 785.53125
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 278.15625,
+          "y": 469.53125,
+          "w": 223.90625,
+          "h": 40,
+          "right": 502.0625,
+          "bottom": 509.53125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 278.15625,
+          "y": 511.53125,
+          "w": 151.484375,
+          "h": 40,
+          "right": 429.640625,
+          "bottom": 551.53125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 278.15625,
+          "y": 583.53125,
+          "w": 242.9375,
+          "h": 40,
+          "right": 521.09375,
+          "bottom": 623.53125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 278.15625,
+          "y": 625.53125,
+          "w": 151.03125,
+          "h": 40,
+          "right": 429.1875,
+          "bottom": 665.53125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 32,
+          "y": 697.53125,
+          "w": 197.390625,
+          "h": 44,
+          "right": 229.390625,
+          "bottom": 741.53125,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    },
+    {
+      "width": 1024,
+      "scroll": 1024,
+      "sectionHeight": 608.84375,
+      "image": {
+        "x": 665.609375,
+        "y": 212,
+        "w": 358.390625,
+        "h": 584.84375,
+        "right": 1024,
+        "bottom": 796.84375
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 294.796875,
+          "y": 480.84375,
+          "w": 223.90625,
+          "h": 40,
+          "right": 518.703125,
+          "bottom": 520.84375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 294.796875,
+          "y": 522.84375,
+          "w": 151.484375,
+          "h": 40,
+          "right": 446.28125,
+          "bottom": 562.84375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 294.796875,
+          "y": 594.84375,
+          "w": 242.9375,
+          "h": 40,
+          "right": 537.734375,
+          "bottom": 634.84375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 294.796875,
+          "y": 636.84375,
+          "w": 151.03125,
+          "h": 40,
+          "right": 445.828125,
+          "bottom": 676.84375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 32,
+          "y": 708.84375,
+          "w": 197.390625,
+          "h": 44,
+          "right": 229.390625,
+          "bottom": 752.84375,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    },
+    {
+      "width": 1199,
+      "scroll": 1199,
+      "sectionHeight": 639.78125,
+      "image": {
+        "x": 779.359375,
+        "y": 224,
+        "w": 419.640625,
+        "h": 615.78125,
+        "right": 1199,
+        "bottom": 839.78125
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 340.296875,
+          "y": 523.78125,
+          "w": 223.90625,
+          "h": 40,
+          "right": 564.203125,
+          "bottom": 563.78125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 340.296875,
+          "y": 565.78125,
+          "w": 151.484375,
+          "h": 40,
+          "right": 491.78125,
+          "bottom": 605.78125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 340.296875,
+          "y": 637.78125,
+          "w": 242.9375,
+          "h": 40,
+          "right": 583.234375,
+          "bottom": 677.78125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 340.296875,
+          "y": 679.78125,
+          "w": 151.03125,
+          "h": 40,
+          "right": 491.328125,
+          "bottom": 719.78125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 32,
+          "y": 751.78125,
+          "w": 197.390625,
+          "h": 44,
+          "right": 229.390625,
+          "bottom": 795.78125,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    },
+    {
+      "width": 1200,
+      "scroll": 1200,
+      "sectionHeight": 639.96875,
+      "image": {
+        "x": 768,
+        "y": 224,
+        "w": 432,
+        "h": 615.96875,
+        "right": 1200,
+        "bottom": 839.96875
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 364.375,
+          "y": 523.96875,
+          "w": 227.90625,
+          "h": 40,
+          "right": 592.28125,
+          "bottom": 563.96875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 364.375,
+          "y": 565.96875,
+          "w": 168.3125,
+          "h": 40,
+          "right": 532.6875,
+          "bottom": 605.96875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 364.375,
+          "y": 637.96875,
+          "w": 246.9375,
+          "h": 40,
+          "right": 611.3125,
+          "bottom": 677.96875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 364.375,
+          "y": 679.96875,
+          "w": 167.8125,
+          "h": 40,
+          "right": 532.1875,
+          "bottom": 719.96875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 48,
+          "y": 751.96875,
+          "w": 197.390625,
+          "h": 44,
+          "right": 245.390625,
+          "bottom": 795.96875,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    },
+    {
+      "width": 1280,
+      "scroll": 1280,
+      "sectionHeight": 654.09375,
+      "image": {
+        "x": 819.203125,
+        "y": 224,
+        "w": 460.796875,
+        "h": 630.09375,
+        "right": 1280,
+        "bottom": 854.09375
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 386.140625,
+          "y": 538.09375,
+          "w": 236.984375,
+          "h": 40,
+          "right": 623.125,
+          "bottom": 578.09375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 386.140625,
+          "y": 580.09375,
+          "w": 168.3125,
+          "h": 40,
+          "right": 554.453125,
+          "bottom": 620.09375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 386.140625,
+          "y": 652.09375,
+          "w": 256.90625,
+          "h": 40,
+          "right": 643.046875,
+          "bottom": 692.09375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 386.140625,
+          "y": 694.09375,
+          "w": 167.8125,
+          "h": 40,
+          "right": 553.953125,
+          "bottom": 734.09375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 48,
+          "y": 766.09375,
+          "w": 197.390625,
+          "h": 44,
+          "right": 245.390625,
+          "bottom": 810.09375,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "sectionHeight": 682.34375,
+      "image": {
+        "x": 921.609375,
+        "y": 224,
+        "w": 518.390625,
+        "h": 658.34375,
+        "right": 1440,
+        "bottom": 882.34375
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 428.09375,
+          "y": 566.34375,
+          "w": 262.109375,
+          "h": 40,
+          "right": 690.203125,
+          "bottom": 606.34375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 428.09375,
+          "y": 608.34375,
+          "w": 168.3125,
+          "h": 40,
+          "right": 596.40625,
+          "bottom": 648.34375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 428.09375,
+          "y": 680.34375,
+          "w": 284.515625,
+          "h": 40,
+          "right": 712.609375,
+          "bottom": 720.34375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 428.09375,
+          "y": 722.34375,
+          "w": 167.8125,
+          "h": 40,
+          "right": 595.90625,
+          "bottom": 762.34375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 72,
+          "y": 794.34375,
+          "w": 197.390625,
+          "h": 44,
+          "right": 269.390625,
+          "bottom": 838.34375,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    },
+    {
+      "width": 1920,
+      "scroll": 1920,
+      "sectionHeight": 689.09375,
+      "image": {
+        "x": 1300,
+        "y": 224,
+        "w": 620,
+        "h": 665.09375,
+        "right": 1920,
+        "bottom": 889.09375
+      },
+      "links": [
+        {
+          "href": "mailto:info@novoferma.ru",
+          "x": 668.09375,
+          "y": 573.09375,
+          "w": 271.53125,
+          "h": 40,
+          "right": 939.625,
+          "bottom": 613.09375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+78129155454",
+          "x": 668.09375,
+          "y": 615.09375,
+          "w": 168.3125,
+          "h": 40,
+          "right": 836.40625,
+          "bottom": 655.09375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "mailto:zakaz@novoferma.ru",
+          "x": 668.09375,
+          "y": 687.09375,
+          "w": 294.875,
+          "h": 40,
+          "right": 962.96875,
+          "bottom": 727.09375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "tel:+79312135550",
+          "x": 668.09375,
+          "y": 729.09375,
+          "w": 167.8125,
+          "h": 40,
+          "right": 835.90625,
+          "bottom": 769.09375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "href": "https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202",
+          "x": 312,
+          "y": 801.09375,
+          "w": 197.390625,
+          "h": 44,
+          "right": 509.390625,
+          "bottom": 845.09375,
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "textIssues": [],
+      "brokenImages": []
+    }
+  ],
+  "errors": [],
+  "menu": true,
+  "focus": {
+    "focused": true,
+    "outline": "solid"
+  }
+}

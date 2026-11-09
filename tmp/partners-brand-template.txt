@@ -1,0 +1,16 @@
+# Partner offers use the same verified catalogue data as product pages.
+partner_weights={}
+for p in products:
+ partner_weights.setdefault(p['category'],set()).add(p['weight'])
+partner_rows=''.join(f'<tr><th scope="row">{esc(category)}</th><td>{esc(", ".join(sorted(weights)))}</td></tr>' for category,weights in partner_weights.items())
+partners=crumb('Партнёрам')+f'''<section class="partners-business" aria-labelledby="partners-heading"><div class="wrap partners-business-inner">
+<div class="partners-business-copy"><p class="eyebrow">Новоферма / Партнёрам</p><h1 id="partners-heading"><span>Дело</span> <span>со вкусом.</span></h1><p class="partners-business-description">Продукты из курицы и&nbsp;индейки<br>для вашего бизнеса.</p><a class="button partners-primary" href="#partner-contact">Стать партнёром{arrow()}</a></div>
+<figure class="partners-business-scene"><div class="partners-scene-disc" aria-hidden="true"></div><img class="partners-host" src="{asset_url('assets/partners-brand-v1/partner-host-v1.webp')}" width="1024" height="1536" alt="Фирменная курочка Новофермы в кремовом пиджаке приглашает к сотрудничеству" fetchpriority="high" decoding="sync"></figure>
+</div></section>
+<section class="partners-offers" aria-label="Форматы сотрудничества"><div class="wrap partners-offers-inner">
+<article class="partners-offer partners-offer-retail" id="partner-retail" aria-labelledby="retail-heading"><p class="eyebrow">Продукция Новофермы</p><h2 id="retail-heading">Для полки.<br><em>Для меню.</em></h2><p class="partners-offer-description">Готовый ассортимент для магазинов,<br>кафе и&nbsp;ресторанов.</p><a class="partners-offer-link" href="catalogue.html">Смотреть каталог{arrow()}</a><details class="partners-specs"><summary>Фасовки из каталога<span aria-hidden="true">+</span></summary><div class="partners-specs-content"><table><thead><tr><th>Продукты</th><th>Масса нетто</th></tr></thead><tbody>{partner_rows}</tbody></table><p>Актуальные фасовки, объём партии и&nbsp;условия поставки уточним при обсуждении заказа.</p></div></details></article>
+<article class="partners-offer partners-offer-stm" id="private-label" aria-labelledby="stm-heading"><p class="eyebrow">Собственная торговая марка</p><h2 id="stm-heading">Ваш бренд.<br><em>Наш продукт.</em></h2><p class="partners-offer-description">Выпускаем продукты<br>под вашей торговой маркой.</p><a class="partners-offer-link" href="#partner-contact" data-partner-format="stm">Обсудить СТМ{arrow()}</a></article>
+</div></section>
+<section class="partners-contact" id="partner-contact" aria-labelledby="partner-contact-heading"><div class="wrap partners-contact-inner"><div class="partners-contact-copy"><p class="eyebrow">Будем на связи</p><h2 id="partner-contact-heading">Давайте<br><em>обсудим.</em></h2><p class="partners-contact-description">Оставьте детали в&nbsp;письме<br>или свяжитесь с&nbsp;нами напрямую.</p><div class="partners-direct"><a class="partners-direct-email" href="mailto:zakaz@novoferma.ru">zakaz@novoferma.ru{arrow()}</a><a class="partners-direct-phone" href="tel:+79312135550">+7 (931) 213-55-50</a></div></div>
+__FORM__
+</div></section>'''

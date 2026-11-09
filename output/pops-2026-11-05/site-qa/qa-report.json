@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-05",
+  "story": "Каталог → Попсы → Где купить с выбранным продуктом.",
+  "staticChecks": {
+    "pages": 23,
+    "images": 400,
+    "localReferences": 1447,
+    "uniqueTitles": 23,
+    "uniqueDescriptions": 23,
+    "publicUrl": null,
+    "errors": [],
+    "result": "pass",
+    "scope": "Generated source only; visual and interactive browser checks are separate."
+  },
+  "browserChecks": {
+    "layouts": [
+      {
+        "width": 320,
+        "scrollWidth": 320,
+        "h1": "Попсы",
+        "missingImages": [],
+        "cutout": "http://127.0.0.1:8765/output/concept/assets/responsive/illustrations/popsy-food-400-q90-719294ed.webp",
+        "serving": true
+      },
+      {
+        "width": 390,
+        "scrollWidth": 390,
+        "h1": "Попсы",
+        "missingImages": [],
+        "cutout": "http://127.0.0.1:8765/output/concept/assets/responsive/illustrations/popsy-food-400-q90-719294ed.webp",
+        "serving": true
+      },
+      {
+        "width": 768,
+        "scrollWidth": 768,
+        "h1": "Попсы",
+        "missingImages": [],
+        "cutout": "http://127.0.0.1:8765/output/concept/assets/responsive/illustrations/popsy-food-800-q90-719294ed.webp",
+        "serving": true
+      },
+      {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "h1": "Попсы",
+        "missingImages": [],
+        "cutout": "http://127.0.0.1:8765/output/concept/assets/responsive/illustrations/popsy-food-800-q90-719294ed.webp",
+        "serving": true
+      }
+    ],
+    "catalogueCards": 17,
+    "catalogueLink": true,
+    "whereProductSelected": "popsy",
+    "pageErrors": [],
+    "failedRequests": []
+  },
+  "pageChanges": {
+    "changedExistingPages": [
+      "product-kurinyj-popkorn.html",
+      "catalogue.html",
+      "where-to-buy.html"
+    ],
+    "addedPages": [
+      "product-popsy.html"
+    ],
+    "homeUnchanged": true
+  },
+  "finalFoodSourceSha256": "5683a02853e05a3dee4dba4946e97132081cec029a8f56b7b3376d5029acc23f",
+  "finalFoodWebpSha256": "719294ede705247db89f1b4d0fae0ec5c2d75f7cca30f68a4c37f7684a5a28b5",
+  "unchangedFoodAfterFinalReceipt": true,
+  "scope": "Local static site; no publication, commit or full-site ZIP created in this task.",
+  "result": "pass"
+}

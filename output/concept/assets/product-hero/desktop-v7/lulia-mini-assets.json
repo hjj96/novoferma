@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-07",
+  "tool": "built-in ImageGen",
+  "notes": [
+    "Hen is a separate isolated transparent layer; face and style follow Fibriki v5, pose follows Lulia v4 turned left.",
+    "Food preview contains amber RGB in alpha-zero background; actual cream composite is clean, no glow.",
+    "Food original kept as alternative. Main food master is the second call with reduced scale and nearly empty lower-right reserved region.",
+    "No WebP, CSS, generator or site edits."
+  ],
+  "assets": {
+    "hen": {
+      "file": "lulia-mini-hen-master.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bboxAlpha64": [
+        27,
+        15,
+        1229,
+        1245
+      ],
+      "bytes": 1582355
+    },
+    "food": {
+      "file": "lulia-mini-food-master.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "bboxAlpha64": [
+        123,
+        65,
+        1308,
+        734
+      ],
+      "bytes": 1379380,
+      "reservedLowerRightMaxAlpha": 1,
+      "backgroundAlphaSamples": {
+        "(20, 20)": 0,
+        "(600, 350)": 0,
+        "(1000, 700)": 0,
+        "(700, 500)": 0,
+        "(1400, 800)": 0
+      }
+    },
+    "food-original": {
+      "file": "lulia-mini-food-original-master.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "bboxAlpha64": [
+        45,
+        20,
+        1329,
+        770
+      ],
+      "bytes": 1682141,
+      "reservedLowerRightMaxAlpha": 254,
+      "backgroundAlphaSamples": {
+        "(20, 20)": 0,
+        "(600, 350)": 0,
+        "(1000, 700)": 0,
+        "(700, 500)": 0,
+        "(1400, 800)": 0
+      }
+    }
+  }
+}

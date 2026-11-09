@@ -1,0 +1,646 @@
+[
+  {
+    "page": "index",
+    "width": 320,
+    "cards": [
+      {
+        "title": "Наггетсы",
+        "display": "flex",
+        "visible": true
+      },
+      {
+        "title": "Попкорн",
+        "display": "flex",
+        "visible": true
+      },
+      {
+        "title": "Стрипсы",
+        "display": "flex",
+        "visible": true
+      }
+    ],
+    "types": [
+      {
+        "text": "Есть поводсобраться.",
+        "family": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+        "size": "49.248px",
+        "line": "47.7706px",
+        "transform": "none",
+        "color": "rgb(255, 245, 227)",
+        "width": 288,
+        "x": 16,
+        "right": 304
+      },
+      {
+        "text": "Фрикадельки, наггетсыи другие любимые блюда.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "29px",
+        "line": "31.32px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(48, 23, 9)",
+        "width": 290.8828430175781,
+        "x": 14.361230850219727,
+        "right": 305.24407386779785
+      },
+      {
+        "text": "Вкусно,когдавместе.",
+        "family": "\"Novoferma Sans\", Arial, sans-serif",
+        "size": "49px",
+        "line": "48.02px",
+        "transform": "none",
+        "color": "rgb(64, 33, 17)",
+        "width": 288,
+        "x": 16,
+        "right": 304
+      },
+      {
+        "text": "На упаковке — наши герои. За столом — ваши.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "25px",
+        "line": "27px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 215.53424072265625,
+        "x": 14.73288345336914,
+        "right": 230.2671241760254
+      }
+    ]
+  },
+  {
+    "page": "about",
+    "width": 320,
+    "cards": [],
+    "types": [
+      {
+        "text": "Повод собратьсянайдётся всегда.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "28px",
+        "line": "30.24px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 290.77001953125,
+        "x": 14.615001678466797,
+        "right": 305.3850212097168
+      },
+      {
+        "text": "С характером.И аппетитом.",
+        "family": "\"Novoferma Sans\", Arial, sans-serif",
+        "size": "37px",
+        "line": "36.26px",
+        "transform": "none",
+        "color": "rgb(64, 33, 17)",
+        "width": 288,
+        "x": 16,
+        "right": 304
+      },
+      {
+        "text": "На упаковке — наши герои. За столом — ваши.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "25px",
+        "line": "27px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 215.53424072265625,
+        "x": 14.73288345336914,
+        "right": 230.2671241760254
+      }
+    ]
+  },
+  {
+    "page": "partners",
+    "width": 320,
+    "cards": [],
+    "types": [
+      {
+        "text": "В письме укажите город, компанию, интересующие продукты и предполагаемый объём. Мы сможем предметно обсудить условия.",
+        "family": "\"Novoferma Sans\", Arial, sans-serif",
+        "size": "16px",
+        "line": "25.6px",
+        "transform": "none",
+        "color": "rgb(114, 87, 67)",
+        "width": 288,
+        "x": 16,
+        "right": 304
+      }
+    ]
+  },
+  {
+    "page": "where-to-buy",
+    "width": 320,
+    "cards": [],
+    "types": [
+      {
+        "text": "Осталосьпопробовать!",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "28px",
+        "line": "30.24px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 184.49468994140625,
+        "x": 121.29085540771484,
+        "right": 305.7855453491211
+      }
+    ]
+  },
+  {
+    "page": "product-frikadelki-klassicheskie",
+    "width": 320,
+    "cards": [],
+    "types": [
+      {
+        "text": "К столу и к хорошему настроению.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "25px",
+        "line": "27px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 289.01837158203125,
+        "x": 15.490811347961426,
+        "right": 304.5091829299927
+      }
+    ]
+  },
+  {
+    "page": "index",
+    "width": 375,
+    "cards": [
+      {
+        "title": "Наггетсы",
+        "display": "flex",
+        "visible": true
+      },
+      {
+        "title": "Попкорн",
+        "display": "flex",
+        "visible": true
+      },
+      {
+        "title": "Стрипсы",
+        "display": "flex",
+        "visible": true
+      }
+    ],
+    "types": [
+      {
+        "text": "Есть поводсобраться.",
+        "family": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+        "size": "57.285px",
+        "line": "55.5665px",
+        "transform": "none",
+        "color": "rgb(255, 245, 227)",
+        "width": 335,
+        "x": 20,
+        "right": 355
+      },
+      {
+        "text": "Фрикадельки, наггетсыи другие любимые блюда.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "30.375px",
+        "line": "32.805px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(48, 23, 9)",
+        "width": 337.97381591796875,
+        "x": 18.283544540405273,
+        "right": 356.257360458374
+      },
+      {
+        "text": "Вкусно,когдавместе.",
+        "family": "\"Novoferma Sans\", Arial, sans-serif",
+        "size": "55px",
+        "line": "53.9px",
+        "transform": "none",
+        "color": "rgb(64, 33, 17)",
+        "width": 335,
+        "x": 20,
+        "right": 355
+      },
+      {
+        "text": "На упаковке — наши герои. За столом — ваши.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "25px",
+        "line": "27px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 262.4698486328125,
+        "x": 18.76508903503418,
+        "right": 281.2349376678467
+      }
+    ]
+  },
+  {
+    "page": "about",
+    "width": 375,
+    "cards": [],
+    "types": [
+      {
+        "text": "Повод собратьсянайдётся всегда.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "28px",
+        "line": "30.24px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 337.70556640625,
+        "x": 18.647207260131836,
+        "right": 356.35277366638184
+      },
+      {
+        "text": "С характером.И аппетитом.",
+        "family": "\"Novoferma Sans\", Arial, sans-serif",
+        "size": "37.5px",
+        "line": "36.75px",
+        "transform": "none",
+        "color": "rgb(64, 33, 17)",
+        "width": 335,
+        "x": 20,
+        "right": 355
+      },
+      {
+        "text": "На упаковке — наши герои. За столом — ваши.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "25px",
+        "line": "27px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 262.4698486328125,
+        "x": 18.76508903503418,
+        "right": 281.2349376678467
+      }
+    ]
+  },
+  {
+    "page": "partners",
+    "width": 375,
+    "cards": [],
+    "types": [
+      {
+        "text": "В письме укажите город, компанию, интересующие продукты и предполагаемый объём. Мы сможем предметно обсудить условия.",
+        "family": "\"Novoferma Sans\", Arial, sans-serif",
+        "size": "16px",
+        "line": "25.6px",
+        "transform": "none",
+        "color": "rgb(114, 87, 67)",
+        "width": 335,
+        "x": 20,
+        "right": 355
+      }
+    ]
+  },
+  {
+    "page": "where-to-buy",
+    "width": 375,
+    "cards": [],
+    "types": [
+      {
+        "text": "Осталосьпопробовать!",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "28px",
+        "line": "30.24px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 184.49468994140625,
+        "x": 172.29086303710938,
+        "right": 356.7855529785156
+      }
+    ]
+  },
+  {
+    "page": "product-frikadelki-klassicheskie",
+    "width": 375,
+    "cards": [],
+    "types": [
+      {
+        "text": "К столу и к хорошему настроению.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "25px",
+        "line": "27px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 335.9539794921875,
+        "x": 19.52301788330078,
+        "right": 355.4769973754883
+      }
+    ]
+  },
+  {
+    "page": "index",
+    "width": 700,
+    "cards": [
+      {
+        "title": "Наггетсы",
+        "display": "flex",
+        "visible": true
+      },
+      {
+        "title": "Попкорн",
+        "display": "flex",
+        "visible": true
+      },
+      {
+        "title": "Стрипсы",
+        "display": "flex",
+        "visible": true
+      }
+    ],
+    "types": [
+      {
+        "text": "Есть поводсобраться.",
+        "family": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+        "size": "54.378px",
+        "line": "52.7467px",
+        "transform": "none",
+        "color": "rgb(255, 245, 227)",
+        "width": 318,
+        "x": 32,
+        "right": 350
+      },
+      {
+        "text": "Фрикадельки, наггетсыи другие любимые блюда.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "30px",
+        "line": "31.8px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(48, 23, 9)",
+        "width": 320.8924255371094,
+        "x": 30.335880279541016,
+        "right": 351.2283058166504
+      },
+      {
+        "text": "Вкусно,когдавместе.",
+        "family": "\"Novoferma Sans\", Arial, sans-serif",
+        "size": "53px",
+        "line": "54.06px",
+        "transform": "none",
+        "color": "rgb(64, 33, 17)",
+        "width": 213.1875,
+        "x": 32,
+        "right": 245.1875
+      },
+      {
+        "text": "На упаковке — наши герои. За столом — ваши.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "25px",
+        "line": "27px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 253.294921875,
+        "x": 275.9462890625,
+        "right": 529.2412109375
+      }
+    ]
+  },
+  {
+    "page": "about",
+    "width": 700,
+    "cards": [],
+    "types": [
+      {
+        "text": "Повод собратьсянайдётся всегда.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "28px",
+        "line": "30.24px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 298.2597351074219,
+        "x": 371.1201477050781,
+        "right": 669.3798828125
+      },
+      {
+        "text": "С характером.И аппетитом.",
+        "family": "\"Novoferma Sans\", Arial, sans-serif",
+        "size": "45px",
+        "line": "45.9px",
+        "transform": "none",
+        "color": "rgb(64, 33, 17)",
+        "width": 456,
+        "x": 32,
+        "right": 488
+      },
+      {
+        "text": "На упаковке — наши герои. За столом — ваши.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "25px",
+        "line": "27px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 458.20123291015625,
+        "x": 30.899394989013672,
+        "right": 489.1006278991699
+      }
+    ]
+  },
+  {
+    "page": "partners",
+    "width": 700,
+    "cards": [],
+    "types": [
+      {
+        "text": "В письме укажите город, компанию, интересующие продукты и предполагаемый объём. Мы сможем предметно обсудить условия.",
+        "family": "\"Novoferma Sans\", Arial, sans-serif",
+        "size": "16px",
+        "line": "25.6px",
+        "transform": "none",
+        "color": "rgb(114, 87, 67)",
+        "width": 450,
+        "x": 32,
+        "right": 482
+      }
+    ]
+  },
+  {
+    "page": "where-to-buy",
+    "width": 700,
+    "cards": [],
+    "types": [
+      {
+        "text": "Осталосьпопробовать!",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "28px",
+        "line": "30.24px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 179.50155639648438,
+        "x": 490.1632995605469,
+        "right": 669.6648559570312
+      }
+    ]
+  },
+  {
+    "page": "product-frikadelki-klassicheskie",
+    "width": 700,
+    "cards": [],
+    "types": [
+      {
+        "text": "К столу и к хорошему настроению.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "25px",
+        "line": "27px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 334.612060546875,
+        "x": 333.8658447265625,
+        "right": 668.4779052734375
+      }
+    ]
+  },
+  {
+    "page": "index",
+    "width": 1440,
+    "cards": [
+      {
+        "title": "Наггетсы",
+        "display": "flex",
+        "visible": true
+      },
+      {
+        "title": "Попкорн",
+        "display": "flex",
+        "visible": true
+      },
+      {
+        "title": "Стрипсы",
+        "display": "flex",
+        "visible": true
+      }
+    ],
+    "types": [
+      {
+        "text": "Есть поводсобраться.",
+        "family": "\"Novoferma Poster\", \"Novoferma Sans\", Arial, sans-serif",
+        "size": "105.531px",
+        "line": "102.365px",
+        "transform": "none",
+        "color": "rgb(255, 245, 227)",
+        "width": 617.140625,
+        "x": 72,
+        "right": 689.140625
+      },
+      {
+        "text": "Фрикадельки, наггетсыи другие любимые блюда.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "36.72px",
+        "line": "38.9232px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(48, 23, 9)",
+        "width": 499.1134338378906,
+        "x": 69.9629898071289,
+        "right": 569.0764236450195
+      },
+      {
+        "text": "Вкусно,когдавместе.",
+        "family": "\"Novoferma Sans\", Arial, sans-serif",
+        "size": "67px",
+        "line": "68.34px",
+        "transform": "none",
+        "color": "rgb(64, 33, 17)",
+        "width": 472,
+        "x": 72,
+        "right": 544
+      },
+      {
+        "text": "На упаковке — наши герои. За столом — ваши.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "32px",
+        "line": "34.56px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 527.3348999023438,
+        "x": 600.5513305664062,
+        "right": 1127.88623046875
+      }
+    ]
+  },
+  {
+    "page": "about",
+    "width": 1440,
+    "cards": [],
+    "types": [
+      {
+        "text": "Повод собратьсянайдётся всегда.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "36px",
+        "line": "38.88px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 503.38385009765625,
+        "x": 768.3080444335938,
+        "right": 1271.69189453125
+      },
+      {
+        "text": "С характером.И аппетитом.",
+        "family": "\"Novoferma Sans\", Arial, sans-serif",
+        "size": "67px",
+        "line": "68.34px",
+        "transform": "none",
+        "color": "rgb(64, 33, 17)",
+        "width": 472,
+        "x": 72,
+        "right": 544
+      },
+      {
+        "text": "На упаковке — наши герои. За столом — ваши.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "32px",
+        "line": "34.56px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 527.3348999023438,
+        "x": 600.5513305664062,
+        "right": 1127.88623046875
+      }
+    ]
+  },
+  {
+    "page": "partners",
+    "width": 1440,
+    "cards": [],
+    "types": [
+      {
+        "text": "В письме укажите город, компанию, интересующие продукты и предполагаемый объём. Мы сможем предметно обсудить условия.",
+        "family": "\"Novoferma Sans\", Arial, sans-serif",
+        "size": "16px",
+        "line": "25.6px",
+        "transform": "none",
+        "color": "rgb(114, 87, 67)",
+        "width": 450,
+        "x": 770,
+        "right": 1220
+      }
+    ]
+  },
+  {
+    "page": "where-to-buy",
+    "width": 1440,
+    "cards": [],
+    "types": [
+      {
+        "text": "Осталосьпопробовать!",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "36px",
+        "line": "38.88px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 280.0126953125,
+        "x": 1089.95458984375,
+        "right": 1369.96728515625
+      }
+    ]
+  },
+  {
+    "page": "product-frikadelki-klassicheskie",
+    "width": 1440,
+    "cards": [],
+    "types": [
+      {
+        "text": "К столу и к хорошему настроению.",
+        "family": "\"Novoferma Hand\", \"Segoe Print\", cursive",
+        "size": "32px",
+        "line": "34.56px",
+        "transform": "matrix(0.99863, -0.052336, 0.052336, 0.99863, 0, 0)",
+        "color": "rgb(172, 58, 9)",
+        "width": 582.9169311523438,
+        "x": 785.5884399414062,
+        "right": 1368.50537109375
+      }
+    ]
+  }
+]

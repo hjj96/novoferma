@@ -1,0 +1,21 @@
+{
+  "asset": "pops-pack-v2-bucket.png",
+  "tool": "built-in image_gen.imagegen",
+  "edit_target": "../../assets/pops-packshot.png",
+  "references": [
+    "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue/kurinyj-popkorn.webp",
+    "/Users/andrey/Desktop/сайт нф/output/concept/assets/novelty-packaging/fibriki-pack-v11.webp",
+    "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue-clean-v2/stripsy.webp"
+  ],
+  "generated_source": "/Users/andrey/.codex/generated_images/01a1ac4b-7f62-7b00-abaa-dbd5bd833d6c/exec-cc62a7b1-8dde-4959-9607-318e9e7e2940.png",
+  "initial_source": "/Users/andrey/.codex/generated_images/01a1ac4b-7f62-7b00-abaa-dbd5bd833d6c/exec-10ec8627-bfc9-4574-a80c-63caabcb8396.png",
+  "width": 1254,
+  "height": 1254,
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "bytes": 1762824,
+  "qa": "Bucket-first printed illustration remains on cream sleeve over shallow PET tray. Small crafty half-lidded inked hen, exact requested Cyrillic copy. Cleaner margins and distant alpha artifacts after one cleanup; some minute edge speckles remain on black preview. Requested 2048+ in both prompts, actual tool output 1254x1254."
+}

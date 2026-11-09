@@ -5,7 +5,6 @@
     "about.html",
     "where-to-buy.html",
     "partners.html",
-    "private-label.html",
     "contacts.html",
     "product-kotlety-kurinye.html",
     "product-bitochki-kurinye-s-ovoshchami.html",
@@ -22,7 +21,9 @@
     "product-kotlety-po-italyanski.html",
     "product-frikadelki-klassicheskie.html",
     "product-fibriki.html",
-    "product-lulia-mini.html"
+    "product-lenivchiki.html",
+    "product-lulia-mini.html",
+    "product-popsy.html"
   ],
   "products": [
     {
@@ -641,8 +642,22 @@
       "previewTone": 3,
       "previewLean": "left",
       "anchor": "novelties",
-      "concept": true,
-      "description": "Концепт куриных фрикаделек с пищевыми волокнами."
+      "novelty": true,
+      "description": "Куриные фрикадельки с пищевыми волокнами. К любимому гарниру, в суп или с соусом."
+    },
+    {
+      "id": "lenivchiki",
+      "name": "Ленивчики",
+      "meat": "Из курицы",
+      "meatKey": "chicken",
+      "weight": "",
+      "category": "Биточки",
+      "image": "assets/novelty-packaging/lenivchiki-pack-v1.webp?v=ff95cef537",
+      "url": "product-lenivchiki.html",
+      "previewTone": 1,
+      "previewLean": "right",
+      "novelty": true,
+      "description": "Биточки из курицы с рисом, капустой и морковью. Ленивые голубцы в новом формате: мясо, гарнир и овощи вместе."
     },
     {
       "id": "lulia-mini",
@@ -655,8 +670,22 @@
       "url": "product-lulia-mini.html",
       "previewTone": 4,
       "previewLean": "right",
-      "concept": true,
-      "description": "Концепт мини-колбасок из курицы с зеленью и овощами."
+      "novelty": true,
+      "description": "Мини-колбаски из курицы с зеленью и овощами. Маленький формат для новых сочетаний и любимых гарниров."
+    },
+    {
+      "id": "popsy",
+      "name": "Попсы",
+      "meat": "Из курицы",
+      "meatKey": "chicken",
+      "weight": "",
+      "category": "Наггетсы",
+      "image": "assets/novelty-packaging/popsy-pack-v4.webp?v=36e1736c4d",
+      "url": "product-popsy.html",
+      "previewTone": 2,
+      "previewLean": "left",
+      "novelty": true,
+      "description": "Мини-наггетсы из курицы. Маленькие неровные кусочки из куриного фарша в хрустящей панировке."
     }
   ],
   "publicUrl": null

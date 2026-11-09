@@ -74,6 +74,183 @@
       ],
       "promptSet": "output/research/novelty-color-match/prompts.json",
       "colorEditSource": "assets/novelty-packaging/lulia-mini-pack-v2.webp"
+    },
+    {
+      "slug": "popsy",
+      "name": "Попсы",
+      "file": "assets/novelty-packaging/popsy-pack-v1.webp",
+      "version": 1,
+      "date": "2026-11-05",
+      "tool": "Built-in ImageGen",
+      "kind": "User-requested front-packaging visual concept in the existing Novoferma family",
+      "native": "output/pops-2026-11-05/assets/pops-packshot.png",
+      "prompt": "output/pops-2026-11-05/assets/pops-packshot-prompt.txt",
+      "copy": [
+        "ПОПСЫ",
+        "МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ",
+        "В ХРУСТЯЩЕЙ ПАНИРОВКЕ"
+      ],
+      "canvas": [
+        1254,
+        1254
+      ],
+      "hasAlpha": true,
+      "sha256": "804e583776eedcba0e42f8d116d5df1d49b6489272d93ce91d32a89094ce96e0",
+      "factsNotProvided": [
+        "net weight",
+        "full ingredients",
+        "allergens",
+        "nutrition",
+        "storage/preparation",
+        "production barcode"
+      ],
+      "productBasis": "User brief: small irregular chicken mince nuggets, distinct from whole-piece chicken popcorn.",
+      "purpose": "Packaging and product artwork for the user-requested product introduction; not a production dieline."
+    },
+    {
+      "slug": "popsy",
+      "name": "Попсы",
+      "file": "assets/novelty-packaging/popsy-pack-v2.webp",
+      "version": 2,
+      "date": "2026-11-05",
+      "tool": "Built-in ImageGen; Pillow WebP encoding q94 with exact alpha, no retouch",
+      "kind": "Bucket-first front-packaging visual with a smaller ink-drawn brand hen",
+      "native": "output/pops-2026-11-05/revision-2/assets/pops-pack-v2-bucket.png",
+      "prompt": "output/pops-2026-11-05/revision-2/assets/pops-pack-v2-bucket.prompt.txt",
+      "cleanupPrompt": "output/pops-2026-11-05/revision-2/assets/pops-pack-v2-bucket-cleanup.prompt.txt",
+      "generationProvenance": "output/pops-2026-11-05/revision-2/assets/pops-pack-v2-bucket.provenance.json",
+      "backup": "output/pops-2026-11-05/revision-2/assets/popsy-pack-v2.webp",
+      "copy": [
+        "ПОПСЫ",
+        "МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ",
+        "В ХРУСТЯЩЕЙ ПАНИРОВКЕ"
+      ],
+      "canvas": [
+        1254,
+        1254
+      ],
+      "hasAlpha": true,
+      "alphaMaxDifferenceFromPng": 0,
+      "sha256": "0ede521ef535dad8a1f6a4faa308377ece3d82876e6bd08c0fc1cbe34ec9c9b9",
+      "development": "The terracotta serving bucket is the main printed scene on the cream sleeve. A smaller crafty half-lidded hen uses dark ink outlines, ochre feathers and thin legs. The physical package remains a shallow clear PET tray with a paper sleeve. Version 1 is preserved.",
+      "factsNotProvided": [
+        "net weight",
+        "full ingredients",
+        "allergens",
+        "nutrition",
+        "storage/preparation",
+        "production barcode"
+      ],
+      "purpose": "Product packaging visual for the website; not a production dieline."
+    },
+    {
+      "slug": "popsy",
+      "name": "Попсы",
+      "file": "assets/novelty-packaging/popsy-pack-v3.webp",
+      "version": 3,
+      "date": "2026-11-05",
+      "tool": "Built-in ImageGen; Pillow WebP encoding q94 with exact alpha, no retouch",
+      "kind": "Classic Novoferma packaging with a printed rock drummer hen and bucket of pops",
+      "native": "output/pops-2026-11-05/revision-3/assets/pops-v3-drummer.png",
+      "prompt": "output/pops-2026-11-05/revision-3/assets/pops-v3-drummer-prompt.txt",
+      "cleanupPrompt": "output/pops-2026-11-05/revision-3/assets/pops-v3-drummer-cleanup-prompt.txt",
+      "generationProvenance": "output/pops-2026-11-05/revision-3/assets/pops-v3-drummer-provenance.json",
+      "backup": "output/pops-2026-11-05/revision-3/assets/popsy-pack-v3.webp",
+      "copy": [
+        "ПОПСЫ",
+        "МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ",
+        "В ХРУСТЯЩЕЙ ПАНИРОВКЕ"
+      ],
+      "canvas": [
+        1254,
+        1254
+      ],
+      "hasAlpha": true,
+      "alphaMaxDifferenceFromPng": 0,
+      "sha256": "2bbda6aebdfdc5cf36c64a92c834a4c55b2d50f2acd20822cf2ecfd7bbc369f4",
+      "development": "Original Stripsy and spicy-nuggets product photos are the main layout and printed-illustration references. A flat ink-outlined rock hen in a black vest drums on a terracotta bucket with two wooden sticks; small pops jump above it. The real pack keeps a cream sleeve, fine Roman serif title and shallow PET tray with pale breaded semi-finished pops. Versions 1 and 2 remain preserved.",
+      "factsNotProvided": [
+        "net weight",
+        "full ingredients",
+        "allergens",
+        "nutrition",
+        "storage/preparation",
+        "production barcode"
+      ],
+      "purpose": "Product packaging visual for the website; not a production dieline."
+    },
+    {
+      "slug": "popsy",
+      "name": "Попсы",
+      "file": "assets/novelty-packaging/popsy-pack-v4.webp",
+      "version": 4,
+      "date": "2026-11-07",
+      "tool": "Built-in ImageGen; Pillow WebP encoding q94 with exact alpha, no retouch",
+      "kind": "Colour-matched classic Novoferma pack with the retained rock drummer artwork",
+      "native": "output/pops-2026-11-05/revision-4-color/assets/pops-pack-v4-color.png",
+      "prompt": "output/pops-2026-11-05/revision-4-color/assets/pops-pack-v4-color-prompt.txt",
+      "generationProvenance": "output/pops-2026-11-05/revision-4-color/assets/pops-pack-v4-color-provenance.json",
+      "backup": "output/pops-2026-11-05/revision-4-color/assets/popsy-pack-v4.webp",
+      "copy": [
+        "ПОПСЫ",
+        "МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ",
+        "В ХРУСТЯЩЕЙ ПАНИРОВКЕ"
+      ],
+      "canvas": [
+        1254,
+        1254
+      ],
+      "hasAlpha": true,
+      "alphaMaxDifferenceFromPng": 0,
+      "sha256": "36e1736c4df5abebe26da9c7a526738cb1147f0537159bca20ff9fdcd54a8861",
+      "development": "Targeted ImageGen colour edit of accepted v3: paper shifted from pink/beige toward the approved warmer cream family. Drummer composition, copy and product identity retained; site export is encoding only. Versions 1–3 preserved.",
+      "factsNotProvided": [
+        "net weight",
+        "full ingredients",
+        "allergens",
+        "nutrition",
+        "storage/preparation",
+        "production barcode"
+      ],
+      "purpose": "Product packaging visual for the website; not a production dieline."
+    },
+    {
+      "slug": "lenivchiki",
+      "name": "Ленивчики",
+      "file": "assets/novelty-packaging/lenivchiki-pack-v1.webp",
+      "version": 1,
+      "date": "2026-11-08",
+      "tool": "Built-in ImageGen; Pillow WebP encoding q95 with exact alpha, no retouch",
+      "kind": "User-selected classic Novoferma sleeve with a hen relaxing in a cabbage-leaf hammock",
+      "native": "output/lenivchiki-2026-11-08/assets/lenivchiki-pack-v1.png",
+      "prompt": "output/lenivchiki-2026-11-08/assets/lenivchiki-pack-v1-prompt.txt",
+      "sceneMaster": "output/lenivchiki-2026-11-08/assets/lenivchiki-scene-v1.png",
+      "backup": "output/lenivchiki-2026-11-08/assets/lenivchiki-pack-v1.webp",
+      "copy": [
+        "ЛЕНИВЧИКИ",
+        "БИТОЧКИ ИЗ КУРИЦЫ",
+        "С РИСОМ И ОВОЩАМИ",
+        "ГАРНИР УЖЕ ВНУТРИ"
+      ],
+      "canvas": [
+        1254,
+        1254
+      ],
+      "hasAlpha": true,
+      "alphaMaxDifferenceFromPng": 0,
+      "sha256": "ff95cef5376a1086647c5265f93d726d164cb0d9361ca0ae321f895cdceb5ac7",
+      "productBasis": "User-selected ready-to-reheat version of lazy cabbage rolls: chicken, rice, cabbage and carrot. The label shows cooked serving food; the clear tray contains prepared frozen patties with light frost.",
+      "development": "Preserves the existing clear tray and cream paper sleeve family. Printed hen rests in a cabbage-leaf hammock. A serving plate was removed at the user request; patties sit beside the hammock.",
+      "factsNotProvided": [
+        "net weight",
+        "full ingredients",
+        "allergens",
+        "nutrition",
+        "shelf life",
+        "exact heating time",
+        "production barcode"
+      ],
+      "purpose": "Website packaging visual; not a production dieline."
     }
   ],
   "history": {
@@ -417,10 +594,12 @@
   "analysis": "output/research/novelty-color-match/color-match-report.json",
   "familyComparison": "output/research/fibriki-herbs-v11/family-lineup-v11.png",
   "catalogueIntegration": {
-    "items": 16,
+    "items": 17,
     "confirmedSkuRecords": 14,
     "component": "card()/packshot-preview",
-    "checks": "output/research/catalogue-grid-16/checks.json"
+    "checks": "output/pops-2026-11-05/site-qa/browser-checks.json",
+    "noveltyRecords": 3,
+    "previousChecks": "output/research/catalogue-grid-16/checks.json"
   },
   "latestColorAnalysis": "output/research/fibriki-ink-match-v10/color-comparison.json"
 }

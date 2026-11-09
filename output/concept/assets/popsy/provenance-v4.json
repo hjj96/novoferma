@@ -1,0 +1,184 @@
+{
+  "date": "2026-11-07",
+  "version": 4,
+  "records": [
+    {
+      "file": "assets/novelty-packaging/popsy-pack-v4.webp",
+      "sourcePNG": "output/pops-2026-11-05/revision-4-color/assets/pops-pack-v4-color.png",
+      "sourceSha256": "af68573aad6d0df846b3b19b57f3ddb352831a6bd042f2c5121dbebde7c00540",
+      "sourceMode": "RGBA",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "backupMaster": "output/pops-2026-11-05/revision-4-color/assets/popsy-pack-v4.webp",
+      "sha256": "36e1736c4df5abebe26da9c7a526738cb1147f0537159bca20ff9fdcd54a8861",
+      "bytes": 242594,
+      "exactPrompt": "output/pops-2026-11-05/revision-4-color/assets/pops-pack-v4-color-prompt.txt",
+      "generationProvenance": "output/pops-2026-11-05/revision-4-color/assets/pops-pack-v4-color-provenance.json",
+      "sourceGenerationTool": "Built-in ImageGen",
+      "encoding": {
+        "format": "WebP",
+        "quality": 94,
+        "method": 6,
+        "exact": true,
+        "alphaMaxDifference": 0
+      },
+      "processing": "Encoding only; no crop, retouch, resize or recolour."
+    },
+    {
+      "file": "assets/popsy/popsy-lifestyle-v4.webp",
+      "sourcePNG": "output/pops-2026-11-05/revision-4-color/assets/pops-lifestyle-v4-color.png",
+      "sourceSha256": "bc6b7ec332d5705d21319afba09b030e9f91b004a0dc88a3fdfebeca47dbee61",
+      "sourceMode": "RGB",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "backupMaster": "output/pops-2026-11-05/revision-4-color/assets/popsy-lifestyle-v4.webp",
+      "sha256": "ea690375aa40a40b836c0fd593456bb6203ec7d843f8789fe7147b860a8c35d2",
+      "bytes": 165934,
+      "exactPrompt": "output/pops-2026-11-05/revision-4-color/assets/pops-lifestyle-v4-color.prompt.txt",
+      "generationProvenance": "output/pops-2026-11-05/revision-4-color/assets/pops-lifestyle-v4-color.provenance.json",
+      "sourceGenerationTool": "Built-in ImageGen",
+      "encoding": {
+        "format": "WebP",
+        "quality": 90,
+        "method": 6,
+        "exact": true,
+        "alphaMaxDifference": 0
+      },
+      "processing": "Encoding only; no crop, retouch, resize or recolour."
+    }
+  ],
+  "beforeOptimizerEntryHashes": {
+    "assets/catalogue-clean-v2/bitochki-kurinye-s-ovoshchami.webp": "fdc35f6746ed35f496008be493811e4b972f74193f52bcb289ade9c2b4c0c8cd",
+    "assets/catalogue-clean-v2/ezhiki-iz-tsyplenka-s-risom.webp": "415c1bca94c37794274249760d18406640b831f592b073db19e7c09d92aae363",
+    "assets/catalogue-clean-v2/frikadelki-klassicheskie.webp": "116522b22c23c93f204debfae9b25fd91faf06f124921fda53277959d276dde8",
+    "assets/catalogue-clean-v2/kotlety-kurinye.webp": "20bd42e37f851ad63e07c563e8b1749c41ff7904a42e4d9ee4d3ab8fbad34640",
+    "assets/catalogue-clean-v2/kotlety-pikantnye.webp": "a55a76f963ada30cfea42cf3f8ad9fcb3d6edbf8d255c351d7f7aca7042f7ffd",
+    "assets/catalogue-clean-v2/kotlety-po-domashnemu.webp": "fb86bc12fe7ca4e4f0978ba23ce6b79d6bc9f9fe462178bd65c2f80c126071d5",
+    "assets/catalogue-clean-v2/kotlety-po-italyanski.webp": "1dfba6f6cf5fcc2a0d6d121e4ab6a650144fee2878c553cc86b55aa4b26e7c3a",
+    "assets/catalogue-clean-v2/kurinyj-popkorn.webp": "6ede5163d856d0ebbebe1bc81d1d6fc8612507e3025dc19a56202c73eb75ab77",
+    "assets/catalogue-clean-v2/naggetsy-dinozavry.webp": "d09742dd59132c57ccc55cbdf837aac4b22f13bedd0ff7f90e219ee804cacb8d",
+    "assets/catalogue-clean-v2/naggetsy-kurinye-s-syrom.webp": "d908fd0db52067db6546b5cf72923e503d25dcdb1e5a82cfb2781fb1b277910c",
+    "assets/catalogue-clean-v2/naggetsy-kurinye.webp": "d3763b769b8564df44aa841627ce5411ca2ec6cf3b51e63f88b43f8d1cd62efc",
+    "assets/catalogue-clean-v2/naggetsy-ostrye.webp": "b199a2483eed816291d9e086446256a4d8980a9a498fc8a3b0a0412280282621",
+    "assets/catalogue-clean-v2/naggetsy-s-indeykoy-fitnes.webp": "b657c9ae830feeecbc3c94c08720d5b55b8ecc53e12d04a09573e38f7217caf0",
+    "assets/catalogue-clean-v2/stripsy.webp": "4175686f97067e9c0f1eb3df9be26530991ecd8ffe5812679c8e1220164fbc83",
+    "assets/novelty-packaging/fibriki-pack-v11.webp": "bb05d1f9234638ec503e2a4420513a046c66717cade147a7f50ee1f1e3ba5be8",
+    "assets/novelty-packaging/lulia-mini-pack-v3.webp": "1320d3626330691dd8ce98ac9e0ffb25c093963a2ffddb3d32583b70cbbfcdc0",
+    "assets/novelty-packaging/popsy-pack-v3.webp": "7999b4ffbd4729fc83237b91ba2c565810c568025bb49f068ea3ce7edff6aef0",
+    "assets/catalogue-family-v1/family-table-v1.webp": "d8c49a8d59039363ef875e804b26428c5bc6b5c803ada7f12c5ae01360807d7d",
+    "assets/mascot-contact-restored-v2.webp": "9c3976f1826690bf1848f6e0de0255ffa1ade9ce1b7e0f997b6a3e9d457cfeb6",
+    "assets/mascot-partnership-v2.webp": "24c4ae964f4fffbea689e62c957540d386188c6cc1b7fbeaec4d6b2975d4866b",
+    "assets/product-hero/running-mascot-v2.webp": "870d9aa20411b2c788f7c0956928c49b65e00492540be10867ec4bcfe752a49c",
+    "assets/protein-story/hen-layer-v2.webp": "0bb54dfa4380d1d4ac706e90d9ea65ab873a73031def36fc88ad957446d853cf",
+    "assets/protein-story/nuggets-layer-v2.webp": "2bf25a9222a3cdbf2bab343094b403ce9fdbf452fb84d52ef4c850ce017dc707",
+    "assets/popsy/popsy-food.webp": "cbddd994a7c7320abc888ee9186bdb75acae5ac80164219c5bb3d4a31f140f44",
+    "assets/popsy/popsy-serving.webp": "39df29538722dd724a64a206758491fa295dc8352e5a5f0bdef97057c226f1b1",
+    "assets/popsy/popsy-rock-v3.webp": "45f0db40f0efe78aa80d369fb6a9e109740ccadbec9b5423a9e32d75e398d9d2",
+    "assets/popsy/popsy-lifestyle-v3.webp": "f356ebd55f55efd26fbeaa7c10338404ef1da29b654089c0d0089ab30d601008"
+  },
+  "beforePageHashes": {
+    "contacts.html": "ab275b46212b7eb4ab30443b9a5cf2fa735bddd371cb1b9ab7421c20a7cf8258",
+    "product-frikadelki-klassicheskie.html": "16db618ce6dab727c4b400368f6903e81b05ed19b0515f7db4b4fa64baa3a39c",
+    "product-popsy.html": "5ce9a4f12cfe7dc52aecbd01f7a91f4b0f70aefb4009cfaa19340837e2c99e49",
+    "product-kotlety-kurinye.html": "a83d0d3bb1b19e05b29f18dec8c15c1d442fc1441c8e8de774141a168a9ce54d",
+    "product-kurinyj-popkorn.html": "260d1f66e950485bec6d1af6145817e72d697833be4cadc8cbb6b039c02a62e2",
+    "index.html": "aba7abbdcef43bc90efe13b0c0acf726c94c5ae59e7da310d677580244ce56f4",
+    "loading-story.html": "e943d61c6b96787edcda0882506e480f3787870526d5cb2563e124e24ae811a1",
+    "about.html": "a195614c19240d764eeaba2818fcdca4b20a604098a2f51d2f12e04f5cb459c6",
+    "product-lulia-mini.html": "5ae7546ddb0cba8bc2a3b8327534f50cceba31795598bfc260265037e8c2c989",
+    "product-naggetsy-kurinye.html": "c773cda2571c4056f91b8054d70abf3c4f4358ef66871f70d9012cafb077b1bd",
+    "loading-concept.html": "2c67d65eaedab46d63741a2b832b3c0763a7d162c46e6f1cbe30e07c40577a72",
+    "product-bitochki-kurinye-s-ovoshchami.html": "9051171e06d4f8730005909afdb01da38a3f1cdffba4e8199186c26195e41409",
+    "catalogue.html": "fe0f4238de81cd4cf9173f4ff1aee163f1cdf73275b16de5244ec71a176d3fb7",
+    "product-naggetsy-kurinye-s-syrom.html": "f8bf9e7e96b1041b432b248239e73050a476ba5ed96c11f2d7600a8f0bb3ac67",
+    "product-kotlety-po-italyanski.html": "d8e973752f44fd1bf3bfab8b2b4bc90d9f4a028dd5502326e4b391ead110c72b",
+    "product-kotlety-pikantnye.html": "498580a3a75056c2c331b3c0227d2a76d02dcc32e2f07c67f65c5f5b8717819f",
+    "product-ezhiki-iz-tsyplenka-s-risom.html": "5e5bf3e8bd315f9803b08040581b30b77af136cdf6776e6824a08543f23b9c94",
+    "partners.html": "60e9201dbba7552e087fde1022232518e05d5285d994c2cb4e85d45739836a5c",
+    "product-kotlety-po-domashnemu.html": "977f9dd376d465d45a162c97b817b21d73894debe2ad700ed61350f08639088c",
+    "product-naggetsy-s-indeykoy-fitnes.html": "73cb3b253d03f377700c200ffcf8a66b7069a9a28bbadb65ff0e993c7e397ed2",
+    "where-to-buy.html": "750016df7fbb4215b28a2836672016affdcc02349c626cd13b77f343d29d12f8",
+    "typography-specimen.html": "d4089d207a18cef7f473bd0380c4715be09c0504abe39741cbb2f0e7f296f311",
+    "product-naggetsy-ostrye.html": "a84196de4d230fd0d0f2babe009dd6d82d652e45a8e6118e4d9b335f99d964b7",
+    "product-stripsy.html": "6fde41000a85c42b2a90f3a07a0a990e1f9dbcf303edc70220dfc02e9ebeabb4",
+    "product-naggetsy-dinozavry.html": "6de66d6d5da1aee3d7e9a017537ae585c53a4f301f28e4660c248a66f6b9e24d",
+    "product-fibriki.html": "b2ec2713581e23380a7523dae33a4d7994915fc6c81faeeee4f0773a1eddec65"
+  },
+  "optimizerVerification": {
+    "result": "pass",
+    "runs": 1,
+    "unchangedPriorEntries": 27,
+    "changedPriorEntries": [],
+    "newEntries": {
+      "assets/novelty-packaging/popsy-pack-v4.webp": {
+        "variantWidths": [
+          400,
+          800
+        ],
+        "src": "assets/responsive/packshots/popsy-pack-v4-800-q94-36e1736c.webp",
+        "sourceSha256": "36e1736c4df5abebe26da9c7a526738cb1147f0537159bca20ff9fdcd54a8861",
+        "alphaMaxDifference": 0
+      },
+      "assets/popsy/popsy-lifestyle-v4.webp": {
+        "variantWidths": [
+          400,
+          800,
+          1536
+        ],
+        "src": "assets/responsive/illustrations/popsy-lifestyle-v4-800-q90-ea690375.webp",
+        "sourceSha256": "ea690375aa40a40b836c0fd593456bb6203ec7d843f8789fe7147b860a8c35d2",
+        "alphaMaxDifference": 0
+      }
+    },
+    "totals": {
+      "sources": 29,
+      "packagingSources": 18,
+      "variants": 69,
+      "sourceBytes": 15245924,
+      "defaultSrcBytes": 3992254,
+      "allVariantsBytes": 8234568
+    }
+  },
+  "siteBuildVerification": {
+    "result": "pass",
+    "runs": 1,
+    "changedPages": [
+      "product-popsy.html",
+      "product-kurinyj-popkorn.html",
+      "index.html",
+      "catalogue.html"
+    ],
+    "nonImageChanges": [],
+    "checkMethod": "Normalize only new v4 image URLs back to previous v3 URLs, then compare original complete HTML SHA256.",
+    "staticChecks": {
+      "pages": 23,
+      "images": 400,
+      "localReferences": 1451,
+      "uniqueTitles": 23,
+      "uniqueDescriptions": 23,
+      "publicUrl": null,
+      "errors": [],
+      "result": "pass",
+      "scope": "Generated source only; visual and interactive browser checks are separate."
+    },
+    "screenshot": {
+      "viewport": [
+        1440,
+        920
+      ],
+      "scrollWidth": 1440,
+      "packshotCurrentSrc": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-800-q94-36e1736c.webp",
+      "packshotNaturalWidth": 550,
+      "pageErrors": [],
+      "previewMethod": "Local file URL; read-only static screenshot, no preview server started.",
+      "path": "output/pops-2026-11-05/revision-4-color/assets/pops-website-v4.png",
+      "chromeArgs": [
+        "--allow-file-access-from-files"
+      ]
+    }
+  }
+}

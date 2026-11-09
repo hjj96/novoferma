@@ -1,0 +1,1541 @@
+[
+  {
+    "floor": {
+      "bottom": 685.3671875,
+      "height": 613.3671875,
+      "left": -64,
+      "right": 384,
+      "top": 72,
+      "width": 448
+    },
+    "header": {
+      "bottom": 72,
+      "height": 72,
+      "left": 0,
+      "right": 320,
+      "top": 0,
+      "width": 320
+    },
+    "height": 740,
+    "overflow": false,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 584.3671875,
+          "height": 292,
+          "left": 14,
+          "right": 306,
+          "top": 292.3671875,
+          "width": 292
+        },
+        "cta": {
+          "bottom": 656.3671875,
+          "height": 52,
+          "left": 20,
+          "right": 300,
+          "top": 604.3671875,
+          "width": 280
+        },
+        "id": "scene-fibriki",
+        "text": {
+          "bottom": 285.6484375,
+          "height": 213.6484375,
+          "left": 0,
+          "right": 320,
+          "top": 72,
+          "width": 320
+        },
+        "title": {
+          "bottom": 143.25,
+          "height": 49.25,
+          "left": 20,
+          "right": 300,
+          "top": 94,
+          "width": 280
+        }
+      },
+      {
+        "art": {
+          "bottom": 584.3671875,
+          "height": 292,
+          "left": 14,
+          "right": 306,
+          "top": 292.3671875,
+          "width": 292
+        },
+        "cta": {
+          "bottom": 656.3671875,
+          "height": 52,
+          "left": 20,
+          "right": 300,
+          "top": 604.3671875,
+          "width": 280
+        },
+        "id": "scene-meatballs",
+        "text": {
+          "bottom": 270.53125,
+          "height": 198.53125,
+          "left": 0,
+          "right": 320,
+          "top": 72,
+          "width": 320
+        },
+        "title": {
+          "bottom": 128.953125,
+          "height": 34.953125,
+          "left": 20,
+          "right": 300,
+          "top": 94,
+          "width": 280
+        }
+      },
+      {
+        "art": {
+          "bottom": 584.3671875,
+          "height": 292,
+          "left": 14,
+          "right": 306,
+          "top": 292.3671875,
+          "width": 292
+        },
+        "cta": {
+          "bottom": 656.3671875,
+          "height": 52,
+          "left": 20,
+          "right": 300,
+          "top": 604.3671875,
+          "width": 280
+        },
+        "id": "scene-nuggets",
+        "text": {
+          "bottom": 292.3671875,
+          "height": 220.3671875,
+          "left": 0,
+          "right": 320,
+          "top": 72,
+          "width": 320
+        },
+        "title": {
+          "bottom": 143.25,
+          "height": 49.25,
+          "left": 20,
+          "right": 300,
+          "top": 94,
+          "width": 280
+        }
+      },
+      {
+        "art": {
+          "bottom": 584.3671875,
+          "height": 292,
+          "left": 14,
+          "right": 306,
+          "top": 292.3671875,
+          "width": 292
+        },
+        "cta": {
+          "bottom": 656.3671875,
+          "height": 52,
+          "left": 20,
+          "right": 300,
+          "top": 604.3671875,
+          "width": 280
+        },
+        "id": "scene-lulia-mini",
+        "text": {
+          "bottom": 265.328125,
+          "height": 193.328125,
+          "left": 0,
+          "right": 320,
+          "top": 72,
+          "width": 320
+        },
+        "title": {
+          "bottom": 143.25,
+          "height": 49.25,
+          "left": 20,
+          "right": 300,
+          "top": 94,
+          "width": 280
+        }
+      }
+    ],
+    "stage": {
+      "bottom": 684.3671875,
+      "height": 612.3671875,
+      "left": 0,
+      "right": 320,
+      "top": 72,
+      "width": 320
+    },
+    "width": 320
+  },
+  {
+    "floor": {
+      "bottom": 705.53125,
+      "height": 629.53125,
+      "left": -72,
+      "right": 432,
+      "top": 76,
+      "width": 504
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "left": 0,
+      "right": 360,
+      "top": 0,
+      "width": 360
+    },
+    "height": 800,
+    "overflow": false,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 604.53125,
+          "height": 322,
+          "left": 21.8515625,
+          "right": 343.8515625,
+          "top": 282.53125,
+          "width": 322
+        },
+        "cta": {
+          "bottom": 676.53125,
+          "height": 52,
+          "left": 24,
+          "right": 341.7109375,
+          "top": 624.53125,
+          "width": 317.7109375
+        },
+        "id": "scene-fibriki",
+        "text": {
+          "bottom": 281.234375,
+          "height": 205.234375,
+          "left": 0,
+          "right": 365.7109375,
+          "top": 76,
+          "width": 365.7109375
+        },
+        "title": {
+          "bottom": 156.140625,
+          "height": 58.140625,
+          "left": 24,
+          "right": 341.7109375,
+          "top": 98,
+          "width": 317.7109375
+        }
+      },
+      {
+        "art": {
+          "bottom": 604.53125,
+          "height": 322,
+          "left": 21.8515625,
+          "right": 343.8515625,
+          "top": 282.53125,
+          "width": 322
+        },
+        "cta": {
+          "bottom": 676.53125,
+          "height": 52,
+          "left": 24,
+          "right": 341.7109375,
+          "top": 624.53125,
+          "width": 317.7109375
+        },
+        "id": "scene-meatballs",
+        "text": {
+          "bottom": 264.7421875,
+          "height": 188.7421875,
+          "left": 0,
+          "right": 365.7109375,
+          "top": 76,
+          "width": 365.7109375
+        },
+        "title": {
+          "bottom": 138.3515625,
+          "height": 40.3515625,
+          "left": 24,
+          "right": 341.7109375,
+          "top": 98,
+          "width": 317.7109375
+        }
+      },
+      {
+        "art": {
+          "bottom": 604.53125,
+          "height": 322,
+          "left": 21.8515625,
+          "right": 343.8515625,
+          "top": 282.53125,
+          "width": 322
+        },
+        "cta": {
+          "bottom": 676.53125,
+          "height": 52,
+          "left": 24,
+          "right": 341.7109375,
+          "top": 624.53125,
+          "width": 317.7109375
+        },
+        "id": "scene-nuggets",
+        "text": {
+          "bottom": 282.53125,
+          "height": 206.53125,
+          "left": 0,
+          "right": 365.7109375,
+          "top": 76,
+          "width": 365.7109375
+        },
+        "title": {
+          "bottom": 156.140625,
+          "height": 58.140625,
+          "left": 24,
+          "right": 341.7109375,
+          "top": 98,
+          "width": 317.7109375
+        }
+      },
+      {
+        "art": {
+          "bottom": 604.53125,
+          "height": 322,
+          "left": 21.8515625,
+          "right": 343.8515625,
+          "top": 282.53125,
+          "width": 322
+        },
+        "cta": {
+          "bottom": 676.53125,
+          "height": 52,
+          "left": 24,
+          "right": 341.7109375,
+          "top": 624.53125,
+          "width": 317.7109375
+        },
+        "id": "scene-lulia-mini",
+        "text": {
+          "bottom": 282.53125,
+          "height": 206.53125,
+          "left": 0,
+          "right": 365.7109375,
+          "top": 76,
+          "width": 365.7109375
+        },
+        "title": {
+          "bottom": 156.140625,
+          "height": 58.140625,
+          "left": 24,
+          "right": 341.7109375,
+          "top": 98,
+          "width": 317.7109375
+        }
+      }
+    ],
+    "stage": {
+      "bottom": 704.53125,
+      "height": 628.53125,
+      "left": 0,
+      "right": 360,
+      "top": 76,
+      "width": 360
+    },
+    "width": 360
+  },
+  {
+    "floor": {
+      "bottom": 715.2421875,
+      "height": 639.2421875,
+      "left": -78,
+      "right": 468,
+      "top": 76,
+      "width": 546
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390
+    },
+    "height": 844,
+    "overflow": false,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 614.2421875,
+          "height": 322,
+          "left": 35.09375,
+          "right": 357.09375,
+          "top": 292.2421875,
+          "width": 322
+        },
+        "cta": {
+          "bottom": 686.2421875,
+          "height": 52,
+          "left": 24,
+          "right": 368.1875,
+          "top": 634.2421875,
+          "width": 344.1875
+        },
+        "id": "scene-fibriki",
+        "text": {
+          "bottom": 287.578125,
+          "height": 211.578125,
+          "left": 0,
+          "right": 392.1875,
+          "top": 76,
+          "width": 392.1875
+        },
+        "title": {
+          "bottom": 160.9765625,
+          "height": 62.9765625,
+          "left": 24,
+          "right": 368.1875,
+          "top": 98,
+          "width": 344.1875
+        }
+      },
+      {
+        "art": {
+          "bottom": 614.2421875,
+          "height": 322,
+          "left": 35.09375,
+          "right": 357.09375,
+          "top": 292.2421875,
+          "width": 322
+        },
+        "cta": {
+          "bottom": 686.2421875,
+          "height": 52,
+          "left": 24,
+          "right": 368.1875,
+          "top": 634.2421875,
+          "width": 344.1875
+        },
+        "id": "scene-meatballs",
+        "text": {
+          "bottom": 272.984375,
+          "height": 196.984375,
+          "left": 0,
+          "right": 392.1875,
+          "top": 76,
+          "width": 392.1875
+        },
+        "title": {
+          "bottom": 141.71875,
+          "height": 43.71875,
+          "left": 24,
+          "right": 368.1875,
+          "top": 98,
+          "width": 344.1875
+        }
+      },
+      {
+        "art": {
+          "bottom": 614.2421875,
+          "height": 322,
+          "left": 35.09375,
+          "right": 357.09375,
+          "top": 292.2421875,
+          "width": 322
+        },
+        "cta": {
+          "bottom": 686.2421875,
+          "height": 52,
+          "left": 24,
+          "right": 368.1875,
+          "top": 634.2421875,
+          "width": 344.1875
+        },
+        "id": "scene-nuggets",
+        "text": {
+          "bottom": 292.2421875,
+          "height": 216.2421875,
+          "left": 0,
+          "right": 392.1875,
+          "top": 76,
+          "width": 392.1875
+        },
+        "title": {
+          "bottom": 160.9765625,
+          "height": 62.9765625,
+          "left": 24,
+          "right": 368.1875,
+          "top": 98,
+          "width": 344.1875
+        }
+      },
+      {
+        "art": {
+          "bottom": 614.2421875,
+          "height": 322,
+          "left": 35.09375,
+          "right": 357.09375,
+          "top": 292.2421875,
+          "width": 322
+        },
+        "cta": {
+          "bottom": 686.2421875,
+          "height": 52,
+          "left": 24,
+          "right": 368.1875,
+          "top": 634.2421875,
+          "width": 344.1875
+        },
+        "id": "scene-lulia-mini",
+        "text": {
+          "bottom": 292.2421875,
+          "height": 216.2421875,
+          "left": 0,
+          "right": 392.1875,
+          "top": 76,
+          "width": 392.1875
+        },
+        "title": {
+          "bottom": 160.9765625,
+          "height": 62.9765625,
+          "left": 24,
+          "right": 368.1875,
+          "top": 98,
+          "width": 344.1875
+        }
+      }
+    ],
+    "stage": {
+      "bottom": 714.2421875,
+      "height": 638.2421875,
+      "left": 0,
+      "right": 390,
+      "top": 76,
+      "width": 390
+    },
+    "width": 390
+  },
+  {
+    "floor": {
+      "bottom": 816.375,
+      "height": 740.375,
+      "left": -96,
+      "right": 576,
+      "top": 76,
+      "width": 672
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "left": 0,
+      "right": 480,
+      "top": 0,
+      "width": 480
+    },
+    "height": 900,
+    "overflow": false,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 715.375,
+          "height": 382,
+          "left": 52.8046875,
+          "right": 434.8046875,
+          "top": 333.375,
+          "width": 382
+        },
+        "cta": {
+          "bottom": 787.375,
+          "height": 52,
+          "left": 63.8046875,
+          "right": 423.8046875,
+          "top": 735.375,
+          "width": 360
+        },
+        "id": "scene-fibriki",
+        "text": {
+          "bottom": 322.34375,
+          "height": 246.34375,
+          "left": 0,
+          "right": 487.6171875,
+          "top": 76,
+          "width": 487.6171875
+        },
+        "title": {
+          "bottom": 181.515625,
+          "height": 77.515625,
+          "left": 32,
+          "right": 455.6171875,
+          "top": 104,
+          "width": 423.6171875
+        }
+      },
+      {
+        "art": {
+          "bottom": 715.375,
+          "height": 382,
+          "left": 52.8046875,
+          "right": 434.8046875,
+          "top": 333.375,
+          "width": 382
+        },
+        "cta": {
+          "bottom": 787.375,
+          "height": 52,
+          "left": 63.8046875,
+          "right": 423.8046875,
+          "top": 735.375,
+          "width": 360
+        },
+        "id": "scene-meatballs",
+        "text": {
+          "bottom": 309.6640625,
+          "height": 233.6640625,
+          "left": 0,
+          "right": 487.6171875,
+          "top": 76,
+          "width": 487.6171875
+        },
+        "title": {
+          "bottom": 157.8046875,
+          "height": 53.8046875,
+          "left": 32,
+          "right": 455.6171875,
+          "top": 104,
+          "width": 423.6171875
+        }
+      },
+      {
+        "art": {
+          "bottom": 715.375,
+          "height": 382,
+          "left": 52.8046875,
+          "right": 434.8046875,
+          "top": 333.375,
+          "width": 382
+        },
+        "cta": {
+          "bottom": 787.375,
+          "height": 52,
+          "left": 63.8046875,
+          "right": 423.8046875,
+          "top": 735.375,
+          "width": 360
+        },
+        "id": "scene-nuggets",
+        "text": {
+          "bottom": 333.375,
+          "height": 257.375,
+          "left": 0,
+          "right": 487.6171875,
+          "top": 76,
+          "width": 487.6171875
+        },
+        "title": {
+          "bottom": 181.515625,
+          "height": 77.515625,
+          "left": 32,
+          "right": 455.6171875,
+          "top": 104,
+          "width": 423.6171875
+        }
+      },
+      {
+        "art": {
+          "bottom": 715.375,
+          "height": 382,
+          "left": 52.8046875,
+          "right": 434.8046875,
+          "top": 333.375,
+          "width": 382
+        },
+        "cta": {
+          "bottom": 787.375,
+          "height": 52,
+          "left": 63.8046875,
+          "right": 423.8046875,
+          "top": 735.375,
+          "width": 360
+        },
+        "id": "scene-lulia-mini",
+        "text": {
+          "bottom": 333.375,
+          "height": 257.375,
+          "left": 0,
+          "right": 487.6171875,
+          "top": 76,
+          "width": 487.6171875
+        },
+        "title": {
+          "bottom": 181.515625,
+          "height": 77.515625,
+          "left": 32,
+          "right": 455.6171875,
+          "top": 104,
+          "width": 423.6171875
+        }
+      }
+    ],
+    "stage": {
+      "bottom": 815.375,
+      "height": 739.375,
+      "left": 0,
+      "right": 480,
+      "top": 76,
+      "width": 480
+    },
+    "width": 480
+  },
+  {
+    "floor": {
+      "bottom": 844.8828125,
+      "height": 768.8828125,
+      "left": -139.796875,
+      "right": 838.796875,
+      "top": 76,
+      "width": 978.59375
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "left": 0,
+      "right": 699,
+      "top": 0,
+      "width": 699
+    },
+    "height": 1000,
+    "overflow": false,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 743.8828125,
+          "height": 382,
+          "left": 158.5,
+          "right": 540.5,
+          "top": 361.8828125,
+          "width": 382
+        },
+        "cta": {
+          "bottom": 815.8828125,
+          "height": 52,
+          "left": 169.5,
+          "right": 529.5,
+          "top": 763.8828125,
+          "width": 360
+        },
+        "id": "scene-fibriki",
+        "text": {
+          "bottom": 355.59375,
+          "height": 279.59375,
+          "left": 0,
+          "right": 699,
+          "top": 76,
+          "width": 699
+        },
+        "title": {
+          "bottom": 204.6953125,
+          "height": 100.6953125,
+          "left": 32,
+          "right": 667,
+          "top": 104,
+          "width": 635
+        }
+      },
+      {
+        "art": {
+          "bottom": 743.8828125,
+          "height": 382,
+          "left": 158.5,
+          "right": 540.5,
+          "top": 361.8828125,
+          "width": 382
+        },
+        "cta": {
+          "bottom": 815.8828125,
+          "height": 52,
+          "left": 169.5,
+          "right": 529.5,
+          "top": 763.8828125,
+          "width": 360
+        },
+        "id": "scene-meatballs",
+        "text": {
+          "bottom": 336.234375,
+          "height": 260.234375,
+          "left": 0,
+          "right": 699,
+          "top": 76,
+          "width": 699
+        },
+        "title": {
+          "bottom": 179.046875,
+          "height": 75.046875,
+          "left": 32,
+          "right": 667,
+          "top": 104,
+          "width": 635
+        }
+      },
+      {
+        "art": {
+          "bottom": 743.8828125,
+          "height": 382,
+          "left": 158.5,
+          "right": 540.5,
+          "top": 361.8828125,
+          "width": 382
+        },
+        "cta": {
+          "bottom": 815.8828125,
+          "height": 52,
+          "left": 169.5,
+          "right": 529.5,
+          "top": 763.8828125,
+          "width": 360
+        },
+        "id": "scene-nuggets",
+        "text": {
+          "bottom": 361.8828125,
+          "height": 285.8828125,
+          "left": 0,
+          "right": 699,
+          "top": 76,
+          "width": 699
+        },
+        "title": {
+          "bottom": 204.6953125,
+          "height": 100.6953125,
+          "left": 32,
+          "right": 667,
+          "top": 104,
+          "width": 635
+        }
+      },
+      {
+        "art": {
+          "bottom": 743.8828125,
+          "height": 382,
+          "left": 158.5,
+          "right": 540.5,
+          "top": 361.8828125,
+          "width": 382
+        },
+        "cta": {
+          "bottom": 815.8828125,
+          "height": 52,
+          "left": 169.5,
+          "right": 529.5,
+          "top": 763.8828125,
+          "width": 360
+        },
+        "id": "scene-lulia-mini",
+        "text": {
+          "bottom": 361.8828125,
+          "height": 285.8828125,
+          "left": 0,
+          "right": 699,
+          "top": 76,
+          "width": 699
+        },
+        "title": {
+          "bottom": 204.6953125,
+          "height": 100.6953125,
+          "left": 32,
+          "right": 667,
+          "top": 104,
+          "width": 635
+        }
+      }
+    ],
+    "stage": {
+      "bottom": 843.8828125,
+      "height": 767.8828125,
+      "left": 0,
+      "right": 699,
+      "top": 76,
+      "width": 699
+    },
+    "width": 699
+  },
+  {
+    "floor": {
+      "bottom": 597,
+      "height": 521,
+      "left": -140,
+      "right": 840,
+      "top": 76,
+      "width": 980
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "left": 0,
+      "right": 700,
+      "top": 0,
+      "width": 700
+    },
+    "height": 800,
+    "overflow": false,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 480.765625,
+          "height": 303.5390625,
+          "left": 329,
+          "right": 680,
+          "top": 177.2265625,
+          "width": 351
+        },
+        "cta": {
+          "bottom": 476.90625,
+          "height": 52,
+          "left": 32,
+          "right": 263.7734375,
+          "top": 424.90625,
+          "width": 231.7734375
+        },
+        "id": "scene-fibriki",
+        "text": {
+          "bottom": 400.90625,
+          "height": 223.8125,
+          "left": 32,
+          "right": 329,
+          "top": 177.09375,
+          "width": 297
+        },
+        "title": {
+          "bottom": 241.5703125,
+          "height": 64.4765625,
+          "left": 32,
+          "right": 329,
+          "top": 177.09375,
+          "width": 297
+        }
+      },
+      {
+        "art": {
+          "bottom": 461.390625,
+          "height": 264.7890625,
+          "left": 329,
+          "right": 680,
+          "top": 196.6015625,
+          "width": 351
+        },
+        "cta": {
+          "bottom": 463.7890625,
+          "height": 52,
+          "left": 32,
+          "right": 202.578125,
+          "top": 411.7890625,
+          "width": 170.578125
+        },
+        "id": "scene-meatballs",
+        "text": {
+          "bottom": 387.7890625,
+          "height": 197.5859375,
+          "left": 32,
+          "right": 329,
+          "top": 190.203125,
+          "width": 297
+        },
+        "title": {
+          "bottom": 236.8515625,
+          "height": 46.6484375,
+          "left": 32,
+          "right": 329,
+          "top": 190.203125,
+          "width": 297
+        }
+      },
+      {
+        "art": {
+          "bottom": 446.375,
+          "height": 234.7578125,
+          "left": 329,
+          "right": 680,
+          "top": 211.6171875,
+          "width": 351
+        },
+        "cta": {
+          "bottom": 472.703125,
+          "height": 52,
+          "left": 32,
+          "right": 175.0625,
+          "top": 420.703125,
+          "width": 143.0625
+        },
+        "id": "scene-nuggets",
+        "text": {
+          "bottom": 396.703125,
+          "height": 215.4140625,
+          "left": 32,
+          "right": 329,
+          "top": 181.2890625,
+          "width": 297
+        },
+        "title": {
+          "bottom": 245.765625,
+          "height": 64.4765625,
+          "left": 32,
+          "right": 329,
+          "top": 181.2890625,
+          "width": 297
+        }
+      },
+      {
+        "art": {
+          "bottom": 460.078125,
+          "height": 262.1640625,
+          "left": 329,
+          "right": 680,
+          "top": 197.9140625,
+          "width": 351
+        },
+        "cta": {
+          "bottom": 468.25,
+          "height": 52,
+          "left": 32,
+          "right": 183.03125,
+          "top": 416.25,
+          "width": 151.03125
+        },
+        "id": "scene-lulia-mini",
+        "text": {
+          "bottom": 392.25,
+          "height": 206.5,
+          "left": 32,
+          "right": 329,
+          "top": 185.75,
+          "width": 297
+        },
+        "title": {
+          "bottom": 241.3125,
+          "height": 55.5625,
+          "left": 32,
+          "right": 329,
+          "top": 185.75,
+          "width": 297
+        }
+      }
+    ],
+    "stage": {
+      "bottom": 596,
+      "height": 520,
+      "left": 0,
+      "right": 700,
+      "top": 76,
+      "width": 700
+    },
+    "width": 700
+  },
+  {
+    "floor": {
+      "bottom": 789,
+      "height": 701,
+      "left": -288,
+      "right": 1728,
+      "top": 88,
+      "width": 2016
+    },
+    "header": {
+      "bottom": 88,
+      "height": 88,
+      "left": 0,
+      "right": 1440,
+      "top": 0,
+      "width": 1440
+    },
+    "height": 900,
+    "overflow": false,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 712.9921875,
+          "height": 569.9921875,
+          "left": 716.84375,
+          "right": 1375.9453125,
+          "top": 143,
+          "width": 659.1015625
+        },
+        "cta": {
+          "bottom": 630.328125,
+          "height": 56,
+          "left": 69.1171875,
+          "right": 353.3515625,
+          "top": 574.328125,
+          "width": 284.234375
+        },
+        "id": "scene-fibriki",
+        "text": {
+          "bottom": 546.328125,
+          "height": 326.6640625,
+          "left": 69.1171875,
+          "right": 676.796875,
+          "top": 219.6640625,
+          "width": 607.6796875
+        },
+        "title": {
+          "bottom": 353.71875,
+          "height": 134.0546875,
+          "left": 69.1171875,
+          "right": 676.796875,
+          "top": 219.6640625,
+          "width": 607.6796875
+        }
+      },
+      {
+        "art": {
+          "bottom": 706.8125,
+          "height": 557.6328125,
+          "left": 676.796875,
+          "right": 1415.9921875,
+          "top": 149.1796875,
+          "width": 739.1953125
+        },
+        "cta": {
+          "bottom": 617.5859375,
+          "height": 56,
+          "left": 69.1171875,
+          "right": 281.953125,
+          "top": 561.5859375,
+          "width": 212.8359375
+        },
+        "id": "scene-meatballs",
+        "text": {
+          "bottom": 533.5859375,
+          "height": 301.171875,
+          "left": 69.1171875,
+          "right": 676.796875,
+          "top": 232.4140625,
+          "width": 607.6796875
+        },
+        "title": {
+          "bottom": 322.7265625,
+          "height": 90.3125,
+          "left": 69.1171875,
+          "right": 676.796875,
+          "top": 232.4140625,
+          "width": 607.6796875
+        }
+      },
+      {
+        "art": {
+          "bottom": 675.1953125,
+          "height": 494.390625,
+          "left": 676.796875,
+          "right": 1415.9921875,
+          "top": 180.8046875,
+          "width": 739.1953125
+        },
+        "cta": {
+          "bottom": 639.453125,
+          "height": 56,
+          "left": 69.1171875,
+          "right": 249.859375,
+          "top": 583.453125,
+          "width": 180.7421875
+        },
+        "id": "scene-nuggets",
+        "text": {
+          "bottom": 555.453125,
+          "height": 344.9140625,
+          "left": 69.1171875,
+          "right": 676.796875,
+          "top": 210.5390625,
+          "width": 607.6796875
+        },
+        "title": {
+          "bottom": 344.59375,
+          "height": 134.0546875,
+          "left": 69.1171875,
+          "right": 676.796875,
+          "top": 210.5390625,
+          "width": 607.6796875
+        }
+      },
+      {
+        "art": {
+          "bottom": 704.0546875,
+          "height": 552.109375,
+          "left": 676.796875,
+          "right": 1415.9921875,
+          "top": 151.9453125,
+          "width": 739.1953125
+        },
+        "cta": {
+          "bottom": 628.1640625,
+          "height": 56,
+          "left": 69.1171875,
+          "right": 259.15625,
+          "top": 572.1640625,
+          "width": 190.0390625
+        },
+        "id": "scene-lulia-mini",
+        "text": {
+          "bottom": 544.1640625,
+          "height": 322.3359375,
+          "left": 69.1171875,
+          "right": 676.796875,
+          "top": 221.828125,
+          "width": 607.6796875
+        },
+        "title": {
+          "bottom": 333.3046875,
+          "height": 111.4765625,
+          "left": 69.1171875,
+          "right": 676.796875,
+          "top": 221.828125,
+          "width": 607.6796875
+        }
+      }
+    ],
+    "stage": {
+      "bottom": 788,
+      "height": 700,
+      "left": 0,
+      "right": 1440,
+      "top": 88,
+      "width": 1440
+    },
+    "width": 1440
+  },
+  {
+    "floor": {
+      "bottom": 789,
+      "height": 701,
+      "left": -384,
+      "right": 2304,
+      "top": 88,
+      "width": 2688
+    },
+    "header": {
+      "bottom": 88,
+      "height": 88,
+      "left": 0,
+      "right": 1920,
+      "top": 0,
+      "width": 1920
+    },
+    "height": 1080,
+    "overflow": false,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 712.9921875,
+          "height": 569.9921875,
+          "left": 1006.0390625,
+          "right": 1665.140625,
+          "top": 143,
+          "width": 659.1015625
+        },
+        "cta": {
+          "bottom": 639.3984375,
+          "height": 56,
+          "left": 176,
+          "right": 460.234375,
+          "top": 583.3984375,
+          "width": 284.234375
+        },
+        "id": "scene-fibriki",
+        "text": {
+          "bottom": 555.3984375,
+          "height": 344.796875,
+          "left": 176,
+          "right": 891.1953125,
+          "top": 210.6015625,
+          "width": 715.1953125
+        },
+        "title": {
+          "bottom": 357.6015625,
+          "height": 147,
+          "left": 176,
+          "right": 891.1953125,
+          "top": 210.6015625,
+          "width": 715.1953125
+        }
+      },
+      {
+        "art": {
+          "bottom": 712.9921875,
+          "height": 569.9921875,
+          "left": 957.8046875,
+          "right": 1713.3828125,
+          "top": 143,
+          "width": 755.578125
+        },
+        "cta": {
+          "bottom": 631.1875,
+          "height": 56,
+          "left": 176,
+          "right": 388.8359375,
+          "top": 575.1875,
+          "width": 212.8359375
+        },
+        "id": "scene-meatballs",
+        "text": {
+          "bottom": 547.1875,
+          "height": 328.3828125,
+          "left": 176,
+          "right": 891.1953125,
+          "top": 218.8046875,
+          "width": 715.1953125
+        },
+        "title": {
+          "bottom": 328.5625,
+          "height": 109.7578125,
+          "left": 176,
+          "right": 891.1953125,
+          "top": 218.8046875,
+          "width": 715.1953125
+        }
+      },
+      {
+        "art": {
+          "bottom": 712.9921875,
+          "height": 569.9921875,
+          "left": 909.4765625,
+          "right": 1761.703125,
+          "top": 143,
+          "width": 852.2265625
+        },
+        "cta": {
+          "bottom": 649.8125,
+          "height": 56,
+          "left": 176,
+          "right": 356.7421875,
+          "top": 593.8125,
+          "width": 180.7421875
+        },
+        "id": "scene-nuggets",
+        "text": {
+          "bottom": 565.8125,
+          "height": 365.625,
+          "left": 176,
+          "right": 891.1953125,
+          "top": 200.1875,
+          "width": 715.1953125
+        },
+        "title": {
+          "bottom": 347.1875,
+          "height": 147,
+          "left": 176,
+          "right": 891.1953125,
+          "top": 200.1875,
+          "width": 715.1953125
+        }
+      },
+      {
+        "art": {
+          "bottom": 712.9921875,
+          "height": 569.9921875,
+          "left": 954.0234375,
+          "right": 1717.1640625,
+          "top": 143,
+          "width": 763.140625
+        },
+        "cta": {
+          "bottom": 642.9453125,
+          "height": 56,
+          "left": 176,
+          "right": 366.0390625,
+          "top": 586.9453125,
+          "width": 190.0390625
+        },
+        "id": "scene-lulia-mini",
+        "text": {
+          "bottom": 558.9453125,
+          "height": 351.8984375,
+          "left": 176,
+          "right": 891.1953125,
+          "top": 207.046875,
+          "width": 715.1953125
+        },
+        "title": {
+          "bottom": 340.3203125,
+          "height": 133.2734375,
+          "left": 176,
+          "right": 891.1953125,
+          "top": 207.046875,
+          "width": 715.1953125
+        }
+      }
+    ],
+    "stage": {
+      "bottom": 788,
+      "height": 700,
+      "left": 0,
+      "right": 1920,
+      "top": 88,
+      "width": 1920
+    },
+    "width": 1920
+  },
+  {
+    "floor": {
+      "bottom": 405,
+      "height": 341,
+      "left": -168.796875,
+      "right": 1012.796875,
+      "top": 64,
+      "width": 1181.59375
+    },
+    "header": {
+      "bottom": 64,
+      "height": 64,
+      "left": 0,
+      "right": 844,
+      "top": 0,
+      "width": 844
+    },
+    "height": 390,
+    "overflow": false,
+    "scenes": [
+      {
+        "art": {
+          "bottom": 374.296875,
+          "height": 288.59375,
+          "left": 449.9140625,
+          "right": 783.625,
+          "top": 85.703125,
+          "width": 333.7109375
+        },
+        "cta": {
+          "bottom": 355.8671875,
+          "height": 44,
+          "left": 24,
+          "right": 255.7734375,
+          "top": 311.8671875,
+          "width": 231.7734375
+        },
+        "id": "scene-fibriki",
+        "text": {
+          "bottom": 295.8671875,
+          "height": 187.7421875,
+          "left": 24,
+          "right": 401.5546875,
+          "top": 108.125,
+          "width": 377.5546875
+        },
+        "title": {
+          "bottom": 172.6328125,
+          "height": 64.5078125,
+          "left": 24,
+          "right": 401.5546875,
+          "top": 108.125,
+          "width": 377.5546875
+        }
+      },
+      {
+        "art": {
+          "bottom": 374.296875,
+          "height": 288.59375,
+          "left": 425.4921875,
+          "right": 808.0546875,
+          "top": 85.703125,
+          "width": 382.5625
+        },
+        "cta": {
+          "bottom": 342.0859375,
+          "height": 44,
+          "left": 24,
+          "right": 194.578125,
+          "top": 298.0859375,
+          "width": 170.578125
+        },
+        "id": "scene-meatballs",
+        "text": {
+          "bottom": 282.0859375,
+          "height": 160.171875,
+          "left": 24,
+          "right": 401.5546875,
+          "top": 121.9140625,
+          "width": 377.5546875
+        },
+        "title": {
+          "bottom": 169.8828125,
+          "height": 47.96875,
+          "left": 24,
+          "right": 401.5546875,
+          "top": 121.9140625,
+          "width": 377.5546875
+        }
+      },
+      {
+        "art": {
+          "bottom": 365.9140625,
+          "height": 271.8359375,
+          "left": 413.5546875,
+          "right": 819.9921875,
+          "top": 94.078125,
+          "width": 406.4375
+        },
+        "cta": {
+          "bottom": 350.3515625,
+          "height": 44,
+          "left": 24,
+          "right": 167.0625,
+          "top": 306.3515625,
+          "width": 143.0625
+        },
+        "id": "scene-nuggets",
+        "text": {
+          "bottom": 290.3515625,
+          "height": 176.7109375,
+          "left": 24,
+          "right": 401.5546875,
+          "top": 113.640625,
+          "width": 377.5546875
+        },
+        "title": {
+          "bottom": 178.1484375,
+          "height": 64.5078125,
+          "left": 24,
+          "right": 401.5546875,
+          "top": 113.640625,
+          "width": 377.5546875
+        }
+      },
+      {
+        "art": {
+          "bottom": 374.296875,
+          "height": 288.59375,
+          "left": 423.578125,
+          "right": 809.96875,
+          "top": 85.703125,
+          "width": 386.390625
+        },
+        "cta": {
+          "bottom": 347.4609375,
+          "height": 44,
+          "left": 24,
+          "right": 175.03125,
+          "top": 303.4609375,
+          "width": 151.03125
+        },
+        "id": "scene-lulia-mini",
+        "text": {
+          "bottom": 287.4609375,
+          "height": 170.921875,
+          "left": 24,
+          "right": 401.5546875,
+          "top": 116.5390625,
+          "width": 377.5546875
+        },
+        "title": {
+          "bottom": 175.2578125,
+          "height": 58.71875,
+          "left": 24,
+          "right": 401.5546875,
+          "top": 116.5390625,
+          "width": 377.5546875
+        }
+      }
+    ],
+    "stage": {
+      "bottom": 404,
+      "height": 340,
+      "left": 0,
+      "right": 844,
+      "top": 64,
+      "width": 844
+    },
+    "width": 844
+  }
+]

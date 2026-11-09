@@ -1,0 +1,29 @@
+{
+  "master": "meatballs-master.png",
+  "date": "2026-11-07",
+  "method": "built-in ImageGen; character reference Fibriki v3, food reference meatballs v3; new left-facing pose and distinct composition",
+  "sourceGeneratedPath": "/Users/andrey/.codex/generated_images/01a1ab97-8dbf-7c80-b46f-e9b6e7853b89/exec-c537fdf5-0202-44bc-bf62-ffba4d64b01e.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBoxThreshold16": [
+    89,
+    62,
+    1211,
+    1221
+  ],
+  "prompt": "meatballs-prompt.txt",
+  "visualReview": "Same broad mature orange chicken with large near eye and small far eye, green-check apron and bow. New left-facing pose on lower right. Three whole meatballs on left/upper arc; two short accent pairs. Face and linework close to Fibriki, but newly drawn feather hatching is slightly cleaner. No background halo, text, utensils or packaging.",
+  "qaApproximation": "Quarter-resolution alpha components threshold128, distances approximate ±4 source pixels. Parent accepted >=35px gaps after visual review.",
+  "mascotToFoodApproxMinimumGapsPx": [
+    43.1,
+    79.4,
+    88.5
+  ],
+  "integration": "No WebP, generator or CSS changes"
+}

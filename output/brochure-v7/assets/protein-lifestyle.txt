@@ -1,0 +1,23 @@
+Use case: compositing
+Asset type: premium landscape 16:9 product lifestyle food photograph for a Novoferma brochure, without slide typography.
+Input images:
+Image 1 is the EDIT TARGET: the warm cream editorial still life of two cooked chicken meatballs and a halved meatball on cream surfaces, with orange linen.
+Image 2 is the EXACT REAL PACKAGING SOURCE: Novoferma classic chicken meatball retail pack, cream printed curved paper sleeve around a transparent plastic tray. This package's physical shape, proportions, logo, lettering and original printed chicken character are invariants. The white catalogue background around this pack is not part of the object.
+
+Primary request: naturally integrate this real retail package into the right-hand food scene. Make one coherent premium lifestyle photograph, not a collage, not a sticker-like floating product overlay, and not a small packshot thumbnail. The package should stand on the cream surface or low cream plinth in the UPPER RIGHT background, naturally lit and grounded, large and recognisable, with a slightly natural three-quarter presence while keeping the full important front design readable. It may be very slightly cropped by the right frame edge. The package is a supporting product presence behind the cooked food, not a giant packshot covering the food.
+
+Composition:
+Keep the LEFT 43% of the entire canvas clean empty calm cream negative space for later live typography. No object, package, food, crumb, fabric or hard shadow in this left area.
+Arrange the package within the right half, roughly x=65–99% of total width and upper-to-middle right, with real contact shadow and believable scale. The package should occupy approximately half the image height and be recognisable at slide scale.
+Keep 2–3 appetizing chicken meatball pieces at the right forefront, including one cut half showing finely minced pale chicken interior. Preserve the natural irregular cooked meatball shapes and restrained golden browning. Food must remain visible and separate from the package, not covered by it. You may slightly reposition the existing plinth, whole meatballs and orange linen to integrate the package as a coherent staged scene.
+Do not create a pile, perfect spheres or floating food.
+
+Packaging preservation:
+Retain the exact original physical pack construction: cream curved trapezoid paper sleeve with broad top, visible transparent plastic tray at bottom, frozen meatballs inside tray. Keep the real logo "NOVOferma" in orange, the large Russian title "ФРИКАДЕЛЬКИ", the subtitle "КЛАССИЧЕСКИЕ", and the original printed chicken character and cooked-meatball illustration from image 2. Preserve original colours, relative placement, proportions and all visible printed details. Do not invent or redesign the label. Do not print any new number or claim onto the pack.
+
+Lighting/mood:
+Match the target scene's premium editorial food realism: soft warm daylight from upper left, believable consistent gentle natural contact shadows, cream #fff5e3 palette, muted cream stone, a restrained orange linen edge at lower right. The pack receives exactly the same light and colour temperature as the food, not a pasted studio white-background image. Sharp enough to recognise the printed sleeve and delicious natural meatball texture.
+
+Text:
+Do not add any new text, headings, labels, numerals, captions or logos anywhere in the image. Only the original printed packaging text and logo from image 2 are allowed. Do not generate "52", "52 г", presentation titles, cards or bottom panels.
+Avoid: floating objects, cartoon mascots outside the package print, big meal plates, ingredient scatter, rice/grains/vegetable chunks in the cut chicken, glossy plastic-looking food, footer strips, text boxes, watermarks, catalogue thumbnail layout.

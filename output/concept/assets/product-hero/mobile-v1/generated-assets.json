@@ -1,0 +1,100 @@
+{
+  "meatballs": {
+    "master": "meatballs-master.png",
+    "masterDimensions": [
+      1254,
+      1254
+    ],
+    "webp": "meatballs.webp",
+    "webpDimensions": [
+      960,
+      960
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBboxThreshold16": [
+      101,
+      61,
+      1140,
+      1166
+    ],
+    "webpBytes": 216984,
+    "reference": "../meatballs-art-v4.webp",
+    "prompt": "meatballs-prompt.txt",
+    "method": "built-in ImageGen; dedicated square mobile redraw, not crop of desktop"
+  },
+  "nuggets": {
+    "master": "nuggets-master.png",
+    "masterDimensions": [
+      1254,
+      1254
+    ],
+    "webp": "nuggets.webp",
+    "webpDimensions": [
+      960,
+      960
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBboxThreshold16": [
+      145,
+      76,
+      1138,
+      1196
+    ],
+    "webpBytes": 180712,
+    "reference": "../nuggets-art-v4.webp",
+    "prompt": "nuggets-prompt.txt",
+    "method": "built-in ImageGen; dedicated square mobile redraw, not crop of desktop"
+  },
+  "lulia-mini": {
+    "master": "lulia-mini-master.png",
+    "masterDimensions": [
+      1254,
+      1254
+    ],
+    "webp": "lulia-mini.webp",
+    "webpDimensions": [
+      960,
+      960
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBboxThreshold16": [
+      138,
+      83,
+      1114,
+      1184
+    ],
+    "webpBytes": 178200,
+    "reference": "../lulia-mini-art-v4.webp",
+    "prompt": "lulia-mini-prompt.txt",
+    "method": "built-in ImageGen; dedicated square mobile redraw, not crop of desktop"
+  },
+  "fibriki": {
+    "master": "fibriki-master.png",
+    "masterDimensions": [
+      1254,
+      1254
+    ],
+    "webp": "fibriki.webp",
+    "webpDimensions": [
+      960,
+      960
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "webpBytes": 233568,
+    "reference": "../fibriki-art-v5.webp",
+    "prompt": "fibriki-prompt.txt",
+    "method": "built-in ImageGen; dedicated square mobile redraw, not crop of desktop"
+  }
+}

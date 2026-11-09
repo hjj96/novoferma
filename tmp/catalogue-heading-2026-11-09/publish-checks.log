@@ -1,0 +1,25 @@
+{
+  "pages": 24,
+  "images": 438,
+  "localReferences": 1620,
+  "uniqueTitles": 24,
+  "uniqueDescriptions": 24,
+  "publicUrl": null,
+  "errors": [
+    "Home requires one Popсы hero section",
+    "Popсы hero requires its live h1",
+    "Popсы hero title must be live text",
+    "Popсы hero requires one popsy-home-pack image",
+    "Popсы hero requires one popsy-home-food image",
+    "Popсы hero contains only the package and ready-food artwork",
+    "Popсы hero CTA must open its product page",
+    "Popсы hero handwritten phrase must be live text",
+    "Popсы hero description must be live text",
+    "Home must load popsy-home.css",
+    "Home must load popsy-home.js",
+    "Home must not retain carousel scenes or ghost tabs"
+  ],
+  "result": "fail",
+  "scope": "Generated source only; visual and interactive browser checks are separate."
+}
+Publication failed: Command failed: /Applications/Xcode.app/Contents/Developer/usr/bin/python3

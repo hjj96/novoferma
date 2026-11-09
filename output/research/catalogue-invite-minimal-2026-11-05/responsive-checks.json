@@ -1,0 +1,157 @@
+[
+  {
+    "arrowBackground": "rgba(0, 0, 0, 0)",
+    "buttonBackground": "rgb(255, 245, 227)",
+    "buttonHeight": 64,
+    "buttonRadius": "999px",
+    "buttonTextWrap": false,
+    "buttonWidth": 293.203125,
+    "clip": {
+      "height": 597,
+      "width": 1440,
+      "x": 0,
+      "y": 2360
+    },
+    "description": false,
+    "eyebrow": false,
+    "fullWidth": true,
+    "heading": "ДЛЯ ВАШЕЙ ПОЛКИ.\nДЛЯ ВАШЕГО МЕНЮ.",
+    "headingOverflow": false,
+    "note": false,
+    "overflow": false,
+    "width": 1440,
+    "page": "catalogue"
+  },
+  {
+    "arrowBackground": "rgba(0, 0, 0, 0)",
+    "buttonBackground": "rgb(255, 245, 227)",
+    "buttonHeight": 64,
+    "buttonRadius": "999px",
+    "buttonTextWrap": false,
+    "buttonWidth": 266.6875,
+    "clip": {
+      "height": 533,
+      "width": 1024,
+      "x": 0,
+      "y": 3163
+    },
+    "description": false,
+    "eyebrow": false,
+    "fullWidth": true,
+    "heading": "ДЛЯ ВАШЕЙ ПОЛКИ.\nДЛЯ ВАШЕГО МЕНЮ.",
+    "headingOverflow": false,
+    "note": false,
+    "overflow": false,
+    "width": 1024,
+    "page": "catalogue"
+  },
+  {
+    "arrowBackground": "rgba(0, 0, 0, 0)",
+    "buttonBackground": "rgb(255, 245, 227)",
+    "buttonHeight": 64,
+    "buttonRadius": "999px",
+    "buttonTextWrap": false,
+    "buttonWidth": 293.203125,
+    "clip": {
+      "height": 608,
+      "width": 768,
+      "x": 0,
+      "y": 2713
+    },
+    "description": false,
+    "eyebrow": false,
+    "fullWidth": true,
+    "heading": "ДЛЯ ВАШЕЙ ПОЛКИ.\nДЛЯ ВАШЕГО МЕНЮ.",
+    "headingOverflow": false,
+    "note": false,
+    "overflow": false,
+    "width": 768,
+    "page": "catalogue"
+  },
+  {
+    "arrowBackground": "rgba(0, 0, 0, 0)",
+    "buttonBackground": "rgb(255, 245, 227)",
+    "buttonHeight": 56,
+    "buttonRadius": "999px",
+    "buttonTextWrap": false,
+    "buttonWidth": 350,
+    "clip": {
+      "height": 703,
+      "width": 390,
+      "x": 0,
+      "y": 2907
+    },
+    "description": false,
+    "eyebrow": false,
+    "fullWidth": true,
+    "heading": "ДЛЯ ВАШЕЙ ПОЛКИ.\nДЛЯ ВАШЕГО МЕНЮ.",
+    "headingOverflow": false,
+    "note": false,
+    "overflow": false,
+    "width": 390,
+    "page": "catalogue"
+  },
+  {
+    "arrowBackground": "rgba(0, 0, 0, 0)",
+    "buttonBackground": "rgb(255, 245, 227)",
+    "buttonHeight": 56,
+    "buttonRadius": "999px",
+    "buttonTextWrap": false,
+    "buttonWidth": 288,
+    "clip": {
+      "height": 696,
+      "width": 320,
+      "x": 0,
+      "y": 2695
+    },
+    "description": false,
+    "eyebrow": false,
+    "fullWidth": true,
+    "heading": "ДЛЯ ВАШЕЙ ПОЛКИ.\nДЛЯ ВАШЕГО МЕНЮ.",
+    "headingOverflow": false,
+    "note": false,
+    "overflow": false,
+    "width": 320,
+    "page": "catalogue"
+  },
+  {
+    "arrowBackground": "rgba(0, 0, 0, 0)",
+    "buttonBackground": "rgb(255, 245, 227)",
+    "buttonHeight": 64,
+    "buttonRadius": "999px",
+    "buttonWidth": 293.203125,
+    "clip": {
+      "height": 638,
+      "width": 1440,
+      "x": 0,
+      "y": 1595
+    },
+    "description": true,
+    "eyebrow": true,
+    "fullWidth": true,
+    "headingOverflow": false,
+    "overflow": false,
+    "width": 1440,
+    "page": "about"
+  },
+  {
+    "arrowBackground": "rgba(0, 0, 0, 0)",
+    "buttonBackground": "rgb(255, 245, 227)",
+    "buttonHeight": 56,
+    "buttonRadius": "999px",
+    "buttonWidth": 350,
+    "clip": {
+      "height": 814,
+      "width": 390,
+      "x": 0,
+      "y": 1890
+    },
+    "description": true,
+    "eyebrow": true,
+    "fullWidth": true,
+    "headingOverflow": false,
+    "overflow": false,
+    "width": 390,
+    "page": "about"
+  }
+]

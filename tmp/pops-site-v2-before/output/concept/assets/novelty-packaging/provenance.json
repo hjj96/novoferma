@@ -1,0 +1,460 @@
+{
+  "records": [
+    {
+      "slug": "fibriki",
+      "name": "Фибрики",
+      "file": "assets/novelty-packaging/fibriki-pack-v11.webp",
+      "version": 11,
+      "date": "2026-11-04",
+      "tool": "Built-in ImageGen",
+      "kind": "User-requested packaging visual with sparse parsley-like herb flecks",
+      "native": "output/research/fibriki-herbs-v11/fibriki-pack-v11.png",
+      "prompt": "output/research/fibriki-herbs-v11/fibriki-pack-v11-prompt.txt",
+      "copy": [
+        "ФИБРИКИ",
+        "ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ",
+        "С ПИЩЕВЫМИ ВОЛОКНАМИ",
+        "БЕЛОК + КЛЕТЧАТКА"
+      ],
+      "canvas": [
+        800,
+        800
+      ],
+      "hasAlpha": true,
+      "sha256": "1c8ec286fb4fc031af3ef782c50e569578d454fbbdbc151033c7dac4c60f9da6",
+      "development": "Targeted ImageGen retouch of approved F10: sparse tiny green herb fragments embedded in the pictured whole/cut cooked Fibriki, raw balls in the clear tray and the small spoon ball. Existing composition, brand lettering, warm print colors and pale paper edges retained. No ingredient claims or copy added.",
+      "factsNotProvided": [
+        "net weight",
+        "full ingredients",
+        "nutrition",
+        "storage/preparation",
+        "production barcode"
+      ],
+      "promptSet": "output/research/fibriki-herbs-v11/prompts.json",
+      "layoutSource": "assets/novelty-packaging/fibriki-pack-v3.webp",
+      "printedMascotStyleSource": "assets/catalogue/stripsy.webp",
+      "mascotMaster": "output/research/fibriki-unique-v4/mascot-study-v6.png",
+      "foodMaster": "output/research/fibriki-unique-v4/food-study-v5.png",
+      "uniqueArtwork": "Standing chicken studies a Fibrik in a wooden spoon; asymmetric serving pair of one whole and one half.",
+      "colorEditSource": "assets/novelty-packaging/fibriki-pack-v9.webp",
+      "edgeEditSource": "assets/novelty-packaging/fibriki-pack-v8.webp",
+      "physicalEdgeReference": "assets/novelty-packaging/lulia-mini-pack-v3.webp",
+      "herbEditSource": "assets/novelty-packaging/fibriki-pack-v10.webp"
+    },
+    {
+      "slug": "lulia-mini",
+      "name": "Люля мини",
+      "file": "assets/novelty-packaging/lulia-mini-pack-v3.webp",
+      "version": 3,
+      "date": "2026-10-16",
+      "tool": "Built-in ImageGen",
+      "kind": "Color-matched front-packaging visual concept",
+      "native": "output/research/novelty-color-match/lulia-mini-pack-v3.png",
+      "prompt": "output/research/novelty-color-match/lulia-mini-pack-v3-prompt.txt",
+      "copy": [
+        "ЛЮЛЯ МИНИ",
+        "КУРИНЫЕ КОЛБАСКИ",
+        "С ЗЕЛЕНЬЮ И ОВОЩАМИ",
+        "МИНИ-ФОРМАТ"
+      ],
+      "canvas": [
+        800,
+        800
+      ],
+      "hasAlpha": true,
+      "sha256": "5406742c35631a8b6ac22e29baac8652b9ae4c9eb6fe39141938eab24bea784f",
+      "layoutAndPrintedMascotSource": "assets/catalogue-clean-v2/kotlety-po-domashnemu.webp",
+      "development": "Small paper-lightness correction of accepted Lulia v2, with logo, typography, character and food visually retained.",
+      "factsNotProvided": [
+        "net weight",
+        "full ingredients",
+        "nutrition",
+        "storage/preparation",
+        "production barcode"
+      ],
+      "promptSet": "output/research/novelty-color-match/prompts.json",
+      "colorEditSource": "assets/novelty-packaging/lulia-mini-pack-v2.webp"
+    },
+    {
+      "slug": "popsy",
+      "name": "Попсы",
+      "file": "assets/novelty-packaging/popsy-pack-v1.webp",
+      "version": 1,
+      "date": "2026-11-05",
+      "tool": "Built-in ImageGen",
+      "kind": "User-requested front-packaging visual concept in the existing Novoferma family",
+      "native": "output/pops-2026-11-05/assets/pops-packshot.png",
+      "prompt": "output/pops-2026-11-05/assets/pops-packshot-prompt.txt",
+      "copy": [
+        "ПОПСЫ",
+        "МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ",
+        "В ХРУСТЯЩЕЙ ПАНИРОВКЕ"
+      ],
+      "canvas": [
+        1254,
+        1254
+      ],
+      "hasAlpha": true,
+      "sha256": "804e583776eedcba0e42f8d116d5df1d49b6489272d93ce91d32a89094ce96e0",
+      "factsNotProvided": [
+        "net weight",
+        "full ingredients",
+        "allergens",
+        "nutrition",
+        "storage/preparation",
+        "production barcode"
+      ],
+      "productBasis": "User brief: small irregular chicken mince nuggets, distinct from whole-piece chicken popcorn.",
+      "purpose": "Packaging and product artwork for the user-requested product introduction; not a production dieline."
+    }
+  ],
+  "history": {
+    "rejectedV1": [
+      {
+        "slug": "fibriki",
+        "name": "Фибрики",
+        "file": "assets/novelty-packaging/fibriki-pack-v1.webp",
+        "kind": "User-requested concept of front packaging",
+        "tool": "Built-in ImageGen",
+        "date": "2026-10-16",
+        "native": "output/research/novelty-packaging/fibriki-pack-v1.png",
+        "prompt": "output/research/novelty-packaging/fibriki-pack-v1-prompt.txt",
+        "copy": [
+          "ФИБРИКИ",
+          "ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ",
+          "С ПИЩЕВЫМИ ВОЛОКНАМИ",
+          "Белок + клетчатка"
+        ],
+        "canvas": [
+          800,
+          800
+        ],
+        "hasAlpha": true,
+        "sha256": "926b6958f7c2b2acba2a31fc51e34ea9e553acf06cb323edb0364e9734d1f829",
+        "factsNotProvided": [
+          "net weight",
+          "full ingredients",
+          "nutrition",
+          "storage/preparation",
+          "production barcode"
+        ],
+        "purpose": "Visual packaging concept in the existing Novoferma catalogue style; original references retained.",
+        "references": [
+          {
+            "path": "assets/catalogue-clean-v2/frikadelki-klassicheskie.webp",
+            "sha256": "e0ef4bbbecfe65061937b6646de46bdee91fdabcd6d254cc6a29f96dd0039f46"
+          },
+          {
+            "path": "assets/product-hero/fibriki-cut-v2.webp",
+            "sha256": "ade4cf507c70e76e347024e8efd776aaaa95dc36bd943b67f2c6238a16416ad0"
+          },
+          {
+            "path": "assets/product-hero/fibriki-piece-v2.webp",
+            "sha256": "32a468b9eda389393bd7a9afaeb6ad3fe9e441ab40fa14d884b84de99254edaf"
+          },
+          {
+            "path": "assets/product-hero/running-mascot-v2.webp",
+            "sha256": "f2dbaa26f8a6dff375cceb6d977e4ffb84990df76940b9c9de22eae2c6aeab47"
+          }
+        ]
+      },
+      {
+        "slug": "lulia-mini",
+        "name": "Люля мини",
+        "file": "assets/novelty-packaging/lulia-mini-pack-v1.webp",
+        "kind": "User-requested concept of front packaging",
+        "tool": "Built-in ImageGen",
+        "date": "2026-10-16",
+        "native": "output/research/novelty-packaging/lulia-mini-pack-v1.png",
+        "prompt": "output/research/novelty-packaging/lulia-mini-pack-v1-prompt.txt",
+        "copy": [
+          "ЛЮЛЯ МИНИ",
+          "КУРИНЫЕ КОЛБАСКИ",
+          "С ЗЕЛЕНЬЮ И ОВОЩАМИ"
+        ],
+        "canvas": [
+          800,
+          800
+        ],
+        "hasAlpha": true,
+        "sha256": "4d76fbb56acfd80ef5662aee0b276f68416dcb2ad1540c7db45b4158decad0e4",
+        "factsNotProvided": [
+          "net weight",
+          "full ingredients",
+          "nutrition",
+          "storage/preparation",
+          "production barcode"
+        ],
+        "purpose": "Visual packaging concept in the existing Novoferma catalogue style; original references retained.",
+        "references": [
+          {
+            "path": "assets/catalogue-clean-v2/bitochki-kurinye-s-ovoshchami.webp",
+            "sha256": "5db5969124c2791292c53d56c28a63bef38c27a20fdc14eb0919c887e1a12411"
+          },
+          {
+            "path": "assets/catalogue-clean-v2/frikadelki-klassicheskie.webp",
+            "sha256": "e0ef4bbbecfe65061937b6646de46bdee91fdabcd6d254cc6a29f96dd0039f46"
+          },
+          {
+            "path": "assets/product-hero/lulia-mini-piece-v2.webp",
+            "sha256": "a5bac432fead2ab82570932984dad29374a801a58b449640f34584e8c1e566c2"
+          },
+          {
+            "path": "assets/product-hero/running-mascot-v2.webp",
+            "sha256": "f2dbaa26f8a6dff375cceb6d977e4ffb84990df76940b9c9de22eae2c6aeab47"
+          }
+        ]
+      }
+    ],
+    "fibrikiV2Candidate": {
+      "file": "assets/novelty-packaging/fibriki-pack-v2.webp",
+      "native": "output/research/novelty-packaging-v2/fibriki-pack-v2.png",
+      "prompt": "output/research/novelty-packaging-v2/fibriki-pack-v2-prompt.txt"
+    },
+    "fibrikiV3FamilyAdaptation": {
+      "slug": "fibriki",
+      "name": "Фибрики",
+      "file": "assets/novelty-packaging/fibriki-pack-v3.webp",
+      "version": 3,
+      "date": "2026-10-16",
+      "tool": "Built-in ImageGen",
+      "kind": "Reference-faithful concept of front packaging",
+      "native": "output/research/novelty-packaging-v2/fibriki-pack-v3.png",
+      "prompt": "output/research/novelty-packaging-v2/fibriki-pack-v3-prompt.txt",
+      "copy": [
+        "ФИБРИКИ",
+        "ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ",
+        "С ПИЩЕВЫМИ ВОЛОКНАМИ",
+        "БЕЛОК + КЛЕТЧАТКА"
+      ],
+      "canvas": [
+        800,
+        800
+      ],
+      "hasAlpha": true,
+      "sha256": "1bb9798c32b13242fd621ecf463b2a3d8847dbc6e2a9831b6c6008ede1a2f00d",
+      "layoutAndPrintedMascotSource": "assets/catalogue-clean-v2/frikadelki-klassicheskie.webp",
+      "development": "First: strict adaptation of classic meatballs label; v2 candidate then texture-only v3.",
+      "factsNotProvided": [
+        "net weight",
+        "full ingredients",
+        "nutrition",
+        "storage/preparation",
+        "production barcode"
+      ]
+    },
+    "fibrikiV4Rejected": {
+      "native": "output/research/fibriki-unique-v4/fibriki-pack-v4.png",
+      "prompt": "output/research/fibriki-unique-v4/fibriki-pack-v4-prompt.txt",
+      "reason": "User rejected generic cartoon mascot and elongated rice-like food texture. Never used on the site."
+    },
+    "fibrikiV5AssemblyCandidate": {
+      "native": "output/research/fibriki-unique-v4/fibriki-pack-v5.png",
+      "prompt": "output/research/fibriki-unique-v4/fibriki-pack-v5-prompt.txt",
+      "reason": "Corrected in v6 to remove rice-like strokes from raw balls and the small spoon ball."
+    },
+    "fibrikiV6BeforeColorMatch": {
+      "slug": "fibriki",
+      "name": "Фибрики",
+      "file": "assets/novelty-packaging/fibriki-pack-v6.webp",
+      "version": 6,
+      "date": "2026-10-16",
+      "tool": "Built-in ImageGen",
+      "kind": "Unique front-packaging visual concept in the existing brand family",
+      "native": "output/research/fibriki-unique-v4/fibriki-pack-v6.png",
+      "prompt": "output/research/fibriki-unique-v4/fibriki-pack-v6-prompt.txt",
+      "copy": [
+        "ФИБРИКИ",
+        "ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ",
+        "С ПИЩЕВЫМИ ВОЛОКНАМИ",
+        "БЕЛОК + КЛЕТЧАТКА"
+      ],
+      "canvas": [
+        800,
+        800
+      ],
+      "hasAlpha": true,
+      "sha256": "2fdecf5cf86987f0471a22a2c39179da07db75d4238192da4574e527084e115d",
+      "development": "Separate food photography and a new standing chicken-with-spoon illustration; assembled in v5, then v6 corrects spoon ball and raw-ball textures. Upper label hierarchy retained.",
+      "factsNotProvided": [
+        "net weight",
+        "full ingredients",
+        "nutrition",
+        "storage/preparation",
+        "production barcode"
+      ],
+      "promptSet": "output/research/fibriki-unique-v4/prompts.json",
+      "layoutSource": "assets/novelty-packaging/fibriki-pack-v3.webp",
+      "printedMascotStyleSource": "assets/catalogue/stripsy.webp",
+      "mascotMaster": "output/research/fibriki-unique-v4/mascot-study-v6.png",
+      "foodMaster": "output/research/fibriki-unique-v4/food-study-v5.png",
+      "uniqueArtwork": "Standing chicken studies a Fibrik in a wooden spoon; asymmetric serving pair of one whole and one half."
+    },
+    "lulia-miniV2BeforeColorMatch": {
+      "slug": "lulia-mini",
+      "name": "Люля мини",
+      "file": "assets/novelty-packaging/lulia-mini-pack-v2.webp",
+      "version": 2,
+      "date": "2026-10-16",
+      "tool": "Built-in ImageGen",
+      "kind": "Reference-faithful concept of front packaging",
+      "native": "output/research/novelty-packaging-v2/lulia-mini-pack-v2.png",
+      "prompt": "output/research/novelty-packaging-v2/lulia-mini-pack-v2-prompt.txt",
+      "copy": [
+        "ЛЮЛЯ МИНИ",
+        "КУРИНЫЕ КОЛБАСКИ",
+        "С ЗЕЛЕНЬЮ И ОВОЩАМИ",
+        "МИНИ-ФОРМАТ"
+      ],
+      "canvas": [
+        800,
+        800
+      ],
+      "hasAlpha": true,
+      "sha256": "87f3ceba3f543895b6caea5b3178e1fd8fa183023955b032befab6111b11c011",
+      "layoutAndPrintedMascotSource": "assets/catalogue-clean-v2/kotlety-po-domashnemu.webp",
+      "development": "Second: adaptation of domestic cutlets label after Fibriki family comparison.",
+      "factsNotProvided": [
+        "net weight",
+        "full ingredients",
+        "nutrition",
+        "storage/preparation",
+        "production barcode"
+      ]
+    },
+    "fibrikiV7ColorCandidate": {
+      "native": "output/research/novelty-color-match/fibriki-pack-v7.png",
+      "prompt": "output/research/novelty-color-match/fibriki-pack-v7-prompt.txt",
+      "reason": "Color closer to family; final v8 reduces incidental elongated food grains."
+    },
+    "fibrikiV8BeforeNaturalEdge": {
+      "slug": "fibriki",
+      "name": "Фибрики",
+      "file": "assets/novelty-packaging/fibriki-pack-v8.webp",
+      "version": 8,
+      "date": "2026-10-16",
+      "tool": "Built-in ImageGen",
+      "kind": "Color-matched front-packaging visual concept",
+      "native": "output/research/novelty-color-match/fibriki-pack-v8.png",
+      "prompt": "output/research/novelty-color-match/fibriki-pack-v8-prompt.txt",
+      "copy": [
+        "ФИБРИКИ",
+        "ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ",
+        "С ПИЩЕВЫМИ ВОЛОКНАМИ",
+        "БЕЛОК + КЛЕТЧАТКА"
+      ],
+      "canvas": [
+        800,
+        800
+      ],
+      "hasAlpha": true,
+      "sha256": "8ee54e56ebfa0c586d4fa7576ec78df85c6effc15a678ec2814555df85b5c343",
+      "development": "Color grade of accepted F6: warmer brighter paper, orange logo and softer brown ink; v8 corrects food-texture drift from v7.",
+      "factsNotProvided": [
+        "net weight",
+        "full ingredients",
+        "nutrition",
+        "storage/preparation",
+        "production barcode"
+      ],
+      "promptSet": "output/research/novelty-color-match/prompts.json",
+      "layoutSource": "assets/novelty-packaging/fibriki-pack-v3.webp",
+      "printedMascotStyleSource": "assets/catalogue/stripsy.webp",
+      "mascotMaster": "output/research/fibriki-unique-v4/mascot-study-v6.png",
+      "foodMaster": "output/research/fibriki-unique-v4/food-study-v5.png",
+      "uniqueArtwork": "Standing chicken studies a Fibrik in a wooden spoon; asymmetric serving pair of one whole and one half.",
+      "colorEditSource": "assets/novelty-packaging/fibriki-pack-v6.webp"
+    },
+    "fibrikiV9ApprovedNaturalEdges": {
+      "slug": "fibriki",
+      "name": "Фибрики",
+      "file": "assets/novelty-packaging/fibriki-pack-v9.webp",
+      "version": 9,
+      "date": "2026-10-16",
+      "tool": "Built-in ImageGen",
+      "kind": "Family-matched front-packaging visual concept with natural paper edges",
+      "native": "output/research/catalogue-grid-16/fibriki-pack-v9.png",
+      "prompt": "output/research/catalogue-grid-16/fibriki-pack-v9-prompt.txt",
+      "copy": [
+        "ФИБРИКИ",
+        "ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ",
+        "С ПИЩЕВЫМИ ВОЛОКНАМИ",
+        "БЕЛОК + КЛЕТЧАТКА"
+      ],
+      "canvas": [
+        800,
+        800
+      ],
+      "hasAlpha": true,
+      "sha256": "ec0f05989f9a753c8e59336ce05976151324f91927a2ad11f30ff9f38d8bb901",
+      "development": "Targeted ImageGen retouch of F8: remove the continuous brown upper/side sleeve outline, retain pale natural paper edges and the lower structural cardboard. Accepted chicken-with-spoon, typography, food arrangement and family paper colors retained. All 16 catalogue previews now use the same card component.",
+      "factsNotProvided": [
+        "net weight",
+        "full ingredients",
+        "nutrition",
+        "storage/preparation",
+        "production barcode"
+      ],
+      "promptSet": "output/research/catalogue-grid-16/prompts.json",
+      "layoutSource": "assets/novelty-packaging/fibriki-pack-v3.webp",
+      "printedMascotStyleSource": "assets/catalogue/stripsy.webp",
+      "mascotMaster": "output/research/fibriki-unique-v4/mascot-study-v6.png",
+      "foodMaster": "output/research/fibriki-unique-v4/food-study-v5.png",
+      "uniqueArtwork": "Standing chicken studies a Fibrik in a wooden spoon; asymmetric serving pair of one whole and one half.",
+      "colorEditSource": "assets/novelty-packaging/fibriki-pack-v6.webp",
+      "edgeEditSource": "assets/novelty-packaging/fibriki-pack-v8.webp",
+      "physicalEdgeReference": "assets/novelty-packaging/lulia-mini-pack-v3.webp"
+    },
+    "fibrikiV10BeforeHerbDetails": {
+      "slug": "fibriki",
+      "name": "Фибрики",
+      "file": "assets/novelty-packaging/fibriki-pack-v10.webp",
+      "version": 10,
+      "date": "2026-10-24",
+      "tool": "Built-in ImageGen",
+      "kind": "Family-matched front-packaging concept with final print-ink adjustment",
+      "native": "output/research/fibriki-ink-match-v10/fibriki-pack-v10.png",
+      "prompt": "output/research/fibriki-ink-match-v10/fibriki-pack-v10-prompt.txt",
+      "copy": [
+        "ФИБРИКИ",
+        "ФРИКАДЕЛЬКИ ИЗ КУРИЦЫ",
+        "С ПИЩЕВЫМИ ВОЛОКНАМИ",
+        "БЕЛОК + КЛЕТЧАТКА"
+      ],
+      "canvas": [
+        800,
+        800
+      ],
+      "hasAlpha": true,
+      "sha256": "495de4333a37287ef1722fa3d50acbf8f68155c31c5d721e4355b4e9e6ff3009",
+      "development": "Selective ImageGen adjustment of approved F9: logo shifted toward orange, brown lettering softened toward the family ink tone. Composition, unique chicken, food arrangement and pale natural paper edges retained. Slight generated microtexture variation reviewed at full and catalogue scale.",
+      "factsNotProvided": [
+        "net weight",
+        "full ingredients",
+        "nutrition",
+        "storage/preparation",
+        "production barcode"
+      ],
+      "promptSet": "output/research/fibriki-ink-match-v10/prompts.json",
+      "layoutSource": "assets/novelty-packaging/fibriki-pack-v3.webp",
+      "printedMascotStyleSource": "assets/catalogue/stripsy.webp",
+      "mascotMaster": "output/research/fibriki-unique-v4/mascot-study-v6.png",
+      "foodMaster": "output/research/fibriki-unique-v4/food-study-v5.png",
+      "uniqueArtwork": "Standing chicken studies a Fibrik in a wooden spoon; asymmetric serving pair of one whole and one half.",
+      "colorEditSource": "assets/novelty-packaging/fibriki-pack-v9.webp",
+      "edgeEditSource": "assets/novelty-packaging/fibriki-pack-v8.webp",
+      "physicalEdgeReference": "assets/novelty-packaging/lulia-mini-pack-v3.webp"
+    }
+  },
+  "analysis": "output/research/novelty-color-match/color-match-report.json",
+  "familyComparison": "output/research/fibriki-herbs-v11/family-lineup-v11.png",
+  "catalogueIntegration": {
+    "items": 17,
+    "confirmedSkuRecords": 14,
+    "component": "card()/packshot-preview",
+    "checks": "output/pops-2026-11-05/site-qa/browser-checks.json",
+    "noveltyRecords": 3,
+    "previousChecks": "output/research/catalogue-grid-16/checks.json"
+  },
+  "latestColorAnalysis": "output/research/fibriki-ink-match-v10/color-comparison.json"
+}

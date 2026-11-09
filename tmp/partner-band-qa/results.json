@@ -1,0 +1,110 @@
+{
+  "results": [
+    {
+      "name": "index",
+      "width": 320,
+      "fullWidth": true,
+      "aligned": true,
+      "noOverflow": true
+    },
+    {
+      "name": "catalogue",
+      "width": 320,
+      "fullWidth": true,
+      "aligned": true,
+      "noOverflow": true
+    },
+    {
+      "name": "about",
+      "width": 320,
+      "fullWidth": true,
+      "aligned": true,
+      "noOverflow": true
+    },
+    {
+      "name": "index",
+      "width": 375,
+      "fullWidth": true,
+      "aligned": true,
+      "noOverflow": true
+    },
+    {
+      "name": "catalogue",
+      "width": 375,
+      "fullWidth": true,
+      "aligned": true,
+      "noOverflow": true
+    },
+    {
+      "name": "about",
+      "width": 375,
+      "fullWidth": true,
+      "aligned": true,
+      "noOverflow": true
+    },
+    {
+      "name": "index",
+      "width": 768,
+      "fullWidth": true,
+      "aligned": true,
+      "noOverflow": true
+    },
+    {
+      "name": "catalogue",
+      "width": 768,
+      "fullWidth": true,
+      "aligned": true,
+      "noOverflow": true
+    },
+    {
+      "name": "about",
+      "width": 768,
+      "fullWidth": true,
+      "aligned": true,
+      "noOverflow": true
+    },
+    {
+      "name": "index",
+      "width": 1440,
+      "fullWidth": true,
+      "aligned": true,
+      "noOverflow": true
+    },
+    {
+      "name": "catalogue",
+      "width": 1440,
+      "fullWidth": true,
+      "aligned": true,
+      "noOverflow": true
+    },
+    {
+      "name": "about",
+      "width": 1440,
+      "fullWidth": true,
+      "aligned": true,
+      "noOverflow": true
+    },
+    {
+      "name": "index",
+      "width": 1920,
+      "fullWidth": true,
+      "aligned": true,
+      "noOverflow": true
+    },
+    {
+      "name": "catalogue",
+      "width": 1920,
+      "fullWidth": true,
+      "aligned": true,
+      "noOverflow": true
+    },
+    {
+      "name": "about",
+      "width": 1920,
+      "fullWidth": true,
+      "aligned": true,
+      "noOverflow": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,18 @@
+{
+  "family": "Dela Gothic One",
+  "style": "Regular",
+  "postScriptName": "DelaGothicOne-Regular",
+  "weightClass": 400,
+  "unitsPerEm": 1000,
+  "sourceGlyphs": 9030,
+  "subsetGlyphs": 631,
+  "bytes": 27756,
+  "russianMissing": [],
+  "latinMissing": [],
+  "punctuationMissing": [
+    "₽"
+  ],
+  "allSourceCyrillicRetained": true,
+  "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/delagothicone/DelaGothicOne-Regular.ttf",
+  "licenseUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/delagothicone/OFL.txt"
+}

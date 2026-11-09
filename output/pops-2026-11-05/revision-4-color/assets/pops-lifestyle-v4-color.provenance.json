@@ -1,0 +1,28 @@
+{
+  "asset": "pops-lifestyle-v4-color.png",
+  "tool": "built-in image_gen.imagegen",
+  "kind": "Localized packaging color-family correction within existing lifestyle scene",
+  "native_dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGB",
+  "bytes": 2082218,
+  "sha256": "bc6b7ec332d5705d21319afba09b030e9f91b004a0dc88a3fdfebeca47dbee61",
+  "edit_target": "output/pops-2026-11-05/revision-3/assets/pops-v3-lifestyle.png",
+  "color_authority_references": [
+    "output/concept/assets/catalogue-clean-v2/kurinyj-popkorn.webp",
+    "output/concept/assets/catalogue-clean-v2/naggetsy-kurinye.webp"
+  ],
+  "prompt": "pops-lifestyle-v4-color.prompt.txt",
+  "native_generated_output": "/Users/andrey/.codex/generated_images/01a1ac4b-7f62-7b00-abaa-dbd5bd833d6c/exec-193af489-2484-4cf4-9e9b-3db41c6efa76.png",
+  "corrections": 0,
+  "qa": {
+    "paper": "Warmer lighter vanilla-yellow cream, pink-grey cast reduced.",
+    "ink": "ПОПСЫ title and descriptors now deeper dark warm brown; orange logo slightly richer.",
+    "trayContents": "Moderately richer pale golden-beige crumb contrast; remains paler and matte compared with cooked food outside.",
+    "design": "Drummer hen, sticks, black vest, bucket, label layout, exact four text lines and physical package proportions/placement retained visually.",
+    "scene": "Same composition and objects, no global yellow wash, same daylight. Generative edit preserves appearance and geometry, not a verified pixel-identical outside region; fine local textures can differ.",
+    "scope": "No code image retouch, no website or presentation modifications."
+  }
+}

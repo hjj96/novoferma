@@ -1,0 +1,18 @@
+Use case: precise-object-edit / colour correction only.
+IMAGE 1 is the APPROVED POPS drummer packaging image and the ONLY EDIT TARGET. IMAGE 2 is the actual NOVOferma chicken-popcorn pack shown beside it on the website: PRIMARY COLOUR AUTHORITY. IMAGE 3 is the actual chicken-nugget pack shown on that same website: SECONDARY COLOUR AUTHORITY. Use references 2 and 3 for colour ONLY. Do not borrow their products, artwork, labels or geometry. Ignore stray pixels outside the physical package in any reference.
+
+This is a restrained targeted colour-rendering correction of image 1, NOT a new concept, NOT a redesign and NOT a re-creation. Keep image 1's EXACT canvas, object scale, outline, camera angle, wrapper silhouette and folds, physical tray, paper texture, natural shadows, font letter shapes and positions, spacing, printed art, drummer hen pose, two wings, two wooden sticks, black vest, bucket, individual food pieces and all jumping pops visually identical at the same coordinates.
+
+Correct ONLY these colour mismatches:
+1. Cream sleeve PAPER: change its slightly dull pinkish-grey/beige cast to the SAME light warm vanilla yellow-cream paper as image 2, with image 3 as a check. It should be a little lighter and more yellow and less pink/grey, never white, peach, rose, dark tan or mustard. Preserve all existing texture and shading, do not flatten the paper to a uniform fill. Representative quiet paper colour should be close to warm RGB 246,231,204, like the website neighbours; target a gentle warm cream matching image 2 rather than a global yellow filter.
+2. Printed TITLE AND TWO DESCRIPTORS: deepen their current light mustard/olive ink into the same rich dark warm brown/olive ink as image 2. Improve contrast through darkening the existing ink only. Do not thicken strokes, change typeface, alter letter contours, or shift the baseline.
+3. LOGO: match the vivid saturated brand orange in image 2, retaining exactly the existing logo shape.
+4. Food visible INSIDE THE CLEAR TRAY: adjust its pallid grey cast to the modest warmer pale golden breaded colour and gentle contrast of the actual website family. Keep it MATTE FROZEN BREADED semi-finished food, with pale light breading and real texture. Do not turn tray contents deep-fried, orange, oily, glossy or fully cooked.
+
+Do not apply a global colour filter to the whole picture. The illustrated hen, red comb, feather fills, black vest, sticks and terracotta bucket retain their approved identity, detail, palette and exact shapes. The prepared printed serving food remains the same. No new brushwork, objects or effects.
+Every word must stay exactly:
+"NOVOferma"
+"ПОПСЫ"
+"МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ"
+"В ХРУСТЯЩЕЙ ПАНИРОВКЕ"
+No added wording or claims. Keep transparent background and exact object framing from image 1; no added white/coloured islands, exterior halos, checkerboard, backdrop or shadow plane. Clean true transparent alpha. Output a single colour-corrected approved image at the same resolution and framing as image 1.

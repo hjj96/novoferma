@@ -1,0 +1,28 @@
+{
+  "pages": 8,
+  "format": "16:9, 960×540 pt",
+  "changed_pages": [
+    2,
+    3
+  ],
+  "unchanged_pages_pixel_identical": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "native_right_product_panel_pixel_identical": [
+    2,
+    3
+  ],
+  "exact_catalogue_image_placements_preserved": 15,
+  "new_master": "Cream reading field470pt + native image onright; one2line heading and one paragraph perpage",
+  "typography": "Brand Poster44/54 with0.35pt tracking; Onest20/28; no Rubik/handlettering onpages2–3",
+  "source_claims": "52g perClassicpack;73percent Russia survey desire for fibre, not measured shortfall",
+  "contact_links": 3,
+  "text_bounds": "passed",
+  "new_image_generation": false,
+  "bytes": 14440078
+}

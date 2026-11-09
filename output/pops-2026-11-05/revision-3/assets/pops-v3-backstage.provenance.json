@@ -1,0 +1,34 @@
+{
+  "asset": "pops-v3-backstage.png",
+  "tool": "built-in image_gen.imagegen",
+  "native_dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "bytes": 1593327,
+  "sha256": "2cc041b521f9318b10f2d9481b49a75d3cd891722fcdf1f99fb795abdb2eb66b",
+  "primary_edit_target": "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue/kurinyj-popkorn.webp",
+  "style_references": [
+    "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue/stripsy.webp",
+    "/Users/andrey/Desktop/сайт нф/output/concept/assets/catalogue/naggetsy-kurinye-s-syrom.webp"
+  ],
+  "prior_generated_versions_used_as_style_references": false,
+  "initial_native_output": "/Users/andrey/.codex/generated_images/01a1ac4b-7f62-7b00-abaa-dbd5bd833d6c/exec-c22c3e0a-277e-44d7-a38c-4e5462c70eb3.png",
+  "cleanup_native_output": "/Users/andrey/.codex/generated_images/01a1ac4b-7f62-7b00-abaa-dbd5bd833d6c/exec-5d917c76-c82c-466c-a07b-fb6c069c3885.png",
+  "prompts": [
+    "pops-v3-backstage.prompt.txt",
+    "pops-v3-backstage-cleanup.prompt.txt"
+  ],
+  "corrections": 1,
+  "qa": {
+    "text": "Exact four requested lines, no claims added.",
+    "style": "Flat warm ink-drawn hen with forehead sunglasses, black vest, thin dark claws, walking pose; wide thin high-contrast serif heading and smaller logo much closer to original physical product photographs.",
+    "package": "Original shallow clear PET tray plus cream folded paper sleeve. Bucket is a printed serving scene only. Contents paler and matte.",
+    "limitations": "Native output is 1254x1254 despite requesting 2048+. One alpha cleanup reduced large top artifacts but white/red/yellow stray edge speckles remain in transparent margins. No code-based image retouch performed."
+  }
+}

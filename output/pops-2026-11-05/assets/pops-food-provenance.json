@@ -1,0 +1,46 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "files": [
+    {
+      "file": "pops-food-cutout.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1910522,
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "pops-food-cutout-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 2034377,
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "pops-serving-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 2429942,
+      "alpha_extrema": null
+    }
+  ],
+  "generated_sources": {
+    "pops-food-cutout-v1.png": "/Users/andrey/.codex/generated_images/01a1ac4b-7f62-7b00-abaa-dbd5bd833d6c/exec-5ff08226-dfca-430b-b02d-aa4b63510a5d.png",
+    "pops-serving-scene.png": "/Users/andrey/.codex/generated_images/01a1ac4b-7f62-7b00-abaa-dbd5bd833d6c/exec-02b0fd29-e935-455c-9601-eac9fba3bed5.png",
+    "pops-food-cutout.png": "/Users/andrey/.codex/generated_images/01a1ac4b-7f62-7b00-abaa-dbd5bd833d6c/exec-ee4f509d-095b-4c86-aa27-96c6b71c0e22.png"
+  },
+  "prompts": [
+    "pops-food-cutout.prompt.txt",
+    "pops-food-cutout-cleanup.prompt.txt",
+    "pops-serving-scene.prompt.txt"
+  ],
+  "qa": "Generated food concept imagery; all pieces have small irregular rounded shapes and fine golden coating. Cutaway shows pale homogeneous minced chicken. Scene has blank cream space on left. Cutout cleanup removes distant isolated color speckles; a very thin saturated fringe is still visible on black preview at some edges. Alpha transparency is genuine."
+}

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Package only the reviewed static site, its linked assets, and font licenses.
 
 Re-run after site edits: python3 scripts/package_site.py
@@ -18,7 +19,7 @@ TARGET = ROOT / 'output/novoferma-site.zip'
 REPORT = ROOT / 'output/research/site-package-validation.json'
 PREFIX = 'novoferma-site/'
 manifest = json.loads((SITE / 'site-manifest.json').read_text())
-expected_pages = {'index.html', 'catalogue.html', 'about.html', 'where-to-buy.html', 'partners.html', 'private-label.html', 'contacts.html'}
+expected_pages = {'index.html', 'catalogue.html', 'about.html', 'where-to-buy.html', 'partners.html', 'contacts.html'}
 expected_pages.update(p['url'] for p in manifest['products'])
 expected_pages.update(p['url'] for p in manifest.get('novelties', []) if p['url'].endswith('.html'))
 assert set(manifest['pages']) == expected_pages
@@ -102,35 +103,11 @@ while pending:
         links.append((name, ref, target, fragment))
         if target not in files: pending.append(target)
 
-zip_readme = """# Новоферма — статическая копия сайта
-
-23 страницы: семь основных, 14 продуктов и два явно обозначенных концепта.
-Дополнительно — самостоятельный печатный HTML-каталог закупщика в downloads/.
-Ресурсы и шрифты локальные. Для HTTP-предпросмотра в папке сайта:
-python3 -m http.server 8765 --bind 127.0.0.1
-
-Этот ZIP не содержит сервер приёма заявок. B2B-форма обращается к
-/api/partner-requests и подтверждает получение только по ответу сервера.
-На обычном статическом хостинге она честно сообщает об отсутствии подтверждения
-и оставляет почту/копирование как явный запасной способ. Рабочий сервер,
-проверки, команды оператора и инструкции Beget/Amvera находятся в полном
-репозитории GitHub. Данные заявок в архив не включаются.
-
-Магазин определяет наличие по адресу покупателя. Ссылки проверены 24.10.2026.
-Составы, аллергены, БЖУ и инструкции не заполнены догадками. Изображения
-упаковок не заменяют этикетку. Фибрики v11 и Люля мини v3 остаются концептами.
-
-Включены только используемые ресурсы. Исследования, PNG-мастера, ключи,
-базы заявок и серверные файлы не включены. Пути исходников в README.md и
-sourceSnapshot относятся к полному репозиторию и не являются ссылками сайта.
-
-Canonical, sitemap и robots создаются только при передаче реального HTTPS
-адреса в scripts/build_site.py --site-url. Сама сборка не публикует сайт.
-"""
+zip_readme = f'# Новоферма — готовый статический сайт\n\nРаспакуйте архив и откройте novoferma-site/index.html. Для HTTP-предпросмотра\nв папке сайта выполните: python3 -m http.server 8765 --bind 127.0.0.1\n\nСостав: {len(manifest["pages"])} страницы — шесть основных и {len(manifest["products"])+len(manifest.get("novelties", []))} продуктов, включая новинки\nФибрики, Люля мини, Попсы и Ленивчики. Все ресурсы и шрифты локальные.\nКаталог показывает весь ассортимент. На главной пять ручных слайдов;\nпервыми открываются Фибрики с крупным названием и «Белок + клетчатка».\nУ каждого продукта своя сценка; единый кремовый фон и тёплая палитра. Внешние тени убраны.\nВ сцене Фибриков все шарики целые, без среза. Автопрокрутки нет.\nДля вертикального телефона подготовлены пять отдельных иллюстраций v6;\nгоризонтальная версия использует две колонки.\n\nРаздел покупки содержит пять проверенных карточек магазинов. Наличие\nопределяется магазином по адресу пользователя; ссылки проверены 24.10.2026.\nПисьма сайт не отправляет. Формы составляют черновик в почтовом приложении\nили дают скопировать текст. Серверного приёма заявок и аналитики нет.\n\nФибрики, Люля мини и Попсы представлены как существующие продукты. Неподтверждённые\nмасса, рецептуры, аллергены, БЖУ и инструкции не заполняются по догадке.\nОбработанные изображения упаковок не заменяют актуальную этикетку.\nТекущие изображения упаковок — Фибрики v11, Люля мини v3 и Попсы v4 (цвет упаковки согласован с линейкой). В упаковку Фибриков\n4 ноября 2026 года добавлены редкие мелкие зелёные вкрапления; цвет печати,\nкомпозиция и надписи сохранены. PNG, промпт и история — в\noutput/research/fibriki-herbs-v11/ полного рабочего проекта.\nГрафика первого экрана — слои desktop-v8 и отдельные мобильные сцены mobile-v6; мастера, промпты\nвстроенного ImageGen и параметры размещения сохранены в полном проекте\nв output/concept/assets/product-hero/.\n\nИсходные JSON включены для происхождения данных; sourceSnapshot указывает\nна исследование рабочего проекта и не является ссылкой сайта. Архив содержит\nтолько сайт и используемые ресурсы, без исследовательских скриншотов и PNG-мастеров.\nДля регенерации нужны scripts и полный рабочий проект, в архив они не входят.\n\nCanonical, sitemap и robots генерируются только при явном указании реального\nHTTPS-адреса через scripts/build_site.py --site-url. Адрес указан в site-manifest.json;\nсама сборка не выполняет публикацию.\n'
 files['ZIP-README.md'] = zip_readme.encode('utf-8')
 
 # Assert exactly the agreed pages, font families, and no scratch or secret files.
-assert set(x for x in files if x.endswith('.html')) == set(manifest['pages']) | {'downloads/novoferma-supplier-catalogue.html'}
+assert set(x for x in files if x.endswith('.html')) == set(manifest['pages'])
 assert set(x for x in files if x.endswith('.woff2')) == {
     'assets/fonts/Onest-wght.woff2', 'assets/fonts/Caveat-wght.woff2',
     'assets/fonts/Rubik-wght.woff2', 'assets/fonts/RobotoFlex-Protein.woff2'}
@@ -176,7 +153,6 @@ report = {
     'megabytes': round(TARGET.stat().st_size / 1000000, 3),
     'fileCount': len(files),
     'pageCount': len(manifest['pages']),
-    'downloadableDocuments': ['downloads/novoferma-supplier-catalogue.html'],
     'localReferencesChecked': len(links),
     'extensions': dict(Counter(PurePosixPath(n).suffix for n in files)),
     'sha256': hashlib.sha256(TARGET.read_bytes()).hexdigest(),

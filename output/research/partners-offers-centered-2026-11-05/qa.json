@@ -1,0 +1,669 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "articles": [
+        {
+          "box": {
+            "bottom": -259.65625,
+            "height": 310,
+            "right": 304,
+            "width": 288,
+            "x": 16,
+            "y": -569.65625
+          },
+          "button": {
+            "bottom": -291.65625,
+            "height": 50,
+            "right": 266.734375,
+            "width": 213.46875,
+            "x": 53.265625,
+            "y": -341.65625
+          },
+          "centerOffsets": [
+            -0.00390625,
+            -0.00390625,
+            0,
+            0
+          ],
+          "heading": {
+            "bottom": -427.25,
+            "height": 79.90625,
+            "right": 258.875,
+            "width": 197.7578125,
+            "x": 61.1171875,
+            "y": -507.15625
+          },
+          "headingLineHeight": "39.96px",
+          "headingLines": 1.9996559059059058
+        },
+        {
+          "box": {
+            "bottom": 51.34375,
+            "height": 311,
+            "right": 304,
+            "width": 288,
+            "x": 16,
+            "y": -259.65625
+          },
+          "button": {
+            "bottom": 19.34375,
+            "height": 50,
+            "right": 255.609375,
+            "width": 191.21875,
+            "x": 64.390625,
+            "y": -30.65625
+          },
+          "centerOffsets": [
+            -0.00390625,
+            -0.00390625,
+            0,
+            0
+          ],
+          "heading": {
+            "bottom": -116.25,
+            "height": 79.90625,
+            "right": 283.7578125,
+            "width": 247.5234375,
+            "x": 36.234375,
+            "y": -196.15625
+          },
+          "headingLineHeight": "39.96px",
+          "headingLines": 1.9996559059059058
+        }
+      ],
+      "divider": {
+        "left": "0px",
+        "top": "1px"
+      },
+      "documentWidth": 320,
+      "removedSpecs": true,
+      "section": {
+        "height": 629,
+        "y": 474
+      },
+      "width": 320
+    },
+    {
+      "articles": [
+        {
+          "box": {
+            "bottom": -224.5,
+            "height": 321.0625,
+            "right": 370,
+            "width": 350,
+            "x": 20,
+            "y": -545.5625
+          },
+          "button": {
+            "bottom": -256.5,
+            "height": 50,
+            "right": 301.734375,
+            "width": 213.46875,
+            "x": 88.265625,
+            "y": -306.5
+          },
+          "centerOffsets": [
+            -0.00390625,
+            0,
+            -0.00390625,
+            0
+          ],
+          "heading": {
+            "bottom": -392.09375,
+            "height": 90.96875,
+            "right": 307.5625,
+            "width": 225.125,
+            "x": 82.4375,
+            "y": -483.0625
+          },
+          "headingLineHeight": "45.4896px",
+          "headingLines": 1.9997702771622523
+        },
+        {
+          "box": {
+            "bottom": 97.5625,
+            "height": 322.0625,
+            "right": 370,
+            "width": 350,
+            "x": 20,
+            "y": -224.5
+          },
+          "button": {
+            "bottom": 65.5625,
+            "height": 50,
+            "right": 290.609375,
+            "width": 191.21875,
+            "x": 99.390625,
+            "y": 15.5625
+          },
+          "centerOffsets": [
+            -0.00390625,
+            -0.00390625,
+            -0.00390625,
+            0
+          ],
+          "heading": {
+            "bottom": -70.03125,
+            "height": 90.96875,
+            "right": 335.8828125,
+            "width": 281.7734375,
+            "x": 54.109375,
+            "y": -161
+          },
+          "headingLineHeight": "45.4896px",
+          "headingLines": 1.9997702771622523
+        }
+      ],
+      "divider": {
+        "left": "0px",
+        "top": "1px"
+      },
+      "documentWidth": 390,
+      "removedSpecs": true,
+      "section": {
+        "height": 651,
+        "y": 498
+      },
+      "width": 390
+    },
+    {
+      "articles": [
+        {
+          "box": {
+            "bottom": -145.4375,
+            "height": 355.359375,
+            "right": 580,
+            "width": 560,
+            "x": 20,
+            "y": -500.796875
+          },
+          "button": {
+            "bottom": -177.4375,
+            "height": 50,
+            "right": 406.734375,
+            "width": 213.46875,
+            "x": 193.265625,
+            "y": -227.4375
+          },
+          "centerOffsets": [
+            -0.00390625,
+            0,
+            -0.00390625,
+            0
+          ],
+          "heading": {
+            "bottom": -313.03125,
+            "height": 125.265625,
+            "right": 455,
+            "width": 310,
+            "x": 145,
+            "y": -438.296875
+          },
+          "headingLineHeight": "62.64px",
+          "headingLines": 1.9997705140485313
+        },
+        {
+          "box": {
+            "bottom": 210.921875,
+            "height": 356.359375,
+            "right": 580,
+            "width": 560,
+            "x": 20,
+            "y": -145.4375
+          },
+          "button": {
+            "bottom": 178.921875,
+            "height": 50,
+            "right": 395.609375,
+            "width": 191.21875,
+            "x": 204.390625,
+            "y": 128.921875
+          },
+          "centerOffsets": [
+            -0.00390625,
+            0,
+            -0.00390625,
+            0
+          ],
+          "heading": {
+            "bottom": 43.328125,
+            "height": 125.265625,
+            "right": 494,
+            "width": 388,
+            "x": 106,
+            "y": -81.9375
+          },
+          "headingLineHeight": "62.64px",
+          "headingLines": 1.9997705140485313
+        }
+      ],
+      "divider": {
+        "left": "0px",
+        "top": "1px"
+      },
+      "documentWidth": 600,
+      "removedSpecs": true,
+      "section": {
+        "height": 720,
+        "y": 587
+      },
+      "width": 600
+    },
+    {
+      "articles": [
+        {
+          "box": {
+            "bottom": -145.609375,
+            "height": 355.359375,
+            "right": 679,
+            "width": 659,
+            "x": 20,
+            "y": -500.96875
+          },
+          "button": {
+            "bottom": -177.609375,
+            "height": 50,
+            "right": 456.234375,
+            "width": 213.46875,
+            "x": 242.765625,
+            "y": -227.609375
+          },
+          "centerOffsets": [
+            -0.00390625,
+            0,
+            -0.00390625,
+            0
+          ],
+          "heading": {
+            "bottom": -313.203125,
+            "height": 125.265625,
+            "right": 504.5,
+            "width": 310,
+            "x": 194.5,
+            "y": -438.46875
+          },
+          "headingLineHeight": "62.64px",
+          "headingLines": 1.9997705140485313
+        },
+        {
+          "box": {
+            "bottom": 210.75,
+            "height": 356.359375,
+            "right": 679,
+            "width": 659,
+            "x": 20,
+            "y": -145.609375
+          },
+          "button": {
+            "bottom": 178.75,
+            "height": 50,
+            "right": 445.109375,
+            "width": 191.21875,
+            "x": 253.890625,
+            "y": 128.75
+          },
+          "centerOffsets": [
+            -0.00390625,
+            0,
+            -0.00390625,
+            0
+          ],
+          "heading": {
+            "bottom": 43.15625,
+            "height": 125.265625,
+            "right": 543.5,
+            "width": 388,
+            "x": 155.5,
+            "y": -82.109375
+          },
+          "headingLineHeight": "62.64px",
+          "headingLines": 1.9997705140485313
+        }
+      ],
+      "divider": {
+        "left": "0px",
+        "top": "1px"
+      },
+      "documentWidth": 699,
+      "removedSpecs": true,
+      "section": {
+        "height": 720,
+        "y": 598
+      },
+      "width": 699
+    },
+    {
+      "articles": [
+        {
+          "box": {
+            "bottom": -173.765625,
+            "height": 263.734375,
+            "right": 350,
+            "width": 318,
+            "x": 32,
+            "y": -437.5
+          },
+          "button": {
+            "bottom": -173.765625,
+            "height": 52,
+            "right": 298.734375,
+            "width": 215.46875,
+            "x": 83.265625,
+            "y": -225.765625
+          },
+          "centerOffsets": [
+            -0.00390625,
+            -0.00390625,
+            0,
+            0
+          ],
+          "heading": {
+            "bottom": -322.453125,
+            "height": 80.546875,
+            "right": 292.546875,
+            "width": 203.1015625,
+            "x": 89.4453125,
+            "y": -403
+          },
+          "headingLineHeight": "40.28px",
+          "headingLines": 1.9996741559086395
+        },
+        {
+          "box": {
+            "bottom": -173.765625,
+            "height": 263.734375,
+            "right": 668,
+            "width": 318,
+            "x": 350,
+            "y": -437.5
+          },
+          "button": {
+            "bottom": -173.765625,
+            "height": 52,
+            "right": 606.109375,
+            "width": 193.21875,
+            "x": 412.890625,
+            "y": -225.765625
+          },
+          "centerOffsets": [
+            0.49609375,
+            0.49609375,
+            0.5,
+            0.5
+          ],
+          "heading": {
+            "bottom": -322.453125,
+            "height": 80.546875,
+            "right": 636.6015625,
+            "width": 254.2109375,
+            "x": 382.390625,
+            "y": -403
+          },
+          "headingLineHeight": "40.28px",
+          "headingLines": 1.9996741559086395
+        }
+      ],
+      "divider": {
+        "left": "1px",
+        "top": "0px"
+      },
+      "documentWidth": 700,
+      "removedSpecs": true,
+      "section": {
+        "height": 348,
+        "y": 616
+      },
+      "width": 700
+    },
+    {
+      "articles": [
+        {
+          "box": {
+            "bottom": -173.765625,
+            "height": 263.734375,
+            "right": 384,
+            "width": 352,
+            "x": 32,
+            "y": -437.5
+          },
+          "button": {
+            "bottom": -173.765625,
+            "height": 52,
+            "right": 315.734375,
+            "width": 215.46875,
+            "x": 100.265625,
+            "y": -225.765625
+          },
+          "centerOffsets": [
+            -0.00390625,
+            -0.00390625,
+            0,
+            0
+          ],
+          "heading": {
+            "bottom": -322.453125,
+            "height": 80.546875,
+            "right": 309.546875,
+            "width": 203.1015625,
+            "x": 106.4453125,
+            "y": -403
+          },
+          "headingLineHeight": "40.28px",
+          "headingLines": 1.9996741559086395
+        },
+        {
+          "box": {
+            "bottom": -173.765625,
+            "height": 263.734375,
+            "right": 736,
+            "width": 352,
+            "x": 384,
+            "y": -437.5
+          },
+          "button": {
+            "bottom": -173.765625,
+            "height": 52,
+            "right": 657.109375,
+            "width": 193.21875,
+            "x": 463.890625,
+            "y": -225.765625
+          },
+          "centerOffsets": [
+            0.49609375,
+            0.49609375,
+            0.5,
+            0.5
+          ],
+          "heading": {
+            "bottom": -322.453125,
+            "height": 80.546875,
+            "right": 687.6015625,
+            "width": 254.2109375,
+            "x": 433.390625,
+            "y": -403
+          },
+          "headingLineHeight": "40.28px",
+          "headingLines": 1.9996741559086395
+        }
+      ],
+      "divider": {
+        "left": "1px",
+        "top": "0px"
+      },
+      "documentWidth": 768,
+      "removedSpecs": true,
+      "section": {
+        "height": 348,
+        "y": 616
+      },
+      "width": 768
+    },
+    {
+      "articles": [
+        {
+          "box": {
+            "bottom": 8.78125,
+            "height": 283.03125,
+            "right": 512,
+            "width": 480,
+            "x": 32,
+            "y": -274.25
+          },
+          "button": {
+            "bottom": 8.78125,
+            "height": 52,
+            "right": 379.734375,
+            "width": 215.46875,
+            "x": 164.265625,
+            "y": -43.21875
+          },
+          "centerOffsets": [
+            -0.00390625,
+            -0.00390625,
+            0,
+            0
+          ],
+          "heading": {
+            "bottom": -139.90625,
+            "height": 99.84375,
+            "right": 397.8671875,
+            "width": 251.7421875,
+            "x": 146.125,
+            "y": -239.75
+          },
+          "headingLineHeight": "49.9302px",
+          "headingLines": 1.9996665344821372
+        },
+        {
+          "box": {
+            "bottom": 8.78125,
+            "height": 283.03125,
+            "right": 992,
+            "width": 480,
+            "x": 512,
+            "y": -274.25
+          },
+          "button": {
+            "bottom": 8.78125,
+            "height": 52,
+            "right": 849.109375,
+            "width": 193.21875,
+            "x": 655.890625,
+            "y": -43.21875
+          },
+          "centerOffsets": [
+            0.49609375,
+            0.49609375,
+            0.5,
+            0.5
+          ],
+          "heading": {
+            "bottom": -139.90625,
+            "height": 99.84375,
+            "right": 910.0390625,
+            "width": 315.0859375,
+            "x": 594.953125,
+            "y": -239.75
+          },
+          "headingLineHeight": "49.9302px",
+          "headingLines": 1.9996665344821372
+        }
+      ],
+      "divider": {
+        "left": "1px",
+        "top": "0px"
+      },
+      "documentWidth": 1024,
+      "removedSpecs": true,
+      "section": {
+        "height": 367,
+        "y": 619
+      },
+      "width": 1024
+    },
+    {
+      "articles": [
+        {
+          "box": {
+            "bottom": 26.765625,
+            "height": 308.265625,
+            "right": 720,
+            "width": 648,
+            "x": 72,
+            "y": -281.5
+          },
+          "button": {
+            "bottom": 26.765625,
+            "height": 52,
+            "right": 503.734375,
+            "width": 215.46875,
+            "x": 288.265625,
+            "y": -25.234375
+          },
+          "centerOffsets": [
+            -0.00390625,
+            0,
+            0,
+            0
+          ],
+          "heading": {
+            "bottom": -121.921875,
+            "height": 125.078125,
+            "right": 553.671875,
+            "width": 315.34375,
+            "x": 238.328125,
+            "y": -247
+          },
+          "headingLineHeight": "62.54px",
+          "headingLines": 1.9999700191877199
+        },
+        {
+          "box": {
+            "bottom": 26.765625,
+            "height": 308.265625,
+            "right": 1368,
+            "width": 648,
+            "x": 720,
+            "y": -281.5
+          },
+          "button": {
+            "bottom": 26.765625,
+            "height": 52,
+            "right": 1141.109375,
+            "width": 193.21875,
+            "x": 947.890625,
+            "y": -25.234375
+          },
+          "centerOffsets": [
+            0.49609375,
+            0.49609375,
+            0.5,
+            0.5
+          ],
+          "heading": {
+            "bottom": -121.921875,
+            "height": 125.078125,
+            "right": 1241.84375,
+            "width": 394.6953125,
+            "x": 847.1484375,
+            "y": -247
+          },
+          "headingLineHeight": "62.54px",
+          "headingLines": 1.9999700191877199
+        }
+      ],
+      "divider": {
+        "left": "1px",
+        "top": "0px"
+      },
+      "documentWidth": 1440,
+      "removedSpecs": true,
+      "section": {
+        "height": 404,
+        "y": 738
+      },
+      "width": 1440
+    }
+  ]
+}

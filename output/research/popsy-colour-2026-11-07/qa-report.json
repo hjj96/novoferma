@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-07",
+  "result": "pass",
+  "browser": {
+    "result": "pass",
+    "checks": [
+      {
+        "page": "home",
+        "width": 1440,
+        "scroll": 1440,
+        "featured": [
+          "popsy",
+          "naggetsy-kurinye",
+          "stripsy",
+          "frikadelki-klassicheskie"
+        ],
+        "pops": [
+          {
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp",
+            "loaded": true
+          }
+        ]
+      },
+      {
+        "page": "popsy",
+        "width": 1440,
+        "scroll": 1440,
+        "h1": "Попсы",
+        "pack": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-800-q94-36e1736c.webp",
+        "rock": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/illustrations/popsy-rock-v3-800-q90-955f3f14.webp",
+        "lifestyle": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/illustrations/popsy-lifestyle-v4-800-q90-ea690375.webp",
+        "broken": [],
+        "buy": true
+      },
+      {
+        "page": "home",
+        "width": 390,
+        "scroll": 390,
+        "featured": [
+          "popsy",
+          "naggetsy-kurinye",
+          "stripsy",
+          "frikadelki-klassicheskie"
+        ],
+        "pops": [
+          {
+            "src": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp",
+            "loaded": true
+          }
+        ]
+      },
+      {
+        "page": "popsy",
+        "width": 390,
+        "scroll": 390,
+        "h1": "Попсы",
+        "pack": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/packshots/popsy-pack-v4-400-q94-36e1736c.webp",
+        "rock": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/illustrations/popsy-rock-v3-400-q90-955f3f14.webp",
+        "lifestyle": "file:///Users/andrey/Desktop/%D1%81%D0%B0%D0%B9%D1%82%20%D0%BD%D1%84/output/concept/assets/responsive/illustrations/popsy-lifestyle-v4-400-q90-ea690375.webp",
+        "broken": [],
+        "buy": true
+      }
+    ],
+    "errors": []
+  },
+  "colour": {
+    "scope": "One clean paper patch, not a physical label colour certification",
+    "candidate": "output/pops-2026-11-05/revision-4-color/assets/pops-pack-v4-color.png",
+    "comparisons": [
+      {
+        "reference": "output/concept/assets/catalogue-clean-v2/naggetsy-kurinye.webp",
+        "beforeDeltaE76": 6.9893,
+        "afterDeltaE76": 3.443
+      },
+      {
+        "reference": "output/concept/assets/catalogue-clean-v2/stripsy.webp",
+        "beforeDeltaE76": 4.7876,
+        "afterDeltaE76": 1.076
+      },
+      {
+        "reference": "output/concept/assets/catalogue-clean-v2/kurinyj-popkorn.webp",
+        "beforeDeltaE76": 5.1052,
+        "afterDeltaE76": 1.98
+      }
+    ]
+  },
+  "archive": {
+    "path": "output/novoferma-site.zip",
+    "bytes": 19633205,
+    "sha256": "c38aac7d7189851758efb5fca26407ce5a6a37e95c4f4321f8304c26c99eb0d6",
+    "v4PackAndLifestyleIncluded": true,
+    "displaySizeNormalizationIncluded": true
+  },
+  "sizeChecks": {
+    "result": "pass",
+    "checks": [
+      {
+        "page": "catalogue",
+        "width": 1440,
+        "scroll": 1440,
+        "imageWidth": 317.90252685546875,
+        "imageHeight": 317.90252685546875,
+        "transform": "matrix(1.065, 0, 0, 1.065, 0, -6.567)",
+        "filter": "drop-shadow(rgba(64, 33, 17, 0.075) 0px 9px 8px)",
+        "loaded": true
+      },
+      {
+        "page": "catalogue",
+        "width": 390,
+        "scroll": 390,
+        "imageWidth": 175.72500610351562,
+        "imageHeight": 175.72503662109375,
+        "transform": "matrix(1.065, 0, 0, 1.065, 0, -3.63)",
+        "filter": "drop-shadow(rgba(64, 33, 17, 0.075) 0px 9px 8px)",
+        "loaded": true
+      },
+      {
+        "page": "detail",
+        "transform": "matrix(1.065, 0, 0, 1.065, 0, -10.12)",
+        "width": 1440,
+        "scroll": 1440,
+        "loaded": true
+      }
+    ]
+  },
+  "displayNormalization": {
+    "scale": 1.065,
+    "translateY": "-2.2%",
+    "scope": "Pops only; uniform display scale, source pixels unchanged"
+  }
+}

@@ -1,0 +1,102 @@
+/* Three clear sections. The company story opens the page. */
+@font-face {
+ font-family:'Novoferma About';src:url('assets/fonts/RobotoFlex-Protein.woff2') format('woff2');
+ font-weight:850;font-style:normal;font-display:swap;
+}
+.page-about {--about-ink:#402312;--about-red:#b93822;--about-cream:#fff5e3;color:var(--about-ink)}
+.page-about .about-shell {width:min(1296px,calc(100% - 96px));margin-inline:auto}
+.page-about .breadcrumb {padding-block:24px;margin-block:0}
+.page-about .about-title {
+ margin:0;min-width:0;max-width:100%;font-family:'Novoferma About',var(--font-display);
+ font-size:clamp(64px,7.5vw,106px);font-weight:850;line-height:1.04;
+ letter-spacing:-.015em;text-transform:uppercase;text-wrap:initial;color:inherit;
+}
+.page-about .about-title>span {color:var(--about-red)}
+.page-about .about-copy {
+ font-family:var(--font-display);font-size:clamp(18px,1.55vw,22px);
+ font-weight:450;line-height:1.55;letter-spacing:-.015em;
+}
+.page-about .about-pill {
+ display:inline-flex;align-items:center;justify-content:space-between;gap:28px;
+ min-height:54px;max-width:100%;padding:15px 24px;border:1px solid transparent;border-radius:100px;
+ font-family:var(--font-display);font-size:14px;font-weight:600;line-height:1.45;
+ transition:background .2s,color .2s;
+}
+.page-about .about-pill>span {font-size:23px;line-height:1}
+.page-about .about-pill .ui-icon {width:21px;height:21px;flex:none}
+.page-about .about-pill-light {background:var(--about-cream);color:var(--about-ink)}
+.page-about .about-pill-light:hover {background:#f6d580}
+.page-about .about-pill-dark {background:var(--about-ink);color:var(--about-cream)}
+.page-about .about-pill-dark .ui-icon {filter:brightness(0) invert(1)}
+.page-about .about-pill-dark:hover {background:var(--about-red)}
+.page-about a:focus-visible {outline:3px solid var(--about-red);outline-offset:6px}
+.page-about .about-story-hero {background:var(--about-red);color:var(--about-cream)}
+.page-about .about-story-inner {
+ display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);
+ align-items:center;gap:80px;padding-block:96px;
+}
+.page-about .about-story .about-title {font-size:clamp(60px,7vw,100px)}
+.page-about .about-story .about-title>span {color:#f6d580}
+.page-about .about-story-copy {min-width:0}
+.page-about .about-story-copy>p {margin:0}
+.page-about .about-story-copy>p+p {margin-top:24px}
+.page-about .about-products {padding-block:80px 88px;background:#e1e5bc}
+.page-about .about-products-heading {
+ display:flex;justify-content:space-between;align-items:flex-end;gap:48px;margin-bottom:48px;
+}
+.page-about .about-products-heading>.about-pill {flex:none;margin-bottom:6px}
+.page-about .about-products .product-grid {grid-template-columns:repeat(4,minmax(0,1fr));gap:40px 28px}
+.page-about .about-products .packshot-preview {--packshot-surface:#f0efcf}
+.page-about .cooperation-invite-about {margin:0;background:var(--orange);color:var(--about-ink)}
+.page-about .cooperation-invite-inner {
+ grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:80px;padding-block:80px;
+}
+.page-about .cooperation-invite-about .about-title {font-family:'Novoferma About',var(--font-display);font-size:clamp(60px,7vw,100px);font-weight:850;line-height:1.04;letter-spacing:-.015em}
+.page-about .cooperation-invite-about .about-title>span {color:var(--about-cream)}
+.page-about .cooperation-invite-response {gap:28px;align-items:flex-start;flex-direction:column}
+.page-about .cooperation-invite-response>.about-copy {margin:0;max-width:34ch;font-size:clamp(18px,1.55vw,22px);line-height:1.55}
+.page-about .cooperation-invite-about a:focus-visible {outline-color:var(--about-ink)}
+@media(min-width:700px) and (max-width:1099px) {
+ .page-about .about-shell {width:calc(100% - 64px)}
+ .page-about .about-title {font-size:clamp(56px,7.5vw,82px)}
+ .page-about .about-story-inner,.page-about .cooperation-invite-inner {gap:40px;padding-block:72px}
+ .page-about .about-story .about-title,.page-about .cooperation-invite-about .about-title {font-size:clamp(54px,6.6vw,74px)}
+ .page-about .about-products {padding-block:64px}
+ .page-about .about-products-heading {gap:28px}
+ .page-about .about-products .product-grid {grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 32px}
+}
+@media(max-width:899px) {
+ .page-about .about-story-inner,.page-about .cooperation-invite-inner {grid-template-columns:minmax(0,1fr);gap:32px}
+ .page-about .about-story-copy {max-width:60ch}
+ .page-about .about-products-heading {display:block}
+ .page-about .about-products-heading>.about-pill {margin:26px 0 0}
+}
+@media(max-width:699px) {
+ .page-about .about-shell {width:calc(100% - 40px)}
+ .page-about .breadcrumb {padding-block:16px;font-size:10px}
+ .page-about .about-title,
+ .page-about .about-story .about-title,
+ .page-about .cooperation-invite-about .about-title {
+  font-size:clamp(42px,12.6vw,76px);line-height:1.04;letter-spacing:-.015em;
+ }
+ .page-about .about-copy,.page-about .cooperation-invite-response>.about-copy {font-size:17px;line-height:1.6}
+ .page-about .about-pill {min-height:50px;padding:13px 21px;font-size:13px;gap:24px}
+ .page-about .about-story-inner {padding-block:48px 56px;gap:28px}
+ .page-about .about-story-copy>p+p {margin-top:20px}
+ .page-about .about-products {padding-block:48px 56px}
+ .page-about .about-products-heading {margin-bottom:32px}
+ .page-about .about-products .about-title {font-size:clamp(36px,10.8vw,66px)}
+ .page-about .about-products .product-grid {grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px}
+ .page-about .cooperation-invite-inner {padding-block:48px 56px;gap:28px}
+ .page-about .cooperation-invite-response {align-items:flex-start;gap:24px}
+}
+@media(max-width:359px) {
+ .page-about .about-shell {width:calc(100% - 32px)}
+ .page-about .about-title,
+ .page-about .about-story .about-title,
+ .page-about .cooperation-invite-about .about-title {font-size:39px}
+ .page-about .about-products .about-title {font-size:34px}
+ .page-about .about-copy,.page-about .cooperation-invite-response>.about-copy {font-size:16px}
+ .page-about .about-products .product-grid {gap:26px 16px}
+}
+@media(prefers-reduced-motion:reduce) {.page-about .about-pill {transition:none}}

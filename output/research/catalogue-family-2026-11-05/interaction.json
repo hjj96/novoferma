@@ -1,0 +1,16 @@
+{
+  "mobile": {
+    "loaded": true,
+    "source": "http://127.0.0.1:8765/output/concept/assets/responsive/illustrations/family-table-v1-400-q90-30785e1c.webp"
+  },
+  "focus": {
+    "href": "product-kotlety-kurinye.html",
+    "name": "Котлеты куриныеИз курицы522 г",
+    "outline": "rgb(172, 58, 9) solid 3px"
+  },
+  "destination": {
+    "title": "КОТЛЕТЫ КУРИНЫЕ",
+    "url": "http://127.0.0.1:8765/output/concept/product-kotlety-kurinye.html"
+  },
+  "logs": []
+}

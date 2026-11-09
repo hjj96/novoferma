@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff5e3">
+  <title>Сейчас будет вкусно — идея загрузки Новофермы</title>
+  <link rel="stylesheet" href="assets/fonts/font-face.css">
+  <link rel="stylesheet" href="loading-story.css">
+  <script src="loading-story.js" defer></script>
+</head>
+<body>
+  <main class="presentation">
+    <header class="presentation-header">
+      <a href="index.html" aria-label="Новоферма — главная"><img src="assets/logo-reference.webp" width="188" height="38" alt="NOVOferma"></a>
+      <p>Движение бренда <span>/</span> 01</p>
+    </header>
+
+    <div class="intro"><p>Знакомство начинается с аппетита.</p><span>Идея загрузки сайта</span></div>
+
+    <section class="screen" aria-label="Предпросмотр анимации загрузки">
+      <iframe class="site-preview" src="index.html" title="Главная страница Новофермы после загрузки" inert></iframe>
+      <div class="curtain">
+        <div class="scene-top"><span>Для ужина. Для кино. Для своих.</span><button class="skip" type="button">К сайту <span aria-hidden="true">↗</span></button></div>
+        <div class="scene-copy">
+          <p class="scene-eyebrow">Новоферма собирает всех</p>
+          <h1>Сейчас будет<br><em>вкусно.</em></h1>
+          <p class="scene-signature">Уже хочется за стол!</p>
+        </div>
+        <div class="chicken" aria-hidden="true"><img src="assets/mascot-reference.webp" width="335" height="548" alt=""></div>
+        <span class="chicken-note" aria-hidden="true">А мне одну?</span>
+        <canvas class="meatballs" aria-hidden="true"></canvas>
+      </div>
+      <noscript><style>.curtain,.playback{display:none!important}</style><div class="no-script">Для просмотра анимации включите JavaScript. <a href="index.html">Открыть сайт ↗</a></div></noscript>
+    </section>
+
+    <div class="playback">
+      <button class="play" type="button"><span class="play-symbol" aria-hidden="true">↗</span><span class="play-label">Смотреть анимацию</span></button>
+      <label class="density"><input type="checkbox" id="more-meatballs"><span>Больше фрикаделек</span></label>
+      <p class="playback-state" role="status" aria-live="polite">Короткая сцена · 2,8 секунды</p>
+    </div>
+
+    <section class="direction" aria-label="Идея и режиссура">
+      <div class="direction-title"><p class="eyebrow">Маленькая история вместо спиннера</p><h2>Падают фрикадельки.<br>Поднимается аппетит.</h2></div>
+      <div class="beats">
+        <div><span>01</span><p><strong>Кто-то уже здесь.</strong> Фирменная курочка выглядывает из-за края и замечает первую фрикадельку.</p></div>
+        <div><span>02</span><p><strong>Вкусное притяжение.</strong> Фрикадельки падают, вращаются и мягко собираются в горку. Ещё одна — и хватит. Или нет?</p></div>
+        <div><span>03</span><p><strong>Все к столу!</strong> Курочка прячется, занавес уходит вниз. Перед нами — главная страница и повод собраться.</p></div>
+      </div>
+    </section>
+    <footer class="presentation-footer"><p>В рабочей версии — один раз за визит, без звука и лишнего ожидания.</p><a href="loading-concept.html">Вариант только с фрикадельками ↗</a></footer>
+  </main>
+</body>
+</html>

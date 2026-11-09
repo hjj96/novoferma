@@ -1,0 +1,59 @@
+[
+  {
+    "width": 1440,
+    "errors": [],
+    "badResponses": [],
+    "regular": {
+      "state": "complete",
+      "hidden": true,
+      "inert": false,
+      "overflow": false
+    },
+    "skipped": {
+      "hidden": true,
+      "focus": "play"
+    },
+    "reduced": {
+      "hidden": true,
+      "state": "complete"
+    }
+  },
+  {
+    "width": 375,
+    "errors": [],
+    "badResponses": [],
+    "regular": {
+      "state": "complete",
+      "hidden": true,
+      "inert": false,
+      "overflow": false
+    },
+    "skipped": {
+      "hidden": true,
+      "focus": "play"
+    },
+    "reduced": {
+      "hidden": true,
+      "state": "complete"
+    }
+  },
+  {
+    "width": 320,
+    "errors": [],
+    "badResponses": [],
+    "regular": {
+      "state": "complete",
+      "hidden": true,
+      "inert": false,
+      "overflow": false
+    },
+    "skipped": {
+      "hidden": true,
+      "focus": "play"
+    },
+    "reduced": {
+      "hidden": true,
+      "state": "complete"
+    }
+  }
+]

@@ -1,0 +1,608 @@
+{
+  "date": "2026-11-07",
+  "scope": "Read-only local asset and stylesheet diagnosis; no raster edits.",
+  "method": {
+    "commonCleanPaperRoiNormalized": [
+      0.15,
+      0.33,
+      0.25,
+      0.37
+    ],
+    "popsOnlyRightRoiNormalized": [
+      0.77,
+      0.34,
+      0.85,
+      0.4
+    ],
+    "coordinateConvention": "[left, top, right, bottom] relative to full image canvas; Python round() to pixel bounds.",
+    "rgbMeanMask": "Pixels with alpha >= 128. No colour transform applied before collecting RGB means.",
+    "lab": "Approximate CIELAB from patch mean assuming sRGB/D65; Euclidean Delta E 1976.",
+    "foregroundDifference": "Average absolute RGB channel difference over alpha >= 128; alpha measured separately.",
+    "variantReference": "RGBA master -> premultiplied RGBa -> Lanczos resize -> RGBA, matching optimizer.",
+    "limitations": "Local clean paper samples, not whole-package or calibrated print measurements. Right ROI is for Pops only: neighbor artwork overlaps it. Revalidate the patch visually if a candidate changes layout."
+  },
+  "cssFinding": {
+    "product-cards.css:28": "drop-shadow only; no brightness, saturation, contrast or blend mode.",
+    "product-detail.css:23": "drop-shadow only.",
+    "motion.css:100,110": "Product cards and product details have opacity 1 and disabled reveal animations."
+  },
+  "v3Png": {
+    "path": "output/pops-2026-11-05/revision-3/assets/pops-v3-drummer.png",
+    "sha256": "0d3467039e7decf211206716313ba7ba6339a460a5c64895f077eb2e28d9587b",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "embeddedIccBytes": 0,
+    "gamma": null,
+    "srgbTag": null,
+    "leftCleanPaper": {
+      "roiNormalized": [
+        0.15,
+        0.33,
+        0.25,
+        0.37
+      ],
+      "roiPixels": [
+        188,
+        414,
+        314,
+        464
+      ],
+      "rgbMean": [
+        240.1283,
+        221.1503,
+        201.236
+      ],
+      "rgbMedian": [
+        240,
+        221,
+        201
+      ],
+      "labFromMeanSrgbD65": [
+        89.191,
+        3.3206,
+        12.1283
+      ],
+      "redMinusBlue": 38.8922,
+      "alphaMean": 253.0,
+      "alphaExtrema": [
+        253,
+        253
+      ]
+    },
+    "rightPopsPaper": {
+      "roiNormalized": [
+        0.77,
+        0.34,
+        0.85,
+        0.4
+      ],
+      "roiPixels": [
+        966,
+        426,
+        1066,
+        502
+      ],
+      "rgbMean": [
+        238.9422,
+        220.2557,
+        200.8709
+      ],
+      "rgbMedian": [
+        239,
+        220,
+        201
+      ],
+      "labFromMeanSrgbD65": [
+        88.8628,
+        3.3009,
+        11.8396
+      ],
+      "redMinusBlue": 38.0713,
+      "alphaMean": 253.0,
+      "alphaExtrema": [
+        253,
+        253
+      ]
+    }
+  },
+  "siteMaster": {
+    "path": "output/concept/assets/novelty-packaging/popsy-pack-v3.webp",
+    "sha256": "2bbda6aebdfdc5cf36c64a92c834a4c55b2d50f2acd20822cf2ecfd7bbc369f4",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "embeddedIccBytes": 0,
+    "gamma": null,
+    "srgbTag": null,
+    "leftCleanPaper": {
+      "roiNormalized": [
+        0.15,
+        0.33,
+        0.25,
+        0.37
+      ],
+      "roiPixels": [
+        188,
+        414,
+        314,
+        464
+      ],
+      "rgbMean": [
+        240.0444,
+        221.5708,
+        201.3751
+      ],
+      "rgbMedian": [
+        240,
+        222,
+        201
+      ],
+      "labFromMeanSrgbD65": [
+        89.2917,
+        3.0948,
+        12.1976
+      ],
+      "redMinusBlue": 38.6694,
+      "alphaMean": 253.0,
+      "alphaExtrema": [
+        253,
+        253
+      ]
+    },
+    "rightPopsPaper": {
+      "roiNormalized": [
+        0.77,
+        0.34,
+        0.85,
+        0.4
+      ],
+      "roiPixels": [
+        966,
+        426,
+        1066,
+        502
+      ],
+      "rgbMean": [
+        238.7218,
+        220.788,
+        200.6478
+      ],
+      "rgbMedian": [
+        239,
+        221,
+        201
+      ],
+      "labFromMeanSrgbD65": [
+        88.9722,
+        2.913,
+        12.1096
+      ],
+      "redMinusBlue": 38.0741,
+      "alphaMean": 253.0,
+      "alphaExtrema": [
+        253,
+        253
+      ]
+    },
+    "leftPaperDeltaE76FromV3Png": 0.2568
+  },
+  "pngToSiteMasterDifference": {
+    "foregroundRgbMae8Bit": 1.7831,
+    "alphaMaxDifference": 0
+  },
+  "responsiveVariants": [
+    {
+      "path": "output/concept/assets/responsive/packshots/popsy-pack-v3-400-q94-2bbda6ae.webp",
+      "sha256": "e2c321c07617a3460c669537d019930bbb8db3d46ca095e0affa8de9c9c2dc0f",
+      "size": [
+        400,
+        400
+      ],
+      "mode": "RGBA",
+      "embeddedIccBytes": 0,
+      "gamma": null,
+      "srgbTag": null,
+      "leftCleanPaper": {
+        "roiNormalized": [
+          0.15,
+          0.33,
+          0.25,
+          0.37
+        ],
+        "roiPixels": [
+          60,
+          132,
+          100,
+          148
+        ],
+        "rgbMean": [
+          238.8125,
+          220.8125,
+          199.9906
+        ],
+        "rgbMedian": [
+          239,
+          221,
+          199
+        ],
+        "labFromMeanSrgbD65": [
+          88.9712,
+          2.8329,
+          12.4536
+        ],
+        "redMinusBlue": 38.8219,
+        "alphaMean": 253.0,
+        "alphaExtrema": [
+          253,
+          253
+        ]
+      },
+      "rightPopsPaper": {
+        "roiNormalized": [
+          0.77,
+          0.34,
+          0.85,
+          0.4
+        ],
+        "roiPixels": [
+          308,
+          136,
+          340,
+          160
+        ],
+        "rgbMean": [
+          237.5156,
+          219.8698,
+          199.1771
+        ],
+        "rgbMedian": [
+          237,
+          220,
+          199
+        ],
+        "labFromMeanSrgbD65": [
+          88.6118,
+          2.7294,
+          12.355
+        ],
+        "redMinusBlue": 38.3385,
+        "alphaMean": 253.0,
+        "alphaExtrema": [
+          253,
+          253
+        ]
+      },
+      "differenceFromPremultipliedResizedMaster": {
+        "foregroundRgbMae8Bit": 2.5726,
+        "alphaMaxDifference": 0
+      },
+      "manifestSha256Matches": true,
+      "leftPaperDeltaE76FromV3Png": 0.6261
+    },
+    {
+      "path": "output/concept/assets/responsive/packshots/popsy-pack-v3-800-q94-2bbda6ae.webp",
+      "sha256": "a80e7960b9d8f640c1a39d407a9a8ab31d735da91e37b3e797f0aaa72acdb724",
+      "size": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "embeddedIccBytes": 0,
+      "gamma": null,
+      "srgbTag": null,
+      "leftCleanPaper": {
+        "roiNormalized": [
+          0.15,
+          0.33,
+          0.25,
+          0.37
+        ],
+        "roiPixels": [
+          120,
+          264,
+          200,
+          296
+        ],
+        "rgbMean": [
+          238.8652,
+          220.7848,
+          200.034
+        ],
+        "rgbMedian": [
+          239,
+          221,
+          200
+        ],
+        "labFromMeanSrgbD65": [
+          88.9696,
+          2.8728,
+          12.4292
+        ],
+        "redMinusBlue": 38.8313,
+        "alphaMean": 253.0,
+        "alphaExtrema": [
+          253,
+          253
+        ]
+      },
+      "rightPopsPaper": {
+        "roiNormalized": [
+          0.77,
+          0.34,
+          0.85,
+          0.4
+        ],
+        "roiPixels": [
+          616,
+          272,
+          680,
+          320
+        ],
+        "rgbMean": [
+          237.4743,
+          219.8499,
+          199.3005
+        ],
+        "rgbMedian": [
+          238,
+          220,
+          199
+        ],
+        "labFromMeanSrgbD65": [
+          88.6062,
+          2.7436,
+          12.2819
+        ],
+        "redMinusBlue": 38.1738,
+        "alphaMean": 253.0,
+        "alphaExtrema": [
+          253,
+          253
+        ]
+      },
+      "differenceFromPremultipliedResizedMaster": {
+        "foregroundRgbMae8Bit": 1.715,
+        "alphaMaxDifference": 0
+      },
+      "manifestSha256Matches": true,
+      "leftPaperDeltaE76FromV3Png": 0.5832
+    }
+  ],
+  "siteNeighborMasters": [
+    {
+      "path": "output/concept/assets/catalogue-clean-v2/naggetsy-kurinye.webp",
+      "sha256": "712fb64988d07e1b04baf355fa459fb92fb9b374125145e78a4f6ee889bd7e06",
+      "size": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "embeddedIccBytes": 0,
+      "gamma": null,
+      "srgbTag": null,
+      "leftCleanPaper": {
+        "roiNormalized": [
+          0.15,
+          0.33,
+          0.25,
+          0.37
+        ],
+        "roiPixels": [
+          120,
+          264,
+          200,
+          296
+        ],
+        "rgbMean": [
+          249.3527,
+          231.8555,
+          199.7914
+        ],
+        "rgbMedian": [
+          249,
+          232,
+          200
+        ],
+        "labFromMeanSrgbD65": [
+          92.5742,
+          0.9436,
+          17.7634
+        ],
+        "redMinusBlue": 49.5613,
+        "alphaMean": 253.0488,
+        "alphaExtrema": [
+          253,
+          254
+        ]
+      },
+      "leftPaperDeltaE76FromV3Png": 6.9893
+    },
+    {
+      "path": "output/concept/assets/catalogue-clean-v2/stripsy.webp",
+      "sha256": "04f43af045888294da54d2a746f9c4ef3d121efed07830296603f9dcbfbf90e8",
+      "size": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "embeddedIccBytes": 0,
+      "gamma": null,
+      "srgbTag": null,
+      "leftCleanPaper": {
+        "roiNormalized": [
+          0.15,
+          0.33,
+          0.25,
+          0.37
+        ],
+        "roiPixels": [
+          120,
+          264,
+          200,
+          296
+        ],
+        "rgbMean": [
+          246.4027,
+          230.3641,
+          203.0305
+        ],
+        "rgbMedian": [
+          246,
+          230,
+          203
+        ],
+        "labFromMeanSrgbD65": [
+          92.0323,
+          1.1141,
+          15.2873
+        ],
+        "redMinusBlue": 43.3723,
+        "alphaMean": 253.0324,
+        "alphaExtrema": [
+          252,
+          254
+        ]
+      },
+      "leftPaperDeltaE76FromV3Png": 4.7876
+    },
+    {
+      "path": "output/concept/assets/catalogue-clean-v2/kurinyj-popkorn.webp",
+      "sha256": "d707c51a12f21c479fd1db1aae0b1e5e6e3081dad744c1a282211b89f2c3a6b5",
+      "size": [
+        800,
+        800
+      ],
+      "mode": "RGBA",
+      "embeddedIccBytes": 0,
+      "gamma": null,
+      "srgbTag": null,
+      "leftCleanPaper": {
+        "roiNormalized": [
+          0.15,
+          0.33,
+          0.25,
+          0.37
+        ],
+        "roiPixels": [
+          120,
+          264,
+          200,
+          296
+        ],
+        "rgbMean": [
+          245.8816,
+          234.2652,
+          210.9387
+        ],
+        "rgbMedian": [
+          246,
+          234,
+          211
+        ],
+        "labFromMeanSrgbD65": [
+          93.1323,
+          0.133,
+          12.7349
+        ],
+        "redMinusBlue": 34.943,
+        "alphaMean": 253.1367,
+        "alphaExtrema": [
+          253,
+          254
+        ]
+      },
+      "leftPaperDeltaE76FromV3Png": 5.1052
+    }
+  ],
+  "candidates": [
+    {
+      "path": "output/pops-2026-11-05/revision-4-color/assets/pops-pack-v4-color.png",
+      "sha256": "af68573aad6d0df846b3b19b57f3ddb352831a6bd042f2c5121dbebde7c00540",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "embeddedIccBytes": 0,
+      "gamma": null,
+      "srgbTag": null,
+      "leftCleanPaper": {
+        "roiNormalized": [
+          0.15,
+          0.33,
+          0.25,
+          0.37
+        ],
+        "roiPixels": [
+          188,
+          414,
+          314,
+          464
+        ],
+        "rgbMean": [
+          247.1717,
+          231.787,
+          206.2154
+        ],
+        "rgbMedian": [
+          247,
+          232,
+          206
+        ],
+        "labFromMeanSrgbD65": [
+          92.5161,
+          1.1379,
+          14.3261
+        ],
+        "redMinusBlue": 40.9563,
+        "alphaMean": 253.0649,
+        "alphaExtrema": [
+          253,
+          254
+        ]
+      },
+      "rightPopsPaper": {
+        "roiNormalized": [
+          0.77,
+          0.34,
+          0.85,
+          0.4
+        ],
+        "roiPixels": [
+          966,
+          426,
+          1066,
+          502
+        ],
+        "rgbMean": [
+          244.4626,
+          228.8996,
+          203.0808
+        ],
+        "rgbMedian": [
+          245,
+          229,
+          203
+        ],
+        "labFromMeanSrgbD65": [
+          91.5123,
+          1.1738,
+          14.5046
+        ],
+        "redMinusBlue": 41.3818,
+        "alphaMean": 253.0004,
+        "alphaExtrema": [
+          253,
+          254
+        ]
+      },
+      "leftPaperDeltaE76FromV3Png": 4.5443
+    }
+  ],
+  "conclusion": "The meaningful paper-tone difference is already in the v3 PNG. Encoding/resizing changes the sampled paper very little; no site colour filter or ICC mismatch was found. Pops paper is darker and redder/less yellow than Strips/Nuggets in the sampled patch."
+}

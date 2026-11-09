@@ -7,19 +7,6 @@ menuToggle?.addEventListener('click',()=>{menu.showModal();document.body.classLi
 menu?.querySelector('.menu-close')?.addEventListener('click',closeMenu);
 menu?.addEventListener('click',event=>{if(event.target===menu){const r=menu.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right)closeMenu();}});
 menu?.addEventListener('close',()=>{document.body.classList.remove('menu-open');menuToggle?.setAttribute('aria-expanded','false');menuToggle?.focus({preventScroll:true});});
-// Keep the modal's Tab sequence inside the page, including browser chrome edges.
-menu?.addEventListener('keydown',event=>{
- if(!menu.open||event.key!=='Tab'||event.defaultPrevented||event.altKey||event.ctrlKey||event.metaKey)return;
- const focusable=[...menu.querySelectorAll('a[href],button,input,select,textarea,summary,[tabindex]')]
-  .filter(element=>element.tabIndex>=0&&!element.matches(':disabled')&&!element.closest('[hidden],[inert]')&&
-   element.getClientRects().length>0&&getComputedStyle(element).visibility==='visible')
-  .sort((a,b)=>(a.tabIndex>0?a.tabIndex:Infinity)-(b.tabIndex>0?b.tabIndex:Infinity));
- const current=focusable.indexOf(document.activeElement);
- if(!focusable.length){event.preventDefault();menu.focus({preventScroll:true});return;}
- if(event.shiftKey?current<=0:current<0||current===focusable.length-1){
-  event.preventDefault();focusable[event.shiftKey?focusable.length-1:0].focus({preventScroll:true});
- }
-});
 const topButton=document.querySelector('.to-top');
 function updateTop(){
  if(!topButton)return;
@@ -32,13 +19,10 @@ function updateTop(){
 }
 addEventListener('scroll',updateTop,{passive:true});updateTop();
 topButton?.addEventListener('click',()=>{window.scrollTo({top:0,behavior:prefersReducedMotion.matches?'instant':'smooth'});document.querySelector('.brand')?.focus({preventScroll:true});});
-// Only move editorial content below the viewport. Copy stays visible in CSS.
+// Only prepare content below the viewport: no blank first paint or inaccessible content.
 const revealElements=[...document.querySelectorAll('.reveal')];
 let revealObserver;
-function showReveal(element,immediate=false){
- if(immediate)element.classList.remove('is-prepared');
- element.classList.add('is-visible');revealObserver?.unobserve(element);
-}
+function showReveal(element){element.classList.add('is-visible');revealObserver?.unobserve(element);}
 function setRevealDelays(){
  const grids=new Map();
  const measured=revealElements.filter(element=>element.matches('.product-card.is-prepared:not(.is-visible)')&&!element.hidden)
@@ -66,7 +50,7 @@ if(!prefersReducedMotion.matches&&'IntersectionObserver' in window){
  document.fonts?.ready.then(setRevealDelays);
 }
 // Focused links and controls never wait behind a scroll reveal.
-document.addEventListener('focusin',event=>revealElements.forEach(element=>{if(element.contains(event.target))showReveal(element,true);}));
+document.addEventListener('focusin',event=>revealElements.forEach(element=>{if(element.contains(event.target))showReveal(element);}));
 const entranceElements=[];
 if(!document.body.classList.contains('page-index')&&!prefersReducedMotion.matches){
  const firstEditorial=document.querySelector('.page-heading,.about-hero,.page-intro,.partner-hero,.contacts-main,.product-detail');
@@ -82,7 +66,7 @@ if(!document.body.classList.contains('page-index')&&!prefersReducedMotion.matche
 prefersReducedMotion.addEventListener('change',()=>{
  if(!prefersReducedMotion.matches)return;
  revealObserver?.disconnect();
- revealElements.forEach(element=>showReveal(element,true));
+ revealElements.forEach(showReveal);
  entranceElements.forEach(element=>element.classList.remove('page-enter'));
 });
 const cityForm=document.querySelector('#city-form');

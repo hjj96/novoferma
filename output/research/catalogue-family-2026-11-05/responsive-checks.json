@@ -1,0 +1,107 @@
+[
+  {
+    "controls": 0,
+    "filterScript": false,
+    "firstTitleTop": 786.5,
+    "fullWidth": true,
+    "headerHeight": 328,
+    "imageLoaded": true,
+    "imageRendered": {
+      "fit": "contain",
+      "height": 280,
+      "width": 500
+    },
+    "imageSource": "http://127.0.0.1:8765/output/concept/assets/responsive/illustrations/family-table-v1-800-q90-30785e1c.webp",
+    "overflow": false,
+    "tagline": "Для ужина. Для своих.",
+    "taglineOverflow": false,
+    "title": "КАТАЛОГ",
+    "titleOverflow": false,
+    "visibleProducts": 16,
+    "width": 1440
+  },
+  {
+    "controls": 0,
+    "filterScript": false,
+    "firstTitleTop": 742,
+    "fullWidth": true,
+    "headerHeight": 296,
+    "imageLoaded": true,
+    "imageRendered": {
+      "fit": "contain",
+      "height": 240,
+      "width": 442
+    },
+    "imageSource": "http://127.0.0.1:8765/output/concept/assets/responsive/illustrations/family-table-v1-800-q90-30785e1c.webp",
+    "overflow": false,
+    "tagline": "Для ужина. Для своих.",
+    "taglineOverflow": false,
+    "title": "КАТАЛОГ",
+    "titleOverflow": false,
+    "visibleProducts": 16,
+    "width": 1024
+  },
+  {
+    "controls": 0,
+    "filterScript": false,
+    "firstTitleTop": 656.6640625,
+    "fullWidth": true,
+    "headerHeight": 296,
+    "imageLoaded": true,
+    "imageRendered": {
+      "fit": "contain",
+      "height": 240,
+      "width": 320
+    },
+    "imageSource": "http://127.0.0.1:8765/output/concept/assets/responsive/illustrations/family-table-v1-800-q90-30785e1c.webp",
+    "overflow": false,
+    "tagline": "Для ужина. Для своих.",
+    "taglineOverflow": false,
+    "title": "КАТАЛОГ",
+    "titleOverflow": false,
+    "visibleProducts": 16,
+    "width": 768
+  },
+  {
+    "controls": 0,
+    "filterScript": false,
+    "firstTitleTop": 667.8828125,
+    "fullWidth": true,
+    "headerHeight": 372.8828125,
+    "imageLoaded": true,
+    "imageRendered": {
+      "fit": "contain",
+      "height": 210,
+      "width": 320
+    },
+    "imageSource": "http://127.0.0.1:8765/output/concept/assets/responsive/illustrations/family-table-v1-800-q90-30785e1c.webp",
+    "overflow": false,
+    "tagline": "Для ужина. Для своих.",
+    "taglineOverflow": false,
+    "title": "КАТАЛОГ",
+    "titleOverflow": false,
+    "visibleProducts": 16,
+    "width": 390
+  },
+  {
+    "controls": 0,
+    "filterScript": false,
+    "firstTitleTop": 627.5,
+    "fullWidth": true,
+    "headerHeight": 366,
+    "imageLoaded": true,
+    "imageRendered": {
+      "fit": "contain",
+      "height": 210,
+      "width": 288
+    },
+    "imageSource": "http://127.0.0.1:8765/output/concept/assets/responsive/illustrations/family-table-v1-800-q90-30785e1c.webp",
+    "overflow": false,
+    "tagline": "Для ужина. Для своих.",
+    "taglineOverflow": false,
+    "title": "КАТАЛОГ",
+    "titleOverflow": false,
+    "visibleProducts": 16,
+    "width": 320
+  }
+]

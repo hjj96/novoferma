@@ -1,0 +1,6 @@
+const {chromium}=require('/Users/andrey/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{const b=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});const p=await b.newPage({viewport:{width:1440,height:950},reducedMotion:'reduce'});await p.goto('http://127.0.0.1:8765/output/concept/',{waitUntil:'networkidle'});await p.evaluate(()=>document.fonts.ready);await p.evaluate(()=>{
+ const h=document.querySelector('.hero h1');
+ const shapes=[[-.018,-3,1.09],[-.002,-1.2,1.02],[.015,1.4,1.01],[.022,2,1.04],[.005,0,1],[-.009,-1.6,1.03],[-.03,-2.2,1.07],[-.045,-1,1.1],[-.028,1.3,1.04],[0,2,1.02]];
+ h.innerHTML=['Есть повод','собраться.'].map((l,j)=>`<span style="display:block;white-space:nowrap;line-height:1.08">${[...l].map((c,i)=>{let [y,r,s]=shapes[(i+j*4)%10];return `<span style="display:inline-block;transform:translateY(${y}em) rotate(${r}deg) scaleY(${s});transform-origin:50% 75%">${c===' '?'&nbsp;':c}</span>`}).join('')}</span>`).join('');
+ });await p.screenshot({path:'tmp/hero-type/onest-wave-1440.png'});await b.close()})().catch(e=>{console.error(e);process.exit(1)});

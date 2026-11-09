@@ -1,0 +1,14 @@
+Use case: product-mockup / ads-marketing.
+Asset type: separated photorealistic FOOD ONLY transparent desktop hero layer.
+Input reference (nuggets-master.png): reference ONLY for appetizing realistic golden chicken-nugget breadcrumb texture. Do not reproduce the hen, decorative strokes or arrangement from the reference.
+Primary request: generate EXACTLY FOUR WHOLE, distinct chicken nuggets, each with its own natural irregular outline and rotation. Golden crispy breadcrumb coating with appetizing warm browning and true photographic microtexture; not plastic, not shiny melted cheese, not cartoon. All nuggets fully intact, no cut halves. Different shapes, not copies of one template.
+Canvas: LANDSCAPE 3:2 aspect ratio, 1536x1024 pixels, genuinely transparent RGBA. Use the entire wide canvas for positioning, NOT a centered tightly cropped square cluster.
+Precise composition, all coordinates percentages of the whole canvas:
+1) a large tilted nugget centered at x17%, y18%, approximate longest dimension330px. Tilt diagonally about -30 degrees.
+2) a medium almost-horizontal nugget centered at x46%, y12%, approximate longest dimension300px.
+3) a somewhat smaller differently rotated nugget centered at x78%, y13%, approximate longest dimension250px, tilted about +25 degrees.
+4) a medium nearly vertical nugget centered at x16%, y61%, approximate longest dimension300px.
+The upper three occupy only the upper band, y less than32%. The fourth occupies the far left strip, x less than32%. Entire lower-right area x>32% AND y>32% must be COMPLETELY EMPTY AND TRANSPARENT: this is a protected slot where a separate hen layer will later be placed. Do not fill that slot with anything.
+Nuggets do not overlap or touch. Clear transparent air between all actual food silhouettes. Each visible shape must be distinct, sharply focused and realistically lit with consistent soft studio light. Moderate food sizes as specified, not enormous.
+Background: true alpha=0 in ALL empty space, including between nuggets and all lower-right empty region. No white/cream matte, translucent clouds, bloom, glow, shadow fields, paper backdrop or checkerboard baked in. Crisp clean silhouettes and highly detailed crisp crumb edges.
+Absolutely NO hen or bird, no drawn characters, no sauce, no bowl, no plate, no herbs, no vegetables, no loose crumbs, no orange/red strokes or accents, no arcs, no text, no logo, no packaging, no utensils, no watermark. Only FOUR fully separated whole nuggets on real transparency.

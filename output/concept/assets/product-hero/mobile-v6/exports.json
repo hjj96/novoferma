@@ -1,0 +1,49 @@
+{
+  "mode": "builtin-imagegen",
+  "masterPixels": [
+    1254,
+    1254
+  ],
+  "webpPixels": [
+    960,
+    960
+  ],
+  "quality": 92,
+  "files": {
+    "fibriki": {
+      "master": "fibriki-master.png",
+      "masterSha256": "7c5a18573e9a216fd087bad46c327c0958ac49916e42c08e0c86ee0cd4a7c717",
+      "webp": "fibriki.webp",
+      "webpSha256": "d0c77d13d051b2db3eba269f9f59c417c34fdc59616a5acfb9eec50475f0e67b",
+      "bytes": 272412
+    },
+    "meatballs": {
+      "master": "meatballs-basketball-master.png",
+      "masterSha256": "34c97af238a80ea3479b32f53243756446af4092b67a514b4c9ae6d186f45b6e",
+      "webp": "meatballs.webp",
+      "webpSha256": "7010faecdb1500f474f4ad0fcec77c762eca98554060d6bece3615bf9b972525",
+      "bytes": 266780
+    },
+    "nuggets": {
+      "master": "nuggets-no-shadow-master.png",
+      "masterSha256": "9d2eadee426bf6f1031487139e591aeee226517fbee89562b9b1905f38dc1c6b",
+      "webp": "nuggets.webp",
+      "webpSha256": "915a7debac6dfef67329421df131b8df51f4ab0c7ddeb595acf2a674ef7d72a1",
+      "bytes": 213142
+    },
+    "lulia-mini": {
+      "master": "lulia-mini-master.png",
+      "masterSha256": "0668e4ce1056d190086cda556585fd704833fc992250379ab9decdc67ed753ff",
+      "webp": "lulia-mini.webp",
+      "webpSha256": "37db11904441ed63e60c4a63bdeb845a932d45842fc738fb8b20e25c04095a02",
+      "bytes": 289424
+    },
+    "popsy": {
+      "master": "popsy-master.png",
+      "masterSha256": "52afab453598a70e55664202f9a3b1edfb33e7b533067431144775428cdbe7e5",
+      "webp": "popsy.webp",
+      "webpSha256": "056e446756a814f3764354085e91234f9d80408e2a1f32e615615e6a5b169a6b",
+      "bytes": 290646
+    }
+  }
+}

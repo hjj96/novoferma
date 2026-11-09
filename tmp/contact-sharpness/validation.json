@@ -1,0 +1,75 @@
+{
+  "result": [
+    {
+      "width": 1440,
+      "intrinsic": [
+        980,
+        1605
+      ],
+      "box": [
+        518.390625,
+        658.34375
+      ],
+      "density": 2,
+      "retinaHeightSufficient": true,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "intrinsic": [
+        980,
+        1605
+      ],
+      "box": [
+        218.390625,
+        357.65625
+      ],
+      "density": 2,
+      "retinaHeightSufficient": true,
+      "issues": []
+    },
+    {
+      "width": 500,
+      "intrinsic": [
+        980,
+        1605
+      ],
+      "box": [
+        200,
+        327.546875
+      ],
+      "density": 2,
+      "retinaHeightSufficient": true,
+      "issues": []
+    },
+    {
+      "width": 768,
+      "intrinsic": [
+        980,
+        1605
+      ],
+      "box": [
+        330.234375,
+        468.46875
+      ],
+      "density": 2,
+      "retinaHeightSufficient": true,
+      "issues": []
+    },
+    {
+      "width": 1920,
+      "intrinsic": [
+        980,
+        1605
+      ],
+      "box": [
+        620,
+        665.09375
+      ],
+      "density": 2,
+      "retinaHeightSufficient": true,
+      "issues": []
+    }
+  ],
+  "errors": []
+}

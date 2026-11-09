@@ -1,0 +1,12 @@
+partners=crumb('Партнёрам')+f'''<section class="partners-business" aria-labelledby="partners-heading"><div class="wrap partners-business-inner">
+<div class="partners-business-top"><p class="eyebrow">Новоферма для бизнеса</p><p class="partners-business-directions">Розница <span>·</span> HoReCa <span>·</span> СТМ</p></div>
+<h1 id="partners-heading"><span>К делу.</span> <em>Со вкусом.</em></h1>
+<div class="partners-business-bottom"><p class="partners-business-description">Производим продукты из курицы и&nbsp;индейки.<br>Для вашего ассортимента, меню<br class="partners-desktop-break"> и&nbsp;собственной марки.</p><div class="partners-business-actions"><a class="partners-primary" href="#partner-contact"><span>Обсудить сотрудничество</span><span class="partners-action-arrow" aria-hidden="true">{arrow()}</span></a><a class="partners-text-link" href="catalogue.html">Смотреть каталог{arrow()}</a></div></div>
+</div></section>
+<section class="partners-private-label" id="private-label" aria-labelledby="stm-heading"><div class="wrap partners-stm-inner">
+<div class="partners-stm-heading"><p class="eyebrow">Производство под вашей маркой</p><h2 id="stm-heading">Ваш бренд.<br><em>Наш продукт.</em></h2></div>
+<div class="partners-stm-content"><p class="partners-stm-description">Вы развиваете бренд.<br>Мы производим продукт.</p><p class="partners-stm-detail">Продукты из курицы и&nbsp;индейки под вашей торговой маркой. Обсудим ассортимент и&nbsp;условия для вашего проекта.</p><a class="partners-stm-button" href="#partner-contact" data-partner-format="stm"><span>Обсудить СТМ</span><span class="partners-action-arrow" aria-hidden="true">{arrow()}</span></a></div>
+</div></section>
+<section class="partners-contact" id="partner-contact" aria-labelledby="partner-contact-heading"><div class="wrap partners-contact-inner"><div class="partners-contact-copy"><p class="eyebrow">Обсудим сотрудничество</p><h2 id="partner-contact-heading">Начнём<br>с разговора.</h2><p class="partners-contact-description">Расскажите о вашем бизнесе.<br>Подберём тему для первого разговора:<br class="partners-desktop-break"> ассортимент, поставки или СТМ.</p><div class="partners-direct"><span class="partners-direct-label">Отдел приёма заказов</span><a class="partners-direct-email" href="mailto:zakaz@novoferma.ru">zakaz@novoferma.ru{arrow()}</a><a class="partners-direct-phone" href="tel:+79312135550">+7 (931) 213-55-50</a></div></div>
+__FORM__
+</div></section>'''

@@ -1,0 +1,48 @@
+{
+  "page": "about.html",
+  "source": "scripts/brand_about.py",
+  "stylesheet": "output/concept/about-refinement.css",
+  "staticChecks": "23 pages, zero errors",
+  "interactionChecks": "23/23 passed in source and packaged snapshot",
+  "responsiveChecks": [
+    {
+      "clippedText": [],
+      "documentWidth": 320,
+      "width": 320
+    },
+    {
+      "clippedText": [],
+      "documentWidth": 390,
+      "width": 390
+    },
+    {
+      "clippedText": [],
+      "documentWidth": 768,
+      "width": 768
+    },
+    {
+      "clippedText": [],
+      "documentWidth": 1024,
+      "width": 1024
+    },
+    {
+      "clippedText": [],
+      "documentWidth": 1440,
+      "width": 1440
+    }
+  ],
+  "browserChecks": [
+    "All content images loaded",
+    "Mobile menu opens and closes",
+    "Intro CTA reaches story section",
+    "Published page inspected at permanent URL"
+  ],
+  "publication": {
+    "url": "https://novoferma-team-preview.vercel.app/about.html",
+    "deploymentId": "dpl_J9PcTNfr8sP37h4JuAhnK8RCmatu",
+    "sourceCommit": "9d7693710171ee8a4764f93a231d46b175cd4455",
+    "state": "READY",
+    "versionAndNoindexVerification": "pass"
+  },
+  "rendering": "Only about.html rendered with existing build_site.py helpers; full generator was not run."
+}

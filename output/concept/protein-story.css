@@ -1,4 +1,12 @@
 /* All type stays live. The approved scene is assembled from independent layers. */
+@font-face {
+ font-family:'Novoferma Protein';
+ src:url('assets/fonts/RobotoFlex-Protein.woff2') format('woff2');
+ font-weight:850;
+ font-stretch:normal;
+ font-style:normal;
+ font-display:swap;
+}
 .protein-poster {
  background:#d8dca1;
  background-image:radial-gradient(ellipse at 38% 45%,#e1e5b4 0,#d8dca1 70%,#d1d89b 100%);
@@ -67,16 +75,6 @@
  transform:rotate(-12deg);
  margin:0;
 }
-.protein-caption-arrow {
- position:absolute;
- width:4.5cqw;
- height:6.5cqw;
- left:-2.1cqw;
- top:100%;
- background:currentColor;
- mask:url('assets/icons/arrow-up-right.svg') center / 100% 100% no-repeat;
- transform:rotate(180deg);
-}
 @media(max-width:899px) {
  .protein-poster-inner {aspect-ratio:auto;padding-bottom:14%}
  .protein-poster-copy {width:100%;padding:10.7% 7.7% 0}
@@ -87,5 +85,4 @@
  .protein-food {width:62.5%;left:2.5%;bottom:0}
  .protein-hen {width:49.5%;right:.2%;bottom:1%}
  .protein-poster-caption {left:43%;top:0;font-size:7.2cqw;line-height:.9}
- .protein-caption-arrow {width:10cqw;height:17cqw;left:-8cqw;top:92%}
 }

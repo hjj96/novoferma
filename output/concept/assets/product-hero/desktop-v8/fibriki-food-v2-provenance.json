@@ -1,0 +1,12 @@
+{
+  "mode": "builtin-imagegen",
+  "operation": "remove exterior shadows only; native generative edit, not a pixel-identical patch",
+  "source": "fibriki-food-master.png",
+  "master": "fibriki-food-v2-master.png",
+  "prompt": "fibriki-food-v2-prompt.txt",
+  "generatedFile": "exec-bb7948e8-3249-4456-b2d9-202c2aacfe02.png",
+  "pixels": [
+    1254,
+    1254
+  ]
+}

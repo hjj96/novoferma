@@ -1,0 +1,112 @@
+{
+  "site_page": "output/concept/catalogue.html",
+  "observed_browser": "http://127.0.0.1:8765/catalogue.html",
+  "scope": "15 approved catalogue products; no extra Fibriki/Lulia added",
+  "records": [
+    {
+      "slug": "kotlety-kurinye",
+      "site_html_src": "assets/responsive/packshots/kotlety-kurinye-800-q94-a1ed2899.webp",
+      "source_path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/responsive/packshots/kotlety-kurinye-800-q94-a1ed2899.webp",
+      "pdf_asset": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/kotlety-kurinye.webp",
+      "sha256": "2739408672a7508ed93a62c567c5bad5d016fd8c6a1f6fed7923377a22654002"
+    },
+    {
+      "slug": "bitochki-kurinye-s-ovoshchami",
+      "site_html_src": "assets/responsive/packshots/bitochki-kurinye-s-ovoshchami-800-q94-5db59691.webp",
+      "source_path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/responsive/packshots/bitochki-kurinye-s-ovoshchami-800-q94-5db59691.webp",
+      "pdf_asset": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/bitochki-kurinye-s-ovoshchami.webp",
+      "sha256": "a85f97f2ae45c50c0d6e94fb1df7f8e2d716cd012ffcb04f1baef157e5bfcd8b"
+    },
+    {
+      "slug": "ezhiki-iz-tsyplenka-s-risom",
+      "site_html_src": "assets/responsive/packshots/ezhiki-iz-tsyplenka-s-risom-800-q94-1d1a2e59.webp",
+      "source_path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/responsive/packshots/ezhiki-iz-tsyplenka-s-risom-800-q94-1d1a2e59.webp",
+      "pdf_asset": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/ezhiki-iz-tsyplenka-s-risom.webp",
+      "sha256": "5be581e202b1be28fdd671fac794ce7983f2ad6a85b1bee3daa9bd71cf4d3043"
+    },
+    {
+      "slug": "kurinyj-popkorn",
+      "site_html_src": "assets/responsive/packshots/kurinyj-popkorn-800-q94-d707c51a.webp",
+      "source_path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/responsive/packshots/kurinyj-popkorn-800-q94-d707c51a.webp",
+      "pdf_asset": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/kurinyj-popkorn.webp",
+      "sha256": "b4c076806311482936ef33b2bf29e4147bd55a0d0287f5cb90b4c73848487e6a"
+    },
+    {
+      "slug": "naggetsy-kurinye",
+      "site_html_src": "assets/responsive/packshots/naggetsy-kurinye-800-q94-712fb649.webp",
+      "source_path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/responsive/packshots/naggetsy-kurinye-800-q94-712fb649.webp",
+      "pdf_asset": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/naggetsy-kurinye.webp",
+      "sha256": "40ea54c6ef0d3467901d3baf3b207cfb409532c5664024ba1950685b86953987"
+    },
+    {
+      "slug": "naggetsy-kurinye-s-syrom",
+      "site_html_src": "assets/responsive/packshots/naggetsy-kurinye-s-syrom-800-q94-070a49d8.webp",
+      "source_path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/responsive/packshots/naggetsy-kurinye-s-syrom-800-q94-070a49d8.webp",
+      "pdf_asset": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/naggetsy-kurinye-s-syrom.webp",
+      "sha256": "04bd460259053bee0eb54c9f6024fd7f866042c684b0d628b5471fa1119248ff"
+    },
+    {
+      "slug": "naggetsy-dinozavry",
+      "site_html_src": "assets/responsive/packshots/naggetsy-dinozavry-800-q94-d8f755c7.webp",
+      "source_path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/responsive/packshots/naggetsy-dinozavry-800-q94-d8f755c7.webp",
+      "pdf_asset": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/naggetsy-dinozavry.webp",
+      "sha256": "6f75a2156d17c581421043003d31600a20395df88044fff42434bf6ad8c4c092"
+    },
+    {
+      "slug": "naggetsy-ostrye",
+      "site_html_src": "assets/responsive/packshots/naggetsy-ostrye-800-q94-d5c86a9d.webp",
+      "source_path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/responsive/packshots/naggetsy-ostrye-800-q94-d5c86a9d.webp",
+      "pdf_asset": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/naggetsy-ostrye.webp",
+      "sha256": "e13b5fcc62e57056c4a8cc01b66497f4c459253974592315ec22c09fbc41ce0c"
+    },
+    {
+      "slug": "naggetsy-s-indeykoy-fitnes",
+      "site_html_src": "assets/responsive/packshots/naggetsy-s-indeykoy-fitnes-800-q94-68b47a02.webp",
+      "source_path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/responsive/packshots/naggetsy-s-indeykoy-fitnes-800-q94-68b47a02.webp",
+      "pdf_asset": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/naggetsy-s-indeykoy-fitnes.webp",
+      "sha256": "f935fbcfb9780f2ad4a7200a92ba91a0d51032b9166d6fb9eb244b8b14a2ff9c"
+    },
+    {
+      "slug": "stripsy",
+      "site_html_src": "assets/responsive/packshots/stripsy-800-q94-04f43af0.webp",
+      "source_path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/responsive/packshots/stripsy-800-q94-04f43af0.webp",
+      "pdf_asset": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/stripsy.webp",
+      "sha256": "a65219aa93b826bbb2958b59faf82a603c0de516f3d8fd6333537a2eb1fc2f8d"
+    },
+    {
+      "slug": "kotlety-po-domashnemu",
+      "site_html_src": "assets/responsive/packshots/kotlety-po-domashnemu-800-q94-4b30908e.webp",
+      "source_path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/responsive/packshots/kotlety-po-domashnemu-800-q94-4b30908e.webp",
+      "pdf_asset": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/kotlety-po-domashnemu.webp",
+      "sha256": "4ef90cf6056eeece572b606fe5914ac247ec804908d34d2dccac9caff441db5c"
+    },
+    {
+      "slug": "kotlety-pikantnye",
+      "site_html_src": "assets/responsive/packshots/kotlety-pikantnye-800-q94-aed06aa1.webp",
+      "source_path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/responsive/packshots/kotlety-pikantnye-800-q94-aed06aa1.webp",
+      "pdf_asset": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/kotlety-pikantnye.webp",
+      "sha256": "b30a469be1997c0ee7e7d4948cdcf3e789cc444362426607dabbc4bef79a94e3"
+    },
+    {
+      "slug": "kotlety-po-italyanski",
+      "site_html_src": "assets/responsive/packshots/kotlety-po-italyanski-800-q94-4e765a90.webp",
+      "source_path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/responsive/packshots/kotlety-po-italyanski-800-q94-4e765a90.webp",
+      "pdf_asset": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/kotlety-po-italyanski.webp",
+      "sha256": "97f57331b1b943fd7692356acd927aa15f2f3c56c96125b4ecd649df8beae0ee"
+    },
+    {
+      "slug": "frikadelki-klassicheskie",
+      "site_html_src": "assets/responsive/packshots/frikadelki-klassicheskie-800-q94-e0ef4bbb.webp",
+      "source_path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/responsive/packshots/frikadelki-klassicheskie-800-q94-e0ef4bbb.webp",
+      "pdf_asset": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/frikadelki-klassicheskie.webp",
+      "sha256": "a012214131552711fc27b0c94d9caa8108bc2651ce5dfb12ad575b5db9c45dd9"
+    },
+    {
+      "slug": "popsy",
+      "site_html_src": "assets/responsive/packshots/popsy-pack-v4-800-q94-36e1736c.webp",
+      "source_path": "/Users/andrey/Desktop/сайт нф/output/concept/assets/responsive/packshots/popsy-pack-v4-800-q94-36e1736c.webp",
+      "pdf_asset": "/Users/andrey/Desktop/сайт нф/output/brochure-v11/assets/site-packshots/popsy.webp",
+      "sha256": "d48bfa34824f0572a8c45c1e88172211607f1afee12b27a6099fbc3f5c344bcc"
+    }
+  ]
+}

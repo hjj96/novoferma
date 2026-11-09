@@ -1,0 +1,132 @@
+{
+  "hen": {
+    "file": "output/concept/assets/product-hero/desktop-v7/meatballs-hen-master.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alpha0": 721928,
+    "alphaOver128": 826392,
+    "bboxOver128": [
+      76,
+      18,
+      1220,
+      1233
+    ],
+    "components": [
+      {
+        "area": 826392,
+        "bbox": [
+          76,
+          18,
+          1220,
+          1233
+        ],
+        "size": [
+          1144,
+          1215
+        ],
+        "centroid": [
+          649.0,
+          618.1
+        ]
+      }
+    ]
+  },
+  "food": {
+    "file": "output/concept/assets/product-hero/desktop-v7/meatballs-food-master.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      254
+    ],
+    "alpha0": 1278527,
+    "alphaOver128": 274940,
+    "bboxOver128": [
+      41,
+      18,
+      1238,
+      842
+    ],
+    "components": [
+      {
+        "area": 101302,
+        "bbox": [
+          41,
+          480,
+          411,
+          842
+        ],
+        "size": [
+          370,
+          362
+        ],
+        "centroid": [
+          225.9,
+          662.9
+        ]
+      },
+      {
+        "area": 58221,
+        "bbox": [
+          83,
+          92,
+          362,
+          362
+        ],
+        "size": [
+          279,
+          270
+        ],
+        "centroid": [
+          222.8,
+          228.0
+        ]
+      },
+      {
+        "area": 73361,
+        "bbox": [
+          474,
+          18,
+          793,
+          318
+        ],
+        "size": [
+          319,
+          300
+        ],
+        "centroid": [
+          631.0,
+          167.9
+        ]
+      },
+      {
+        "area": 42056,
+        "bbox": [
+          999,
+          69,
+          1238,
+          298
+        ],
+        "size": [
+          239,
+          229
+        ],
+        "centroid": [
+          1117.9,
+          183.4
+        ]
+      }
+    ],
+    "reservedRegionAlphaOver32": 0
+  }
+}

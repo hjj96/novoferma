@@ -1,0 +1,18 @@
+{
+  "url": "https://novoferma-team-preview.vercel.app",
+  "deploymentId": "dpl_2sNmNA8wCByXAXQXdGrw9Z62crbu",
+  "deploymentUrl": "https://novoferma-team-preview-g11u0ctx0-andreis-projects-3e7c2c72.vercel.app",
+  "state": "READY",
+  "sourceCommit": "4f4b0b00dd8cd5b3d51da9411ceedfafbaa85b05",
+  "contentSha256": "06ae05dabab3ef8a4c3cab879eac93fae86de5972b2569ce7d511b164a0cd706",
+  "updatedAt": "2026-11-08T15:03:54.941940+03:00",
+  "nativeDeploymentVerified": "READY; matching Git commit and permanent alias",
+  "browserSmoke": [
+    "Desktop Popsy: creamrgb249239220, food-v3,0 shadowlayers",
+    "Mobile Nuggets: mobile-v6, nooverflow",
+    "Browser console:0errors"
+  ],
+  "prepareResult": "Already published; runtime content hash matches, duplicate deployment skipped",
+  "sourceChecks": 25,
+  "responsiveStates": 50
+}

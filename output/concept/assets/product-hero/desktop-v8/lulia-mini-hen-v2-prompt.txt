@@ -1,0 +1,23 @@
+Built-in ImageGen; 2026-11-08.
+Master character identity: output/concept/assets/product-hero/mobile-v4/fibriki-v5-master.png
+Packaging story reference: output/concept/assets/novelty-packaging/lulia-mini-pack-v3.webp
+One native generation; no image edits or website integration.
+
+Use case: identity-preserve / illustration-story.
+Asset type: premium hand-illustrated Novoferma LIFESTYLE MASCOT SCENE, isolated transparent square PNG, intended1254×1254.
+
+REFERENCE ROLES:
+Image1 is the SINGLE MASTER CHARACTER IDENTITY AND DRAWING STYLE. The scene MUST use this exact recognizable adult warm-hearted broad-bodied hen: same mature facial proportions, large nearer eye and tiny farther eye, cream pointed beak, red-orange five-lobed comb and red wattle, plump warm yellow feathered body, saturated orange wings, crisp expressive black hand-inked contour, delicate inner feather strokes and fine orange-yellow watercolor/pencil fill. Match line weight, detailing density and warm rich palette. Do not invent a new face or a skinny younger chick, do not make two huge equal eyes, do not flatten into simple vector clipart, do not render it as a3D bird.
+Image2 is a PRODUCT PACKAGING STORY REFERENCE ONLY. Use it to understand a character performing an activity. Do NOT copy the different older packaging drawing style or face, logos, words, packaging, realistic food or its layout.
+
+PRIMARY QUALITY:
+Create a true distinctive lifestyle vignette of this SAME hen DOING SOMETHING, like a charming detailed premium packaging illustration. NOT another generic jumping/tossing pose. Big character, warm inviting facial expression, strong silhouette and exquisite crisp black drawing with richly colored watercolor details. Full character with every toe, wing tip, comb, outfit part and prop fully inside the square. The complete scene fills roughly90% of the canvas with safe4–5% margins. Hen itself is the main scene object and occupies at least75–80% of canvas height; do not shrink the hen to accommodate props. Props and clothing are also HAND DRAWN in exactly the same medium, NEVER photographic or3D. Clear, carefully drawn hands/wings and believable contact with props.
+
+BACKGROUND / EXCLUSIONS:
+Genuine alpha transparency everywhere outside character and props, also through internal gaps. Keep white clothing/eye whites opaque. No floor, ground plane, environment, kitchen, patio, background rectangle, vignette, halo, haze, glow or cast ground shadows. Absolutely NO FOOD of any kind, no meatballs, no sausages, nuggets or ingredients, no garnish, no text, logos, labels, packaging or decorative motion strokes. The real photographic food is a separate asset; this image contains ONLY the illustrated character and specified EMPTY props. High native detail, not blurred/upscaled edges.
+SCENARIO — MINI-LULIA GRILL MASTER:
+The adult hen is a cheerful confident grill master in a stylish DEEP FOREST GREEN apron, with a small RUST-RED BANDANA tied at the neck. Face remains the exact character from image1; outfit is intentionally changed for this grill activity.
+She stands in a lively grounded three-quarter stance, body slightly turned with one leg/knee half-turned forward (a jaunty working stance, not jumping through air). One wing holds a pair of small illustrated silver/charcoal BBQ TONGS raised upward, EMPTY. Other wing gestures warmly toward the little grill. Friendly bright open-beak smile, looking up-left toward the future photographic food area.
+Beside the hen at LOWER LEFT is a SMALL PORTABLE ORANGE-AND-BLACK GRILL, drawn with the same sharp black contour and warm watercolor shading: compact round orange fire bowl, black rim, simple short black legs and an EMPTY clearly visible black grilling grate. The grill occupies only about25% of scene width and must not force the hen smaller; hen remains at least75% of square height. No smoke, no fire flares, no food on grate, no utensils beyond the one pair of tongs, no logos.
+Hen can occupy center/right, with the small grill at left, all fully contained. Rich fine outfit folds, a tiny apron pocket and clear warm feather detail suit premium food packaging. No photorealistic surfaces anywhere.
+

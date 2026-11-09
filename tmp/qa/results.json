@@ -1,0 +1,59 @@
+{
+  "browser": "Google Chrome headless",
+  "results": [
+    {
+      "width": 320,
+      "layout": {
+        "viewport": 320,
+        "doc": 320,
+        "brokenImages": []
+      },
+      "filter": true,
+      "dialog": true,
+      "escape": true,
+      "focusReturned": true,
+      "whereTop": 25.53125
+    },
+    {
+      "width": 375,
+      "layout": {
+        "viewport": 375,
+        "doc": 375,
+        "brokenImages": []
+      },
+      "filter": true,
+      "dialog": true,
+      "escape": true,
+      "focusReturned": true,
+      "whereTop": 25.71875
+    },
+    {
+      "width": 768,
+      "layout": {
+        "viewport": 768,
+        "doc": 768,
+        "brokenImages": []
+      },
+      "filter": true,
+      "dialog": true,
+      "escape": true,
+      "focusReturned": true,
+      "whereTop": 116.234375
+    },
+    {
+      "width": 1440,
+      "layout": {
+        "viewport": 1440,
+        "doc": 1440,
+        "brokenImages": []
+      },
+      "filter": true,
+      "dialog": true,
+      "escape": true,
+      "focusReturned": true,
+      "whereTop": 44.453125
+    }
+  ],
+  "fileMode": true,
+  "errors": []
+}

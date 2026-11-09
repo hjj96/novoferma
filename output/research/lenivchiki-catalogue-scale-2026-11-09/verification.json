@@ -1,0 +1,551 @@
+{
+  "result": "pass",
+  "results": [
+    {
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "products": [
+        {
+          "id": "kotlety-kurinye",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 228.3525,
+          "loaded": true
+        },
+        {
+          "id": "bitochki-kurinye-s-ovoshchami",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 230.59125,
+          "loaded": true
+        },
+        {
+          "id": "ezhiki-iz-tsyplenka-s-risom",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 228.3525,
+          "loaded": true
+        },
+        {
+          "id": "kurinyj-popkorn",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 229.845,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-kurinye",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 225.36749999999998,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-kurinye-s-syrom",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 232.82999999999998,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-dinozavry",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 229.845,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-ostrye",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 229.845,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-s-indeykoy-fitnes",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 228.3525,
+          "loaded": true
+        },
+        {
+          "id": "stripsy",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 229.845,
+          "loaded": true
+        },
+        {
+          "id": "kotlety-po-domashnemu",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 228.3525,
+          "loaded": true
+        },
+        {
+          "id": "kotlety-pikantnye",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 226.85999999999999,
+          "loaded": true
+        },
+        {
+          "id": "kotlety-po-italyanski",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 228.3525,
+          "loaded": true
+        },
+        {
+          "id": "frikadelki-klassicheskie",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 226.85999999999999,
+          "loaded": true
+        },
+        {
+          "id": "fibriki",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 223.875,
+          "loaded": true
+        },
+        {
+          "id": "lenivchiki",
+          "scale": 0.93,
+          "visibleWidth": 273.440925,
+          "visibleHeight": 228.33011249999998,
+          "loaded": true
+        },
+        {
+          "id": "lulia-mini",
+          "scale": 1,
+          "visibleWidth": 274.62,
+          "visibleHeight": 225.36749999999998,
+          "loaded": true
+        },
+        {
+          "id": "popsy",
+          "scale": 1.065,
+          "visibleWidth": 276.575175,
+          "visibleHeight": 225.71077499999998,
+          "loaded": true
+        }
+      ],
+      "widthRatio": 0.9957065217391304,
+      "heightRatio": 0.9999019607843137,
+      "errors": [],
+      "hoverTransformStable": true
+    },
+    {
+      "viewport": 800,
+      "scrollWidth": 800,
+      "products": [
+        {
+          "id": "kotlety-kurinye",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 170.84592,
+          "loaded": true
+        },
+        {
+          "id": "bitochki-kurinye-s-ovoshchami",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 172.52088,
+          "loaded": true
+        },
+        {
+          "id": "ezhiki-iz-tsyplenka-s-risom",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 170.84592,
+          "loaded": true
+        },
+        {
+          "id": "kurinyj-popkorn",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 171.96256000000002,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-kurinye",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 168.61264,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-kurinye-s-syrom",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 174.19584,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-dinozavry",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 171.96256000000002,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-ostrye",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 171.96256000000002,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-s-indeykoy-fitnes",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 170.84592,
+          "loaded": true
+        },
+        {
+          "id": "stripsy",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 171.96256000000002,
+          "loaded": true
+        },
+        {
+          "id": "kotlety-po-domashnemu",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 170.84592,
+          "loaded": true
+        },
+        {
+          "id": "kotlety-pikantnye",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 169.72928000000002,
+          "loaded": true
+        },
+        {
+          "id": "kotlety-po-italyanski",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 170.84592,
+          "loaded": true
+        },
+        {
+          "id": "frikadelki-klassicheskie",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 169.72928000000002,
+          "loaded": true
+        },
+        {
+          "id": "fibriki",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 167.496,
+          "loaded": true
+        },
+        {
+          "id": "lenivchiki",
+          "scale": 0.93,
+          "visibleWidth": 204.57961440000003,
+          "visibleHeight": 170.8291704,
+          "loaded": true
+        },
+        {
+          "id": "lulia-mini",
+          "scale": 1,
+          "visibleWidth": 205.46176000000003,
+          "visibleHeight": 168.61264,
+          "loaded": true
+        },
+        {
+          "id": "popsy",
+          "scale": 1.065,
+          "visibleWidth": 206.9245584,
+          "visibleHeight": 168.8694672,
+          "loaded": true
+        }
+      ],
+      "widthRatio": 0.9957065217391304,
+      "heightRatio": 0.9999019607843137,
+      "errors": [],
+      "hoverTransformStable": true
+    },
+    {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "products": [
+        {
+          "id": "kotlety-kurinye",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 126.225,
+          "loaded": true
+        },
+        {
+          "id": "bitochki-kurinye-s-ovoshchami",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 127.46249999999999,
+          "loaded": true
+        },
+        {
+          "id": "ezhiki-iz-tsyplenka-s-risom",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 126.225,
+          "loaded": true
+        },
+        {
+          "id": "kurinyj-popkorn",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 127.05,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-kurinye",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 124.57499999999999,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-kurinye-s-syrom",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 128.7,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-dinozavry",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 127.05,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-ostrye",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 127.05,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-s-indeykoy-fitnes",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 126.225,
+          "loaded": true
+        },
+        {
+          "id": "stripsy",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 127.05,
+          "loaded": true
+        },
+        {
+          "id": "kotlety-po-domashnemu",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 126.225,
+          "loaded": true
+        },
+        {
+          "id": "kotlety-pikantnye",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 125.39999999999999,
+          "loaded": true
+        },
+        {
+          "id": "kotlety-po-italyanski",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 126.225,
+          "loaded": true
+        },
+        {
+          "id": "frikadelki-klassicheskie",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 125.39999999999999,
+          "loaded": true
+        },
+        {
+          "id": "fibriki",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 123.75,
+          "loaded": true
+        },
+        {
+          "id": "lenivchiki",
+          "scale": 0.93,
+          "visibleWidth": 151.14825,
+          "visibleHeight": 126.21262500000002,
+          "loaded": true
+        },
+        {
+          "id": "lulia-mini",
+          "scale": 1,
+          "visibleWidth": 151.79999999999998,
+          "visibleHeight": 124.57499999999999,
+          "loaded": true
+        },
+        {
+          "id": "popsy",
+          "scale": 1.065,
+          "visibleWidth": 152.88074999999998,
+          "visibleHeight": 124.76474999999998,
+          "loaded": true
+        }
+      ],
+      "widthRatio": 0.9957065217391304,
+      "heightRatio": 0.9999019607843139,
+      "errors": [],
+      "hoverTransformStable": true
+    },
+    {
+      "viewport": 320,
+      "scrollWidth": 320,
+      "products": [
+        {
+          "id": "kotlety-kurinye",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 103.6575,
+          "loaded": true
+        },
+        {
+          "id": "bitochki-kurinye-s-ovoshchami",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 104.67375,
+          "loaded": true
+        },
+        {
+          "id": "ezhiki-iz-tsyplenka-s-risom",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 103.6575,
+          "loaded": true
+        },
+        {
+          "id": "kurinyj-popkorn",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 104.335,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-kurinye",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 102.3025,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-kurinye-s-syrom",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 105.69,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-dinozavry",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 104.335,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-ostrye",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 104.335,
+          "loaded": true
+        },
+        {
+          "id": "naggetsy-s-indeykoy-fitnes",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 103.6575,
+          "loaded": true
+        },
+        {
+          "id": "stripsy",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 104.335,
+          "loaded": true
+        },
+        {
+          "id": "kotlety-po-domashnemu",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 103.6575,
+          "loaded": true
+        },
+        {
+          "id": "kotlety-pikantnye",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 102.98,
+          "loaded": true
+        },
+        {
+          "id": "kotlety-po-italyanski",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 103.6575,
+          "loaded": true
+        },
+        {
+          "id": "frikadelki-klassicheskie",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 102.98,
+          "loaded": true
+        },
+        {
+          "id": "fibriki",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 101.625,
+          "loaded": true
+        },
+        {
+          "id": "lenivchiki",
+          "scale": 0.93,
+          "visibleWidth": 124.12477500000001,
+          "visibleHeight": 103.6473375,
+          "loaded": true
+        },
+        {
+          "id": "lulia-mini",
+          "scale": 1,
+          "visibleWidth": 124.66,
+          "visibleHeight": 102.3025,
+          "loaded": true
+        },
+        {
+          "id": "popsy",
+          "scale": 1.065,
+          "visibleWidth": 125.547525,
+          "visibleHeight": 102.45832499999999,
+          "loaded": true
+        }
+      ],
+      "widthRatio": 0.9957065217391305,
+      "heightRatio": 0.9999019607843138,
+      "errors": [],
+      "hoverTransformStable": true
+    }
+  ],
+  "recommendationScale": 0.93,
+  "detailTransform": "none"
+}

@@ -6,7 +6,7 @@ def esc(value):
     return html.escape(str(value), quote=True)
 
 def where_section(products, retailers, arrow):
-    options=''.join(f'<option value="{esc(p["id"])}">{esc(p["name"])}{(" — "+p["weight"]) if p.get("weight") else " — концепт новинки"}</option>' for p in products)
+    options=''.join(f'<option value="{esc(p["id"])}">{esc(p["name"])}{(" — "+p["weight"]) if p.get("weight") else ""}</option>' for p in products)
     cards=[]
     for r in retailers:
         ids=' '.join(r.get('productIds',[]))

@@ -1,0 +1,7 @@
+const { chromium } = require('/Users/andrey/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs');
+(async()=>{let b=await chromium.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});let rows=[];
+for(let w of [320,375,700,1440])for(let name of ['index','about','partners','where-to-buy','product-frikadelki-klassicheskie']){
+let p=await b.newPage({viewport:{width:w,height:900},reducedMotion:'no-preference'});await p.goto('http://127.0.0.1:8765/output/concept/'+name+'.html');await p.evaluate(()=>document.fonts.ready);await p.waitForTimeout(1100);
+rows.push({page:name,width:w,...await p.evaluate(()=>({cards:[...document.querySelectorAll('.home-product')].map(e=>({title:e.querySelector('h3').textContent,display:getComputedStyle(e).display,visible:e.getClientRects().length>0})),types:[...document.querySelectorAll('.hero h1,.hero-note,.brand-inner h2,.brand-copy .hand,.about-intro .hand,.page-intro .hand,.detail-copy .hand,.partner-contact .contact-details p')].map(e=>{let c=getComputedStyle(e),r=e.getBoundingClientRect();return {text:e.textContent.trim(),family:c.fontFamily,size:c.fontSize,line:c.lineHeight,transform:c.transform,color:c.color,width:r.width,x:r.x,right:r.right}})}))});await p.close();}
+await b.close();fs.writeFileSync('tmp/type-targeted-final.json',JSON.stringify(rows,null,2));console.log(JSON.stringify(rows,null,2));})();

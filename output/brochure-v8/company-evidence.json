@@ -1,0 +1,111 @@
+{
+  "researched_on": "2026-11-07",
+  "purpose": "Private source record for Novoferma B2B presentation v8; no research links or footnotes are intended for visible slides.",
+  "paragraph_ru": "Новоферма — компания из Санкт-Петербурга и производитель замороженных полуфабрикатов из курицы и индейки. Мы делаем котлеты и биточки, фрикадельки, наггетсы, куриный попкорн и стрипсы для магазинов, кафе и ресторанов. В основе продукции — охлаждённое мясо птицы, а прозрачный контейнер показывает продукт до покупки. Партнёрам предлагаем два формата работы: готовую продукцию под брендом Новоферма и выпуск под собственной торговой маркой заказчика.",
+  "recommended_infographic_facts": [
+    {
+      "heading": "Курица и индейка",
+      "caption": "Основа ассортимента",
+      "evidence_ids": ["official_catalogue", "local_about", "owner_brief"]
+    },
+    {
+      "heading": "Охлаждённое сырьё",
+      "caption": "Для замороженных полуфабрикатов",
+      "evidence_ids": ["official_home", "retailer_manufacturer"]
+    },
+    {
+      "heading": "Свой бренд и СТМ",
+      "caption": "Два формата для партнёров",
+      "evidence_ids": ["owner_brief", "local_partners", "retailer_manufacturer"]
+    }
+  ],
+  "optional_packaging_fact": {
+    "heading": "Прозрачный контейнер",
+    "caption": "Продукт видно до покупки",
+    "evidence_ids": ["official_home", "official_catalogue", "local_about"]
+  },
+  "sources": [
+    {
+      "id": "official_home",
+      "url": "https://novoferma.ru/",
+      "type": "company primary source",
+      "access": "Direct web open timed out; official-domain search result was successfully retrieved on 2026-11-07 (crawler reports last month).",
+      "supports": ["Manufacturer of poultry semi-finished products", "Company claims chilled meat, wheat fibre and natural spices", "Transparent packaging", "Company claims Austrian and Italian production equipment"],
+      "limits": "Do not copy the blanket phrase about no additives. Do not turn equipment origin into an independent safety certification or measurable capacity."
+    },
+    {
+      "id": "official_catalogue",
+      "url": "https://novoferma.ru/catalogue",
+      "type": "company primary source",
+      "access": "Official-domain search result successfully retrieved on 2026-11-07; also preserved locally in tmp/research/catalogue.html and output/concept/products.json.",
+      "supports": ["Fourteen public series SKUs", "Chicken and turkey product types", "Container packaging", "Cutlets, patties, meatballs, hedgehogs, nuggets, chicken popcorn and strips"],
+      "limits": "Public original site does not include the newly owner-added Popsy, Fibriki or Lulia mini; do not replace the owner's current assortment with the old public list."
+    },
+    {
+      "id": "official_contacts",
+      "url": "https://novoferma.ru/contact",
+      "type": "company primary source",
+      "access": "Official-domain search result successfully retrieved on 2026-11-07.",
+      "supports": ["Company contact address in Saint Petersburg, Gorelovo, Zarechnaya 2", "Order department: zakaz@novoferma.ru and +7 (931) 213-55-50"],
+      "limits": "A contact address alone is not proof of the exact legal or manufacturing address."
+    },
+    {
+      "id": "local_about",
+      "path": "output/concept/about.html",
+      "type": "Current workspace company concept, owner-controlled project",
+      "supports": ["Company from Saint Petersburg", "Frozen chicken and turkey semi-finished products", "Transparent containers", "Chilled poultry raw material"],
+      "limits": "The local site is a working company concept, not the current public novoferma.ru production deployment."
+    },
+    {
+      "id": "local_partners",
+      "paths": ["output/concept/partners.html", "scripts/build_site.py"],
+      "type": "Current workspace company concept, supported by owner's explicit brief",
+      "supports": ["Own-brand assortment for shops, cafes and restaurants", "Private-label production", "Retail, HoReCa and STM request routes"]
+    },
+    {
+      "id": "owner_brief",
+      "type": "Direct company-owner instructions in this conversation",
+      "supports": ["Frozen semi-finished foods", "Chicken and turkey", "Fifteen catalogue products including Popsy, plus separate Fibriki innovation slide", "Own brand and adapted customer-brand packaging/STM", "Commercial audience of potential partners"],
+      "limits": "Use latest owner scope. Fifteen in the presentation catalogue does not mean fifteen products across all company capabilities."
+    },
+    {
+      "id": "retailer_manufacturer",
+      "url": "https://vkusvill.ru/goods/romshteks-appetitnyy-s-zelenyu-20790/",
+      "type": "Retailer primary product card",
+      "access": "Opened successfully on 2026-11-07; crawler reports three weeks ago.",
+      "supports": ["Frozen poultry product under VkusVill branding", "OOO NOVOFERMA identified as manufacturer", "Chilled chicken breast and wheat fibre stated in description/ingredients", "Manufacturer address in Gorelovo industrial zone, Leningrad region"],
+      "limits": "Do not transfer nutrition, shelf life, instructions or formulation of this 480 g retailer SKU to the Novoferma-branded range. Do not infer nationwide availability or a general current commercial contract."
+    },
+    {
+      "id": "branding_history",
+      "url": "https://otvetdesign.ru/novoferma",
+      "type": "Primary case study by branding agency",
+      "access": "Opened successfully on 2026-11-07; crawler reports last month.",
+      "supports": ["Designed packaging with food photographs and authorial poultry characters", "Historical B2B-to-retail branding context"],
+      "limits": "Historical mention of KFC does not confirm any current KFC/Rostic's supply. Do not add this historical client reference to slides without owner's separate choice."
+    }
+  ],
+  "assortment_count_caution": {
+    "original_official_public_catalogue": 14,
+    "requested_presentation_catalogue": 15,
+    "separate_fibriki_slide": 1,
+    "current_local_website_catalogue": 17,
+    "reason": "Local site includes Fibriki, Lulia mini and Popsy in addition to the original fourteen. Avoid a headline claiming the company's complete assortment consists of fifteen products."
+  },
+  "useful_b2b_gaps_not_to_invent": [
+    "Actual production capacity and available volume",
+    "MOQ, master-case quantities, GTIN and palletization",
+    "Commercial shelf life, cold chain and lead times for each SKU",
+    "Current quality documentation and authorized manufacturing photographs",
+    "Confirmed supply geography and delivery arrangements",
+    "Exact boundaries of STM service: formulation, development, samples, packaging and approval schedule"
+  ],
+  "do_not_add_to_this_intro": [
+    "Unverified years of production experience inferred from legal registration date",
+    "Current KFC/Rostic's relationships",
+    "Blanket absence-of-additives or health claims",
+    "Austrian/Italian equipment as proof of safety or certifications",
+    "Retailer nutrition or storage values copied across products",
+    "A full technical supplier checklist on a short brand introduction slide"
+  ]
+}

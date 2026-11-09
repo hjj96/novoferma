@@ -1,0 +1,40 @@
+{
+  "file": "pops-bucket-mascot-v2.png",
+  "tool": "Built-in ImageGen",
+  "date": "2026-11-05",
+  "status": "supporting asset, not yet integrated into website or deck",
+  "prompt": "pops-bucket-mascot-v2.prompt.txt",
+  "cleanupPrompt": "pops-bucket-mascot-v2-cleanup.prompt.txt",
+  "references": [
+    "output/concept/assets/catalogue-clean-v2/stripsy.webp",
+    "output/concept/assets/novelty-packaging/fibriki-pack-v11.webp"
+  ],
+  "generationNative": "/Users/andrey/.codex/generated_images/01a1ac4a-026c-7053-9959-646ffe27df52/exec-a9116d16-30a7-4ee2-b860-38ad134ac788.png",
+  "cleanupNative": "/Users/andrey/.codex/generated_images/01a1ac4a-026c-7053-9959-646ffe27df52/exec-e1f2853c-97ce-4562-991b-daa6f5a02e43.png",
+  "attempts": {
+    "generation": 1,
+    "correction": 1
+  },
+  "sha256": "e78868f81ad9b8e9dd6d936056c662856998106be57729b133744f6f77effc8d",
+  "metrics": {
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaZeroPixels": 836156,
+    "alphaOpaquePixels": 771,
+    "bboxAlpha128": [
+      33,
+      154,
+      1220,
+      1082
+    ],
+    "alphaNonzeroBorderPixels": 0
+  },
+  "review": "Style substantially closer to Fibriki/Stripsy: sly narrow-eyed full-body ink/watercolor hen, feathered wing nudges dominant bucket. Tiny residual colored alpha fringe remains at extreme silhouette; use warm cream brand backgrounds and inspect before dark-background use. Requested native 2048+ but built-in returned 1254 square; no artificial upscale."
+}

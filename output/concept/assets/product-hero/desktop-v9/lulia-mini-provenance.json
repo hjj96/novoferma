@@ -1,0 +1,59 @@
+{
+  "created": "2026-11-09",
+  "method": "native image_gen imagegen; one generation; referenced images used for style and real product identity",
+  "generated_source": "/Users/andrey/.codex/generated_images/01a1ab8e-30b9-7c40-8344-e020f02641ab/exec-b9c08c7d-a213-4144-8174-61be10e4632f.png",
+  "saved_asset": "/Users/andrey/Desktop/сайт нф/output/concept/assets/product-hero/desktop-v9/lulia-mini-master.png",
+  "references": [
+    "/Users/andrey/Desktop/сайт нф/output/concept/assets/product-hero/desktop-v8/popsy-hen-v3-master.png",
+    "/Users/andrey/Desktop/сайт нф/output/concept/assets/product-hero/desktop-v8/lulia-mini-food-v2-master.png"
+  ],
+  "exact_prompt_file": "/Users/andrey/Desktop/сайт нф/output/concept/assets/product-hero/desktop-v9/lulia-mini-prompt.txt",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "alpha_bboxes": {
+    "1": [
+      2,
+      21,
+      1253,
+      1230
+    ],
+    "16": [
+      19,
+      31,
+      1241,
+      1223
+    ],
+    "64": [
+      19,
+      31,
+      1241,
+      1223
+    ],
+    "128": [
+      19,
+      31,
+      1241,
+      1222
+    ]
+  },
+  "sha256": "0cdbd590c8c2d4d21b9d4dc2dcef095815c01f957d359c8608cdc75e9b886b34",
+  "qa_cream_composite": "/Users/andrey/Desktop/сайт нф/tmp/lulia-v9-cream.jpg",
+  "visual_qa": {
+    "food_count": 3,
+    "supported_food": "One large whole photographic Lulia visibly supported by continuous gripped metal spatula; two smaller whole Lulia supported by grill grate.",
+    "style": "Crisp warm ink illustration with photographic food, forest-green apron and coral neckerchief.",
+    "exterior_shadows": "No intentional exterior cast or ground/contact shadow; internal food/utensil/grate shading retained.",
+    "limitations": [
+      "Scene is taller than the requested broad 1200x900 target; actual alpha bbox recorded.",
+      "Feathers remain a vivid warm golden yellow closer to the Popsy source rather than a heavily muted ochre.",
+      "Fine meat surface includes visible pale minced granules; no free parsley or extraneous food."
+    ]
+  }
+}

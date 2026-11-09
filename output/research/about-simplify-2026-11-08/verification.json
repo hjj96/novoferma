@@ -1,0 +1,152 @@
+{
+  "scope": "About page simplification",
+  "sections": 4,
+  "changedHtmlPages": [
+    "about.html"
+  ],
+  "removed": [
+    "hero microcopy and captions",
+    "three principles",
+    "lifestyle photo sections",
+    "packaging section",
+    "mascot finale"
+  ],
+  "newSections": [
+    "clean hero",
+    "company with equal paragraphs",
+    "shared catalogue cards",
+    "orange partner CTA"
+  ],
+  "responsiveChecks": [
+    {
+      "documentWidth": 320,
+      "heroCopyRight": 304,
+      "heroImageLeft": 16,
+      "storyParagraphs": [
+        {
+          "color": "rgb(64, 35, 18)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "24.8px",
+          "size": "16px",
+          "weight": "450"
+        },
+        {
+          "color": "rgb(64, 35, 18)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "24.8px",
+          "size": "16px",
+          "weight": "450"
+        }
+      ],
+      "textOutsideViewport": [],
+      "width": 320
+    },
+    {
+      "documentWidth": 390,
+      "heroCopyRight": 370,
+      "heroImageLeft": 20,
+      "storyParagraphs": [
+        {
+          "color": "rgb(64, 35, 18)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "26.35px",
+          "size": "17px",
+          "weight": "450"
+        },
+        {
+          "color": "rgb(64, 35, 18)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "26.35px",
+          "size": "17px",
+          "weight": "450"
+        }
+      ],
+      "textOutsideViewport": [],
+      "width": 390
+    },
+    {
+      "documentWidth": 768,
+      "heroCopyRight": 411.8203125,
+      "heroImageLeft": 443.8203125,
+      "storyParagraphs": [
+        {
+          "color": "rgb(64, 35, 18)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "27.9px",
+          "size": "18px",
+          "weight": "450"
+        },
+        {
+          "color": "rgb(64, 35, 18)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "27.9px",
+          "size": "18px",
+          "weight": "450"
+        }
+      ],
+      "textOutsideViewport": [],
+      "width": 768
+    },
+    {
+      "documentWidth": 1024,
+      "heroCopyRight": 556.515625,
+      "heroImageLeft": 588.515625,
+      "storyParagraphs": [
+        {
+          "color": "rgb(64, 35, 18)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "27.9px",
+          "size": "18px",
+          "weight": "450"
+        },
+        {
+          "color": "rgb(64, 35, 18)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "27.9px",
+          "size": "18px",
+          "weight": "450"
+        }
+      ],
+      "textOutsideViewport": [],
+      "width": 1024
+    },
+    {
+      "documentWidth": 1440,
+      "heroCopyRight": 772.8671875,
+      "heroImageLeft": 828.8671875,
+      "storyParagraphs": [
+        {
+          "color": "rgb(64, 35, 18)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "34.1px",
+          "size": "22px",
+          "weight": "450"
+        },
+        {
+          "color": "rgb(64, 35, 18)",
+          "font": "\"Novoferma Sans\", Arial, sans-serif",
+          "lineHeight": "34.1px",
+          "size": "22px",
+          "weight": "450"
+        }
+      ],
+      "textOutsideViewport": [],
+      "width": 1440
+    }
+  ],
+  "browserChecks": [
+    "intro anchor works",
+    "catalogue CTA opens catalogue",
+    "four cards visible on mobile",
+    "partner link resolves"
+  ],
+  "package": "prepared-site.zip",
+  "packageSha256": "a1f3aae525090c16423f595e3a6ec9a021c9a77ba03cba9909ce10679390c6df",
+  "publication": {
+    "status": "blocked-before-push",
+    "permanentUrl": "https://novoferma-team-preview.vercel.app/about.html",
+    "permanentUrlStillPreviousVersion": true,
+    "reason": "Baseline homepage has 4 slides while pre-existing updated checks expect fifth Popsy slide. About-only source and links pass.",
+    "log": "publish-attempt.log"
+  }
+}

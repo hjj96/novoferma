@@ -1,0 +1,21 @@
+{
+  "family": "Rubik Light",
+  "style": "Regular",
+  "axes": [
+    {
+      "tag": "wght",
+      "min": 300.0,
+      "default": 300.0,
+      "max": 900.0
+    }
+  ],
+  "sourceGlyphs": 885,
+  "subsetGlyphs": 583,
+  "bytes": 65868,
+  "russianMissing": [],
+  "latinMissing": [],
+  "punctuationMissing": [
+    "↗"
+  ],
+  "allSourceCyrillicRetained": true
+}

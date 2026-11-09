@@ -1,0 +1,25 @@
+{
+  "result": "pass",
+  "scope": "Homepage Fibriki slide and product-fibriki page",
+  "widths": [
+    1440,
+    1024,
+    768,
+    699,
+    390,
+    320
+  ],
+  "browser": "Chromium / Google Chrome",
+  "checks": [
+    "slide selection and artwork loading",
+    "no viewport overflow or text/button intersection",
+    "homepage CTA opens Fibriki page",
+    "FAQ pointer opening and keyboard closing",
+    "novelty inquiry presets fibriki product",
+    "concept status preserved",
+    "desktop and mobile screenshots visually reviewed"
+  ],
+  "sourceChecks": "22 pages, unique metadata, local assets/links passed; existing 21 interaction checks passed",
+  "unconfirmedClaimsAdded": false,
+  "publication": "Existing local preview; no hosted destination configured"
+}

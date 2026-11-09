@@ -1,0 +1,21 @@
+[
+  {
+    "id": "neo-press",
+    "url": "https://www.neoanalytics.ru/rossijskij-rynok-zamorozhennyh-polufabrikatov-itogi-2024-g-prognoz-do-2028-g/",
+    "status": 200,
+    "file": "output/research/b2b-audit-2026-11-04/source-html/neo-press.html",
+    "bytes": 245604
+  },
+  {
+    "id": "rosstat-apr26",
+    "url": "https://rosstat.gov.ru/storage/mediabank/osn-04-2026.pdf",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1129)>"
+  },
+  {
+    "id": "infoline-trends",
+    "url": "https://infoline.spb.ru/news/index.php?news=306448",
+    "status": 200,
+    "file": "output/research/b2b-audit-2026-11-04/source-html/infoline-trends.html",
+    "bytes": 83320
+  }
+]

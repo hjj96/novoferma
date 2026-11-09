@@ -1,0 +1,9 @@
+Use case: product-mockup
+Asset type: premium food-photography cutout for Novof erma frozen/chilled chicken product concept; standalone ingredient artwork.
+Primary request: A compact, gracefully tumbling group of 9 small chicken pops — tiny irregular rounded chicken mince nugget bites, each about 2–3 cm, reminiscent of chicken popcorn made from finely minced chicken. They have irregular rounded almost hemispherical shapes with subtle asymmetry and craggy edges, not perfect spheres and not flat conventional nuggets.
+Scene/backdrop: Genuinely transparent background with clean natural alpha edges; isolated food, no surface, no props, no cast shadow plane.
+Subject detail: Fine golden crispy crumb coating, richly appetizing, tiny delicate crunchy crumbs, NOT large cornflakes or large cornflake scales. Warm amber-gold exterior. One single bite in the front is split in two showing a moist homogeneous pale white finely minced chicken interior; no whole fillet fibers, no cheese, no green herbs or inclusions. Other bites whole.
+Style/medium: High-end photoreal commercial food photography, macro surface detail, physically believable cooked chicken, warm natural studio light, restrained gentle highlights, crisp edges.
+Composition/framing: Spacious square 1536x1536 composition, compact diagonal tumbling food group centered with all pieces fully inside frame and breathing room. The group spans about 80% of frame. Depth and slight varied rotations, each bite distinct.
+Color palette: Natural warm cream and gold with deep amber crumb edges, compatible with cream/terracotta/orange food branding.
+Constraints: No text, no logos, no plate, no package, no human, no illustration, no watermark. Preserve actual alpha transparency. Avoid elongated tenders, strips, large nuggets, perfect smooth spheres, orange cartoon coating, excessive dark oil, visible herbs, stringy chicken fillet.

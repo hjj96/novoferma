@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "matchingAbout": true,
+      "cards": 4,
+      "columns": "136px 136px"
+    },
+    {
+      "width": 390,
+      "matchingAbout": true,
+      "cards": 4,
+      "columns": "165px 165px"
+    },
+    {
+      "width": 768,
+      "matchingAbout": true,
+      "cards": 4,
+      "columns": "336px 336px"
+    },
+    {
+      "width": 1024,
+      "matchingAbout": true,
+      "cards": 4,
+      "columns": "464px 464px"
+    },
+    {
+      "width": 1440,
+      "matchingAbout": true,
+      "cards": 4,
+      "columns": "303px 303px 303px 303px"
+    }
+  ],
+  "catalogueNavigation": "pass",
+  "productNavigation": "pass",
+  "pageErrors": []
+}

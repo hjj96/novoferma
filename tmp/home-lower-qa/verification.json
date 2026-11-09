@@ -1,0 +1,643 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "В ОСНОВЕ —\nПТИЦА.",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 39,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 16,
+            "y": -632.390625,
+            "width": 288,
+            "height": 81.09375,
+            "right": 304,
+            "bottom": -551.296875
+          }
+        },
+        {
+          "text": "БУДЕМ\n\nПАРТНЁРАМИ?",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 39,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 16,
+            "y": -136.125,
+            "width": 288,
+            "height": 81.09375,
+            "right": 304,
+            "bottom": -55.03125
+          }
+        },
+        {
+          "text": "ГДЕ НАС\n\nНАЙТИ.",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 39,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 16,
+            "y": 253.34375,
+            "width": 288,
+            "height": 81.09375,
+            "right": 304,
+            "bottom": 334.4375
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "protein",
+          "rect": {
+            "x": 0,
+            "y": -680.390625,
+            "width": 320,
+            "height": 496.265625,
+            "right": 320,
+            "bottom": -184.125
+          },
+          "background": "rgb(255, 245, 227)"
+        },
+        {
+          "id": "cooperation",
+          "rect": {
+            "x": 0,
+            "y": -184.125,
+            "width": 320,
+            "height": 389.46875,
+            "right": 320,
+            "bottom": 205.34375
+          },
+          "background": "rgb(185, 56, 34)"
+        },
+        {
+          "id": "where-preview",
+          "rect": {
+            "x": 0,
+            "y": 205.34375,
+            "width": 320,
+            "height": 564.0625,
+            "right": 320,
+            "bottom": 769.40625
+          },
+          "background": "rgb(246, 213, 128)"
+        }
+      ],
+      "badImages": [],
+      "cardCount": 4
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "В ОСНОВЕ —\nПТИЦА.",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 49.14,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 20,
+            "y": -490.828125,
+            "width": 350,
+            "height": 102.1875,
+            "right": 370,
+            "bottom": -388.640625
+          }
+        },
+        {
+          "text": "БУДЕМ\n\nПАРТНЁРАМИ?",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 49.14,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 20,
+            "y": 40.015625,
+            "width": 350,
+            "height": 102.1875,
+            "right": 370,
+            "bottom": 142.203125
+          }
+        },
+        {
+          "text": "ГДЕ НАС\n\nНАЙТИ.",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 49.14,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 20,
+            "y": 429.765625,
+            "width": 350,
+            "height": 102.1875,
+            "right": 370,
+            "bottom": 531.953125
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "protein",
+          "rect": {
+            "x": 0,
+            "y": -538.828125,
+            "width": 390,
+            "height": 530.84375,
+            "right": 390,
+            "bottom": -7.984375
+          },
+          "background": "rgb(255, 245, 227)"
+        },
+        {
+          "id": "cooperation",
+          "rect": {
+            "x": 0,
+            "y": -7.984375,
+            "width": 390,
+            "height": 389.75,
+            "right": 390,
+            "bottom": 381.765625
+          },
+          "background": "rgb(185, 56, 34)"
+        },
+        {
+          "id": "where-preview",
+          "rect": {
+            "x": 0,
+            "y": 381.765625,
+            "width": 390,
+            "height": 568.328125,
+            "right": 390,
+            "bottom": 950.09375
+          },
+          "background": "rgb(246, 213, 128)"
+        }
+      ],
+      "badImages": [],
+      "cardCount": 4
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        {
+          "text": "В ОСНОВЕ —\nПТИЦА.",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 57.6,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 32,
+            "y": -925,
+            "width": 704,
+            "height": 119.78125,
+            "right": 736,
+            "bottom": -805.21875
+          }
+        },
+        {
+          "text": "БУДЕМ\n\nПАРТНЁРАМИ?",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 57.6,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 32,
+            "y": -157.234375,
+            "width": 704,
+            "height": 119.78125,
+            "right": 736,
+            "bottom": -37.453125
+          }
+        },
+        {
+          "text": "ГДЕ НАС\n\nНАЙТИ.",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 57.6,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 32,
+            "y": 288.21875,
+            "width": 704,
+            "height": 119.78125,
+            "right": 736,
+            "bottom": 408
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "protein",
+          "rect": {
+            "x": 0,
+            "y": -989,
+            "width": 768,
+            "height": 767.765625,
+            "right": 768,
+            "bottom": -221.234375
+          },
+          "background": "rgb(255, 245, 227)"
+        },
+        {
+          "id": "cooperation",
+          "rect": {
+            "x": 0,
+            "y": -221.234375,
+            "width": 768,
+            "height": 445.453125,
+            "right": 768,
+            "bottom": 224.21875
+          },
+          "background": "rgb(185, 56, 34)"
+        },
+        {
+          "id": "where-preview",
+          "rect": {
+            "x": 0,
+            "y": 224.21875,
+            "width": 768,
+            "height": 599.359375,
+            "right": 768,
+            "bottom": 823.578125
+          },
+          "background": "rgb(246, 213, 128)"
+        }
+      ],
+      "badImages": [],
+      "cardCount": 4
+    },
+    {
+      "width": 900,
+      "scrollWidth": 900,
+      "headings": [
+        {
+          "text": "В ОСНОВЕ —\nПТИЦА.",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 67.5,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 32,
+            "y": -550.40625,
+            "width": 836,
+            "height": 140.375,
+            "right": 868,
+            "bottom": -410.03125
+          }
+        },
+        {
+          "text": "БУДЕМ\n\nПАРТНЁРАМИ?",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 67.5,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 32,
+            "y": 315.28125,
+            "width": 425.765625,
+            "height": 140.375,
+            "right": 457.765625,
+            "bottom": 455.65625
+          }
+        },
+        {
+          "text": "ГДЕ НАС\n\nНАЙТИ.",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 67.5,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 32,
+            "y": 629.25,
+            "width": 425.765625,
+            "height": 140.375,
+            "right": 457.765625,
+            "bottom": 769.625
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "protein",
+          "rect": {
+            "x": 0,
+            "y": -614.40625,
+            "width": 900,
+            "height": 853.046875,
+            "right": 900,
+            "bottom": 238.640625
+          },
+          "background": "rgb(255, 245, 227)"
+        },
+        {
+          "id": "cooperation",
+          "rect": {
+            "x": 0,
+            "y": 238.640625,
+            "width": 900,
+            "height": 293.671875,
+            "right": 900,
+            "bottom": 532.3125
+          },
+          "background": "rgb(185, 56, 34)"
+        },
+        {
+          "id": "where-preview",
+          "rect": {
+            "x": 0,
+            "y": 532.3125,
+            "width": 900,
+            "height": 418.03125,
+            "right": 900,
+            "bottom": 950.34375
+          },
+          "background": "rgb(246, 213, 128)"
+        }
+      ],
+      "badImages": [],
+      "cardCount": 4
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headings": [
+        {
+          "text": "В ОСНОВЕ —\nПТИЦА.",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 76.8,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 32,
+            "y": -604.0625,
+            "width": 960,
+            "height": 159.71875,
+            "right": 992,
+            "bottom": -444.34375
+          }
+        },
+        {
+          "text": "БУДЕМ\n\nПАРТНЁРАМИ?",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 76.8,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 32,
+            "y": 332.046875,
+            "width": 492.078125,
+            "height": 159.71875,
+            "right": 524.078125,
+            "bottom": 491.765625
+          }
+        },
+        {
+          "text": "ГДЕ НАС\n\nНАЙТИ.",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 76.8,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 32,
+            "y": 632.84375,
+            "width": 492.078125,
+            "height": 159.71875,
+            "right": 524.078125,
+            "bottom": 792.5625
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "protein",
+          "rect": {
+            "x": 0,
+            "y": -668.0625,
+            "width": 1024,
+            "height": 933.140625,
+            "right": 1024,
+            "bottom": 265.078125
+          },
+          "background": "rgb(255, 245, 227)"
+        },
+        {
+          "id": "cooperation",
+          "rect": {
+            "x": 0,
+            "y": 265.078125,
+            "width": 1024,
+            "height": 293.671875,
+            "right": 1024,
+            "bottom": 558.75
+          },
+          "background": "rgb(185, 56, 34)"
+        },
+        {
+          "id": "where-preview",
+          "rect": {
+            "x": 0,
+            "y": 558.75,
+            "width": 1024,
+            "height": 391.6875,
+            "right": 1024,
+            "bottom": 950.4375
+          },
+          "background": "rgb(246, 213, 128)"
+        }
+      ],
+      "badImages": [],
+      "cardCount": 4
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "В ОСНОВЕ —\nПТИЦА.",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 106,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 72,
+            "y": -627.8125,
+            "width": 578.390625,
+            "height": 220.46875,
+            "right": 650.390625,
+            "bottom": -407.34375
+          }
+        },
+        {
+          "text": "БУДЕМ\n\nПАРТНЁРАМИ?",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 106,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 72,
+            "y": -26.984375,
+            "width": 650.40625,
+            "height": 220.46875,
+            "right": 722.40625,
+            "bottom": 193.484375
+          }
+        },
+        {
+          "text": "ГДЕ НАС\n\nНАЙТИ.",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 106,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 72,
+            "y": 361.484375,
+            "width": 650.40625,
+            "height": 220.46875,
+            "right": 722.40625,
+            "bottom": 581.953125
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "protein",
+          "rect": {
+            "x": 0,
+            "y": -707.8125,
+            "width": 1440,
+            "height": 600.828125,
+            "right": 1440,
+            "bottom": -106.984375
+          },
+          "background": "rgb(255, 245, 227)"
+        },
+        {
+          "id": "cooperation",
+          "rect": {
+            "x": 0,
+            "y": -106.984375,
+            "width": 1440,
+            "height": 388.46875,
+            "right": 1440,
+            "bottom": 281.484375
+          },
+          "background": "rgb(185, 56, 34)"
+        },
+        {
+          "id": "where-preview",
+          "rect": {
+            "x": 0,
+            "y": 281.484375,
+            "width": 1440,
+            "height": 484.65625,
+            "right": 1440,
+            "bottom": 766.140625
+          },
+          "background": "rgb(246, 213, 128)"
+        }
+      ],
+      "badImages": [],
+      "cardCount": 4
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "headings": [
+        {
+          "text": "В ОСНОВЕ —\nПТИЦА.",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 106,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 312,
+            "y": -627.8125,
+            "width": 578.390625,
+            "height": 220.46875,
+            "right": 890.390625,
+            "bottom": -407.34375
+          }
+        },
+        {
+          "text": "БУДЕМ\n\nПАРТНЁРАМИ?",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 106,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 312,
+            "y": -26.984375,
+            "width": 650.40625,
+            "height": 220.46875,
+            "right": 962.40625,
+            "bottom": 193.484375
+          }
+        },
+        {
+          "text": "ГДЕ НАС\n\nНАЙТИ.",
+          "font": "\"Novoferma About\", \"Novoferma Protein\", \"Novoferma Sans\", Arial, sans-serif",
+          "size": 106,
+          "weight": "850",
+          "fits": true,
+          "rect": {
+            "x": 312,
+            "y": 361.484375,
+            "width": 650.40625,
+            "height": 220.46875,
+            "right": 962.40625,
+            "bottom": 581.953125
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "protein",
+          "rect": {
+            "x": 0,
+            "y": -707.8125,
+            "width": 1920,
+            "height": 600.828125,
+            "right": 1920,
+            "bottom": -106.984375
+          },
+          "background": "rgb(255, 245, 227)"
+        },
+        {
+          "id": "cooperation",
+          "rect": {
+            "x": 0,
+            "y": -106.984375,
+            "width": 1920,
+            "height": 388.46875,
+            "right": 1920,
+            "bottom": 281.484375
+          },
+          "background": "rgb(185, 56, 34)"
+        },
+        {
+          "id": "where-preview",
+          "rect": {
+            "x": 0,
+            "y": 281.484375,
+            "width": 1920,
+            "height": 484.65625,
+            "right": 1920,
+            "bottom": 766.140625
+          },
+          "background": "rgb(246, 213, 128)"
+        }
+      ],
+      "badImages": [],
+      "cardCount": 4
+    }
+  ],
+  "navigation": "pass",
+  "pageErrors": []
+}

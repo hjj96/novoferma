@@ -49,30 +49,21 @@
   .product-card:hover .circle-arrow img { filter: brightness(0) invert(1); }
 }
 
-/* Content never depends on an observer callback to become readable. On touch
-   and small screens even the optional editorial movement is omitted. */
-.reveal,.reveal.is-prepared {
-  opacity:1;
-  translate:none;
-  transition:none;
-}
-@media (min-width:900px) and (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
+@media (prefers-reduced-motion:no-preference) {
   .page-enter {
     animation: editorial-enter 580ms var(--motion-editorial) var(--entrance-delay,0ms) backwards;
   }
   .page-enter:focus-within { animation: none; }
   .reveal.is-prepared {
-    translate: 0 10px;
-    transition: translate 360ms var(--motion-editorial);
+    translate: 0 18px;
+    transition: opacity 660ms var(--motion-editorial), translate 660ms var(--motion-editorial);
     transition-delay: var(--reveal-delay,0ms);
   }
   .reveal.is-visible, .reveal.is-prepared:focus-within {
     opacity: 1;
     translate: 0 0;
   }
-  .reveal.is-prepared:focus-within { transition:none; }
-}
-@media (prefers-reduced-motion:no-preference) {
+  .reveal.is-prepared:focus-within { transition-delay: 0ms; }
   .product-card:focus-within { --card-lift:-6px; }
   .menu-dialog[open] { animation: menu-in 320ms var(--motion-editorial); }
   .menu-dialog[open] nav a {
@@ -121,7 +112,4 @@
 .product-detail .tilt-plane {transform:none;transition:none}
 @media(prefers-reduced-motion:reduce) {
  .product-card .product-image .tilt-plane {transition:none}
-}
-@media print {
- .reveal,.reveal.is-prepared,.page-enter {opacity:1!important;translate:none!important;animation:none!important;transition:none!important}
 }

@@ -1,0 +1,25 @@
+Built-in ImageGen; 2026-11-08.
+Primary selected reference: output/research/desktop-separated-art-2026-11-07/vision/popsy-hero.png
+Secondary surface-style reference only: output/concept/assets/product-hero/desktop-v8/popsy-hen-v2-master.png
+One native generation. No layout/source edits.
+
+Use case: identity-preserve / precise-object-edit.
+Asset type: isolated transparent DESKTOP CHARACTER ASSET for the exact user-selected Novoferma Popsy hero.
+
+REFERENCE PRIORITY:
+IMAGE1 is the USER-SELECTED FULL POPSY HERO and the EXACT TARGET FOR THE DRUMMER'S BODY, POSE, EXPRESSION, SNARE AND STAND. Faithfully recreate/extract ONLY its entire drummer vignette as a clean high-resolution transparent asset. This is a FIDELITY task, not brainstorming or a new character idea.
+IMAGE2 is a SECONDARY reference for detailed warm orange/yellow ink-and-watercolor surface treatment ONLY. Its squat, excessively wide body, short/no stand, and low drum near the feet are wrong and MUST NOT be copied.
+
+PRIMARY REQUEST:
+The SAME TALL adult yellow-orange rock rooster from image1, standing behind one orange/copper SNARE DRUM ON A CLEARLY VISIBLE METAL THREE-FOOTED TRIPOD STAND. The drum is raised to about waist height, as in image1. A full visible central silver stand and three angled black/metal feet reach down beneath it; NOT a drum resting directly on the floor and NOT a drum hiding all the legs.
+Rooster has a confident expressive rock face, the exact cocked eyebrow and energetic open cream beak from image1, same eye shape and narrowed near-eye attitude, same red-orange comb and wattle, rich yellow neck and orange feathered wings. Same charcoal-black sleeveless leather-style rocker vest with lapels, tiny silver studs/buttons and hand-drawn folds. Same warm orange tail, fine feather-line detail, strong crisp hand-inked black contours and rich watercolor/pencil color treatment, not glossy3D, not a vector icon, not pale or blurry.
+Match the SELECTED REFERENCE's upright, taller body proportions and lively asymmetry. The wings are in the exact drumming action: one holds a wooden drumstick raised diagonally high above/left; the other brings the second stick down toward the EMPTY opaque cream-white snare head. Same full wide-legged stance: both brown feet entirely visible, one leg forward, the other farther right/back, beside and behind the drum tripod. Keep every toe, tail feather, stick tip, stand joint and all three tripod feet visible and inside frame. Tall coherent silhouette, not the compact squat shape in image2.
+This isolated asset will be displayed LARGE in the desktop hero and must retain the illustrated packaging character's striking personality and high detail. The separate real food will be placed elsewhere.
+
+CANVAS AND FRAMING:
+Native transparent SQUARE1254×1254. The complete drummer+snare+stand silhouette should be TALL, around900px WIDE and1160px HIGH, roughly bounds x175..1075,y45..1205, with safe transparent outside margins. Preserve natural proportions; do not geometrically stretch, squash or crop the rooster. Center the complete vignette with the drum/stand slightly left and the rooster body/feet to the right as in image1. It should fill the square vertically with a clear tripod below the waist-level drum. No excessive empty border.
+
+STRICT EXCLUSIONS:
+NO FOOD, no nuggets, no crumbs or sauces from image1, no packaging, no labels/logos/typography, no page interface, no orange ground/floor, no cast ground-shadow field, no scenery, no room, no opaque paper, no white/beige/gray halo, no glow or vignette. Do not include the red-orange decorative website ticks. A couple of tiny dark hand-inked beat marks immediately next to sticks may remain as in the original drummer, not large swirls.
+Genuine alpha=0 transparency everywhere outside the actual illustrated character, snare, sticks and tripod, including all gaps between limbs and stand. Keep white drumhead and eye details opaque. Return ONE finished faithful full-body transparent PNG matching image1's tall drummer and visible snare tripod.
+

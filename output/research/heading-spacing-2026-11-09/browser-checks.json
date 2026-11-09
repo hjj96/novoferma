@@ -1,0 +1,646 @@
+{
+  "results": [
+    {
+      "name": "partners",
+      "width": 320,
+      "documentWidth": 320,
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "size": "44.16px",
+          "tracking": "1.5456px",
+          "minimumInkGap": {
+            "pair": "КУ",
+            "gap": 0.8556000000000001
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "size": "37px",
+          "tracking": "1.295px",
+          "minimumInkGap": {
+            "pair": "ДЛ",
+            "gap": 1.52986328125
+          },
+          "overflow": []
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "size": "37px",
+          "tracking": "1.295px",
+          "minimumInkGap": {
+            "pair": "ДУ",
+            "gap": 1.1143359375
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "size": "46px",
+          "tracking": "1.61px",
+          "minimumInkGap": {
+            "pair": "УД",
+            "gap": 1.295546875
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "catalogue",
+      "width": 320,
+      "documentWidth": 320,
+      "headings": [
+        {
+          "text": "КАТАЛОГ\nПРОДУКЦИИ",
+          "size": "39px",
+          "tracking": "1.365px",
+          "minimumInkGap": {
+            "pair": "КА",
+            "gap": 0.85083984375
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "partners",
+      "width": 390,
+      "documentWidth": 390,
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "size": "53.82px",
+          "tracking": "1.8837px",
+          "minimumInkGap": {
+            "pair": "КУ",
+            "gap": 1.0427624999999998
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "size": "42.12px",
+          "tracking": "1.4742px",
+          "minimumInkGap": {
+            "pair": "ДЛ",
+            "gap": 1.74156328125
+          },
+          "overflow": []
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "size": "42.12px",
+          "tracking": "1.4742px",
+          "minimumInkGap": {
+            "pair": "ДУ",
+            "gap": 1.2685359375
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "size": "49.92px",
+          "tracking": "1.7472px",
+          "minimumInkGap": {
+            "pair": "УД",
+            "gap": 1.40595
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "catalogue",
+      "width": 390,
+      "documentWidth": 390,
+      "headings": [
+        {
+          "text": "КАТАЛОГ\nПРОДУКЦИИ",
+          "size": "49.14px",
+          "tracking": "1.7199px",
+          "minimumInkGap": {
+            "pair": "КА",
+            "gap": 1.072058203125
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "partners",
+      "width": 699,
+      "documentWidth": 699,
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "size": "88px",
+          "tracking": "3.08px",
+          "minimumInkGap": {
+            "pair": "КУ",
+            "gap": 1.705
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "size": "58px",
+          "tracking": "2.03px",
+          "minimumInkGap": {
+            "pair": "ДЛ",
+            "gap": 2.3981640625
+          },
+          "overflow": []
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "size": "58px",
+          "tracking": "2.03px",
+          "minimumInkGap": {
+            "pair": "ДУ",
+            "gap": 1.7467968749999998
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "size": "64px",
+          "tracking": "2.24px",
+          "minimumInkGap": {
+            "pair": "УД",
+            "gap": 1.8025000000000002
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "catalogue",
+      "width": 699,
+      "documentWidth": 699,
+      "headings": [
+        {
+          "text": "КАТАЛОГ\nПРОДУКЦИИ",
+          "size": "76px",
+          "tracking": "2.66px",
+          "minimumInkGap": {
+            "pair": "КА",
+            "gap": 1.6580468750000001
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "partners",
+      "width": 700,
+      "documentWidth": 700,
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "size": "58.4172px",
+          "tracking": "2.0446px",
+          "minimumInkGap": {
+            "pair": "КУ",
+            "gap": 1.1318312499999998
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "size": "38px",
+          "tracking": "1.33px",
+          "minimumInkGap": {
+            "pair": "ДЛ",
+            "gap": 1.5712109375
+          },
+          "overflow": []
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "size": "38px",
+          "tracking": "1.33px",
+          "minimumInkGap": {
+            "pair": "ДУ",
+            "gap": 1.144453125
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "size": "48px",
+          "tracking": "1.68px",
+          "minimumInkGap": {
+            "pair": "УД",
+            "gap": 1.351875
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "catalogue",
+      "width": 700,
+      "documentWidth": 700,
+      "headings": [
+        {
+          "text": "КАТАЛОГ\nПРОДУКЦИИ",
+          "size": "54px",
+          "tracking": "1.89px",
+          "minimumInkGap": {
+            "pair": "КА",
+            "gap": 1.1780859375
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "partners",
+      "width": 768,
+      "documentWidth": 768,
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "size": "64.9086px",
+          "tracking": "2.2718px",
+          "minimumInkGap": {
+            "pair": "КУ",
+            "gap": 1.2576031249999997
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "size": "38px",
+          "tracking": "1.33px",
+          "minimumInkGap": {
+            "pair": "ДЛ",
+            "gap": 1.5712109375
+          },
+          "overflow": []
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "size": "38px",
+          "tracking": "1.33px",
+          "minimumInkGap": {
+            "pair": "ДУ",
+            "gap": 1.144453125
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "size": "48px",
+          "tracking": "1.68px",
+          "minimumInkGap": {
+            "pair": "УД",
+            "gap": 1.351875
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "catalogue",
+      "width": 768,
+      "documentWidth": 768,
+      "headings": [
+        {
+          "text": "КАТАЛОГ\nПРОДУКЦИИ",
+          "size": "54px",
+          "tracking": "1.89px",
+          "minimumInkGap": {
+            "pair": "КА",
+            "gap": 1.1780859375
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "partners",
+      "width": 1024,
+      "documentWidth": 1024,
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "size": "89.343px",
+          "tracking": "3.127px",
+          "minimumInkGap": {
+            "pair": "КУ",
+            "gap": 1.7310156249999997
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "size": "47.104px",
+          "tracking": "1.64864px",
+          "minimumInkGap": {
+            "pair": "ДЛ",
+            "gap": 1.94764
+          },
+          "overflow": []
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "size": "47.104px",
+          "tracking": "1.64864px",
+          "minimumInkGap": {
+            "pair": "ДУ",
+            "gap": 1.4186400000000001
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "size": "53.248px",
+          "tracking": "1.86368px",
+          "minimumInkGap": {
+            "pair": "УД",
+            "gap": 1.4996800000000001
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "catalogue",
+      "width": 1024,
+      "documentWidth": 1024,
+      "headings": [
+        {
+          "text": "КАТАЛОГ\nПРОДУКЦИИ",
+          "size": "67.584px",
+          "tracking": "2.36544px",
+          "minimumInkGap": {
+            "pair": "КА",
+            "gap": 1.47444
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "partners",
+      "width": 1099,
+      "documentWidth": 1099,
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "size": "96.5043px",
+          "tracking": "3.37765px",
+          "minimumInkGap": {
+            "pair": "КУ",
+            "gap": 1.8697703125
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "size": "50.554px",
+          "tracking": "1.76939px",
+          "minimumInkGap": {
+            "pair": "ДЛ",
+            "gap": 2.0902894140625
+          },
+          "overflow": []
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "size": "50.554px",
+          "tracking": "1.76939px",
+          "minimumInkGap": {
+            "pair": "ДУ",
+            "gap": 1.522544296875
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "size": "57.148px",
+          "tracking": "2.00018px",
+          "minimumInkGap": {
+            "pair": "УД",
+            "gap": 1.6095198437499998
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "catalogue",
+      "width": 1099,
+      "documentWidth": 1099,
+      "headings": [
+        {
+          "text": "КАТАЛОГ\nПРОДУКЦИИ",
+          "size": "72.534px",
+          "tracking": "2.53869px",
+          "minimumInkGap": {
+            "pair": "КА",
+            "gap": 1.5824312109374998
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "partners",
+      "width": 1100,
+      "documentWidth": 1100,
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "size": "94.3086px",
+          "tracking": "3.3008px",
+          "minimumInkGap": {
+            "pair": "КУ",
+            "gap": 1.8272281250000004
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "size": "46px",
+          "tracking": "1.61px",
+          "minimumInkGap": {
+            "pair": "ДЛ",
+            "gap": 1.9019921875
+          },
+          "overflow": []
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "size": "46px",
+          "tracking": "1.61px",
+          "minimumInkGap": {
+            "pair": "ДУ",
+            "gap": 1.385390625
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "size": "56.1px",
+          "tracking": "1.9635px",
+          "minimumInkGap": {
+            "pair": "УД",
+            "gap": 1.58000390625
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "catalogue",
+      "width": 1100,
+      "documentWidth": 1100,
+      "headings": [
+        {
+          "text": "КАТАЛОГ\nПРОДУКЦИИ",
+          "size": "77px",
+          "tracking": "2.695px",
+          "minimumInkGap": {
+            "pair": "КА",
+            "gap": 1.6798632812499998
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "partners",
+      "width": 1440,
+      "documentWidth": 1440,
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "size": "119.126px",
+          "tracking": "4.1694px",
+          "minimumInkGap": {
+            "pair": "КУ",
+            "gap": 2.3080562500000004
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "size": "59px",
+          "tracking": "2.065px",
+          "minimumInkGap": {
+            "pair": "ДЛ",
+            "gap": 2.43951171875
+          },
+          "overflow": []
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "size": "59px",
+          "tracking": "2.065px",
+          "minimumInkGap": {
+            "pair": "ДУ",
+            "gap": 1.7769140625
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "size": "73.44px",
+          "tracking": "2.5704px",
+          "minimumInkGap": {
+            "pair": "УД",
+            "gap": 2.06836875
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "catalogue",
+      "width": 1440,
+      "documentWidth": 1440,
+      "headings": [
+        {
+          "text": "КАТАЛОГ\nПРОДУКЦИИ",
+          "size": "100px",
+          "tracking": "3.5px",
+          "minimumInkGap": {
+            "pair": "КА",
+            "gap": 2.181640625
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "partners",
+      "width": 1920,
+      "documentWidth": 1920,
+      "headings": [
+        {
+          "text": "ДЕЛО\nСО ВКУСОМ.",
+          "size": "119.126px",
+          "tracking": "4.1694px",
+          "minimumInkGap": {
+            "pair": "КУ",
+            "gap": 2.3080562500000004
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДЛЯ ПОЛКИ.\nДЛЯ МЕНЮ.",
+          "size": "59px",
+          "tracking": "2.065px",
+          "minimumInkGap": {
+            "pair": "ДЛ",
+            "gap": 2.43951171875
+          },
+          "overflow": []
+        },
+        {
+          "text": "ВАШ БРЕНД.\nНАШ ПРОДУКТ.",
+          "size": "59px",
+          "tracking": "2.065px",
+          "minimumInkGap": {
+            "pair": "ДУ",
+            "gap": 1.7769140625
+          },
+          "overflow": []
+        },
+        {
+          "text": "ДАВАЙТЕ\nОБСУДИМ.",
+          "size": "74px",
+          "tracking": "2.59px",
+          "minimumInkGap": {
+            "pair": "УД",
+            "gap": 2.084140625
+          },
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "name": "catalogue",
+      "width": 1920,
+      "documentWidth": 1920,
+      "headings": [
+        {
+          "text": "КАТАЛОГ\nПРОДУКЦИИ",
+          "size": "100px",
+          "tracking": "3.5px",
+          "minimumInkGap": {
+            "pair": "КА",
+            "gap": 2.181640625
+          },
+          "overflow": []
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

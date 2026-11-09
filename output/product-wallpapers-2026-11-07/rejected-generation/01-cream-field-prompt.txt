@@ -1,0 +1,34 @@
+Mode: built-in image_gen (native)
+Initial generation references:
+- references/regular-01-07.png
+- references/regular-08-14.png
+- references/novelties.png
+
+INITIAL PROMPT
+Use case: product-mockup.
+Asset type: a single finished premium photographic brand wallpaper/poster, wide landscape 16:9, render at 3840 x 2160 px if supported.
+Primary request: make a lively, beautiful, dense field of the real NOVOferma packaged products from the three reference images across a warm cream matte studio floor. This is an advertising photograph of physical packages, not a catalogue contact sheet.
+Input images: Image 1 is packaging source artwork for seven regular products 01–07. Image 2 is packaging source artwork for the next seven regular products 08–14. Image 3 is packaging source artwork for the three newest products 15–17. The labels and numbers BELOW the packages on the reference sheets are reference annotations only, never include them in the output. Use the actual printed sleeves and clear tray shapes as your identity anchors.
+Subject inventory: preserve ALL SEVENTEEN distinct packaging artworks at least once: 01 Котлеты куриные; 02 Биточки куриные с овощами; 03 Ёжики из цыпленка с рисом; 04 Куриный попкорн; 05 Наггетсы куриные; 06 Наггетсы куриные с сыром; 07 Наггетсы куриные «Динозавры»; 08 Наггетсы куриные острые; 09 Наггетсы с индейкой «Фитнес» (green title); 10 Стрипсы; 11 Котлеты по-домашнему; 12 Котлеты пикантные; 13 Котлеты по-итальянски; 14 Фрикадельки «Классические»; 15 Фибрики; 16 Люля мини; 17 Попсы.
+Composition/framing: approx 22–27 packages total, some repetitions at the outer edges, filling the full canvas like a spontaneous yet meticulously art-directed sea of products. Most central packages fully readable, several naturally cropped by all four edges to imply continuation. Packages are laid flat face-up with casual rotations from -35 to +35 degrees and gently varied orientation, some slight corner overlaps but no obstructed central names. A fluid irregular diagonal rhythm, no rigid rows, no grid, no aligned catalogue display. Oblique near-overhead camera about 65 degrees above the plane, visible low clear tray depth and cardboard sleeve thickness, natural package perspective. Comparable scale across the range. The whole scene is in sharp focus with crisp print.
+Style/medium: photoreal high-end food-brand campaign still life, genuinely physical tactile paperboard and transparent food trays; delicate irregular paper texture, believable foil highlights. Warm cream background, orange mascot details, dark chocolate lettering; colours come from the existing packaging.
+Lighting: soft directional sunlight from upper left, a large diffused key producing beautiful grounded contact shadows to lower right, refined warm tonality and gentle contrast, subtle highlights on clear tray rims. Rich yet light and appetizing.
+Invariants: each package is the SAME low, wide, near-square transparent food tray with cream cardboard sleeve as its supplied source. Preserve each exact complete printed source artwork as a texture, including NOVOferma orange logo, Cyrillic titles and lettering, its own chicken mascot pose, food photograph and palette. Reposition/re-light the physical objects only. Never redesign labels, invent text, mix mascots among SKUs, or change tray contents. Фибрики, Люля мини, Попсы must be clearly visible and readily recognizable.
+Avoid: tall cartons, rigid shipping boxes, bags, invented packaging, foreign brands, duplicate replacement of the range, pasted rectangular source backdrops, floating cutout look, collage borders, reference-sheet annotations, external headlines, added slogans, loose food or herbs, props, utensils, watermark, artificial blur. Output ONE clean finished wallpaper only.
+
+TARGETED CORRECTION PROMPT
+Use case: precise-object-edit.
+Edit target: Image 1 is an existing finished cream NOVOferma wallpaper. Images 2 and 3 are source packaging artworks for reference only, NOT a layout.
+Make ONLY TWO targeted corrections to Image 1, preserving everything else, including all package placement, overall composition, warm directional studio light, cream floor, camera, 16:9 landscape format, recognizable new products and contact shadows.
+
+Correction 1: the package at left-middle directly BELOW the main chicken cutlets pack and LEFT of the popcorn package currently has the wrong cutlet subtitle under КОТЛЕТЫ: it says ПО-ИТАЛЬЯНСКИ, but the printed home-chef chicken mascot and home-style cutlet belong to ПО-ДОМАШНЕМУ. Restore this ONE package to match the 11 Котлеты по-домашнему artwork in source Image 3 exactly. The correct subtitle is ПО-ДОМАШНЕМУ. Retain the existing chef chicken and plate art while restoring the correct source photo of the home-style patty.
+
+Correction 2: the partly cropped package at the EXTREME TOP RIGHT is a repeated Italian cutlet package. Replace THAT ONE duplicate with a clearly recognizable Наггетсы куриные «Динозавры» physical package using the full 07 artwork at lower right of source Image 2. The dinosaur nuggets source has exact title «ДИНОЗАВРЫ» with subtitle НАГГЕТСЫ КУРИНЫЕ and the two yellow chick/dinosaur mascots with dinosaur nugget shapes. Bring this package a little inward from the top/right edge so its distinctive title and mascots are readable. Keep the complete existing Italian cutlet package in LOWER CENTER-RIGHT unchanged.
+
+All other packages must remain unchanged. Especially preserve ФИБРИКИ at bottom right, ЛЮЛЯ МИНИ at bottom center, ПОПСЫ near upper right, green ФИТНЕС, and the main regular НАГГЕТСЫ. Preserve every orange NOVOferma logo and original Cyrillic labels. Same physical low clear food tray plus cream sleeve; never a tall box. No extra text, no reference labels, no new products, no border or watermark. Make the two corrections cleanly at the existing resolution or higher; do not reduce quality.
+
+Correction references:
+- initial generation at attempts/01-cream-field-initial.png
+- references/regular-01-07.png
+- references/regular-08-14.png
+

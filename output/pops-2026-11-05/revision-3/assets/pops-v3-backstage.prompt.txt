@@ -1,0 +1,23 @@
+Use case: precise-object-edit / product-mockup.
+EDIT TARGET — Image 1: the ORIGINAL real Novoferma chicken popcorn product photograph. Edit this actual package into a sibling SKU called ПОПСЫ. Preserve the photographed package shape, camera angle, small logo position, paper sleeve proportions, pale cream paper color, perspective, shallow clear PET tray, natural soft daylight, fold lines and ordinary retail material realism very closely. The result must read as one more product from precisely this classic family.
+Image 2, ORIGINAL Strips packaging: reference for the hen's printed dry-ink drawing technique, warm ochre/rust flat fills, narrow dark contour, lively small-head/round-body original anatomy and forward-leaning action pose.
+Image 3, ORIGINAL chicken cheese nuggets: reference for playful bold drawn anatomy and a flat printed character interacting with the photographed food.
+Use ONLY these original three references. Do not modernize into a glossy mascot.
+
+CHANGE ONLY SKU wording, printed lower scene and visible food inside tray:
+Exact printed text and nothing else:
+NOVOferma
+ПОПСЫ
+МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ
+В ХРУСТЯЩЕЙ ПАНИРОВКЕ
+Preserve orange italic NOVOferma as a SMALL wordmark near top center exactly as on Image 1. Product name ПОПСЫ is widely spread across the upper face, in the SAME refined broad Roman serif as original ПОПКОРН: high stroke contrast, delicate hairlines, lean stems, warm dark olive-brown, subtly arced baseline/perspective across curved paper. It must NOT become bold Georgia, chunky slab serif, condensed sans or modern heavy display type. Two small tightly set dark olive-brown descriptor lines below. Delete original 100% claims, old product name and old ingredient promises; no new claims, no extra labels, no sticker, no legal copy.
+
+LOWER PRINTED SCENE — youthful rock hen on a walk with festival snack:
+A large appetizing terracotta paper serving bucket of little golden POPS sits toward the lower center-left of the printed sleeve; 2–3 tiny pops bounce lightly near its rim. Bucket is the food center. The product is small irregular rounded finely minced chicken nugget bites, fine delicate breadcrumb coating, about 2–3 cm each, NOT long strips, NOT huge cornflake scales, NOT perfect smooth spheres.
+On the right, a familiar classic Novoferma hen carries and casually embraces/pushes the bucket while stepping forward with one leg raised and body leaning. Its mood is confident, mischievous, youthful, a little rock-and-roll. Tiny dark sunglasses are pushed onto its forehead so that her small half-lidded eye and knowing expression remain visible. She wears a small OPEN BLACK DENIM OR LEATHER SLEEVELESS VEST on her shoulders, with just one or two simple metal studs, no text, no badges/logos. Black is a tiny garment accent only.
+The hen must look directly related to the ORIGINAL Strips cart-pulling hen: genuinely 2D dry-ink cartoon printed on paper, visible thin dark outlines, warm ochre-yellow/rust-orange FLAT feather fills, sparse hatch strokes, a short expressive beak, original quirky anatomy, thin dark legs and clawed toes. No glossy gradients, no individual photoreal feathers, no 3D modeling, no Pixar/Disney/plush styling, no huge round shiny eyes, no gaping happy smile. Scene lively and simple like classic original packaging illustrations.
+Food/bucket can use the classic label's realistic food collage treatment. The bird remains a flat editorial drawing. Keep substantial cream negative space around the scene and above it; no landscape background, no concert stage, no electric guitar, no crowd, no humans, no extra props, no neon/grunge/new sub-brand. Lifestyle comes from pose and attitude alone.
+
+PHYSICAL RETAIL PACK:
+The printed bucket remains ONLY A SERVING PICTURE ON THE PAPER SLEEVE. The real retail package remains the ORIGINAL shallow clear ribbed rectangular PET food tray and a wide folded cream paper sleeve from Image 1. Preserve its exact real-photograph proportions and camera, not a 3D generated luxury box. The real tray window contains small irregular rounded pale/matte breaded minced-chicken bites, slightly paler and less shiny than the cooked golden serving photo on the sleeve. Thin lightweight plastic, not thick glass/acrylic.
+Output the whole complete physical package on genuine TRANSPARENT background, no white background, no plane shadow, no detached objects outside package. Give at least 8% clean transparent margin around all package edges. Clean alpha boundary without isolated white/red/yellow speckles. High resolution 2048x2048 or above if available. Preserve all wording exactly and keep it clearly readable.

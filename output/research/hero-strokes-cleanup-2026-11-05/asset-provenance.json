@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "meatballs",
+    "tool": "built-in image_gen",
+    "intent": "precise-object-edit: reduce orange motion marks to two small pairs",
+    "source": "output/concept/assets/product-hero/meatballs-art-v4.webp",
+    "master": "output/concept/assets/product-hero/meatballs-art-v5.png",
+    "webp": "output/concept/assets/product-hero/meatballs-art-v5.webp",
+    "prompt": "output/concept/assets/product-hero/meatballs-art-v5-prompt.txt",
+    "sourceDimensions": [
+      1672,
+      941
+    ],
+    "nativeOutputDimensions": [
+      1671,
+      941
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaPreservedInWebp": true,
+    "alphaBboxAbove32": [
+      625,
+      49,
+      1639,
+      807
+    ],
+    "originalContentLayout": {
+      "width": 1672,
+      "height": 941,
+      "bbox": [
+        625,
+        50,
+        1635,
+        808
+      ],
+      "ratio": 1.3324538258575198,
+      "size": 165.54455445544554,
+      "left": -61.88118811881188,
+      "top": -6.596306068601583
+    },
+    "webpQuality": 94,
+    "visualResult": "two pairs of small orange accents near food; orange arcs/hearts/far-left doodles removed; same scene and food count; no new cuts",
+    "limitations": "Generated edit is not a pixel-identical clone. Meatballs/nuggets native canvases are one pixel narrower than requested; no resizing/canvas edits were applied. Minor line/texture differences and removal of brown foot dust in nuggets/lulia are visible at full size. Keep old content layout rather than fitting to decorative alpha bounds."
+  },
+  {
+    "slug": "nuggets",
+    "tool": "built-in image_gen",
+    "intent": "precise-object-edit: reduce orange motion marks to two small pairs",
+    "source": "output/concept/assets/product-hero/nuggets-art-v4.webp",
+    "master": "output/concept/assets/product-hero/nuggets-art-v5.png",
+    "webp": "output/concept/assets/product-hero/nuggets-art-v5.webp",
+    "prompt": "output/concept/assets/product-hero/nuggets-art-v5-prompt.txt",
+    "sourceDimensions": [
+      1672,
+      941
+    ],
+    "nativeOutputDimensions": [
+      1671,
+      941
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaPreservedInWebp": true,
+    "alphaBboxAbove32": [
+      571,
+      103,
+      1557,
+      828
+    ],
+    "originalContentLayout": {
+      "width": 1672,
+      "height": 941,
+      "bbox": [
+        573,
+        105,
+        1651,
+        826
+      ],
+      "ratio": 1.4951456310679612,
+      "size": 155.10204081632654,
+      "left": -53.15398886827458,
+      "top": -14.563106796116504
+    },
+    "webpQuality": 94,
+    "visualResult": "two pairs of small orange accents near food; orange arcs/hearts/far-left doodles removed; same scene and food count; no new cuts",
+    "limitations": "Generated edit is not a pixel-identical clone. Meatballs/nuggets native canvases are one pixel narrower than requested; no resizing/canvas edits were applied. Minor line/texture differences and removal of brown foot dust in nuggets/lulia are visible at full size. Keep old content layout rather than fitting to decorative alpha bounds."
+  },
+  {
+    "slug": "lulia-mini",
+    "tool": "built-in image_gen",
+    "intent": "precise-object-edit: reduce orange motion marks to two small pairs",
+    "source": "output/concept/assets/product-hero/lulia-mini-art-v4.webp",
+    "master": "output/concept/assets/product-hero/lulia-mini-art-v5.png",
+    "webp": "output/concept/assets/product-hero/lulia-mini-art-v5.webp",
+    "prompt": "output/concept/assets/product-hero/lulia-mini-art-v5-prompt.txt",
+    "sourceDimensions": [
+      1672,
+      941
+    ],
+    "nativeOutputDimensions": [
+      1672,
+      941
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaPreservedInWebp": true,
+    "alphaBboxAbove32": [
+      594,
+      83,
+      1633,
+      856
+    ],
+    "originalContentLayout": {
+      "width": 1672,
+      "height": 941,
+      "bbox": [
+        597,
+        84,
+        1632,
+        853
+      ],
+      "ratio": 1.3459037711313393,
+      "size": 161.54589371980677,
+      "left": -57.68115942028985,
+      "top": -10.92327698309493
+    },
+    "webpQuality": 94,
+    "visualResult": "two pairs of small orange accents near food; orange arcs/hearts/far-left doodles removed; same scene and food count; no new cuts",
+    "limitations": "Generated edit is not a pixel-identical clone. Meatballs/nuggets native canvases are one pixel narrower than requested; no resizing/canvas edits were applied. Minor line/texture differences and removal of brown foot dust in nuggets/lulia are visible at full size. Keep old content layout rather than fitting to decorative alpha bounds."
+  }
+]

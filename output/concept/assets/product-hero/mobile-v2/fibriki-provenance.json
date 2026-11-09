@@ -1,0 +1,18 @@
+{
+  "method": "built-in ImageGen edit",
+  "reference": "../mobile-v1/fibriki-master.png",
+  "masterSize": [
+    1254,
+    1254
+  ],
+  "exportSize": [
+    960,
+    960
+  ],
+  "webpQuality": 92,
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "prompt": "fibriki-prompt.txt"
+}

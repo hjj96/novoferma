@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-08",
+  "tool": "built-in image_gen.imagegen",
+  "source": "/Users/andrey/.codex/generated_images/01a1ab97-8dbf-7c80-b46f-e9b6e7853b89/exec-02afb634-f955-4b0d-8024-bc6dea53e538.png",
+  "output": "meatballs-hen-v3-master.png",
+  "prompt": "meatballs-hen-v3-prompt.txt",
+  "references": [
+    "popsy-hen-v3-master.png",
+    "nuggets-hen-v2-master.png"
+  ],
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alpha64_bbox": [
+    36,
+    34,
+    1209,
+    1228
+  ],
+  "routing_note": "User corrected story routing after generation: basketball athlete belongs to Meatballs, not Nuggets. Exact prompt retained verbatim including original Nuggets label; raster contains no food or product names, so reusable without bitmap changes. Nuggets v2 not overwritten."
+}

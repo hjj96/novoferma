@@ -1,0 +1,38 @@
+{
+  "quality": 95,
+  "pixelResize": false,
+  "files": {
+    "fibriki-food.webp": {
+      "bytes": 244480,
+      "sha256": "42f1101a073ee60fc453c369daa26b88756a0a146ba9bf2948fcc1b5e27b8a31"
+    },
+    "fibriki-hen.webp": {
+      "bytes": 388022,
+      "sha256": "f8f37af7e2ba794b46f2bf78f85d6a9294e54c9379348ad80cb3f00296eb9468"
+    },
+    "lulia-mini-food.webp": {
+      "bytes": 124778,
+      "sha256": "a8b211ddea1069115897927c94fc2de14ce702a58dd94a99235b06139d003008"
+    },
+    "lulia-mini-hen.webp": {
+      "bytes": 368908,
+      "sha256": "82ab65d0fc4a17fadaa3c895ba201ce5c64dce7c979d2aa7d8713c7976c73760"
+    },
+    "meatballs-food.webp": {
+      "bytes": 226922,
+      "sha256": "9eee67b18c0857ff2c5937f7b9d87e14454598edee5742d50dbf91b2d9d36e5c"
+    },
+    "meatballs-hen.webp": {
+      "bytes": 356568,
+      "sha256": "ffbabe876e7ed7237fbaaa672e8a2b86f76c261c294e515c93eae7e825e95e03"
+    },
+    "nuggets-food.webp": {
+      "bytes": 223276,
+      "sha256": "24dce8daff85c668d33836aea73ac1320cf867abdcaf9ff849acb4b427906894"
+    },
+    "nuggets-hen.webp": {
+      "bytes": 370056,
+      "sha256": "0f2e8f0e87cb997e9bf6ae0c68f205153d291d62b37b10961de221bb72aa8142"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+Built-in ImageGen; 2026-11-05.
+Edit target: assets/product-hero/mobile-v1/lulia-mini-master.png
+
+Use case: precise-object-edit / compositing.
+Asset type: mobile website hero artwork, transparent square PNG.
+Input image 1 is the EXACT EDIT TARGET, the existing approved mobile Novoferma illustration. This is a spacing and composition edit ONLY.
+
+PRESERVE: the exact same cheerful orange chicken identity, full body, face, gaze, red comb, dark ink outlines, apron, green checks, neck bow, original pose, wing shape and tail/feet. Keep its original hand-painted ink illustration style; do not redesign or render the chicken realistically. Treat the whole chicken as ONE intact object, moving it down and scaling proportionally as needed. Preserve the THREE different whole photorealistic food pieces and appetizing food texture, but reduce each food by approximately 20%. Keep the original mixed-media contrast of realistic food and illustrated mascot.
+
+MAIN CHANGE: make the composition airy with generous true transparent gaps. NO food may touch or overlap another food, nor ANY part of the chicken including raised wing tips, comb, beak, head or tail. Do not squeeze the middle food into the space above the wing. Make a loose throwing arc across the UPPER THIRD / upper half of the square, and place the chicken in the LOWER center-left. The dynamic tossing feeling comes from the separate arc, not contact.
+
+PRECISE GUIDANCE for a 1254 by 1254 square:
+- Chicken bounds approximately x=160..820, y=550..1175, retaining its exact proportions and full pose. All parts at least 6% inside outer frame.
+- Three SMALLER foods each about 210–230 px across, centered approximately (235,180), (625,285), (1010,190), forming a loose open arc across the upper half, with transparent space between.
+- At least 80 px of FULLY EMPTY transparent background between every food and every part of the chicken. More air is better; aim about 100–120 px near raised wing.
+- At least 55 px of transparent space between food silhouettes. Foods stay within top 6–35% of image height; no food is near the chicken's face or wing.
+- Only TWO SMALL PAIRS of short orange tapered accent strokes total (4 small strokes total), near the upper foods, staying clear of mascot. No long curves, trails, arcs, hearts, bursts or extra dots.
+- Keep all food and chicken completely inside the square with generous outside margin. No element cropped.
+
+Actual alpha-transparent background including all gaps. The apron must remain opaque white, not erased. Absolutely no text, letters, logos, packaging, floor, ground, table, shadows across a ground plane, background colour or drawn checkerboard. No new props. Output a newly spaced SQUARE transparent PNG; keep the approved exact drawing and food textures rather than inventing a different scene.
+
+Product: exactly THREE WHOLE small oval chicken mini-lulia sausages, retaining browned surfaces and tiny red vegetable/green herb flecks. Preserve at most the TWO existing tiny parsley sprigs, only up beside food, never in the empty gap around chicken. No tomato, no new props, no cutaways. Retain original mini-lulia chicken pose.
+

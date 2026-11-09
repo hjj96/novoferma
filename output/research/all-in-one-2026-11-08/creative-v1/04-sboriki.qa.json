@@ -1,0 +1,20 @@
+{
+  "status": "accepted_for_concept_selection",
+  "source": "/Users/andrey/.codex/generated_images/01a1bac9-022c-72b2-a216-f15efc619b1b/exec-b633c272-f271-46d2-86f9-64e14cd54166.png",
+  "file": "/Users/andrey/Desktop/сайт нф/output/research/all-in-one-2026-11-08/creative-v1/04-sboriki.png",
+  "tool": "built-in image_gen",
+  "size": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "fully_transparent_fraction": 0.511,
+  "alpha_at_or_above_250_fraction": 0.3868,
+  "inspection": "Recognizable golden hen with two wings and two feet as conductor in short terracotta tailcoat holding wooden baton. Foreground whole unbreaded browned patty and cut half clearly show white rice, chicken, cabbage, carrot. Above it, whole patty on cream plate receives graceful ingredient trails. No text, logo, packaging or conveyor. No object crops.",
+  "limitations": "Ingredient trails visually resolve into two principal curved bands with three ingredient groups, rather than three clearly separated paths. No substantial defect for concept selection.",
+  "alpha_note": "Tool image preview displays RGB of transparent pixels and therefore appears to have warm haze. PNG alpha is zero at sampled background coordinates (700,600), (250,500), (50,500), (100,100), (1400,100), and corners. Use normal browser alpha compositing over cream to review real background."
+}

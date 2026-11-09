@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-09",
+  "type": "first-screen-design-mockups",
+  "generation": "built-in ImageGen",
+  "websiteModified": false,
+  "products": [
+    {
+      "name": "Попсы",
+      "image": "family-popsy-v1.png",
+      "width": 1585,
+      "height": 992,
+      "bytes": 1849533,
+      "prompt": "popsy-refined-v2-prompt.txt"
+    },
+    {
+      "name": "Ленивчики",
+      "image": "family-lenivchiki-v1.png",
+      "width": 1586,
+      "height": 992,
+      "bytes": 1982619,
+      "prompt": "family-lenivchiki-v1-prompt.txt"
+    },
+    {
+      "name": "Фибрики",
+      "image": "family-fibriki-v1.png",
+      "width": 1585,
+      "height": 992,
+      "bytes": 1969330,
+      "prompt": "family-fibriki-v1-prompt.txt"
+    },
+    {
+      "name": "Фрикадельки",
+      "image": "family-meatballs-v1.png",
+      "width": 1585,
+      "height": 992,
+      "bytes": 1889465,
+      "prompt": "family-meatballs-v1-prompt.txt"
+    }
+  ]
+}

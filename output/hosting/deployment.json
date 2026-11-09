@@ -1,0 +1,82 @@
+{
+  "provider": "vercel",
+  "purpose": "Temporary team testing",
+  "publishedDate": "2026-11-09",
+  "url": "https://novoferma-team-preview.vercel.app",
+  "deploymentUrl": "https://novoferma-team-preview-hgfmtovmh-andreis-projects-3e7c2c72.vercel.app",
+  "projectId": "prj_DKIlXEO9k29YgKwPB0xi0RlXyF5a",
+  "projectName": "novoferma-team-preview",
+  "teamId": "team_bBv8ZcHWkcP0IyMv0bjHTzpd",
+  "teamSlug": "andreis-projects-3e7c2c72",
+  "deploymentId": "dpl_9Ms3HtwMYDAWLn1oJYEDWZvqGMDC",
+  "state": "READY",
+  "vercelTarget": "production",
+  "sourceRepository": "https://github.com/hjj96/novoferma.git",
+  "sourceBranch": "codex/team-preview-2026-11-07",
+  "sourceCommit": "04c30083aa2401ffe6c151dc44f0482da127c169",
+  "sourceDirectory": "output/concept",
+  "stagingDirectory": "tmp/hosting/novoferma-team-preview",
+  "sourcePackage": "output/novoferma-site.zip",
+  "sourcePackageSha256": "10786de900208066e0cecdd10b5a5fda83d8184556d96b11bfd47fb5e2bdc759",
+  "access": "Public URL without login",
+  "indexing": "noindex, nofollow, noarchive; robots.txt Disallow: /",
+  "checks": {
+    "staticPages": 23,
+    "packageLocalReferences": 1570,
+    "interactionTests": {
+      "passed": 22,
+      "failed": 0
+    },
+    "browserSmoke": [
+      "Home slider selection",
+      "Catalogue navigation",
+      "Popsy product navigation"
+    ],
+    "httpVerificationReport": "output/hosting/verification.json",
+    "httpAvailability": {
+      "result": "pass",
+      "files": 179,
+      "pages": 23,
+      "errors": 0
+    },
+    "latestPublish": {
+      "staticSource": "pass",
+      "interactionTests": "pass",
+      "packagedInteractions": "pass",
+      "pages": 24,
+      "localReferences": 1744,
+      "permanentUrlVersion": "pass",
+      "indexing": "pass"
+    },
+    "workflow": {
+      "prepareWithoutPush": "pass",
+      "publishCurrentSnapshot": "pass",
+      "permanentUrlVersion": "pass",
+      "repeatWithoutChanges": "skipped-as-expected",
+      "rejectUnrelatedDeploymentFinalization": "pass",
+      "mainBranchPreserved": true
+    }
+  },
+  "notes": [
+    "Dedicated testing project; no custom domain was connected.",
+    "Vercel returned target production for this dedicated testing project.",
+    "Snapshot contains runtime files from the reviewed package; project README files were omitted.",
+    "After completed Codex website edits, AGENTS.md requires automatic validation and publication through the existing Vercel connection.",
+    "Forms prepare email drafts or copy text; there is no server-side form delivery.",
+    "sourcePackageSha256 records the package prepared for the successful publication; the local ZIP can be rebuilt later without changing the deployed runtime content."
+  ],
+  "updatedAt": "2026-11-09T10:54:25.769925+03:00",
+  "rootGitCommit": "3894d447cbff0a6a2e9d7b637910ca71e736ae5d",
+  "contentSha256": "d2d8bfeca3dde3355e373df3739c97dedd7c21040257bd7206063d28ff7f6bde",
+  "autoUpdate": {
+    "enabled": true,
+    "trigger": "Codex completes a website edit in this project",
+    "method": "Project instructions prepare and push a validated snapshot, then use the connected native Vercel deployment tools",
+    "instructions": "AGENTS.md",
+    "script": "scripts/publish_team_preview.py",
+    "additionalUserRequestRequired": false,
+    "filesystemWatcher": false,
+    "unchangedSnapshot": "Skip deployment",
+    "onValidationFailure": "Keep the previously published version"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "method": "RGBA alpha mask boundary KD tree, every second edge pixel; approximate distance, not a browser overlap check",
+  "products": [
+    {
+      "product": "fibriki",
+      "canvas": [
+        1100,
+        850
+      ],
+      "foodBottom": 825.0,
+      "henBottom": 825.0,
+      "thresholds": {
+        "64": {
+          "overlap": null,
+          "approxMinGapVirtualPx": 136.0,
+          "approxMinGapAt740pxFrame": 91.5
+        },
+        "160": {
+          "overlap": null,
+          "approxMinGapVirtualPx": 137.0,
+          "approxMinGapAt740pxFrame": 92.2
+        }
+      }
+    },
+    {
+      "product": "meatballs",
+      "canvas": [
+        1100,
+        850
+      ],
+      "foodBottom": 825.0,
+      "henBottom": 825.0,
+      "thresholds": {
+        "64": {
+          "overlap": null,
+          "approxMinGapVirtualPx": 53.2,
+          "approxMinGapAt740pxFrame": 35.8
+        },
+        "160": {
+          "overlap": null,
+          "approxMinGapVirtualPx": 54.1,
+          "approxMinGapAt740pxFrame": 36.4
+        }
+      }
+    },
+    {
+      "product": "nuggets",
+      "canvas": [
+        1100,
+        850
+      ],
+      "foodBottom": 825.0,
+      "henBottom": 825.0,
+      "thresholds": {
+        "64": {
+          "overlap": null,
+          "approxMinGapVirtualPx": 64.4,
+          "approxMinGapAt740pxFrame": 43.3
+        },
+        "160": {
+          "overlap": null,
+          "approxMinGapVirtualPx": 65.4,
+          "approxMinGapAt740pxFrame": 44.0
+        }
+      }
+    },
+    {
+      "product": "lulia-mini",
+      "canvas": [
+        1100,
+        850
+      ],
+      "foodBottom": 825.0,
+      "henBottom": 825.0,
+      "thresholds": {
+        "64": {
+          "overlap": null,
+          "approxMinGapVirtualPx": 59.5,
+          "approxMinGapAt740pxFrame": 40.1
+        },
+        "160": {
+          "overlap": null,
+          "approxMinGapVirtualPx": 61.1,
+          "approxMinGapAt740pxFrame": 41.1
+        }
+      }
+    },
+    {
+      "product": "popsy",
+      "canvas": [
+        1100,
+        850
+      ],
+      "foodBottom": 825.0,
+      "henBottom": 825.0,
+      "thresholds": {
+        "64": {
+          "overlap": null,
+          "approxMinGapVirtualPx": 45.2,
+          "approxMinGapAt740pxFrame": 30.4
+        },
+        "160": {
+          "overlap": null,
+          "approxMinGapVirtualPx": 45.4,
+          "approxMinGapAt740pxFrame": 30.5
+        }
+      }
+    }
+  ]
+}

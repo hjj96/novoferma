@@ -1,0 +1,33 @@
+{
+  "file": "pops-v3-rock-art.png",
+  "tool": "Built-in ImageGen",
+  "date": "2026-11-05",
+  "prompt": "pops-v3-rock-art.prompt.txt",
+  "referenceSnapshot": "pops-v3-rock-art-reference-pack.png",
+  "referenceSource": "output/pops-2026-11-05/revision-3/assets/pops-v3-drummer.png",
+  "referenceSha256": "0d3467039e7decf211206716313ba7ba6339a460a5c64895f077eb2e28d9587b",
+  "native": "/Users/andrey/.codex/generated_images/01a1ac4a-026c-7053-9959-646ffe27df52/exec-531c051a-101c-4468-b220-82893f4587b0.png",
+  "attempts": {
+    "generation": 1,
+    "correction": 0
+  },
+  "sha256": "c412cca6e7e3a1931f01e966960bb5913336962818bf41acd23e71a8f99fe125",
+  "metrics": {
+    "size": [
+      1683,
+      935
+    ],
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "bboxAlpha128": [
+      79,
+      111,
+      1635,
+      838
+    ]
+  },
+  "review": "Approved-source illustration extracted faithfully: same drummer hen, vest, wing/stick positions, bucket, three pops left and bouncing pops. Transparent landscape; feet, stick tips and crest complete, no text or physical packaging. Minor colored alpha fringe at extreme silhouette pixels remains; no critical content error requiring correction. Not integrated into website, editable packaging or deck by this worker."
+}

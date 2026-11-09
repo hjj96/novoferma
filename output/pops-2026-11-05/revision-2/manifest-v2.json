@@ -1,0 +1,155 @@
+{
+  "title": "Новоферма — Попсы, версия 2",
+  "date": "2026-11-05",
+  "master": "pops-pack-v2-bucket.png",
+  "alternative": "pops-pack-v2-classic.png",
+  "status": "reviewed visual concept; production fields pending",
+  "image_generation": "built-in ImageGen",
+  "native_asset_px": [
+    1254,
+    1254
+  ],
+  "presentation": {
+    "artifactRef": "artifact_external_aba819cc-00a3-41cc-a894-124f9bbb63b4",
+    "page_id": "page_8c8f482026e481918ccabfa7d7654d5c",
+    "stateVersion": 10,
+    "slides": 9
+  },
+  "files": [
+    {
+      "path": "00_README.txt",
+      "bytes": 1997,
+      "sha256": "c9d4924f197b45f1641445257c702ae7389b81f69192ca3777113cbbdc1735c8"
+    },
+    {
+      "path": "03_Concept/creative-direction.txt",
+      "bytes": 3014,
+      "sha256": "5c821fa09c218697b189f60311039fd602c9a88eec8137468c9f36096fd8da14"
+    },
+    {
+      "path": "03_Concept/product-brief.txt",
+      "bytes": 4535,
+      "sha256": "690b70e9e052195765ab0779482f152c10053c54bec85ddcef73789a48748656"
+    },
+    {
+      "path": "01_Packaging/pops-back-editable.svg",
+      "bytes": 9858,
+      "sha256": "6eb689ddee165fcc10fa4ad5f92596e91b02395af457bbd047f2636cc3bb7ce2"
+    },
+    {
+      "path": "01_Packaging/pops-back.png",
+      "bytes": 188703,
+      "sha256": "e8123f8d136c82ffc30b069941b0260624b93e887a3338a5b38f52240c174b51"
+    },
+    {
+      "path": "01_Packaging/pops-front-editable.svg",
+      "bytes": 2215681,
+      "sha256": "0b2d2d749963c05709ac817fa51db9c64b029761e00de7e1de18ddeb5d2e8c39"
+    },
+    {
+      "path": "01_Packaging/pops-front.png",
+      "bytes": 899481,
+      "sha256": "fb9f48aed4c77336c8b6188232af385095c6049ed0f8d6ffd26cf57a0e351e88"
+    },
+    {
+      "path": "01_Packaging/pops-packaging-review.pdf",
+      "bytes": 2217428,
+      "sha256": "9ce4ebbe5d1d8e70dcd293a5b2744ef689ac26ba2e199a7b8bc5ec3e9497cfc0"
+    },
+    {
+      "path": "01_Packaging/README.txt",
+      "bytes": 1202,
+      "sha256": "ff8d5098c044eb98d724cc2d1e982c41be1ffa6bae1d3b54caac3826d7115d1e"
+    },
+    {
+      "path": "02_Artwork/pops-pack-v2-bucket.png",
+      "bytes": 1762824,
+      "sha256": "9ae931dd8ff8f43bb683b66f279c2659d96e4b022596144ba64e4888fdd17268"
+    },
+    {
+      "path": "02_Artwork/pops-bucket-mascot-v2.png",
+      "bytes": 1656752,
+      "sha256": "e78868f81ad9b8e9dd6d936056c662856998106be57729b133744f6f77effc8d"
+    },
+    {
+      "path": "02_Artwork/pops-campaign-v2.png",
+      "bytes": 440976,
+      "sha256": "68f1a1cfb2d520834263432a428cc083328337d75a36d7d77195a392ae020a07"
+    },
+    {
+      "path": "02_Artwork/pops-overview-v2.png",
+      "bytes": 467787,
+      "sha256": "59bfe0cdeb87276596b498104b5480bd4dc6b9257b5bd1dd1177a45dcae0bf86"
+    },
+    {
+      "path": "02_Artwork/pops-v2-comparison.png",
+      "bytes": 1193541,
+      "sha256": "ed00e7515e2bedd0b6a2dd18815c39d1d62ba71389aac8ab6644d78efa47d386"
+    },
+    {
+      "path": "04_Alternative/pops-pack-v2-classic.png",
+      "bytes": 2077257,
+      "sha256": "801912f61863445fbaafa073a2eaa89b64acbb571eb230d1012964c2f24b0424"
+    },
+    {
+      "path": "02_Artwork/pops-food-cutout.png",
+      "bytes": 1910522,
+      "sha256": "5683a02853e05a3dee4dba4946e97132081cec029a8f56b7b3376d5029acc23f"
+    },
+    {
+      "path": "02_Artwork/pops-serving-scene.png",
+      "bytes": 2429942,
+      "sha256": "9c616dfaa0d8c57091f5d1bf2be855ba47affe10195c376ded3495134b457044"
+    },
+    {
+      "path": "05_Prompts/pops-bucket-mascot-v2-cleanup.prompt.txt",
+      "bytes": 1382,
+      "sha256": "760105f255f05d7c6323c2d4d887f9d80575618f31cd08eedaf553ba174919c9"
+    },
+    {
+      "path": "05_Prompts/pops-bucket-mascot-v2.prompt.txt",
+      "bytes": 3113,
+      "sha256": "fb088575080006b6742919442f70fd75a08dcadd87dd7999082013403e755121"
+    },
+    {
+      "path": "05_Prompts/pops-bucket-mascot-v2.provenance.json",
+      "bytes": 1531,
+      "sha256": "a6fe96f358151bac9df2275f9c5d8ec0a918795033a348f2b32e6cbf09f8cd83"
+    },
+    {
+      "path": "05_Prompts/pops-pack-v2-bucket-cleanup.prompt.txt",
+      "bytes": 1349,
+      "sha256": "66340c672338c4b73ce2692925dc8759414235745fd45c31bff314c6fffdba60"
+    },
+    {
+      "path": "05_Prompts/pops-pack-v2-bucket.prompt.txt",
+      "bytes": 4150,
+      "sha256": "c936bc373ed90162508fa2373e3b0e8ebe8f376f3dcfe6337b1e66c442f6df7e"
+    },
+    {
+      "path": "05_Prompts/pops-pack-v2-bucket.provenance.json",
+      "bytes": 1192,
+      "sha256": "4b616ec42fcae234411fcce916d1e84efebf9c033158a1f0c10c1703eb35b3fb"
+    },
+    {
+      "path": "05_Prompts/pops-pack-v2-classic-prompt.txt",
+      "bytes": 4426,
+      "sha256": "fa6c43ce322ff41e276568b5533e97ad7113af58bfb2cca0027a1ec9abcc3a14"
+    },
+    {
+      "path": "05_Prompts/pops-pack-v2-classic-provenance.json",
+      "bytes": 1850,
+      "sha256": "1c45be222b99a097c2651f9ef4be68565416ca39cffd14d922a2ecf53c8b48dc"
+    },
+    {
+      "path": "06_Website/pops-website-v2.png",
+      "bytes": 358168,
+      "sha256": "6983a16f8cfe2c7a900439fdeabf28db4312ba14c5de7c18c64923105faec53a"
+    },
+    {
+      "path": "06_Website/pops-website-v2-mobile.png",
+      "bytes": 129628,
+      "sha256": "eebc2689000dd4e018d8c97c5a7ec98260ebeec0c9e09b41d20840e8c3fbee25"
+    }
+  ]
+}

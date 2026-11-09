@@ -1,0 +1,95 @@
+{
+  "meatballs": {
+    "master": "meatballs-master.png",
+    "masterDimensions": [
+      1254,
+      1254
+    ],
+    "webp": "meatballs.webp",
+    "webpDimensions": [
+      960,
+      960
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBboxThreshold16": [
+      161,
+      88,
+      1139,
+      1192
+    ],
+    "emptyHorizontalBand": [
+      441,
+      538
+    ],
+    "emptyBandPixels": 97,
+    "webpBytes": 140090,
+    "reference": "../mobile-v1/meatballs-master.png",
+    "prompt": "meatballs-prompt.txt",
+    "method": "built-in ImageGen; mobile spacing edit, approved desktop untouched"
+  },
+  "nuggets": {
+    "master": "nuggets-master.png",
+    "masterDimensions": [
+      1254,
+      1254
+    ],
+    "webp": "nuggets.webp",
+    "webpDimensions": [
+      960,
+      960
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBboxThreshold16": [
+      123,
+      103,
+      1149,
+      1196
+    ],
+    "emptyHorizontalBand": [
+      440,
+      529
+    ],
+    "emptyBandPixels": 89,
+    "webpBytes": 124050,
+    "reference": "../mobile-v1/nuggets-master.png",
+    "prompt": "nuggets-prompt.txt",
+    "method": "built-in ImageGen; mobile spacing edit, approved desktop untouched"
+  },
+  "lulia-mini": {
+    "master": "lulia-mini-master.png",
+    "masterDimensions": [
+      1254,
+      1254
+    ],
+    "webp": "lulia-mini.webp",
+    "webpDimensions": [
+      960,
+      960
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBboxThreshold16": [
+      129,
+      103,
+      1134,
+      1200
+    ],
+    "emptyHorizontalBand": [
+      426,
+      509
+    ],
+    "emptyBandPixels": 83,
+    "webpBytes": 134148,
+    "reference": "../mobile-v1/lulia-mini-master.png",
+    "prompt": "lulia-mini-prompt.txt",
+    "method": "built-in ImageGen; mobile spacing edit, approved desktop untouched"
+  }
+}

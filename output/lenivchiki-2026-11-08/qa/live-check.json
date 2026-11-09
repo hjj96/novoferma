@@ -1,0 +1,56 @@
+{
+  "result": "pass",
+  "url": "https://novoferma-team-preview.vercel.app",
+  "checks": [
+    {
+      "path": "catalogue.html",
+      "status": 200,
+      "bytes": 23232,
+      "matchesReviewedSource": true,
+      "xRobotsTag": "noindex, nofollow, noarchive"
+    },
+    {
+      "path": "product-lenivchiki.html",
+      "status": 200,
+      "bytes": 13334,
+      "matchesReviewedSource": true,
+      "xRobotsTag": "noindex, nofollow, noarchive"
+    },
+    {
+      "path": "where-to-buy.html",
+      "status": 200,
+      "bytes": 13099,
+      "matchesReviewedSource": true,
+      "xRobotsTag": "noindex, nofollow, noarchive"
+    },
+    {
+      "path": "assets/responsive/packshots/lenivchiki-pack-v1-800-q94-ff95cef5.webp",
+      "status": 200,
+      "bytes": 193350,
+      "matchesReviewedSource": true,
+      "xRobotsTag": "noindex, nofollow, noarchive"
+    },
+    {
+      "path": "assets/responsive/illustrations/lenivchiki-scene-v1-800-q90-f07b4b18.webp",
+      "status": 200,
+      "bytes": 115772,
+      "matchesReviewedSource": true,
+      "xRobotsTag": "noindex, nofollow, noarchive"
+    },
+    {
+      "path": "preview-version.json",
+      "status": 200,
+      "bytes": 112,
+      "matchesReviewedSource": null,
+      "xRobotsTag": "noindex, nofollow, noarchive"
+    },
+    {
+      "path": "robots.txt",
+      "status": 200,
+      "bytes": 26,
+      "matchesReviewedSource": null,
+      "xRobotsTag": "noindex, nofollow, noarchive"
+    }
+  ],
+  "browserEvidence": "First production browser run completed catalogue -> product -> where-to-buy and saved live-product-390.png; ancillary Playwright HTTP version request timed out. A second browser reload timed out waiting for networkidle. No further browser retries. Local browser checks passed at 1440/390/320. Production HTTP bytes and version verified independently here."
+}

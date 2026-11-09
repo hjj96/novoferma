@@ -1,0 +1,22 @@
+{
+  "pages": 8,
+  "assortment": [
+    5,
+    5,
+    5
+  ],
+  "unique_catalogue_products": 15,
+  "original_jpeg_embedded_byte_identical": 14,
+  "popsy_weight": "not invented; descriptive type shown",
+  "opening": "one three-line paragraph plus three sourced business facts",
+  "protein": "Classic500g ->52gprotein; general source/role explanations",
+  "fibriki": "ingredient-to-product native diagram; no white logo plaque",
+  "offers_and_closing": "pixel-identical to v7",
+  "no_public_research_footnotes": true,
+  "evidence": [
+    "company-evidence.json",
+    "nutrition-evidence.json"
+  ],
+  "text_bounds": "passed",
+  "bytes": 11488256
+}

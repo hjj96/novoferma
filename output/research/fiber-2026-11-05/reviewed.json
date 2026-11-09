@@ -1,0 +1,135 @@
+{
+  "title": "Клетчатка: возможность для «Новофермы»",
+  "status": "reviewed-public-research",
+  "generatedAt": "2026-11-05T12:00:00+03:00",
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-05",
+    "originalQuestion": "Насколько реален мировой тренд на клетчатку и как использовать его в продуктах Новофермы?"
+  },
+  "queries": {
+    "intent": {
+      "label": "IFIC: намерение включать пищевые волокна",
+      "rows": [
+        {
+          "year": "2021",
+          "share": 0.56
+        },
+        {
+          "year": "2025",
+          "share": 0.64
+        }
+      ],
+      "source": {
+        "label": "IFIC: намерение включать пищевые волокна",
+        "url": "https://ific.org/wp-content/uploads/2025-IFIC-Food-Health-Survey-Full-Report.pdf",
+        "links": [
+          {
+            "label": "IFIC: намерение включать пищевые волокна",
+            "url": "https://ific.org/wp-content/uploads/2025-IFIC-Food-Health-Survey-Full-Report.pdf"
+          }
+        ],
+        "period": "2021 и 2025",
+        "caveats": [
+          "Самоотчёт try to consume, не фактические граммы и не покупки; 2025 n=3000, США, 18–80 лет, 13–27.03.2025, взвешенные ответы; страница63. Между точками нет годового ряда."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Публичный первичный источник",
+            "detail": "https://ific.org/wp-content/uploads/2025-IFIC-Food-Health-Survey-Full-Report.pdf; проверено веб-поиском и чтением источника 05.11.2026."
+          }
+        ]
+      }
+    },
+    "barriers": {
+      "label": "IFIC: барьеры увеличения клетчатки",
+      "rows": [
+        {
+          "barrier": "Не знают, где содержится",
+          "share": 0.3
+        },
+        {
+          "barrier": "Цена",
+          "share": 0.27
+        },
+        {
+          "barrier": "Вкус",
+          "share": 0.26
+        },
+        {
+          "barrier": "Приготовление",
+          "share": 0.24
+        },
+        {
+          "barrier": "Реакция организма",
+          "share": 0.21
+        },
+        {
+          "barrier": "Неудобство",
+          "share": 0.17
+        }
+      ],
+      "source": {
+        "label": "IFIC: барьеры увеличения клетчатки",
+        "url": "https://ific.org/wp-content/uploads/IFIC-Spotlight-Survey-Fiber-Whole-Grains.pdf",
+        "links": [
+          {
+            "label": "IFIC: барьеры увеличения клетчатки",
+            "url": "https://ific.org/wp-content/uploads/IFIC-Spotlight-Survey-Fiber-Whole-Grains.pdf"
+          }
+        ],
+        "period": "22–30.10.2025; публикация 03.02.2026",
+        "caveats": [
+          "США, n=1006, 18+, взвешенная онлайн-панель. Множественный выбор, доли не складываются. Страница9."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Публичный первичный источник",
+            "detail": "https://ific.org/wp-content/uploads/IFIC-Spotlight-Survey-Fiber-Whole-Grains.pdf; проверено веб-поиском и чтением источника 05.11.2026."
+          }
+        ]
+      }
+    },
+    "drivers": {
+      "label": "IFIC 2026: факторы покупки",
+      "rows": [
+        {
+          "driver": "Вкус",
+          "share": 0.88
+        },
+        {
+          "driver": "Цена",
+          "share": 0.78
+        },
+        {
+          "driver": "Удобство",
+          "share": 0.61
+        },
+        {
+          "driver": "Полезность",
+          "share": 0.56
+        }
+      ],
+      "source": {
+        "label": "IFIC 2026: факторы покупки",
+        "url": "https://ific.org/media/trying-harder-yet-feeling-worse-americans-self-reported-health-status-hits-a-record-low/",
+        "links": [
+          {
+            "label": "IFIC 2026: факторы покупки",
+            "url": "https://ific.org/media/trying-harder-yet-feeling-worse-americans-self-reported-health-status-hits-a-record-low/"
+          }
+        ],
+        "period": "22.03–08.04.2026",
+        "caveats": [
+          "США, n=3005, 18–80 лет. Ответы о влиянии фактора на покупки, не доли продаж. Публикация 07.10.2026."
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Публичный первичный источник",
+            "detail": "https://ific.org/media/trying-harder-yet-feeling-worse-americans-self-reported-health-status-hits-a-record-low/; проверено веб-поиском и чтением источника 05.11.2026."
+          }
+        ]
+      }
+    }
+  }
+}

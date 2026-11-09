@@ -1,0 +1,19 @@
+Use case: precise-object-edit — strictly localized packaging color correction.
+Image 1 is the ONLY EDIT TARGET: the existing wide lifestyle photograph. Keep the exact scene, camera and all objects unchanged.
+Images 2 (Novoferma popcorn) and 3 (Novoferma chicken nuggets) are COLOR AUTHORITIES ONLY, actual neighboring products displayed on the same website. Do NOT import their design, lettering, characters, product shapes or composition.
+
+CHANGE COLORS ONLY IN THESE PRECISE AREAS OF THE PHYSICAL POPS PACKAGE IN IMAGE 1:
+A. Its paper sleeve: remove the current slightly pink/grey/peach cast and match the warmer, lighter vanilla cream with a gentle yellow tone of the reference sleeves. Keep natural light/shadow and tactile paper texture; cream should remain believable in this exact scene illumination, not a flat fill or yellow wash.
+B. Printed ПОПСЫ title and the two descriptor lines: deepen the present mustard/olive color to the rich very dark warm brown/olive ink of the reference titles. Keep the exact fine high-contrast serif strokes, all letter shapes, spacing, size, placement and perspective.
+C. NOVOferma logo: make its existing orange slightly richer and more saturated, matching the family reference orange. Do not change logo size, spelling, shape or position.
+D. Food visible INSIDE THE CLEAR PET TRAY: very moderately enrich its golden-beige contrast so the pale breading does not look washed out; retain the noticeably pale matte unprepared-product appearance. It must remain much paler than the golden prepared food outside the pack. No cooked-orange coating.
+
+PROTECT EVERYTHING ELSE EXACTLY:
+The entire printed drummer hen illustration, drumsticks, black vest, terracotta bucket and pictured golden food on the sleeve must remain visually identical. Do not redraw, restyle, move, resize, recolor or add to the illustration. Keep the existing paper folds, sleeve silhouette, clear PET shape/highlights, package geometry, package scale/placement/perspective.
+Outside the physical package, preserve all existing scene pixels and appearance: cream tabletop and wall, daylight, shadows, headphones bottom-left, dark gig bag, denim, plain terracotta cup, the prepared golden pops and the two pieces outside the pack. No global white-balance change, no global yellow/sepia/saturation filter, no change of scene illumination, no shifted camera, no new objects, no additional text.
+Preserve the existing EXACT FOUR printed text lines:
+NOVOferma
+ПОПСЫ
+МИНИ-НАГГЕТСЫ ИЗ КУРИЦЫ
+В ХРУСТЯЩЕЙ ПАНИРОВКЕ
+No new claims. This is a subtle family color-match retouch of existing sleeve paper, dark printed words, orange logo and pale tray contents only. Retain the original 1536x1024 landscape aspect ratio and opaque photographic background.

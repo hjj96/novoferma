@@ -1,0 +1,206 @@
+{
+  "title": "Новоферма — Попсы, версия 3",
+  "date": "2026-11-05",
+  "master": "pops-v3-drummer.png",
+  "alternative": "pops-v3-backstage.png",
+  "status": "reviewed visual concept; production fields pending",
+  "image_generation": "built-in ImageGen",
+  "presentation": {
+    "artifactRef": "artifact_external_aba819cc-00a3-41cc-a894-124f9bbb63b4",
+    "page_id": "page_8c8f482026e481918ccabfa7d7654d5c",
+    "stateVersion": 13,
+    "slides": 9
+  },
+  "files": [
+    {
+      "path": "00_README.txt",
+      "bytes": 2057,
+      "sha256": "9eb5d076be6516ba2c973ddd8f40834dc37c68cf0c625639c6a70130b4ca14aa"
+    },
+    {
+      "path": "03_Concept/creative-direction.txt",
+      "bytes": 3011,
+      "sha256": "3fee407cd262318f2cdfdd65e0c9de15f28474e31619784ccf961d4cc11c81ec"
+    },
+    {
+      "path": "03_Concept/product-brief.txt",
+      "bytes": 4897,
+      "sha256": "b1e869a2ff1cb8034644b8ad0393ac990d7446500722c5936d67881957c701c8"
+    },
+    {
+      "path": "01_Packaging/pops-back-editable.svg",
+      "bytes": 9862,
+      "sha256": "d92b299a125cd45a3646a4a4a7b2b2798b1dd372f07aee0627595c1c0ac3f0c0"
+    },
+    {
+      "path": "01_Packaging/pops-back.png",
+      "bytes": 190742,
+      "sha256": "1ee7e9e5e1c02637897c63401c121c40a0e2d087459eb494f50ac2ec0d0445b8",
+      "width": 1800,
+      "height": 1450
+    },
+    {
+      "path": "01_Packaging/pops-front-editable.svg",
+      "bytes": 1940369,
+      "sha256": "c17527d5919a86e491302ba939aae1218361fb0877ae8f5f8115f12185ea973f"
+    },
+    {
+      "path": "01_Packaging/pops-front.png",
+      "bytes": 851660,
+      "sha256": "5ea6461158fed23c44ac6b4a9338193c2d7b1f0356639ed6627a616f73462502",
+      "width": 1800,
+      "height": 1450
+    },
+    {
+      "path": "01_Packaging/pops-packaging-review.pdf",
+      "bytes": 1873552,
+      "sha256": "fb57c8fb66c40bb222f8f71ac3625005ccf3847470516ff2421c6a32d0a33199"
+    },
+    {
+      "path": "01_Packaging/README.txt",
+      "bytes": 1325,
+      "sha256": "0f01c82a16b98d377b6c575941c7c2dd6505de05865c914371e8f0e35420de51"
+    },
+    {
+      "path": "02_Artwork/pops-v3-drummer.png",
+      "bytes": 1469845,
+      "sha256": "0d3467039e7decf211206716313ba7ba6339a460a5c64895f077eb2e28d9587b",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "02_Artwork/pops-v3-rock-art.png",
+      "bytes": 1450251,
+      "sha256": "c412cca6e7e3a1931f01e966960bb5913336962818bf41acd23e71a8f99fe125",
+      "width": 1683,
+      "height": 935
+    },
+    {
+      "path": "02_Artwork/pops-v3-lifestyle.png",
+      "bytes": 2206777,
+      "sha256": "89c99828174475a604fbec596e3d5f20660ba0d21344f210f676437fb3971a47",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "02_Artwork/pops-campaign-v3.png",
+      "bytes": 270774,
+      "sha256": "3eba5237efdf978414ff15281b7b9e7e99bf7bfab691648e565969bf671a7bde",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "02_Artwork/pops-lifestyle-poster-v3.png",
+      "bytes": 1359183,
+      "sha256": "5d590f0fdb90d2298e6ddd1629c409d01b4fee747ee4093a8f7050a1502e8362",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "02_Artwork/pops-overview-v3.png",
+      "bytes": 398221,
+      "sha256": "8fc24784a8ce9e140c77dc2b50f8068d85eab1c1e04b53eb3efaaad2bf4098db",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "02_Artwork/pops-v3-family.png",
+      "bytes": 871938,
+      "sha256": "603e93824f3f2d4da56d8f6f3e53d84988cf6074a40dffc862e1921cae26b99a",
+      "width": 1800,
+      "height": 950
+    },
+    {
+      "path": "02_Artwork/pops-v3-comparison.png",
+      "bytes": 965094,
+      "sha256": "b445a4cba65b8633cab1055c18a7857a45a072ac739d60f9b2e97d9f761c8b25",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "04_Alternative/pops-v3-backstage.png",
+      "bytes": 1593327,
+      "sha256": "2cc041b521f9318b10f2d9481b49a75d3cd891722fcdf1f99fb795abdb2eb66b",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "02_Artwork/pops-food-cutout.png",
+      "bytes": 1910522,
+      "sha256": "5683a02853e05a3dee4dba4946e97132081cec029a8f56b7b3376d5029acc23f",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "02_Artwork/pops-serving-scene.png",
+      "bytes": 2429942,
+      "sha256": "9c616dfaa0d8c57091f5d1bf2be855ba47affe10195c376ded3495134b457044",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "05_Prompts/pops-v3-backstage-cleanup.prompt.txt",
+      "bytes": 1434,
+      "sha256": "3e870cb8dfa84c291e1f242c40196b40c534e1680d5987b8eddb06cab9f96641"
+    },
+    {
+      "path": "05_Prompts/pops-v3-backstage.prompt.txt",
+      "bytes": 4697,
+      "sha256": "24c8b10f89d5ee979d70c67c23d69d63c6d903d149ef5e4c01de37c50fee6b7d"
+    },
+    {
+      "path": "05_Prompts/pops-v3-backstage.provenance.json",
+      "bytes": 1781,
+      "sha256": "0b3657b8d900b99fbe45da55240583f8521113c1483de80237a84a9d3441d608"
+    },
+    {
+      "path": "05_Prompts/pops-v3-drummer-cleanup-prompt.txt",
+      "bytes": 1334,
+      "sha256": "b8967b325614fcabe0a7f7c6057ecfa7bed385604fc3eacff946ef7d45f9f423"
+    },
+    {
+      "path": "05_Prompts/pops-v3-drummer-prompt.txt",
+      "bytes": 4869,
+      "sha256": "f3aeecd99333fd86f5b8ead3882684e4581b9f6dee42799d662edbaf75984b38"
+    },
+    {
+      "path": "05_Prompts/pops-v3-drummer-provenance.json",
+      "bytes": 2065,
+      "sha256": "e3bc93644a7e77b8c0ada2a8280f7bfee888ac9fdd5656e3bf2dc384b1676dfc"
+    },
+    {
+      "path": "05_Prompts/pops-v3-lifestyle.prompt.txt",
+      "bytes": 3441,
+      "sha256": "e2ebba12e3410517f7a338c127ca1d70e3cf6c5abda9d681f57a632f1f03e3e3"
+    },
+    {
+      "path": "05_Prompts/pops-v3-lifestyle.provenance.json",
+      "bytes": 1423,
+      "sha256": "278e5e16de802f88edf5e9e7b41d7cf0fccabba03885db3ed3ca2f60f8cf6b6a"
+    },
+    {
+      "path": "05_Prompts/pops-v3-rock-art.prompt.txt",
+      "bytes": 2621,
+      "sha256": "4c91995af195b8e5f15477fa766b1f906df10f634661b50e931d6142ef46ea26"
+    },
+    {
+      "path": "05_Prompts/pops-v3-rock-art.provenance.json",
+      "bytes": 1282,
+      "sha256": "869fbcc2ca6c19ff5a4ab2a1438d5235e2266dc8e6a6b9c01109693f841d4ea3"
+    },
+    {
+      "path": "06_Website/pops-website-v3.png",
+      "bytes": 321466,
+      "sha256": "879f5c1594e0166cb1e6aed3e317a303af5a04d1e28dbaec304ef50423e8e17d",
+      "width": 1440,
+      "height": 920
+    },
+    {
+      "path": "06_Website/pops-website-v3-mobile.png",
+      "bytes": 122542,
+      "sha256": "93a3a408efbfb7cbd4cbb1baa4f89a262e80ad71558a4525b49e444f4bce2efd",
+      "width": 390,
+      "height": 844
+    }
+  ]
+}

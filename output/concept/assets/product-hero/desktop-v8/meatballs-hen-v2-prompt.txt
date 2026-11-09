@@ -1,0 +1,22 @@
+Built-in ImageGen; 2026-11-08.
+Master character identity: output/concept/assets/product-hero/mobile-v4/fibriki-v5-master.png
+Packaging story reference: output/concept/assets/catalogue/frikadelki-klassicheskie.webp
+One native generation; no image edits or website integration.
+
+Use case: identity-preserve / illustration-story.
+Asset type: premium hand-illustrated Novoferma LIFESTYLE MASCOT SCENE, isolated transparent square PNG, intended1254×1254.
+
+REFERENCE ROLES:
+Image1 is the SINGLE MASTER CHARACTER IDENTITY AND DRAWING STYLE. The scene MUST use this exact recognizable adult warm-hearted broad-bodied hen: same mature facial proportions, large nearer eye and tiny farther eye, cream pointed beak, red-orange five-lobed comb and red wattle, plump warm yellow feathered body, saturated orange wings, crisp expressive black hand-inked contour, delicate inner feather strokes and fine orange-yellow watercolor/pencil fill. Match line weight, detailing density and warm rich palette. Do not invent a new face or a skinny younger chick, do not make two huge equal eyes, do not flatten into simple vector clipart, do not render it as a3D bird.
+Image2 is a PRODUCT PACKAGING STORY REFERENCE ONLY. Use it to understand a character performing an activity. Do NOT copy the different older packaging drawing style or face, logos, words, packaging, realistic food or its layout.
+
+PRIMARY QUALITY:
+Create a true distinctive lifestyle vignette of this SAME hen DOING SOMETHING, like a charming detailed premium packaging illustration. NOT another generic jumping/tossing pose. Big character, warm inviting facial expression, strong silhouette and exquisite crisp black drawing with richly colored watercolor details. Full character with every toe, wing tip, comb, outfit part and prop fully inside the square. The complete scene fills roughly90% of the canvas with safe4–5% margins. Hen itself is the main scene object and occupies at least75–80% of canvas height; do not shrink the hen to accommodate props. Props and clothing are also HAND DRAWN in exactly the same medium, NEVER photographic or3D. Clear, carefully drawn hands/wings and believable contact with props.
+
+BACKGROUND / EXCLUSIONS:
+Genuine alpha transparency everywhere outside character and props, also through internal gaps. Keep white clothing/eye whites opaque. No floor, ground plane, environment, kitchen, patio, background rectangle, vignette, halo, haze, glow or cast ground shadows. Absolutely NO FOOD of any kind, no meatballs, no sausages, nuggets or ingredients, no garnish, no text, logos, labels, packaging or decorative motion strokes. The real photographic food is a separate asset; this image contains ONLY the illustrated character and specified EMPTY props. High native detail, not blurred/upscaled edges.
+SCENARIO — CLASSIC MEATBALLS HOSPITABLE CHEF:
+The same adult hen is a welcoming chef wearing a WHITE CHEF'S TOQUE, a neat WHITE CHEF JACKET, and a WHITE APRON WITH THIN GREEN CHECK GRID, retaining the original recognizable warm face, plump proportions and orange/yellow feathered wings. Keep the red comb's familiar form partly visible around/below the toque, not a new comb design.
+She faces LEFT toward the future photographic food cluster. Wide good-natured open-beak smile, one feathered wing extended in a clear WELCOMING gesture. The other wing supports an elegant HAND-DRAWN EMPTY SERVING PLATTER on a beautifully folded light tea towel; draw the supporting gesture clearly and naturally. The platter is clean and COMPLETELY EMPTY, only its illustrated rim and soft shading. The towel hangs in a few tasteful folds over the serving wing, not over the whole scene.
+Energetic grounded hospitality stance: one foot confidently steps forward, the other supports her weight, NOT the familiar airborne jumping pose. Large broad character with confident adult face. The toque, wings, tail, entire platter, towel and both full feet remain inside frame, scene about90% full square. All outfit/plate/towel are in the SAME black-ink-and-watercolor illustration style as hen, never3D/photo. No food, garnish, table, floor, other props or words.
+
