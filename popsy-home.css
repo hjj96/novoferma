@@ -24,7 +24,7 @@
 
 @media(min-width:700px) and (max-width:1099px) {
  .popsy-home-inner {height:clamp(590px,calc(100svh - 80px),780px)}
- .popsy-home-title {left:7%;top:3%;font-size:24cqw}
+ .popsy-home-title {left:7%;top:3%;font-size:21cqw}
  .popsy-home-note {right:5%;top:8%;font-size:5.5cqw}
  .popsy-home-pack-layer {width:61%;left:3%;top:15%}
  .popsy-home-food-layer {width:42%;right:3%;bottom:19%}
@@ -39,6 +39,17 @@
  .popsy-home-food-layer {width:32%;right:8%;bottom:16%}
  .popsy-home-note {font-size:4.7cqw}
  .popsy-home-bottom {bottom:4%}
+}
+@media(min-width:700px) and (max-width:1099px) and (max-height:500px) {
+ .page-index .header-inner {height:64px}
+ .popsy-home-inner {height:430px}
+ .popsy-home-title {left:6%;top:0;font-size:19cqw}
+ .popsy-home-note {top:5%;right:5%;font-size:4.8cqw}
+ .popsy-home-pack-layer {width:43%;left:7%;top:8%}
+ .popsy-home-food-layer {width:32%;right:7%;bottom:17%}
+ .popsy-home-bottom {bottom:4%;gap:28px}
+ .popsy-home-description {font-size:15px;max-width:26em}
+ .popsy-home-cta.button {min-height:48px;font-size:15px;padding:12px 22px}
 }
 @media(max-width:699px) {
  .popsy-home-inner {height:auto;min-height:0;display:flex;flex-direction:column;padding:12px 20px 32px}
@@ -60,6 +71,14 @@
  .popsy-home-note {font-size:8.6cqw}
  .popsy-home-bottom {gap:15px}
  .popsy-home-description {font-size:14px}
+}
+@media(max-width:699px) and (max-height:700px) {
+ .popsy-home-inner {padding-bottom:20px}
+ .popsy-home-art {aspect-ratio:1.28}
+ .popsy-home-bottom {gap:14px;margin-top:8px}
+}
+@media(max-width:359px) and (max-height:700px) {
+ .popsy-home-inner {padding-bottom:16px}
 }
 
 /* Entrance is progressive: absent JS or reduced motion always leaves the poster visible. */
