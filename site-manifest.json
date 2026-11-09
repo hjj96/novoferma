@@ -637,13 +637,19 @@
       "meatKey": "chicken",
       "weight": "",
       "category": "Фрикадельки и ёжики",
-      "image": "assets/novelty-packaging/fibriki-pack-v12.webp?v=0ea08f11f1",
+      "image": "assets/novelty-packaging/fibriki-pack-v13.webp?v=cdc583c675",
       "url": "product-fibriki.html",
       "previewTone": 3,
       "previewLean": "left",
       "anchor": "novelties",
       "novelty": true,
-      "description": "Куриные фрикадельки с пищевыми волокнами. К любимому гарниру, в суп или с соусом."
+      "description": "Куриные фрикадельки с пищевыми волокнами. К любимому гарниру, в суп или с соусом.",
+      "packNutrition": {
+        "proteinGrams": 52,
+        "fibreGrams": 5,
+        "basis": "package",
+        "source": "User-confirmed in this chat, 2026-11-09"
+      }
     },
     {
       "id": "lenivchiki",

@@ -7,6 +7,26 @@
  color:var(--rust);
 }
 .page-product-fibriki .detail-copy > .detail-intro {margin-bottom:20px}
+.page-product-fibriki .fibriki-pack-nutrition {
+ margin:0 0 24px;padding:20px 0 0;
+ border-top:1px solid var(--line);
+}
+.page-product-fibriki .fibriki-pack-nutrition > h3 {
+ margin:0 0 14px;font-family:var(--font-display);font-size:13px;
+ font-weight:650;line-height:1.5;letter-spacing:.035em;text-transform:uppercase;
+}
+.fibriki-pack-nutrition dl {
+ display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;
+ margin:0;
+}
+.fibriki-pack-nutrition dl > div {display:flex;flex-direction:column;min-width:0}
+.fibriki-pack-nutrition dt {order:2;margin-top:6px;font-size:16px;font-weight:600;line-height:1.4}
+.fibriki-pack-nutrition dd {
+ display:flex;align-items:baseline;gap:8px;order:1;margin:0;
+ font-family:var(--font-poster);font-weight:900;line-height:1;color:var(--brown);
+}
+.fibriki-nutrition-number {font-size:clamp(62px,6.5vw,82px);letter-spacing:-.035em}
+.fibriki-nutrition-unit {font-size:28px;line-height:1.1}
 .fibriki-story {background:var(--paper)}
 .fibriki-story-inner,.fibriki-serving {
  display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);
@@ -33,6 +53,11 @@
 }
 @media(max-width:699px) {
  .page-product-fibriki .fibriki-lead {font-size:clamp(28px,7.8vw,36px);margin-bottom:18px}
+ .page-product-fibriki .fibriki-pack-nutrition {margin-bottom:22px;padding-top:18px}
+ .fibriki-pack-nutrition dl {gap:20px}
+ .fibriki-nutrition-number {font-size:64px}
+ .fibriki-nutrition-unit {font-size:25px}
+ .fibriki-pack-nutrition dt {font-size:15px}
  .fibriki-story-inner,.fibriki-serving {grid-template-columns:1fr;gap:24px;padding-block:44px}
  .fibriki-story h2,.fibriki-serving h2 {font-size:clamp(32px,9vw,42px)}
  .fibriki-story-copy > p,.fibriki-serving > p {font-size:16px}
