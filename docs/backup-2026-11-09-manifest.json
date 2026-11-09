@@ -6219,9 +6219,9 @@
     {
       "path": "output/concept/index.html",
       "bytes": 14328,
-      "sha256": "368ff51840591036deb4d543d6fe34ebab239bb0961325e129ae30ef0ee0b52f",
-      "gitBlobSha": "10f27c7ed2286e97ccae21003a64347404559068",
-      "mtimeNs": 1794211475257151186
+      "sha256": "f8a30567037ba23b0151884d9dd97fb6a11c6a284d520943da7708f67cace12c",
+      "gitBlobSha": "0eee39b25aaf6872a9526e63ad4a5441f91d6017",
+      "mtimeNs": 1794211831619500711
     },
     {
       "path": "output/concept/lenivchiki.css",
@@ -6330,10 +6330,10 @@
     },
     {
       "path": "output/concept/popsy-home.css",
-      "bytes": 6821,
-      "sha256": "dc19ce3fabe73151a6d50710e964573961cd92f40616117430744bf571ed9ae9",
-      "gitBlobSha": "a8cda72a5a5b087c3be451f8e4059dceadeee297",
-      "mtimeNs": 1794211475211141866
+      "bytes": 7354,
+      "sha256": "473f6305bdb1cbc5d5c8b0ab332f48adcb47b2951cafea5def9a7682a86c826f",
+      "gitBlobSha": "0cc396226d290405da9b859c17f8e34e1c4fbaa0",
+      "mtimeNs": 1794211831560296467
     },
     {
       "path": "output/concept/popsy-home.js",
@@ -40363,7 +40363,7 @@
       "sha256": "d304705ba09c67855ff46da8286bfda07c3794638e898f23aaf28735f6a9e741"
     }
   ],
-  "updatedAt": "2026-11-09T11:10:25+03:00",
+  "updatedAt": "2026-11-09T11:12:02+03:00",
   "historicalLocalFilesRetained": [
     {
       "path": "output/hosting/pending-publish.json",
