@@ -43,15 +43,15 @@
 :is(.page-about,.page-index) .about-products-heading>.about-pill {flex:none;margin-bottom:6px}
 :is(.page-about,.page-index) .about-products .product-grid {grid-template-columns:repeat(4,minmax(0,1fr));gap:40px 28px}
 :is(.page-about,.page-index) .about-products .packshot-preview {--packshot-surface:#f0efcf}
-.page-about .cooperation-invite-about {margin:0;background:var(--orange);color:var(--about-ink)}
+.page-about .cooperation-invite-about {margin:0;background:var(--brown);color:var(--about-cream)}
 .page-about .cooperation-invite-inner {
  grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:80px;padding-block:80px;
 }
 .page-about .cooperation-invite-about .about-title {font-family:var(--font-heading);font-size:clamp(60px,7vw,100px);font-weight:var(--font-heading-weight);line-height:1.04;letter-spacing:-.015em}
-.page-about .cooperation-invite-about .about-title>span {color:var(--about-cream)}
+.page-about .cooperation-invite-about .about-title>span {color:var(--gold)}
 .page-about .cooperation-invite-response {gap:28px;align-items:flex-start;flex-direction:column}
 .page-about .cooperation-invite-response>.about-copy {margin:0;max-width:34ch;font-size:clamp(18px,1.55vw,22px);line-height:1.55}
-.page-about .cooperation-invite-about a:focus-visible {outline-color:var(--about-ink)}
+.page-about .cooperation-invite-about a:focus-visible {outline-color:var(--about-cream)}
 @media(min-width:700px) and (max-width:1099px) {
  :is(.page-about,.page-index) .about-shell {width:calc(100% - 64px)}
  :is(.page-about,.page-index) .about-title {font-size:clamp(56px,7.5vw,82px)}
