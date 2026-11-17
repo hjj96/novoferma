@@ -265,6 +265,8 @@ test('city: known product query preset; unknown values are ignored', () => {
   assert.ok(example);
   assert.equal(cityFixture({query:`?product=${encodeURIComponent(example.value)}`}).wanted.value, example.value);
   assert.equal(cityFixture({query:'?product=not-an-approved-product'}).wanted.value, '');
+  assert.equal(cityFixture({query:'?product=lulia-mini'}).wanted.value, '', 'retired product query is ignored');
+  assert.equal(cityFixture({query:'?product=fibriki'}).wanted.value, 'fibriki', 'Fibriki remains selectable');
 });
 test('city: whitespace fails native validity and does not navigate', () => {
   const c = cityFixture(); c.city.value = '   '; c.form.dispatch('submit');
@@ -347,7 +349,9 @@ test('partners: generated controls expose consent, taxonomy and bounded fields',
   assert.equal(p.consent.checked, false); assert.equal(p.feedback.getAttribute('role'), 'status');
   assert.equal(p.copy.getAttribute('type'), 'button'); assert.equal(p.submit.getAttribute('type'), 'submit');
   assert.equal(p.intent.options.map(option => option.value).sort().join(','), 'quote,samples,specification,stm');
-  assert.equal(p.product.options.length, 17, '14 catalogue + 2 concepts + no selection');
+  assert.equal(p.product.options.length, 16, '14 catalogue + Fibriki concept + no selection');
+  assert.equal(p.product.options.some(option => option.value === 'lulia-mini'), false);
+  assert.ok(p.product.options.some(option => option.value === 'fibriki'));
   for (const [name, max] of [['company',120],['city',100],['contact',160],['message',1200]]) {
     assert.equal(Number(p.fields.find(field => field.attributes.name === name).getAttribute('maxlength')), max);
   }
@@ -362,6 +366,8 @@ test('partners: query prefill accepts only existing taxonomy; never personal dat
   const invalid = partnerFixture({query:'?format=unknown&product=%3Cscript%3E&intent=unsupported'});
   assert.equal(invalid.product.value, ''); assert.equal(invalid.intent.value, 'quote');
   assert.equal(invalid.radios.find(radio => radio.checked).value, 'retail');
+  assert.equal(partnerFixture({query:'?product=lulia-mini&intent=specification'}).product.value, '', 'retired product query is ignored');
+  assert.equal(partnerFixture({query:'?product=fibriki&intent=specification'}).product.value, 'fibriki');
 });
 test('partners: whitespace, missing consent and over-limit fields never POST', async () => {
   for (const issue of ['blank','consent','length']) {

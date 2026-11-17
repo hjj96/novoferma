@@ -170,8 +170,7 @@ def product_hero():
  items=[
   dict(id='fibriki',name='Фибрики',subtitle='Новая идея<br>для своих.',description='Идея куриных фрикаделек с пищевыми волокнами. Знакомьтесь с концептом.',label='Концепт новинки',action='Знакомьтесь с Фибриками',url='product-fibriki.html'),
   dict(id='meatballs',name='Фрикадельки',subtitle='Есть вкусный<br>повод собраться.',description='Классические куриные фрикадельки. В домашний суп, к любимому гарниру — и всех за стол.',label='Для ужина. Для своих.',action='О фрикадельках',url='product-frikadelki-klassicheskie.html'),
-  dict(id='nuggets',name='Наггетсы',subtitle='Хрустим<br>в хорошей компании.',description='Золотистая корочка, нежная курица внутри. Добавьте любимый соус — и зовите своих.',label='Любимые вкусы',action='О наггетсах',url='product-naggetsy-kurinye.html'),
-  dict(id='lulia-mini',name='Люля мини',subtitle='Маленький формат.<br>Большой аппетит.',description='Концепт мини-колбасок из курицы с зеленью и овощами. Характеристики и выпуск уточняются.',label='Концепт новинки',action='О Люля мини',url='product-lulia-mini.html')
+  dict(id='nuggets',name='Наггетсы',subtitle='Хрустим<br>в хорошей компании.',description='Золотистая корочка, нежная курица внутри. Добавьте любимый соус — и зовите своих.',label='Любимые вкусы',action='О наггетсах',url='product-naggetsy-kurinye.html')
  ]
  art_layout=json.loads((SITE/'assets/product-hero/art-layout-v4.json').read_text())
  updated_layout=SITE/'assets/product-hero/fibriki-art-v5-layout.json'
@@ -205,15 +204,14 @@ def product_hero():
   else:
    attrs=f'src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E" data-src="{src}" decoding="async"'
   art=f'<div class="product-scene-art" aria-hidden="true"><span class="hero-art-frame" style="--art-ratio:{a["ratio"]};--art-size:{a["size"]}%;--art-left:{a["left"]}%;--art-top:{a["top"]}%"><img class="hero-scene-image" {attrs} width="{a["width"]}" height="{a["height"]}" alt=""></span></div>'
-  label=f'<p class="hero-new{ " hero-new-accent" if i in (0,3) else ""}">{p["label"]}</p>'
+  label=f'<p class="hero-new{ " hero-new-accent" if i==0 else ""}">{p["label"]}</p>'
   panels+=f'<article class="product-scene product-scene-{p["id"]}{" is-active" if active else ""}" id="scene-{p["id"]}" role="tabpanel" aria-labelledby="pick-{p["id"]}" aria-hidden="{str(not active).lower()}"{"" if active else " inert"}><div class="product-scene-content">{label}<div class="hero-text-stack"><h2 class="product-scene-title"><span class="product-title-live">{p["name"]}</span></h2><p class="product-scene-subtitle">{p["subtitle"]}</p><p class="product-scene-description">{p["description"]}</p></div><div class="hero-actions"><a class="button product-scene-cta" href="{p["url"]}">{p["action"]}{icon("arrow-right","ui-icon icon-arrow")}</a></div></div>{art}</article>'
   controls+=f'<button class="product-picker" id="pick-{p["id"]}" role="tab" aria-label="{p["name"]}" aria-selected="{str(active).lower()}" aria-controls="scene-{p["id"]}" tabindex="{0 if active else -1}" data-product-index="{i}" data-product-name="{p["name"]}"><span class="product-picker-mark" aria-hidden="true">0{i+1}</span><span class="product-picker-label">{p["name"]}</span></button>'
  return f'<section class="product-showcase" aria-label="Новоферма и наши продукты" aria-roledescription="карусель" data-product-carousel><h1 class="sr-only">Новоферма — продукты из курицы и индейки</h1><div class="product-stage"><img class="product-stage-paper" src="{asset_url("assets/product-hero/background-v2.webp")}" width="1672" height="941" alt="" aria-hidden="true"><img class="product-stage-background" src="{asset_url("assets/product-hero/shared-floor-v11.webp")}" width="1672" height="941" alt="" aria-hidden="true">{panels}</div><div class="product-controls"><div class="product-pickers" role="tablist" aria-label="Выбрать продукт">{controls}</div><div class="product-playback"><button class="product-arrow" data-product-prev aria-label="Предыдущий слайд">{icon("arrow-left",size=22)}</button><button class="product-arrow" data-product-next aria-label="Следующий слайд">{icon("arrow-right",size=22)}</button></div></div><p class="sr-only" aria-live="polite" aria-atomic="true" data-product-announcement></p></section>'
 
-# Catalogue-only previews keep the two novelties out of the verified SKU inventory.
+# Catalogue concept previews stay separate from the verified SKU inventory.
 catalogue_products=products+[
- dict(id='fibriki',name='Фибрики',meat='Из курицы',meatKey='chicken',weight='',category='Фрикадельки и ёжики',image=asset_url('assets/novelty-packaging/fibriki-pack-v11.webp'),url='product-fibriki.html',previewTone=3,previewLean='left',anchor='novelties',concept=True,description='Концепт куриных фрикаделек с пищевыми волокнами.'),
- dict(id='lulia-mini',name='Люля мини',meat='Из курицы',meatKey='chicken',weight='',category='Люля мини',image=asset_url('assets/novelty-packaging/lulia-mini-pack-v3.webp'),url='product-lulia-mini.html',previewTone=4,previewLean='right',concept=True,description='Концепт мини-колбасок из курицы с зеленью и овощами.')
+ dict(id='fibriki',name='Фибрики',meat='Из курицы',meatKey='chicken',weight='',category='Фрикадельки и ёжики',image=asset_url('assets/novelty-packaging/fibriki-pack-v11.webp'),url='product-fibriki.html',previewTone=3,previewLean='left',anchor='novelties',concept=True,description='Концепт куриных фрикаделек с пищевыми волокнами.')
 ]
 
 def protein_poster():
@@ -271,6 +269,8 @@ page('private-label.html','Собственная торговая марка',p
 
 contacts=crumb('Контакты')+f'''<section class="contacts-main contacts-poster" aria-labelledby="contacts-heading"><div class="wrap contact-layout"><div class="contact-content"><div class="contact-heading reveal"><h1 id="contacts-heading">Мы<br><span class="no-wrap">на связи.</span></h1></div><div class="contact-groups"><section class="contact-group reveal" aria-labelledby="contact-buyers"><div class="contact-audience"><h2 id="contact-buyers">Покупателям</h2><p>О продуктах и точках продаж.</p></div><div class="contact-links"><a class="contact-email" href="mailto:info@novoferma.ru">info@novoferma.ru {arrow()}</a><a class="contact-phone" href="tel:+78129155454">+7 (812) 915-54-54</a></div></section><section class="contact-group reveal" aria-labelledby="contact-partners"><div class="contact-audience"><h2 id="contact-partners">Партнёрам</h2><p>Ассортимент и условия поставки.</p></div><div class="contact-links"><a class="contact-email" href="mailto:zakaz@novoferma.ru">zakaz@novoferma.ru {arrow()}</a><a class="contact-phone" href="tel:+79312135550">+7 (931) 213-55-50</a></div></section></div><a class="contact-map" href="https://yandex.ru/maps/?text=Санкт-Петербург%20Горелово%20Заречная%202" target="_blank" rel="noopener"><span>Открыть адрес на карте</span>{arrow()}</a></div></div><img class="contacts-mascot" src="{asset_url('assets/mascot-contact-restored-v2.webp')}" width="980" height="1605" decoding="async" alt="" aria-hidden="true"></section><section class="wrap requisites"><p class="eyebrow">Реквизиты компании</p><div><strong>ООО «НОВОФЕРМА»</strong><p>ИНН 7807396385<br>ОГРН 1147847409148</p></div><div><strong>Адрес компании</strong><p>198323, Санкт-Петербург,<br>ул. Заречная (тер. Горелово), д. 2</p></div></section>'''
 page('contacts.html','Контакты',contacts,'contacts.html')
+# Retire the old detail page when rebuilding an existing output directory too.
+(SITE/'product-lulia-mini.html').unlink(missing_ok=True)
 (SITE/'site-manifest.json').write_text(json.dumps({'pages':['index.html','catalogue.html','about.html','where-to-buy.html','partners.html','private-label.html','contacts.html']+[p['url'] for p in catalogue_products],'products':products,'novelties':catalogue_products[len(products):],'publicUrl':PUBLIC_URL or None},ensure_ascii=False,indent=2))
 routes=['index.html','catalogue.html','about.html','where-to-buy.html','partners.html','private-label.html','contacts.html']+[p['url'] for p in catalogue_products]
 if PUBLIC_URL:
@@ -279,4 +279,4 @@ if PUBLIC_URL:
 else:
  for generated in ['sitemap.xml','robots.txt']:
   (SITE/generated).unlink(missing_ok=True)
-print(f'Generated {len(routes)} pages, {len(products)} catalogue products and 2 concepts')
+print(f'Generated {len(routes)} pages, {len(products)} catalogue products; concept previews: {len(catalogue_products)-len(products)}')

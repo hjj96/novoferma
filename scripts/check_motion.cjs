@@ -272,7 +272,7 @@ function heroFixture() {
   const picks = [...html.matchAll(/<button\b([^>]*\bdata-product-index="\d+"[^>]*)>/g)].map(match => {
     const pick = e.el('button', attributes(match[1])); tablist.append(pick); return pick;
   });
-  assert.equal(scenes.length, 4, 'current generated hero has four manual panels'); assert.equal(picks.length, scenes.length);
+  assert.equal(scenes.length, 3, 'current generated hero has three manual panels'); assert.equal(picks.length, scenes.length);
   const next = e.el('button', {'data-product-next':''}), prev = e.el('button', {'data-product-prev':''});
   const announcement = e.el('p', {'data-product-announcement':''}); carousel.append(next, prev, announcement);
   const idle = []; e.window.requestIdleCallback = fn => idle.push(fn);

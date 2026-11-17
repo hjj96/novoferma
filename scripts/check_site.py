@@ -24,11 +24,17 @@ class Document(HTMLParser):
     def handle_data(self,data):
         if self.in_title: self.title+=data
 pages=manifest['pages']
+catalogue_products=manifest['products']+manifest.get('novelties',[])
 check(len(pages)==len(set(pages)), 'Duplicate manifest pages')
-check(len(pages)==7+len(manifest['products'])+2, 'Incorrect route count')
+check(len(pages)==7+len(catalogue_products), 'Incorrect route count')
+check({p['id'] for p in manifest.get('novelties',[])}=={'fibriki'}, 'Fibriki concept must remain')
+check('lulia-mini' not in json.dumps(manifest,ensure_ascii=False).lower(), 'Retired product remains in manifest')
+check(not (SITE/'product-lulia-mini.html').exists(), 'Retired detail page remains on disk')
 docs={name:Document((SITE/name).read_text()) for name in pages}
 titles=[]; descriptions=[]; references=0; images=0
 for name,doc in docs.items():
+    source=(SITE/name).read_text().lower()
+    check('lulia-mini' not in source and 'люля' not in source, f'{name}: retired product remains')
     titles.append(doc.title)
     check(len(doc.ids)==len(set(doc.ids)), f'{name}: duplicate IDs')
     check(sum(tag=='h1' for tag,a in doc.nodes)==1, f'{name}: exactly one h1 required')
@@ -58,13 +64,15 @@ for name,doc in docs.items():
             check('noopener' in a.get('rel',''), f'{name}: external opener')
 check(len(titles)==len(set(titles)), 'Duplicate titles')
 check(len(descriptions)==len(set(descriptions)), 'Duplicate descriptions')
-check(sum('product-card' in a.get('class','').split() for tag,a in docs['catalogue.html'].nodes)==16, 'Catalogue count')
-for slug in ('fibriki','lulia-mini'):
+catalogue_ids=[a.get('data-product-id') for tag,a in docs['catalogue.html'].nodes if 'product-card' in a.get('class','').split()]
+check(catalogue_ids==[p['id'] for p in catalogue_products], 'Catalogue membership and order')
+for slug in (p['id'] for p in manifest.get('novelties',[])):
     source=(SITE/f'product-{slug}.html').read_text()
     check('Концепт новинки' in source and 'Визуальный концепт упаковки' in source, f'{slug}: concept status')
 home=docs['index.html']
-check(sum(tag=='img' and bool(a.get('data-src')) for tag,a in home.nodes)==3, 'Inactive hero art must defer')
-check(sum(a.get('role')=='tab' for tag,a in home.nodes)==4, 'Four named tabs required')
+hero_tabs=[a for tag,a in home.nodes if a.get('role')=='tab']
+check([a.get('data-product-name') for a in hero_tabs]==['Фибрики','Фрикадельки','Наггетсы'], 'Three remaining named hero tabs required')
+check(sum(tag=='img' and bool(a.get('data-src')) for tag,a in home.nodes)==len(hero_tabs)-1, 'Inactive hero art must defer')
 check(not any('title-art' in a.get('class','') for tag,a in home.nodes), 'Raster hero title remains')
 where=(SITE/'where-to-buy.html').read_text()
 check('data-city-copy' in where and 'data-city-draft' in where, 'City copy fallback')
