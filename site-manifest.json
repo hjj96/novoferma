@@ -8,7 +8,6 @@
     "contacts.html",
     "product-fibriki.html",
     "product-lenivchiki.html",
-    "product-lulia-mini.html",
     "product-popsy.html",
     "product-kotlety-kurinye.html",
     "product-bitochki-kurinye-s-ovoshchami.html",
@@ -658,20 +657,6 @@
       "previewLean": "right",
       "novelty": true,
       "description": "Биточки из курицы с рисом, капустой и морковью. Ленивые голубцы в новом формате: мясо, гарнир и овощи вместе."
-    },
-    {
-      "id": "lulia-mini",
-      "name": "Люля мини",
-      "meat": "Из курицы",
-      "meatKey": "chicken",
-      "weight": "400 г",
-      "category": "Люля мини",
-      "image": "assets/novelty-packaging/lulia-mini-pack-v3.webp?v=5406742c35",
-      "url": "product-lulia-mini.html",
-      "previewTone": 4,
-      "previewLean": "right",
-      "novelty": true,
-      "description": "Мини-колбаски из курицы с зеленью и овощами. Маленький формат для новых сочетаний и любимых гарниров."
     },
     {
       "id": "popsy",
