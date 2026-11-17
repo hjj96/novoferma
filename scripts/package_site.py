@@ -18,7 +18,7 @@ TARGET = ROOT / 'output/novoferma-site.zip'
 REPORT = ROOT / 'output/research/site-package-validation.json'
 PREFIX = 'novoferma-site/'
 manifest = json.loads((SITE / 'site-manifest.json').read_text())
-expected_pages = {'index.html', 'catalogue.html', 'about.html', 'where-to-buy.html', 'partners.html', 'private-label.html', 'contacts.html'}
+expected_pages = {'index.html', 'catalogue.html', 'about.html', 'partners.html', 'private-label.html', 'contacts.html'}
 expected_pages.update(p['url'] for p in manifest['products'])
 expected_pages.update(p['url'] for p in manifest.get('novelties', []) if p['url'].endswith('.html'))
 assert set(manifest['pages']) == expected_pages
@@ -104,7 +104,7 @@ while pending:
 
 zip_readme = """# Новоферма — статическая копия сайта
 
-22 страницы: семь основных, 14 продуктов и явно обозначенный концепт Фибрики.
+21 страница: шесть основных, 14 продуктов и явно обозначенный концепт Фибрики.
 Дополнительно — самостоятельный печатный HTML-каталог закупщика в downloads/.
 Ресурсы и шрифты локальные. Для HTTP-предпросмотра в папке сайта:
 python3 -m http.server 8765 --bind 127.0.0.1

@@ -132,7 +132,7 @@ function menuFixture() {
   const e = environment({reduced:true}), menu = e.el('dialog', {id:'site-menu'});
   const first = e.el('a', {href:'index.html',tabindex:'0'});
   const close = e.el('button', {class:'menu-close',tabindex:'0'});
-  const last = e.el('a', {href:'where-to-buy.html',tabindex:'0'});
+  const last = e.el('a', {href:'contacts.html',tabindex:'0'});
   menu.append(first,close,last);
   // Excluded elements occur after the true last link to expose incorrect wrap bounds.
   const disabled = e.el('button', {tabindex:'0'}); disabled.disabled = true;

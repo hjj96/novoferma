@@ -26,7 +26,7 @@ class Document(HTMLParser):
 pages=manifest['pages']
 catalogue_products=manifest['products']+manifest.get('novelties',[])
 check(len(pages)==len(set(pages)), 'Duplicate manifest pages')
-check(len(pages)==7+len(catalogue_products), 'Incorrect route count')
+check(len(pages)==6+len(catalogue_products), 'Incorrect route count')
 check({p['id'] for p in manifest.get('novelties',[])}=={'fibriki'}, 'Fibriki concept must remain')
 check('lulia-mini' not in json.dumps(manifest,ensure_ascii=False).lower(), 'Retired product remains in manifest')
 check(not (SITE/'product-lulia-mini.html').exists(), 'Retired detail page remains on disk')
@@ -35,6 +35,7 @@ titles=[]; descriptions=[]; references=0; images=0
 for name,doc in docs.items():
     source=(SITE/name).read_text().lower()
     check('lulia-mini' not in source and 'люля' not in source, f'{name}: retired product remains')
+    check('where-to-buy.html' not in source and 'где купить' not in source, f'{name}: retired purchase link remains')
     titles.append(doc.title)
     check(len(doc.ids)==len(set(doc.ids)), f'{name}: duplicate IDs')
     check(sum(tag=='h1' for tag,a in doc.nodes)==1, f'{name}: exactly one h1 required')
@@ -74,9 +75,8 @@ hero_tabs=[a for tag,a in home.nodes if a.get('role')=='tab']
 check([a.get('data-product-name') for a in hero_tabs]==['Фибрики','Фрикадельки','Наггетсы'], 'Three remaining named hero tabs required')
 check(sum(tag=='img' and bool(a.get('data-src')) for tag,a in home.nodes)==len(hero_tabs)-1, 'Inactive hero art must defer')
 check(not any('title-art' in a.get('class','') for tag,a in home.nodes), 'Raster hero title remains')
-where=(SITE/'where-to-buy.html').read_text()
-check('data-city-copy' in where and 'data-city-draft' in where, 'City copy fallback')
-check('data-retailer-products' in where, 'Retailer links')
+check('where-to-buy.html' not in pages, 'Retired purchase route remains in manifest')
+check(not (SITE/'where-to-buy.html').exists(), 'Retired purchase page remains on disk')
 partners=docs['partners.html']
 check({'partner-product','partner-intent','partner-consent','partner-request-feedback'}<=set(partners.ids), 'B2B request context and consent')
 for product in manifest['products']+manifest.get('novelties',[]):

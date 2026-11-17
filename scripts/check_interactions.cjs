@@ -112,35 +112,6 @@ function execute(filename, document, extras = {}) {
   return context;
 }
 
-function cityFixture({clipboard, query = ''} = {}) {
-  const html = read('where-to-buy.html'); const doc = makeDocument();
-  const formMatch = html.match(/<form\b([^>]*\bid="city-form"[^>]*)>([\s\S]*?)<\/form>/);
-  const selectMatch = html.match(/<select\b([^>]*\bid="wanted-product"[^>]*)>([\s\S]*?)<\/select>/);
-  assert.ok(formMatch && selectMatch, 'generated city form and product select exist');
-  const form = new Node('form', attrs(formMatch[1]), doc); doc.body.append(form);
-  const wanted = new Node('select', attrs(selectMatch[1]), doc);
-  wanted.options = [...selectMatch[2].matchAll(/<option\b([^>]*)>([\s\S]*?)<\/option>/g)]
-    .map(match => ({value:attrs(match[1]).value || '', text:entity(match[2].replace(/<[^>]*>/g, ''))}));
-  Object.defineProperty(wanted, 'selectedOptions', {get:() => wanted.options.filter(option => option.value === wanted.value)});
-  // form= associates submission/validation, but never changes DOM ancestry.
-  const external = selectMatch.index < formMatch.index || selectMatch.index > formMatch.index + formMatch[0].length;
-  (external ? doc.body : form).append(wanted);
-  const cityTag = formMatch[2].match(/<input\b([^>]*\bid="city"[^>]*)>/);
-  assert.ok(cityTag, 'city input belongs to form');
-  const city = new Node('input', attrs(cityTag[1]), doc); form.append(city);
-  const copyTag = html.match(/<button\b([^>]*\bdata-city-copy[^>]*)>/);
-  const draftTag = html.match(/<textarea\b([^>]*\bdata-city-draft[^>]*)>/);
-  const feedbackTag = html.match(/<p\b([^>]*\bclass="form-feedback"[^>]*)>/);
-  assert.ok(copyTag && draftTag && feedbackTag, 'copy, draft and live feedback contract exists');
-  const copy = new Node('button', attrs(copyTag[1]), doc); form.append(copy);
-  const draft = new Node('textarea', attrs(draftTag[1]), doc); doc.body.append(draft);
-  const feedback = new Node('p', attrs(feedbackTag[1]), doc); doc.body.append(feedback);
-  form.reportValidity = () => { form.validationCount = (form.validationCount || 0) + 1; return Boolean(city.value && !city.validationMessage); };
-  const navigation = []; const location = {search:query, get href() { return navigation.at(-1) || ''; }, set href(value) { navigation.push(value); }};
-  execute('script.js', doc, {navigator:clipboard ? {clipboard} : {}, location});
-  return {doc, form, wanted, city, copy, draft, feedback, navigation, external, location};
-}
-
 function partnerFixture({clipboard, query = '', fetch:fetchImplementation, crypto = webcrypto} = {}) {
   const html = read('partners.html'); const doc = makeDocument();
   const formMatch = html.match(/<form\b([^>]*\bid="partner-request-form"[^>]*)>([\s\S]*?)<\/form>/);
@@ -254,60 +225,6 @@ function heroFixture({saveData = false, effectiveType = '4g', hidden = false, id
   return {doc, carousel, stage, scenes, picks, prev, next, announcement, idle, timers, pending, resolveScene, active, load};
 }
 
-test('city: generated copy/manual controls retain their HTML contract', () => {
-  const c = cityFixture();
-  assert.equal(c.copy.getAttribute('type'), 'button');
-  assert.ok('readonly' in c.draft.attributes); assert.ok(c.draft.hidden);
-  assert.equal(c.feedback.getAttribute('role'), 'status');
-});
-test('city: known product query preset; unknown values are ignored', () => {
-  const example = cityFixture().wanted.options.find(option => option.value);
-  assert.ok(example);
-  assert.equal(cityFixture({query:`?product=${encodeURIComponent(example.value)}`}).wanted.value, example.value);
-  assert.equal(cityFixture({query:'?product=not-an-approved-product'}).wanted.value, '');
-  assert.equal(cityFixture({query:'?product=lulia-mini'}).wanted.value, '', 'retired product query is ignored');
-  assert.equal(cityFixture({query:'?product=fibriki'}).wanted.value, 'fibriki', 'Fibriki remains selectable');
-});
-test('city: whitespace fails native validity and does not navigate', () => {
-  const c = cityFixture(); c.city.value = '   '; c.form.dispatch('submit');
-  assert.equal(c.city.validationMessage, 'Укажите город'); assert.equal(c.navigation.length, 0);
-});
-test('city: submit prepares current city/product and edit clears stale retry', () => {
-  const c = cityFixture(); c.city.value = '  Москва  '; c.wanted.value = c.wanted.options[1].value;
-  c.form.dispatch('submit'); const body = new URL(c.navigation[0]).searchParams.get('body');
-  assert.ok(body.includes('Город: Москва\n')); assert.ok(body.includes(c.wanted.selectedOptions[0].text));
-  assert.equal(c.feedback.hidden, false);
-  c.city.value = 'Казань'; c.city.dispatch('input'); assert.equal(c.feedback.hidden, true); assert.equal(c.feedback.children.length, 0);
-});
-test('city: external product select change clears old retry despite form association', () => {
-  const c = cityFixture(); c.city.value = 'Москва'; c.form.dispatch('submit');
-  c.wanted.value = c.wanted.options[1].value; c.wanted.dispatch('change');
-  assert.equal(c.feedback.hidden, true, `product events must reset feedback (external select: ${c.external})`);
-  assert.equal(c.feedback.children.length, 0);
-});
-test('city: clipboard success never navigates or sends; uses current request', async () => {
-  const writes = []; const c = cityFixture({clipboard:{writeText:async text => writes.push(text)}});
-  c.city.value = 'Казань'; c.copy.dispatch('click'); await settle();
-  assert.equal(writes.length, 1); assert.ok(writes[0].includes('Город: Казань'));
-  assert.equal(c.navigation.length, 0); assert.equal(c.feedback.hidden, false); assert.equal(c.draft.hidden, true);
-});
-test('city: unavailable/rejected clipboard exposes selected manual draft', async () => {
-  for (const clipboard of [undefined, {writeText:async() => { throw new Error('denied'); }}]) {
-    const c = cityFixture({clipboard}); c.city.value = 'Самара'; c.copy.dispatch('click'); await settle();
-    assert.equal(c.draft.hidden, false); assert.ok(c.draft.value.includes('Самара')); assert.equal(c.draft.selectionMade, true);
-    assert.equal(c.doc.activeElement, c.draft); assert.equal(c.navigation.length, 0);
-    c.wanted.value = c.wanted.options[1].value; c.wanted.dispatch('input');
-    assert.equal(c.draft.hidden, true); assert.equal(c.draft.value, ''); assert.equal(c.feedback.hidden, true);
-  }
-});
-test('city: product edit while clipboard is pending suppresses stale success or failure', async () => {
-  for (const reject of [false, true]) {
-    const gate = deferred(); const c = cityFixture({clipboard:{writeText:() => gate.promise}});
-    c.city.value = 'Омск'; c.copy.dispatch('click'); c.wanted.value = c.wanted.options[1].value; c.wanted.dispatch('change');
-    if (reject) gate.reject(new Error('denied')); else gate.resolve(); await settle();
-    assert.equal(c.feedback.hidden, true); assert.equal(c.draft.hidden, true);
-  }
-});
 test('partners: valid copy contains current form data and never navigates', async () => {
   const writes = []; const p = partnerFixture({clipboard:{writeText:async body => writes.push(body)}}); p.valid();
   p.copy.dispatch('click'); await settle();
