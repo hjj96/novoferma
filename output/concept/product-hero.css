@@ -15,7 +15,6 @@
 .product-scene-title {margin:0;font-family:'Novoferma Protein','Novoferma Poster',Arial,sans-serif;font-weight:850;font-size:clamp(80px,9.5vw,150px);line-height:.98;letter-spacing:-.014em;word-spacing:.04em;text-transform:uppercase;color:#432714;text-wrap:initial}
 .product-title-live {display:block;max-width:100%;white-space:normal;overflow-wrap:anywhere}
 .product-scene-meatballs .product-scene-title {font-size:clamp(62px,6.4vw,112px)}
-.product-scene-lulia-mini .product-scene-title {font-size:clamp(72px,7.9vw,136px)}
 .product-scene-subtitle {margin:22px 0 0;font-family:var(--font-poster);font-weight:900;font-size:clamp(26px,2.6vw,40px);line-height:1.08;letter-spacing:-.02em;color:#bc4318;text-wrap:initial}
 .product-scene-fibriki .product-scene-subtitle {color:#a83a10}
 
@@ -56,7 +55,6 @@
  .hero-new {margin-bottom:19px;font-size:.875rem}
  .product-scene-title {font-size:9.4vw}
  .product-scene-meatballs .product-scene-title {font-size:6.8vw}
- .product-scene-lulia-mini .product-scene-title {font-size:8.1vw}
  .product-scene-subtitle {font-size:clamp(24px,3vw,32px);margin-top:16px}
  .product-scene-description {font-size:1rem;max-width:30ch;margin-top:16px;padding-right:12px}
  .hero-actions {margin-top:24px}
@@ -72,7 +70,7 @@
  .product-scene-content {justify-content:flex-start;padding:22px 24px 0;min-height:350px}
  .hero-new {min-height:24px;margin-bottom:16px;font-size:9px;letter-spacing:.06em}
  .hero-new-accent {padding:7px 11px}
- .product-scene-title,.product-scene-lulia-mini .product-scene-title {font-size:clamp(57px,17vw,106px);line-height:.95}
+ .product-scene-title {font-size:clamp(57px,17vw,106px);line-height:.95}
  .product-scene-meatballs .product-scene-title {font-size:clamp(41px,11.8vw,79px)}
  .product-scene-subtitle {margin-top:15px;font-size:clamp(24px,6.5vw,32px);line-height:1.04;letter-spacing:-.02em}
  .product-scene-description {margin-top:16px;font-size:16px;line-height:1.5;max-width:37ch}
@@ -103,7 +101,7 @@
  .product-scene-art {height:265px;padding-inline:12px}
  .product-scene {grid-template-rows:auto 265px}
  .hero-art-frame {width:min(100%,calc(240px * var(--art-ratio)))}
- .product-scene-title,.product-scene-lulia-mini .product-scene-title {font-size:16.2vw}
+ .product-scene-title {font-size:16.2vw}
  .product-scene-meatballs .product-scene-title {font-size:11.5vw}
  .product-scene .product-scene-cta {gap:15px;font-size:13px}
  .product-picker-label {font-size:.6875rem;white-space:nowrap}

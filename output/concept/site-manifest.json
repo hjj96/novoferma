@@ -21,8 +21,7 @@
     "product-kotlety-pikantnye.html",
     "product-kotlety-po-italyanski.html",
     "product-frikadelki-klassicheskie.html",
-    "product-fibriki.html",
-    "product-lulia-mini.html"
+    "product-fibriki.html"
   ],
   "products": [
     {
@@ -643,20 +642,6 @@
       "anchor": "novelties",
       "concept": true,
       "description": "Концепт куриных фрикаделек с пищевыми волокнами."
-    },
-    {
-      "id": "lulia-mini",
-      "name": "Люля мини",
-      "meat": "Из курицы",
-      "meatKey": "chicken",
-      "weight": "",
-      "category": "Люля мини",
-      "image": "assets/novelty-packaging/lulia-mini-pack-v3.webp?v=5406742c35",
-      "url": "product-lulia-mini.html",
-      "previewTone": 4,
-      "previewLean": "right",
-      "concept": true,
-      "description": "Концепт мини-колбасок из курицы с зеленью и овощами."
     }
   ],
   "publicUrl": null
